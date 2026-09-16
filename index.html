@@ -63,7 +63,7 @@
   .dragging { opacity: .35; }
 
   #previewBox {
-    background: #E6E4DF;
+    background: #CFC8B6;
     border: 2px solid var(--ink);
     padding: 18px;
     overflow: auto;
@@ -504,19 +504,13 @@ document.getElementById('confirmSettingsBtn').addEventListener('click', () => {
 // ═══ 解析 AI 回覆 → 懷舊海報風電子報（Email 相容：table + inline style）═══
 const SERIF = "Georgia,'Times New Roman','Noto Serif TC','Songti TC',serif";
 const SANS = "'Helvetica Neue',Arial,'PingFang TC','Microsoft JhengHei',sans-serif";
-const INK = '#14110C', BLUE = '#1F3CE8', CARD = '#FFFFFF', MUTED = '#7C7466', LINE = '#D6CFBE';
+const INK = '#14110C', BLUE = '#1F3CE8', CARD = '#FBF8F1', MUTED = '#7C7466', LINE = '#D6CFBE';
 
 function mdLink(html) {
   return html.replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g, (m, label, url) =>
     `<a href="${url.replace(/&amp;/g, '&')}" target="_blank" style="color:${BLUE};text-decoration:none;">${label}</a>`);
 }
 
-// Outlook（Word 排版引擎）不支援 div 的背景色與 padding，所有色塊與間距一律走 table/td
-function bar(color, height) {
-  return `<table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;"><tr>`
-    + `<td height="${height}" bgcolor="${color}" style="height:${height}px;line-height:${height}px;font-size:0;background-color:${color};">&nbsp;</td>`
-    + `</tr></table>`;
-}
 
 function parseAiResultToHtml(raw) {
   const lines = escapeHtml(raw).split('\n');
@@ -575,63 +569,37 @@ function parseAiResultToHtml(raw) {
     });
   }
 
+  // Word 排版引擎會對巢狀表格套用預設格線、並把色塊儲存格拉長，
+  // 因此整封信只用「襯底 → 信紙」兩層表格，內文一律用 <p> 排版
   const itemsHtml = items.map((it, i) => `
-    ${i > 0 ? `<tr><td style="padding:0 26px;">${bar(LINE, 1)}</td></tr>` : ''}
-    <tr><td style="padding:22px 26px;">
-      <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;"><tr>
-        <td width="46" valign="top" style="width:46px;">
-          <table cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;"><tr>
-            <td width="34" height="34" bgcolor="${BLUE}" align="center" valign="middle" style="width:34px;height:34px;background-color:${BLUE};font-family:${SANS};font-size:14px;font-weight:bold;line-height:34px;color:#ffffff;">${pad2(i + 1)}</td>
-          </tr></table>
-        </td>
-        <td valign="top">
-          <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;">
-            ${it.media ? `<tr><td style="padding-bottom:7px;font-family:${SANS};font-size:10px;font-weight:bold;letter-spacing:2px;color:${BLUE};">${it.media.toUpperCase()}</td></tr>` : ''}
-            <tr><td style="font-family:${SERIF};font-size:19px;font-weight:bold;line-height:29px;color:${INK};">${it.titleHtml}</td></tr>
-            ${it.sub ? `<tr><td style="padding-top:6px;font-family:${SANS};font-size:12px;line-height:19px;color:${MUTED};">${it.sub}</td></tr>` : ''}
-            ${it.points.map(p => `<tr><td style="padding-top:11px;">
-              <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;"><tr>
-                <td width="3" bgcolor="${LINE}" style="width:3px;background-color:${LINE};font-size:0;line-height:0;">&nbsp;</td>
-                <td style="padding-left:12px;font-family:${SANS};font-size:15px;line-height:27px;color:#3D382F;">${p}</td>
-              </tr></table>
-            </td></tr>`).join('')}
-            ${it.extra.map(p => `<tr><td style="padding-top:8px;font-family:${SANS};font-size:14px;line-height:25px;color:${MUTED};">${p}</td></tr>`).join('')}
-          </table>
-        </td>
-      </tr></table>
+    <tr><td style="padding:20px 26px;border:none;border-bottom:1px solid ${i === items.length - 1 ? 'transparent' : LINE};">
+      <p style="margin:0 0 7px 0;font-family:${SANS};font-size:11px;font-weight:bold;letter-spacing:1.5px;color:${BLUE};">${pad2(i + 1)}${it.media ? '&nbsp;&nbsp;/&nbsp;&nbsp;' + it.media.toUpperCase() : ''}</p>
+      <p style="margin:0;font-family:${SERIF};font-size:19px;font-weight:bold;line-height:28px;color:${INK};">${it.titleHtml}</p>
+      ${it.sub ? `<p style="margin:6px 0 0 0;font-family:${SANS};font-size:12px;line-height:19px;color:${MUTED};">${it.sub}</p>` : ''}
+      ${it.points.map(p => `<p style="margin:10px 0 0 0;font-family:${SANS};font-size:15px;line-height:26px;color:#3D382F;">${p}</p>`).join('')}
+      ${it.extra.map(p => `<p style="margin:8px 0 0 0;font-family:${SANS};font-size:14px;line-height:24px;color:${MUTED};">${p}</p>`).join('')}
     </td></tr>`).join('');
 
   const bodyHtml = items.length ? itemsHtml : `
-    <tr><td style="padding:26px;font-family:${SANS};font-size:14px;line-height:26px;color:${MUTED};white-space:pre-wrap;">${lines.join('\n')}</td></tr>`;
+    <tr><td style="padding:22px 26px;border:none;"><p style="margin:0;font-family:${SANS};font-size:14px;line-height:26px;color:${MUTED};white-space:pre-wrap;">${lines.join('\n')}</p></td></tr>`;
 
   return `
-<table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#FFFFFF" style="border-collapse:collapse;background-color:#FFFFFF;">
- <tr><td align="center" style="padding:26px 12px;">
-  <table width="600" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="${CARD}" style="width:600px;border-collapse:collapse;background-color:${CARD};border:2px solid ${INK};">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#E7E1D2" style="width:100%;border:none;border-collapse:collapse;background-color:#E7E1D2;">
+ <tr><td align="center" valign="top" style="padding:24px 12px;border:none;">
+  <table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="${CARD}" style="width:600px;border:none;border-collapse:collapse;background-color:${CARD};">
 
-    ${kicker ? `<tr><td style="padding:24px 26px 0;">
-      <table cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;"><tr>
-        <td width="5" bgcolor="${BLUE}" style="width:5px;background-color:${BLUE};font-size:0;line-height:0;">&nbsp;</td>
-        <td style="padding-left:12px;font-family:${SANS};font-size:16px;font-weight:bold;line-height:24px;color:${INK};">${kicker}</td>
-      </tr></table>
+    ${kicker ? `<tr><td style="padding:24px 26px 14px;border:none;border-bottom:3px solid ${INK};">
+      <p style="margin:0;font-family:${SANS};font-size:16px;font-weight:bold;line-height:24px;color:${INK};">${kicker}</p>
     </td></tr>` : ''}
-
-    <tr><td style="padding:18px 26px 0;">${bar(INK, 2)}</td></tr>
 
     ${bodyHtml}
 
-    ${closing.length ? `<tr><td style="padding:4px 26px 16px;">
-      <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;">
-        ${closing.map(l => `<tr><td style="padding-top:6px;font-family:${SANS};font-size:14px;line-height:25px;color:#3D382F;">${l}</td></tr>`).join('')}
-      </table>
+    ${closing.length ? `<tr><td style="padding:4px 26px 14px;border:none;">
+      ${closing.map(l => `<p style="margin:0 0 6px 0;font-family:${SANS};font-size:14px;line-height:25px;color:#3D382F;">${l}</p>`).join('')}
     </td></tr>` : ''}
 
-    <tr><td style="padding:6px 26px 22px;">
-      ${bar(INK, 2)}
-      <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;"><tr>
-        <td style="padding-top:11px;font-family:${SANS};font-size:10px;letter-spacing:2.5px;color:${MUTED};">UDN DAILY NEWSLETTER</td>
-        <td align="right" style="padding-top:11px;font-family:${SANS};font-size:10px;letter-spacing:2.5px;color:${MUTED};">${dateText}</td>
-      </tr></table>
+    <tr><td style="padding:14px 26px 22px;border:none;border-top:2px solid ${INK};">
+      <p style="margin:0;font-family:${SANS};font-size:10px;letter-spacing:2px;color:${MUTED};">UDN DAILY NEWSLETTER&nbsp;&nbsp;·&nbsp;&nbsp;${dateText}</p>
     </td></tr>
   </table>
  </td></tr>
