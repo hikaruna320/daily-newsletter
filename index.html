@@ -3,303 +3,359 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>udn Daily Newsletter 全自動產製工作台（API 版）</title>
+<title>udn Daily Newsletter 產製工作台</title>
 <script src="https://cdn.tailwindcss.com"></script>
 <style>
-  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif; }
-  .drag-over { border-top: 3px solid #2563eb; }
-  .dragging { opacity: 0.4; }
-  #previewBox { line-height: 1.7; font-size: 15px; background:#ffffff; }
-  #previewBox a { color: #1d4ed8; text-decoration: underline; }
-  .spinner { border: 3px solid #e5e7eb; border-top-color: #2563eb; border-radius: 50%; width: 18px; height: 18px; animation: spin 0.8s linear infinite; display:inline-block; vertical-align:middle; }
+  :root {
+    --ink: #14110C;
+    --blue: #1F3CE8;
+    --paper: #E7E1D2;
+    --card: #FBF8F1;
+    --muted: #7C7466;
+    --line: #D6CFBE;
+  }
+  body {
+    background-color: var(--paper);
+    background-image: radial-gradient(rgba(20,17,12,0.05) 1px, transparent 1px);
+    background-size: 4px 4px;
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+  }
+  .display { font-family: Georgia, "Times New Roman", "Noto Serif TC", "Songti TC", serif; }
+  .tracking-label { letter-spacing: .22em; text-transform: uppercase; }
+
+  .card {
+    background: var(--card);
+    border: 2px solid var(--ink);
+    box-shadow: 6px 6px 0 var(--ink);
+  }
+  .field {
+    background: #fff;
+    border: 2px solid var(--ink);
+    padding: .5rem .65rem;
+    width: 100%;
+    font-size: .9rem;
+  }
+  .field:focus { outline: 3px solid var(--blue); outline-offset: -1px; }
+  .btn {
+    border: 2px solid var(--ink);
+    font-weight: 700;
+    padding: .7rem 1rem;
+    box-shadow: 4px 4px 0 var(--ink);
+    transition: transform .08s ease, box-shadow .08s ease;
+    cursor: pointer;
+  }
+  .btn:hover { transform: translate(2px,2px); box-shadow: 2px 2px 0 var(--ink); }
+  .btn:active { transform: translate(4px,4px); box-shadow: 0 0 0 var(--ink); }
+  .btn-blue { background: var(--blue); color: #fff; }
+  .btn-ink { background: var(--ink); color: var(--card); }
+  .btn-paper { background: var(--card); color: var(--ink); }
+  .btn:disabled { opacity: .45; cursor: not-allowed; transform: none; box-shadow: 4px 4px 0 var(--ink); }
+
+  .num-chip {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 30px; height: 30px; background: var(--blue); color: #fff;
+    font-weight: 700; font-size: .95rem; flex: none;
+  }
+  .news-row { border: 2px solid var(--ink); background: #fff; }
+  .news-row.is-checked { background: #F2F1FF; }
+  .drag-over { box-shadow: inset 0 4px 0 var(--blue); }
+  .dragging { opacity: .35; }
+
+  #previewBox {
+    background: #CFC8B6;
+    border: 2px solid var(--ink);
+    padding: 18px;
+    overflow: auto;
+  }
+  .spinner {
+    display:inline-block; width:16px; height:16px; vertical-align:-2px;
+    border:3px solid rgba(255,255,255,.4); border-top-color:#fff; border-radius:50%;
+    animation: spin .8s linear infinite;
+  }
   @keyframes spin { to { transform: rotate(360deg); } }
 </style>
 </head>
-<body class="bg-gray-100 min-h-screen">
+<body class="min-h-screen">
 
-<header class="bg-blue-700 text-white px-6 py-4 shadow">
-  <h1 class="text-xl font-bold">📰 udn Daily Newsletter 全自動產製工作台（API 版）</h1>
-  <p class="text-blue-100 text-sm mt-1">填入你自己的 AI API Key → 挑選新聞並排序 → 一鍵直接在網頁生成最終電子報</p>
+<!-- ░░ 頁首 ░░ -->
+<header style="background:var(--ink);color:var(--card);">
+  <div class="max-w-[900px] mx-auto px-5 py-3 flex items-center justify-between text-[10px] tracking-label" style="border-bottom:1px solid rgba(251,248,241,.25);">
+    <span>udn media industry watch</span>
+    <span id="headerDate" style="color:#A79E8B;"></span>
+  </div>
+  <div class="max-w-[900px] mx-auto px-5 py-7 flex items-end gap-4">
+    <div style="width:56px;height:56px;background:var(--blue);color:#fff;" class="flex items-center justify-center display text-2xl font-bold">📰</div>
+    <div>
+      <div class="text-[10px] tracking-label" style="color:#A79E8B;">udn daily</div>
+      <h1 class="display font-bold leading-none" style="font-size:42px;letter-spacing:-1px;">News<span style="color:#6B85FF;">letter</span></h1>
+      <p class="text-xs mt-2" style="color:#A79E8B;">填入 API Key → 挑選新聞並排序 → 一鍵生成可直接貼進 Gmail 的電子報</p>
+    </div>
+  </div>
 </header>
 
-<!-- API 設定小視窗（開啟頁面時自動彈出，設定成功後自動關閉）-->
-<div id="settingsModalOverlay" class="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
-  <div class="bg-white rounded-xl shadow-xl max-w-md w-full p-5">
-    <h2 class="text-lg font-bold text-gray-800 mb-1">🔑 設定 AI API</h2>
-    <p class="text-xs text-gray-500 mb-4">你的 API Key 只會從瀏覽器直接送往 AI 供應商，不會經過任何第三方後端；輸入完成後此視窗會自動關閉，Key 也不會再顯示於畫面上。</p>
+<main class="max-w-[900px] mx-auto px-5 py-8 space-y-8">
 
-    <div class="space-y-3 text-sm">
+  <!-- ░░ ① API 設定 ░░ -->
+  <section class="card p-5">
+    <div class="flex items-center gap-3 mb-4">
+      <span class="num-chip">1</span>
+      <h2 class="display text-xl font-bold">AI 連線設定</h2>
+    </div>
+    <div class="flex flex-wrap items-center justify-between gap-3" style="border:2px dashed var(--ink);padding:.75rem 1rem;">
+      <span id="apiStatusText" class="text-sm" style="color:var(--muted);">尚未設定 API Key</span>
+      <button id="openSettingsBtn" class="btn btn-paper text-sm">⚙︎ 設定 API</button>
+    </div>
+  </section>
+
+  <!-- ░░ ② 新聞待選與排序 ░░ -->
+  <section class="card p-5">
+    <div class="flex items-center gap-3 mb-4">
+      <span class="num-chip">2</span>
+      <h2 class="display text-xl font-bold">新聞待選與排序</h2>
+    </div>
+
+    <div class="mb-5">
+      <h3 class="text-[11px] tracking-label mb-2" style="color:var(--muted);">新增新聞 — 貼上標題與網址即可</h3>
+      <form id="addNewsForm" class="grid grid-cols-1 sm:grid-cols-6 gap-2">
+        <input id="newTitle" type="text" placeholder="新聞標題" required class="field sm:col-span-6">
+        <input id="newUrl" type="url" placeholder="原文網址 https://…（自動判斷媒體名稱）" required class="field sm:col-span-4">
+        <input id="newMedia" type="text" placeholder="媒體名稱（可留空）" class="field sm:col-span-2">
+        <button type="submit" class="btn btn-ink sm:col-span-6">＋ 加入清單（自動勾選）</button>
+      </form>
+    </div>
+
+    <div class="mb-5">
+      <h3 class="text-[11px] tracking-label mb-2" style="color:var(--muted);">新聞清單 — 取消勾選可排除</h3>
+      <div id="newsList" class="space-y-2"></div>
+    </div>
+
+    <div>
+      <h3 class="text-[11px] tracking-label mb-2" style="color:var(--muted);">發送順序 — 拖曳或用 ▲▼ 調整</h3>
+      <div id="selectedList" class="space-y-2" style="border:2px dashed var(--ink);padding:.6rem;min-height:70px;"></div>
+    </div>
+  </section>
+
+  <!-- ░░ ③ 生成與複製 ░░ -->
+  <section class="card p-5">
+    <div class="flex items-center gap-3 mb-4">
+      <span class="num-chip">3</span>
+      <h2 class="display text-xl font-bold">生成電子報</h2>
+    </div>
+
+    <button id="generateBtn" class="btn btn-blue w-full text-lg mb-3">
+      <span id="generateBtnText">✦ 一鍵生成最終電子報</span>
+    </button>
+    <div id="errorMsg" class="hidden text-sm mb-3" style="background:#FFE9E4;border:2px solid #C0341A;color:#8E2410;padding:.6rem .8rem;"></div>
+
+    <details class="mb-5">
+      <summary class="text-[11px] tracking-label cursor-pointer select-none" style="color:var(--muted);">檢視送出的提示詞</summary>
+      <textarea id="promptPreview" readonly class="field mt-2 font-mono text-xs" style="height:180px;background:#F2EFE6;"></textarea>
+    </details>
+
+    <h3 class="text-[11px] tracking-label mb-2" style="color:var(--muted);">電子報預覽 — 可直接在框內編輯微調</h3>
+    <div id="previewBox" contenteditable="true" style="min-height:320px;max-height:620px;">
+      <p style="color:#5F584C;font-size:14px;text-align:center;padding:40px 0;">尚未生成。請先設定 API Key，勾選新聞後按上方按鈕。</p>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-4">
+      <button id="copyFinalBtn" class="btn btn-ink">⧉ 複製信件內容（貼進 Gmail）</button>
+      <a id="gmailBtn" href="https://mail.google.com/mail/?view=cm&fs=1" target="_blank" class="btn btn-paper text-center">↗ 開啟 Gmail</a>
+    </div>
+    <div id="copyFinalMsg" class="hidden text-sm mt-3" style="background:#E6F6EA;border:2px solid #1F7A3D;color:#155C2D;padding:.6rem .8rem;">已複製完整格式，請直接在 Gmail 內文按 Ctrl+V 貼上。</div>
+  </section>
+
+  <footer class="text-center text-[10px] tracking-label pb-4" style="color:var(--muted);">
+    udn daily newsletter workbench · 純前端工具，金鑰僅存於本機
+  </footer>
+</main>
+
+<!-- ░░ API 設定小視窗 ░░ -->
+<div id="settingsModalOverlay" class="fixed inset-0 z-50 flex items-center justify-center p-4" style="background:rgba(20,17,12,.65);">
+  <div class="card max-w-md w-full p-6" style="box-shadow:10px 10px 0 var(--blue);">
+    <h2 class="display text-2xl font-bold mb-1">設定 AI API</h2>
+    <p class="text-xs mb-5" style="color:var(--muted);">API Key 只會從你的瀏覽器直接送往 AI 供應商，不經過任何第三方伺服器。輸入完成後此視窗關閉，金鑰不會顯示在畫面上。</p>
+
+    <div class="space-y-3">
       <div>
-        <label class="block text-gray-600 mb-1">AI 供應商</label>
-        <select id="providerSelect" class="w-full border rounded px-2 py-1.5">
+        <label class="text-[10px] tracking-label" style="color:var(--muted);">AI 供應商</label>
+        <select id="providerSelect" class="field mt-1">
+          <option value="google">Google Gemini</option>
           <option value="anthropic">Anthropic Claude</option>
           <option value="openai">OpenAI</option>
-          <option value="google">Google Gemini</option>
         </select>
       </div>
       <div>
-        <label class="block text-gray-600 mb-1">模型名稱</label>
-        <input id="modelInput" type="text" class="w-full border rounded px-2 py-1.5" value="claude-sonnet-5">
+        <label class="text-[10px] tracking-label" style="color:var(--muted);">模型名稱</label>
+        <input id="modelInput" type="text" class="field mt-1" value="gemini-3.6-flash">
       </div>
       <div>
-        <label class="block text-gray-600 mb-1">API Key</label>
-        <input id="apiKeyInput" type="password" placeholder="貼上你的 API Key" autocomplete="off" class="w-full border rounded px-2 py-1.5 font-mono">
+        <label class="text-[10px] tracking-label" style="color:var(--muted);">API Key</label>
+        <input id="apiKeyInput" type="password" placeholder="貼上你的 API Key" autocomplete="off" class="field mt-1 font-mono">
       </div>
-      <label class="flex items-center gap-2 text-gray-500 text-xs">
+      <label class="flex items-center gap-2 text-xs" style="color:var(--muted);">
         <input id="rememberKeyCheckbox" type="checkbox">
-        記住 API Key（僅存於本機瀏覽器 localStorage，不會上傳）
+        記住 API Key（僅存於本機瀏覽器，不會上傳）
       </label>
     </div>
 
-    <div id="settingsError" class="text-sm text-red-600 mt-2 hidden"></div>
+    <div id="settingsError" class="hidden text-sm mt-3" style="background:#FFE9E4;border:2px solid #C0341A;color:#8E2410;padding:.5rem .7rem;"></div>
 
-    <div class="grid grid-cols-2 gap-2 mt-4">
-      <button id="cancelSettingsBtn" class="border rounded-lg py-2 text-gray-600 hover:bg-gray-50">先不設定</button>
-      <button id="confirmSettingsBtn" class="bg-blue-600 hover:bg-blue-700 text-white rounded-lg py-2 font-medium">確認並關閉</button>
+    <div class="grid grid-cols-2 gap-3 mt-5">
+      <button id="cancelSettingsBtn" class="btn btn-paper">先不設定</button>
+      <button id="confirmSettingsBtn" class="btn btn-blue">確認並關閉</button>
     </div>
   </div>
 </div>
 
-<main class="max-w-[1400px] mx-auto p-4 grid grid-cols-1 lg:grid-cols-2 gap-4">
-
-  <!-- 左側：新聞待選與排序 -->
-  <section class="bg-white rounded-xl shadow p-4 flex flex-col gap-4">
-    <h2 class="text-lg font-bold text-gray-800 border-b pb-2">① 新聞待選與排序</h2>
-
-    <div>
-      <h3 class="font-semibold text-gray-700 mb-2 text-sm">📋 新聞清單（勾選以加入）</h3>
-      <div id="newsList" class="space-y-2 max-h-64 overflow-y-auto pr-1"></div>
-    </div>
-
-    <div class="border-t pt-3">
-      <h3 class="font-semibold text-gray-700 mb-2 text-sm">➕ 手動新增新聞（只需貼上標題與網址，其餘自動帶入）</h3>
-      <form id="addNewsForm" class="grid grid-cols-2 gap-2 text-sm">
-        <input id="newTitle" type="text" placeholder="新聞標題（必填）" required class="border rounded px-2 py-1 col-span-2">
-        <input id="newUrl" type="url" placeholder="原文網址 https://...（必填，會自動帶入媒體名稱）" required class="border rounded px-2 py-1 col-span-2">
-        <input id="newMedia" type="text" placeholder="媒體名稱（可留空，自動偵測）" class="border rounded px-2 py-1 col-span-2">
-        <button type="submit" class="col-span-2 bg-blue-600 hover:bg-blue-700 text-white rounded py-1.5 font-medium">⏎ 新增到清單（Enter 也可）</button>
-      </form>
-    </div>
-
-    <div class="border-t pt-3 flex-1">
-      <h3 class="font-semibold text-gray-700 mb-2 text-sm">✅ 已勾選（拖曳或用按鈕調整順序）</h3>
-      <div id="selectedList" class="space-y-2 min-h-[80px] border-2 border-dashed border-gray-300 rounded-lg p-2"></div>
-    </div>
-  </section>
-
-  <!-- 右側：API 設定 + 一鍵生成 + 預覽 -->
-  <section class="bg-white rounded-xl shadow p-4 flex flex-col gap-4">
-    <h2 class="text-lg font-bold text-gray-800 border-b pb-2">② API 設定與一鍵生成電子報</h2>
-
-    <div id="apiStatusBar" class="flex items-center justify-between bg-gray-50 border rounded-lg px-3 py-2 text-sm">
-      <span id="apiStatusText" class="text-gray-500">🔒 尚未設定 API Key</span>
-      <button id="openSettingsBtn" class="text-blue-600 hover:underline font-medium">⚙️ 設定 API</button>
-    </div>
-
-    <button id="generateBtn" class="bg-purple-600 hover:bg-purple-700 disabled:bg-purple-300 text-white font-bold rounded-lg py-3 shadow transition flex items-center justify-center gap-2">
-      <span id="generateBtnText">🪄 一鍵生成最終電子報</span>
-    </button>
-    <div id="errorMsg" class="text-sm text-red-600 font-medium hidden"></div>
-
-    <details class="text-xs text-gray-500">
-      <summary class="cursor-pointer select-none">🔍 查看送出的提示詞（除錯用）</summary>
-      <textarea id="promptPreview" readonly class="w-full border rounded-lg p-2 mt-2 text-xs font-mono bg-gray-50 h-40"></textarea>
-    </details>
-
-    <div class="flex-1 flex flex-col">
-      <h3 class="font-semibold text-gray-700 mb-2 text-sm">👀 電子報預覽（模擬 Email 畫面，可直接編輯微調）</h3>
-      <div id="previewBox" contenteditable="true" class="w-full border rounded-lg p-4 bg-white flex-1 min-h-[300px] max-h-[500px] overflow-y-auto text-gray-800">
-        <p class="text-gray-400">尚未生成，請先在左側勾選新聞、填入 API Key，再點擊「一鍵生成最終電子報」。</p>
-      </div>
-    </div>
-
-    <div class="grid grid-cols-2 gap-2">
-      <button id="copyFinalBtn" class="bg-orange-600 hover:bg-orange-700 text-white font-bold rounded-lg py-3 shadow transition">
-        📤 複製信件內容（轉貼 Gmail 用）
-      </button>
-      <a id="gmailBtn" href="https://mail.google.com/mail/?view=cm&fs=1" target="_blank" class="text-center bg-red-500 hover:bg-red-600 text-white font-bold rounded-lg py-3 shadow transition">
-        開啟 Gmail
-      </a>
-    </div>
-    <div id="copyFinalMsg" class="text-sm text-orange-600 font-medium hidden">已複製 Rich Text 內容，請直接在 Gmail 貼上（Ctrl+V）！</div>
-  </section>
-
-</main>
-
 <script>
-// ---------- 資料 ----------
+// ═══ 資料 ═══
 let newsData = [];
 let selectedIds = [];
 
-function cryptoRandom() {
-  return 'id-' + Math.random().toString(36).slice(2, 10);
+function uid() { return 'id-' + Math.random().toString(36).slice(2, 10); }
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 }
+function pad2(n) { return String(n).padStart(2, '0'); }
+function todayStr() {
+  const d = new Date();
+  return `${d.getFullYear()}/${pad2(d.getMonth() + 1)}/${pad2(d.getDate())}`;
+}
+document.getElementById('headerDate').textContent = todayStr();
 
-function escapeHtml(str) {
-  return String(str).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-}
-function escapeAttr(str) {
-  return String(str).replace(/"/g, '&quot;');
-}
-
-// ---------- 渲染新聞清單 ----------
+// ═══ 新聞清單 ═══
 function renderNewsList() {
-  const container = document.getElementById('newsList');
-  container.innerHTML = '';
+  const box = document.getElementById('newsList');
+  box.innerHTML = '';
   if (newsData.length === 0) {
-    container.innerHTML = '<p class="text-gray-400 text-sm text-center py-4">尚無新聞，請於下方「手動新增新聞」加入</p>';
+    box.innerHTML = '<p class="text-sm text-center py-6" style="color:var(--muted);">尚無新聞，請於上方新增</p>';
     return;
   }
   newsData.forEach(item => {
-    const checked = selectedIds.includes(item.id) ? 'checked' : '';
-    const div = document.createElement('div');
-    div.className = 'flex items-start gap-2 border rounded-lg p-2 hover:bg-gray-50 text-sm';
-    div.innerHTML = `
-      <input type="checkbox" data-id="${item.id}" class="mt-1 news-checkbox" ${checked}>
-      <div class="flex-1">
-        <div class="font-semibold text-gray-600 text-xs mb-0.5">${escapeHtml(item.media)}</div>
-        <div class="text-gray-800">${escapeHtml(item.title)}</div>
-        <a href="${escapeAttr(item.url)}" target="_blank" class="text-blue-600 text-xs break-all hover:underline">${escapeHtml(item.url)}</a>
-      </div>
-    `;
-    container.appendChild(div);
+    const on = selectedIds.includes(item.id);
+    const row = document.createElement('label');
+    row.className = 'news-row flex items-start gap-3 p-3 cursor-pointer' + (on ? ' is-checked' : '');
+    row.innerHTML = `
+      <input type="checkbox" data-id="${item.id}" class="news-checkbox mt-1" ${on ? 'checked' : ''}>
+      <span class="flex-1 min-w-0">
+        <span class="block text-[10px] tracking-label" style="color:var(--blue);">${escapeHtml(item.media)}</span>
+        <span class="block text-sm font-semibold leading-snug mt-0.5">${escapeHtml(item.title)}</span>
+        <span class="block text-[11px] truncate mt-1" style="color:var(--muted);">${escapeHtml(item.url)}</span>
+      </span>
+      <button type="button" data-del="${item.id}" class="text-xs px-2" style="color:#B2371C;">刪除</button>`;
+    box.appendChild(row);
   });
 
-  container.querySelectorAll('.news-checkbox').forEach(cb => {
-    cb.addEventListener('change', (e) => {
+  box.querySelectorAll('.news-checkbox').forEach(cb => {
+    cb.addEventListener('change', e => {
       const id = e.target.dataset.id;
-      if (e.target.checked) {
-        if (!selectedIds.includes(id)) selectedIds.push(id);
-      } else {
-        selectedIds = selectedIds.filter(x => x !== id);
-      }
-      renderSelectedList();
-      renderPromptPreview();
+      if (e.target.checked) { if (!selectedIds.includes(id)) selectedIds.push(id); }
+      else { selectedIds = selectedIds.filter(x => x !== id); }
+      renderNewsList(); renderSelectedList(); renderPromptPreview();
+    });
+  });
+  box.querySelectorAll('[data-del]').forEach(btn => {
+    btn.addEventListener('click', e => {
+      e.preventDefault();
+      const id = btn.dataset.del;
+      newsData = newsData.filter(n => n.id !== id);
+      selectedIds = selectedIds.filter(x => x !== id);
+      renderNewsList(); renderSelectedList(); renderPromptPreview();
     });
   });
 }
 
-// ---------- 渲染已勾選清單（拖曳排序 + 上下移按鈕）----------
+// ═══ 排序清單 ═══
 let dragSrcId = null;
-
 function renderSelectedList() {
-  const container = document.getElementById('selectedList');
-  container.innerHTML = '';
+  const box = document.getElementById('selectedList');
+  box.innerHTML = '';
   if (selectedIds.length === 0) {
-    container.innerHTML = '<p class="text-gray-400 text-sm text-center py-4">尚未勾選任何新聞</p>';
+    box.innerHTML = '<p class="text-sm text-center py-4" style="color:var(--muted);">尚未勾選任何新聞</p>';
     return;
   }
   selectedIds.forEach((id, idx) => {
     const item = newsData.find(n => n.id === id);
     if (!item) return;
-    const div = document.createElement('div');
-    div.className = 'flex items-center gap-2 border rounded-lg p-2 bg-white shadow-sm text-sm cursor-move';
-    div.draggable = true;
-    div.dataset.id = id;
-    div.innerHTML = `
-      <span class="text-gray-400 font-bold w-5 text-center">${idx + 1}</span>
-      <span class="cursor-grab select-none">⠿</span>
-      <div class="flex-1 truncate">
-        <span class="font-medium">${escapeHtml(item.media)}</span> -
-        <span class="text-gray-700">${escapeHtml(item.title)}</span>
-      </div>
-      <div class="flex flex-col gap-0.5">
-        <button data-action="up" data-id="${id}" class="move-btn text-xs px-1 hover:bg-gray-100 rounded" ${idx === 0 ? 'disabled style="opacity:0.3"' : ''}>▲</button>
-        <button data-action="down" data-id="${id}" class="move-btn text-xs px-1 hover:bg-gray-100 rounded" ${idx === selectedIds.length - 1 ? 'disabled style="opacity:0.3"' : ''}>▼</button>
-      </div>
-      <button data-action="remove" data-id="${id}" class="remove-btn text-red-500 hover:text-red-700 text-xs px-1">✕</button>
-    `;
-    container.appendChild(div);
+    const row = document.createElement('div');
+    row.className = 'news-row flex items-center gap-2 p-2';
+    row.draggable = true;
+    row.dataset.id = id;
+    row.innerHTML = `
+      <span class="num-chip" style="width:26px;height:26px;font-size:.8rem;">${idx + 1}</span>
+      <span class="cursor-grab select-none" style="color:var(--muted);">⠿</span>
+      <span class="flex-1 min-w-0 truncate text-sm"><b>${escapeHtml(item.media)}</b> · ${escapeHtml(item.title)}</span>
+      <button data-action="up" data-id="${id}" class="move-btn text-xs px-1" ${idx === 0 ? 'disabled style="opacity:.25"' : ''}>▲</button>
+      <button data-action="down" data-id="${id}" class="move-btn text-xs px-1" ${idx === selectedIds.length - 1 ? 'disabled style="opacity:.25"' : ''}>▼</button>
+      <button data-action="remove" data-id="${id}" class="move-btn text-xs px-1" style="color:#B2371C;">✕</button>`;
+    box.appendChild(row);
   });
 
-  container.querySelectorAll('[draggable="true"]').forEach(el => {
-    el.addEventListener('dragstart', () => {
-      dragSrcId = el.dataset.id;
-      el.classList.add('dragging');
-    });
+  box.querySelectorAll('[draggable="true"]').forEach(el => {
+    el.addEventListener('dragstart', () => { dragSrcId = el.dataset.id; el.classList.add('dragging'); });
     el.addEventListener('dragend', () => {
       el.classList.remove('dragging');
-      container.querySelectorAll('div').forEach(d => d.classList.remove('drag-over'));
+      box.querySelectorAll('.news-row').forEach(d => d.classList.remove('drag-over'));
     });
-    el.addEventListener('dragover', (e) => {
-      e.preventDefault();
-      el.classList.add('drag-over');
-    });
+    el.addEventListener('dragover', e => { e.preventDefault(); el.classList.add('drag-over'); });
     el.addEventListener('dragleave', () => el.classList.remove('drag-over'));
-    el.addEventListener('drop', (e) => {
+    el.addEventListener('drop', e => {
       e.preventDefault();
       el.classList.remove('drag-over');
       const targetId = el.dataset.id;
       if (dragSrcId && dragSrcId !== targetId) {
-        const fromIdx = selectedIds.indexOf(dragSrcId);
-        const toIdx = selectedIds.indexOf(targetId);
-        selectedIds.splice(fromIdx, 1);
-        selectedIds.splice(toIdx, 0, dragSrcId);
-        renderSelectedList();
-        renderPromptPreview();
+        const from = selectedIds.indexOf(dragSrcId), to = selectedIds.indexOf(targetId);
+        selectedIds.splice(from, 1);
+        selectedIds.splice(to, 0, dragSrcId);
+        renderSelectedList(); renderPromptPreview();
       }
     });
   });
 
-  container.querySelectorAll('.move-btn').forEach(btn => {
+  box.querySelectorAll('.move-btn').forEach(btn => {
     btn.addEventListener('click', () => {
-      const id = btn.dataset.id;
-      const action = btn.dataset.action;
-      const idx = selectedIds.indexOf(id);
-      if (action === 'up' && idx > 0) {
-        [selectedIds[idx - 1], selectedIds[idx]] = [selectedIds[idx], selectedIds[idx - 1]];
-      } else if (action === 'down' && idx < selectedIds.length - 1) {
-        [selectedIds[idx + 1], selectedIds[idx]] = [selectedIds[idx], selectedIds[idx + 1]];
-      }
-      renderSelectedList();
-      renderPromptPreview();
-    });
-  });
-  container.querySelectorAll('.remove-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      const id = btn.dataset.id;
-      selectedIds = selectedIds.filter(x => x !== id);
-      renderNewsList();
-      renderSelectedList();
-      renderPromptPreview();
+      const id = btn.dataset.id, act = btn.dataset.action, i = selectedIds.indexOf(id);
+      if (act === 'up' && i > 0) [selectedIds[i - 1], selectedIds[i]] = [selectedIds[i], selectedIds[i - 1]];
+      else if (act === 'down' && i < selectedIds.length - 1) [selectedIds[i + 1], selectedIds[i]] = [selectedIds[i], selectedIds[i + 1]];
+      else if (act === 'remove') selectedIds = selectedIds.filter(x => x !== id);
+      renderNewsList(); renderSelectedList(); renderPromptPreview();
     });
   });
 }
 
-// ---------- 手動新增新聞（自動帶入媒體名稱）----------
+// ═══ 新增新聞 ═══
 function guessMediaFromUrl(url) {
   try {
     const host = new URL(url).hostname.replace(/^www\./, '');
-    const knownMedia = {
+    const known = {
       'udn.com': '聯合報', 'money.udn.com': '經濟日報', 'stars.udn.com': '聯合報',
       'reuters.com': 'Reuters', 'bloomberg.com': 'Bloomberg', 'cw.com.tw': '天下雜誌',
       'cna.com.tw': '中央社', 'ltn.com.tw': '自由時報', 'chinatimes.com': '中國時報',
       'nytimes.com': 'The New York Times', 'wsj.com': 'The Wall Street Journal',
-      'bbc.com': 'BBC', 'techcrunch.com': 'TechCrunch',
+      'bbc.com': 'BBC', 'techcrunch.com': 'TechCrunch', 'bnext.com.tw': '數位時代',
+      'technews.tw': 'TechNews', 'mashdigi.com': 'Mashdigi', 'techorange.com': 'TechOrange',
     };
-    if (knownMedia[host]) return knownMedia[host];
-    const parts = host.split('.');
-    const base = parts.length > 2 ? parts[parts.length - 2] : parts[0];
+    if (known[host]) return known[host];
+    const p = host.split('.');
+    const base = p.length > 2 ? p[p.length - 2] : p[0];
     return base.charAt(0).toUpperCase() + base.slice(1);
-  } catch (err) {
-    return '';
-  }
+  } catch { return ''; }
 }
 
 const newUrlInput = document.getElementById('newUrl');
 const newMediaInput = document.getElementById('newMedia');
-
 newUrlInput.addEventListener('blur', () => {
   if (!newMediaInput.value.trim() && newUrlInput.value.trim()) {
     newMediaInput.value = guessMediaFromUrl(newUrlInput.value.trim());
   }
 });
 
-document.getElementById('addNewsForm').addEventListener('submit', (e) => {
+document.getElementById('addNewsForm').addEventListener('submit', e => {
   e.preventDefault();
   const url = newUrlInput.value.trim();
   const item = {
-    id: cryptoRandom(),
+    id: uid(),
     media: newMediaInput.value.trim() || guessMediaFromUrl(url) || '未知媒體',
     title: document.getElementById('newTitle').value.trim(),
     url,
@@ -309,24 +365,15 @@ document.getElementById('addNewsForm').addEventListener('submit', (e) => {
   selectedIds.push(item.id);
   e.target.reset();
   document.getElementById('newTitle').focus();
-  renderNewsList();
-  renderSelectedList();
-  renderPromptPreview();
+  renderNewsList(); renderSelectedList(); renderPromptPreview();
 });
 
-// ---------- 產生 AI 提示詞 ----------
-function todayStr() {
-  const d = new Date();
-  return `${d.getFullYear()}/${String(d.getMonth() + 1).padStart(2, '0')}/${String(d.getDate()).padStart(2, '0')}`;
-}
-
+// ═══ 提示詞 ═══
 function buildPrompt() {
-  const orderedNews = selectedIds.map(id => newsData.find(n => n.id === id)).filter(Boolean);
-  let newsListText = '';
-  orderedNews.forEach((n, idx) => {
-    newsListText += `${idx + 1}. 【${n.media}】${n.title}\n   原文網址：${n.url}\n\n`;
-  });
-  if (!newsListText) newsListText = '（尚未勾選任何新聞）\n';
+  const ordered = selectedIds.map(id => newsData.find(n => n.id === id)).filter(Boolean);
+  let list = '';
+  ordered.forEach((n, i) => { list += `${i + 1}. 【${n.media}】${n.title}\n   原文網址：${n.url}\n\n`; });
+  if (!list) list = '（尚未勾選任何新聞）\n';
 
   return `你是一位資深媒體產業分析師。請為以下新聞撰寫 50 字的重點摘要（帶入商業或科技影響），並嚴格按照以下格式輸出（不要說廢話，也不要輸出 Markdown 的程式碼區塊）：
 
@@ -341,100 +388,79 @@ ${todayStr()}　市場訊息：
 ---（各新聞間請用分隔線隔開）---
 
 需要處理的新聞清單如下：
-${newsListText}`;
+${list}`;
 }
-
 function renderPromptPreview() {
   document.getElementById('promptPreview').value = buildPrompt();
 }
 
-// ---------- 呼叫 AI API ----------
-async function callAnthropic(apiKey, model, prompt) {
+// ═══ API 呼叫 ═══
+async function callAnthropic(key, model, prompt) {
   const res = await fetch('https://api.anthropic.com/v1/messages', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      'x-api-key': apiKey,
+      'x-api-key': key,
       'anthropic-version': '2023-06-01',
       'anthropic-dangerous-direct-browser-access': 'true',
     },
-    body: JSON.stringify({
-      model: model,
-      max_tokens: 2048,
-      messages: [{ role: 'user', content: prompt }],
-    }),
+    body: JSON.stringify({ model, max_tokens: 2048, messages: [{ role: 'user', content: prompt }] }),
   });
   const data = await res.json();
-  if (!res.ok) {
-    throw new Error(data?.error?.message || `Anthropic API 錯誤（狀態碼 ${res.status}）`);
-  }
-  return (data.content || []).map(block => block.text || '').join('\n');
+  if (!res.ok) throw new Error(data?.error?.message || `Anthropic API 錯誤（${res.status}）`);
+  return (data.content || []).map(b => b.text || '').join('\n');
 }
 
-async function callOpenAI(apiKey, model, prompt) {
+async function callOpenAI(key, model, prompt) {
   const res = await fetch('https://api.openai.com/v1/chat/completions', {
     method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'Authorization': `Bearer ${apiKey}`,
-    },
-    body: JSON.stringify({
-      model: model,
-      messages: [{ role: 'user', content: prompt }],
-    }),
+    headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${key}` },
+    body: JSON.stringify({ model, messages: [{ role: 'user', content: prompt }] }),
   });
   const data = await res.json();
-  if (!res.ok) {
-    throw new Error(data?.error?.message || `OpenAI API 錯誤（狀態碼 ${res.status}）`);
-  }
+  if (!res.ok) throw new Error(data?.error?.message || `OpenAI API 錯誤（${res.status}）`);
   return data.choices?.[0]?.message?.content || '';
 }
 
-async function callGoogle(apiKey, model, prompt) {
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(model)}:generateContent?key=${encodeURIComponent(apiKey)}`;
+async function callGoogle(key, model, prompt) {
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(model)}:generateContent?key=${encodeURIComponent(key)}`;
   const res = await fetch(url, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      contents: [{ parts: [{ text: prompt }] }],
-    }),
+    body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }] }),
   });
   const data = await res.json();
-  if (!res.ok) {
-    throw new Error(data?.error?.message || `Google Gemini API 錯誤（狀態碼 ${res.status}）`);
-  }
-  const parts = data?.candidates?.[0]?.content?.parts || [];
-  return parts.map(p => p.text || '').join('\n');
+  if (!res.ok) throw new Error(data?.error?.message || `Google Gemini API 錯誤（${res.status}）`);
+  return (data?.candidates?.[0]?.content?.parts || []).map(p => p.text || '').join('\n');
 }
 
-// ---------- API Key 記憶（僅本機 localStorage）----------
+// ═══ 設定視窗 ═══
 const apiKeyInput = document.getElementById('apiKeyInput');
 const rememberKeyCheckbox = document.getElementById('rememberKeyCheckbox');
 const providerSelect = document.getElementById('providerSelect');
 const modelInput = document.getElementById('modelInput');
+const settingsModalOverlay = document.getElementById('settingsModalOverlay');
+const settingsError = document.getElementById('settingsError');
+const apiStatusText = document.getElementById('apiStatusText');
 
 const defaultModels = { anthropic: 'claude-sonnet-5', openai: 'gpt-4o-mini', google: 'gemini-3.6-flash' };
-
+const providerLabels = { anthropic: 'Anthropic Claude', openai: 'OpenAI', google: 'Google Gemini' };
 let hasApiKey = false;
 
 try {
-  const savedKey = localStorage.getItem('udn_nl_api_key');
-  const savedProvider = localStorage.getItem('udn_nl_provider');
-  const savedModel = localStorage.getItem('udn_nl_model');
-  if (savedKey) {
-    apiKeyInput.value = savedKey;
-    rememberKeyCheckbox.checked = true;
-    hasApiKey = true;
-  }
-  if (savedProvider) providerSelect.value = savedProvider;
-  if (savedModel) modelInput.value = savedModel;
-} catch (err) { /* localStorage 不可用時忽略 */ }
+  const k = localStorage.getItem('udn_nl_api_key');
+  const p = localStorage.getItem('udn_nl_provider');
+  const m = localStorage.getItem('udn_nl_model');
+  if (k) { apiKeyInput.value = k; rememberKeyCheckbox.checked = true; hasApiKey = true; }
+  if (p) providerSelect.value = p;
+  if (m) modelInput.value = m;
+} catch {}
 
 providerSelect.addEventListener('change', () => {
   modelInput.value = defaultModels[providerSelect.value] || '';
 });
 
-function persistSettingsIfNeeded() {
+function persistSettings() {
   try {
     if (rememberKeyCheckbox.checked) {
       localStorage.setItem('udn_nl_api_key', apiKeyInput.value);
@@ -445,184 +471,210 @@ function persistSettingsIfNeeded() {
       localStorage.removeItem('udn_nl_provider');
       localStorage.removeItem('udn_nl_model');
     }
-  } catch (err) { /* 忽略 */ }
+  } catch {}
 }
 
-// ---------- API 設定小視窗 ----------
-const settingsModalOverlay = document.getElementById('settingsModalOverlay');
-const settingsError = document.getElementById('settingsError');
-const apiStatusText = document.getElementById('apiStatusText');
-const providerLabels = { anthropic: 'Anthropic Claude', openai: 'OpenAI', google: 'Google Gemini' };
-
-function updateApiStatusBar() {
+function updateApiStatus() {
   if (hasApiKey) {
-    apiStatusText.innerHTML = `✅ 已設定 <span class="font-medium">${providerLabels[providerSelect.value] || providerSelect.value}</span>（金鑰不會顯示於畫面上）`;
-    apiStatusText.classList.remove('text-gray-500');
-    apiStatusText.classList.add('text-emerald-600');
+    apiStatusText.innerHTML = `✓ 已連線 <b>${providerLabels[providerSelect.value] || providerSelect.value}</b> · <span style="color:var(--muted);">${escapeHtml(modelInput.value)}</span>`;
+    apiStatusText.style.color = 'var(--ink)';
   } else {
-    apiStatusText.textContent = '🔒 尚未設定 API Key';
-    apiStatusText.classList.remove('text-emerald-600');
-    apiStatusText.classList.add('text-gray-500');
+    apiStatusText.textContent = '尚未設定 API Key';
+    apiStatusText.style.color = 'var(--muted)';
   }
 }
 
-function openSettingsModal() {
+document.getElementById('openSettingsBtn').addEventListener('click', () => {
   settingsError.classList.add('hidden');
   settingsModalOverlay.classList.remove('hidden');
-}
-function closeSettingsModal() {
-  settingsModalOverlay.classList.add('hidden');
-}
-
-document.getElementById('openSettingsBtn').addEventListener('click', openSettingsModal);
-document.getElementById('cancelSettingsBtn').addEventListener('click', closeSettingsModal);
+});
+document.getElementById('cancelSettingsBtn').addEventListener('click', () => settingsModalOverlay.classList.add('hidden'));
 document.getElementById('confirmSettingsBtn').addEventListener('click', () => {
   if (!apiKeyInput.value.trim()) {
-    settingsError.textContent = '請先貼上 API Key，或點「先不設定」稍後再設定。';
+    settingsError.textContent = '請先貼上 API Key，或點「先不設定」稍後再填。';
     settingsError.classList.remove('hidden');
     return;
   }
-  persistSettingsIfNeeded();
+  persistSettings();
   hasApiKey = true;
-  updateApiStatusBar();
-  closeSettingsModal();
+  updateApiStatus();
+  settingsModalOverlay.classList.add('hidden');
 });
 
-// 開啟頁面時：若尚未儲存過 Key，自動彈出設定視窗；已有記住的 Key 則直接關閉視窗
-updateApiStatusBar();
-if (!hasApiKey) {
-  openSettingsModal();
-} else {
-  closeSettingsModal();
+// ═══ 解析 AI 回覆 → 懷舊海報風電子報（Email 相容：table + inline style）═══
+const SERIF = "Georgia,'Times New Roman','Noto Serif TC','Songti TC',serif";
+const SANS = "'Helvetica Neue',Arial,'PingFang TC','Microsoft JhengHei',sans-serif";
+const INK = '#14110C', BLUE = '#1F3CE8', CARD = '#FBF8F1', MUTED = '#7C7466', LINE = '#D6CFBE';
+
+function mdLink(html) {
+  return html.replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g, (m, label, url) =>
+    `<a href="${url.replace(/&amp;/g, '&')}" target="_blank" style="color:${BLUE};text-decoration:none;">${label}</a>`);
 }
 
-// ---------- 解析 AI 回覆 → 生成排版好的 HTML ----------
-function linkify(escapedText) {
-  return escapedText.replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g, (m, label, url) => {
-    return `<a href="${url}" target="_blank" rel="noopener noreferrer" style="color:#1d4ed8;text-decoration:underline;">${label}</a>`;
-  });
+// Outlook（Word 排版引擎）不支援 div 的背景色與 padding，所有色塊與間距一律走 table/td
+function bar(color, height) {
+  return `<table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;"><tr>`
+    + `<td height="${height}" bgcolor="${color}" style="height:${height}px;line-height:${height}px;font-size:0;background-color:${color};">&nbsp;</td>`
+    + `</tr></table>`;
 }
 
 function parseAiResultToHtml(raw) {
-  let text = linkify(escapeHtml(raw));
-  text = text.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+  const lines = escapeHtml(raw).split('\n');
 
-  const lines = text.split('\n');
+  // 主旨與日期
+  const subjectIdx = lines.findIndex(l => /信件主旨/.test(l));
+  const subject = subjectIdx !== -1
+    ? lines[subjectIdx].replace(/^.*信件主旨[:：]\s*/, '').trim()
+    : `udn Daily Newsletter_${todayStr()}`;
+  const dm = subject.match(/(\d{4})[\/\-.](\d{1,2})[\/\-.](\d{1,2})/);
+  const dateText = dm ? `${dm[1]}/${pad2(dm[2])}/${pad2(dm[3])}` : todayStr();
 
-  let subject = 'udn Daily Newsletter';
-  const subjectLineIdx = lines.findIndex(l => /信件主旨/.test(l));
-  if (subjectLineIdx !== -1) {
-    subject = lines[subjectLineIdx].replace(/^.*信件主旨[:：]\s*/, '').trim() || subject;
-  }
+  // 開頭訊息（主旨之後、第一則新聞之前）
+  const firstIdx = lines.findIndex(l => l.trim().startsWith('📍'));
+  const kicker = lines
+    .slice(subjectIdx === -1 ? 0 : subjectIdx + 1, firstIdx === -1 ? lines.length : firstIdx)
+    .map(l => l.trim())
+    .filter(l => l && !/^-{3,}/.test(l))
+    .join(' ');
 
-  const firstNewsIdx = lines.findIndex(l => l.trim().startsWith('📍'));
-
-  const greetingLines = lines
-    .slice(subjectLineIdx === -1 ? 0 : subjectLineIdx + 1, firstNewsIdx === -1 ? lines.length : firstNewsIdx)
-    .filter(l => l.trim() !== '' && !/^-{3,}$/.test(l.trim()));
-  const greetingHtml = greetingLines.map(l => `<p style="margin:0 0 10px 0;">${l}</p>`).join('');
-
-  let cardsHtml = '';
-  let closingLines = [];
-
-  if (firstNewsIdx !== -1) {
-    const rest = lines.slice(firstNewsIdx);
+  // 新聞區塊
+  const items = [];
+  const closing = [];
+  if (firstIdx !== -1) {
     const blocks = [];
-    let current = [];
-    rest.forEach(line => {
-      if (line.trim().startsWith('📍') && current.length > 0) {
-        blocks.push(current);
-        current = [];
-      }
-      current.push(line);
+    let cur = [];
+    lines.slice(firstIdx).forEach(l => {
+      if (l.trim().startsWith('📍') && cur.length) { blocks.push(cur); cur = []; }
+      cur.push(l);
     });
-    if (current.length > 0) blocks.push(current);
+    if (cur.length) blocks.push(cur);
 
     blocks.forEach(block => {
-      const headerLine = block[0].replace('📍', '').trim();
-      const bodyLines = block.slice(1).filter(l => l.trim() !== '' && !/^-{3,}$/.test(l.trim()));
+      let head = block[0].replace('📍', '').trim();
+      const body = block.slice(1).map(l => l.trim()).filter(l => l && !/^-{3,}/.test(l));
 
-      const bulletLines = bodyLines.filter(l => l.trim().startsWith('•'));
-      const trailingLines = bodyLines.filter(l => !l.trim().startsWith('•'));
+      let media = '';
+      head = head.replace(/【(.+?)】/, (m, g) => { media = g.trim(); return ''; }).trim();
 
-      if (bulletLines.length === 0 && trailingLines.length > 0 && !headerLine) {
-        closingLines.push(...trailingLines);
-        return;
+      const link = head.match(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/);
+      let titleHtml, sub = '';
+      if (link) {
+        titleHtml = mdLink(link[0]);
+        sub = head.slice(link.index + link[0].length).trim().replace(/^[（(]|[)）]$/g, '');
+      } else {
+        titleHtml = head;
       }
 
-      const bulletsHtml = bulletLines
-        .map(l => `<li style="margin-bottom:6px;">${l.replace(/^•\s*/, '')}</li>`)
-        .join('');
+      const points = body
+        .filter(l => l.startsWith('•'))
+        .map(l => l.replace(/^•\s*/, '').replace(/^摘要重點\s*\d*\s*[:：]\s*/, ''));
+      const extra = body.filter(l => !l.startsWith('•'));
 
-      cardsHtml += `
-        <div style="border-left:4px solid #2563eb;background:#f8fafc;border-radius:0 10px 10px 0;padding:14px 18px;margin-bottom:16px;">
-          <div style="font-size:17px;font-weight:700;color:#1e293b;margin-bottom:8px;">📍 ${headerLine}</div>
-          <ul style="margin:0;padding-left:20px;color:#334155;font-size:15px;line-height:1.8;">${bulletsHtml}</ul>
-          ${trailingLines.length ? trailingLines.map(l => `<p style="margin:8px 0 0 0;color:#334155;">${l}</p>`).join('') : ''}
-        </div>`;
+      if (!titleHtml && !points.length) { closing.push(...extra); return; }
+      items.push({ media, titleHtml, sub, points, extra });
     });
   }
 
-  const closingHtml = closingLines.length
-    ? closingLines.map(l => `<p style="margin:4px 0;color:#334155;">${l}</p>`).join('')
-    : '';
+  const itemsHtml = items.map((it, i) => `
+    ${i > 0 ? `<tr><td style="padding:0 26px;">${bar(LINE, 1)}</td></tr>` : ''}
+    <tr><td style="padding:22px 26px;">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;"><tr>
+        <td width="46" valign="top" style="width:46px;">
+          <table cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;"><tr>
+            <td width="34" height="34" bgcolor="${BLUE}" align="center" valign="middle" style="width:34px;height:34px;background-color:${BLUE};font-family:${SANS};font-size:14px;font-weight:bold;line-height:34px;color:#ffffff;">${pad2(i + 1)}</td>
+          </tr></table>
+        </td>
+        <td valign="top">
+          <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;">
+            ${it.media ? `<tr><td style="padding-bottom:7px;font-family:${SANS};font-size:10px;font-weight:bold;letter-spacing:2px;color:${BLUE};">${it.media.toUpperCase()}</td></tr>` : ''}
+            <tr><td style="font-family:${SERIF};font-size:19px;font-weight:bold;line-height:29px;color:${INK};">${it.titleHtml}</td></tr>
+            ${it.sub ? `<tr><td style="padding-top:6px;font-family:${SANS};font-size:12px;line-height:19px;color:${MUTED};">${it.sub}</td></tr>` : ''}
+            ${it.points.map(p => `<tr><td style="padding-top:11px;">
+              <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;"><tr>
+                <td width="3" bgcolor="${LINE}" style="width:3px;background-color:${LINE};font-size:0;line-height:0;">&nbsp;</td>
+                <td style="padding-left:12px;font-family:${SANS};font-size:15px;line-height:27px;color:#3D382F;">${p}</td>
+              </tr></table>
+            </td></tr>`).join('')}
+            ${it.extra.map(p => `<tr><td style="padding-top:8px;font-family:${SANS};font-size:14px;line-height:25px;color:${MUTED};">${p}</td></tr>`).join('')}
+          </table>
+        </td>
+      </tr></table>
+    </td></tr>`).join('');
+
+  const bodyHtml = items.length ? itemsHtml : `
+    <tr><td style="padding:26px;font-family:${SANS};font-size:14px;line-height:26px;color:${MUTED};white-space:pre-wrap;">${lines.join('\n')}</td></tr>`;
 
   return `
-  <div style="font-family:'Segoe UI','Noto Sans TC','Microsoft JhengHei',sans-serif;max-width:640px;margin:0 auto;">
-    <div style="background:linear-gradient(135deg,#1d4ed8,#3b82f6);color:#ffffff;padding:20px 24px;border-radius:10px;margin-bottom:20px;">
-      <div style="font-size:20px;font-weight:700;">📰 ${subject}</div>
-    </div>
-    <div style="font-size:15px;color:#1e293b;margin-bottom:16px;">${greetingHtml}</div>
-    <div>${cardsHtml || '<p style="color:#94a3b8;">（未偵測到新聞條目，請確認 AI 回覆格式是否包含「📍」開頭的項目）</p>'}</div>
-    <div style="border-top:1px solid #e2e8f0;margin-top:20px;padding-top:14px;font-size:14px;">${closingHtml}</div>
-  </div>`;
+<table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#E7E1D2" style="border-collapse:collapse;background-color:#E7E1D2;">
+ <tr><td align="center" style="padding:26px 12px;">
+  <table width="600" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="${CARD}" style="width:600px;border-collapse:collapse;background-color:${CARD};border:2px solid ${INK};">
+
+    ${kicker ? `<tr><td style="padding:24px 26px 0;">
+      <table cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;"><tr>
+        <td width="5" bgcolor="${BLUE}" style="width:5px;background-color:${BLUE};font-size:0;line-height:0;">&nbsp;</td>
+        <td style="padding-left:12px;font-family:${SANS};font-size:16px;font-weight:bold;line-height:24px;color:${INK};">${kicker}</td>
+      </tr></table>
+    </td></tr>` : ''}
+
+    <tr><td style="padding:18px 26px 0;">${bar(INK, 2)}</td></tr>
+
+    ${bodyHtml}
+
+    ${closing.length ? `<tr><td style="padding:4px 26px 16px;">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;">
+        ${closing.map(l => `<tr><td style="padding-top:6px;font-family:${SANS};font-size:14px;line-height:25px;color:#3D382F;">${l}</td></tr>`).join('')}
+      </table>
+    </td></tr>` : ''}
+
+    <tr><td style="padding:6px 26px 22px;">
+      ${bar(INK, 2)}
+      <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;"><tr>
+        <td style="padding-top:11px;font-family:${SANS};font-size:10px;letter-spacing:2.5px;color:${MUTED};">UDN DAILY NEWSLETTER</td>
+        <td align="right" style="padding-top:11px;font-family:${SANS};font-size:10px;letter-spacing:2.5px;color:${MUTED};">${dateText}</td>
+      </tr></table>
+    </td></tr>
+  </table>
+ </td></tr>
+</table>`;
 }
 
-// ---------- 一鍵生成 ----------
+// ═══ 生成 ═══
 const generateBtn = document.getElementById('generateBtn');
 const generateBtnText = document.getElementById('generateBtnText');
 const errorMsg = document.getElementById('errorMsg');
 const previewBox = document.getElementById('previewBox');
 
-function setLoading(isLoading) {
-  generateBtn.disabled = isLoading;
-  generateBtnText.innerHTML = isLoading ? '<span class="spinner"></span> 產製中，請稍候...' : '🪄 一鍵生成最終電子報';
+function setLoading(on) {
+  generateBtn.disabled = on;
+  generateBtnText.innerHTML = on ? '<span class="spinner"></span> 產製中，請稍候…' : '✦ 一鍵生成最終電子報';
 }
 
 generateBtn.addEventListener('click', async () => {
   errorMsg.classList.add('hidden');
-
   if (selectedIds.length === 0) {
-    errorMsg.textContent = '請先在左側勾選至少一則新聞。';
+    errorMsg.textContent = '請先勾選至少一則新聞。';
     errorMsg.classList.remove('hidden');
     return;
   }
-  const apiKey = apiKeyInput.value.trim();
-  if (!apiKey) {
-    errorMsg.textContent = '請先填入 API Key。';
+  const key = apiKeyInput.value.trim();
+  if (!key) {
+    errorMsg.textContent = '請先設定 API Key。';
     errorMsg.classList.remove('hidden');
+    settingsModalOverlay.classList.remove('hidden');
     return;
   }
 
-  persistSettingsIfNeeded();
-
-  const prompt = buildPrompt();
+  persistSettings();
   renderPromptPreview();
   setLoading(true);
-
   try {
     const provider = providerSelect.value;
     const model = modelInput.value.trim() || defaultModels[provider];
-    let rawResult;
-    if (provider === 'anthropic') {
-      rawResult = await callAnthropic(apiKey, model, prompt);
-    } else if (provider === 'google') {
-      rawResult = await callGoogle(apiKey, model, prompt);
-    } else {
-      rawResult = await callOpenAI(apiKey, model, prompt);
-    }
-
-    previewBox.innerHTML = parseAiResultToHtml(rawResult);
+    let raw;
+    if (provider === 'anthropic') raw = await callAnthropic(key, model, buildPrompt());
+    else if (provider === 'google') raw = await callGoogle(key, model, buildPrompt());
+    else raw = await callOpenAI(key, model, buildPrompt());
+    previewBox.innerHTML = parseAiResultToHtml(raw);
   } catch (err) {
     errorMsg.textContent = '生成失敗：' + err.message;
     errorMsg.classList.remove('hidden');
@@ -631,42 +683,31 @@ generateBtn.addEventListener('click', async () => {
   }
 });
 
-// ---------- 複製 Rich Text 內容（供貼到 Gmail）----------
+// ═══ 複製 Rich Text ═══
 document.getElementById('copyFinalBtn').addEventListener('click', async () => {
   const msg = document.getElementById('copyFinalMsg');
-
-  if (!previewBox.innerText.trim() || previewBox.innerText.includes('尚未生成')) {
-    return;
-  }
+  if (!previewBox.innerText.trim() || previewBox.innerText.includes('尚未生成')) return;
 
   const range = document.createRange();
   range.selectNodeContents(previewBox);
-  const selection = window.getSelection();
-  selection.removeAllRanges();
-  selection.addRange(range);
+  const sel = window.getSelection();
+  sel.removeAllRanges();
+  sel.addRange(range);
 
-  let copied = false;
-  try {
-    copied = document.execCommand('copy');
-  } catch (err) {
-    copied = false;
-  }
-
-  if (!copied) {
+  let ok = false;
+  try { ok = document.execCommand('copy'); } catch { ok = false; }
+  if (!ok) {
     try {
-      const htmlBlob = new Blob([previewBox.innerHTML], { type: 'text/html' });
-      const textBlob = new Blob([previewBox.innerText], { type: 'text/plain' });
-      const item = new ClipboardItem({ 'text/html': htmlBlob, 'text/plain': textBlob });
-      await navigator.clipboard.write([item]);
-      copied = true;
-    } catch (err2) {
-      copied = false;
-    }
+      await navigator.clipboard.write([new ClipboardItem({
+        'text/html': new Blob([previewBox.innerHTML], { type: 'text/html' }),
+        'text/plain': new Blob([previewBox.innerText], { type: 'text/plain' }),
+      })]);
+      ok = true;
+    } catch { ok = false; }
   }
+  sel.removeAllRanges();
 
-  selection.removeAllRanges();
-
-  if (copied) {
+  if (ok) {
     msg.classList.remove('hidden');
     setTimeout(() => msg.classList.add('hidden'), 3000);
   } else {
@@ -674,10 +715,12 @@ document.getElementById('copyFinalBtn').addEventListener('click', async () => {
   }
 });
 
-// ---------- 初始化 ----------
+// ═══ 初始化 ═══
 renderNewsList();
 renderSelectedList();
 renderPromptPreview();
+updateApiStatus();
+if (hasApiKey) settingsModalOverlay.classList.add('hidden');
 </script>
 </body>
 </html>
