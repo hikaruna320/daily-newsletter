@@ -63,7 +63,7 @@
   .dragging { opacity: .35; }
 
   #previewBox {
-    background: #CFC8B6;
+    background: #E6E4DF;
     border: 2px solid var(--ink);
     padding: 18px;
     overflow: auto;
@@ -504,7 +504,7 @@ document.getElementById('confirmSettingsBtn').addEventListener('click', () => {
 // ═══ 解析 AI 回覆 → 懷舊海報風電子報（Email 相容：table + inline style）═══
 const SERIF = "Georgia,'Times New Roman','Noto Serif TC','Songti TC',serif";
 const SANS = "'Helvetica Neue',Arial,'PingFang TC','Microsoft JhengHei',sans-serif";
-const INK = '#14110C', BLUE = '#1F3CE8', CARD = '#FBF8F1', MUTED = '#7C7466', LINE = '#D6CFBE';
+const INK = '#14110C', BLUE = '#1F3CE8', CARD = '#FFFFFF', MUTED = '#7C7466', LINE = '#D6CFBE';
 
 function mdLink(html) {
   return html.replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g, (m, label, url) =>
@@ -605,7 +605,7 @@ function parseAiResultToHtml(raw) {
     <tr><td style="padding:26px;font-family:${SANS};font-size:14px;line-height:26px;color:${MUTED};white-space:pre-wrap;">${lines.join('\n')}</td></tr>`;
 
   return `
-<table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#E7E1D2" style="border-collapse:collapse;background-color:#E7E1D2;">
+<table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#FFFFFF" style="border-collapse:collapse;background-color:#FFFFFF;">
  <tr><td align="center" style="padding:26px 12px;">
   <table width="600" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="${CARD}" style="width:600px;border-collapse:collapse;background-color:${CARD};border:2px solid ${INK};">
 
