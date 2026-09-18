@@ -89,7 +89,7 @@
     <div>
       <div class="text-[10px] tracking-label" style="color:#A79E8B;">udn daily</div>
       <h1 class="display font-bold leading-none" style="font-size:42px;letter-spacing:-1px;">News<span style="color:#6B85FF;">letter</span></h1>
-      <p class="text-xs mt-2" style="color:#A79E8B;">填入 API Key → 挑選新聞並排序 → 一鍵生成可直接貼進 Gmail 的電子報</p>
+      <p class="text-xs mt-2" style="color:#A79E8B;">填入 API Key → 挑選新聞並排序 → 一鍵生成可直接貼進 Outlook 的電子報</p>
     </div>
   </div>
 </header>
@@ -110,9 +110,10 @@
 
   <!-- ░░ ② 新聞待選與排序 ░░ -->
   <section class="card p-5">
-    <div class="flex items-center gap-3 mb-4">
+    <div class="flex items-center gap-3 mb-4 flex-wrap">
       <span class="num-chip">2</span>
-      <h2 class="display text-xl font-bold">新聞待選與排序</h2>
+      <h2 class="display text-xl font-bold flex-1">新聞待選與排序</h2>
+      <button id="clearAllBtn" type="button" class="btn btn-paper text-xs" style="color:#B2371C;">🗑 清空資料</button>
     </div>
 
     <div class="mb-5">
@@ -126,7 +127,7 @@
     </div>
 
     <div class="mb-5">
-      <h3 class="text-[11px] tracking-label mb-2" style="color:var(--muted);">新聞清單 — 取消勾選可排除</h3>
+      <h3 class="text-[11px] tracking-label mb-2" style="color:var(--muted);">新聞清單 — 取消勾選可排除，可點「編輯」修改內容</h3>
       <div id="newsList" class="space-y-2"></div>
     </div>
 
@@ -158,11 +159,10 @@
       <p style="color:#5F584C;font-size:14px;text-align:center;padding:40px 0;">尚未生成。請先設定 API Key，勾選新聞後按上方按鈕。</p>
     </div>
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-4">
-      <button id="copyFinalBtn" class="btn btn-ink">⧉ 複製信件內容（貼進 Gmail）</button>
-      <a id="gmailBtn" href="https://mail.google.com/mail/?view=cm&fs=1" target="_blank" class="btn btn-paper text-center">↗ 開啟 Gmail</a>
+    <div class="mt-4">
+      <button id="copyFinalBtn" class="btn btn-ink w-full">⧉ 複製信件內容</button>
     </div>
-    <div id="copyFinalMsg" class="hidden text-sm mt-3" style="background:#E6F6EA;border:2px solid #1F7A3D;color:#155C2D;padding:.6rem .8rem;">已複製完整格式，請直接在 Gmail 內文按 Ctrl+V 貼上。</div>
+    <div id="copyFinalMsg" class="hidden text-sm mt-3" style="background:#E6F6EA;border:2px solid #1F7A3D;color:#155C2D;padding:.6rem .8rem;">已複製完整格式，請直接在 Outlook 內文按 Ctrl+V 貼上。</div>
   </section>
 
   <footer class="text-center text-[10px] tracking-label pb-4" style="color:var(--muted);">
@@ -212,6 +212,22 @@
 // ═══ 資料 ═══
 let newsData = [];
 let selectedIds = [];
+let editingId = null;
+
+function saveState() {
+  try {
+    localStorage.setItem('udn_nl_newsData', JSON.stringify(newsData));
+    localStorage.setItem('udn_nl_selectedIds', JSON.stringify(selectedIds));
+  } catch {}
+}
+function loadState() {
+  try {
+    const nd = localStorage.getItem('udn_nl_newsData');
+    const sid = localStorage.getItem('udn_nl_selectedIds');
+    if (nd) newsData = JSON.parse(nd) || [];
+    if (sid) selectedIds = (JSON.parse(sid) || []).filter(id => newsData.some(n => n.id === id));
+  } catch {}
+}
 
 function uid() { return 'id-' + Math.random().toString(36).slice(2, 10); }
 function escapeHtml(s) {
@@ -234,6 +250,24 @@ function renderNewsList() {
   }
   newsData.forEach(item => {
     const on = selectedIds.includes(item.id);
+
+    if (editingId === item.id) {
+      const row = document.createElement('div');
+      row.className = 'news-row p-3';
+      row.innerHTML = `
+        <div class="grid grid-cols-1 sm:grid-cols-6 gap-2">
+          <input type="text" data-edit="title" value="${escapeHtml(item.title)}" placeholder="新聞標題" class="field sm:col-span-6">
+          <input type="url" data-edit="url" value="${escapeHtml(item.url)}" placeholder="原文網址" class="field sm:col-span-4">
+          <input type="text" data-edit="media" value="${escapeHtml(item.media)}" placeholder="媒體名稱" class="field sm:col-span-2">
+        </div>
+        <div class="grid grid-cols-2 gap-2 mt-2">
+          <button type="button" data-save="${item.id}" class="btn btn-blue text-sm">儲存</button>
+          <button type="button" data-cancel="${item.id}" class="btn btn-paper text-sm">取消</button>
+        </div>`;
+      box.appendChild(row);
+      return;
+    }
+
     const row = document.createElement('label');
     row.className = 'news-row flex items-start gap-3 p-3 cursor-pointer' + (on ? ' is-checked' : '');
     row.innerHTML = `
@@ -243,6 +277,7 @@ function renderNewsList() {
         <span class="block text-sm font-semibold leading-snug mt-0.5">${escapeHtml(item.title)}</span>
         <span class="block text-[11px] truncate mt-1" style="color:var(--muted);">${escapeHtml(item.url)}</span>
       </span>
+      <button type="button" data-edit-id="${item.id}" class="text-xs px-2" style="color:var(--blue);">編輯</button>
       <button type="button" data-del="${item.id}" class="text-xs px-2" style="color:#B2371C;">刪除</button>`;
     box.appendChild(row);
   });
@@ -252,6 +287,7 @@ function renderNewsList() {
       const id = e.target.dataset.id;
       if (e.target.checked) { if (!selectedIds.includes(id)) selectedIds.push(id); }
       else { selectedIds = selectedIds.filter(x => x !== id); }
+      saveState();
       renderNewsList(); renderSelectedList(); renderPromptPreview();
     });
   });
@@ -261,6 +297,38 @@ function renderNewsList() {
       const id = btn.dataset.del;
       newsData = newsData.filter(n => n.id !== id);
       selectedIds = selectedIds.filter(x => x !== id);
+      if (editingId === id) editingId = null;
+      saveState();
+      renderNewsList(); renderSelectedList(); renderPromptPreview();
+    });
+  });
+  box.querySelectorAll('[data-edit-id]').forEach(btn => {
+    btn.addEventListener('click', e => {
+      e.preventDefault();
+      editingId = btn.dataset.editId;
+      renderNewsList();
+    });
+  });
+  box.querySelectorAll('[data-cancel]').forEach(btn => {
+    btn.addEventListener('click', e => {
+      e.preventDefault();
+      editingId = null;
+      renderNewsList();
+    });
+  });
+  box.querySelectorAll('[data-save]').forEach(btn => {
+    btn.addEventListener('click', e => {
+      e.preventDefault();
+      const id = btn.dataset.save;
+      const row = btn.closest('.news-row');
+      const title = row.querySelector('[data-edit="title"]').value.trim();
+      const url = row.querySelector('[data-edit="url"]').value.trim();
+      const media = row.querySelector('[data-edit="media"]').value.trim();
+      if (!title || !url) return;
+      const item = newsData.find(n => n.id === id);
+      if (item) { item.title = title; item.url = url; item.media = media || guessMediaFromUrl(url) || '未知媒體'; }
+      editingId = null;
+      saveState();
       renderNewsList(); renderSelectedList(); renderPromptPreview();
     });
   });
@@ -308,6 +376,7 @@ function renderSelectedList() {
         const from = selectedIds.indexOf(dragSrcId), to = selectedIds.indexOf(targetId);
         selectedIds.splice(from, 1);
         selectedIds.splice(to, 0, dragSrcId);
+        saveState();
         renderSelectedList(); renderPromptPreview();
       }
     });
@@ -319,6 +388,7 @@ function renderSelectedList() {
       if (act === 'up' && i > 0) [selectedIds[i - 1], selectedIds[i]] = [selectedIds[i], selectedIds[i - 1]];
       else if (act === 'down' && i < selectedIds.length - 1) [selectedIds[i + 1], selectedIds[i]] = [selectedIds[i], selectedIds[i + 1]];
       else if (act === 'remove') selectedIds = selectedIds.filter(x => x !== id);
+      saveState();
       renderNewsList(); renderSelectedList(); renderPromptPreview();
     });
   });
@@ -365,6 +435,18 @@ document.getElementById('addNewsForm').addEventListener('submit', e => {
   selectedIds.push(item.id);
   e.target.reset();
   document.getElementById('newTitle').focus();
+  saveState();
+  renderNewsList(); renderSelectedList(); renderPromptPreview();
+});
+
+// ═══ 清空資料 ═══
+document.getElementById('clearAllBtn').addEventListener('click', () => {
+  if (newsData.length === 0) return;
+  if (!confirm('確定要清空所有新聞資料嗎？此動作無法復原。')) return;
+  newsData = [];
+  selectedIds = [];
+  editingId = null;
+  saveState();
   renderNewsList(); renderSelectedList(); renderPromptPreview();
 });
 
@@ -379,11 +461,14 @@ function buildPrompt() {
 
 信件主旨：udn Daily Newsletter_${todayStr()}
 
-${todayStr()}　市場訊息：
+${todayStr()}　市場訊息
 
 [請依序替我處理以下新聞，格式如下]
-📍【媒體名稱】[新聞標題](原文網址) (若為外文請附上原文標題)
+📍【媒體名稱】[新聞標題的繁體中文翻譯](原文網址)
+原文｜[若原新聞標題為外文，請填入該原文標題；若原新聞標題本身就是中文，則整行都不要輸出]
 • 摘要重點：[重點說明...]
+
+標題請一律翻譯成通順的繁體中文放入 [ ] 中；「原文｜」這一行只填原文標題本身，不要加上「英文原文標題」等其他文字說明。
 
 ---（各新聞間請用分隔線隔開）---
 
@@ -506,22 +591,20 @@ const SERIF = "Georgia,'Times New Roman','Noto Serif TC','Songti TC',serif";
 const SANS = "'Helvetica Neue',Arial,'PingFang TC','Microsoft JhengHei',sans-serif";
 const INK = '#14110C', BLUE = '#1F3CE8', CARD = '#FBF8F1', MUTED = '#7C7466', LINE = '#D6CFBE';
 
-function mdLink(html) {
+function mdLink(html, runStyle) {
+  const st = (runStyle || `color:${BLUE};`) + 'text-decoration:none;';
+  // Outlook/Word 會用內建的 Hyperlink 樣式覆寫 <a> 上的字型與大小，
+  // 因此把想要的樣式再包一層 <span> 寫在連結文字內層，Word 才會採用。
   return html.replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g, (m, label, url) =>
-    `<a href="${url.replace(/&amp;/g, '&')}" target="_blank" style="color:${BLUE};text-decoration:none;">${label}</a>`);
+    `<a href="${url.replace(/&amp;/g, '&')}" target="_blank" style="${st}"><span style="${st}">${label}</span></a>`);
 }
 
 
 function parseAiResultToHtml(raw) {
   const lines = escapeHtml(raw).split('\n');
 
-  // 主旨與日期
+  // 主旨（用於定位開頭訊息的起點）
   const subjectIdx = lines.findIndex(l => /信件主旨/.test(l));
-  const subject = subjectIdx !== -1
-    ? lines[subjectIdx].replace(/^.*信件主旨[:：]\s*/, '').trim()
-    : `udn Daily Newsletter_${todayStr()}`;
-  const dm = subject.match(/(\d{4})[\/\-.](\d{1,2})[\/\-.](\d{1,2})/);
-  const dateText = dm ? `${dm[1]}/${pad2(dm[2])}/${pad2(dm[3])}` : todayStr();
 
   // 開頭訊息（主旨之後、第一則新聞之前）
   const firstIdx = lines.findIndex(l => l.trim().startsWith('📍'));
@@ -553,53 +636,73 @@ function parseAiResultToHtml(raw) {
       const link = head.match(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/);
       let titleHtml, sub = '';
       if (link) {
-        titleHtml = mdLink(link[0]);
+        titleHtml = mdLink(link[0], `color:${BLUE};font-family:${SERIF};font-size:24px;font-weight:bold;`);
         sub = head.slice(link.index + link[0].length).trim().replace(/^[（(]|[)）]$/g, '');
       } else {
         titleHtml = head;
       }
 
-      const points = body
+      let origTitle = '';
+      const origMatch = body.find(l => /^原文[｜:：]\s*.+/.test(l));
+      if (origMatch) origTitle = origMatch.replace(/^原文[｜:：]\s*/, '').trim();
+      const rest = body.filter(l => l !== origMatch);
+
+      const points = rest
         .filter(l => l.startsWith('•'))
         .map(l => l.replace(/^•\s*/, '').replace(/^摘要重點\s*\d*\s*[:：]\s*/, ''));
-      const extra = body.filter(l => !l.startsWith('•'));
+      const extra = rest.filter(l => !l.startsWith('•'));
 
       if (!titleHtml && !points.length) { closing.push(...extra); return; }
-      items.push({ media, titleHtml, sub, points, extra });
+      items.push({ media, titleHtml, sub, origTitle, points, extra });
     });
   }
 
-  // Word 排版引擎會對巢狀表格套用預設格線、並把色塊儲存格拉長，
-  // 因此整封信只用「襯底 → 信紙」兩層表格，內文一律用 <p> 排版
+  // Word 貼上「保持原始格式」時，沒有明確設色的表格邊框會被強制套用預設格線，
+  // 因此不寫 border:none，而是把邊框顏色設成跟儲存格背景色一樣，讓格線視覺上完全隱形
+  const NOBORDER_PAPER = `border:1px solid #E7E1D2;mso-border-alt:none;`;
+  const NOBORDER_CARD = `border:1px solid ${CARD};mso-border-alt:none;`;
+  // 分隔線改用「有背景色的實心列」而不是 border-top/bottom：
+  // Word 貼上表格時對 border-collapse 的合併規則不可靠，緊鄰的隱形邊框
+  // 常會贏過真正想顯示的那一條線，導致分隔線整條消失；純色列不受此影響。
+  // 但儲存格高度若只靠 CSS height/line-height，Word 仍會套用預設字級的最小列高，
+  // 讓這條線變得又粗又醜；因此改用一張透明 1x1 圖並用 width/height 屬性撐開，
+  // Word 對 <img> 的實際尺寸屬性比對 CSS 高度更忠實，才能穩定做出真正的細線。
+  const SPACER_GIF = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==';
+  const dividerRow = (height) => `<tr><td bgcolor="${INK}" style="padding:0;font-size:0;line-height:0;mso-line-height-rule:exactly;${NOBORDER_CARD}background-color:${INK};"><img src="${SPACER_GIF}" width="1" height="${height}" alt="" style="display:block;border:0;outline:none;width:1px;height:${height}px;line-height:${height}px;"></td></tr>`;
+
   const itemsHtml = items.map((it, i) => `
-    <tr><td style="padding:20px 26px;border:none;border-bottom:1px solid ${i === items.length - 1 ? 'transparent' : LINE};">
-      <p style="margin:0 0 7px 0;font-family:${SANS};font-size:11px;font-weight:bold;letter-spacing:1.5px;color:${BLUE};">${pad2(i + 1)}${it.media ? '&nbsp;&nbsp;/&nbsp;&nbsp;' + it.media.toUpperCase() : ''}</p>
-      <p style="margin:0;font-family:${SERIF};font-size:19px;font-weight:bold;line-height:28px;color:${INK};">${it.titleHtml}</p>
-      ${it.sub ? `<p style="margin:6px 0 0 0;font-family:${SANS};font-size:12px;line-height:19px;color:${MUTED};">${it.sub}</p>` : ''}
-      ${it.points.map(p => `<p style="margin:10px 0 0 0;font-family:${SANS};font-size:15px;line-height:26px;color:#3D382F;">${p}</p>`).join('')}
-      ${it.extra.map(p => `<p style="margin:8px 0 0 0;font-family:${SANS};font-size:14px;line-height:24px;color:${MUTED};">${p}</p>`).join('')}
+    <tr><td style="padding:22px 26px;border-left:1px solid ${CARD};border-right:1px solid ${CARD};border-top:1px solid ${CARD};mso-border-alt:none;border-bottom:1px solid ${i === items.length - 1 ? CARD : LINE};">
+      <p style="margin:0 0 8px 0;font-family:${SANS};font-size:14px;mso-line-height-rule:exactly;line-height:18px;font-weight:bold;letter-spacing:1.5px;color:${BLUE};">${pad2(i + 1)}${it.media ? '&nbsp;&nbsp;/&nbsp;&nbsp;' + it.media.toUpperCase() : ''}</p>
+      <p style="margin:0;font-family:${SERIF};font-size:24px;mso-line-height-rule:exactly;line-height:33px;font-weight:bold;color:${INK};">${it.titleHtml}</p>
+      ${it.origTitle ? `<p style="margin:5px 0 0 0;font-family:${SANS};font-size:13px;font-style:italic;mso-line-height-rule:exactly;line-height:19px;color:${MUTED};">${it.origTitle}</p>` : ''}
+      ${it.sub ? `<p style="margin:6px 0 0 0;font-family:${SANS};font-size:16px;mso-line-height-rule:exactly;line-height:23px;color:${MUTED};">${it.sub}</p>` : ''}
+      ${it.points.map(p => `<p style="margin:10px 0 0 0;font-family:${SANS};font-size:19px;mso-line-height-rule:exactly;line-height:30px;color:#3D382F;">${p}</p>`).join('')}
+      ${it.extra.map(p => `<p style="margin:8px 0 0 0;font-family:${SANS};font-size:18px;mso-line-height-rule:exactly;line-height:28px;color:${MUTED};">${p}</p>`).join('')}
     </td></tr>`).join('');
 
   const bodyHtml = items.length ? itemsHtml : `
-    <tr><td style="padding:22px 26px;border:none;"><p style="margin:0;font-family:${SANS};font-size:14px;line-height:26px;color:${MUTED};white-space:pre-wrap;">${lines.join('\n')}</p></td></tr>`;
+    <tr><td style="padding:22px 26px;${NOBORDER_CARD}"><p style="margin:0;font-family:${SANS};font-size:18px;mso-line-height-rule:exactly;line-height:30px;color:${MUTED};white-space:pre-wrap;">${lines.join('\n')}</p></td></tr>`;
 
   return `
-<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#E7E1D2" style="width:100%;border:none;border-collapse:collapse;background-color:#E7E1D2;">
- <tr><td align="center" valign="top" style="padding:24px 12px;border:none;">
-  <table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="${CARD}" style="width:600px;border:none;border-collapse:collapse;background-color:${CARD};">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#E7E1D2" style="width:100%;${NOBORDER_PAPER}border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;background-color:#E7E1D2;font-family:${SANS};">
+ <tr><td align="center" valign="top" style="padding:24px 12px;text-align:center;${NOBORDER_PAPER}">
+  <table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="${CARD}" style="width:600px;margin:0 auto;text-align:left;${NOBORDER_CARD}border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;background-color:${CARD};font-family:${SANS};">
 
-    ${kicker ? `<tr><td style="padding:24px 26px 14px;border:none;border-bottom:3px solid ${INK};">
-      <p style="margin:0;font-family:${SANS};font-size:16px;font-weight:bold;line-height:24px;color:${INK};">${kicker}</p>
-    </td></tr>` : ''}
+    ${kicker ? `<tr><td style="padding:24px 26px 14px;${NOBORDER_CARD}">
+      <p style="margin:0;font-family:${SANS};font-size:20px;mso-line-height-rule:exactly;line-height:28px;font-weight:bold;color:${INK};">${kicker}</p>
+    </td></tr>
+    ${dividerRow(3)}` : ''}
 
     ${bodyHtml}
 
-    ${closing.length ? `<tr><td style="padding:4px 26px 14px;border:none;">
-      ${closing.map(l => `<p style="margin:0 0 6px 0;font-family:${SANS};font-size:14px;line-height:25px;color:#3D382F;">${l}</p>`).join('')}
+    ${closing.length ? `<tr><td style="padding:4px 26px 14px;${NOBORDER_CARD}">
+      ${closing.map(l => `<p style="margin:0 0 6px 0;font-family:${SANS};font-size:18px;mso-line-height-rule:exactly;line-height:29px;color:#3D382F;">${l}</p>`).join('')}
     </td></tr>` : ''}
 
-    <tr><td style="padding:14px 26px 22px;border:none;border-top:2px solid ${INK};">
-      <p style="margin:0;font-family:${SANS};font-size:10px;letter-spacing:2px;color:${MUTED};">UDN DAILY NEWSLETTER&nbsp;&nbsp;·&nbsp;&nbsp;${dateText}</p>
+    ${dividerRow(2)}
+    <tr><td style="padding:14px 26px 22px;${NOBORDER_CARD}">
+      <p style="margin:0 0 5px 0;font-family:${SANS};font-size:11px;mso-line-height-rule:exactly;line-height:17px;color:${MUTED};">※ 各位可按「讚」加入 udn.com Co. Ltd. 聯合線上股份有限公司 FB 粉絲團，每天精選產業新聞即於各位 FB 動態消息板上出現。</p>
+      <p style="margin:0;font-family:${SANS};font-size:11px;mso-line-height-rule:exactly;line-height:17px;color:${MUTED};">※ udn 同仁可於 FB 個人資料學歷與工作經驗中任職公司欄填上「udn.com Co. Ltd. 聯合線上股份有限公司」，每天精選產業新聞即於各位 FB 動態消息板上出現。</p>
     </td></tr>
   </table>
  </td></tr>
@@ -684,6 +787,7 @@ document.getElementById('copyFinalBtn').addEventListener('click', async () => {
 });
 
 // ═══ 初始化 ═══
+loadState();
 renderNewsList();
 renderSelectedList();
 renderPromptPreview();
