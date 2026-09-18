@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>udn Daily Newsletter 產製工作台</title>
+<title>udn 新聞蒐集台</title>
 <script src="https://cdn.tailwindcss.com"></script>
 <style>
   :root {
@@ -24,775 +24,639 @@
   .display { font-family: Georgia, "Times New Roman", "Noto Serif TC", "Songti TC", serif; }
   .tracking-label { letter-spacing: .22em; text-transform: uppercase; }
 
-  .card {
-    background: var(--card);
-    border: 2px solid var(--ink);
-    box-shadow: 6px 6px 0 var(--ink);
-  }
-  .field {
-    background: #fff;
-    border: 2px solid var(--ink);
-    padding: .5rem .65rem;
-    width: 100%;
-    font-size: .9rem;
-  }
-  .field:focus { outline: 3px solid var(--blue); outline-offset: -1px; }
+  .card { background: var(--card); border: 2px solid var(--ink); box-shadow: 6px 6px 0 var(--ink); }
   .btn {
-    border: 2px solid var(--ink);
-    font-weight: 700;
-    padding: .7rem 1rem;
-    box-shadow: 4px 4px 0 var(--ink);
-    transition: transform .08s ease, box-shadow .08s ease;
-    cursor: pointer;
+    border: 2px solid var(--ink); font-weight: 700; padding: .55rem .9rem;
+    box-shadow: 4px 4px 0 var(--ink); transition: transform .08s ease, box-shadow .08s ease; cursor: pointer;
   }
   .btn:hover { transform: translate(2px,2px); box-shadow: 2px 2px 0 var(--ink); }
   .btn:active { transform: translate(4px,4px); box-shadow: 0 0 0 var(--ink); }
   .btn-blue { background: var(--blue); color: #fff; }
   .btn-ink { background: var(--ink); color: var(--card); }
   .btn-paper { background: var(--card); color: var(--ink); }
-  .btn:disabled { opacity: .45; cursor: not-allowed; transform: none; box-shadow: 4px 4px 0 var(--ink); }
+  .btn:disabled { opacity: .4; cursor: not-allowed; transform: none; box-shadow: 4px 4px 0 var(--ink); }
 
-  .num-chip {
-    display: inline-flex; align-items: center; justify-content: center;
-    width: 30px; height: 30px; background: var(--blue); color: #fff;
-    font-weight: 700; font-size: .95rem; flex: none;
+  .field { background: #fff; border: 2px solid var(--ink); padding: .45rem .6rem; font-size: .9rem; width: 100%; }
+  .field:focus { outline: 3px solid var(--blue); outline-offset: -1px; }
+
+  /* 篩選膠囊 */
+  .chip {
+    border: 2px solid var(--ink); background: var(--card); color: var(--ink);
+    padding: .3rem .7rem; font-size: .8rem; font-weight: 700; cursor: pointer; user-select: none;
   }
+  .chip.on { background: var(--ink); color: var(--card); }
+  .chip.tier-S.on { background: #B2371C; border-color: #B2371C; color: #fff; }
+  .chip.tier-A.on { background: var(--blue); border-color: var(--blue); color: #fff; }
+  .chip.tier-B.on { background: #1F7A3D; border-color: #1F7A3D; color: #fff; }
+  .chip.tier-C.on { background: var(--muted); border-color: var(--muted); color: #fff; }
+
+  .badge {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 22px; height: 22px; font-size: .72rem; font-weight: 700; color: #fff; flex: none;
+  }
+  .badge-S { background: #B2371C; }
+  .badge-A { background: var(--blue); }
+  .badge-B { background: #1F7A3D; }
+  .badge-C { background: var(--muted); }
+
   .news-row { border: 2px solid var(--ink); background: #fff; }
   .news-row.is-checked { background: #F2F1FF; }
-  .drag-over { box-shadow: inset 0 4px 0 var(--blue); }
-  .dragging { opacity: .35; }
+  .news-row.is-done { opacity: .45; }
+  .clamp2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 
-  #previewBox {
-    background: #CFC8B6;
-    border: 2px solid var(--ink);
-    padding: 18px;
-    overflow: auto;
-  }
-  .spinner {
-    display:inline-block; width:16px; height:16px; vertical-align:-2px;
-    border:3px solid rgba(255,255,255,.4); border-top-color:#fff; border-radius:50%;
-    animation: spin .8s linear infinite;
-  }
-  @keyframes spin { to { transform: rotate(360deg); } }
+  #tray { box-shadow: 0 -4px 0 var(--ink); }
 </style>
 </head>
-<body class="min-h-screen">
+<body class="min-h-screen pb-28">
 
 <!-- ░░ 頁首 ░░ -->
 <header style="background:var(--ink);color:var(--card);">
-  <div class="max-w-[900px] mx-auto px-5 py-3 flex items-center justify-between text-[10px] tracking-label" style="border-bottom:1px solid rgba(251,248,241,.25);">
+  <div class="max-w-[1000px] mx-auto px-5 py-3 flex items-center justify-between text-[10px] tracking-label" style="border-bottom:1px solid rgba(251,248,241,.25);">
     <span>udn media industry watch</span>
     <span id="headerDate" style="color:#A79E8B;"></span>
   </div>
-  <div class="max-w-[900px] mx-auto px-5 py-7 flex items-end gap-4">
-    <div style="width:56px;height:56px;background:var(--blue);color:#fff;" class="flex items-center justify-center display text-2xl font-bold">📰</div>
-    <div>
+  <div class="max-w-[1000px] mx-auto px-5 py-6 flex items-end gap-4 flex-wrap">
+    <div style="width:52px;height:52px;background:var(--blue);color:#fff;" class="flex items-center justify-center display text-2xl font-bold">◎</div>
+    <div class="flex-1 min-w-[260px]">
       <div class="text-[10px] tracking-label" style="color:#A79E8B;">udn daily</div>
-      <h1 class="display font-bold leading-none" style="font-size:42px;letter-spacing:-1px;">News<span style="color:#6B85FF;">letter</span></h1>
-      <p class="text-xs mt-2" style="color:#A79E8B;">填入 API Key → 挑選新聞並排序 → 一鍵生成可直接貼進 Outlook 的電子報</p>
+      <h1 class="display font-bold leading-none" style="font-size:38px;letter-spacing:-1px;">新聞<span style="color:#6B85FF;">蒐集台</span></h1>
+      <p class="text-xs mt-2" style="color:#A79E8B;">每天自動抓取各來源新文章 → 勾選你要的 → 一鍵送進電子報工作台</p>
     </div>
+    <a href="newsletter.html" class="btn btn-paper text-sm">→ 前往電子報工作台</a>
   </div>
 </header>
 
-<main class="max-w-[900px] mx-auto px-5 py-8 space-y-8">
+<main class="max-w-[1000px] mx-auto px-5 py-6 space-y-5">
 
-  <!-- ░░ ① API 設定 ░░ -->
-  <section class="card p-5">
-    <div class="flex items-center gap-3 mb-4">
-      <span class="num-chip">1</span>
-      <h2 class="display text-xl font-bold">AI 連線設定</h2>
+  <!-- ░░ 篩選列 ░░ -->
+  <section class="card p-4 space-y-3">
+    <div class="flex items-center gap-2 flex-wrap">
+      <span class="text-[10px] tracking-label mr-1" style="color:var(--muted);">分級</span>
+      <span class="chip tier-S on" data-tier="S">S</span>
+      <span class="chip tier-A on" data-tier="A">A</span>
+      <span class="chip tier-B on" data-tier="B">B</span>
+      <span class="chip tier-C on" data-tier="C">C</span>
+
+      <span class="text-[10px] tracking-label ml-4 mr-1" style="color:var(--muted);">語言</span>
+      <span class="chip on" data-lang="zh-TW">繁中</span>
+      <span class="chip on" data-lang="zh-CN">簡中</span>
+      <span class="chip on" data-lang="en">英文</span>
+
+      <span class="text-[10px] tracking-label ml-4 mr-1" style="color:var(--muted);">時間</span>
+      <span class="chip" data-range="1">今天</span>
+      <span class="chip" data-range="3">3 天</span>
+      <span class="chip" data-range="7">7 天</span>
+      <span class="chip" data-range="99">全部</span>
+      <span class="chip on" data-range="custom">自訂日期</span>
     </div>
-    <div class="flex flex-wrap items-center justify-between gap-3" style="border:2px dashed var(--ink);padding:.75rem 1rem;">
-      <span id="apiStatusText" class="text-sm" style="color:var(--muted);">尚未設定 API Key</span>
-      <button id="openSettingsBtn" class="btn btn-paper text-sm">⚙︎ 設定 API</button>
+
+    <div id="customRange" class="flex items-center gap-2 flex-wrap text-sm"
+         style="border:2px dashed var(--line);padding:.5rem .7rem;">
+      <span class="text-[10px] tracking-label" style="color:var(--muted);">日期範圍：</span>
+      <input id="dateFrom" type="date" class="field" style="width:auto;">
+      <span style="color:var(--muted);">~</span>
+      <input id="dateTo" type="date" class="field" style="width:auto;">
+      <span class="text-xs" style="color:var(--muted);"></span>
+    </div>
+
+    <div class="flex items-center gap-3 flex-wrap">
+      <input id="searchInput" type="search" placeholder="搜尋標題或摘要關鍵字…" class="field flex-1 min-w-[220px]">
+      <label class="flex items-center gap-2 text-sm whitespace-nowrap">
+        <input id="hideDone" type="checkbox" checked> 隱藏已處理
+      </label>
+      <button id="resetDoneBtn" class="btn btn-paper text-xs">重設已處理</button>
+    </div>
+
+    <div class="flex items-baseline gap-3 flex-wrap text-xs" style="color:var(--muted);">
+      <span id="countText">載入中…</span>
+      <span id="updatedText"></span>
+      <button id="toggleStatus" class="underline" style="color:var(--blue);">來源狀態</button>
+    </div>
+
+    <div id="statusPanel" class="hidden text-xs space-y-2" style="border-top:2px dashed var(--line);padding-top:.6rem;">
+      <div id="statusOk"></div>
+      <div id="statusFail"></div>
+      <div id="statusDisabled"></div>
     </div>
   </section>
 
-  <!-- ░░ ② 新聞待選與排序 ░░ -->
-  <section class="card p-5">
-    <div class="flex items-center gap-3 mb-4 flex-wrap">
-      <span class="num-chip">2</span>
-      <h2 class="display text-xl font-bold flex-1">新聞待選與排序</h2>
-      <button id="clearAllBtn" type="button" class="btn btn-paper text-xs" style="color:#B2371C;">🗑 清空資料</button>
+  <!-- ░░ 新聞列表 ░░ -->
+  <section id="newsList" class="space-y-2"></section>
+
+  <!-- ░░ 來源管理（平常收合） ░░ -->
+  <details id="sourceAdmin" class="card p-4 mt-8">
+    <summary class="text-[11px] tracking-label cursor-pointer select-none" style="color:var(--muted);">
+      ⚙︎ 來源管理 — 新增或停用新聞來源
+    </summary>
+
+    <p class="text-xs mt-3" style="color:var(--muted);">
+      在這裡調整後按最下面的「產生設定檔」，複製產生的內容，貼到 GitHub 上的
+      <code>sources.json</code> 取代原本全部內容，按 Commit 就完成。下次自動抓取就會生效。
+    </p>
+
+    <div id="adminList" class="mt-4 space-y-1"></div>
+
+    <div class="mt-5" style="border-top:2px dashed var(--line);padding-top:.8rem;">
+      <h3 class="text-[11px] tracking-label mb-2" style="color:var(--muted);">新增來源</h3>
+      <div class="grid grid-cols-1 sm:grid-cols-6 gap-2">
+        <input id="newSrcName" type="text" placeholder="來源名稱" class="field sm:col-span-3">
+        <select id="newSrcTier" class="field sm:col-span-1">
+          <option value="S">S 級</option>
+          <option value="A" selected>A 級</option>
+          <option value="B">B 級</option>
+          <option value="C">C 級</option>
+        </select>
+        <select id="newSrcLang" class="field sm:col-span-2">
+          <option value="zh-TW">繁中</option>
+          <option value="zh-CN">簡中</option>
+          <option value="en" selected>英文</option>
+        </select>
+        <input id="newSrcSite" type="url" placeholder="網站首頁網址 https://…" class="field sm:col-span-3">
+        <input id="newSrcFeed" type="url" placeholder="RSS 網址（不確定可留空）" class="field sm:col-span-3">
+        <button id="addSrcBtn" type="button" class="btn btn-ink sm:col-span-6 text-sm">＋ 加入來源清單</button>
+      </div>
+      <p class="text-xs mt-2" style="color:var(--muted);">
+        RSS 網址多半是網站網址後面加上 <code>/feed/</code> 或 <code>/rss.xml</code>。
+        留空的話這筆會先設成停用，等有人補上網址才會開始抓。
+      </p>
     </div>
 
-    <div class="mb-5">
-      <h3 class="text-[11px] tracking-label mb-2" style="color:var(--muted);">新增新聞 — 貼上標題與網址即可</h3>
-      <form id="addNewsForm" class="grid grid-cols-1 sm:grid-cols-6 gap-2">
-        <input id="newTitle" type="text" placeholder="新聞標題" required class="field sm:col-span-6">
-        <input id="newUrl" type="url" placeholder="原文網址 https://…（自動判斷媒體名稱）" required class="field sm:col-span-4">
-        <input id="newMedia" type="text" placeholder="媒體名稱（可留空）" class="field sm:col-span-2">
-        <button type="submit" class="btn btn-ink sm:col-span-6">＋ 加入清單（自動勾選）</button>
-      </form>
+    <div class="mt-5" style="border-top:2px dashed var(--line);padding-top:.8rem;">
+      <button id="genConfigBtn" type="button" class="btn btn-blue text-sm">產生設定檔</button>
+      <div id="configOut" class="hidden mt-3">
+        <textarea id="configText" readonly class="field font-mono text-xs" style="height:200px;background:#F2EFE6;"></textarea>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 mt-2">
+          <button id="copyConfigBtn" type="button" class="btn btn-ink text-sm">⧉ 複製設定內容</button>
+          <a id="githubEditLink" href="#" target="_blank" class="btn btn-paper text-sm text-center">↗ 開啟 GitHub 編輯頁</a>
+        </div>
+        <p id="copyConfigMsg" class="hidden text-sm mt-2" style="background:#E6F6EA;border:2px solid #1F7A3D;color:#155C2D;padding:.5rem .7rem;">
+          已複製。到 GitHub 的 sources.json 按鉛筆圖示編輯，全選原本內容後貼上，再按 Commit changes。
+        </p>
+        <p class="text-xs mt-2" style="color:var(--muted);">
+          如果 GitHub 連結打不開，可能你的分支叫 master，把網址裡的 <code>main</code> 改成 <code>master</code> 即可。
+        </p>
+      </div>
     </div>
+  </details>
 
-    <div class="mb-5">
-      <h3 class="text-[11px] tracking-label mb-2" style="color:var(--muted);">新聞清單 — 取消勾選可排除，可點「編輯」修改內容</h3>
-      <div id="newsList" class="space-y-2"></div>
-    </div>
-
-    <div>
-      <h3 class="text-[11px] tracking-label mb-2" style="color:var(--muted);">發送順序 — 拖曳或用 ▲▼ 調整</h3>
-      <div id="selectedList" class="space-y-2" style="border:2px dashed var(--ink);padding:.6rem;min-height:70px;"></div>
-    </div>
-  </section>
-
-  <!-- ░░ ③ 生成與複製 ░░ -->
-  <section class="card p-5">
-    <div class="flex items-center gap-3 mb-4">
-      <span class="num-chip">3</span>
-      <h2 class="display text-xl font-bold">生成電子報</h2>
-    </div>
-
-    <button id="generateBtn" class="btn btn-blue w-full text-lg mb-3">
-      <span id="generateBtnText">✦ 一鍵生成最終電子報</span>
-    </button>
-    <div id="errorMsg" class="hidden text-sm mb-3" style="background:#FFE9E4;border:2px solid #C0341A;color:#8E2410;padding:.6rem .8rem;"></div>
-
-    <details class="mb-5">
-      <summary class="text-[11px] tracking-label cursor-pointer select-none" style="color:var(--muted);">檢視送出的提示詞</summary>
-      <textarea id="promptPreview" readonly class="field mt-2 font-mono text-xs" style="height:180px;background:#F2EFE6;"></textarea>
-    </details>
-
-    <h3 class="text-[11px] tracking-label mb-2" style="color:var(--muted);">電子報預覽 — 可直接在框內編輯微調</h3>
-    <div id="previewBox" contenteditable="true" style="min-height:320px;max-height:620px;">
-      <p style="color:#5F584C;font-size:14px;text-align:center;padding:40px 0;">尚未生成。請先設定 API Key，勾選新聞後按上方按鈕。</p>
-    </div>
-
-    <div class="mt-4">
-      <button id="copyFinalBtn" class="btn btn-ink w-full">⧉ 複製信件內容</button>
-    </div>
-    <div id="copyFinalMsg" class="hidden text-sm mt-3" style="background:#E6F6EA;border:2px solid #1F7A3D;color:#155C2D;padding:.6rem .8rem;">已複製完整格式，請直接在 Outlook 內文按 Ctrl+V 貼上。</div>
-  </section>
-
-  <footer class="text-center text-[10px] tracking-label pb-4" style="color:var(--muted);">
-    udn daily newsletter workbench · 純前端工具，金鑰僅存於本機
-  </footer>
 </main>
 
-<!-- ░░ API 設定小視窗 ░░ -->
-<div id="settingsModalOverlay" class="fixed inset-0 z-50 flex items-center justify-center p-4" style="background:rgba(20,17,12,.65);">
-  <div class="card max-w-md w-full p-6" style="box-shadow:10px 10px 0 var(--blue);">
-    <h2 class="display text-2xl font-bold mb-1">設定 AI API</h2>
-    <p class="text-xs mb-5" style="color:var(--muted);">API Key 只會從你的瀏覽器直接送往 AI 供應商，不經過任何第三方伺服器。輸入完成後此視窗關閉，金鑰不會顯示在畫面上。</p>
-
-    <div class="space-y-3">
-      <div>
-        <label class="text-[10px] tracking-label" style="color:var(--muted);">AI 供應商</label>
-        <select id="providerSelect" class="field mt-1">
-          <option value="google">Google Gemini</option>
-          <option value="anthropic">Anthropic Claude</option>
-          <option value="openai">OpenAI</option>
-        </select>
-      </div>
-      <div>
-        <label class="text-[10px] tracking-label" style="color:var(--muted);">模型名稱</label>
-        <input id="modelInput" type="text" class="field mt-1" value="gemini-3.6-flash">
-      </div>
-      <div>
-        <label class="text-[10px] tracking-label" style="color:var(--muted);">API Key</label>
-        <input id="apiKeyInput" type="password" placeholder="貼上你的 API Key" autocomplete="off" class="field mt-1 font-mono">
-      </div>
-      <label class="flex items-center gap-2 text-xs" style="color:var(--muted);">
-        <input id="rememberKeyCheckbox" type="checkbox">
-        記住 API Key（僅存於本機瀏覽器，不會上傳）
-      </label>
-    </div>
-
-    <div id="settingsError" class="hidden text-sm mt-3" style="background:#FFE9E4;border:2px solid #C0341A;color:#8E2410;padding:.5rem .7rem;"></div>
-
-    <div class="grid grid-cols-2 gap-3 mt-5">
-      <button id="cancelSettingsBtn" class="btn btn-paper">先不設定</button>
-      <button id="confirmSettingsBtn" class="btn btn-blue">確認並關閉</button>
-    </div>
+<!-- ░░ 底部選取列 ░░ -->
+<div id="tray" class="fixed bottom-0 left-0 right-0 hidden" style="background:var(--card);border-top:2px solid var(--ink);">
+  <div class="max-w-[1000px] mx-auto px-5 py-3 flex items-center gap-3 flex-wrap">
+    <span id="trayCount" class="font-bold"></span>
+    <span class="flex-1"></span>
+    <button id="clearSelBtn" class="btn btn-paper text-sm">清除選取</button>
+    <button id="sendBtn" class="btn btn-blue text-sm">↗ 加入電子報工作台</button>
   </div>
 </div>
 
+<script src="news.js" onerror="window.__newsLoadFailed=true"></script>
 <script>
-// ═══ 資料 ═══
-let newsData = [];
-let selectedIds = [];
-let editingId = null;
+// ═══ 狀態 ═══
+const LS_SELECTED = 'udn_collect_selected';
+const LS_DONE = 'udn_collect_done';
+// 電子報工作台用的鍵，兩支工具在同一個網域下共用
+const LS_NEWSDATA = 'udn_nl_newsData';
+const LS_NL_SELECTED = 'udn_nl_selectedIds';
 
-function saveState() {
-  try {
-    localStorage.setItem('udn_nl_newsData', JSON.stringify(newsData));
-    localStorage.setItem('udn_nl_selectedIds', JSON.stringify(selectedIds));
-  } catch {}
-}
-function loadState() {
-  try {
-    const nd = localStorage.getItem('udn_nl_newsData');
-    const sid = localStorage.getItem('udn_nl_selectedIds');
-    if (nd) newsData = JSON.parse(nd) || [];
-    if (sid) selectedIds = (JSON.parse(sid) || []).filter(id => newsData.some(n => n.id === id));
-  } catch {}
-}
+const DATA = window.NEWS_DATA || null;
+let selected = loadSet(LS_SELECTED);
+let done = loadSet(LS_DONE);
+let filters = {
+  tiers: new Set(['S', 'A', 'B', 'C']),
+  langs: new Set(['zh-TW', 'zh-CN', 'en']),
+  range: 'custom',   // 數字 = 最近幾天；'custom' = 用下面的 from/to（預設昨天到今天）
+  from: '',
+  to: '',
+  q: '',
+  hideDone: true,
+};
 
-function uid() { return 'id-' + Math.random().toString(36).slice(2, 10); }
+function loadSet(key) {
+  try { return new Set(JSON.parse(localStorage.getItem(key) || '[]')); } catch { return new Set(); }
+}
+function saveSet(key, set) {
+  try { localStorage.setItem(key, JSON.stringify([...set])); } catch {}
+}
 function escapeHtml(s) {
   return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 }
 function pad2(n) { return String(n).padStart(2, '0'); }
-function todayStr() {
+
+document.getElementById('headerDate').textContent = (() => {
   const d = new Date();
   return `${d.getFullYear()}/${pad2(d.getMonth() + 1)}/${pad2(d.getDate())}`;
-}
-document.getElementById('headerDate').textContent = todayStr();
+})();
 
-// ═══ 新聞清單 ═══
-function renderNewsList() {
+// ═══ 時間顯示 ═══
+function itemTime(it) { return new Date(it.date || it.firstSeen); }
+function relTime(it) {
+  const d = itemTime(it);
+  if (isNaN(d.getTime())) return '';
+  const now = new Date();
+  const startOfToday = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  const days = Math.floor((startOfToday - new Date(d.getFullYear(), d.getMonth(), d.getDate())) / 86400000);
+  const hhmm = `${pad2(d.getHours())}:${pad2(d.getMinutes())}`;
+  if (days <= 0) return `今天 ${hhmm}`;
+  if (days === 1) return `昨天 ${hhmm}`;
+  if (days < 7) return `${days} 天前`;
+  return `${d.getMonth() + 1}/${d.getDate()}`;
+}
+
+// ═══ 篩選 ═══
+// 英文關鍵字用詞首比對，否則搜「AI」會配到 training、available 這類單字裡的 ai；
+// 中日文沒有詞界可用，維持子字串比對
+function buildMatcher(q) {
+  if (!q) return null;
+  if (/[一-鿿぀-ヿ]/.test(q)) {
+    const lower = q.toLowerCase();
+    return (text) => text.toLowerCase().includes(lower);
+  }
+  const escaped = q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const re = new RegExp('\\b' + escaped, 'i');
+  return (text) => re.test(text);
+}
+
+function visibleItems() {
+  if (!DATA) return [];
+  const now = Date.now();
+  const matcher = buildMatcher(filters.q.trim());
+  return DATA.items.filter(it => {
+    if (!filters.tiers.has(it.tier)) return false;
+    if (!filters.langs.has(it.lang)) return false;
+    if (filters.hideDone && done.has(it.id) && !selected.has(it.id)) return false;
+    if (filters.range === 'custom') {
+      const t = itemTime(it).getTime();
+      if (isNaN(t)) return false;
+      // 日期輸入沒有時區標示，會被當成當地時間，正好是使用者想的那個日期
+      if (filters.from && t < new Date(filters.from + 'T00:00:00').getTime()) return false;
+      if (filters.to && t > new Date(filters.to + 'T23:59:59.999').getTime()) return false;
+    } else if (filters.range < 99) {
+      const t = itemTime(it).getTime();
+      if (isNaN(t) || now - t > filters.range * 86400000) return false;
+    }
+    if (matcher && !matcher(it.title + ' ' + (it.summary || ''))) return false;
+    return true;
+  });
+}
+
+// ═══ 渲染 ═══
+function render() {
   const box = document.getElementById('newsList');
-  box.innerHTML = '';
-  if (newsData.length === 0) {
-    box.innerHTML = '<p class="text-sm text-center py-6" style="color:var(--muted);">尚無新聞，請於上方新增</p>';
+  if (!DATA) {
+    box.innerHTML = `<div class="card p-6 text-sm">
+      <p class="font-bold mb-2">還沒有新聞資料</p>
+      <p style="color:var(--muted);">找不到 news.js。如果是剛建好的 repo，到 GitHub 的 Actions 頁面手動執行一次「每日抓取新聞」就會產生。</p>
+    </div>`;
+    document.getElementById('countText').textContent = '';
     return;
   }
-  newsData.forEach(item => {
-    const on = selectedIds.includes(item.id);
 
-    if (editingId === item.id) {
-      const row = document.createElement('div');
-      row.className = 'news-row p-3';
-      row.innerHTML = `
-        <div class="grid grid-cols-1 sm:grid-cols-6 gap-2">
-          <input type="text" data-edit="title" value="${escapeHtml(item.title)}" placeholder="新聞標題" class="field sm:col-span-6">
-          <input type="url" data-edit="url" value="${escapeHtml(item.url)}" placeholder="原文網址" class="field sm:col-span-4">
-          <input type="text" data-edit="media" value="${escapeHtml(item.media)}" placeholder="媒體名稱" class="field sm:col-span-2">
+  const items = visibleItems();
+  document.getElementById('countText').textContent = `顯示 ${items.length} 篇 / 近 ${DATA.keepDays} 天共 ${DATA.items.length} 篇`;
+
+  if (items.length === 0) {
+    box.innerHTML = `<div class="card p-6 text-sm text-center" style="color:var(--muted);">
+      沒有符合條件的新聞，試著放寬時間範圍或分級篩選。
+    </div>`;
+    return;
+  }
+
+  // 依分級分組，S 在最前面
+  const groups = { S: [], A: [], B: [], C: [] };
+  items.forEach(it => { if (groups[it.tier]) groups[it.tier].push(it); });
+
+  let html = '';
+  ['S', 'A', 'B', 'C'].forEach(tier => {
+    const list = groups[tier];
+    if (!list.length) return;
+    html += `<h2 class="text-[11px] tracking-label pt-3 pb-1" style="color:var(--muted);">${tier} 級 — ${list.length} 篇</h2>`;
+    list.forEach(it => {
+      const on = selected.has(it.id);
+      const isDone = done.has(it.id);
+      html += `
+      <div class="news-row flex items-start gap-3 p-3 ${on ? 'is-checked' : ''} ${isDone && !on ? 'is-done' : ''}" data-id="${it.id}">
+        <input type="checkbox" class="pick mt-1" data-id="${it.id}" ${on ? 'checked' : ''}>
+        <span class="badge badge-${it.tier} mt-0.5">${it.tier}</span>
+        <div class="flex-1 min-w-0">
+          <div class="flex items-center gap-2 flex-wrap text-[11px]" style="color:var(--muted);">
+            <b style="color:var(--blue);">${escapeHtml(it.source)}</b>
+            <span>${relTime(it)}</span>
+          </div>
+          <a href="${escapeHtml(it.url)}" target="_blank" rel="noopener"
+             class="block text-[15px] font-semibold leading-snug mt-1 hover:underline">${escapeHtml(it.title)}</a>
+          ${it.summary ? `<p class="clamp2 text-[13px] mt-1" style="color:#3D382F;">${escapeHtml(it.summary)}</p>` : ''}
         </div>
-        <div class="grid grid-cols-2 gap-2 mt-2">
-          <button type="button" data-save="${item.id}" class="btn btn-blue text-sm">儲存</button>
-          <button type="button" data-cancel="${item.id}" class="btn btn-paper text-sm">取消</button>
-        </div>`;
-      box.appendChild(row);
-      return;
-    }
-
-    const row = document.createElement('label');
-    row.className = 'news-row flex items-start gap-3 p-3 cursor-pointer' + (on ? ' is-checked' : '');
-    row.innerHTML = `
-      <input type="checkbox" data-id="${item.id}" class="news-checkbox mt-1" ${on ? 'checked' : ''}>
-      <span class="flex-1 min-w-0">
-        <span class="block text-[10px] tracking-label" style="color:var(--blue);">${escapeHtml(item.media)}</span>
-        <span class="block text-sm font-semibold leading-snug mt-0.5">${escapeHtml(item.title)}</span>
-        <span class="block text-[11px] truncate mt-1" style="color:var(--muted);">${escapeHtml(item.url)}</span>
-      </span>
-      <button type="button" data-edit-id="${item.id}" class="text-xs px-2" style="color:var(--blue);">編輯</button>
-      <button type="button" data-del="${item.id}" class="text-xs px-2" style="color:#B2371C;">刪除</button>`;
-    box.appendChild(row);
+        <button class="skip text-xs px-2 whitespace-nowrap" data-id="${it.id}" style="color:var(--muted);">
+          ${isDone ? '取消略過' : '略過'}
+        </button>
+      </div>`;
+    });
   });
+  box.innerHTML = html;
 
-  box.querySelectorAll('.news-checkbox').forEach(cb => {
+  box.querySelectorAll('.pick').forEach(cb => {
     cb.addEventListener('change', e => {
       const id = e.target.dataset.id;
-      if (e.target.checked) { if (!selectedIds.includes(id)) selectedIds.push(id); }
-      else { selectedIds = selectedIds.filter(x => x !== id); }
-      saveState();
-      renderNewsList(); renderSelectedList(); renderPromptPreview();
+      if (e.target.checked) selected.add(id); else selected.delete(id);
+      saveSet(LS_SELECTED, selected);
+      // 只更新這一列：整份重畫會讓捲動位置跳掉，連續勾選時很難用
+      const row = e.target.closest('.news-row');
+      row.classList.toggle('is-checked', e.target.checked);
+      row.classList.toggle('is-done', done.has(id) && !e.target.checked);
+      renderTray();
     });
   });
-  box.querySelectorAll('[data-del]').forEach(btn => {
-    btn.addEventListener('click', e => {
-      e.preventDefault();
-      const id = btn.dataset.del;
-      newsData = newsData.filter(n => n.id !== id);
-      selectedIds = selectedIds.filter(x => x !== id);
-      if (editingId === id) editingId = null;
-      saveState();
-      renderNewsList(); renderSelectedList(); renderPromptPreview();
-    });
-  });
-  box.querySelectorAll('[data-edit-id]').forEach(btn => {
-    btn.addEventListener('click', e => {
-      e.preventDefault();
-      editingId = btn.dataset.editId;
-      renderNewsList();
-    });
-  });
-  box.querySelectorAll('[data-cancel]').forEach(btn => {
-    btn.addEventListener('click', e => {
-      e.preventDefault();
-      editingId = null;
-      renderNewsList();
-    });
-  });
-  box.querySelectorAll('[data-save]').forEach(btn => {
-    btn.addEventListener('click', e => {
-      e.preventDefault();
-      const id = btn.dataset.save;
-      const row = btn.closest('.news-row');
-      const title = row.querySelector('[data-edit="title"]').value.trim();
-      const url = row.querySelector('[data-edit="url"]').value.trim();
-      const media = row.querySelector('[data-edit="media"]').value.trim();
-      if (!title || !url) return;
-      const item = newsData.find(n => n.id === id);
-      if (item) { item.title = title; item.url = url; item.media = media || guessMediaFromUrl(url) || '未知媒體'; }
-      editingId = null;
-      saveState();
-      renderNewsList(); renderSelectedList(); renderPromptPreview();
+  box.querySelectorAll('.skip').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const id = btn.dataset.id;
+      if (done.has(id)) done.delete(id); else done.add(id);
+      saveSet(LS_DONE, done);
+      render();
     });
   });
 }
 
-// ═══ 排序清單 ═══
-let dragSrcId = null;
-function renderSelectedList() {
-  const box = document.getElementById('selectedList');
-  box.innerHTML = '';
-  if (selectedIds.length === 0) {
-    box.innerHTML = '<p class="text-sm text-center py-4" style="color:var(--muted);">尚未勾選任何新聞</p>';
+function renderTray() {
+  const tray = document.getElementById('tray');
+  if (selected.size === 0) { tray.classList.add('hidden'); return; }
+  tray.classList.remove('hidden');
+  document.getElementById('trayCount').textContent = `已選 ${selected.size} 篇`;
+}
+
+function renderStatus() {
+  if (!DATA) return;
+  document.getElementById('updatedText').textContent =
+    '資料更新：' + new Date(DATA.generatedAt).toLocaleString('zh-TW');
+
+  const ok = DATA.sources.filter(s => s.ok);
+  const fail = DATA.sources.filter(s => !s.ok);
+  document.getElementById('statusOk').innerHTML =
+    `<b>正常 ${ok.length} 個來源</b>：` + ok.map(s => `${escapeHtml(s.name)}(${s.count})`).join('、');
+  document.getElementById('statusFail').innerHTML = fail.length
+    ? `<b style="color:#B2371C;">今天抓取失敗 ${fail.length} 個</b>：` + fail.map(s => `${escapeHtml(s.name)}(${escapeHtml(s.error || '')})`).join('、')
+    : '<b style="color:#1F7A3D;">今天所有來源都正常</b>';
+  document.getElementById('statusDisabled').innerHTML = (DATA.disabled && DATA.disabled.length)
+    ? `<b style="color:var(--muted);">尚未啟用 ${DATA.disabled.length} 個</b>：` +
+      DATA.disabled.map(s => `${escapeHtml(s.name)}${s.note ? '（' + escapeHtml(s.note) + '）' : ''}`).join('、')
+    : '';
+}
+
+// ═══ 送進電子報工作台 ═══
+function sendToNewsletter() {
+  if (!DATA || selected.size === 0) return;
+  const chosen = DATA.items.filter(it => selected.has(it.id));
+
+  let newsData = [];
+  let nlSelected = [];
+  try { newsData = JSON.parse(localStorage.getItem(LS_NEWSDATA) || '[]') || []; } catch {}
+  try { nlSelected = JSON.parse(localStorage.getItem(LS_NL_SELECTED) || '[]') || []; } catch {}
+
+  let added = 0, skipped = 0;
+  chosen.forEach(it => {
+    if (newsData.some(n => n.url === it.url)) { skipped++; return; }
+    // id 格式與電子報工作台的 uid() 一致
+    const id = 'id-' + Math.random().toString(36).slice(2, 10);
+    newsData.push({ id, media: it.source, title: it.title, url: it.url });
+    nlSelected.push(id);
+    added++;
+  });
+
+  try {
+    localStorage.setItem(LS_NEWSDATA, JSON.stringify(newsData));
+    localStorage.setItem(LS_NL_SELECTED, JSON.stringify(nlSelected));
+  } catch (e) {
+    alert('寫入失敗：' + e.message);
     return;
   }
-  selectedIds.forEach((id, idx) => {
-    const item = newsData.find(n => n.id === id);
-    if (!item) return;
-    const row = document.createElement('div');
-    row.className = 'news-row flex items-center gap-2 p-2';
-    row.draggable = true;
-    row.dataset.id = id;
-    row.innerHTML = `
-      <span class="num-chip" style="width:26px;height:26px;font-size:.8rem;">${idx + 1}</span>
-      <span class="cursor-grab select-none" style="color:var(--muted);">⠿</span>
-      <span class="flex-1 min-w-0 truncate text-sm"><b>${escapeHtml(item.media)}</b> · ${escapeHtml(item.title)}</span>
-      <button data-action="up" data-id="${id}" class="move-btn text-xs px-1" ${idx === 0 ? 'disabled style="opacity:.25"' : ''}>▲</button>
-      <button data-action="down" data-id="${id}" class="move-btn text-xs px-1" ${idx === selectedIds.length - 1 ? 'disabled style="opacity:.25"' : ''}>▼</button>
-      <button data-action="remove" data-id="${id}" class="move-btn text-xs px-1" style="color:#B2371C;">✕</button>`;
-    box.appendChild(row);
-  });
 
-  box.querySelectorAll('[draggable="true"]').forEach(el => {
-    el.addEventListener('dragstart', () => { dragSrcId = el.dataset.id; el.classList.add('dragging'); });
-    el.addEventListener('dragend', () => {
-      el.classList.remove('dragging');
-      box.querySelectorAll('.news-row').forEach(d => d.classList.remove('drag-over'));
-    });
-    el.addEventListener('dragover', e => { e.preventDefault(); el.classList.add('drag-over'); });
-    el.addEventListener('dragleave', () => el.classList.remove('drag-over'));
-    el.addEventListener('drop', e => {
-      e.preventDefault();
-      el.classList.remove('drag-over');
-      const targetId = el.dataset.id;
-      if (dragSrcId && dragSrcId !== targetId) {
-        const from = selectedIds.indexOf(dragSrcId), to = selectedIds.indexOf(targetId);
-        selectedIds.splice(from, 1);
-        selectedIds.splice(to, 0, dragSrcId);
-        saveState();
-        renderSelectedList(); renderPromptPreview();
-      }
-    });
-  });
+  // 送出後標記為已處理，明天就不會再出現
+  chosen.forEach(it => done.add(it.id));
+  selected.clear();
+  saveSet(LS_DONE, done);
+  saveSet(LS_SELECTED, selected);
 
-  box.querySelectorAll('.move-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      const id = btn.dataset.id, act = btn.dataset.action, i = selectedIds.indexOf(id);
-      if (act === 'up' && i > 0) [selectedIds[i - 1], selectedIds[i]] = [selectedIds[i], selectedIds[i - 1]];
-      else if (act === 'down' && i < selectedIds.length - 1) [selectedIds[i + 1], selectedIds[i]] = [selectedIds[i], selectedIds[i + 1]];
-      else if (act === 'remove') selectedIds = selectedIds.filter(x => x !== id);
-      saveState();
-      renderNewsList(); renderSelectedList(); renderPromptPreview();
-    });
-  });
-}
-
-// ═══ 新增新聞 ═══
-function guessMediaFromUrl(url) {
-  try {
-    const host = new URL(url).hostname.replace(/^www\./, '');
-    const known = {
-      'udn.com': '聯合報', 'money.udn.com': '經濟日報', 'stars.udn.com': '聯合報',
-      'reuters.com': 'Reuters', 'bloomberg.com': 'Bloomberg', 'cw.com.tw': '天下雜誌',
-      'cna.com.tw': '中央社', 'ltn.com.tw': '自由時報', 'chinatimes.com': '中國時報',
-      'nytimes.com': 'The New York Times', 'wsj.com': 'The Wall Street Journal',
-      'bbc.com': 'BBC', 'techcrunch.com': 'TechCrunch', 'bnext.com.tw': '數位時代',
-      'technews.tw': 'TechNews', 'mashdigi.com': 'Mashdigi', 'techorange.com': 'TechOrange',
-    };
-    if (known[host]) return known[host];
-    const p = host.split('.');
-    const base = p.length > 2 ? p[p.length - 2] : p[0];
-    return base.charAt(0).toUpperCase() + base.slice(1);
-  } catch { return ''; }
-}
-
-const newUrlInput = document.getElementById('newUrl');
-const newMediaInput = document.getElementById('newMedia');
-newUrlInput.addEventListener('blur', () => {
-  if (!newMediaInput.value.trim() && newUrlInput.value.trim()) {
-    newMediaInput.value = guessMediaFromUrl(newUrlInput.value.trim());
+  const msg = skipped > 0
+    ? `已加入 ${added} 篇（${skipped} 篇已在清單中，略過）`
+    : `已加入 ${added} 篇`;
+  if (confirm(msg + '\n\n要現在前往電子報工作台嗎？')) {
+    location.href = 'newsletter.html';
+  } else {
+    render(); renderTray();
   }
-});
-
-document.getElementById('addNewsForm').addEventListener('submit', e => {
-  e.preventDefault();
-  const url = newUrlInput.value.trim();
-  const item = {
-    id: uid(),
-    media: newMediaInput.value.trim() || guessMediaFromUrl(url) || '未知媒體',
-    title: document.getElementById('newTitle').value.trim(),
-    url,
-  };
-  if (!item.title || !item.url) return;
-  newsData.push(item);
-  selectedIds.push(item.id);
-  e.target.reset();
-  document.getElementById('newTitle').focus();
-  saveState();
-  renderNewsList(); renderSelectedList(); renderPromptPreview();
-});
-
-// ═══ 清空資料 ═══
-document.getElementById('clearAllBtn').addEventListener('click', () => {
-  if (newsData.length === 0) return;
-  if (!confirm('確定要清空所有新聞資料嗎？此動作無法復原。')) return;
-  newsData = [];
-  selectedIds = [];
-  editingId = null;
-  saveState();
-  renderNewsList(); renderSelectedList(); renderPromptPreview();
-});
-
-// ═══ 提示詞 ═══
-function buildPrompt() {
-  const ordered = selectedIds.map(id => newsData.find(n => n.id === id)).filter(Boolean);
-  let list = '';
-  ordered.forEach((n, i) => { list += `${i + 1}. 【${n.media}】${n.title}\n   原文網址：${n.url}\n\n`; });
-  if (!list) list = '（尚未勾選任何新聞）\n';
-
-  return `你是一位資深媒體產業分析師。請為以下新聞撰寫 50 字的重點摘要（帶入商業或科技影響），並嚴格按照以下格式輸出（不要說廢話，也不要輸出 Markdown 的程式碼區塊）：
-
-信件主旨：udn Daily Newsletter_${todayStr()}
-
-${todayStr()}　市場訊息
-
-[請依序替我處理以下新聞，格式如下]
-📍【媒體名稱】[新聞標題的繁體中文翻譯](原文網址)
-原文｜[若原新聞標題為外文，請填入該原文標題；若原新聞標題本身就是中文，則整行都不要輸出]
-• 摘要重點：[重點說明...]
-
-標題請一律翻譯成通順的繁體中文放入 [ ] 中；「原文｜」這一行只填原文標題本身，不要加上「英文原文標題」等其他文字說明。
-
----（各新聞間請用分隔線隔開）---
-
-需要處理的新聞清單如下：
-${list}`;
-}
-function renderPromptPreview() {
-  document.getElementById('promptPreview').value = buildPrompt();
 }
 
-// ═══ API 呼叫 ═══
-async function callAnthropic(key, model, prompt) {
-  const res = await fetch('https://api.anthropic.com/v1/messages', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'x-api-key': key,
-      'anthropic-version': '2023-06-01',
-      'anthropic-dangerous-direct-browser-access': 'true',
-    },
-    body: JSON.stringify({ model, max_tokens: 2048, messages: [{ role: 'user', content: prompt }] }),
+// ═══ 事件 ═══
+document.querySelectorAll('.chip').forEach(chip => {
+  chip.addEventListener('click', () => {
+    if (chip.dataset.tier) {
+      const t = chip.dataset.tier;
+      if (filters.tiers.has(t)) filters.tiers.delete(t); else filters.tiers.add(t);
+      chip.classList.toggle('on');
+    } else if (chip.dataset.lang) {
+      const l = chip.dataset.lang;
+      if (filters.langs.has(l)) filters.langs.delete(l); else filters.langs.add(l);
+      chip.classList.toggle('on');
+    } else if (chip.dataset.range) {
+      const v = chip.dataset.range;
+      filters.range = (v === 'custom') ? 'custom' : Number(v);
+      document.querySelectorAll('.chip[data-range]').forEach(c => c.classList.remove('on'));
+      chip.classList.add('on');
+      document.getElementById('customRange').classList.toggle('hidden', filters.range !== 'custom');
+    }
+    render();
   });
-  const data = await res.json();
-  if (!res.ok) throw new Error(data?.error?.message || `Anthropic API 錯誤（${res.status}）`);
-  return (data.content || []).map(b => b.text || '').join('\n');
-}
-
-async function callOpenAI(key, model, prompt) {
-  const res = await fetch('https://api.openai.com/v1/chat/completions', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${key}` },
-    body: JSON.stringify({ model, messages: [{ role: 'user', content: prompt }] }),
-  });
-  const data = await res.json();
-  if (!res.ok) throw new Error(data?.error?.message || `OpenAI API 錯誤（${res.status}）`);
-  return data.choices?.[0]?.message?.content || '';
-}
-
-async function callGoogle(key, model, prompt) {
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(model)}:generateContent?key=${encodeURIComponent(key)}`;
-  const res = await fetch(url, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }] }),
-  });
-  const data = await res.json();
-  if (!res.ok) throw new Error(data?.error?.message || `Google Gemini API 錯誤（${res.status}）`);
-  return (data?.candidates?.[0]?.content?.parts || []).map(p => p.text || '').join('\n');
-}
-
-// ═══ 設定視窗 ═══
-const apiKeyInput = document.getElementById('apiKeyInput');
-const rememberKeyCheckbox = document.getElementById('rememberKeyCheckbox');
-const providerSelect = document.getElementById('providerSelect');
-const modelInput = document.getElementById('modelInput');
-const settingsModalOverlay = document.getElementById('settingsModalOverlay');
-const settingsError = document.getElementById('settingsError');
-const apiStatusText = document.getElementById('apiStatusText');
-
-const defaultModels = { anthropic: 'claude-sonnet-5', openai: 'gpt-4o-mini', google: 'gemini-3.6-flash' };
-const providerLabels = { anthropic: 'Anthropic Claude', openai: 'OpenAI', google: 'Google Gemini' };
-let hasApiKey = false;
-
-try {
-  const k = localStorage.getItem('udn_nl_api_key');
-  const p = localStorage.getItem('udn_nl_provider');
-  const m = localStorage.getItem('udn_nl_model');
-  if (k) { apiKeyInput.value = k; rememberKeyCheckbox.checked = true; hasApiKey = true; }
-  if (p) providerSelect.value = p;
-  if (m) modelInput.value = m;
-} catch {}
-
-providerSelect.addEventListener('change', () => {
-  modelInput.value = defaultModels[providerSelect.value] || '';
 });
 
-function persistSettings() {
+document.getElementById('searchInput').addEventListener('input', e => {
+  filters.q = e.target.value;
+  render();
+});
+document.getElementById('hideDone').addEventListener('change', e => {
+  filters.hideDone = e.target.checked;
+  render();
+});
+document.getElementById('resetDoneBtn').addEventListener('click', () => {
+  if (!confirm('要把所有「已處理」標記清掉嗎？清掉後略過的新聞會重新出現。')) return;
+  done.clear();
+  saveSet(LS_DONE, done);
+  render();
+});
+document.getElementById('toggleStatus').addEventListener('click', () => {
+  document.getElementById('statusPanel').classList.toggle('hidden');
+});
+document.getElementById('clearSelBtn').addEventListener('click', () => {
+  selected.clear();
+  saveSet(LS_SELECTED, selected);
+  render(); renderTray();
+});
+document.getElementById('sendBtn').addEventListener('click', sendToNewsletter);
+
+// 自訂日期：預設帶入昨天到今天，直接改任一個欄位就重新篩選
+const fromInput = document.getElementById('dateFrom');
+const toInput = document.getElementById('dateTo');
+const ymd = (d) => `${d.getFullYear()}-${pad2(d.getMonth() + 1)}-${pad2(d.getDate())}`;
+toInput.value = ymd(new Date());
+fromInput.value = ymd(new Date(Date.now() - 86400000));
+filters.from = fromInput.value;
+filters.to = toInput.value;
+[fromInput, toInput].forEach(el => {
+  el.addEventListener('change', () => {
+    filters.from = fromInput.value;
+    filters.to = toInput.value;
+    render();
+  });
+});
+
+// ═══ 來源管理 ═══
+// 以 sources.json 為準，因為那才是抓取程式真正讀的檔案。若讀不到（例如把檔案
+// 存到本機直接點開，沒有伺服器），才退回用 news.js 裡的副本。
+// 這點很重要：拿過期的清單去產生設定檔，會把別人剛改的設定覆蓋掉。
+let adminSources = null;
+
+async function loadAdminSources() {
   try {
-    if (rememberKeyCheckbox.checked) {
-      localStorage.setItem('udn_nl_api_key', apiKeyInput.value);
-      localStorage.setItem('udn_nl_provider', providerSelect.value);
-      localStorage.setItem('udn_nl_model', modelInput.value);
-    } else {
-      localStorage.removeItem('udn_nl_api_key');
-      localStorage.removeItem('udn_nl_provider');
-      localStorage.removeItem('udn_nl_model');
+    const res = await fetch('sources.json', { cache: 'no-store' });
+    if (res.ok) {
+      const cfg = await res.json();
+      if (Array.isArray(cfg.sources)) return cfg.sources.map(s => ({ ...s }));
     }
   } catch {}
+  if (DATA && Array.isArray(DATA.allSources)) return DATA.allSources.map(s => ({ ...s }));
+  return null;
 }
 
-function updateApiStatus() {
-  if (hasApiKey) {
-    apiStatusText.innerHTML = `✓ 已連線 <b>${providerLabels[providerSelect.value] || providerSelect.value}</b> · <span style="color:var(--muted);">${escapeHtml(modelInput.value)}</span>`;
-    apiStatusText.style.color = 'var(--ink)';
-  } else {
-    apiStatusText.textContent = '尚未設定 API Key';
-    apiStatusText.style.color = 'var(--muted)';
-  }
-}
+const TIER_ORDER = { S: 0, A: 1, B: 2, C: 3 };
+const LANG_LABEL = { 'zh-TW': '繁中', 'zh-CN': '簡中', en: '英文' };
 
-document.getElementById('openSettingsBtn').addEventListener('click', () => {
-  settingsError.classList.add('hidden');
-  settingsModalOverlay.classList.remove('hidden');
-});
-document.getElementById('cancelSettingsBtn').addEventListener('click', () => settingsModalOverlay.classList.add('hidden'));
-document.getElementById('confirmSettingsBtn').addEventListener('click', () => {
-  if (!apiKeyInput.value.trim()) {
-    settingsError.textContent = '請先貼上 API Key，或點「先不設定」稍後再填。';
-    settingsError.classList.remove('hidden');
+function renderAdmin() {
+  const box = document.getElementById('adminList');
+  if (!adminSources) {
+    box.innerHTML = '<p class="text-sm" style="color:var(--muted);">讀不到來源清單，請確認 sources.json 跟這個頁面放在一起。</p>';
     return;
   }
-  persistSettings();
-  hasApiKey = true;
-  updateApiStatus();
-  settingsModalOverlay.classList.add('hidden');
-});
 
-// ═══ 解析 AI 回覆 → 懷舊海報風電子報（Email 相容：table + inline style）═══
-const SERIF = "Georgia,'Times New Roman','Noto Serif TC','Songti TC',serif";
-const SANS = "'Helvetica Neue',Arial,'PingFang TC','Microsoft JhengHei',sans-serif";
-const INK = '#14110C', BLUE = '#1F3CE8', CARD = '#FBF8F1', MUTED = '#7C7466', LINE = '#D6CFBE';
+  const enabledCount = adminSources.filter(s => s.enabled).length;
+  let html = `<p class="text-xs mb-2" style="color:var(--muted);">
+    共 ${adminSources.length} 個來源，目前啟用 ${enabledCount} 個</p>`;
 
-function mdLink(html, runStyle) {
-  const st = (runStyle || `color:${BLUE};`) + 'text-decoration:none;';
-  // Outlook/Word 會用內建的 Hyperlink 樣式覆寫 <a> 上的字型與大小，
-  // 因此把想要的樣式再包一層 <span> 寫在連結文字內層，Word 才會採用。
-  return html.replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g, (m, label, url) =>
-    `<a href="${url.replace(/&amp;/g, '&')}" target="_blank" style="${st}"><span style="${st}">${label}</span></a>`);
-}
+  const sorted = [...adminSources].sort((a, b) =>
+    (TIER_ORDER[a.tier] ?? 9) - (TIER_ORDER[b.tier] ?? 9) || a.name.localeCompare(b.name));
 
+  sorted.forEach(s => {
+    const i = adminSources.indexOf(s);
+    const noFeed = !s.feed;
+    html += `
+      <label class="flex items-center gap-2 p-2 text-sm" style="border:1px solid var(--line);background:#fff;">
+        <input type="checkbox" class="src-on" data-i="${i}" ${s.enabled ? 'checked' : ''} ${noFeed ? 'disabled' : ''}>
+        <select class="src-tier text-xs" data-i="${i}" style="border:1px solid var(--ink);padding:1px 2px;">
+          ${['S','A','B','C'].map(t => `<option value="${t}" ${s.tier === t ? 'selected' : ''}>${t}</option>`).join('')}
+        </select>
+        <span class="flex-1 min-w-0 truncate">${escapeHtml(s.name)}</span>
+        <span class="text-[11px] whitespace-nowrap" style="color:var(--muted);">${LANG_LABEL[s.lang] || s.lang}</span>
+        <span class="text-[11px] whitespace-nowrap" style="color:${noFeed ? '#B2371C' : 'var(--muted)'};">
+          ${noFeed ? '無 RSS' : 'RSS ✓'}
+        </span>
+      </label>`;
+  });
+  box.innerHTML = html;
 
-function parseAiResultToHtml(raw) {
-  const lines = escapeHtml(raw).split('\n');
-
-  // 主旨（用於定位開頭訊息的起點）
-  const subjectIdx = lines.findIndex(l => /信件主旨/.test(l));
-
-  // 開頭訊息（主旨之後、第一則新聞之前）
-  const firstIdx = lines.findIndex(l => l.trim().startsWith('📍'));
-  const kicker = lines
-    .slice(subjectIdx === -1 ? 0 : subjectIdx + 1, firstIdx === -1 ? lines.length : firstIdx)
-    .map(l => l.trim())
-    .filter(l => l && !/^-{3,}/.test(l))
-    .join(' ');
-
-  // 新聞區塊
-  const items = [];
-  const closing = [];
-  if (firstIdx !== -1) {
-    const blocks = [];
-    let cur = [];
-    lines.slice(firstIdx).forEach(l => {
-      if (l.trim().startsWith('📍') && cur.length) { blocks.push(cur); cur = []; }
-      cur.push(l);
+  box.querySelectorAll('.src-on').forEach(cb => {
+    cb.addEventListener('change', e => {
+      adminSources[Number(e.target.dataset.i)].enabled = e.target.checked;
+      renderAdmin();
     });
-    if (cur.length) blocks.push(cur);
-
-    blocks.forEach(block => {
-      let head = block[0].replace('📍', '').trim();
-      const body = block.slice(1).map(l => l.trim()).filter(l => l && !/^-{3,}/.test(l));
-
-      let media = '';
-      head = head.replace(/【(.+?)】/, (m, g) => { media = g.trim(); return ''; }).trim();
-
-      const link = head.match(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/);
-      let titleHtml, sub = '';
-      if (link) {
-        titleHtml = mdLink(link[0], `color:${BLUE};font-family:${SERIF};font-size:24px;font-weight:bold;`);
-        sub = head.slice(link.index + link[0].length).trim().replace(/^[（(]|[)）]$/g, '');
-      } else {
-        titleHtml = head;
-      }
-
-      let origTitle = '';
-      const origMatch = body.find(l => /^原文[｜:：]\s*.+/.test(l));
-      if (origMatch) origTitle = origMatch.replace(/^原文[｜:：]\s*/, '').trim();
-      const rest = body.filter(l => l !== origMatch);
-
-      const points = rest
-        .filter(l => l.startsWith('•'))
-        .map(l => l.replace(/^•\s*/, '').replace(/^摘要重點\s*\d*\s*[:：]\s*/, ''));
-      const extra = rest.filter(l => !l.startsWith('•'));
-
-      if (!titleHtml && !points.length) { closing.push(...extra); return; }
-      items.push({ media, titleHtml, sub, origTitle, points, extra });
+  });
+  box.querySelectorAll('.src-tier').forEach(sel => {
+    sel.addEventListener('change', e => {
+      adminSources[Number(e.target.dataset.i)].tier = e.target.value;
+      renderAdmin();
     });
-  }
-
-  // Word 貼上「保持原始格式」時，沒有明確設色的表格邊框會被強制套用預設格線，
-  // 因此不寫 border:none，而是把邊框顏色設成跟儲存格背景色一樣，讓格線視覺上完全隱形
-  const NOBORDER_PAPER = `border:1px solid #E7E1D2;mso-border-alt:none;`;
-  const NOBORDER_CARD = `border:1px solid ${CARD};mso-border-alt:none;`;
-  // 分隔線改用「有背景色的實心列」而不是 border-top/bottom：
-  // Word 貼上表格時對 border-collapse 的合併規則不可靠，緊鄰的隱形邊框
-  // 常會贏過真正想顯示的那一條線，導致分隔線整條消失；純色列不受此影響。
-  // 但儲存格高度若只靠 CSS height/line-height，Word 仍會套用預設字級的最小列高，
-  // 讓這條線變得又粗又醜；因此改用一張透明 1x1 圖並用 width/height 屬性撐開，
-  // Word 對 <img> 的實際尺寸屬性比對 CSS 高度更忠實，才能穩定做出真正的細線。
-  const SPACER_GIF = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==';
-  const dividerRow = (height) => `<tr><td bgcolor="${INK}" style="padding:0;font-size:0;line-height:0;mso-line-height-rule:exactly;${NOBORDER_CARD}background-color:${INK};"><img src="${SPACER_GIF}" width="1" height="${height}" alt="" style="display:block;border:0;outline:none;width:1px;height:${height}px;line-height:${height}px;"></td></tr>`;
-
-  const itemsHtml = items.map((it, i) => `
-    <tr><td style="padding:22px 26px;border-left:1px solid ${CARD};border-right:1px solid ${CARD};border-top:1px solid ${CARD};mso-border-alt:none;border-bottom:1px solid ${i === items.length - 1 ? CARD : LINE};">
-      <p style="margin:0 0 8px 0;font-family:${SANS};font-size:14px;mso-line-height-rule:exactly;line-height:18px;font-weight:bold;letter-spacing:1.5px;color:${BLUE};">${pad2(i + 1)}${it.media ? '&nbsp;&nbsp;/&nbsp;&nbsp;' + it.media.toUpperCase() : ''}</p>
-      <p style="margin:0;font-family:${SERIF};font-size:24px;mso-line-height-rule:exactly;line-height:33px;font-weight:bold;color:${INK};">${it.titleHtml}</p>
-      ${it.origTitle ? `<p style="margin:5px 0 0 0;font-family:${SANS};font-size:13px;font-style:italic;mso-line-height-rule:exactly;line-height:19px;color:${MUTED};">${it.origTitle}</p>` : ''}
-      ${it.sub ? `<p style="margin:6px 0 0 0;font-family:${SANS};font-size:16px;mso-line-height-rule:exactly;line-height:23px;color:${MUTED};">${it.sub}</p>` : ''}
-      ${it.points.map(p => `<p style="margin:10px 0 0 0;font-family:${SANS};font-size:19px;mso-line-height-rule:exactly;line-height:30px;color:#3D382F;">${p}</p>`).join('')}
-      ${it.extra.map(p => `<p style="margin:8px 0 0 0;font-family:${SANS};font-size:18px;mso-line-height-rule:exactly;line-height:28px;color:${MUTED};">${p}</p>`).join('')}
-    </td></tr>`).join('');
-
-  const bodyHtml = items.length ? itemsHtml : `
-    <tr><td style="padding:22px 26px;${NOBORDER_CARD}"><p style="margin:0;font-family:${SANS};font-size:18px;mso-line-height-rule:exactly;line-height:30px;color:${MUTED};white-space:pre-wrap;">${lines.join('\n')}</p></td></tr>`;
-
-  return `
-<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#E7E1D2" style="width:100%;${NOBORDER_PAPER}border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;background-color:#E7E1D2;font-family:${SANS};">
- <tr><td align="center" valign="top" style="padding:24px 12px;text-align:center;${NOBORDER_PAPER}">
-  <table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="${CARD}" style="width:600px;margin:0 auto;text-align:left;${NOBORDER_CARD}border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;background-color:${CARD};font-family:${SANS};">
-
-    ${kicker ? `<tr><td style="padding:24px 26px 14px;${NOBORDER_CARD}">
-      <p style="margin:0;font-family:${SANS};font-size:20px;mso-line-height-rule:exactly;line-height:28px;font-weight:bold;color:${INK};">${kicker}</p>
-    </td></tr>
-    ${dividerRow(3)}` : ''}
-
-    ${bodyHtml}
-
-    ${closing.length ? `<tr><td style="padding:4px 26px 14px;${NOBORDER_CARD}">
-      ${closing.map(l => `<p style="margin:0 0 6px 0;font-family:${SANS};font-size:18px;mso-line-height-rule:exactly;line-height:29px;color:#3D382F;">${l}</p>`).join('')}
-    </td></tr>` : ''}
-
-    ${dividerRow(2)}
-    <tr><td style="padding:14px 26px 22px;${NOBORDER_CARD}">
-      <p style="margin:0 0 5px 0;font-family:${SANS};font-size:11px;mso-line-height-rule:exactly;line-height:17px;color:${MUTED};">※ 各位可按「讚」加入 udn.com Co. Ltd. 聯合線上股份有限公司 FB 粉絲團，每天精選產業新聞即於各位 FB 動態消息板上出現。</p>
-      <p style="margin:0;font-family:${SANS};font-size:11px;mso-line-height-rule:exactly;line-height:17px;color:${MUTED};">※ udn 同仁可於 FB 個人資料學歷與工作經驗中任職公司欄填上「udn.com Co. Ltd. 聯合線上股份有限公司」，每天精選產業新聞即於各位 FB 動態消息板上出現。</p>
-    </td></tr>
-  </table>
- </td></tr>
-</table>`;
+  });
 }
 
-// ═══ 生成 ═══
-const generateBtn = document.getElementById('generateBtn');
-const generateBtnText = document.getElementById('generateBtnText');
-const errorMsg = document.getElementById('errorMsg');
-const previewBox = document.getElementById('previewBox');
-
-function setLoading(on) {
-  generateBtn.disabled = on;
-  generateBtnText.innerHTML = on ? '<span class="spinner"></span> 產製中，請稍候…' : '✦ 一鍵生成最終電子報';
+function buildSourcesJson(list) {
+  const rows = list.map(s => {
+    const parts = [
+      `"tier": ${JSON.stringify(s.tier)}`,
+      `"name": ${JSON.stringify(s.name)}`,
+      `"lang": ${JSON.stringify(s.lang)}`,
+      `"site": ${JSON.stringify(s.site || '')}`,
+      `"feed": ${JSON.stringify(s.feed || '')}`,
+      `"enabled": ${s.enabled ? 'true' : 'false'}`,
+    ];
+    if (s.match) parts.push(`"match": ${JSON.stringify(s.match)}`);
+    parts.push(`"note": ${JSON.stringify(s.note || '')}`);
+    return '    { ' + parts.join(', ') + ' }';
+  });
+  const comment = '新聞來源清單。enabled=false 的來源不會被抓取，補到可用的 feed 後把 feed 填上、enabled 改成 true 即可。';
+  return '{\n  "_comment": ' + JSON.stringify(comment) + ',\n  "sources": [\n' + rows.join(',\n') + '\n  ]\n}\n';
 }
 
-generateBtn.addEventListener('click', async () => {
-  errorMsg.classList.add('hidden');
-  if (selectedIds.length === 0) {
-    errorMsg.textContent = '請先勾選至少一則新聞。';
-    errorMsg.classList.remove('hidden');
-    return;
-  }
-  const key = apiKeyInput.value.trim();
-  if (!key) {
-    errorMsg.textContent = '請先設定 API Key。';
-    errorMsg.classList.remove('hidden');
-    settingsModalOverlay.classList.remove('hidden');
-    return;
-  }
+document.getElementById('addSrcBtn').addEventListener('click', () => {
+  if (!adminSources) return;
+  const name = document.getElementById('newSrcName').value.trim();
+  const site = document.getElementById('newSrcSite').value.trim();
+  const feed = document.getElementById('newSrcFeed').value.trim();
+  if (!name || !site) { alert('請至少填寫來源名稱和網站網址。'); return; }
+  if (adminSources.some(s => s.name === name)) { alert('清單裡已經有同名的來源了。'); return; }
 
-  persistSettings();
-  renderPromptPreview();
-  setLoading(true);
-  try {
-    const provider = providerSelect.value;
-    const model = modelInput.value.trim() || defaultModels[provider];
-    let raw;
-    if (provider === 'anthropic') raw = await callAnthropic(key, model, buildPrompt());
-    else if (provider === 'google') raw = await callGoogle(key, model, buildPrompt());
-    else raw = await callOpenAI(key, model, buildPrompt());
-    previewBox.innerHTML = parseAiResultToHtml(raw);
-  } catch (err) {
-    errorMsg.textContent = '生成失敗：' + err.message;
-    errorMsg.classList.remove('hidden');
-  } finally {
-    setLoading(false);
-  }
+  adminSources.push({
+    tier: document.getElementById('newSrcTier').value,
+    name,
+    lang: document.getElementById('newSrcLang').value,
+    site,
+    feed,
+    enabled: !!feed,
+    note: feed ? '' : '待補 RSS 網址',
+  });
+  ['newSrcName', 'newSrcSite', 'newSrcFeed'].forEach(id => { document.getElementById(id).value = ''; });
+  renderAdmin();
+  document.getElementById('genConfigBtn').click();
 });
 
-// ═══ 複製 Rich Text ═══
-document.getElementById('copyFinalBtn').addEventListener('click', async () => {
-  const msg = document.getElementById('copyFinalMsg');
-  if (!previewBox.innerText.trim() || previewBox.innerText.includes('尚未生成')) return;
+document.getElementById('genConfigBtn').addEventListener('click', () => {
+  if (!adminSources) return;
+  document.getElementById('configText').value = buildSourcesJson(adminSources);
+  document.getElementById('configOut').classList.remove('hidden');
 
-  const range = document.createRange();
-  range.selectNodeContents(previewBox);
-  const sel = window.getSelection();
-  sel.removeAllRanges();
-  sel.addRange(range);
+  // 從網址推出 repo 位置，不用寫死
+  let owner = 'hikaruna320', repo = 'udn-newsletter';
+  const m = location.hostname.match(/^([^.]+)\.github\.io$/);
+  if (m) {
+    owner = m[1];
+    const seg = location.pathname.split('/').filter(Boolean)[0];
+    if (seg) repo = seg;
+  }
+  document.getElementById('githubEditLink').href =
+    `https://github.com/${owner}/${repo}/edit/main/sources.json`;
+});
 
+document.getElementById('copyConfigBtn').addEventListener('click', async () => {
+  const ta = document.getElementById('configText');
   let ok = false;
-  try { ok = document.execCommand('copy'); } catch { ok = false; }
-  if (!ok) {
-    try {
-      await navigator.clipboard.write([new ClipboardItem({
-        'text/html': new Blob([previewBox.innerHTML], { type: 'text/html' }),
-        'text/plain': new Blob([previewBox.innerText], { type: 'text/plain' }),
-      })]);
-      ok = true;
-    } catch { ok = false; }
+  try {
+    await navigator.clipboard.writeText(ta.value);
+    ok = true;
+  } catch {
+    ta.select();
+    try { ok = document.execCommand('copy'); } catch { ok = false; }
   }
-  sel.removeAllRanges();
-
+  const msg = document.getElementById('copyConfigMsg');
   if (ok) {
     msg.classList.remove('hidden');
-    setTimeout(() => msg.classList.add('hidden'), 3000);
+    setTimeout(() => msg.classList.add('hidden'), 6000);
   } else {
-    alert('複製失敗，請手動選取預覽框內容後按 Ctrl+C。');
+    alert('複製失敗，請手動選取上方文字後按 Ctrl+C。');
   }
 });
 
 // ═══ 初始化 ═══
-loadState();
-renderNewsList();
-renderSelectedList();
-renderPromptPreview();
-updateApiStatus();
-if (hasApiKey) settingsModalOverlay.classList.add('hidden');
+renderStatus();
+render();
+renderTray();
+loadAdminSources().then(list => { adminSources = list; renderAdmin(); });
 </script>
 </body>
 </html>
