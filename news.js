@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-19T19:13:40.062Z",
+ "generatedAt": "2026-09-20T00:46:29.438Z",
  "keepDays": 14,
  "sources": [
   {
@@ -126,7 +126,7 @@ window.NEWS_DATA = {
    "feed": "https://news.cnyes.com/rss/v1/news/category/headline",
    "ok": true,
    "error": null,
-   "count": 48
+   "count": 49
   },
   {
    "name": "人人都是產品經理",
@@ -234,7 +234,7 @@ window.NEWS_DATA = {
    "feed": "https://www.theguardian.com/uk/media/rss",
    "ok": true,
    "error": null,
-   "count": 13
+   "count": 12
   },
   {
    "name": "Search Engine Roundtable",
@@ -837,6 +837,210 @@ window.NEWS_DATA = {
  ],
  "items": [
   {
+   "id": "ghx45m",
+   "title": "美軍稱護航掃雷奏效 荷姆茲海峽石油運輸量創半年新高",
+   "url": "https://news.cnyes.com/news/id/6611092",
+   "summary": "荷姆茲海峽過去兩週原油與LNG運量創6個月新高，美軍護航與掃雷行動被指見效 美國中央司令部司令庫珀稱，波斯灣盟國數月來經海峽運送逾10億桶原油 沙國仍受無人機與胡塞攻擊威脅；美方與盟國、保險業者及航運公司合作盼再提高通行量",
+   "date": "2026-09-20T00:30:02.000Z",
+   "firstSeen": "2026-09-20T00:46:29.438Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "fx9cfg",
+   "title": "Hannah Waddingham and Octavia Spencer’s ‘Ride or Die’ Canceled at Prime Video After One Season",
+   "url": "https://www.thewrap.com/creative-content/tv-shows/ride-or-die-canceled-amazon-prime-video",
+   "summary": "The action adventure series is reportedly being shopped to other services by Paramount Television The post Hannah Waddingham and Octavia Spencer’s ‘Ride or Die’ Canceled at Prime Video After One Season appeared first on TheWrap.",
+   "date": "2026-09-20T00:17:33.000Z",
+   "firstSeen": "2026-09-20T00:46:29.438Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "161r8lj",
+   "title": "致敬經典Game Boy外觀！HIDIZS「AP30 Music Boy」募資破50萬美元",
+   "url": "https://mashdigi.com/paying-homage-to-the-classic-game-boy-design-hidizs-ap30-music-boy-crowdfunding-surpasses-500000",
+   "summary": "知名音響品牌HIDIZS近期在Kickstarter平台上推出的「AP30 Music Boy」高解析音樂播放 […]",
+   "date": "2026-09-20T00:00:25.000Z",
+   "firstSeen": "2026-09-20T00:46:29.438Z",
+   "source": "mashdigi",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://mashdigi.com"
+  },
+  {
+   "id": "5fpvqt",
+   "title": "查爾斯國王一封信完美切割哈利與梅根，展現英國王室無可挑剔的危機處理",
+   "url": "https://www.thenewslens.com/article/270127",
+   "summary": "本文從公關視角分析，英王查爾斯致函定調哈利夫婦為「非公職成員」，是一次高明的危機管理。此舉不僅主動劃清界線、奪回話語權，更成功捍衛王室品牌與制度尊嚴，鞏固君主制正當性。",
+   "date": "2026-09-19T23:59:00.000Z",
+   "firstSeen": "2026-09-20T00:46:29.438Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "5fpvrk",
+   "title": "【2026威尼斯影展】主競賽得獎名單分析：當國族存亡、身體政治與科技失控在水都交會",
+   "url": "https://www.thenewslens.com/article/270131",
+   "summary": "第83屆威尼斯影展，丹麥導演梅艾爾圖希《女人，未知》獲金獅獎與最佳女演員，打破慣例。李滄東《假如愛有如果》獲評審團大獎。本屆得獎作品政治意味濃厚，聚焦跨國合作、戰爭衝突與人權議題，藝術論述自由成核心。",
+   "date": "2026-09-19T23:58:00.000Z",
+   "firstSeen": "2026-09-20T00:46:29.438Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "5fpvvc",
+   "title": "中國投資出現34年最大跌幅：三大支柱同時緊縮，台灣應提防三層經濟衝擊",
+   "url": "https://www.thenewslens.com/article/270175",
+   "summary": "中國固定資產投資創下1992年來最大跌幅，且衰退已從房地產擴散至基建與製造業，顯示整體信心正根本性轉弱。此結構性轉變非單純景氣問題，將對台灣構成需求萎縮、供給競爭加劇與市場分化等多層次衝擊。",
+   "date": "2026-09-19T23:57:00.000Z",
+   "firstSeen": "2026-09-20T00:46:29.438Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "5fpvtm",
+   "title": "2026強聖嬰警訊：極端氣候來襲，台灣的「治理速度」跟上預警了嗎？",
+   "url": "https://www.thenewslens.com/article/270159",
+   "summary": "聖嬰現象是對政府治理的預警。台灣應建立跨部會前置機制，將預測轉化為決策行動，於災害前完成準備，而非僅止於演練。唯有讓預警改變當下，才能建立真正的氣候韌性。",
+   "date": "2026-09-19T23:56:00.000Z",
+   "firstSeen": "2026-09-20T00:46:29.438Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "hlv0i8",
+   "title": "Melissa Barrera Says It’s “Beautiful” to See Macklemore Receive Support After Ed Sheeran Tour Firing: “I Didn’t Get That When It Happened to Me”",
+   "url": "https://www.hollywoodreporter.com/music/music-news/melissa-barrera-macklemore-palestine-ed-sheeran-1236706164",
+   "summary": "The actress was fired from the 'Scream' franchise in 2023 after sharing her support for Palestine.",
+   "date": "2026-09-19T23:24:51.000Z",
+   "firstSeen": "2026-09-20T00:46:29.438Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "13qr8ri",
+   "title": "Mark Ruffalo Urges California AG Rob Bonta to Reject Paramount Settlement: ‘The People Don’t Want It!’",
+   "url": "https://www.thewrap.com/industry-news/deals-ma/mark-ruffalo-slams-paramount-settlement-talks",
+   "summary": "The actor calls upon Bay Area friends to demonstrate outside the AG office in Oakland The post Mark Ruffalo Urges California AG Rob Bonta to Reject Paramount Settlement: ‘The People Don’t Want It!’ appeared first on TheWrap.",
+   "date": "2026-09-19T22:56:40.000Z",
+   "firstSeen": "2026-09-20T00:46:29.438Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "15awvqr",
+   "title": "Tom Cruise Reveals How He Cut ‘Digger’ Transformation Time From Six Hours to Under One",
+   "url": "https://www.hollywoodreporter.com/movies/movie-news/tom-cruise-digger-transformation-makeup-cut-time-1236706159",
+   "summary": "Alejandro G. Iñárritu’s dark comedy with an unrecognizable Cruise as the lead opens in theaters Oct. 2.",
+   "date": "2026-09-19T22:22:28.000Z",
+   "firstSeen": "2026-09-20T00:46:29.438Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "nv4o1y",
+   "title": "Strictly Come Dancing review – delighted new hosts helps show feel genuinely fresh",
+   "url": "https://www.theguardian.com/tv-and-radio/2026/sep/19/strictly-come-dancing-review-delighted-new-hosts-helps-show-feel-genuinely-fresh",
+   "summary": "<p>The presenters look terrified and some of the celebs are hard to identify, but Strictly remains a rare refuge of joy </p><p>At this point, Strictly Come Dancing cannot be allowed to fail. When we’re all living off our Wes Streeting-mandated prepper rations, it’s the only thing that will keep us g",
+   "date": "2026-09-19T22:16:11.000Z",
+   "firstSeen": "2026-09-20T00:46:29.438Z",
+   "source": "The Guardian 媒體版",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.theguardian.com/uk/media"
+  },
+  {
+   "id": "2u523o",
+   "title": "Naomi Watts Dedicates Donostia Award to Her ‘Mulholland Drive’ Director David Lynch: “I Miss You”",
+   "url": "https://www.hollywoodreporter.com/movies/movie-news/naomi-watts-san-sebastian-donostia-award-david-lynch-film-1236706124",
+   "summary": "At the San Sebastian Film Festival Saturday night, Watts also shouted out her 'The Impossible' co-star Tom Holland and explained why she was grateful to be getting opportunities \"as a woman of my age.\"",
+   "date": "2026-09-19T21:19:07.000Z",
+   "firstSeen": "2026-09-20T00:46:29.438Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "17wf6gb",
+   "title": "Elizabeth Warren Blasts Paramount Merger Settlement Talks: ‘Massive Mistake to Cave’",
+   "url": "https://www.thewrap.com/industry-news/public-policy-legal/elizabeth-warren-paramount-merger-settlement-massive-mistake",
+   "summary": "The senator cites CNN's ban from the White House in warning that the merger could create a \"Trump-controlled media conglomerate\" The post Elizabeth Warren Blasts Paramount Merger Settlement Talks: ‘Massive Mistake to Cave’ appeared first on TheWrap.",
+   "date": "2026-09-19T21:07:05.000Z",
+   "firstSeen": "2026-09-20T00:46:29.438Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "148jsqo",
+   "title": "Flock reportedly tries to shrink workforce with employee buyouts",
+   "url": "https://techcrunch.com/2026/09/19/flock-reportedly-tries-to-shrink-workforce-with-employee-buyouts",
+   "summary": "Without buyouts, Flock would \"almost certainly\" need to lay off staff.",
+   "date": "2026-09-19T20:39:13.000Z",
+   "firstSeen": "2026-09-20T00:46:29.438Z",
+   "source": "TechCrunch",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://techcrunch.com"
+  },
+  {
+   "id": "16xbvrb",
+   "title": "Ed Sheeran Defended by Former Opener Aaron Rowe, Who Exited Tour in Solidarity With Macklemore",
+   "url": "https://www.thewrap.com/industry-news/business/aaron-rowe-defends-ed-sheeran-macklemore",
+   "summary": "\"I fully believe he knows that was a mistake,\" Rowe says of Sheeran, whose tour removed Macklemore as an opening act after onstage \"Free Palestine\" speeches The post Ed Sheeran Defended by Former Opener Aaron Rowe, Who Exited Tour in Solidarity With Macklemore appeared first on TheWrap.",
+   "date": "2026-09-19T20:38:08.000Z",
+   "firstSeen": "2026-09-20T00:46:29.438Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "niex29",
+   "title": "AI Actor Tilly Norwood Glitches During Piers Morgan Interview, Suddenly Switches Languages",
+   "url": "https://www.hollywoodreporter.com/news/general-news/tilly-norwood-glitches-piers-morgan-switches-languages-1236706114",
+   "summary": "While speaking with journalist and fellow guest Tom Conti on 'Piers Morgan Uncensored,' the AI actor malfunctioned and switched from English to Cantonese.",
+   "date": "2026-09-19T20:00:07.000Z",
+   "firstSeen": "2026-09-20T00:46:29.438Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "1v9ysvm",
+   "title": "Trump says it’s time to rebrand AI with a new name — and he’s also creating an AI Force",
+   "url": "https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force",
+   "summary": "Trump claimed, without evidence, that the AI backlash is a Democratic hoax.",
+   "date": "2026-09-19T19:57:47.000Z",
+   "firstSeen": "2026-09-20T00:46:29.438Z",
+   "source": "TechCrunch",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://techcrunch.com"
+  },
+  {
    "id": "gjrj88",
    "title": "Gov. Newsom Signs Bill Creating California’s First Standalone Tax Credit for Post-Production Work",
    "url": "https://www.thewrap.com/industry-news/business/newsom-signs-bill-post-production-tax-credit-california",
@@ -910,7 +1114,7 @@ window.NEWS_DATA = {
   },
   {
    "id": "cg1dsv",
-   "title": "Even mid-sprint to a secret flight, the Navy’s tech chief has a pitch for investors",
+   "title": "The US Navy just told us what’s on its tech wish list for the next several years",
    "url": "https://techcrunch.com/2026/09/19/even-mid-sprint-to-a-secret-flight-the-navys-tech-chief-had-a-pitch-for-investors",
    "summary": "Navy CTO Justin Fanelli talks co-investing alongside VCs instead of funding early research himself, recent buys like a $562 million autonomous refueling deal, and the Navy's updated wish list — from AI to quantum — for where founders should be building next.",
    "date": "2026-09-19T17:00:00.000Z",
@@ -1788,7 +1992,7 @@ window.NEWS_DATA = {
    "id": "ya7x0j",
    "title": "Duncan Sheik Remembered: Lea Michele, Melissa Barrera and More Pay Tribute to Late Musician",
    "url": "https://www.thewrap.com/creative-content/theater/duncan-sheik-tributes-lea-michele-melissa-barrera-more",
-   "summary": "\"This one hurts and does not seem real,\" the \"Glee\" alum, who starred in Sheik's \"Spring Awakening\" musical, writes The post Duncan Sheik Remembered: Lea Michele, Melissa Barrera and More Pay Tribute to Late Musician appeared first on TheWrap.",
+   "summary": "\"This one hurts and does not seem real,\" the \"Glee\" alum, who starred in Sheik's \"Spring Awakening,\" writes The post Duncan Sheik Remembered: Lea Michele, Melissa Barrera and More Pay Tribute to Late Musician appeared first on TheWrap.",
    "date": "2026-09-19T04:41:56.000Z",
    "firstSeen": "2026-09-19T09:13:57.060Z",
    "source": "TheWrap",
@@ -4315,6 +4519,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "en",
    "site": "https://www.adweek.com"
+  },
+  {
+   "id": "2u8h4",
+   "title": "Australia claims it is a global pioneer in preventing online harm – should other countries follow suit?",
+   "url": "https://www.theguardian.com/media/2026/sep/19/australia-global-leader-online-safety-big-tech-ai-social-media",
+   "summary": "<p>As Anthony Albanese heads to the US to discuss social media reform, he has shown a level of leadership not always expected from a smaller country</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">new political email</a>, <a href=\"https://app.adjust.com/w4u",
+   "date": "2026-09-18T15:00:23.000Z",
+   "firstSeen": "2026-09-20T00:46:29.438Z",
+   "source": "The Guardian 媒體版",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.theguardian.com/uk/media"
   },
   {
    "id": "ghwgi2",
@@ -7908,7 +8124,7 @@ window.NEWS_DATA = {
    "id": "c57swz",
    "title": "Facebook Pages get charged for link posts",
    "url": "https://www.socialmediatoday.com/news/facebook-pages-get-charged-for-link-posts/830743",
-   "summary": "<p>After Meta One for Business launched its subscription packages, some managers say their accounts are being limited to two link posts per month.</p>",
+   "summary": "<p>After Meta One for Business launched its subscription packages, some managers said their accounts were being limited to two link posts per month.</p>",
    "date": "2026-09-17T21:48:59.000Z",
    "firstSeen": "2026-09-18T10:03:21.928Z",
    "source": "Social Media Today",
@@ -7944,7 +8160,7 @@ window.NEWS_DATA = {
    "id": "o6968e",
    "title": "Reddit offers insights from its Health Summit event",
    "url": "https://www.socialmediatoday.com/news/reddit-offers-insights-from-its-health-summit-event/830742",
-   "summary": "<p>New data shows the extent to which users turn to each other for medical advice and diagnoses.</p>",
+   "summary": "<p>The app presented data that showed the extent to which users turn to each other for medical advice and diagnoses.</p>",
    "date": "2026-09-17T21:38:14.000Z",
    "firstSeen": "2026-09-18T10:03:21.928Z",
    "source": "Social Media Today",
@@ -8112,7 +8328,7 @@ window.NEWS_DATA = {
    "id": "3wefw1",
    "title": "Pinterest announces visual search ads and an AI restyle feature",
    "url": "https://www.socialmediatoday.com/news/pinterest-announces-visual-search-ads-and-an-ai-restyle-feature/830737",
-   "summary": "<figure><div><img src=\"https://imgproxy.divecdn.com/zYuK6nLxGefc_lAl8a6TyIK52yJ2nF3V8oma2sorWmM/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9waW50ZXJlc3RfcHJlc2VudHNfMjAyNl8xLnBuZw==.webp\"/></div></figure><p>At its Pinterest Presents event, the company unveiled new promotional ",
+   "summary": "<figure><div><img src=\"https://imgproxy.divecdn.com/zYuK6nLxGefc_lAl8a6TyIK52yJ2nF3V8oma2sorWmM/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9waW50ZXJlc3RfcHJlc2VudHNfMjAyNl8xLnBuZw==.webp\"/></div></figure><p>At the company&rsquo;s annual Pinterest presents event, it unveiled ne",
    "date": "2026-09-17T20:02:16.000Z",
    "firstSeen": "2026-09-18T10:03:21.928Z",
    "source": "Social Media Today",
