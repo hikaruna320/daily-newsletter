@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-20T09:38:10.651Z",
+ "generatedAt": "2026-09-20T14:35:03.967Z",
  "keepDays": 14,
  "sources": [
   {
@@ -126,7 +126,7 @@ window.NEWS_DATA = {
    "feed": "https://news.cnyes.com/rss/v1/news/category/headline",
    "ok": true,
    "error": null,
-   "count": 64
+   "count": 100
   },
   {
    "name": "人人都是產品經理",
@@ -187,9 +187,9 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "en",
    "feed": "https://adtechradar.com/feed/",
-   "ok": true,
-   "error": null,
-   "count": 10
+   "ok": false,
+   "error": "fetch failed",
+   "count": 0
   },
   {
    "name": "Openbook閱讀誌",
@@ -837,6 +837,354 @@ window.NEWS_DATA = {
  ],
  "items": [
   {
+   "id": "ghx7gw",
+   "title": "俄羅斯首都莫斯科 遭遇有史以來最大規模襲擊",
+   "url": "https://news.cnyes.com/news/id/6611476",
+   "summary": "莫斯科市長索比亞寧稱，莫斯科20日遭遇史上最大規模襲擊 澤倫斯基稱烏軍遠程打擊莫斯科地區，擊中重要石油工業與後勤設施 烏軍指莫斯科煉油廠起大火、AVT-6等裝置受損；俄方稱19日以來擊落1,600多架無人機",
+   "date": "2026-09-20T14:25:32.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "1n29t7n",
+   "title": "6 days left to get ahead at TechCrunch Disrupt 2026",
+   "url": "https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026",
+   "summary": "Current ticket pricing ends in 6 days on Sept. 25 at 11:59 p.m. PT. Join 10,000+ founders, investors and tech leaders at Disrupt and save up to $200 on your ticket until then.",
+   "date": "2026-09-20T14:00:00.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
+   "source": "TechCrunch",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://techcrunch.com"
+  },
+  {
+   "id": "q6ome0",
+   "title": "Programming Note: Offline Monday For Yom Kippur 5787",
+   "url": "https://www.seroundtable.com/yom-kippur-5787-42114.html",
+   "summary": "This is a programming note: I will be 100% offline from Sunday night (September 20th) through Monday night (September 21st) for Yom Kippur. I am not scheduling any stories tomorrow, Monday, Yom Kippur; nothing will be posted.",
+   "date": "2026-09-20T14:00:00.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
+   "source": "Search Engine Roundtable",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.seroundtable.com"
+  },
+  {
+   "id": "ghwiab",
+   "title": "本週操盤筆記：全球PMI、歐亞非多國央行利率決議、川習二會登場",
+   "url": "https://news.cnyes.com/news/id/6610786",
+   "summary": "美國9月PMI初值周三公布，歐元區、英國、日本PMI與信心指數陸續登場。 瑞士、瑞典、挪威、墨西哥、南非及中國、印尼將公布利率決議或LPR。 川普與習近平周四在華府會晤，AI競爭與半導體管制料成市場焦點。",
+   "date": "2026-09-20T13:50:02.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx6nm",
+   "title": "胡塞嗆沙國升級行動將遭更強反擊！利雅德急向多國求援 專家：中東油運波動率短期下不來",
+   "url": "https://news.cnyes.com/news/id/6611388",
+   "summary": "胡塞武裝稱，若沙烏地阿拉伯持續軍事升級，將採取更強烈反擊。 19日對利雅德敏感目標與紅海延布沙烏地阿美設施發動兩次行動，使用彈道飛彈、巡弋飛彈和無人機。 美國多國使館示警衝突恐迅速升級，航班取消、空域關閉等旅行中斷風險升高。",
+   "date": "2026-09-20T13:30:02.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "idpyiq",
+   "title": "Google Web Guide Classic Search Button Doesn't Take You To Classic Search",
+   "url": "https://www.seroundtable.com/google-web-guide-bug-42124.html",
+   "summary": "Google Search has this beta opt-in feature named Web Guide, it is like a mix of its AI search results interface and web search interface - in one. That being said, there seems to be a bug where, when you click the button that says \"Classic search,\" it does not take you out of Web Guide and into clas",
+   "date": "2026-09-20T13:30:00.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
+   "source": "Search Engine Roundtable",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.seroundtable.com"
+  },
+  {
+   "id": "ghx5u6",
+   "title": "高盛喊年底「全資產上漲」行情！油價、美國期中選舉成最大變數",
+   "url": "https://news.cnyes.com/news/id/6611294",
+   "summary": "高盛指油價回落、順利度過期中選舉，有望緩解通膨與升息壓力，推動股債齊漲。 高盛估第4季布蘭特油價每桶80美元；Currie警告荷姆茲海峽若中斷至2027年，油價恐破120美元。 油價與Fed政策牽動資金流向，高盛估MSCI中國指數漲20%、滬深300漲12%。",
+   "date": "2026-09-20T13:20:03.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "1jj1x7o",
+   "title": "Minnesota Vikings vs. Chicago Bears: Where to Watch the NFL Week 2 Game Online",
+   "url": "https://www.hollywoodreporter.com/tv/tv-news/watch-minnesota-vikings-vs-chicago-bears-nfl-game-free-2026-1236705980",
+   "summary": "The Sept. 20 matchup kicks off a jam-packed Sunday of football.",
+   "date": "2026-09-20T13:15:00.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "ghx45r",
+   "title": "馬斯克看旺AI紅利 預言美國明年GDP成長翻倍至4％",
+   "url": "https://news.cnyes.com/news/id/6611097",
+   "summary": "馬斯克估AI明年可使美國GDP成長率由約2%升至4%，甚至更高 美國科技公司料至2027年在晶片與資料中心投入近1兆美元，AI資本支出2027至2029年或達GDP約3% 主流預測仍偏保守，利率上升恐增加中小企業AI籌資難度",
+   "date": "2026-09-20T13:10:07.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "paajeh",
+   "title": "‘Big Night’: THR’s 1996 Review",
+   "url": "https://www.hollywoodreporter.com/movies/movie-news/big-night-review-movie-stanley-tucci-1236615735",
+   "summary": "On Sept. 20, 1996, the Stanley Tucci and Tony Shalhoub restaurant drama hit theaters.",
+   "date": "2026-09-20T13:00:00.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "ghx5t6",
+   "title": "亞洲貨櫃運價飆升！上海至美東每櫃破1萬美元、巴拿馬運河限航成推手",
+   "url": "https://news.cnyes.com/news/id/6611281",
+   "summary": "上海至美東貨櫃運價突破1萬美元，西岸運價創逾2年新高，兩航線連漲7週。 巴拿馬運河限航、亞洲港口壅塞導致船期延誤，艙位供應趨緊，推升海運成本。 8月亞洲輸美貨量年增2%，中美關稅談判若促進貨運需求，海運運價上漲壓力恐加劇。",
+   "date": "2026-09-20T12:30:04.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx45s",
+   "title": "AI失控警報再響！谷歌AI首度「越獄」 Gemini自主駭入3家公司",
+   "url": "https://news.cnyes.com/news/id/6611098",
+   "summary": "Gemini網路安全測試接入網路，成功駭入3家公司的受保護系統，成谷歌AI系統自主執行此類行動首例。 谷歌稱Gemini在判定目標為真實企業後即停手，未造成損害。 該起事件再掀AI智慧體失控疑慮，OpenAI、Anthropic、Meta相關系統近期也傳出類似案例。",
+   "date": "2026-09-20T12:20:03.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx7d6",
+   "title": "盤中速報 - Arweave大跌8.55%，報4.32美元",
+   "url": "https://news.cnyes.com/news/id/6611434",
+   "summary": "Arweave(AR)盤中下跌，交易價格、總成交量、市值、近日週月績效、即時新聞資訊。",
+   "date": "2026-09-20T12:05:21.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "10ggsc",
+   "title": "‘There’s a whipsaw nature to it’: how we’ve covered Donald Trump’s tumultuous trade wars",
+   "url": "https://www.theguardian.com/membership/2026/sep/20/theres-a-whipsaw-nature-to-it-how-weve-covered-donald-trumps-tumultuous-trade-wars",
+   "summary": "<p>The erratic escalations and climbdowns by the US president have made covering trade disputes a high-octane affair. We spoke to some of our business reporters and our correspondent in Toronto about how they keep up with it</p><p>Reporting on international trade disputes is challenging enough at th",
+   "date": "2026-09-20T12:00:15.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
+   "source": "The Guardian 媒體版",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.theguardian.com/uk/media"
+  },
+  {
+   "id": "5fpvsm",
+   "title": "王永宗《老碗盤端出澎湃台灣味》：當老台菜「布袋雞」遇上「五子哭墓」",
+   "url": "https://www.thenewslens.com/article/270146",
+   "summary": "一道老台菜融合了時代的精髓與先民的智慧，一只老碗盤，靠匠人手執畫筆，藏著生活中對吉祥、圓滿的殷殷企盼。在老師傅的巧手下，辦一桌揉合味覺與視覺的文化饗宴。",
+   "date": "2026-09-20T12:00:00.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "5fpvsi",
+   "title": "約翰伯格《另類的出口》：芙烈達．卡蘿畫中的「雙重觸感」與永恆此刻",
+   "url": "https://www.thenewslens.com/article/270142",
+   "summary": "書中收錄了約翰‧伯格在蘇黎世、馬德里、瑞典、法蘭克福、赫爾辛基等地，以不同語言發表的演講、文章與書信，共計二十四篇。約翰 ‧ 伯格曾在訪問中表示，這是少數幾本他認為迫切需要出版的著作。",
+   "date": "2026-09-20T12:00:00.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "5fpvrs",
+   "title": "約翰伯格《影像的閱讀》：馬格利特與超現實畫筆下的「不可能」",
+   "url": "https://www.thenewslens.com/article/270139",
+   "summary": "從動物、人像到地景，從森林、農村到城市，從繪畫、照片到電影。約翰 ‧ 伯格以其敏銳的觀察力和對影像特有的解讀能力，提出以繪畫、攝影為媒介的影像背後的社會與文化思考。",
+   "date": "2026-09-20T12:00:00.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "c69pp5",
+   "title": "Google Search Console Crawl Stats Missing A Day Of Data: September 15th",
+   "url": "https://www.seroundtable.com/google-search-console-crawl-stats-missing-42120.html",
+   "summary": "The crawl stats report is missing a day of data again, this time, the missing data is from September 15th (it might be a day later for some of you on different time zones). That being said, this has happened numerous times before and Google tends to always restore the data.",
+   "date": "2026-09-20T11:55:00.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
+   "source": "Search Engine Roundtable",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.seroundtable.com"
+  },
+  {
+   "id": "ghx6ju",
+   "title": "漲價壓力向供應鏈下游傳導 中國顯示器也開始漲價了",
+   "url": "https://news.cnyes.com/news/id/6611344",
+   "summary": "AI算力需求帶動記憶體晶片漲價，壓力傳導至供應鏈下游，顯示器價格也出現上漲 得物APP泰坦軍團顯示器近90天從482元漲至547元；京東KTC顯示器9月10日以來回升至1,199.7元 RUNTO稱8月電競顯示器線上市場均價1,168元、年增7.0%，主因驅動晶片、主板等成本壓力累積",
+   "date": "2026-09-20T11:16:17.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx6i2",
+   "title": "矽谷、華爾街「排隊」資助川普共和黨期中選舉！吸金4億美元",
+   "url": "https://news.cnyes.com/news/id/6611326",
+   "summary": "美國2026年國會中期選舉籌款顯示，矽谷到華爾街億萬富翁大舉捐助川普領導的共和黨 20大主要政治捐款人中16人已向共和黨挹注資金，MAGA Inc.掌握4億美元選舉資金 2025至2026年28億美元政治資金中逾三分之一來自前20大超級捐款人，富豪影響力持續擴大",
+   "date": "2026-09-20T11:10:04.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx7bf",
+   "title": "盤中速報 - ZIL大漲17.3%，報0.00375美元",
+   "url": "https://news.cnyes.com/news/id/6611417",
+   "summary": "ZIL(ZIL)盤中上漲，交易價格、總成交量、市值、近日週月績效、即時新聞資訊。",
+   "date": "2026-09-20T11:05:19.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "152tzs4",
+   "title": "Caitlin Moran: social media went from utopia to hellhole in a decade – if you want to feel hopeful again, get offline",
+   "url": "https://www.theguardian.com/media/2026/sep/20/caitlin-moran-social-media-what-to-do-instead",
+   "summary": "<p>Fourteen years ago, Twitter was the fastest, funniest game on the web. Now I’ve been driven out by so-called ‘online activists’. The only answer is to unplug and try this instead</p><p>God, I love social media! I cannot believe my exquisite luck – to exist in a time when it was invented! Bliss it",
+   "date": "2026-09-20T11:00:15.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
+   "source": "The Guardian 媒體版",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.theguardian.com/uk/media"
+  },
+  {
+   "id": "7mlhra",
+   "title": "I was asked to write a new Miss Marple, so I sent her to the Alps",
+   "url": "https://www.theguardian.com/books/2026/sep/20/i-was-asked-to-write-a-new-miss-marple-so-i-sent-her-to-the-alps",
+   "summary": "<p>Her last case was 50 years ago, written by Agatha Christie just before she died. Could I really follow in the footsteps of the Queen of Crime?</p><p>When I was asked to write the first full-length Miss Marple novel since Sleeping Murder was published posthumously, 50 years ago in October, I immed",
+   "date": "2026-09-20T11:00:15.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
+   "source": "The Guardian 媒體版",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.theguardian.com/uk/media"
+  },
+  {
+   "id": "17ubn08",
+   "title": "Star Trek is turning 60 – and the vision it promised feels more distant than ever | Dave Schilling",
+   "url": "https://www.theguardian.com/commentisfree/2026/sep/20/star-trek-air-force-weapons",
+   "summary": "<p>The US’s deployment of weaponry in space marks the latest backward step from the show’s optimistic conception of the future</p><p>Who among us doesn’t dream of space in their youth?</p><p>OK, maybe some of us. Like the ones with lives. While you were out playing hopscotch with little Jimmy and Su",
+   "date": "2026-09-20T11:00:15.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
+   "source": "The Guardian 媒體版",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.theguardian.com/uk/media"
+  },
+  {
+   "id": "c67m7u",
+   "title": "FDE这么火，产品经理要不要跟？我来泼点冷水",
+   "url": "https://www.woshipm.com/ai/6467287.html",
+   "summary": "最近后台被问得最多的一个问题： “杰哥，FDE是不是产品经理的新出路？” 我理解大家为什么心动。你去看看FDE的面试题就知道了。有人在Reddit上整理了一份Anthropic的FDE面试指南，里面的题大概是这样的： 一家银行想用AI自动化分析师的工作，第一步干什么？ 客户买了AI、搭了系统，结果说不好用，是模型的锅、数据的锅、权限的锅，还是工作流选错了？ 老板要让Agent直接改生产系统，安全团队死活不同意，你听谁的？ 看完是不是有点熟悉？这哪是工程师面试，这分明是产品经理的日常啊。 所以很多人第一反应是：这岗位就是给我们准备的。 先别急。我的观点很直接：FDE适合一部分产品经理，但绝对不是",
+   "date": "2026-09-20T10:33:56.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
+   "source": "人人都是產品經理",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "ghx6oi",
+   "title": "盤中速報 - 達世幣大跌8.06%，報55.9美元",
+   "url": "https://news.cnyes.com/news/id/6611397",
+   "summary": "達世幣(DASH)盤中下跌，交易價格、總成交量、市值、近日週月績效、即時新聞資訊。",
+   "date": "2026-09-20T10:05:21.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx6mp",
+   "title": "特斯拉FSD澳紐市場上線周年：碰撞事故率比人開少40% 急煞少90%",
+   "url": "https://news.cnyes.com/news/id/6611378",
+   "summary": "特斯拉FSD(監督版)在澳洲、紐西蘭上線滿一周年，該公司在澳紐區官方帳號公布上周三(16日)為止一年車隊數據，啟用FSD期間行駛1.6億公里，對比同樣開啟主動安全的24億公里人工駕駛，整體碰撞事故率降低40%。FSD模式下，平均每178萬公里發生一次碰撞，人工駕駛為每107萬公里一次。 其他高風險",
+   "date": "2026-09-20T10:00:07.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "1wst5x2",
+   "title": "又一家AI大厂发福利，无套路送75天会员",
+   "url": "https://www.woshipm.com/ai/6467247.html",
+   "summary": "正准备睡个回笼觉呢，就看到一个可以顺手领的AI福利，怪哥就立马不困了，上线分享给大家。 这次做福利的是阶跃星辰的 Step Plan订阅会员。领取后也不需要下载他们的客户端，可以在WorkBuddy、千问办公各种AI软件里配置自定义模型时候调用就行，这也太良心了。 阶跃AI这个名字可能很多人不太熟，但人家其实是国产第一梯队大模型，也是AI六小虎。今天刚刚发布了一款新的旗舰模型——Step 5 Preview。 这个模型还挺有意思。 600B总参数，每次只激活27B，支持100 万 Token 上下文，还能直接处理图片，主要就是冲着 AI Coding、软件工程和 Agent 这些重度场景来的。",
+   "date": "2026-09-20T09:28:17.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
+   "source": "人人都是產品經理",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "ghx6ne",
+   "title": "鉅亨買幣速報 - USDC(USDC)24小時成交量超過17.32億美元，NFPrompt Token(NFP)24小時漲幅達65.8%",
+   "url": "https://news.cnyes.com/news/id/6611380",
+   "summary": "鉅亨幣圈盤中速報，總結當日亮點幣種、指標幣種、宏觀市場表現、漲跌幅排名，掌握交易價格、總成交量、市值、即時新聞資訊。",
+   "date": "2026-09-20T09:15:20.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
    "id": "1z0grfa",
    "title": "‘Resident Evil movies? I’ve never seen one’: Weapons director Zach Cregger on resurrecting the beloved zombie franchise",
    "url": "https://www.theguardian.com/film/2026/sep/20/zach-cregger-director-interview-resident-movie-evil-weapons-barbarian",
@@ -861,6 +1209,18 @@ window.NEWS_DATA = {
    "site": "https://www.theguardian.com/uk/media"
   },
   {
+   "id": "ghx6lp",
+   "title": "盤中速報 - 大零幣大跌8.27%，報1,441.9美元",
+   "url": "https://news.cnyes.com/news/id/6611365",
+   "summary": "大零幣(ZEC)盤中下跌，交易價格、總成交量、市值、近日週月績效、即時新聞資訊。",
+   "date": "2026-09-20T08:35:23.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
    "id": "105o2l7",
    "title": "「你要讓 AI 知道你是誰」：3cTim 哥花一個月磨合自己的內容軍師",
    "url": "https://www.inside.com.tw/article/42430-3ctim-interview",
@@ -874,7 +1234,7 @@ window.NEWS_DATA = {
   },
   {
    "id": "fpilpy",
-   "title": "比 LLM 快 193 倍、输出 token 免费：Jev 的”判断模型”路线靠谱吗？",
+   "title": "比 LLM 快 193 倍、输出 token 免费：Jev 的“判断模型”路线靠谱吗？",
    "url": "https://www.woshipm.com/ai/6467184.html",
    "summary": "一个不会写字、只做判断的新模型，来自前 OpenAI 研究员 Diogo Almeida 创办的 TypeSafe AI。这篇笔记梳理了它的 RLCD 训练法、把智能塞进旧壳子的四个比喻，以及十八个行业用例，也如实列出自测数字与「零幻觉」两处可疑的地方。 We’re building prod, not God. 我们要造能投入生产的东西，不是造神。 ——TypeSafe AI 这两天听到不少人提Jev，好奇去官网看了下，特别是他们的宣言印象深刻，又陆续看了一些相关内容，算我此刻的笔记，分享一下～ 一、RLHF的核心贡献者“背叛”了自己的发明 一个不会写字、只做“判断”的新模型，来自一家叫Ty",
    "date": "2026-09-20T08:16:47.000Z",
@@ -891,6 +1251,30 @@ window.NEWS_DATA = {
    "summary": "摩根大通警告，極端聖嬰若疊加能源、化肥短缺，恐推升全球食品價格 NOAA估聖嬰2026年11月達高峰，衝擊農作與食品通膨料在2027年第1季顯現 中東衝突若擾亂荷姆茲海峽與化肥供應，恐致施肥延誤、作物減產",
    "date": "2026-09-20T08:10:03.000Z",
    "firstSeen": "2026-09-20T09:38:10.651Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx6ks",
+   "title": "盤中速報 - Ethena大漲9.35%，報0.2美元",
+   "url": "https://news.cnyes.com/news/id/6611355",
+   "summary": "Ethena(ENA)盤中上漲，交易價格、總成交量、市值、近日週月績效、即時新聞資訊。",
+   "date": "2026-09-20T08:05:18.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx6kr",
+   "title": "盤中速報 - 雪崩代幣大漲12.53%，報9.63美元",
+   "url": "https://news.cnyes.com/news/id/6611354",
+   "summary": "雪崩代幣(AVAX)盤中上漲，交易價格、總成交量、市值、近日週月績效、即時新聞資訊。",
+   "date": "2026-09-20T08:05:18.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
    "source": "鉅亨網",
    "tier": "B",
    "lang": "zh-TW",
@@ -919,6 +1303,18 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://www.theguardian.com/uk/media"
+  },
+  {
+   "id": "ghx6iv",
+   "title": "盤中速報 - 大零幣大跌8.04%，報1,451.4美元",
+   "url": "https://news.cnyes.com/news/id/6611332",
+   "summary": "大零幣(ZEC)盤中下跌，交易價格、總成交量、市值、近日週月績效、即時新聞資訊。",
+   "date": "2026-09-20T07:20:18.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
   },
   {
    "id": "ghx5sd",
@@ -1161,6 +1557,18 @@ window.NEWS_DATA = {
    "site": "https://news.cnyes.com"
   },
   {
+   "id": "ghx5pq",
+   "title": "盤中速報 - NEAR大跌8.77%，報3.485美元",
+   "url": "https://news.cnyes.com/news/id/6611249",
+   "summary": "NEAR(NEAR)盤中下跌，交易價格、總成交量、市值、近日週月績效、即時新聞資訊。",
+   "date": "2026-09-20T03:05:19.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
    "id": "1nhvxxv",
    "title": "Jev新决策模型的试用心得",
    "url": "https://www.woshipm.com/evaluating/6467031.html",
@@ -1195,6 +1603,30 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-CN",
    "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "ghx5nw",
+   "title": "鉅亨買幣速報 - USDC(USDC)24小時成交量超過18.22億美元，NFPrompt Token(NFP)24小時漲幅達65.8%",
+   "url": "https://news.cnyes.com/news/id/6611229",
+   "summary": "鉅亨幣圈盤中速報，總結當日亮點幣種、指標幣種、宏觀市場表現、漲跌幅排名，掌握交易價格、總成交量、市值、即時新聞資訊。",
+   "date": "2026-09-20T02:15:20.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "19prbv3",
+   "title": "Raspberry Pi創辦人：AI正驅動邊緣運算需求，但對矽谷「AI佈道者」的末日論不以為然",
+   "url": "https://mashdigi.com/raspberry-pi-founder-ai-is-driving-the-demand-for-edge-computing-but-he-disagrees-with-the-doomsday-theories-of-silicon-valleys-ai-evangelists",
+   "summary": "Raspberry Pi (樹莓派)創辦人暨執行長Eben Upton，近日接受金融時報專欄作家John Th […]",
+   "date": "2026-09-20T02:12:54.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
+   "source": "mashdigi",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://mashdigi.com"
   },
   {
    "id": "gwj0rd",
@@ -1329,6 +1761,18 @@ window.NEWS_DATA = {
    "site": "https://www.woshipm.com"
   },
   {
+   "id": "1gtt5qq",
+   "title": "Twitch執行長Dan Clancy揭示社群哲學：打破語言高牆，VTuber將成為全球共通語言",
+   "url": "https://mashdigi.com/twitch-ceo-dan-clancy-reveals-community-philosophy-breaking-down-language-barriers-vtubers-will-become-a-global-common-language",
+   "summary": "在甫落幕的2026年東京電玩展上，Twitch執行長Dan Clancy成為全場矚目的焦點。這位先後任職於美國 […]",
+   "date": "2026-09-20T01:12:52.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
+   "source": "mashdigi",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://mashdigi.com"
+  },
+  {
    "id": "ghx45n",
    "title": "黃仁勳再駁AI末日論 重申技術可控、不會造成人類滅絕",
    "url": "https://news.cnyes.com/news/id/6611093",
@@ -1377,12 +1821,48 @@ window.NEWS_DATA = {
    "site": "https://www.hollywoodreporter.com"
   },
   {
+   "id": "ghx4yy",
+   "title": "盤中速報 - 達世幣大跌8.12%，報58.5美元",
+   "url": "https://news.cnyes.com/news/id/6611182",
+   "summary": "達世幣(DASH)盤中下跌，交易價格、總成交量、市值、近日週月績效、即時新聞資訊。",
+   "date": "2026-09-20T00:35:18.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
    "id": "ghx45m",
    "title": "美軍稱護航掃雷奏效 荷姆茲海峽石油運輸量創半年新高",
    "url": "https://news.cnyes.com/news/id/6611092",
    "summary": "荷姆茲海峽過去兩週原油與LNG運量創6個月新高，美軍護航與掃雷行動被指見效 美國中央司令部司令庫珀稱，波斯灣盟國數月來經海峽運送逾10億桶原油 沙國仍受無人機與胡塞攻擊威脅；美方與盟國、保險業者及航運公司合作盼再提高通行量",
    "date": "2026-09-20T00:30:02.000Z",
    "firstSeen": "2026-09-20T00:46:29.438Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx4y4",
+   "title": "盤中速報 - 兔子幣大漲24.05%，報0.367美元",
+   "url": "https://news.cnyes.com/news/id/6611175",
+   "summary": "兔子幣(XTZ)盤中上漲，交易價格、總成交量、市值、近日週月績效、即時新聞資訊。",
+   "date": "2026-09-20T00:20:20.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx4y3",
+   "title": "盤中速報 - Arbitrum大跌8.84%，報0.2美元",
+   "url": "https://news.cnyes.com/news/id/6611174",
+   "summary": "Arbitrum(ARB)盤中下跌，交易價格、總成交量、市值、近日週月績效、即時新聞資訊。",
+   "date": "2026-09-20T00:20:20.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
    "source": "鉅亨網",
    "tier": "B",
    "lang": "zh-TW",
@@ -1399,6 +1879,54 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "en",
    "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "ghx4xz",
+   "title": "盤中速報 - INJ大漲18.06%，報7.891美元",
+   "url": "https://news.cnyes.com/news/id/6611170",
+   "summary": "INJ(INJ)盤中上漲，交易價格、總成交量、市值、近日週月績效、即時新聞資訊。",
+   "date": "2026-09-20T00:05:19.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx4xb",
+   "title": "盤中速報 - Arweave大漲21.06%，報4.4美元",
+   "url": "https://news.cnyes.com/news/id/6611169",
+   "summary": "Arweave(AR)盤中上漲，交易價格、總成交量、市值、近日週月績效、即時新聞資訊。",
+   "date": "2026-09-20T00:05:19.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx4xa",
+   "title": "盤中速報 - 雪崩代幣大漲23.65%，報10.15美元",
+   "url": "https://news.cnyes.com/news/id/6611168",
+   "summary": "雪崩代幣(AVAX)盤中上漲，交易價格、總成交量、市值、近日週月績效、即時新聞資訊。",
+   "date": "2026-09-20T00:05:18.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx4x9",
+   "title": "盤中速報 - Ethena大漲20.77%，報0.2美元",
+   "url": "https://news.cnyes.com/news/id/6611167",
+   "summary": "Ethena(ENA)盤中上漲，交易價格、總成交量、市值、近日週月績效、即時新聞資訊。",
+   "date": "2026-09-20T00:05:18.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
   },
   {
    "id": "161r8lj",
@@ -1471,6 +1999,18 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "ghx4w9",
+   "title": "盤中速報 - 達世幣大跌8.55%，報58.6美元",
+   "url": "https://news.cnyes.com/news/id/6611154",
+   "summary": "達世幣(DASH)盤中下跌，交易價格、總成交量、市值、近日週月績效、即時新聞資訊。",
+   "date": "2026-09-19T23:20:18.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
   },
   {
    "id": "13qr8ri",
@@ -1557,6 +2097,18 @@ window.NEWS_DATA = {
    "site": "https://www.thewrap.com"
   },
   {
+   "id": "ghx4th",
+   "title": "盤中速報 - Arbitrum大跌8.15%，報0.21美元",
+   "url": "https://news.cnyes.com/news/id/6611123",
+   "summary": "Arbitrum(ARB)盤中下跌，交易價格、總成交量、市值、近日週月績效、即時新聞資訊。",
+   "date": "2026-09-19T20:35:18.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
    "id": "niex29",
    "title": "AI Actor Tilly Norwood Glitches During Piers Morgan Interview, Suddenly Switches Languages",
    "url": "https://www.hollywoodreporter.com/news/general-news/tilly-norwood-glitches-piers-morgan-switches-languages-1236706114",
@@ -1579,6 +2131,18 @@ window.NEWS_DATA = {
    "tier": "A",
    "lang": "en",
    "site": "https://techcrunch.com"
+  },
+  {
+   "id": "ghx4tg",
+   "title": "盤中速報 - NEAR大跌8.2%，報3.458美元",
+   "url": "https://news.cnyes.com/news/id/6611122",
+   "summary": "NEAR(NEAR)盤中下跌，交易價格、總成交量、市值、近日週月績效、即時新聞資訊。",
+   "date": "2026-09-19T19:20:19.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
   },
   {
    "id": "gjrj88",
@@ -1617,6 +2181,18 @@ window.NEWS_DATA = {
    "site": "https://www.hollywoodreporter.com"
   },
   {
+   "id": "ghx4te",
+   "title": "盤中速報 - 兔子幣大漲28.37%，報0.36美元",
+   "url": "https://news.cnyes.com/news/id/6611120",
+   "summary": "兔子幣(XTZ)盤中上漲，交易價格、總成交量、市值、近日週月績效、即時新聞資訊。",
+   "date": "2026-09-19T17:35:19.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
    "id": "1ipq1bc",
    "title": "CA Gov. Gavin Newsom Signs Bill Addressing Catch in $750M Tax Credit for Hollywood",
    "url": "https://www.hollywoodreporter.com/business/business-news/gov-gavin-newsom-bill-hollywood-tax-credit-catch-1236705453",
@@ -1639,6 +2215,30 @@ window.NEWS_DATA = {
    "tier": "A",
    "lang": "en",
    "site": "https://techcrunch.com"
+  },
+  {
+   "id": "ghx4so",
+   "title": "盤中速報 - Saga大跌13.71%，報0.03美元",
+   "url": "https://news.cnyes.com/news/id/6611117",
+   "summary": "Saga(SAGA)盤中下跌，交易價格、總成交量、市值、近日週月績效、即時新聞資訊。",
+   "date": "2026-09-19T17:20:18.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx4sn",
+   "title": "盤中速報 - Sui大漲8.45%，報0.87美元",
+   "url": "https://news.cnyes.com/news/id/6611116",
+   "summary": "Sui(SUI)盤中上漲，交易價格、總成交量、市值、近日週月績效、即時新聞資訊。",
+   "date": "2026-09-19T17:20:17.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
   },
   {
    "id": "11artm",
@@ -1687,6 +2287,90 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "ghx4sh",
+   "title": "盤中速報 - Saga大漲24.37%，報0.03美元",
+   "url": "https://news.cnyes.com/news/id/6611110",
+   "summary": "Saga(SAGA)盤中上漲，交易價格、總成交量、市值、近日週月績效、即時新聞資訊。",
+   "date": "2026-09-19T16:05:23.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx4rt",
+   "title": "盤中速報 - 文件幣大漲11.56%，報0.99美元",
+   "url": "https://news.cnyes.com/news/id/6611109",
+   "summary": "文件幣(FIL)盤中上漲，交易價格、總成交量、市值、近日週月績效、即時新聞資訊。",
+   "date": "2026-09-19T16:05:23.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx4rs",
+   "title": "盤中速報 - INJ大漲13.49%，報7.462美元",
+   "url": "https://news.cnyes.com/news/id/6611108",
+   "summary": "INJ(INJ)盤中上漲，交易價格、總成交量、市值、近日週月績效、即時新聞資訊。",
+   "date": "2026-09-19T16:05:22.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx4rr",
+   "title": "盤中速報 - Aptos大漲8.25%，報0.74美元",
+   "url": "https://news.cnyes.com/news/id/6611107",
+   "summary": "Aptos(APT)盤中上漲，交易價格、總成交量、市值、近日週月績效、即時新聞資訊。",
+   "date": "2026-09-19T16:05:22.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx4rq",
+   "title": "盤中速報 - Arweave大漲42.06%，報4.5美元",
+   "url": "https://news.cnyes.com/news/id/6611106",
+   "summary": "Arweave(AR)盤中上漲，交易價格、總成交量、市值、近日週月績效、即時新聞資訊。",
+   "date": "2026-09-19T16:05:21.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx4rp",
+   "title": "盤中速報 - 雪崩代幣大漲16.36%，報9.43美元",
+   "url": "https://news.cnyes.com/news/id/6611105",
+   "summary": "雪崩代幣(AVAX)盤中上漲，交易價格、總成交量、市值、近日週月績效、即時新聞資訊。",
+   "date": "2026-09-19T16:05:21.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx4ro",
+   "title": "盤中速報 - Ethena大漲20.35%，報0.2美元",
+   "url": "https://news.cnyes.com/news/id/6611104",
+   "summary": "Ethena(ENA)盤中上漲，交易價格、總成交量、市值、近日週月績效、即時新聞資訊。",
+   "date": "2026-09-19T16:05:21.000Z",
+   "firstSeen": "2026-09-20T14:35:03.967Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
   },
   {
    "id": "2kt83i",
@@ -1812,7 +2496,7 @@ window.NEWS_DATA = {
    "id": "1xjjrld",
    "title": "Prices go up in 7 days. Get your Disrupt ticket now.",
    "url": "https://techcrunch.com/2026/09/19/prices-go-up-in-7-days-get-your-disrupt-ticket-now",
-   "summary": "Current ticket pricing ends Sept. 25 at 11:59 p.m. PT. Join 10,000+ founders, investors and tech leaders at Disrupt and save up to $200 on your ticket until then..",
+   "summary": "Current ticket pricing ends Sept. 25 at 11:59 p.m. PT. Join 10,000+ founders, investors and tech leaders at Disrupt and save up to $200 on your ticket until then.",
    "date": "2026-09-19T14:00:00.000Z",
    "firstSeen": "2026-09-19T19:13:40.062Z",
    "source": "TechCrunch",
