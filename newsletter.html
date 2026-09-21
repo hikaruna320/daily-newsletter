@@ -471,6 +471,8 @@ ${todayStr()}　市場訊息
 
 標題請一律翻譯成通順的繁體中文放入 [ ] 中；「原文｜」這一行只填原文標題本身，不要加上「英文原文標題」等其他文字說明。
 
+排版規則：標題與摘要的中文，與英文、數字之間一律插入一個半形空格，例如「Netflix 遭降評跌近 5%」「主導 26% 的 AI 研發工作」「紐約時報迎接創刊 175 週年」。中文與半形符號之間也比照辦理。但全形標點（，。、：；？！「」）前後不要加空格。
+
 ---（各新聞間請用分隔線隔開）---
 
 需要處理的新聞清單如下：
@@ -592,12 +594,33 @@ const SERIF = "Georgia,'Times New Roman','Noto Serif TC','Songti TC',serif";
 const SANS = "'Helvetica Neue',Arial,'PingFang TC','Microsoft JhengHei',sans-serif";
 const INK = '#14110C', BLUE = '#1F3CE8', CARD = '#FBF8F1', MUTED = '#7C7466', LINE = '#D6CFBE';
 
+// 中英文之間補半形空格。提示詞已經要求 AI 這樣寫，但這種機械性規則牠常常漏，
+// 所以產生 HTML 前再用程式補一次，確保每封信的排版一致。
+// 只處理「中日文 ↔ 英數字」這個明確的情況：全形標點、括號前後加空格反而是錯的。
+const CJK_RANGE = '\\u4e00-\\u9fff\\u3040-\\u30ff\\u3400-\\u4dbf\\uf900-\\ufaff';
+const RE_CJK_FIRST = new RegExp(`([${CJK_RANGE}])([A-Za-z0-9])`, 'g');
+// 數字後面緊跟的 % ‰ ° 算同一個詞的一部分，「跌近 5%用戶」要斷在百分號之後
+const RE_LATIN_FIRST = new RegExp(`([A-Za-z0-9][%‰°]?)([${CJK_RANGE}])`, 'g');
+
+function pangu(s) {
+  if (!s) return s;
+  // 網址中間不能插空格，先抽出來放回去
+  const urls = [];
+  let t = String(s).replace(/https?:\/\/[^\s<>"']+/g, m => {
+    urls.push(m);
+    return ` ${urls.length - 1} `;
+  });
+  t = t.replace(RE_CJK_FIRST, '$1 $2').replace(RE_LATIN_FIRST, '$1 $2');
+  return t.replace(/ (\d+) /g, (m, i) => urls[Number(i)]);
+}
+
 function mdLink(html, runStyle) {
   const st = (runStyle || `color:${BLUE};`) + 'text-decoration:none;';
   // Outlook/Word 會用內建的 Hyperlink 樣式覆寫 <a> 上的字型與大小，
   // 因此把想要的樣式再包一層 <span> 寫在連結文字內層，Word 才會採用。
+  // 只補標題文字的空格，網址原封不動
   return html.replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g, (m, label, url) =>
-    `<a href="${url.replace(/&amp;/g, '&')}" target="_blank" style="${st}"><span style="${st}">${label}</span></a>`);
+    `<a href="${url.replace(/&amp;/g, '&')}" target="_blank" style="${st}"><span style="${st}">${pangu(label)}</span></a>`);
 }
 
 
@@ -609,11 +632,11 @@ function parseAiResultToHtml(raw) {
 
   // 開頭訊息（主旨之後、第一則新聞之前）
   const firstIdx = lines.findIndex(l => l.trim().startsWith('📍'));
-  const kicker = lines
+  const kicker = pangu(lines
     .slice(subjectIdx === -1 ? 0 : subjectIdx + 1, firstIdx === -1 ? lines.length : firstIdx)
     .map(l => l.trim())
     .filter(l => l && !/^-{3,}/.test(l))
-    .join(' ');
+    .join(' '));
 
   // 新聞區塊
   const items = [];
@@ -650,11 +673,11 @@ function parseAiResultToHtml(raw) {
 
       const points = rest
         .filter(l => l.startsWith('•'))
-        .map(l => l.replace(/^•\s*/, '').replace(/^摘要重點\s*\d*\s*[:：]\s*/, ''));
-      const extra = rest.filter(l => !l.startsWith('•'));
+        .map(l => pangu(l.replace(/^•\s*/, '').replace(/^摘要重點\s*\d*\s*[:：]\s*/, '')));
+      const extra = rest.filter(l => !l.startsWith('•')).map(pangu);
 
       if (!titleHtml && !points.length) { closing.push(...extra); return; }
-      items.push({ media, titleHtml, sub, origTitle, points, extra });
+      items.push({ media, titleHtml, sub: pangu(sub), origTitle, points, extra });
     });
   }
 
@@ -662,14 +685,16 @@ function parseAiResultToHtml(raw) {
   // 因此不寫 border:none，而是把邊框顏色設成跟儲存格背景色一樣，讓格線視覺上完全隱形
   const NOBORDER_PAPER = `border:1px solid #E7E1D2;mso-border-alt:none;`;
   const NOBORDER_CARD = `border:1px solid ${CARD};mso-border-alt:none;`;
-  // 分隔線改用「有背景色的實心列」而不是 border-top/bottom：
-  // Word 貼上表格時對 border-collapse 的合併規則不可靠，緊鄰的隱形邊框
-  // 常會贏過真正想顯示的那一條線，導致分隔線整條消失；純色列不受此影響。
-  // 但儲存格高度若只靠 CSS height/line-height，Word 仍會套用預設字級的最小列高，
-  // 讓這條線變得又粗又醜；因此改用一張透明 1x1 圖並用 width/height 屬性撐開，
-  // Word 對 <img> 的實際尺寸屬性比對 CSS 高度更忠實，才能穩定做出真正的細線。
-  const SPACER_GIF = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==';
-  const dividerRow = (height) => `<tr><td bgcolor="${INK}" style="padding:0;font-size:0;line-height:0;mso-line-height-rule:exactly;${NOBORDER_CARD}background-color:${INK};"><img src="${SPACER_GIF}" width="1" height="${height}" alt="" style="display:block;border:0;outline:none;width:1px;height:${height}px;line-height:${height}px;"></td></tr>`;
+  // 分隔線用「段落的上邊框」來畫，這是唯一在 Outlook 和 Gmail 都撐得住的做法。
+  // 試過但不行的：
+  //   儲存格 border-top —— Word 對 border-collapse 的合併判斷不可靠，常挑到旁邊
+  //     那條隱形邊框，整條線就不見了。
+  //   有背景色的實心列 —— Word 會套用預設字級的最小列高，2px 的線被撐成粗黑條。
+  //   實心列 + 透明 1x1 的 data: 圖 —— Outlook 正常，但 Gmail 會擋掉 data: 內嵌圖，
+  //     破圖佔位符的高度讓黑色儲存格又變成粗黑條。
+  // 段落邊框沒有這些問題：不參與表格邊框合併，而且就算某個信箱多給了行高，
+  // 多出來的也只是信紙底色的留白，不會變成一條粗黑塊。
+  const dividerRow = (height) => `<tr><td style="padding:0;${NOBORDER_CARD}"><p style="margin:0;border-top:${height}px solid ${INK};font-size:1px;line-height:1px;mso-line-height-rule:exactly;">&nbsp;</p></td></tr>`;
 
   const itemsHtml = items.map((it, i) => `
     <tr><td style="padding:22px 26px;border-left:1px solid ${CARD};border-right:1px solid ${CARD};border-top:1px solid ${CARD};mso-border-alt:none;border-bottom:1px solid ${i === items.length - 1 ? CARD : LINE};">
