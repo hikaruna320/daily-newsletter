@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-21T03:30:54.931Z",
+ "generatedAt": "2026-09-21T04:14:43.213Z",
  "keepDays": 14,
  "sources": [
   {
@@ -51,19 +51,19 @@ window.NEWS_DATA = {
    "name": "數位時代",
    "tier": "A",
    "lang": "zh-TW",
-   "feed": "https://feedfry.com/rss/11f05e5b5ced112eb3f646efdc5f7e8c",
+   "feed": "https://www.bnext.com.tw/rss",
    "ok": false,
-   "error": "HTTP 402",
+   "error": "HTTP 404",
    "count": 0
   },
   {
    "name": "虎嗅网",
    "tier": "A",
    "lang": "zh-CN",
-   "feed": "https://www.huxiu.com/rss/0.xml",
-   "ok": false,
-   "error": "逾時",
-   "count": 0
+   "feed": "https://rss.aishort.top/?type=huxiu",
+   "ok": true,
+   "error": null,
+   "count": 20
   },
   {
    "name": "TechCrunch",
@@ -78,7 +78,7 @@ window.NEWS_DATA = {
    "name": "Press Gazette",
    "tier": "A",
    "lang": "en",
-   "feed": "https://pressgazette.co.uk/feed/",
+   "feed": "https://pressgazette.substack.com/feed",
    "ok": false,
    "error": "HTTP 403",
    "count": 0
@@ -162,16 +162,16 @@ window.NEWS_DATA = {
    "feed": "https://news.cnyes.com/rss/v1/news/category/headline",
    "ok": true,
    "error": null,
-   "count": 97
+   "count": 72
   },
   {
    "name": "woshipm",
    "tier": "B",
    "lang": "zh-CN",
    "feed": "https://www.woshipm.com/feed/",
-   "ok": true,
-   "error": null,
-   "count": 15
+   "ok": false,
+   "error": "fetch failed",
+   "count": 0
   },
   {
    "name": "爱范儿",
@@ -186,7 +186,7 @@ window.NEWS_DATA = {
    "name": "36Kr",
    "tier": "B",
    "lang": "zh-CN",
-   "feed": "https://36kr.com/feed",
+   "feed": "https://rss.aishort.top/?type=36kr",
    "ok": false,
    "error": "解析不到文章",
    "count": 0
@@ -264,13 +264,22 @@ window.NEWS_DATA = {
    "count": 18
   },
   {
+   "name": "經理人",
+   "tier": "C",
+   "lang": "zh-TW",
+   "feed": "https://www.managertoday.com.tw/rss",
+   "ok": true,
+   "error": null,
+   "count": 2
+  },
+  {
    "name": "品玩",
    "tier": "C",
    "lang": "zh-CN",
-   "feed": "https://plink.anyfeeder.com/pingwest",
-   "ok": false,
-   "error": "解析不到文章",
-   "count": 0
+   "feed": "https://decemberpei.cyou/rssbox/pingwest.xml",
+   "ok": true,
+   "error": null,
+   "count": 25
   },
   {
    "name": "TNW",
@@ -396,11 +405,6 @@ window.NEWS_DATA = {
    "note": "找不到 RSS"
   },
   {
-   "name": "經理人",
-   "tier": "C",
-   "note": "找不到 RSS"
-  },
-  {
    "name": "The Drum",
    "tier": "C",
    "note": "找不到 RSS"
@@ -424,7 +428,7 @@ window.NEWS_DATA = {
    "site": "https://stratechery.com",
    "feed": "https://stratechery.passport.online/feed/rss/WXErCixRoZzZJcHe3Cu94k",
    "enabled": true,
-   "note": "付費訂閱制，可能有些抓不到資料"
+   "note": "免費版 feed，若日後升級付費訂閱請先重新產生網址再更新這裡"
   },
   {
    "tier": "S",
@@ -476,16 +480,16 @@ window.NEWS_DATA = {
    "name": "數位時代",
    "lang": "zh-TW",
    "site": "https://www.bnext.com.tw",
-   "feed": "https://feedfry.com/rss/11f05e5b5ced112eb3f646efdc5f7e8c",
+   "feed": "https://www.bnext.com.tw/rss",
    "enabled": true,
-   "note": "無原生 RSS，用 feedfry 轉換網址"
+   "note": ""
   },
   {
    "tier": "A",
    "name": "虎嗅网",
    "lang": "zh-CN",
    "site": "https://www.huxiu.com",
-   "feed": "https://www.huxiu.com/rss/0.xml",
+   "feed": "https://rss.aishort.top/?type=huxiu",
    "enabled": true,
    "note": ""
   },
@@ -521,9 +525,9 @@ window.NEWS_DATA = {
    "name": "Press Gazette",
    "lang": "en",
    "site": "https://pressgazette.co.uk",
-   "feed": "https://pressgazette.co.uk/feed/",
+   "feed": "https://pressgazette.substack.com/feed",
    "enabled": true,
-   "note": "feed 存在但可能會被 Cloudflare 擋，先試試看"
+   "note": "feed 存在但被 Cloudflare 擋，改訂 substack"
   },
   {
    "tier": "A",
@@ -647,7 +651,7 @@ window.NEWS_DATA = {
    "name": "36Kr",
    "lang": "zh-CN",
    "site": "https://36kr.com",
-   "feed": "https://36kr.com/feed",
+   "feed": "https://rss.aishort.top/?type=36kr",
    "enabled": true,
    "note": ""
   },
@@ -755,18 +759,18 @@ window.NEWS_DATA = {
    "name": "經理人",
    "lang": "zh-TW",
    "site": "https://www.managertoday.com.tw",
-   "feed": "",
-   "enabled": false,
-   "note": "找不到 RSS"
+   "feed": "https://www.managertoday.com.tw/rss",
+   "enabled": true,
+   "note": ""
   },
   {
    "tier": "C",
    "name": "品玩",
    "lang": "zh-CN",
    "site": "https://www.pingwest.com",
-   "feed": "https://plink.anyfeeder.com/pingwest",
+   "feed": "https://decemberpei.cyou/rssbox/pingwest.xml",
    "enabled": true,
-   "note": ""
+   "note": "沒有官方，找第三方自建 RSS，先試試看"
   },
   {
    "tier": "C",
@@ -878,6 +882,522 @@ window.NEWS_DATA = {
   }
  ],
  "items": [
+  {
+   "id": "191wzxs",
+   "title": "“物理网红”张朝阳再赴北京师范大学讲物理 硬核推导张量的梯度与微分",
+   "url": "https://www.pingwest.com/w/317627",
+   "summary": "",
+   "date": null,
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191wzxr",
+   "title": "智谱MaaS将上线数据内容不留存功能",
+   "url": "https://www.pingwest.com/w/317626",
+   "summary": "据智谱开放平台消息，智谱MaaS宣布，近期将上线数据内容不留存功能，为企业和开发者用户提供更为严格的数据隐私保护。该机制旨在减少模型调用内容在平台侧的持久化留存。",
+   "date": null,
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191wzxp",
+   "title": "Google Gemini被指在测试中侵入三家公司系统",
+   "url": "https://www.pingwest.com/w/317624",
+   "summary": "据 TechCrunch 报道，Google Gemini在网络安全测试中访问了三家公司的受保护系统，这是该模型首次实施自主网络入侵。",
+   "date": null,
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191wzxn",
+   "title": "杜比视界登陆抖音精选App，杜比与抖音内容生态合作再升级",
+   "url": "https://www.pingwest.com/w/317622",
+   "summary": "",
+   "date": null,
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191wzwv",
+   "title": "亮源新创发布全身智能基础模型Light-O1，首次验证人类全身动作预训练的跨本体迁移扩展规律",
+   "url": "https://www.pingwest.com/w/317617",
+   "summary": "",
+   "date": null,
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191wzwu",
+   "title": "世界模型赛道仍处“暗森林”状态 商业化路径尚未明朗",
+   "url": "https://www.pingwest.com/w/317616",
+   "summary": "据 TechCrunch 报道，世界模型被视为自动化空间智能的关键方向，潜在应用涵盖机器人、交互式视频、自动驾驶系统等。",
+   "date": null,
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191wzwt",
+   "title": "Anthropic披露Claude主导26%模型研发 呼吁行业公开发展指标",
+   "url": "https://www.pingwest.com/w/317615",
+   "summary": "据 AP News 报道，Anthropic上周宣布，Claude正协助公司开发下一代更智能模型。目前，Claude主导了Anthropic 26%的模型研发工作，可在人类监督下从高层提示完成大部分端到端任务，但尚未完全自主运行。",
+   "date": null,
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191wzwp",
+   "title": "“80后”院士寄语“90后”科学家，第八届科学探索奖在深圳颁奖",
+   "url": "https://www.pingwest.com/w/317611",
+   "summary": "",
+   "date": null,
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191wzvz",
+   "title": "启元机器人新品发布会召开：个人机器人正式发售，19999元起，AI模型、生态布局同步公布",
+   "url": "https://www.pingwest.com/w/317608",
+   "summary": "",
+   "date": null,
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191wzvv",
+   "title": "MiniMax Code CLI v0.4.12以MIT协议开源",
+   "url": "https://www.pingwest.com/w/317604",
+   "summary": "据 minimax 官方消息，MiniMax Code CLI v0.4.12面向全球开发者正式开放，并以MIT协议开源。",
+   "date": null,
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191wz9w",
+   "title": "倾力支持青年，创造安心环境 第六届新基石50²论坛科学家共议原创之路",
+   "url": "https://www.pingwest.com/w/317595",
+   "summary": "",
+   "date": null,
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191wz9v",
+   "title": "阶跃星辰发布Step 5 Preview 旗舰模型 单任务成本仅为Claude Opus 5的1/8",
+   "url": "https://www.pingwest.com/w/317594",
+   "summary": "阶跃星辰官方宣布，正式发布Step 5 Preview，面向真实世界Agentic任务的旗舰基座模型。",
+   "date": null,
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191wz9r",
+   "title": "这群在校园里“手搓未来”的年轻人，正在把知乎变成AI应用的试验场",
+   "url": "https://www.pingwest.com/w/317590",
+   "summary": "",
+   "date": null,
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191wz81",
+   "title": "开学季硬核一课！张朝阳将携硬核物理课重返北京师范大学",
+   "url": "https://www.pingwest.com/w/317574",
+   "summary": "9月20日，《张朝阳的物理课》将再度走进百年学府北京师范大学，围绕“张量的梯度与微分”主题，开启高校线下物理演讲。",
+   "date": null,
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191wz80",
+   "title": "达摩院发布DAMO RADAR 通用医学影像AI达专家水平",
+   "url": "https://www.pingwest.com/w/317573",
+   "summary": "据阿里达摩院官方消息，达摩院推出开源通用医学影像AI模型DAMO RADAR，采用视觉-语言学习方法，在国际上首次实现\"器官级细粒度对齐\"策略，覆盖含恶性肿瘤在内的146种腹部病症、18个器官。",
+   "date": null,
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191wz76",
+   "title": "Figure AI发布Helix 2.5 人形机器人实现零样本家居操作",
+   "url": "https://www.pingwest.com/w/317566",
+   "summary": "Figure AI官方宣布，现已发布Helix 2.5 模型。该模型基于Index大规模人类行为数据集预训练，可进入从未见过的家庭直接执行整理房间、叠毛巾和铺床等全身任务，无需在目标环境中收集数据、微调或适应。",
+   "date": null,
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191wz74",
+   "title": "Waymo将进入新加坡 2028年推出自动驾驶叫车服务",
+   "url": "https://www.pingwest.com/w/317564",
+   "summary": "据 The Verge 报道，Waymo将成为新加坡最新一家自动驾驶车辆运营商，加入ComfortDelGro和Grab的行列。此次部署符合新加坡扩大自动驾驶出行服务范围、为通勤者提供更多交通选择的规划方向。",
+   "date": null,
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191wz6c",
+   "title": "仅用3天！千问办公协助国家天文台科研团队打造科研级望远镜仿真系统",
+   "url": "https://www.pingwest.com/w/317559",
+   "summary": "",
+   "date": null,
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191wz68",
+   "title": "千问办公接入高德门店经营专家套件，可一站式完成开店选址和经营分析",
+   "url": "https://www.pingwest.com/w/317555",
+   "summary": "",
+   "date": null,
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191wz66",
+   "title": "法官驳回OpenAI披露请求 SpaceXAI与Apple达成保密和解",
+   "url": "https://www.pingwest.com/w/317553",
+   "summary": "据 AppleInsider 报道，在Elon Musk旗下SpaceXAI申请将Apple从其针对Apple和OpenAI提起的诉讼中撤出后，OpenAI要求披露双方和解条款。",
+   "date": null,
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191wz65",
+   "title": "quiver.ai推出Arrow 2更新 显著提升生成速度与视觉质量",
+   "url": "https://www.pingwest.com/w/317552",
+   "summary": "据quiver.ai官方消息，quiver.ai 推出Arrow 2更新，在动画、矢量化和素材生成方面带来更快的生成速度与更优的视觉质量。该版本延续\"通过代码精心构建矢量图形\"的理念，并强化对设计基础的理解。",
+   "date": null,
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191wz64",
+   "title": "xAI为Grok Build推出长期记忆功能 自动延续项目上下文",
+   "url": "https://www.pingwest.com/w/317551",
+   "summary": "据 AIbase报道，xAI正式宣布在Grok Build中推出长期记忆功能，旨在解决开发者每次开启新会话时需重复说明项目结构、代码规范及操作指令的痛点。该功能可自动将核心决策与项目事实延续至后续工作。",
+   "date": null,
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191wz5e",
+   "title": "地瓜机器人完成4亿美元C轮融资 旭日芯片累计出货突破800万片",
+   "url": "https://www.pingwest.com/w/317548",
+   "summary": "据地瓜机器人官方消息，地瓜机器人宣布完成4亿美元C轮融资。本轮由未来资产领投，美团战略投资，合肥国投、凯辉基金、广发信德、高瓴创投、五源资本、淡马锡旗下Vertex Growth、云锋基金、美团龙珠等新老股东联合跟投。",
+   "date": null,
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191wz5d",
+   "title": "Kimi发布金融行业解决方案 整合10+数据源与9项金融技能",
+   "url": "https://www.pingwest.com/w/317547",
+   "summary": "据 月之暗面官方消息，Kimi发布金融行业解决方案，整合10余个权威数据源、9项金融技能与5项合规安全措施，覆盖持仓早报、财报点评、项目筛选、深度研究及组合复盘等场景，将资料处理从以天计压缩至小时级。",
+   "date": null,
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191wz5b",
+   "title": "360纳米Work启动“双城千店上岗计划” 探索实体商业AI落地新路径",
+   "url": "https://www.pingwest.com/w/317545",
+   "summary": "",
+   "date": null,
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "pd7f1d",
+   "title": "Oh My God, He Admit It; Skins In The Game",
+   "url": "https://www.adexchanger.com/marketers/monday-21092026",
+   "summary": "OpenAi and Microsoft have known about the “doom loop” of content scraping all along; “Fortnite” has become a brand marketer’s nightmare; and Forrester thinks streamers are going to shed their subscription models. The post Oh My God, He Admit It; Skins In The Game appeared first on AdExchanger.",
+   "date": "2026-09-21T04:03:25.000Z",
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "AdExchanger",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.adexchanger.com"
+  },
+  {
+   "id": "1fpjg0x",
+   "title": "Can adland realistically reduce its reliance on Google’s vertically integrated ad stack?",
+   "url": "https://digiday.com/media-buying/can-adland-realistically-reduce-its-reliance-on-googles-vertically-integrated-ad-stack",
+   "summary": "The court has ordered Google to open up its ad tech stack, but can interoperability alone can loosen its grip on the market.",
+   "date": "2026-09-21T04:01:00.000Z",
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "Digiday",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://digiday.com"
+  },
+  {
+   "id": "3blljb",
+   "title": "Media Buying Briefing: Handicapping the fight to win over Coca-Cola’s North American media",
+   "url": "https://digiday.com/media-buying/media-buying-briefing-handicapping-the-fight-to-win-over-coca-colas-north-american-media",
+   "summary": "WPP seems to be in the catbird seat to hold onto Coca-Cola's global media business. But will Omnicom or Dentsu win North American media?",
+   "date": "2026-09-21T04:01:00.000Z",
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "Digiday",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://digiday.com"
+  },
+  {
+   "id": "16sedzs",
+   "title": "The case for and against retail media networks as brand-building channels",
+   "url": "https://digiday.com/marketing/the-case-for-and-against-retail-media-networks-as-brand-building-channels",
+   "summary": "Retail media networks pitch brand-building on shopper data, but ROI metrics, costs and budget fights hold them back.",
+   "date": "2026-09-21T04:01:00.000Z",
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "Digiday",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://digiday.com"
+  },
+  {
+   "id": "1s58wyy",
+   "title": "Paywall violation ‘eviscerates’ fair use defense: What OpenAI-NYT twist means for publishers",
+   "url": "https://digiday.com/media/paywall-violation-eviscerates-fair-use-defense-what-openai-nyt-twist-means-for-publishers",
+   "summary": "For publishers, the newly unsealed material doesn't just bolster their legal case; it validates years of frustration over how their work has been treated.",
+   "date": "2026-09-21T04:01:00.000Z",
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "Digiday",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://digiday.com"
+  },
+  {
+   "id": "1lte9uh",
+   "title": "Pinterest unveils new suite of ad tools, including Visual Search Ads, in its pitch to brands",
+   "url": "https://digiday.com/marketing/pinterest-unveils-new-suite-of-ad-tools-including-visual-search-ads-in-its-pitch-to-brands",
+   "summary": "For brands, Pinterest executives said, the opportunity is huge. Pinterest’s user base is growing and, importantly for many companies, young.",
+   "date": "2026-09-21T04:01:00.000Z",
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "Digiday",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://digiday.com"
+  },
+  {
+   "id": "5fpvot",
+   "title": "台灣「加薪條款」上路：別高興太早，84%勞工根本領不到？",
+   "url": "https://www.thenewslens.com/article/270101",
+   "summary": "《證券交易法》「加薪條款」並非強制全民加薪，僅適用上市櫃公司部分基層員工。企業可選擇發放一次性酬勞取代薪資調整，以履行其法定義務，實質效益與大眾預期容有落差。",
+   "date": "2026-09-21T04:00:00.000Z",
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "ghxao9",
+   "title": "〈焦點股〉富驊業務多點開花2027年營運看旺 跳空漲停",
+   "url": "https://news.cnyes.com/news/id/6611811",
+   "summary": "富驊(5465-TW)旗下高密度硬碟儲存系統、HPC伺服器、AI高速網路設備及水冷分歧管等業務逐步發酵，再加上泰國廠明年投產挹注，看好明年營收獲利跳增，激勵富驊今(21)日股價表現亮眼，跳空漲停。 富驊早盤即跳空漲停，鎖住29.35元，飛越年線，排隊委買單超過1000張，成交量則約60",
+   "date": "2026-09-21T03:58:08.000Z",
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghxaod",
+   "title": "美軍要動手了？五角大廈「披薩指數」飆升",
+   "url": "https://news.cnyes.com/news/id/6611815",
+   "summary": "美國駐中東多國大使館發布安全警示，稱中東安全環境面臨不可預見的升級風險。 五角大廈附近披薩店18日22時、19日17時訂單激增，客流量高於往日。 川普提前自戴維營返白宮，並評估打擊胡塞方案，外界猜測與披薩指數飆升有關。",
+   "date": "2026-09-21T03:57:45.000Z",
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghxa1j",
+   "title": "政院推動桃竹苗大矽谷計畫 國產苗栗廠擁利基挹注業績動能",
+   "url": "https://news.cnyes.com/news/id/6611798",
+   "summary": "桃竹苗大矽谷計畫推進，帶動苗栗西部科技廊帶成形與建廠需求 國產苗栗廠擁科技行控與大量澆築供應力，曾供銅鑼科學園區八成科技建廠 苗栗房建升溫，後龍高鐵特區、苗栗市、銅鑼及公館建案需求同步增加",
+   "date": "2026-09-21T03:57:41.000Z",
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghwfqj",
+   "title": "主動式ETF新人周漲幅榜出爐 00411A勁揚逾4%奪冠",
+   "url": "https://news.cnyes.com/news/id/6610472",
+   "summary": "主動統一前沿科技(00411A)近一周漲4.22%，19檔主動式ETF新人居冠 上周獲外資買超5.4萬張，居上櫃買超第一；21日盤中高見10.22元 經理人郭智偉指AI投資擴大、AI伺服器新品第四季起放量，企業獲利有上修機會",
+   "date": "2026-09-21T03:53:20.000Z",
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghxa0i",
+   "title": "群益：美中科技戰升級 這些族群添台供應鏈成長動能",
+   "url": "https://news.cnyes.com/news/id/6611784",
+   "summary": "群益論壇指美中AI競逐延伸至晶片、算力、傳輸與能源建設 中國推「人工智慧+」與「三新網」，相關投資規模上看人民幣10兆元 2026年是「代理式AI元年」，台灣晶圓代工、先進封裝、矽光子受惠",
+   "date": "2026-09-21T03:49:14.000Z",
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghxa0l",
+   "title": "AI電力軟體族群撐盤 台股高檔震盪 009831瞄準算力掌4大黃金配置",
+   "url": "https://news.cnyes.com/news/id/6611787",
+   "summary": "AI資金續聚台股，重電、能源、雲端軟體同步吸引買盤 IEA估AI資料中心2025年用電量年增50%，2030年前全球資料中心用電需求近翻倍 富蘭克林華美將推009831-TW，10/5至10/8募集，布局電力、硬體、軟體、應用",
+   "date": "2026-09-21T03:47:50.000Z",
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "1op6d4c",
+   "title": "2026中秋教師節連假放 4 天！哪天出勤領最多？加班費全公式一次看",
+   "url": "https://www.managertoday.com.tw/articles/view/72519",
+   "summary": "2026年（115 年）中秋教師節連假即將到來！從 9 月 25 日（五）至 9 月 28 日（一）共有 4 天假期。如果你在中秋連假期間被雇主要求上班，加班費怎麼算？",
+   "date": "2026-09-21T03:46:18.000Z",
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "經理人",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.managertoday.com.tw"
+  },
+  {
+   "id": "1op6glw",
+   "title": "韋氏辭典新增 1400 個新單字！你知道 Rickroll、FAFO 是什麼意思嗎？",
+   "url": "https://www.managertoday.com.tw/articles/view/72968",
+   "summary": "韋氏辭典 2026 年 9 月新增 1400 個單字與定義，公開點名的有 28 個。Rickroll、looksmaxxing、vibe coding、AGI、包子、辣椒脆醬、Sunday scaries 全數入典，本文整理完整中文釋義與收錄標準。",
+   "date": "2026-09-21T03:43:25.000Z",
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "經理人",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.managertoday.com.tw"
+  },
+  {
+   "id": "ghx9v0",
+   "title": "首超GPU！小摩：2027年ASIC/XPU佔比54% 今年客製化AI ASIC規模約600-700億美元",
+   "url": "https://news.cnyes.com/news/id/6611724",
+   "summary": "小摩估AI加速器出貨結構2027年拐點，ASIC/XPU佔比升至54%，首次超過通用GPU。 今年客製化AI ASIC市場約600億至700億美元，未來數年年複合成長率逾40%至50%。 博通與邁威爾合計佔約90%；博通與谷歌5年協議涵蓋2026至2031年，市場看2奈米、CoWoS、HBM配貨。",
+   "date": "2026-09-21T03:40:04.000Z",
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghxa1g",
+   "title": "官方統計：受戰爭影響 伊朗經濟萎縮10%",
+   "url": "https://news.cnyes.com/news/id/6611795",
+   "summary": "受戰爭影響，伊朗經濟萎縮約10%。 伊朗最高領袖與多名高階軍官喪生，引發伊朗封鎖荷姆茲海峽報復。 卡達稱正與美國、伊朗溝通，推動恢復談判。",
+   "date": "2026-09-21T03:39:25.000Z",
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghcivs",
+   "title": "〈焦點股〉GIS-KY布局矽光子、AR高毛利領域 盤中放量漲停",
+   "url": "https://news.cnyes.com/news/id/6607938",
+   "summary": "觸控面板廠GIS-KY(6456-TW)跨足高階光通訊與AR等高毛利新業務，並於近期追加近34億元資本支出，今(21)日股價強勁，早盤以66.7元開出後，在買盤湧入下迅速攻上漲停價71.9元，成交量逾1.1萬張，較前一日放大近10倍。 GIS-KY董事會日前通過代台灣子公司英特盛科技與越南子公司新",
+   "date": "2026-09-21T03:30:18.000Z",
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
   {
    "id": "ghxa1k",
    "title": "盤中速報 - 明基材(8215)股價拉至漲停，漲停價30.05元，成交5,183張",
@@ -1083,6 +1603,18 @@ window.NEWS_DATA = {
    "site": "https://www.thewrap.com"
   },
   {
+   "id": "k4u2j5",
+   "title": "先別急著變成 AI Native 組織，勤業眾信資深執行副總經理溫紹群：台灣企業應先用 AI Empower 放大既有優勢",
+   "url": "https://techorange.com/2026/09/21/deloitte-rick-wen-podcast",
+   "summary": "專訪：戴季全撰稿：李昀蔚 「企業不會說 AI 不是競爭力，但是 AI 不會是唯一的競爭力。」本集《全新一週》邀請勤業眾信資深執行副總經理溫紹群，從第一線協助企業與組織導入 AI 的經驗出發，剖析 AI Agent 從回答問題走向自主執行後，企業真正面臨的挑戰，已經不只是模型能力，而是資料、流程、系統、組織與治理能不能一起跟上的課題。 從 CIO 如何在百家爭鳴的 AI Agent 生態中規劃未來架構，到 IT 與業務部門對 AI 導入方式出現不同期待，再到企業究竟該追求 AI Native，還是先用 AI Empower 強化既有優勢，當 AI 落地逐漸從單純的技術專案走向組織轉型，同時又有 ",
+   "date": "2026-09-21T03:00:00.000Z",
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "TechOrange",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://buzzorange.com/techorange/"
+  },
+  {
    "id": "4th23d",
    "title": "B端AI设计工程化提效",
    "url": "https://www.woshipm.com/ai/6467628.html",
@@ -1191,6 +1723,42 @@ window.NEWS_DATA = {
    "site": "https://www.woshipm.com"
   },
   {
+   "id": "ryj5u",
+   "title": "融过8轮的千叶珠宝爆雷了",
+   "url": "https://www.huxiu.com/article/4892784.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/21/36294-prod-db-general-1-1789957998817.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>九年时间，市值缩水99%以上。近期，安妮·海瑟薇代言的珠宝品牌千叶珠宝被曝出实控人夫妇失联、直营店几近全数关闭、无力支付员工工资，深陷困",
+   "date": "2026-09-21T02:34:41.000Z",
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "1honzdy",
+   "title": "《第一性思考》13｜AI最前沿的未来，为什么正在复活一批30年前的老公司？",
+   "url": "https://www.huxiu.com/article/4892779.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/21/36293-prod-db-general-1-1789957959746.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>大家好，我是X,INTJ,AI算法架构师，这里是0xAI《第一性思考》AI业内视角，透过热点，看见未来最近看AI产业，最热闹的当然还是模",
+   "date": "2026-09-21T02:34:36.000Z",
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "1yigz0g",
+   "title": "为什么在商K上班，必须得买手环？",
+   "url": "https://www.huxiu.com/article/4892782.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/21/36292-prod-kl-general-1-1789957862537.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>众所周知，我对风月场所是一窍不通的，我是衡水模式培养出来的榆木脑袋。但我有个朋友喜欢勾栏听曲。他曾想培养自己写日记的习惯，写了几天，写的",
+   "date": "2026-09-21T02:32:48.000Z",
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
    "id": "ghx9xn",
    "title": "盤中速報 - 環科(2413)股價拉至漲停，漲停價58.4元，成交10,297張",
    "url": "https://news.cnyes.com/news/id/6611750",
@@ -1239,6 +1807,30 @@ window.NEWS_DATA = {
    "site": "https://www.ifanr.com/"
   },
   {
+   "id": "1ci9ivy",
+   "title": "那26分钟归谁",
+   "url": "https://www.huxiu.com/article/4892771.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/21/36290-prod-nb2qnf-general-1-1789957042299.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>——AI省时之后，红利才开始分配2025年6月，英国政府公布了一项跨部门试验结果：2024年9月至12月间，约两万名公务员获得了",
+   "date": "2026-09-21T02:18:43.000Z",
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "udux4y",
+   "title": "汉化组，可能是世界上最不怕AI冲击的一群人",
+   "url": "https://www.huxiu.com/article/4892766.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/21/36287-prod-nb2qnf-general-1-1789956017802.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>前段时间，我刷到一篇文章说，在AI的冲击下，字幕组要死透了。文章里写了版权、官方字幕和AI给字幕组的生存空间带来的挤压，读完之后",
+   "date": "2026-09-21T02:18:29.000Z",
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
    "id": "ghx9wv",
    "title": "鉅亨買幣速報 - USDC(USDC)24小時成交量超過18.72億美元，NFPrompt Token(NFP)24小時漲幅達65.8%",
    "url": "https://news.cnyes.com/news/id/6611745",
@@ -1285,6 +1877,30 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-TW",
    "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "1buyptp",
+   "title": "这届体育迷，在电影院看比赛",
+   "url": "https://www.huxiu.com/article/4892770.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/21/36289-prod-nb2qnf-general-1-1789956465400.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>8月29日，2026-2027赛季德国杯乒乓球1/8决赛开赛。作为樊振东加盟杜塞尔多夫俱乐部后的首秀，这场比赛吸引了大量中国球迷",
+   "date": "2026-09-21T02:08:59.000Z",
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "wbrcbp",
+   "title": "争夺人口从婴儿开始",
+   "url": "https://www.huxiu.com/article/4892769.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/21/36288-prod-nb2qnf-general-1-1789956445250.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>争夺人口从婴儿开始曾馥琳厦门大学·规划院更新中心1抢人大战，抢到根上了吗？杭州某车企“南下”那一年，政府给每名随迁员工发了80万",
+   "date": "2026-09-21T02:08:41.000Z",
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
   },
   {
    "id": "ghx9uy",
@@ -1383,6 +1999,30 @@ window.NEWS_DATA = {
    "site": "https://buzzorange.com/techorange/"
   },
   {
+   "id": "t39b0g",
+   "title": "毛利率跌破10%，理想把“护城河”摆上货架",
+   "url": "https://www.huxiu.com/article/4892764.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/21/36286-prod-nb2qnf-general-1-1789955973333.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>汽车销量承压，理想汽车选择“对外开放”。2026年9月18日，据36氪报道，多位产业人士透露，理想汽车已启动多项核心技术对外供应",
+   "date": "2026-09-21T02:00:55.000Z",
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "n4dsno",
+   "title": "蘋果執行長John Ternus談iPhone Duo：完美體現「科技與人文」理念，以筆記本比例重塑摺疊體驗",
+   "url": "https://mashdigi.com/apple-ceo-john-ternus-discusses-the-iphone-duo-a-perfect-embodiment-of-the-technology-and-humanity-philosophy-reshaping-the-foldable-experience-with-a-laptop-like-proportion",
+   "summary": "針對近期在市場上引發熱烈討論的蘋果全新產品線「iPhone Duo」，蘋果執行長John Ternus日前在接 […]",
+   "date": "2026-09-21T02:00:26.000Z",
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "mashdigi",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://mashdigi.com"
+  },
+  {
    "id": "ghx9u1",
    "title": "〈焦點股〉外資指ABF載板供需缺口擴大 欣興獲買盤簇擁重返千金",
    "url": "https://news.cnyes.com/news/id/6611712",
@@ -1443,6 +2083,18 @@ window.NEWS_DATA = {
    "site": "https://www.woshipm.com"
   },
   {
+   "id": "sfyhy7",
+   "title": "AI To C：从用户增长到商业闭环，还要验证什么？",
+   "url": "https://www.huxiu.com/article/4892763.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/21/36285-prod-db-general-1-1789955541955.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>在上篇，我们讨论了AI如何改变产品形态，以及新的消费应用机会正在出现。而真正的问题，是从这里才开始：产品应该为谁而做？增长还能依赖哪些新",
+   "date": "2026-09-21T01:53:43.000Z",
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
    "id": "ghx9v4",
    "title": "盤中速報 - 點序(6485)股價拉至漲停，漲停價71.8元，成交813張",
    "url": "https://news.cnyes.com/news/id/6611728",
@@ -1477,6 +2129,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-CN",
    "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "r5cvtp",
+   "title": "拿Jev做金融交易，亏钱才正常",
+   "url": "https://www.huxiu.com/article/4892761.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/21/36283-prod-db-general-1-1789955367841.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>Jev是最近一个新的模型，相比传统强化学习出一堆文本描述充斥幻觉速度还慢的问题，这个模型只会输出一个概率结果，非常快，非常便宜，一下子打",
+   "date": "2026-09-21T01:50:41.000Z",
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
   },
   {
    "id": "wr3zkv",
@@ -1537,6 +2201,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-TW",
    "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "qi22rg",
+   "title": "惠民保失速后，商保谁来买单？",
+   "url": "https://www.huxiu.com/article/4892760.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/21/36282-prod-nb2qnf-general-1-1789955127394.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>过去五年，商业健康险给中国医疗支付市场讲了两个故事。行业首先找到了个人。一个叫惠民保：几十块钱保一年，高峰时全国数百款产品齐发，",
+   "date": "2026-09-21T01:46:43.000Z",
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
   },
   {
    "id": "ghx95d",
@@ -1839,6 +2515,18 @@ window.NEWS_DATA = {
    "site": "https://news.cnyes.com"
   },
   {
+   "id": "8dnh0g",
+   "title": "智谱，被上了一课",
+   "url": "https://www.huxiu.com/article/4892755.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/21/36279-prod-db-general-1-1789953207523.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>ZCode把智谱推入信任危机。定焦One（dingjiaoone）原创作为年初登陆港交所的“全球大模型第一股”，智谱的一举一动都在放大镜",
+   "date": "2026-09-21T01:14:42.000Z",
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
    "id": "ghx96a",
    "title": "盤中速報 - 國慶科技(1721)股價拉至漲停，漲停價24.2元，成交864張",
    "url": "https://news.cnyes.com/news/id/6611685",
@@ -1861,6 +2549,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-TW",
    "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "7qcny7",
+   "title": "机器人IPO门槛收紧？投行一线求证",
+   "url": "https://www.huxiu.com/article/4892754.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/21/36278-prod-nb2qnf-general-1-1789953148645.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>近日，有关监管向部分投行及投资机构发出非正式窗口指导、将提高人形机器人IPO审核门槛这一传闻引发市场关注。记者向多方投行人士采访",
+   "date": "2026-09-21T01:13:43.000Z",
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
   },
   {
    "id": "ghx968",
@@ -1923,6 +2623,18 @@ window.NEWS_DATA = {
    "site": "https://news.cnyes.com"
   },
   {
+   "id": "6fr1tp",
+   "title": "台湾引进新一代日本高铁列车",
+   "url": "https://www.huxiu.com/article/4892752.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/21/36277-prod-nb2qnf-general-1-1789953005262.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>2026年7月30日，即将交付中国台湾省的新型N700ST列车在日立笠户工厂（山口县久松市）举行了首车发运仪式。尽管过程几经波折",
+   "date": "2026-09-21T01:11:19.000Z",
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
    "id": "ghx95g",
    "title": "盤中速報 - 國邑*(6875)股價拉至漲停，漲停價36.3元，成交204張",
    "url": "https://news.cnyes.com/news/id/6611678",
@@ -1933,6 +2645,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-TW",
    "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "1itcum2",
+   "title": "新药狂飙：谁来保护受伤、残疾、死亡的受试者？",
+   "url": "https://www.huxiu.com/article/4892740.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/article/content/2026/09/21/084932493354.jpg?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/jpg\" referrerpolicy=\"no-referrer\"></figure>中国生物医药产业疾驰发展，全球瞩目。随之，国内临床试验项目数量也同样迎来爆发式增长。但近数月，多起临床试验受试者严重不良事件接连曝光，引发行业对前沿临床研究风险管控的讨论。其中，华南某生物医药",
+   "date": "2026-09-21T01:09:46.000Z",
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
   },
   {
    "id": "ghx95c",
@@ -1983,6 +2707,18 @@ window.NEWS_DATA = {
    "site": "https://news.cnyes.com"
   },
   {
+   "id": "1nzrb42",
+   "title": "臭豆腐能活，禅意小镇却死了：文旅小镇的真正死因，不是同质化",
+   "url": "https://www.huxiu.com/article/4892748.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/21/36275-prod-db-general-1-1789952587539.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>前两天，助手拿了几个项目给我看，问有没有合适的机会可以做。其中一个，是里耶的文旅小镇。业主方心态很明确：想整体出售，及时抽身。我们聊起来",
+   "date": "2026-09-21T01:04:38.000Z",
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
    "id": "ghx958",
    "title": "盤中速報 - 油電燃氣類股表現強勁，漲幅2.75%，總成交額20.91億",
    "url": "https://news.cnyes.com/news/id/6611670",
@@ -2017,6 +2753,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-TW",
    "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "162avde",
+   "title": "「史上最長」的東京電玩展受颱風影響取消最終日，四天吸引25.7萬人次；官方宣布TGS 2027展期",
+   "url": "https://mashdigi.com/the-tokyo-game-show-dubbed-the-longest-ever-had-its-final-day-cancelled-due-to-a-typhoon-attracting-257000-visitors-over-four-days-the-official-dates-for-tgs-2027-have-been-announced",
+   "summary": "主辦東京電玩展的日本一般社團法人電腦娛樂協會 (CESA)於9月20日公布東京電玩展2026 (TGS 202 […]",
+   "date": "2026-09-21T01:00:39.000Z",
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "mashdigi",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://mashdigi.com"
   },
   {
    "id": "ghx94h",
@@ -2077,6 +2825,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-TW",
    "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "13a5h42",
+   "title": "爆品逻辑害死人",
+   "url": "https://www.huxiu.com/article/4892739.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/article/content/2026/09/21/080814443766.jpg?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/jpg\" referrerpolicy=\"no-referrer\"></figure>1，爆品逻辑害死人，不是中国公司突然懂产品了，是供应链和流量曾经允许大家快速抄答案中国消费品过去十几年的很多红利，并不是诞生于多么高明的产品洞察，而是诞生于两套极其特殊的基础设施：一套是珠三角",
+   "date": "2026-09-21T00:57:26.000Z",
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
   },
   {
    "id": "ghx92o",
@@ -2223,6 +2983,18 @@ window.NEWS_DATA = {
    "site": "https://news.cnyes.com"
   },
   {
+   "id": "1mp5ozk",
+   "title": "OpenAI智能体入侵Hugging Face始末",
+   "url": "https://www.huxiu.com/article/4892746.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/21/36274-prod-nb2qnf-general-1-1789951349269.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>Sam Altman第一次看到Hugging Face遇袭的消息，是在一个周末。彼时，Hugging Face公开表示，自己的系",
+   "date": "2026-09-21T00:44:04.000Z",
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
    "id": "ghx92h",
    "title": "投信近3日買超個股",
    "url": "https://news.cnyes.com/news/id/6611640",
@@ -2245,6 +3017,30 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-TW",
    "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "1ncgi1t",
+   "title": "当AI 巨头竞争陷入“囚徒困境”",
+   "url": "https://www.huxiu.com/article/4892747.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/21/36273-prod-db-general-1-1789951098990.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>导语：近日，全球AI行业对前沿技术失控风险的担忧升温，Anthropic、OpenAI、xAI等头部企业负责人罕见地相继提出，应当放慢最",
+   "date": "2026-09-21T00:39:34.000Z",
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "1m1uvxb",
+   "title": "上海最夯夜生活，和crush逛完公园就地蹦迪",
+   "url": "https://www.huxiu.com/article/4892745.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/21/36272-prod-db-general-1-1789951040946.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>随着夜间游乐场的开放，复兴公园再度成为引人注目的上海夜生活地标。白天，这里是周边居民的主场，阿姨爷叔们在这里晨练，或者跳交谊舞、吹萨克斯",
+   "date": "2026-09-21T00:38:39.000Z",
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
   },
   {
    "id": "1mgef39",
@@ -3318,7 +4114,7 @@ window.NEWS_DATA = {
    "id": "gx1ty2",
    "title": "A small but growing number of founders are betting on bringing people together offline",
    "url": "https://techcrunch.com/2026/09/20/a-small-but-growing-number-of-founders-are-betting-that-bringing-people-together-is-its-own-industry",
-   "summary": "Brynn Putnam and Tristan Walker have already done something that most founders only dream about: created companies so compelling that bigger outfits bought them. Putnam, a trained ballerina with a small chain of boutique studios, built the connected-fitness company Mirror and sold it to Lululemon fo",
+   "summary": "On the surface, a game console and a leathercraft school don't appear to have much in common. But both founders think there's money in fostering the kind of connection that technology has eroded over the last couple of decades.",
    "date": "2026-09-20T15:00:00.000Z",
    "firstSeen": "2026-09-20T19:17:38.983Z",
    "source": "TechCrunch",
@@ -7887,6 +8683,18 @@ window.NEWS_DATA = {
    "site": "https://stratechery.com"
   },
   {
+   "id": "1fozhy6",
+   "title": "Doomforce",
+   "url": "https://stratechery.com/2026/doomforce/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L2Rvb21mb3JjZS8iXX0sImV4cCI6MTc5MjU1NjA3MiwiaWF0IjoxNzg5OTY0MDcyLCJpc3MiOiJodHRwczovL2FwcC5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyBwb2RjYXN0IHJzcyIsInN1YiI6Ijk0MDg0MGUyLTVlZjktNGJlNS04MjUwLTM3ODFmMjZlZTc5YSIsInVzZSI6ImFjY2VzcyJ9.Xe2piACJck53_BmUnCq2MZ2QiVsZVX_iH5VI18Xqp-JNAw9fOSBV31UDPlJv5rjLfNIExlcAnDzQZBtko2VxAeN9bPFzCv6Utud90B-1Fa-LFFXPu99tTCnmPzebRG8fr55-LQeAB1n7HhCfqcsT6pVg3OfwtP4pgtraXW4Cr9Je3j1ScAkaEKHeDD15qbk9NbP1flBkb9J-PM4E1TCa7PV9SBcinZIbSggQS69pBsdodTOI2p7HzJlGJM1AXyZQIghMwEaem8GJCeirlWA0j9qmWBoqve6fDmjpTCQ6qQjlIH50y3eaQ1fzSuPUBNPbODQGoSpdj2amqriLgkeREQ",
+   "summary": "The best Stratechery content from the week of September 14, 2026, including the view from anywhere but San Francisco, the limited potential for a pacing deal, and the Salesforce zag.",
+   "date": "2026-09-18T17:00:00.000Z",
+   "firstSeen": "2026-09-21T04:14:43.213Z",
+   "source": "STRATECHERY",
+   "tier": "S",
+   "lang": "en",
+   "site": "https://stratechery.com"
+  },
+  {
    "id": "1ramrj5",
    "title": "Jacobs Media Separated Profitable Events Brand From Rest of Company",
    "url": "https://www.amediaoperator.com/analysis/jacobs-media-separated-profitable-events-brand-from-rest-of-company",
@@ -12162,7 +12970,7 @@ window.NEWS_DATA = {
    "id": "c57swz",
    "title": "Facebook Pages get charged for link posts",
    "url": "https://www.socialmediatoday.com/news/facebook-pages-get-charged-for-link-posts/830743",
-   "summary": "<p>After Meta One for Business launched its subscription packages, some managers said their accounts were being limited to two link posts per month.</p>",
+   "summary": "<p>After Meta One for Business launched its subscription packages, some managers say their accounts are being limited to two link posts per month.</p>",
    "date": "2026-09-17T21:48:59.000Z",
    "firstSeen": "2026-09-18T10:03:21.928Z",
    "source": "Social Media Today",
@@ -12198,7 +13006,7 @@ window.NEWS_DATA = {
    "id": "o6968e",
    "title": "Reddit offers insights from its Health Summit event",
    "url": "https://www.socialmediatoday.com/news/reddit-offers-insights-from-its-health-summit-event/830742",
-   "summary": "<p>The app presented data that showed the extent to which users turn to each other for medical advice and diagnoses.</p>",
+   "summary": "<p>New data shows the extent to which users turn to each other for medical advice and diagnoses.</p>",
    "date": "2026-09-17T21:38:14.000Z",
    "firstSeen": "2026-09-18T10:03:21.928Z",
    "source": "Social Media Today",
@@ -12402,7 +13210,7 @@ window.NEWS_DATA = {
    "id": "3wefw1",
    "title": "Pinterest announces visual search ads and an AI restyle feature",
    "url": "https://www.socialmediatoday.com/news/pinterest-announces-visual-search-ads-and-an-ai-restyle-feature/830737",
-   "summary": "<figure><div><img src=\"https://imgproxy.divecdn.com/zYuK6nLxGefc_lAl8a6TyIK52yJ2nF3V8oma2sorWmM/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9waW50ZXJlc3RfcHJlc2VudHNfMjAyNl8xLnBuZw==.webp\"/></div></figure><p>At the company&rsquo;s annual Pinterest presents event, it unveiled ne",
+   "summary": "<figure><div><img src=\"https://imgproxy.divecdn.com/zYuK6nLxGefc_lAl8a6TyIK52yJ2nF3V8oma2sorWmM/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9waW50ZXJlc3RfcHJlc2VudHNfMjAyNl8xLnBuZw==.webp\"/></div></figure><p>At its Pinterest Presents event, the company unveiled new promotional ",
    "date": "2026-09-17T20:02:16.000Z",
    "firstSeen": "2026-09-18T10:03:21.928Z",
    "source": "Social Media Today",
@@ -15517,18 +16325,6 @@ window.NEWS_DATA = {
    "tier": "S",
    "lang": "en",
    "site": "https://reutersinstitute.politics.ox.ac.uk"
-  },
-  {
-   "id": "j1i2q4",
-   "title": "組織很小，影響力可以多大？一個超精簡團隊，如何以新聞獎連結 103 國、22 種語言的深度報導？案例分享：瑞士 True Story Award",
-   "url": "https://feja.org.tw/83193",
-   "summary": "一個創辦僅七年、剛剛辦完第六屆的新聞獎，可以有多大的國際影響力？ 創立於瑞士伯恩的 True Story Award，是目前少數真正以全球為尺度、跨越語言與地域評選書面報導的國際新聞獎。2026 年，獎項收到來自 103 個國家、以 22 種語言寫成的 959 篇作品；36 位入圍記者獲邀前往伯恩，參加頒獎典禮與 True Story Festival。獎項分為 Research、Storytelling 與 Impact 三類，得獎者各獲得兩萬美元獎金。其國際顧問成員包括諾貝爾文學獎得主斯維拉娜・亞歷塞維奇，以及《Internazionale》、《Harper’s》、《時代週報》等國際媒體的",
-   "date": "2026-09-07T03:57:08.000Z",
-   "firstSeen": "2026-09-18T10:03:21.928Z",
-   "source": "Excellent",
-   "tier": "A",
-   "lang": "zh-TW",
-   "site": "https://www.feja.org.tw"
   }
  ]
 };
