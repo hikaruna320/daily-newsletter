@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-21T08:22:06.232Z",
+ "generatedAt": "2026-09-21T10:27:04.922Z",
  "keepDays": 14,
  "sources": [
   {
@@ -153,7 +153,7 @@ window.NEWS_DATA = {
    "feed": "https://news.cnyes.com/rss/v1/news/category/headline",
    "ok": true,
    "error": null,
-   "count": 97
+   "count": 94
   },
   {
    "name": "woshipm",
@@ -261,7 +261,7 @@ window.NEWS_DATA = {
    "feed": "https://www.managertoday.com.tw/rss",
    "ok": true,
    "error": null,
-   "count": 5
+   "count": 9
   },
   {
    "name": "品玩",
@@ -879,6 +879,534 @@ window.NEWS_DATA = {
  ],
  "items": [
   {
+   "id": "1op6gms",
+   "title": "台積電熊本廠周邊公寓淪「鬼城」！當地房仲曝關鍵：台灣人直接用現金買獨棟",
+   "url": "https://www.managertoday.com.tw/articles/view/72977",
+   "summary": "台積電熊本廠周邊公寓大量空置。建商為台灣家庭量產的 3LDK 月租開到 15 萬日圓，台灣富裕層卻現金買獨棟，官方地價調查點名供給過剩，投機熱已轉往合志市。",
+   "date": "2026-09-21T10:24:06.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "經理人",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.managertoday.com.tw"
+  },
+  {
+   "id": "ghxbn2",
+   "title": "升息不確定性消除！19檔ETF創今年新高 4檔高股息連袂攻頂",
+   "url": "https://news.cnyes.com/news/id/6611960",
+   "summary": "聯準會升息一碼後，市場焦點回到企業基本面，台股AI供應鏈表現亮眼 21日共有19檔ETF收盤創今年新高，含13檔台股主題、4檔海外主題、2檔主動式 不讓科技主題ETF專美於前，0056、00878高股息雙雄創歷史新天價",
+   "date": "2026-09-21T10:22:30.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghxwkm",
+   "title": "中共宣布！張又俠嚴重違紀違法 被開除黨籍、軍籍",
+   "url": "https://news.cnyes.com/news/id/6612132",
+   "summary": "中共中央政治局通過中央軍委關於張又俠、劉振立問題的審查結果。 兩人被指嚴重違反政治、組織、廉潔、工作與生活紀律，涉嚴重職務犯罪、涉案金額特別巨大。 中共決定開除黨籍，終止二十大代表資格。",
+   "date": "2026-09-21T10:17:57.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghxwiz",
+   "title": "微軟卞志祥：算力需求未來兩至三年仍供不應求 擴增台灣資料中心至四座",
+   "url": "https://news.cnyes.com/news/id/6612119",
+   "summary": "微軟台灣總經理卞志祥：全球算力需求仍大於供給，且將延續2至3年 因應需求，微軟台灣資料中心由2座擴增至4座，服務項目從70多項增至200多項 台灣資料中心採3+1配置，主要位於北台灣，客戶涵蓋半導體、政府、醫療、金融與電信",
+   "date": "2026-09-21T10:15:59.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghxwiv",
+   "title": "傳統淡季迎RTX Spark新品助陣 台灣PC品牌華碩、微星營運動能看俏",
+   "url": "https://news.cnyes.com/news/id/6612115",
+   "summary": "華碩、微星第四季雖逢PC淡季，受RTX Spark AI電腦新品與AI伺服器需求帶動，營運可望走強。 華碩估第三季營收季增14%，第四季再季增12%，伺服器含物聯網營收今明兩年估年增147%、48%。 微星第四季營收估季增13%，今年毛利率估由11%升至14.9%，AI伺服器與高階電競機種支撐成長。",
+   "date": "2026-09-21T10:14:14.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "1y6ehvf",
+   "title": "當電商、實體零售都在成長，為什麼物流業反而衰退？",
+   "url": "https://www.managertoday.com.tw/columns/view/72974",
+   "summary": "企業經營的競爭壓力往往不是來自同業，異業競爭卻可能造成重大生存威脅。電商普及化之際，台灣專業物流業卻被客戶自建物流所取代，面臨嚴峻的轉型挑戰。",
+   "date": "2026-09-21T10:02:50.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "經理人",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.managertoday.com.tw"
+  },
+  {
+   "id": "16oykab",
+   "title": "Collateral Damage",
+   "url": "https://www.cjr.org/film/collateral-damage-naza-documentary-israel-idf-szor-abraham-threats-right-wing-shin-bet-targeting-gaza-civilian-deaths.php",
+   "summary": "Almost no one has seen NAZA, a chilling new documentary. That hasn’t stopped Israel from freaking out about it.",
+   "date": "2026-09-21T10:00:00.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "Columbia Journalism Review",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.cjr.org"
+  },
+  {
+   "id": "gxvsm8",
+   "title": "“It Fills Me With Pride”: How the Basque Country Is Nurturing Its Next Generation of Filmmakers",
+   "url": "https://www.hollywoodreporter.com/movies/movie-features/basque-films-san-sebastian-javier-giner-nitya-harvester-tv-1236706458",
+   "summary": "A total of 31 projects with Basque production ties are hitting this year's San Sebastián Film Festival — and some of those creatives are only just getting started: \"We are in a great moment compared to 20 years ago.\"",
+   "date": "2026-09-21T10:00:00.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "155c8q7",
+   "title": "苹果OV密集发布，涌现“AI OS元周”，到底谁更能打？",
+   "url": "https://www.woshipm.com/it/6467586.html",
+   "summary": "九月第三周，iOS 27、OriginOS 7、ColorOS 17 与鸿蒙 HMAF 集中发布，真正的 AI OS 突然来袭。它们基本都有端侧模型与跨 App 的 Agent 调度能力，代价是内存与价格齐涨，值不值得买还要看实际能力。 这周AI OS 密集发布更新，意味着真正的AI手机来了。 先是在9月15日，苹果更新了 iOS 27，Siri AI 终于来了；然后是 9 月 16 日，vivo发布了OriginOS 7，其个人助理蓝心小V上线；9 月 17 日，OPPO 发布AI特色的ColorOS 17，提出了AI主动式服务；这周还有豆包手机 2 代，中兴称是AI 智能体手机。 同时，华",
+   "date": "2026-09-21T09:58:12.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "ghxvvw",
+   "title": "貿聯-KY結盟ams OSRAM 布局AI資料中心光學互連技術",
+   "url": "https://news.cnyes.com/news/id/6612093",
+   "summary": "貿聯-KY與ams OSRAM建立生態系策略合作夥伴關係，開發AI縱向擴展次世代光學互連方案。 雙方將在ECOC 2026展示採用寬而慢架構的光學互連技術，主打低功耗、低延遲。",
+   "date": "2026-09-21T09:56:11.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghxvt7",
+   "title": "升息難擋資金熱情！全球股票ETF單周吸金470億美元 台股反遭提款5.8億美元",
+   "url": "https://news.cnyes.com/news/id/6612065",
+   "summary": "聯準會睽違3年再升息、日本央行同步升息，政策前景趨明朗 近1周股票型ETF淨流入470.75億美元，美股吸金378.16億美元；南韓、台股遭外資賣超 AI、生技、美股與日股為布局主軸，並建議配置約1成黃金及貴金屬基金分散風險",
+   "date": "2026-09-21T09:52:37.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "vvi5ns",
+   "title": "鸿蒙PC迎来首款AI编程智能体工作台Qoder：将智能体能力从编程拓展至日常工作",
+   "url": "https://www.woshipm.com/share/6467985.html",
+   "summary": "9月21日，阿里巴巴旗下智能体工作台 Qoder 正式上线鸿蒙 PC 应用市场，这也是鸿蒙PC的首款AI编程智能体工作台。Qoder 以编程智能体为核心引擎，将任务执行能力拓展至文档处理、数据分析、信息研究等工作场景，为专业程序员和泛开发者提供从提出需求到交付成果的智能协作体验。 “你出想法，Qoder 负责实现。”围绕这一理念，Qoder 不止于回答问题、提供建议，还能理解用户意图，自主拆解任务步骤，调用工具推进执行，交付代码、文档、分析结果等工作成果，让 AI 从“帮你想”进一步走向“帮你做”。 Qoder 内置多款海内外先进模型并进行深度适配，通过智能路由按任务需求平衡效果、速度与成本。",
+   "date": "2026-09-21T09:51:06.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "16cu1z6",
+   "title": "The US has proposed an AI incident alert system to China",
+   "url": "https://thenextweb.com/news/us-china-ai-incident-alert-bessent-he-lifeng",
+   "summary": "The United States has proposed that Washington and Beijing notify each other of AI incidents serious enough to qualify as national security events, an idea Treasury Secretary Scott Bessent put forward to Chinese officials during talks in Manhattan on Sunday. Scott Bessent and Jamieson Greer, the tra",
+   "date": "2026-09-21T09:48:35.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "TNW",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://thenextweb.com"
+  },
+  {
+   "id": "ghxvr9",
+   "title": "油價回落、現貨ETF湧入與空頭爆倉推升 比特幣突破8.4萬美元",
+   "url": "https://news.cnyes.com/news/id/6612041",
+   "summary": "比特幣周一亞市午盤一度觸及84,174至84,200美元，本月新高，單日漲2%至3.2% 加密貨幣總市值回升至約2.66兆美元，Monero飆13%，Dogecoin、XRP、Ethereum同步走高 美國比特幣現貨ETF單日淨流入4.33億美元，空頭爆倉達5.05億美元，助推行情上衝",
+   "date": "2026-09-21T09:40:08.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "14bs5x6",
+   "title": "一万字Jev 工程实践长文：把 Agent 的“判断题”从大模型里拆出来",
+   "url": "https://www.woshipm.com/ai/6467980.html",
+   "summary": "最近 Jev 很火。它的传播路径很典型：先是 TypeSafe AI 发布一个听起来有点反常识的新模型，再是 Hacker News、知乎、Reddit 开始争论，接着 GitHub 上很快出现一批 Demo。有人拿它玩 Doom，有人拿它跑 Mario，也有人拿它接进浏览器自动化、代码审查、Agent 路由和上下文压缩里。 我一开始对它也有点怀疑。一个“不生成文本”的模型，能有多大空间？现在 GPT、Claude 已经能做 structured output，也能走 tool calling，为什么还要单独搞一个 Jev？ 把几篇资料看完，再读 fast-jev-compaction，最后自",
+   "date": "2026-09-21T09:35:49.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "ghxvoo",
+   "title": "南韓央行啟動24小時韓元交割網路試點",
+   "url": "https://news.cnyes.com/news/id/6612017",
+   "summary": "南韓中央銀行(BOK)周一(21日)正式啟動首個24小時韓元交割網路的試營運。此系統於當地時間周一上午9點開始運行，首波由國民銀行(KB Kookmin)、友利銀行(Woori)、韓亞銀行(Hana)與新韓銀行(Shinhan)等四家南韓本土商業銀行率先參與。 在開運首晨約9點30分，兩家參試本土",
+   "date": "2026-09-21T09:30:06.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "3mmwdm",
+   "title": "AI 重塑外包市場：印度 3,150 億美元 IT 產業，從例行工作走向高價值服務",
+   "url": "https://techorange.com/2026/09/21/ai-matters-india-philippines",
+   "summary": "AI 正在改變印度外包產業的工作內容，目前尚未造成產業出口的廣泛下降。但 ING 銀行指出，隨著 AI 逐步自動化客服、法律審查、理賠處理、文件驗證及資料輸入等工作，外包產業成長正逐漸從例行性處理工作轉向資料分析、軟體開發及其他更高價值的服務。 需求縮減還是結構改變？分析指 AI 正逐漸重塑印度的全球外包角色 《Reuters》提及，印度 3,150 億美元的 IT 產業被視為特別容易受到 AI 影響，原因之一在於其傳統上依賴按工時計費的商業模式。ING 研究指出，印度軟體服務出口占國內生產毛額（GDP）的比重，已從疫情前的 3.3% 上升至約 5.2%；商業服務出口占 GDP 的比重也從疫情",
+   "date": "2026-09-21T09:22:35.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "TechOrange",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://buzzorange.com/techorange/"
+  },
+  {
+   "id": "ghxbkh",
+   "title": "4.75%！兩年債突變得很吃香 利率期權顯示市場開始押Fed不會升太兇 但最大變數是「它」",
+   "url": "https://news.cnyes.com/news/id/6611936",
+   "summary": "兩年期美債遭逆勢回補，因市場認為Fed重啟升息後，短端已過度反映緊縮預期。 Fed上周三升息1碼至3.75%至4%，兩年債殖利率衝上約4.75%，市場押注未來一年再緊縮約數10至80個基點。 短債具高票息與政策錯價回補空間，但油價、中東與俄烏局勢若推升通膨，Fed恐被迫升得更高。",
+   "date": "2026-09-21T09:20:03.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "1a1i5c8",
+   "title": "ShinyHunters says it hijacked Cl0p’s dark web leak site",
+   "url": "https://thenextweb.com/news/shinyhunters-clop-leak-site-hijack",
+   "summary": "On the night of Friday, September 18, the Tor leak site that the Cl0p ransomware gang used to name and pressure its victims was defaced. Another criminal group claimed responsibility, according to BleepingComputer. When people visited the site, they saw Pokémon artwork, an ASCII Umbreon, above the m",
+   "date": "2026-09-21T09:15:39.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "TNW",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://thenextweb.com"
+  },
+  {
+   "id": "ghxvrh",
+   "title": "台新證強化投資防護網 攜手刑事警察局簽MOU",
+   "url": "https://news.cnyes.com/news/id/6612049",
+   "summary": "數位金融服務快速發展，但詐騙手法也不斷演變，台新證券和台新期貨今(21)日與內政部警政署刑事警察局簽署反詐騙合作意向書(MOU)，從「事前預防、事中攔阻、事後協處」等面向深化合作，積極強化投資市場防護網。 台新證券董事長陳俊宏表示，面對日益猖獗且高度數位化的金融詐騙，單一機構的防護力量已不足以因應",
+   "date": "2026-09-21T09:11:07.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghxbip",
+   "title": "中國爆款App「死了麼」改名復活 獲千萬融資、搶攻3億銀髮族商機",
+   "url": "https://news.cnyes.com/news/id/6611918",
+   "summary": "爆紅App「死了麼」4個月後改名「在麼在麼」重返市場，轉向獨居長者服務 與杭州官方合作，未打卡通知家屬或社區人員，並提供一鍵求助 公司4月募資人民幣1,000萬元、6月再尋求募資；中國60歲以上人口逾3.23億",
+   "date": "2026-09-21T09:10:03.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghxbhr",
+   "title": "美國柴油零售價首度突破6.5美元 期中選舉前夕加劇通膨壓力",
+   "url": "https://news.cnyes.com/news/id/6611907",
+   "summary": "美國AAA數據顯示，全國柴油平均零售價升至每加侖6.505美元，創歷史新高。 美伊衝突與俄羅斯柴油出口禁令加劇供應吃緊，9月柴油價暴漲逾87美分、較衝突前約漲70%。 高油價衝擊運輸、農業與供暖，並可能影響期中選舉；伯古姆稱出口禁令未必降價，高盛警告仍有上行空間。",
+   "date": "2026-09-21T09:10:02.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghxvre",
+   "title": "〈台幣〉風險情緒轉強 升值5分收31.758元",
+   "url": "https://news.cnyes.com/news/id/6612046",
+   "summary": "新台幣今(21)日全日維持偏強走勢，終場收在31.758元，升值5分，台北外匯經紀公司成交值擴大至22.67億美元。 新台幣今日以31.79元、升值1.8分開出後，最高來到31.716元，全日高低價差7.4分。 觀察主要亞幣，韓元飆升超過1%，新台幣收升0.16%，泰銖升逾0.1%，人民幣升值0",
+   "date": "2026-09-21T09:09:41.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "1f74k68",
+   "title": "品牌价值主张90%人误解了！坑坏企业",
+   "url": "https://www.woshipm.com/share/6467581.html",
+   "summary": "定位、价值主张与 slogan 常被混为一谈。作者以建筑作喻：定位是选址图纸，价值主张是承重墙，口号只是外墙门牌。价值主张本质是品牌与顾客之间的隐形契约，写不清楚，楼就会盖歪。 在品牌战略的讨论中，这种情况高频出现在会议桌上：“我们的slogan就是我们的定位。”话音落下，与会者往往点头附和，讨论就此翻页。 这一幕在企业里并不少见。平心而论，责任不都在决策者：一些所谓营销专家，也时常将这组概念混用。 定位论强调“定位就是一句话”，品牌手册写着“价值主张一句话提炼”，落到市场部门，slogan、定位、价值主张便成了可以随意互换的名词。用起来省事，代价却深藏其中。 事实上，这三个概念分属不同层级。",
+   "date": "2026-09-21T09:07:50.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "ddl5fh",
+   "title": "腾讯推出顶尖专家平台“混元智囊团”，我们想到了字节的Xpert",
+   "url": "https://www.woshipm.com/share/6467704.html",
+   "summary": "腾讯推出一个面向外部行业人才的专家平台，以接单付费的方式邀请各领域实战专家参与数据采集、内容编写与知识审核，产出的专家资源与专业数据服务于混元大模型迭代。这套模式让人联想到字节此前做的 Xpert 专家社区。 腾讯推出面向外部行业人才的专家平台“混元智囊团”，平台Slogan为“聚智为谋，引领未来”。该平台隶属于腾讯混元旗下，通过连接各领域顶尖实战专家与真实AI训练问题，以高质量数据集生产、专业内容编写、知识审核为核心工作，产出的专家资源与专业数据服务于混元大模型持续迭代优化。 简单来说，腾讯混元需要找一群“金融”“法律”“医疗”“前端设计美学”“代码”等等各领域的专业人才，通过接单付费的任务",
+   "date": "2026-09-21T09:05:48.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "1b3l6qj",
+   "title": "汉化组，可能是世界上最不怕AI冲击的一群人。",
+   "url": "https://www.woshipm.com/ai/6467882.html",
+   "summary": "当AI一键翻译字幕、汉化漫画，传统字幕组和汉化组会被取代吗？本文与多位从业者深入对话，发现他们不仅不焦虑，反而借助AI提效，将精力转向校对与情感连接。从粉丝同好组到个人汉化，AI正成为兴趣社区的新生产力工具。 前段时间，我刷到一篇文章说，在AI的冲击下，字幕组要死透了。 文章里写了版权、官方字幕和AI给字幕组的生存空间带来的挤压，读完之后我开始好奇一个问题。 当观众打开视频，一键AI就能直接配好中文字幕，打开漫画，AI也能直接翻译图片，那些做汉化的字幕组、漫画组，会怎么看待这件事？ 于是，我陆陆续续找了一些做汉化的朋友聊了聊，做字幕和漫画汉化的都有。我原本以为，大家会担心自己被替代，会有些抵触",
+   "date": "2026-09-21T09:04:27.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "3fhmlt",
+   "title": "字节内测 ADrive 智能网盘，对飙腾讯网盘",
+   "url": "https://www.woshipm.com/ai/6467215.html",
+   "summary": "字节正在内测面向企业的 ADrive 智能网盘，让用户与 AI Agent 共用同一套文件存储与协作空间，豆包、TRAE 以及 Codex、DeepSeek 生成的文件都能沉淀进来。它带企业、团队、个人三级空间与自然语言检索，对标的腾讯网盘也在内测。 最近，AI 办公领域的 Agent，关于AI智能网盘的消息多了起来。 网盘作为办公的基础性储存服务，在 AI 时代，不再是仅仅作为文档存储的空间。 而是成为知识资产沉淀、共享协作、多应用连接、Agent 调用的基础设施。 AI 办公 Agent 的竞争，进入了深耕期。 大家要开始发力AI 智能网盘了。 1 字节内测 ADrive 智能网盘 当前，",
+   "date": "2026-09-21T09:04:01.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "1op6gj2",
+   "title": "迎來「場均萬人」全盛期！中華職棒第 37 個年頭，6 隊商業軍備賽全面開火",
+   "url": "https://www.managertoday.com.tw/articles/view/72935",
+   "summary": "中華職棒來到第 37 個年頭，終於迎來了全盛期，以人類來比喻，37 歲正值一個人的壯年。根據中華職棒大聯盟統計，2025 年全年度進場看球人次，邁入「場均萬人」的里程碑。",
+   "date": "2026-09-21T09:00:31.000Z",
+   "firstSeen": "2026-09-21T08:22:06.232Z",
+   "source": "經理人",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.managertoday.com.tw"
+  },
+  {
+   "id": "ghdztd",
+   "title": "輔助工具變執法主力？FBI局長宣稱AI使用量暴增605% 但數據遭質疑",
+   "url": "https://news.cnyes.com/news/id/6609632",
+   "summary": "Patel稱推動下FBI AI使用量成長605%，並指AI可用於資料篩選、保護兒童、防範校園槍擊 但605%未說明統計口徑；FBI公開資料僅見司法部列50項AI案例、其中9項高影響力，Noyes稱已核准139項 FBI擬砸8800萬美元買AI伺服器，並以AI輔助通話轉寫、摘要及線索比對，強化執法效率",
+   "date": "2026-09-21T09:00:06.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "eq522g",
+   "title": "San Sebastian Winner Yesim Ustaoglu Returns to Competition With ‘What Remains’ (Exclusive Clip)",
+   "url": "https://www.hollywoodreporter.com/movies/movie-news/san-sebastian-yesim-ustaoglu-what-remains-film-clip-turkey-1236706356",
+   "summary": "The prolific Turkish director tells the story of Elif, a poet who breaks free from a suffocating life in an attempt to rediscover her creative flow.",
+   "date": "2026-09-21T09:00:00.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "64kpfa",
+   "title": "The data center backlash is reshaping American politics — one community at a time",
+   "url": "https://www.npr.org/2026/09/21/nx-s1-5927288/data-center-election-voters-ai",
+   "summary": "With striking speed, the widespread debate around data centers has become a fault line in American communities, cutting across political parties and forging unexpected alliances.",
+   "date": "2026-09-21T09:00:00.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "NPR",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.npr.org"
+  },
+  {
+   "id": "ghxvra",
+   "title": "研調：全球蜂巢式IOT模組Q2出貨量年增11% 中國、印度新增出貨量約75%",
+   "url": "https://news.cnyes.com/news/id/6612042",
+   "summary": "Q2全球蜂巢式IOT模組出貨量年增11%，主因4G Cat 1 bis需求增加與價格下降。 4G Cat 1 bis首度占全球出貨量逾一半，印度超過80%；智慧電表與POS仍為主要應用。 Quectel全球市占升至41%；China Mobile中國市占18%，Eigencomm晶片出貨年增20%。",
+   "date": "2026-09-21T08:57:28.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "1op6glv",
+   "title": "總把「不好意思」掛在嘴邊，氣勢就矮人一截！這 5 種情境，換個說法更有自信",
+   "url": "https://www.managertoday.com.tw/articles/view/72967",
+   "summary": "總是把「對不起」掛嘴邊？過度道歉不僅削弱自信，更讓你顯得低一階。剖析過度道歉的心理根源，並提供 6 種情境的自信溝通術，教你用感謝與果斷表態取代抱歉！",
+   "date": "2026-09-21T08:56:25.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "經理人",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.managertoday.com.tw"
+  },
+  {
+   "id": "1z05m85",
+   "title": "The White House will not say what Trump’s AI Force is",
+   "url": "https://thenextweb.com/news/white-house-ai-force-no-detail",
+   "summary": "Two days after Donald Trump announced plans for an “AI Force” and an AI czar, the White House has not clarified whether the AI Force would be a military branch, a regulatory agency, or something else. Trump made the announcement on Truth Social on Saturday, rather than through an executive order or ",
+   "date": "2026-09-21T08:47:42.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "TNW",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://thenextweb.com"
+  },
+  {
+   "id": "1bw6bhw",
+   "title": "音乐软件功能or新型轻社交软件策划：“同频地图”，用歌品打造低压力社交",
+   "url": "https://www.woshipm.com/evaluating/6467230.html",
+   "summary": "当68.7%的年轻人自认社恐，音乐成为最安全的破冰话题，但市面上的社交产品却让i人望而却步。本文提出「同频地图」功能方案，基于LBS街道级定位与i/e人身份分层，打造只聊音乐、不越边界的轻量化社交，并拆解其如何成为校园拉新与日活提升的利器。 针对年轻学生群体与社恐人群的社交破冰难与音乐社交缺少低压力入口的痛点，本文提出「同频地图」功能方案。基于LBS街道级定位，以i/e人身份分层做权限区隔，所有互动锚定真实听歌数据，打造“只聊音乐、不越边界”的轻量化社交。方案兼顾隐私保护与分场景冷启动路径，有望提升用户日均打开次数与停留时长，成为校园及年轻商圈的拉新抓手。 据《2025 Z世代社交行为白皮书》",
+   "date": "2026-09-21T08:41:10.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "1wuq10a",
+   "title": "Trump says he'll create an AI task force. Industry insiders have a lot of questions",
+   "url": "https://www.npr.org/2026/09/21/nx-s1-5975522/trump-says-hell-create-an-ai-task-force-industry-insiders-have-a-lot-of-questions",
+   "summary": "President Trump has proposed creating an AI task force, similar to Space Force. But he has offered no other details about what it would look like. Tech industry experts are scratching their heads.",
+   "date": "2026-09-21T08:40:10.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "NPR",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.npr.org"
+  },
+  {
+   "id": "1uz5zic",
+   "title": "从 iPhone Duo 看行业困境：智能手机正在寻找真正的下一次革命",
+   "url": "https://www.huxiu.com/article/4892885.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/21/36340-prod-db-general-1-1789979733964.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>2026年，苹果终于进入了折叠屏。大家都在讨论谁抄的谁？这并不是一个太重要的问题，况且两个品牌都因此获得了大量免费的热度。真正值得研究的",
+   "date": "2026-09-21T08:36:53.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "10awli3",
+   "title": "你越让 AI「不要」做什么，它越做什么",
+   "url": "https://www.woshipm.com/ai/6467369.html",
+   "summary": "你越警告AI不要做什么，它反而越会做什么。这不是模型智商问题，而是提示词中的负向禁止在注意力机制里植入了错误答案。本文从粉色大象实验出发，剖析大模型为何对「不要」如此敏感，并给出剪枝优化、闭集白名单、物理级静默三条法则，附赠整仓体检Prompt，帮你彻底清除提示词中的粉色大象。 你越是警告 AI 不要做什么，它反而越会在输出里给你做什么。 这不是说大模型的智商不够，是你的提示词在大模型的注意力机制里面放入了错误的答案。 粉色大象实验，在大模型身上同样成立 心理学上有个很有名的实验：我现在对你说，千万不要在脑子里想一头粉色的大象。 你脑海里一定会浮现粉色大象。 大模型读你的提示词时，靠的是自注意",
+   "date": "2026-09-21T08:36:47.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "ghxvph",
+   "title": "〈港股盤後〉創新藥與科網股領漲 恒指升1.18%重回25000點",
+   "url": "https://news.cnyes.com/news/id/6612023",
+   "summary": "港股周一(21日)午後震盪走高，恒生指數全日升1.18%，收報25042.71點，重新站上25000點關口；國企指數漲1.39%；恒生科技指數收漲0.4%，報4423.29點。大市全日成交額放大至2027.31億港元。 盤面上，生物醫藥與創新藥板塊爆發領漲。三生制藥大漲逾9%，中國生物製藥漲8.2",
+   "date": "2026-09-21T08:35:23.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "1yrfee",
+   "title": "高雄兒少書展＋金鼎50》從出版50年逛到未來世代，9條活動懶人包，本週開展",
+   "url": "https://www.openbook.org.tw/article/p-72951",
+   "summary": "<div class=\"field field-name-field-image field-type-image field-label-hidden\"><div class=\"field-items\"><div class=\"field-item even\"><a href=\"/article/p-72951\"><img src=\"https://www.openbook.org.tw/sites/default/files/styles/full_post_image_xml/public/field/image/gao_xiong_er_shao_shu_zhan_jin_ding_5",
+   "date": "2026-09-21T08:30:23.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "Openbook 閱讀誌",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.openbook.org.tw"
+  },
+  {
+   "id": "ghx5ol",
+   "title": "〈陸股盤後〉美中舉行經貿磋商 三大指數走高",
+   "url": "https://news.cnyes.com/news/id/6611231",
+   "summary": "貝森特與何立峰在紐約會談數小時，雙方同意建立「美中AI對話」機制。 川普周四將在白宮見習近平，首要議題之一為美中延長貿易休戰協議。 A股三大指數收高，上證漲0.97%、深證成指漲0.65%、創業板指漲0.80%。",
+   "date": "2026-09-21T08:30:08.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "lm9hgy",
+   "title": "烏克蘭無人機產業從爆發成長走向整合，500 多家業者下一步拚什麼？",
+   "url": "https://techorange.com/2026/09/21/ukraine-drone-industry",
+   "summary": "烏克蘭戰爭催生超過 500 家無人飛行載具（UAV）製造商，如今這個高度分散的市場開始出現另一種變化。源自烏克蘭、目前在美國掛牌的自主系統公司 Swarmer，9 月宣布最高以 2.24 億美元收購烏克蘭地面機器人公司 Ratel Robotics。《The Wall Street Journal》將這筆交易視為當地無人系統產業走向整併的重要訊號之一。 這筆交易發生之際，烏克蘭無人機市場也正從大量小團隊快速試作，逐漸走向更大規模採購。業者除了開發產品，還開始面對產能、供應鏈、公司治理、海外募資等問題；部分公司則透過併購補進其他技術與產品。專注投資烏克蘭國防科技的 MITS Capital 共同",
+   "date": "2026-09-21T08:26:36.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "TechOrange",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://buzzorange.com/techorange/"
+  },
+  {
+   "id": "1t19kbl",
+   "title": "AI 正在制造App 过剩时代",
+   "url": "https://www.huxiu.com/article/4892882.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/21/36339-prod-db-general-1-1789979039367.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>你会为App付费吗？在软件开发的起点已经变成了一句话生成的当下，我们发送诸如像「帮我做一个记账App」的提示词，Codex或者其它Age",
+   "date": "2026-09-21T08:25:14.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "1op6gmm",
+   "title": "美股科技 ETF 怎麼選？從 QQQ、VGT 到 SMH、SOXX，7 檔成分股、績效與管理費一次看",
+   "url": "https://www.managertoday.com.tw/articles/view/72971",
+   "summary": "蘋果（Apple）、Google、輝達（NVIDIA）等企業大眾耳熟能詳，如果想參與他們的成長，又不想承擔太大風險，有哪些美股 ETF 可以選擇？",
+   "date": "2026-09-21T08:24:13.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "經理人",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.managertoday.com.tw"
+  },
+  {
    "id": "191x00j",
    "title": "双登顶新闻稿网易有道R2T2、T3PO双登顶Hugging Face细分热榜，全球开发者快速跟进适配",
    "url": "https://www.pingwest.com/w/317657",
@@ -927,6 +1455,18 @@ window.NEWS_DATA = {
    "site": "https://www.pingwest.com"
   },
   {
+   "id": "1sdyr9c",
+   "title": "从滑雪到网球，这群大厂创业者正在用AI硬件重做运动训练",
+   "url": "https://www.huxiu.com/article/4892881.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/21/36338-prod-nb2qnf-general-1-1789978766324.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>近期读到一篇关于AI滑雪硬件公司Heygo的报道：几位前字节跳动、大疆、腾讯的从业者，把两枚传感器夹在雪靴外侧，用百万级滑行数据",
+   "date": "2026-09-21T08:20:39.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
    "id": "yhm18d",
    "title": "Hands-on AI for Journalists: an intensive bootcamp",
    "url": "https://www.journalism.co.uk/training/ev-29-hands-on-ai-for-journalists-an-intensive-bootcamp",
@@ -937,6 +1477,78 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "en",
    "site": "https://www.journalism.co.uk"
+  },
+  {
+   "id": "ghxbhm",
+   "title": "升息失望與干預疑慮交織 日元在連假流動性低迷下恐加劇波動",
+   "url": "https://news.cnyes.com/news/id/6611902",
+   "summary": "日銀上周五升息至1.25%，但2票反對且植田和男未給明確升息指引，日元盤中一度跌1.3% 日元兌美元周一盤初報156.85，市場憂日本白銀周流動性大降，將放大匯率波動與干預風險 財務省7月下旬至8月26日曾砸15.4兆日元干預；美日政策分歧下，投機客日元淨多頭達97億美元",
+   "date": "2026-09-21T08:20:02.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "1ouptks",
+   "title": "AI 正在制造 App 过剩时代",
+   "url": "https://www.ifanr.com/1681265",
+   "summary": "你会为 App 付费吗？#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "date": "2026-09-21T08:15:46.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "爱范儿",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.ifanr.com/"
+  },
+  {
+   "id": "1awuykl",
+   "title": "智谱Zcode数据上传引争议，AI治理须跟上AI能力",
+   "url": "https://www.huxiu.com/article/4892877.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/21/36337-prod-nb2qnf-general-1-1789978464517.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>9月21日，针对近期饱受争议的ZCode产品安全问题，港股“大模型第一股”智谱（2513.HK）向界面新闻表示，公司已完成整改并",
+   "date": "2026-09-21T08:15:33.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "18bnqbl",
+   "title": "“小脑型选手”松延动力，开始挑战最强大脑",
+   "url": "https://www.huxiu.com/article/4892873.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/21/36336-prod-db-general-1-1789978338545.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>人形机器人行业，多数公司的节奏都很统一：先做模型、做智能演示，再慢慢补齐硬件能力。松延动力的路子却截然相反。2026年央视春晚小品《奶奶",
+   "date": "2026-09-21T08:13:44.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "19m9cg3",
+   "title": "关税新政落地两个月，欧洲人为中国跨境电商平台吵翻了？",
+   "url": "https://www.huxiu.com/article/4892875.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/21/36335-prod-nb2qnf-general-1-1789978254841.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>低价固然重要，但更深的护城河是海量SKU。7月后，当欧洲消费者像往常一样打开Temu、SHEIN或速卖通等电商平台，往购物车里加",
+   "date": "2026-09-21T08:12:12.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "18yyjdu",
+   "title": "孙正义又去借钱了，百亿美元继续押注OpenAI",
+   "url": "https://www.huxiu.com/article/4892874.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/21/36334-prod-db-general-1-1789978189456.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>孙正义又去借钱了。这次是100亿美元，外加10亿欧元，全部拿来买OpenAI。9月21日，路透社翻出了软银最新的发债文件。花旗和摩根大通",
+   "date": "2026-09-21T08:11:09.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
   },
   {
    "id": "ghxauo",
@@ -961,6 +1573,18 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://thenextweb.com"
+  },
+  {
+   "id": "qujxmu",
+   "title": "越道歉越翻车：HYROX错的不是道歉，而是错误的“道歉对象矩阵”",
+   "url": "https://www.huxiu.com/article/4892869.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/21/36333-prod-nb2qnf-general-1-1789977829410.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>一场选手突发身体状况引发的赛场安全与赛事公平争议，把在中国高速扩张的德国室内体能赛品牌HYROX推入入华以来最为严重的一次舆论危",
+   "date": "2026-09-21T08:05:39.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
   },
   {
    "id": "ghxbpt",
@@ -1047,16 +1671,16 @@ window.NEWS_DATA = {
    "site": "https://www.woshipm.com"
   },
   {
-   "id": "1op6gj2",
-   "title": "迎來「場均萬人」全盛期！中華職棒第 37 個年頭，6 隊商業軍備賽全面開火",
-   "url": "https://www.managertoday.com.tw/articles/view/72935",
-   "summary": "中華職棒來到第 37 個年頭，終於迎來了全盛期，以人類來比喻，37 歲正值一個人的壯年。根據中華職棒大聯盟統計，2025 年全年度進場看球人次，邁入「場均萬人」的里程碑。",
-   "date": "2026-09-21T07:55:56.000Z",
-   "firstSeen": "2026-09-21T08:22:06.232Z",
-   "source": "經理人",
-   "tier": "C",
-   "lang": "zh-TW",
-   "site": "https://www.managertoday.com.tw"
+   "id": "q794kl",
+   "title": "30家中国科技公司高管薪酬表：谁在拿最高的薪水",
+   "url": "https://www.huxiu.com/article/4892868.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/21/36332-prod-db-general-1-1789977362071.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>AI产业链上的公司，正在为关键人才开出越来越高的价码。智谱2025年营收7.24亿元，归母净利润亏损46.98亿元，但董事长刘德兵的年度",
+   "date": "2026-09-21T07:57:25.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
   },
   {
    "id": "1tcr8eu",
@@ -1096,7 +1720,7 @@ window.NEWS_DATA = {
   },
   {
    "id": "kqbpjy",
-   "title": "2026突发！Facebook涨粉广告全面下线",
+   "title": "Facebook涨粉广告下线后，出海运营者该怎么调整投放策略？",
    "url": "https://www.woshipm.com/share/6467363.html",
    "summary": "Meta已移除广告管理器中最大化主页赞（Page Likes）的投放目标，广告上的一键关注按钮被换成了访问主页。买粉丝的路被堵了，但会玩的人反而拿到更精准的粉。平台转向以观看量为主的新指标体系。 一句话结论：Meta 已移除广告管理器中最大化主页赞（Page Likes）的投放目标，广告上的一键关注按钮被换成了访问主页。买粉丝的路被堵了一半，但会玩的人反而拿到了更精准的粉。 一、到底发生了什么？政策变化 最近不少做社媒投放的朋友发现：在广告管理器里新建互动（Engagement）广告系列时，最大化主页赞这个优化目标不见了，变成了灰色，无法选择该类型的广告。 过去，这个功能允许广告直接挂一个关注",
    "date": "2026-09-21T07:47:17.000Z",
@@ -1117,6 +1741,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-CN",
    "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "yjn4u",
+   "title": "2026年8月70城房价数据简评：一线城市临界点兑现，“优等生”成都补跌",
+   "url": "https://www.huxiu.com/article/4892852.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/21/36325-prod-nb2qnf-general-1-1789975128897.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>上个月的文章里，我们判断“一线城市的价格趋势，再一次站到了转折点上”。一个月过去，8月份的数据把这个“临界点”变成了现实：一线城",
+   "date": "2026-09-21T07:40:38.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
   },
   {
    "id": "ghx9yt",
@@ -1143,6 +1779,18 @@ window.NEWS_DATA = {
    "site": "https://news.cnyes.com"
   },
   {
+   "id": "o9cpdu",
+   "title": "“别纠结估值，赶紧拿钱”",
+   "url": "https://www.huxiu.com/article/4892865.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/21/36331-prod-nb2qnf-general-1-1789976224254.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>具身行业迎来真正洗牌。报道/投资界PEdaily“宇树上市后，我们就没上会过具身项目了。”一位AI投资人聊起最近变化。此时距离宇",
+   "date": "2026-09-21T07:38:21.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
    "id": "5fpwj8",
    "title": "全球58%主權資本押注美國AI：中東戰火和關稅談判會讓這股錢潮轉向嗎？",
    "url": "https://www.thenewslens.com/article/270207",
@@ -1155,8 +1803,20 @@ window.NEWS_DATA = {
    "site": "https://www.thenewslens.com"
   },
   {
+   "id": "l0uo2l",
+   "title": "海外视角下的“中国速度”：制造商和供应商的协调革命",
+   "url": "https://www.huxiu.com/article/4892860.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/21/36330-prod-nb2qnf-general-1-1789976075749.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>在全球汽车产业竞争力的讨论中，“中国速度”已是无法绕开的核心议题。它指代的是一种多数西方车企尚未掌握的产业能力：从零开始完成一款",
+   "date": "2026-09-21T07:35:52.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
    "id": "1agadoa",
-   "title": "AI时代，美国2人团队零买量覆盖174个市场，“反功能”天气App把订阅卖成了赞助？",
+   "title": "2人零买量，反功能天气App靠‘卖赞助’年入200万美元",
    "url": "https://www.woshipm.com/ai/6467881.html",
    "summary": "一款名为Not Boring Weather的美国天气应用，在公开渠道查不到任何投放痕迹，却获得App Store精品推荐。两人工作室靠克制设计与订阅模式实现年入百万美元，以‘卖赞助’式会员而非堆功能突围。 2026年9月中旬，我们在复盘海外工具类应用数据时注意到一个反常样本：一款2021年2月上线的美国天气应用，在当下这条以功能清单论胜负的赛道里，首发五年之后下载曲线仍在向上，开发团队只有两个人，在公开渠道查不到任何投放痕迹。 当前，应用市场正被AI功能竞赛重塑，大模型能力被逐个接入天气、日历与笔记，功能内卷让更新日志直接影响续费率，买量成本逐年抬升。多数团队的默认答案是持续加码功能，再用投",
    "date": "2026-09-21T07:35:29.000Z",
@@ -1177,6 +1837,30 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://thenextweb.com"
+  },
+  {
+   "id": "mbga73",
+   "title": "2422亿市场，谁能吃到？",
+   "url": "https://www.huxiu.com/article/4892862.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/21/36329-prod-nb2qnf-general-1-1789975894878.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>中秋、国庆小长假临近，研学又开始热闹起来。新东方推出了20多条亲子旅行线路，学而思推出航空航天、哈工大、AI、机器人等研学产品。",
+   "date": "2026-09-21T07:32:53.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "5hnakl",
+   "title": "奥特曼落榜，OpenAI总裁255亿杀进全美富豪前50",
+   "url": "https://www.huxiu.com/article/4892859.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/21/36327-prod-nb2qnf-general-1-1789975699745.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>OpenAI最有钱的人，不是奥特曼。本周，Forbes公布2026年Forbes 400美国富豪榜。OpenAI联创兼总裁Gre",
+   "date": "2026-09-21T07:31:26.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
   },
   {
    "id": "5fpwj7",
@@ -1203,6 +1887,18 @@ window.NEWS_DATA = {
    "site": "https://www.thenewslens.com"
   },
   {
+   "id": "471og3",
+   "title": "3万余个文件被指上传云端，智谱ZCode陷代码安全争议",
+   "url": "https://www.huxiu.com/article/4892857.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/21/36326-prod-kl-general-1-1789975437229.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>一款AI编程工具，究竟需要读取多少企业代码？答案或许远不止开发者实时编辑的零散片段。成立于山西太原的软件技术公司‌承明科技近日通过官方抖",
+   "date": "2026-09-21T07:25:09.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
    "id": "1hihxx5",
    "title": "Firmus will reportedly open its $5bn ASX float on 6 October",
    "url": "https://thenextweb.com/news/firmus-ipo-october-timetable-asx",
@@ -1213,6 +1909,18 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://thenextweb.com"
+  },
+  {
+   "id": "j7zkd9",
+   "title": "准确、专业、懂你的交付，正在成为 AI 办公的新分水岭",
+   "url": "https://www.woshipm.com/ai/6467668.html",
+   "summary": "AI办公赛道正从“能做什么”转向“能否交付敢用的结果”。本文通过实测百度库库AI，从准确、专业、懂你三个维度，拆解其如何调用文库、学术资源处理冲突数据、深挖业务细节，并基于项目上下文持续协作，揭示AI办公竞争的核心已转向可信交付。 前几天，Anthropic做了件挺有意思的事：把聊天和办公工具合并成「one Claude」，顺手推出了Docs和Slides，摆明了要对标Google Workspace。 这不是孤例。几家巨头最近的动作高度一致——都在把AI从「一个对话框」往「一整张工作台」上搬。写文档、做PPT、跑数据分析，全塞进同一个入口。信号很明确：AI办公已经打完了「有没有」的阶段，进入",
+   "date": "2026-09-21T07:22:06.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
   },
   {
    "id": "ghxbhl",
@@ -1237,6 +1945,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-TW",
    "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "b8u2l",
+   "title": "“邪修”借款，盯上年轻人",
+   "url": "https://www.huxiu.com/article/4892851.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/21/36323-prod-kl-general-1-1789974904305.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>2025年10月1日，《关于加强商业银行互联网助贷业务管理提升金融服务质效的通知》正式施行。名单制管理、增信服务费计入综合融资成本、24",
+   "date": "2026-09-21T07:16:38.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
   },
   {
    "id": "c83nuw",
@@ -1299,6 +2019,18 @@ window.NEWS_DATA = {
    "site": "https://news.cnyes.com"
   },
   {
+   "id": "1bty67s",
+   "title": "虎嗅【作·嗅之星】周榜第331～332期",
+   "url": "https://www.huxiu.com/article/4892603.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/article/content/2026/09/20/141804114842.jpg?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/jpg\" referrerpolicy=\"no-referrer\"></figure>作·嗅之星榜单，以周榜的形式，呈现每周新鲜出炉的优秀作品。一、2026年9月4日～2026年9月10日，虎嗅第331期，作·嗅之星的获奖文章分别是：TOP 1：《燃油车的末日已经近在眼前》作者",
+   "date": "2026-09-21T07:00:00.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
    "id": "ghxbkg",
    "title": "台股衝三個月新高 外資加碼203億、三大法人聯手買超470.37億元",
    "url": "https://news.cnyes.com/news/id/6611935",
@@ -1321,6 +2053,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-CN",
    "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "1gknh8g",
+   "title": "快递涨一毛五 能走出价格战吗",
+   "url": "https://www.huxiu.com/article/4892845.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/21/36322-prod-nb2qnf-general-1-1789973568368.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>快递开始涨价了。从9月20日零时起，安徽区域多家快递公司在原有价格基础上，单票最低上调0.15元。江苏部分快递企业也启动旺季调价",
+   "date": "2026-09-21T06:54:04.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
   },
   {
    "id": "rrs9gz",
@@ -1407,6 +2151,18 @@ window.NEWS_DATA = {
    "site": "https://www.thenewslens.com"
   },
   {
+   "id": "1emr21p",
+   "title": "30年，云南咖啡打了一场翻身仗",
+   "url": "https://www.huxiu.com/article/4892842.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/21/36319-prod-kl-general-1-1789972586857.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>这几年，云南咖啡变了。价格，从“爱搭不理”开始变得有点“高攀不起”了。2023/24产季初期，云南市场成交价（33元）同时高于国际期货价",
+   "date": "2026-09-21T06:37:43.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
    "id": "ghxas4",
    "title": "SEC發布代幣化證券創新豁免令 股票代幣化有望爆發？",
    "url": "https://news.cnyes.com/news/id/6611858",
@@ -1429,6 +2185,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-TW",
    "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "6l589t",
+   "title": "Sam Altman旗下World推出金融超級App「World Money」，結合生物辨識與穩定幣重塑去中心化金融",
+   "url": "https://mashdigi.com/sam-altmans-world-has-launched-world-money-a-super-financial-app-that-combines-biometrics-and-stablecoins-to-reshape-decentralized-finance",
+   "summary": "由OpenAI執行長Sam Altman共同創辦的數位身分與加密貨幣專案World (前身為Worldcoin […]",
+   "date": "2026-09-21T06:28:02.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "mashdigi",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://mashdigi.com"
   },
   {
    "id": "1dzg8zg",
@@ -1561,6 +2329,42 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-TW",
    "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "1858c12",
+   "title": "Myron Nilsson Joins Ammunition as Agency Levels Up Creative Ambitions",
+   "url": "https://www.adweek.com/agencies/myron-nilsson-joins-ammunition-as-agency-levels-up-creative-ambitions",
+   "summary": "New CCO joins the B2B agency in what CEO Jeremy Heilpern describes as a big investment year.",
+   "date": "2026-09-21T06:00:00.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "Adweek",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.adweek.com"
+  },
+  {
+   "id": "gxap8h",
+   "title": "Direct-to-Consumer Brands Rebuild Their Playbooks Around Retailers",
+   "url": "https://www.adweek.com/commerce/direct-to-consumer-brands-rebuild-their-playbooks-around-retailers",
+   "summary": "Gone are the days when DTCs went it alone. Survival today is about clawing for shelf space at Walmart, Target, and other brick-and-mortar stores.",
+   "date": "2026-09-21T06:00:00.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "Adweek",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.adweek.com"
+  },
+  {
+   "id": "w3zy53",
+   "title": "VMAs Brings Back the Best Dance Category, and You Can Thank Bacardi",
+   "url": "https://www.adweek.com/brand-marketing/vmas-brings-back-the-best-dance-category-and-you-can-thank-bacardi",
+   "summary": "Behind the scenes of Bacardi's big brand integration at the 2026 MTV Video Music Awards.",
+   "date": "2026-09-21T06:00:00.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "Adweek",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.adweek.com"
   },
   {
    "id": "1y6ehve",
@@ -10161,6 +10965,18 @@ window.NEWS_DATA = {
    "summary": "The best Stratechery content from the week of September 14, 2026, including the view from anywhere but San Francisco, the limited potential for a pacing deal, and the Salesforce zag.",
    "date": "2026-09-18T17:00:00.000Z",
    "firstSeen": "2026-09-21T08:22:06.232Z",
+   "source": "STRATECHERY",
+   "tier": "S",
+   "lang": "en",
+   "site": "https://stratechery.com"
+  },
+  {
+   "id": "8tfxyf",
+   "title": "Doomforce",
+   "url": "https://stratechery.com/2026/doomforce/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L2Rvb21mb3JjZS8iXX0sImV4cCI6MTc5MjU3ODQxOCwiaWF0IjoxNzg5OTg2NDE4LCJpc3MiOiJodHRwczovL2FwcC5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyBwb2RjYXN0IHJzcyIsInN1YiI6Ijk0MDg0MGUyLTVlZjktNGJlNS04MjUwLTM3ODFmMjZlZTc5YSIsInVzZSI6ImFjY2VzcyJ9.dAru5X5TWO6WOtSlRp1962NGHmkGKWHbNGSi2flFIGRHb1LK6r9nQlLE21iIEpiY8kNHPzX5kOeN_Zmy75eZspMcCk_spx23r4BYMDmipprxhVHuyaNxfJpFvgAroBPh55d4DiCiAWqHV9t3ZQix0T7W0V-81Sl9YwEGU2besZdLaQzc94lHVge8Bi8Ieqx-pdP1DPUsvv-WG5Yw6vWeei8iInqy7TmiRfQ2Wv8KQg8NBqL7tn_CjaHJZgaTxZeoWPzzjbIm_olp-GeEkEQfWFlc_FE8xnwQKh0yuWtjiuiWvbju-0WMSmWhsRIc7H18ByoUfJhk3oZWz7NoEd-AnQ",
+   "summary": "The best Stratechery content from the week of September 14, 2026, including the view from anywhere but San Francisco, the limited potential for a pacing deal, and the Salesforce zag.",
+   "date": "2026-09-18T17:00:00.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
    "source": "STRATECHERY",
    "tier": "S",
    "lang": "en",
