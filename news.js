@@ -1,7 +1,16 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-21T00:54:01.452Z",
+ "generatedAt": "2026-09-21T03:30:54.931Z",
  "keepDays": 14,
  "sources": [
+  {
+   "name": "STRATECHERY",
+   "tier": "S",
+   "lang": "en",
+   "feed": "https://stratechery.passport.online/feed/rss/WXErCixRoZzZJcHe3Cu94k",
+   "ok": true,
+   "error": null,
+   "count": 1
+  },
   {
    "name": "Reuters Institute",
    "tier": "S",
@@ -30,13 +39,31 @@ window.NEWS_DATA = {
    "count": 10
   },
   {
-   "name": "卓越新聞獎基金會",
+   "name": "Excellent",
    "tier": "A",
    "lang": "zh-TW",
    "feed": "https://www.feja.org.tw/feed/",
    "ok": true,
    "error": null,
    "count": 10
+  },
+  {
+   "name": "數位時代",
+   "tier": "A",
+   "lang": "zh-TW",
+   "feed": "https://feedfry.com/rss/11f05e5b5ced112eb3f646efdc5f7e8c",
+   "ok": false,
+   "error": "HTTP 402",
+   "count": 0
+  },
+  {
+   "name": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "feed": "https://www.huxiu.com/rss/0.xml",
+   "ok": false,
+   "error": "逾時",
+   "count": 0
   },
   {
    "name": "TechCrunch",
@@ -46,6 +73,15 @@ window.NEWS_DATA = {
    "ok": true,
    "error": null,
    "count": 20
+  },
+  {
+   "name": "Press Gazette",
+   "tier": "A",
+   "lang": "en",
+   "feed": "https://pressgazette.co.uk/feed/",
+   "ok": false,
+   "error": "HTTP 403",
+   "count": 0
   },
   {
    "name": "Poynter",
@@ -64,6 +100,15 @@ window.NEWS_DATA = {
    "ok": true,
    "error": null,
    "count": 10
+  },
+  {
+   "name": "MediaPost",
+   "tier": "A",
+   "lang": "en",
+   "feed": "http://feeds.mediapost.com/mediadailynews",
+   "ok": true,
+   "error": null,
+   "count": 40
   },
   {
    "name": "Digiday",
@@ -93,15 +138,6 @@ window.NEWS_DATA = {
    "count": 10
   },
   {
-   "name": "The Media Copilot 電子報",
-   "tier": "A",
-   "lang": "en",
-   "feed": "https://mediacopilot.substack.com/feed",
-   "ok": false,
-   "error": "HTTP 403",
-   "count": 0
-  },
-  {
    "name": "TechOrange",
    "tier": "B",
    "lang": "zh-TW",
@@ -126,16 +162,34 @@ window.NEWS_DATA = {
    "feed": "https://news.cnyes.com/rss/v1/news/category/headline",
    "ok": true,
    "error": null,
-   "count": 45
+   "count": 97
   },
   {
-   "name": "人人都是產品經理",
+   "name": "woshipm",
    "tier": "B",
    "lang": "zh-CN",
    "feed": "https://www.woshipm.com/feed/",
    "ok": true,
    "error": null,
    "count": 15
+  },
+  {
+   "name": "爱范儿",
+   "tier": "B",
+   "lang": "zh-CN",
+   "feed": "https://www.ifanr.com/feed",
+   "ok": true,
+   "error": null,
+   "count": 20
+  },
+  {
+   "name": "36Kr",
+   "tier": "B",
+   "lang": "zh-CN",
+   "feed": "https://36kr.com/feed",
+   "ok": false,
+   "error": "解析不到文章",
+   "count": 0
   },
   {
    "name": "TheWrap",
@@ -159,7 +213,7 @@ window.NEWS_DATA = {
    "name": "Journalism.co.uk",
    "tier": "B",
    "lang": "en",
-   "feed": "https://www.journalism.co.uk/rss/",
+   "feed": "https://www.journalism.co.uk/rss",
    "ok": true,
    "error": null,
    "count": 15
@@ -192,7 +246,7 @@ window.NEWS_DATA = {
    "count": 10
   },
   {
-   "name": "Openbook閱讀誌",
+   "name": "Openbook 閱讀誌",
    "tier": "C",
    "lang": "zh-TW",
    "feed": "https://www.openbook.org.tw/rss.xml",
@@ -208,6 +262,15 @@ window.NEWS_DATA = {
    "ok": true,
    "error": null,
    "count": 18
+  },
+  {
+   "name": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "feed": "https://plink.anyfeeder.com/pingwest",
+   "ok": false,
+   "error": "解析不到文章",
+   "count": 0
   },
   {
    "name": "TNW",
@@ -228,7 +291,7 @@ window.NEWS_DATA = {
    "count": 10
   },
   {
-   "name": "The Guardian 媒體版",
+   "name": "The Guardian",
    "tier": "C",
    "lang": "en",
    "feed": "https://www.theguardian.com/uk/media/rss",
@@ -293,23 +356,8 @@ window.NEWS_DATA = {
  ],
  "disabled": [
   {
-   "name": "STRATECHERY",
-   "tier": "S",
-   "note": "付費訂閱制，feed 綁個人會員 token，不適合放進共用工具"
-  },
-  {
    "name": "INMA",
    "tier": "S",
-   "note": "找不到 RSS"
-  },
-  {
-   "name": "數位時代",
-   "tier": "A",
-   "note": "無原生 RSS，原本用 feedfry 轉換網址，可貼回這裡啟用"
-  },
-  {
-   "name": "虎嗅網",
-   "tier": "A",
    "note": "找不到 RSS"
   },
   {
@@ -320,25 +368,15 @@ window.NEWS_DATA = {
   {
    "name": "Semafor",
    "tier": "A",
-   "note": "只有全站 feed（260 篇政治財經新聞），媒體版的文章不在裡面，實測用關鍵字也篩不出東西，維持手動看"
+   "note": "只有全站 feed"
   },
   {
-   "name": "Press Gazette",
+   "name": "The Media Copilot 電子報",
    "tier": "A",
-   "note": "feed 存在但被 Cloudflare 擋，可再試"
-  },
-  {
-   "name": "MediaPost",
-   "tier": "A",
-   "note": "找不到 RSS"
+   "note": "Substack 上的長篇專文，一週約 1~2 篇。總是抓取失敗，先關閉"
   },
   {
    "name": "天下雜誌",
-   "tier": "B",
-   "note": "找不到 RSS"
-  },
-  {
-   "name": "36Kr",
    "tier": "B",
    "note": "找不到 RSS"
   },
@@ -359,11 +397,6 @@ window.NEWS_DATA = {
   },
   {
    "name": "經理人",
-   "tier": "C",
-   "note": "找不到 RSS"
-  },
-  {
-   "name": "品玩 PingWest",
    "tier": "C",
    "note": "找不到 RSS"
   },
@@ -389,9 +422,9 @@ window.NEWS_DATA = {
    "name": "STRATECHERY",
    "lang": "en",
    "site": "https://stratechery.com",
-   "feed": "",
-   "enabled": false,
-   "note": "付費訂閱制，feed 綁個人會員 token，不適合放進共用工具"
+   "feed": "https://stratechery.passport.online/feed/rss/WXErCixRoZzZJcHe3Cu94k",
+   "enabled": true,
+   "note": "付費訂閱制，可能有些抓不到資料"
   },
   {
    "tier": "S",
@@ -431,7 +464,7 @@ window.NEWS_DATA = {
   },
   {
    "tier": "A",
-   "name": "卓越新聞獎基金會",
+   "name": "Excellent",
    "lang": "zh-TW",
    "site": "https://www.feja.org.tw",
    "feed": "https://www.feja.org.tw/feed/",
@@ -443,18 +476,18 @@ window.NEWS_DATA = {
    "name": "數位時代",
    "lang": "zh-TW",
    "site": "https://www.bnext.com.tw",
-   "feed": "",
-   "enabled": false,
-   "note": "無原生 RSS，原本用 feedfry 轉換網址，可貼回這裡啟用"
+   "feed": "https://feedfry.com/rss/11f05e5b5ced112eb3f646efdc5f7e8c",
+   "enabled": true,
+   "note": "無原生 RSS，用 feedfry 轉換網址"
   },
   {
    "tier": "A",
-   "name": "虎嗅網",
+   "name": "虎嗅网",
    "lang": "zh-CN",
    "site": "https://www.huxiu.com",
-   "feed": "",
-   "enabled": false,
-   "note": "找不到 RSS"
+   "feed": "https://www.huxiu.com/rss/0.xml",
+   "enabled": true,
+   "note": ""
   },
   {
    "tier": "A",
@@ -479,9 +512,9 @@ window.NEWS_DATA = {
    "name": "Semafor",
    "lang": "en",
    "site": "https://www.semafor.com/vertical/media",
-   "feed": "",
+   "feed": "https://www.semafor.com/rss.xml",
    "enabled": false,
-   "note": "只有全站 feed（260 篇政治財經新聞），媒體版的文章不在裡面，實測用關鍵字也篩不出東西，維持手動看"
+   "note": "只有全站 feed"
   },
   {
    "tier": "A",
@@ -489,8 +522,8 @@ window.NEWS_DATA = {
    "lang": "en",
    "site": "https://pressgazette.co.uk",
    "feed": "https://pressgazette.co.uk/feed/",
-   "enabled": false,
-   "note": "feed 存在但被 Cloudflare 擋，可再試"
+   "enabled": true,
+   "note": "feed 存在但可能會被 Cloudflare 擋，先試試看"
   },
   {
    "tier": "A",
@@ -515,9 +548,9 @@ window.NEWS_DATA = {
    "name": "MediaPost",
    "lang": "en",
    "site": "https://www.mediapost.com",
-   "feed": "",
-   "enabled": false,
-   "note": "找不到 RSS"
+   "feed": "http://feeds.mediapost.com/mediadailynews",
+   "enabled": true,
+   "note": "有很多 RSS，先訂閱 MediaDailyNews"
   },
   {
    "tier": "A",
@@ -552,8 +585,8 @@ window.NEWS_DATA = {
    "lang": "en",
    "site": "https://mediacopilot.substack.com",
    "feed": "https://mediacopilot.substack.com/feed",
-   "enabled": true,
-   "note": "Substack 上的長篇專文，一週約 1~2 篇"
+   "enabled": false,
+   "note": "Substack 上的長篇專文，一週約 1~2 篇。總是抓取失敗，先關閉"
   },
   {
    "tier": "B",
@@ -593,7 +626,7 @@ window.NEWS_DATA = {
   },
   {
    "tier": "B",
-   "name": "人人都是產品經理",
+   "name": "woshipm",
    "lang": "zh-CN",
    "site": "https://www.woshipm.com",
    "feed": "https://www.woshipm.com/feed/",
@@ -602,12 +635,21 @@ window.NEWS_DATA = {
   },
   {
    "tier": "B",
+   "name": "爱范儿",
+   "lang": "zh-CN",
+   "site": "https://www.ifanr.com/",
+   "feed": "https://www.ifanr.com/feed",
+   "enabled": true,
+   "note": ""
+  },
+  {
+   "tier": "B",
    "name": "36Kr",
    "lang": "zh-CN",
    "site": "https://36kr.com",
-   "feed": "",
-   "enabled": false,
-   "note": "找不到 RSS"
+   "feed": "https://36kr.com/feed",
+   "enabled": true,
+   "note": ""
   },
   {
    "tier": "B",
@@ -650,7 +692,7 @@ window.NEWS_DATA = {
    "name": "Journalism.co.uk",
    "lang": "en",
    "site": "https://www.journalism.co.uk",
-   "feed": "https://www.journalism.co.uk/rss/",
+   "feed": "https://www.journalism.co.uk/rss",
    "enabled": true,
    "note": ""
   },
@@ -683,7 +725,7 @@ window.NEWS_DATA = {
   },
   {
    "tier": "C",
-   "name": "Openbook閱讀誌",
+   "name": "Openbook 閱讀誌",
    "lang": "zh-TW",
    "site": "https://www.openbook.org.tw",
    "feed": "https://www.openbook.org.tw/rss.xml",
@@ -719,12 +761,12 @@ window.NEWS_DATA = {
   },
   {
    "tier": "C",
-   "name": "品玩 PingWest",
+   "name": "品玩",
    "lang": "zh-CN",
    "site": "https://www.pingwest.com",
-   "feed": "",
-   "enabled": false,
-   "note": "找不到 RSS"
+   "feed": "https://plink.anyfeeder.com/pingwest",
+   "enabled": true,
+   "note": ""
   },
   {
    "tier": "C",
@@ -746,7 +788,7 @@ window.NEWS_DATA = {
   },
   {
    "tier": "C",
-   "name": "The Guardian 媒體版",
+   "name": "The Guardian",
    "lang": "en",
    "site": "https://www.theguardian.com/uk/media",
    "feed": "https://www.theguardian.com/uk/media/rss",
@@ -837,12 +879,1356 @@ window.NEWS_DATA = {
  ],
  "items": [
   {
+   "id": "ghxa1k",
+   "title": "盤中速報 - 明基材(8215)股價拉至漲停，漲停價30.05元，成交5,183張",
+   "url": "https://news.cnyes.com/news/id/6611799",
+   "summary": "明基材(8215-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-21T03:27:50.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "gpzmq7",
+   "title": "AI 时代，别只追 AI 工具，快去练你的工作流",
+   "url": "https://www.woshipm.com/ai/6467321.html",
+   "summary": "收藏一堆 ChatGPT、Claude、Cursor 教程，回到工作却该怎么干还怎么干，工作方式并没有发生本质变化。文章说缺的不是 AI 能力，而是工作方法：把自己的流程训练成 AI 能参与的步骤，再写成 Skill，让个人经验变成可重复执行的生产线。 你是不是也这样子，收藏了一堆 AI 工具教程，学过 ChatGPT、Claude、Cursor，也听过 Agent、MCP、Skill…… 可真正回到工作里，该怎么干还是怎么干，以前自己动手做的事，现在只是多了一句：让 AI 帮我做一下。 所以说，工作方式并没有发生本质变化。 那么，AI 到底应该怎样进入我们的工作？ 主要逻辑是：不是把 AI ",
+   "date": "2026-09-21T03:27:01.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "jhg5y",
+   "title": "产品经理用 AI 干活的一些经验和建议",
+   "url": "https://www.woshipm.com/ai/6467319.html",
+   "summary": "刚接手陌生项目时，让 AI 快速整理行业知识和重点关注点，比从文档第一页啃起高效。本文推荐用 Codex 在同一个项目里持续做需求和原型，并指出 GPT Plus 现在一个月大概 150 元上下，只要不做复杂前后端就够日常产品工作。 最近，有个产品经理同事很苦恼，说她被安排紧急接手一个新项目，刚开始没多久就要写需求。她自己项目都没弄明白呢，天天在那看文档看得头疼。 我有点话欲言又止。 我最近也接手了一个陌生项目，也是刚来就直接要当成专家帮人家做规划，但我对这个行业实际上一无所知。我只能让 AI 快速帮我整理行业知识，怎么快速了解这个行业，重要关注点是哪些，结果搞出来的规划还挺像那么回事。 当然",
+   "date": "2026-09-21T03:26:31.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "144wrel",
+   "title": "Presley Gerber, Son of Cindy Crawford and Rande Gerber, Dies at 27",
+   "url": "https://www.hollywoodreporter.com/lifestyle/lifestyle-news/presley-gerber-dead-cindy-crawford-rande-gerber-kaia-gerber-1236706714",
+   "summary": "\"The family is asking for privacy during this very difficult and painful time,\" a rep said.",
+   "date": "2026-09-21T03:25:28.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "1y9zw0k",
+   "title": "一份接口文档，怎么变成一个能点的产品原型？",
+   "url": "https://www.woshipm.com/ai/6467317.html",
+   "summary": "把开发者视角的接口文档交给 AI Agent，先当翻译官再当画图员。面对 PTS 七类接口和拼音缩写字段，作者一个多小时、十二轮对话，产出一个 864 行代码的单文件网页：每个按钮可点、每条流程能跑的产品原型，当场部署成链接发给同事。 周一晚上，我收到一份文档：《PTS社公智能一体化组件交付手册》。 PTS，一个做社保公积金智能化办理的服务商。我们自己的 HR SaaS 想对接他们的能力——让客户的社保参保、停保、申报、缴款这些事，从“HR 自己跑腿”变成“系统代办”。 接口文档 听起来很好。但有个现实问题：我对 PTS 的能力几乎一无所知。 这份手册是典型的开发者视角文档：七类接口定义（鉴权",
+   "date": "2026-09-21T03:25:14.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "ghxa1f",
+   "title": "盤中速報 - 友達(2409)股價拉至漲停，漲停價33.35元，成交667,363張",
+   "url": "https://news.cnyes.com/news/id/6611794",
+   "summary": "友達(2409-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-21T03:21:14.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghxa1d",
+   "title": "盤中速報 - 哈希圖大漲8.28%，報0.0866美元",
+   "url": "https://news.cnyes.com/news/id/6611792",
+   "summary": "哈希圖(HBAR)盤中上漲，交易價格、總成交量、市值、近日週月績效、即時新聞資訊。",
+   "date": "2026-09-21T03:20:23.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghxa1c",
+   "title": "盤中速報 - Ethena大漲11.24%，報0.21美元",
+   "url": "https://news.cnyes.com/news/id/6611791",
+   "summary": "Ethena(ENA)盤中上漲，交易價格、總成交量、市值、近日週月績效、即時新聞資訊。",
+   "date": "2026-09-21T03:20:22.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghxa1b",
+   "title": "盤中速報 - 宏致(3605)股價拉至漲停，漲停價169.0元，成交47,118張",
+   "url": "https://news.cnyes.com/news/id/6611790",
+   "summary": "宏致(3605-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-21T03:19:13.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghxa0n",
+   "title": "缺10萬到800萬元怎麼做？永豐數時貸、信貸、股票質押差在哪，哪種方式更適合？",
+   "url": "https://news.cnyes.com/news/id/6611789",
+   "summary": "一、資金需求從10萬到800萬元，借款方式不能只看利率 臨時周轉、裝潢、學費、購車甚至債務整合，資金需求不同，適合的借款管道也不一樣。從親友借款、信用卡預借現金、保單借款、股票質押，到銀行信用貸款，每種方式在資金速度、成本、還款期限與風險上都有明顯差異。尤其當需求金額拉高至數十萬甚至數百萬元時，除",
+   "date": "2026-09-21T03:16:41.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx9yp",
+   "title": "特斯拉機器人團隊在長三角審廠 多家企業接獲訂單",
+   "url": "https://news.cnyes.com/news/id/6611765",
+   "summary": "特斯拉機器人團隊已赴拓普集團、三花智控、均勝電子等供應鏈企業審廠。 相關企業已拿到特斯拉人形機器人訂單，審查聚焦產線品質、合規。 特斯拉今年擬生產數千台第三代人形機器人。",
+   "date": "2026-09-21T03:15:56.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghxa0m",
+   "title": "盤中速報 - 三一東林(3609)股價拉至漲停，漲停價24.05元，成交206張",
+   "url": "https://news.cnyes.com/news/id/6611788",
+   "summary": "三一東林(3609-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-21T03:11:26.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx9zq",
+   "title": "高力海內外積極擴廠中 將發行40億元無擔保CB大力籌資",
+   "url": "https://news.cnyes.com/news/id/6611779",
+   "summary": "同步推進在台灣橋科、中壢、南科及泰國等海內外各地地擴產的高力熱處理(8996-TW)，新產能預計自2027年起陸續加入， 高力擬2筆合計40億元的無擔保可轉換公司債(CB)大力籌資，並在今(21)日由金管會申生效，主辦券商爲富邦證券。 而這也是高力熱處理成立以來的最大規模市場籌資案。 高力的最新",
+   "date": "2026-09-21T03:05:46.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx9yn",
+   "title": "〈焦點股〉國邑吸入新藥獲美FDA臨床二期試驗核准 一度攻上漲停",
+   "url": "https://news.cnyes.com/news/id/6611763",
+   "summary": "國邑*(6875-TW)旗下長效吸入新藥L608取得美國FDA臨床二期試驗核准，將推進多國多中心臨床試驗，預計今年底正式啟動，目標2028年初完成受試者收案，激勵國邑*今(21)日漲勢凌厲，一度攻上漲停。 國邑*今天早盤以34.1元跳空開高，盤中直奔漲停價36.3元，不過隨後漲停打開，",
+   "date": "2026-09-21T03:04:04.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghxa0g",
+   "title": "盤中速報 - 凌華(6166)股價拉至漲停，漲停價125.5元，成交2,239張",
+   "url": "https://news.cnyes.com/news/id/6611782",
+   "summary": "凌華(6166-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-21T03:02:05.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx7gx",
+   "title": "日賺2.4億人民幣！「寧王」賺很大 苦哈哈的中國車廠正集體「重新談判」",
+   "url": "https://news.cnyes.com/news/id/6611477",
+   "summary": "「電動車電池成本佔整車成本六成，車廠事實上是在為電池廠打工」，這句話是幾年前時任廣汽集團董事長曾慶洪的感慨，但在今年中國車市卻顯得格外刺耳。 根據中汽協數據，今年上半年中國整車製造環節平均利潤率跌至1.5%，創近十年低，以單車均價約20.2萬元(人民幣，下同)折算，整車廠僅留下約3000元歸母淨利",
+   "date": "2026-09-21T03:00:08.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "2453en",
+   "title": "‘Youth’ Creator Sharon Horgan Explains the Premiere’s Emotional Rug-Pull Ending",
+   "url": "https://www.thewrap.com/creative-content/tv-shows/hbo-youth-episode-1-sharon-horgan-interview",
+   "summary": "\"It was always going to end like that,\" The actress and writer tells TheWrap of her HBO comedy's unexpected bait-and-switch The post ‘Youth’ Creator Sharon Horgan Explains the Premiere’s Emotional Rug-Pull Ending appeared first on TheWrap.",
+   "date": "2026-09-21T03:00:00.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "4th23d",
+   "title": "B端AI设计工程化提效",
+   "url": "https://www.woshipm.com/ai/6467628.html",
+   "summary": "01背景 AI 能力蓬勃发展，各个领域设计师不断探索如何使用AI对日常设计输出进行提效，在技术逐步平权的背景下，设计师是否只能交付设计稿？AI时代下设计师是否可以参与到代码落地的部分？我会尝试结合淘宝闪购商家B端的推广业务，带来一些分享。 AI对于不同的业务助力点不同，对于标准型需求，因为其结构标准、组件可复用等特点，AI可以帮助输出提效，对于定制型和创意型需求，AI可以帮助设计师启发观点。 02提效技术选型：为什么选择 AI设计工程化 AI工程化一个显著的特点是交付物变成了代码，所以在介绍技术选型之前，需要先跟大家明确一下 HTML 和前端 React 工程代码的区别。 AI提效的主要技术路",
+   "date": "2026-09-21T02:59:48.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "1msi3sg",
+   "title": "「怎么给AI下指令？」——客户一句话，把我问回了AI落地的起点",
+   "url": "https://www.woshipm.com/ai/6467340.html",
+   "summary": "客户问怎么给 AI 下指令时，企业 AI 落地顾问答：先不写指令，得先拆任务。在一个 FDE 项目里，落地最难的不是写提示词，而是听懂客户那堆文档——一百多个品牌格式各异，几张 Excel 表的作用也得第一天现学。 「先不写指令。我得先拆任务，先拆你的活儿是怎么做的。」 —— 客户问我「怎么给AI下指令」后，我的回复 AI落地最难的，是「听懂」——是你得先弄明白客户的一堆文档资料，到底各自是干嘛的。 前两天，合作伙伴突然推过来一个FDE项目。客户领导急，乙方销售急，大家都想赶紧往前推。可真到坐下来讨论怎么落地的时候，对面的业务同事和我，对接下来要做什么、怎么做，却还处在大眼瞪小眼的状态。 于是",
+   "date": "2026-09-21T02:56:54.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "ejmpgx",
+   "title": "Deal or No Deal? The Contours of a Paramount Settlement for WBD Begin to Take Shape",
+   "url": "https://www.hollywoodreporter.com/business/business-news/paramount-warner-settlement-terms-leak-talks-continue-1236706694",
+   "summary": "Production or job commitments? A 30-film minimum guarantee? Selling off cable channels? A CNN oversight board? It is all on the table.",
+   "date": "2026-09-21T02:41:51.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "ghx9ym",
+   "title": "盤中速報 - 中揚光(6668)股價拉至漲停，漲停價54.1元，成交12,878張",
+   "url": "https://news.cnyes.com/news/id/6611762",
+   "summary": "中揚光(6668-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-21T02:41:39.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "lqsqk7",
+   "title": "圈内法则：一个明星操盘手的十年手记",
+   "url": "https://www.woshipm.com/share/6467500.html",
+   "summary": "明星营销的水远比想象中深。赞意集团合伙人Penny从十多年实战经验出发，揭秘物料偷跑赔付百万、粉丝投诉产品缩写、硬蹭CP翻车等真实案例，并分享艺人单飞窗口期、押中爆红前艺人、头部明星谈判筹码等五条关键经验，帮助CMO避开执行雷区，用对策略撬动明星流量。 我跟其他合伙人聊天，一般就是聊工作。但跟 Penny 聊天，总能聊出点八卦来。 区别在于，别人嘴里的八卦是“谁和谁在一起了”，她嘴里的八卦是“那个谁的单飞窗口期快到了，现在谈能省三分之一”。 Penny 是赞意集团合伙人，也是赞意风犬娱乐的创始人，日常工作就是跟明星及其团队打交道。 她脑子里的，都是那些谈判桌上不会说、合同里不会写、但能帮品牌省",
+   "date": "2026-09-21T02:41:17.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "1gnd12x",
+   "title": "「讓嚇阻持續幾世紀」Palmer Luckey 登台灣全社會防衛論壇，籲利用製造業優勢出口武器",
+   "url": "https://www.inside.com.tw/article/42444-palmer-luckey-taiwan-resilient-forum-deterrence-2026",
+   "summary": "Anduril 創辦人 Palmer Luckey 出席台北全社會防衛韌性國際論壇，呼籲台灣擴大武器量產並開放出口，讓對方計算出「拿下台灣的代價太高」，並坦言中國對他的制裁是一枚榮譽徽章。他說，台灣必須思考「讓嚇阻持續幾年、幾十年乃至幾個世紀」的最終狀態。",
+   "date": "2026-09-21T02:41:00.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "INSIDE",
+   "tier": "A",
+   "lang": "zh-TW",
+   "site": "https://www.inside.com.tw"
+  },
+  {
+   "id": "1d3mq1v",
+   "title": "从用户到角色网络：基于利益相关者视角的用户场景深度分析",
+   "url": "https://www.woshipm.com/pd/6467493.html",
+   "summary": "用户场景分析不应止步于“用户做了什么”，而应追问“谁，为了什么，在怎样的关系结构里，希望产品承担什么责任”。本文提出“一级场景 = 场景用途 & 利益相关者”框架，通过远程备车案例，系统拆解生活目标、核心价值、关键矛盾、产品责任及六种利益相关者角色，为产品设计提供从用户中心到角色网络中心的新范式。 一、引言：重新理解“用户场景” 在敏捷开发和产品设计实践中，“用户情景”通常被定义为需求的高级描述，其经典格式为：“作为〈用户类型〉，我想实现〈某个目标〉，以便〈某些原因〉”。这种表述方式简洁有效，但隐含了一个根本假设：场景的核心是“单一用户”与“产品功能”之间的交互关系。当产品从单一功能工具演化为",
+   "date": "2026-09-21T02:39:46.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "1owzmy7",
+   "title": "一些思考，用AI写文章的AI味儿根源在这",
+   "url": "https://www.woshipm.com/ai/6467411.html",
+   "summary": "AI写作工具泛滥，内容千篇一律的“爆款公式”让读者一眼识破。本文深入剖析AI写作的机械套路，对比真人写作的灵活与情绪，并分享如何通过调整结构、保留口语毛边等技巧去除“AI味”，让内容重获真实与吸引力。 AI越来越智能，但大家用AI多了也发现了一些问题，一个是 AI的内容大家都很反感，虽然写得很快，但很多质量普遍很低，也就是大家说的AI味儿太重，很多人不愿意看，也导致了所有自媒体平台都在去AI低质内容。我最近也研究了下AI写内容的逻辑与结构，其实大家都掉进了坑里。 先给大家看个结构，大家看看是不是很熟，不管你是写自媒体文章，还是做短视频内容，国产AI基本不管你用的哪个模型吧，基本都是这个结构，告",
+   "date": "2026-09-21T02:38:51.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "1d1mhek",
+   "title": "不懂底层算法，商科生如何用AI设计一款香氛产品？",
+   "url": "https://www.woshipm.com/share/6467343.html",
+   "summary": "商科生如何将AI概念落地为商业产品？作者以欧莱雅商赛项目AuraSync为例，复盘从情绪洞察到LLM情感匹配、硬件+订阅闭环的全过程，并分享不懂代码也能做AI产品的实战心得，为焦虑的商科生提供一条可复制的成长路径。 作为一名电子商务专业的大三学生，最近我陷入了深深的焦虑。看着身边的同学纷纷拿到了AI产品和大厂实习的offer，开口闭口都是大模型、Agent、RAG，而我却对这些一无所知，或许上课的时候我学过，但我并没有什么太深刻的印象，也不知道有什么用。 我并没有什么富有竞争力的经历，值得一提的是参加过欧莱雅Brandstorm商赛，我们团队最终设计了一款名为AuraSync的AI情感香氛系统",
+   "date": "2026-09-21T02:37:36.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "ghx9xn",
+   "title": "盤中速報 - 環科(2413)股價拉至漲停，漲停價58.4元，成交10,297張",
+   "url": "https://news.cnyes.com/news/id/6611750",
+   "summary": "環科(2413-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-21T02:28:05.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "1l1jea2",
+   "title": "AI 沒搶走 Google 用戶，反讓搜尋量大增！研究機構上調 Alphabet 目標價至 450 美元",
+   "url": "https://www.inside.com.tw/article/42438-google-search-mahaney-evercore-ai-impact-2026",
+   "summary": "Evercore ISI 分析師 Mark Mahaney 最新調查顯示，AI 工具的普及沒有侵蝕 Google 搜尋市佔，反而讓 60% 受訪者搜尋頻率上升，Google 偏好率從低點 70% 回升至 78%，Alphabet 目標價因此上調至 450 美元。",
+   "date": "2026-09-21T02:28:00.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "INSIDE",
+   "tier": "A",
+   "lang": "zh-TW",
+   "site": "https://www.inside.com.tw"
+  },
+  {
+   "id": "ghx9wz",
+   "title": "盤中速報 - 明泰(3380)股價拉至漲停，漲停價33.15元，成交8,569張",
+   "url": "https://news.cnyes.com/news/id/6611749",
+   "summary": "明泰(3380-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-21T02:25:28.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "1oupss9",
+   "title": "森海塞尔 MOMENTUM 5 体验：AI 时代的稳重选择",
+   "url": "https://www.ifanr.com/1681181",
+   "summary": "耳机依旧是耳机，只是如今一副好耳机既要足够好听，也要能够接住你的声音。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "date": "2026-09-21T02:24:43.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "爱范儿",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.ifanr.com/"
+  },
+  {
+   "id": "ghx9wv",
+   "title": "鉅亨買幣速報 - USDC(USDC)24小時成交量超過18.72億美元，NFPrompt Token(NFP)24小時漲幅達65.8%",
+   "url": "https://news.cnyes.com/news/id/6611745",
+   "summary": "鉅亨幣圈盤中速報，總結當日亮點幣種、指標幣種、宏觀市場表現、漲跌幅排名，掌握交易價格、總成交量、市值、即時新聞資訊。",
+   "date": "2026-09-21T02:15:18.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx9wt",
+   "title": "盤中速報 - 睿生光電(6861)股價拉至漲停，漲停價252.0元，成交2,546張",
+   "url": "https://news.cnyes.com/news/id/6611743",
+   "summary": "睿生光電(6861-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-21T02:13:01.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx973",
+   "title": "俄烏戰爭持續升級！傳川普周二見澤倫斯基 基輔稱「可能改變很多事情」 冬季降級方案有譜？",
+   "url": "https://news.cnyes.com/news/id/6611691",
+   "summary": "川普與澤倫斯基預計本周在紐約聯合國大會期間會談，聚焦戰場降級、能源安全、糧食安全與人員問題。 會談前美國加碼對俄制裁，並批准最高約27億美元對烏軍售，補強防空與反無人機能力。 俄烏遠程打擊持續升級，莫斯科稱攔截逾1600架無人機，能源設施互炸成川澤會最具體爭點。",
+   "date": "2026-09-21T02:10:03.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx9w1",
+   "title": "中大型婚宴減幅4成 台北晶華拓微型高端宴會版圖",
+   "url": "https://news.cnyes.com/news/id/6611738",
+   "summary": "飯店龍頭晶華(2707-TW)最新指出，近5年婚宴市場正發生結構性變化，15桌以上婚宴需求減幅達40%，反觀微型婚禮或高端家宴異軍突起，因此，旗下台北晶華酒店串聯麗晶精品加強高端客製婚宴布局。 晶華提到，受到少子化趨勢影響，全台婚宴市場規模大幅縮水，台北晶華酒店宴會事業部近5年銷售大數據顯示，傳統",
+   "date": "2026-09-21T02:09:10.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx9uy",
+   "title": "達運光電訂單能見度達明年 軍工、網通雙軌帶動下半年營運走揚",
+   "url": "https://news.cnyes.com/news/id/6611722",
+   "summary": "網通廠達運光電(8045-TW)目前在手訂單能見度已直透2027年底，營運主軸鎖定智慧寬頻設備與軍工物聯網雙軌推進，隨著下半年進入小量試產並逐步放量，加上2027年正式邁入規模化量產，營運成長斜率相當明確。 達運光電指出2025年全年營收約落在12億元規模，今年截至目前累計營收已大致追平去年全年水",
+   "date": "2026-09-21T02:08:21.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx9wq",
+   "title": "盤中速報 - 慶騰(4534)股價拉至漲停，漲停價32.25元，成交1,656張",
+   "url": "https://news.cnyes.com/news/id/6611740",
+   "summary": "慶騰(4534-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-21T02:07:39.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx9w2",
+   "title": "盤中速報 - 倉和(6538)股價拉至漲停，漲停價426.5元，成交2,234張",
+   "url": "https://news.cnyes.com/news/id/6611739",
+   "summary": "倉和(6538-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-21T02:03:57.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "1yrfdh",
+   "title": "2026臺灣文學獎金典獎．複審總評》無盡的河，持續運動",
+   "url": "https://www.openbook.org.tw/article/p-72941",
+   "summary": "<div class=\"field field-name-field-image field-type-image field-label-hidden\"><div class=\"field-items\"><div class=\"field-item even\"><a href=\"/article/p-72941\"><img src=\"https://www.openbook.org.tw/sites/default/files/styles/full_post_image_xml/public/field/image/2026jin_dian_jiang_-fu_xuan_zong_ping",
+   "date": "2026-09-21T02:02:50.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "Openbook 閱讀誌",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.openbook.org.tw"
+  },
+  {
+   "id": "1yrfdi",
+   "title": "2026臺灣文學獎金典獎．複審側記》寫下文學的註腳",
+   "url": "https://www.openbook.org.tw/article/p-72942",
+   "summary": "<div class=\"field field-name-field-image field-type-image field-label-hidden\"><div class=\"field-items\"><div class=\"field-item even\"><a href=\"/article/p-72942\"><img src=\"https://www.openbook.org.tw/sites/default/files/styles/full_post_image_xml/public/field/image/2026jin_dian_jiang_-fu_xuan_ce_ji_zhu",
+   "date": "2026-09-21T02:02:30.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "Openbook 閱讀誌",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.openbook.org.tw"
+  },
+  {
+   "id": "1yrfdg",
+   "title": "2026臺灣文學獎金典獎．入圍名單與評語》從當代議題到生命凝視，呈現新世代文學樣貌",
+   "url": "https://www.openbook.org.tw/article/p-72940",
+   "summary": "<div class=\"field field-name-field-image field-type-image field-label-hidden\"><div class=\"field-items\"><div class=\"field-item even\"><a href=\"/article/p-72940\"><img src=\"https://www.openbook.org.tw/sites/default/files/styles/full_post_image_xml/public/field/image/ding_gao_-2026tai_wan_wen_xue_jiang_j",
+   "date": "2026-09-21T02:02:00.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "Openbook 閱讀誌",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.openbook.org.tw"
+  },
+  {
+   "id": "ghx7bg",
+   "title": "高市早苗搶在川習會前見川普 原因與台灣有關",
+   "url": "https://news.cnyes.com/news/id/6611418",
+   "summary": "高市早苗將於22日在紐約會晤川普，時間早於24日川習會， 日方憂美中政治交易致川普在台灣、東海、南海對中讓步 高市預料重申日本對中國立場，要求美方堅持不允許以武力改變現狀",
+   "date": "2026-09-21T02:01:52.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "1tca53v",
+   "title": "都透過 Uber App 叫無人車，倫敦 Wayve 仍需配安全駕駛，克羅埃西亞 Pony.ai 已完全無人",
+   "url": "https://techorange.com/2026/09/21/robotaxi-revolution",
+   "summary": "本月起，15 輛電動福特 Mustang，開始在倫敦街頭自動行駛，這是倫敦第一個商業化的無人計程車服務，由叫車平台 Uber 與英國自駕技術新創公司 Wayve 合作推出。目前這些車輛仍配有持照駕駛，一旦發生突發狀況可隨時接手控制，倫敦交通局將這些車輛核准為私人租賃車輛，而非自動駕駛車輛。 無人計程車並非新鮮事。全球已有超過 20 個城市，包括美國、中國與中東地區都有無人計程車（robotaxi）在營運，不少車輛甚至完全沒有配置安全駕駛。不過，倫敦狹窄的街道，加上密集的行人、自行車與雙層巴士，讓這座城市成為特別嚴苛的測試場。 民眾疑慮與安全數據形成落差 倫敦市民對這項新服務態度保留。英國的國際",
+   "date": "2026-09-21T02:01:22.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "TechOrange",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://buzzorange.com/techorange/"
+  },
+  {
+   "id": "ghx9u1",
+   "title": "〈焦點股〉外資指ABF載板供需缺口擴大 欣興獲買盤簇擁重返千金",
+   "url": "https://news.cnyes.com/news/id/6611712",
+   "summary": "外資高盛報告指出ABF載板供需缺口擴大之中，明後年缺口尤甚，刺激載板欣興(3037-TW)、南電(8046-TW)及景碩(3189-TW)，其中，欣興上漲超過5.5早盤最高達1055元。 PCB及IC載板廠欣興最新營收資訊，2026年8月營收以177.46億元創新高，月增9.18%，年增56.26",
+   "date": "2026-09-21T02:00:04.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "9xc8xn",
+   "title": "Nathan Fillion Unpacks Guy Gardner’s ‘Lanterns’ Cameo: ‘What Took You So Long?’",
+   "url": "https://www.thewrap.com/creative-content/tv-shows/lanterns-episode-6-nathan-fillion-guy-gardner-interview",
+   "summary": "The actor tells TheWrap why he loves playing unlikable characters and how Hal and John did \"damage to the Green Lantern brand\" The post Nathan Fillion Unpacks Guy Gardner’s ‘Lanterns’ Cameo: ‘What Took You So Long?’ appeared first on TheWrap.",
+   "date": "2026-09-21T02:00:00.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "e3ekwn",
+   "title": "‘Lanterns’ Star Nathan Fillion on His Corporate-Sponsored Superhero and How ‘Man of Tomorrow’ Differs From ‘Superman’",
+   "url": "https://www.hollywoodreporter.com/tv/tv-features/lanterns-nathan-fillion-guy-gardner-1236705700",
+   "summary": "The trusted James Gunn collaborator also unpacks the lasting fallout from Hal Jordan and John Stewart’s fateful decisions during the Battle of Rushville a decade earlier.",
+   "date": "2026-09-21T02:00:00.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "1vxrpi2",
+   "title": "从“99%的人都说不行”到PC游戏之王：Steam如何用“服务”打败所有对手",
+   "url": "https://www.woshipm.com/chuangye/6467313.html",
+   "summary": "Valve早年做游戏自动更新，后建成全球最大的PC游戏平台，2025年营收破177亿美元、同时在线峰值4200万。文章复盘其五个关键决策，从强制安装客户端到开放模组，解析它如何凭平台与生态逻辑赢得市场。 今天聊Steam。 你可能每天都在用它。你可能在Steam上买过游戏、打过折、玩过《CS》《Dota 2》《半条命》。你可能知道它是全球最大的PC游戏平台，2025年营收突破177亿美元，同时在线峰值达到4200万，全年向全球传输了100EB的数据——相当于每分钟传输19万GB。 但你可能不知道的是，Steam诞生的时候，99%的公司都说它“永远不可能成功”。 2003年，Steam上线。它的",
+   "date": "2026-09-21T01:56:42.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "153sqde",
+   "title": "12种场景营销：让具身机器人火出圈",
+   "url": "https://www.woshipm.com/embodied/6467307.html",
+   "summary": "智能硬件赛道现在很热，但多数讨论停留在参数与概念。文章基于十几年一线实战，系统梳理12种把产品引入真实生活场景的打法，覆盖文旅、快消联名与极限挑战等方向，强调消费场景才是建立认知与信任的关键。 具身机器人，现在很热，热得资本追着跑。 一是上半年行业融资超过900亿，二是价格从百万级打到了万元级，三是机器人组团进工厂，工业商业化已经全线开展。 在这样的背景之下，未来机器人市场的竞争也将走向白热化。 这时候，具身机器人的营销，也将从参观型走向场景型，逐渐开始战国杀，最后得消费场景者得天下。 场景定义角色，角色定义心智。参数表里的机器人，消费者不关心；生活里的机器人，消费者主动记住。 所以，我基于十",
+   "date": "2026-09-21T01:55:19.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "ghx9v4",
+   "title": "盤中速報 - 點序(6485)股價拉至漲停，漲停價71.8元，成交813張",
+   "url": "https://news.cnyes.com/news/id/6611728",
+   "summary": "點序(6485-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-21T01:52:11.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx9v3",
+   "title": "盤中速報 - 科嶠(4542)股價拉至漲停，漲停價302.5元，成交482張",
+   "url": "https://news.cnyes.com/news/id/6611727",
+   "summary": "科嶠(4542-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-21T01:51:53.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "dqx15o",
+   "title": "标签 VS 数据指标体系，把指标梳理、标签设计、体系构建讲透了",
+   "url": "https://www.woshipm.com/share/6467226.html",
+   "summary": "现在很多人梳理指标体系的第一步是让 AI 直接给一份，它确实能列出上百个指标，但基本都是活跃用户数、留存率、转化率这类通用款。文章把数据指标、指标体系与标签拆开讲，梳理并列式、总分式、流程式三种形态与打标签的两种做法。 现在很多人梳理指标体系的第一步，是让 AI 直接给一份。它确实能一口气列出上百个指标，分门别类、格式工整——但你仔细看会发现，那些指标基本是“活跃用户数、留存率、转化率、客单价”这类通用款。 交给领导一看，领导说跟没看一样，怎么办？数据指标、指标体系、维度、标签，这些都是数据分析基础概念，但经常有同学会搞混淆。搞清楚这些概念的区别，不但做报表更清晰，而且更容易在分析问题的时候找",
+   "date": "2026-09-21T01:51:01.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "wr3zkv",
+   "title": "种草，开始被清算",
+   "url": "https://www.woshipm.com/operate/6463686.html",
+   "summary": "最近跟几个做品牌的朋友聊天，大家不约而同说起种草越来越难做了：同样的预算，内容发得更多、点赞收藏看着也不差，真正下单的人却少了。用户已经学会辨认精致图片和顺滑文案背后的套路，平台与监管也在关闭灰色地带。 最近跟几个做品牌的朋友聊天，大家不约而同地说起一件事，种草越来越难做了。 以前推一个新品，找一批达人，再配一批素人笔记，把关键词和搜索位铺起来，很快就能看见声量。现在，同样的预算花下去，内容发得更多，点赞收藏看着也不差，真正下单的人却少了。 一个朋友说得很直接，用户已经被教育出来了，图片一精致，文案一顺滑，标题里再出现宝藏、封神、闭眼冲，大家先怀疑你收了钱。 品牌的体感没有错，种草还在增长，但",
+   "date": "2026-09-21T01:50:19.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "ghx84m",
+   "title": "「補丁海嘯」來襲！花旗執行長：AI風險上升 企業加速進入防禦競賽",
+   "url": "https://news.cnyes.com/news/id/6611502",
+   "summary": "AI模型能力增強，企業加速補丁修復與防禦體系建置，應對網路攻擊風險 Anthropic今年稍早推出Mythos模型引發新一代AI網路風險關注，美財長貝森特曾與鮑爾召集華爾街高管討論 Fraser稱AI瓶頸已從晶片轉向能源供應，全球能源需求正大幅增加",
+   "date": "2026-09-21T01:50:05.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "1ft3fe6",
+   "title": "不用重复干活了，我把日常操作直接教给了豆包工作",
+   "url": "https://www.woshipm.com/ai/6467203.html",
+   "summary": "前两天有粉丝问我，那些 AI 信息和案例都是从哪找的，作者的答案是交给豆包工作：把每天翻机器之心、量子位的浏览器操作录一遍，它整理成 Skill，之后自动汇总推送到飞书。另外把做好的 45 页 PPT 交给它补页，新增内容也能跟着原风格走。 前两天有粉丝问我： 博主，你平时这些 AI 相关的信息和案例都是从哪里找的？ 这个嘛，只能说多逛，在各大AI网站平台收集信息。 其实我平时会固定看几个 AI 资讯网站。 像机器之心、量子位这些平台，每天都会更新不少 AI 模型、产品和行业动态。还有就是卡神的AI热点网站，里面关于AI的报道非常多。 但问题也很明显。 每天都要挨个打开网站、查看最新内容。 所",
+   "date": "2026-09-21T01:49:37.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "ghx9v2",
+   "title": "盤中速報 - 零組件業類股表現強勁，漲幅2.46%，總成交額540.30億",
+   "url": "https://news.cnyes.com/news/id/6611726",
+   "summary": "台股盤中電子零組件業類股表現強勁，漲跌幅、成交額、大盤佔比、領漲跌個股、指數績效、即時新聞資訊。",
+   "date": "2026-09-21T01:49:21.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx9v1",
+   "title": "盤中速報 - 旭然(4556)股價拉至漲停，漲停價91.5元，成交573張",
+   "url": "https://news.cnyes.com/news/id/6611725",
+   "summary": "旭然(4556-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-21T01:49:04.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx95d",
+   "title": "馬斯克準備在美國德州蓋「超級高鐵」時速321公里",
+   "url": "https://news.cnyes.com/news/id/6611675",
+   "summary": "馬斯克稱無聊公司擬在德州開發奧斯汀、聖安東尼奧城際隧道。 計畫稱可將兩城2.5小時車程縮至30分鐘以下，移動速度超過200公里/小時。 惟芝加哥、洛杉磯、紐約隧道案先前未落實，項目最終能否落實仍是未知。",
+   "date": "2026-09-21T01:46:18.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "10f4fpy",
+   "title": "自媒体人还在手动搬资料？豆包工作把一句话变成完整交付",
+   "url": "https://www.woshipm.com/ai/6467193.html",
+   "summary": "9 月 15 日的未来无限大会上，豆包工作伙伴同步发布。作者拿它跑了三条真实任务链：从素材包和历史标题里产出 5 个候选选题加一份可直接开写的大纲，再从一份商务合作要求里长出约 1480 字初稿、6 个配图节点和 6 页审核 PPT。 一篇内容从想法变成发布物，中间往往隔着很多次“搬运”：素材散在网页和聊天记录里，选题在备忘录里，大纲在文档里，配图又要换一个工具，数据复盘还得重新开表格。 每个动作看起来只花几分钟，但只要上下文切断一次，注意力就要重新加载一次。 豆包工作的差异在于，它把对话、附件、执行计划和可编辑文件放进同一个任务里。这次我分别跑了选题策划、商单交付和数据复盘三条任务链和大家分",
+   "date": "2026-09-21T01:45:53.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "ghx9t4",
+   "title": "〈台股開盤〉台積電翻紅拉高 聯發科、PCB領軍上攻 漲逾400點穩步挑戰4萬8",
+   "url": "https://news.cnyes.com/news/id/6611702",
+   "summary": "台股今早開高走高，盤中漲逾300點、最高47538.67點，挑戰前高，預估成交量9100億元 聯發科大漲逾半根停板；台積電、鴻海平盤附近震盪，台達電、日月光走揚 AI GPU與ASIC伺服器需求強勁，帶動ABF載板與PCB族群走高，友達也因先進封裝與合作傳聞大漲",
+   "date": "2026-09-21T01:44:32.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx9ux",
+   "title": "盤中速報 - 彩富(5489)股價拉至漲停，漲停價45.35元，成交200張",
+   "url": "https://news.cnyes.com/news/id/6611721",
+   "summary": "彩富(5489-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-21T01:43:57.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx9uw",
+   "title": "盤中速報 - 高僑(6234)股價拉至漲停，漲停價42.35元，成交2,994張",
+   "url": "https://news.cnyes.com/news/id/6611720",
+   "summary": "高僑(6234-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-21T01:42:00.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghwia7",
+   "title": "2940億！大摩：中國消費端AI市場四年暴增5倍 2040年上看1.6兆人民幣",
+   "url": "https://news.cnyes.com/news/id/6610782",
+   "summary": "大摩估中國消費端AI可變現收入今年約540億元，2030年升至2940億元，2040年約1.1兆元 收入高度偏商家端，2030年交易佣金2810億元、廣告100億元，兩者合計約99% 騰訊、阿里、美團等受益，AI將嵌入購物、外賣、出行等高頻場景，商業化偏向商家買單",
+   "date": "2026-09-21T01:40:02.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx9u5",
+   "title": "盤中速報 - 易發(6425)股價拉至漲停，漲停價75.0元，成交2,278張",
+   "url": "https://news.cnyes.com/news/id/6611716",
+   "summary": "易發(6425-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-21T01:38:35.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx9u4",
+   "title": "盤中速報 - 浩宇生醫(6872)股價拉至漲停，漲停價23.2元，成交247張",
+   "url": "https://news.cnyes.com/news/id/6611715",
+   "summary": "浩宇生醫(6872-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現。",
+   "date": "2026-09-21T01:36:58.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx9u3",
+   "title": "盤中速報 - 達能(3686)股價拉至漲停，漲停價15.7元，成交213張",
+   "url": "https://news.cnyes.com/news/id/6611714",
+   "summary": "達能(3686-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-21T01:35:50.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx9u2",
+   "title": "盤中速報 - 廣錠(6441)股價拉至漲停，漲停價25.15元，成交224張",
+   "url": "https://news.cnyes.com/news/id/6611713",
+   "summary": "廣錠(6441-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-21T01:35:04.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx9u0",
+   "title": "盤中速報 - 光鋐(4956)股價拉至漲停，漲停價46.85元，成交20,316張",
+   "url": "https://news.cnyes.com/news/id/6611711",
+   "summary": "光鋐(4956-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-21T01:33:20.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx9tz",
+   "title": "盤中速報 - 恩德(1528)股價拉至漲停，漲停價27.05元，成交11,145張",
+   "url": "https://news.cnyes.com/news/id/6611710",
+   "summary": "恩德(1528-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-21T01:33:07.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx9t7",
+   "title": "盤中速報 - 位速(3508)股價拉至漲停，漲停價26.1元，成交548張",
+   "url": "https://news.cnyes.com/news/id/6611705",
+   "summary": "位速(3508-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-21T01:30:45.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx9t6",
+   "title": "盤中速報 - GIS-KY(6456)股價拉至漲停，漲停價71.6元，成交3,131張",
+   "url": "https://news.cnyes.com/news/id/6611704",
+   "summary": "GIS-KY(6456-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-21T01:30:38.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx9t3",
+   "title": "盤中速報 - 倚強科(3219)股價拉至漲停，漲停價98.7元，成交1,456張",
+   "url": "https://news.cnyes.com/news/id/6611701",
+   "summary": "倚強科(3219-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-21T01:30:15.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx978",
+   "title": "盤中速報 - 和益(1709)股價拉至漲停，漲停價43.1元，成交21,696張",
+   "url": "https://news.cnyes.com/news/id/6611696",
+   "summary": "和益(1709-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-21T01:28:58.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx975",
+   "title": "盤中速報 - 精拓科(4951)股價拉至漲停，漲停價99.7元，成交200張",
+   "url": "https://news.cnyes.com/news/id/6611693",
+   "summary": "精拓科(4951-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-21T01:24:21.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "1tr0bib",
+   "title": "【零信任程式碼】企業資安別問能不能攔截，先問這段程式碼該不該被允許執行",
+   "url": "https://techorange.com/2026/09/21/ai-malware-to-zero-trust-code",
+   "summary": "AI 崛起不只提升開發人員的生產力與技術力，更改變當代資安攻擊的運作模式，促使企業重新思考現有資安防禦策略是否足夠，並進一步走向「零信任程式碼」。",
+   "date": "2026-09-21T01:23:16.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "TechOrange",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://buzzorange.com/techorange/"
+  },
+  {
+   "id": "ghx889",
+   "title": "傳統豪華品牌也撐不住了 從BBA到二線豪華都在降",
+   "url": "https://news.cnyes.com/news/id/6611541",
+   "summary": "沃爾沃S90中國經銷商報價22.99萬元，較40.69萬元起官方指導價降17.7萬元，降幅約43.50%。 奧迪A6L部分款型北京經銷商報價28.16萬元，較官方指導價下降17.33萬元，降幅約38.10%。 今年8月中國乘用車零售154.1萬輛年減23.6%。",
+   "date": "2026-09-21T01:22:53.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx974",
+   "title": "盤中速報 - 詮欣(6205)股價拉至漲停，漲停價70.0元，成交580張",
+   "url": "https://news.cnyes.com/news/id/6611692",
+   "summary": "詮欣(6205-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-21T01:21:43.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx972",
+   "title": "盤中速報 - 華東(8110)股價拉至漲停，漲停價52.1元，成交25,634張",
+   "url": "https://news.cnyes.com/news/id/6611690",
+   "summary": "華東(8110-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-21T01:20:44.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx96d",
+   "title": "盤中速報 - 盛達(3027)股價拉至漲停，漲停價19.1元，成交219張",
+   "url": "https://news.cnyes.com/news/id/6611688",
+   "summary": "盛達(3027-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-21T01:19:10.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx93h",
+   "title": "〈國泰金經濟調查〉9月景氣樂觀情緒、股市風險偏好回升 仍憂民生物價影響通膨",
+   "url": "https://news.cnyes.com/news/id/6611653",
+   "summary": "國泰金控(2882-TW)今(21)日發布2026年9月國民經濟信心調查結果，民眾景氣現況與展望樂觀指數雙雙反彈，大額消費意願同步走揚；受惠於AI基本面強勁支撐，台股樂觀情緒與風險偏好大幅回升。經濟成長方面，逾五成民眾預估全年經濟成長率將突破11%，展現對景氣的強勁信心；惟物價看法依然偏向嚴峻，過半",
+   "date": "2026-09-21T01:17:40.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx96c",
+   "title": "盤中速報 - 欣厚-KY(4924)股價拉至漲停，漲停價17.05元，成交226張",
+   "url": "https://news.cnyes.com/news/id/6611687",
+   "summary": "欣厚-KY(4924-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、融資融券增減。",
+   "date": "2026-09-21T01:15:11.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx96b",
+   "title": "盤中速報 - 南茂(8150)股價拉至漲停，漲停價103.0元，成交34,491張",
+   "url": "https://news.cnyes.com/news/id/6611686",
+   "summary": "南茂(8150-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現。",
+   "date": "2026-09-21T01:14:51.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx96a",
+   "title": "盤中速報 - 國慶科技(1721)股價拉至漲停，漲停價24.2元，成交864張",
+   "url": "https://news.cnyes.com/news/id/6611685",
+   "summary": "國慶科技(1721-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-21T01:14:20.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx969",
+   "title": "盤中速報 - 惠光(6508)股價拉至漲停，漲停價29.15元，成交206張",
+   "url": "https://news.cnyes.com/news/id/6611684",
+   "summary": "惠光(6508-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、融資融券增減。",
+   "date": "2026-09-21T01:13:55.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx968",
+   "title": "盤中速報 - 蔚華科(3055)股價拉至漲停，漲停價188.0元，成交3,039張",
+   "url": "https://news.cnyes.com/news/id/6611683",
+   "summary": "蔚華科(3055-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-21T01:13:04.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx967",
+   "title": "盤中速報 - 惠特(6706)股價拉至漲停，漲停價164.0元，成交5,540張",
+   "url": "https://news.cnyes.com/news/id/6611682",
+   "summary": "惠特(6706-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-21T01:12:59.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx966",
+   "title": "盤中速報 - 三圓(4416)股價拉至漲停，漲停價13.35元，成交1,770張",
+   "url": "https://news.cnyes.com/news/id/6611681",
+   "summary": "三圓(4416-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-21T01:12:25.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx965",
+   "title": "盤中速報 - 公準(3178)股價拉至漲停，漲停價75.9元，成交1,132張",
+   "url": "https://news.cnyes.com/news/id/6611680",
+   "summary": "公準(3178-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-21T01:12:04.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx95h",
+   "title": "盤中速報 - 國碩(2406)股價拉至漲停，漲停價30.4元，成交7,948張",
+   "url": "https://news.cnyes.com/news/id/6611679",
+   "summary": "國碩(2406-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-21T01:11:24.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx95g",
+   "title": "盤中速報 - 國邑*(6875)股價拉至漲停，漲停價36.3元，成交204張",
+   "url": "https://news.cnyes.com/news/id/6611678",
+   "summary": "國邑*(6875-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現。",
+   "date": "2026-09-21T01:10:56.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx95c",
+   "title": "盤中速報 - 浩鼎(4174)股價拉至漲停，漲停價29.9元，成交759張",
+   "url": "https://news.cnyes.com/news/id/6611674",
+   "summary": "浩鼎(4174-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現。",
+   "date": "2026-09-21T01:09:18.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx95b",
+   "title": "盤中速報 - 晉泰(6221)股價殺至跌停，跌停價28.35元，成交1,674張",
+   "url": "https://news.cnyes.com/news/id/6611673",
+   "summary": "晉泰(6221-TW)盤中跌停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-21T01:08:20.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx95a",
+   "title": "盤中速報 - 聯嘉投控(3717)股價拉至漲停，漲停價27.6元，成交4,091張",
+   "url": "https://news.cnyes.com/news/id/6611672",
+   "summary": "聯嘉投控(3717-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-21T01:05:05.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx959",
+   "title": "盤中速報 - 元晶(6443)股價拉至漲停，漲停價28.05元，成交5,676張",
+   "url": "https://news.cnyes.com/news/id/6611671",
+   "summary": "元晶(6443-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-21T01:04:45.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx958",
+   "title": "盤中速報 - 油電燃氣類股表現強勁，漲幅2.75%，總成交額20.91億",
+   "url": "https://news.cnyes.com/news/id/6611670",
+   "summary": "台股盤中油電燃氣業類股表現強勁，漲跌幅、成交額、大盤佔比、領漲跌個股、指數績效、即時新聞資訊。",
+   "date": "2026-09-21T01:04:37.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx94j",
+   "title": "盤中速報 - 聯傑(3094)股價拉至漲停，漲停價56.8元，成交4,701張",
+   "url": "https://news.cnyes.com/news/id/6611668",
+   "summary": "聯傑(3094-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-21T01:02:09.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx94i",
+   "title": "盤中速報 - 兆勁(2444)股價拉至漲停，漲停價13.85元，成交526張",
+   "url": "https://news.cnyes.com/news/id/6611667",
+   "summary": "兆勁(2444-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現。",
+   "date": "2026-09-21T01:00:46.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx94h",
+   "title": "盤中速報 - 聯光通(4903)股價拉至漲停，漲停價41.35元，成交1,708張",
+   "url": "https://news.cnyes.com/news/id/6611666",
+   "summary": "聯光通(4903-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現。",
+   "date": "2026-09-21T01:00:27.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx94g",
+   "title": "盤中速報 - 濱川(1569)股價拉至漲停，漲停價61.0元，成交1,468張",
+   "url": "https://news.cnyes.com/news/id/6611665",
+   "summary": "濱川(1569-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-21T01:00:14.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx93l",
+   "title": "盤中速報 - 富驊(5465)股價拉至漲停，漲停價29.35元，成交341張",
+   "url": "https://news.cnyes.com/news/id/6611657",
+   "summary": "富驊(5465-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-21T01:00:07.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx93k",
+   "title": "盤中速報 - 大甲(2221)股價拉至漲停，漲停價140.0元，成交1,947張",
+   "url": "https://news.cnyes.com/news/id/6611656",
+   "summary": "大甲(2221-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-21T01:00:06.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx93i",
+   "title": "盤中速報 - 精星(8183)股價拉至漲停，漲停價30.85元，成交269張",
+   "url": "https://news.cnyes.com/news/id/6611654",
+   "summary": "精星(8183-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-21T01:00:03.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx92o",
+   "title": "貝森特盛讚美中磋商「非常成功」 雙方將建立AI通報機制",
+   "url": "https://news.cnyes.com/news/id/6611647",
+   "summary": "貝森特與何立峰會談數小時，稱就AI、貿易與投資談話非常成功 雙方同意建立「美中AI對話」機制，並將於周一續磋商 美中正為川普與習近平周四會晤鋪路，貿易休戰協議11月到期",
+   "date": "2026-09-21T00:56:44.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx93e",
+   "title": "外資近5日賣超個股",
+   "url": "https://news.cnyes.com/news/id/6611650",
+   "summary": "1. 外資累計賣超 5 日的股票元大台灣50 (0050-TW)、凱基台灣TOP50 (009816-TW)、友達 (2409-TW)、主動統一台股增長 (00981A-TW)、中鋼 (2002-TW)2. 外資累計賣超 4 日的股票元大台灣50 (0050-TW)、凱基台灣TOP50 (00981",
+   "date": "2026-09-21T00:50:19.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx92q",
+   "title": "【鉅亨-盤前掃瞄】技術面",
+   "url": "https://news.cnyes.com/news/id/6611649",
+   "summary": "【鉅亨-盤前掃瞄】技術面1. 5日均線 46138.33 點，10日均線 46543.24 點，20日均線 46257.71 點，60日均線 45172.25 點，120日均線 43030.54 點，240日均線 36381.81 點。2. 6日 RSI 為 53.88，12日 RSI 為 59.3",
+   "date": "2026-09-21T00:50:17.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx92p",
+   "title": "【鉅亨-盤前掃瞄】基本面",
+   "url": "https://news.cnyes.com/news/id/6611648",
+   "summary": "【鉅亨-盤前掃瞄】基本面1. 9 月 18 日新台幣以 31.81 兌 1 美元作收，收盤貶 7 分。2. 集中市場 18 日外資買超 869.94 億元，投信買超 81.53 億元，自營商買超 243.03 億元。 3. 集中市場 18 日融資餘額較前 1 日增加 46.42 億元，成為 5940",
+   "date": "2026-09-21T00:50:16.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghe1nb",
+   "title": "散戶選股最怕追高套牢！下單APP智慧選股出招，3大策略提升選股效率",
+   "url": "https://news.cnyes.com/news/id/6609890",
+   "summary": "台股交易熱絡，市場資訊量龐大且類股輪動迅速，投資人若盲目追逐熱門題材，常面臨高點套牢與股價修正風險，如何在龐雜數據中精準篩選具備基本面、籌碼面或動能支撐的標的，成為投資決策的關鍵。 根據鉅亨網針對看盤與下單APP使用習慣的街訪調查，多數受訪者具備頻繁看盤習慣，但在實際操作上普遍面臨「研究個股時間不",
+   "date": "2026-09-21T00:50:05.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx92n",
+   "title": "外資近5日買超個股",
+   "url": "https://news.cnyes.com/news/id/6611646",
+   "summary": "1. 外資累計買超 5 日的股票主動統一升級50 (00403A-TW)、力積電 (6770-TW)、中華電 (2412-TW)、聯電 (2303-TW)、中石化 (1314-TW)2. 外資累計買超 4 日的股票主動統一升級50 (00403A-TW)、力積電 (6770-TW)、華邦電 (234",
+   "date": "2026-09-21T00:49:19.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx92m",
+   "title": "外資近3日賣超個股",
+   "url": "https://news.cnyes.com/news/id/6611645",
+   "summary": "1. 外資累計賣超 3 日的股票凱基台灣TOP50 (009816-TW)、元大台灣50 (0050-TW)、南亞 (1303-TW)、中鋼 (2002-TW)、群益台灣精選高息 (00919-TW)2. 外資累計賣超 2 日的股票群創 (3481-TW)、台新新光金 (2887-TW)、彰銀 (2",
+   "date": "2026-09-21T00:48:15.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx92l",
+   "title": "外資近3日買超個股",
+   "url": "https://news.cnyes.com/news/id/6611644",
+   "summary": "1. 外資累計買超 3 日的股票力積電 (6770-TW)、主動統一升級50 (00403A-TW)、友達 (2409-TW)、華邦電 (2344-TW)、聯電 (2303-TW)2. 外資累計買超 2 日的股票主動統一升級50 (00403A-TW)、力積電 (6770-TW)、主動統一台股增長",
+   "date": "2026-09-21T00:47:15.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
    "id": "ghx8zx",
    "title": "卡達：美國希望與伊朗達成協議",
    "url": "https://news.cnyes.com/news/id/6611617",
    "summary": "卡達稱正與美國、伊朗保持溝通，推動美伊恢復談判。 安薩里指多名美國官員稱美方希望達成協議、結束衝突。 伊朗哈塔姆·安比亞中央司令部警告，美國若再犯錯，其在中東基地及利益目標將遭打擊。",
    "date": "2026-09-21T00:46:22.000Z",
    "firstSeen": "2026-09-21T00:54:01.452Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx92k",
+   "title": "投信近5日賣超個股",
+   "url": "https://news.cnyes.com/news/id/6611643",
+   "summary": "1. 投信累計賣超 5 日的股票華邦電 (2344-TW)、元大金 (2885-TW)、遠東新 (1402-TW)、華南金 (2880-TW)、群益證 (6005-TW)2. 投信累計賣超 4 日的股票元大金 (2885-TW)、遠東新 (1402-TW)、華南金 (2880-TW)、華邦電 (23",
+   "date": "2026-09-21T00:46:18.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx92j",
+   "title": "投信近5日買超個股",
+   "url": "https://news.cnyes.com/news/id/6611642",
+   "summary": "1. 投信累計買超 5 日的股票聯電 (2303-TW)、永豐金 (2890-TW)、彰銀 (2801-TW)、南亞 (1303-TW)、玉山金 (2884-TW)2. 投信累計買超 4 日的股票聯電 (2303-TW)、永豐金 (2890-TW)、南亞 (1303-TW)、彰銀 (2801-TW)",
+   "date": "2026-09-21T00:45:19.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx92i",
+   "title": "投信近3日賣超個股",
+   "url": "https://news.cnyes.com/news/id/6611641",
+   "summary": "1. 投信累計賣超 3 日的股票元大金 (2885-TW)、華南金 (2880-TW)、遠東新 (1402-TW)、群益證 (6005-TW)、臺企銀 (2834-TW)2. 投信累計賣超 2 日的股票元大金 (2885-TW)、國泰金 (2882-TW)、華南金 (2880-TW)、遠東新 (14",
+   "date": "2026-09-21T00:44:15.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx92h",
+   "title": "投信近3日買超個股",
+   "url": "https://news.cnyes.com/news/id/6611640",
+   "summary": "1. 投信累計買超 3 日的股票聯電 (2303-TW)、南亞 (1303-TW)、永豐金 (2890-TW)、彰銀 (2801-TW)、玉山金 (2884-TW)2. 投信累計買超 2 日的股票聯電 (2303-TW)、南亞 (1303-TW)、長榮航 (2618-TW)、玉山金 (2884-TW",
+   "date": "2026-09-21T00:43:31.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
    "source": "鉅亨網",
    "tier": "B",
    "lang": "zh-TW",
@@ -873,12 +2259,108 @@ window.NEWS_DATA = {
    "site": "https://www.thewrap.com"
   },
   {
+   "id": "ghx91p",
+   "title": "盤中速報 - Arbitrum大漲8.06%，報0.22美元",
+   "url": "https://news.cnyes.com/news/id/6611635",
+   "summary": "Arbitrum(ARB)盤中上漲，交易價格、總成交量、市值、近日週月績效、即時新聞資訊。",
+   "date": "2026-09-21T00:35:22.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx91o",
+   "title": "盤中速報 - Sui大漲9.66%，報0.94美元",
+   "url": "https://news.cnyes.com/news/id/6611634",
+   "summary": "Sui(SUI)盤中上漲，交易價格、總成交量、市值、近日週月績效、即時新聞資訊。",
+   "date": "2026-09-21T00:35:21.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
    "id": "ghx88a",
    "title": "沙國首都敏感目標遭襲 胡塞同意不與美國交戰",
    "url": "https://news.cnyes.com/news/id/6611542",
    "summary": "胡塞宣布19日晚發動兩次軍事行動，襲擊利雅德「敏感目標」及Saudi Aramco延布設施。 薩雷亞稱使用大量彈道飛彈、有翼飛彈和無人機，指為回應沙國空襲，並稱行動成功。 川普稱美國與胡塞保持溝通。",
    "date": "2026-09-21T00:21:45.000Z",
    "firstSeen": "2026-09-21T00:54:01.452Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "1oupruk",
+   "title": "早报｜特努斯：iPhone Duo是乔布斯理念体现/小米18 Pro确认涨价/西贝否认倒闭传闻",
+   "url": "https://www.ifanr.com/1681049",
+   "summary": "· Google Gemini 安全测试越界，误攻 3 家真实企业 · 长鑫存储 G5 DRAM 平台量产，单片晶圆裸片数提升至少 50% · 智谱 MaaS 平台将上线数据内容不留存机制#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "date": "2026-09-21T00:14:53.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "爱范儿",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.ifanr.com/"
+  },
+  {
+   "id": "ghx8b4",
+   "title": "鉅亨速報 - Factset 最新調查：瑞昱(2379-TW)EPS預估上修至31.91元，預估目標價為750元",
+   "url": "https://news.cnyes.com/news/id/6611575",
+   "summary": "FactSet 最新調查：瑞昱(2379-TW)EPS預估上修，預估EPS、預估營收、目標價、歷史獲利表現、即時新聞資訊。",
+   "date": "2026-09-21T00:11:08.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx8b3",
+   "title": "鉅亨速報 - Factset 最新調查：世芯-KY(3661-TW)EPS預估上修至139.83元，預估目標價為6000元",
+   "url": "https://news.cnyes.com/news/id/6611574",
+   "summary": "FactSet 最新調查：世芯-KY(3661-TW)EPS預估上修，預估EPS、預估營收、目標價、歷史獲利表現、即時新聞資訊。",
+   "date": "2026-09-21T00:11:06.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "10ev0jo",
+   "title": "Media Brands React To Trump&#x27;s Banning Of CNN, MS Now and Politico",
+   "url": "https://www.mediapost.com/publications/article/418150/media-brands-react-to-trumps-banning-of-cnn-ms-n.html",
+   "summary": "<p>The Trump Administration decision to ban CNN, MS NOW and Politico from the White House has been condemned by other top media,&nbsp;<i>The New York Times</i>reports. &ldquo;No news organization &mdash; or person &mdash; should be retaliated against by the government over the words they use,&rdquo;",
+   "date": "2026-09-21T00:10:44.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "MediaPost",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
+   "id": "ghx8b2",
+   "title": "鉅亨速報 - Factset 最新調查：義隆(2458-TW)目標價調降至160元，幅度約8.05%",
+   "url": "https://news.cnyes.com/news/id/6611573",
+   "summary": "FactSet 最新調查：義隆(2458-TW)目標價調降，最高估值、最低估值、中位數、綜合評級、近5日股價、大盤表現、即時新聞資訊。",
+   "date": "2026-09-21T00:10:24.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx8b1",
+   "title": "鉅亨速報 - Factset 最新調查：新應材(4749-TW)目標價調降至950元，幅度約6.63%",
+   "url": "https://news.cnyes.com/news/id/6611572",
+   "summary": "FactSet 最新調查：新應材(4749-TW)目標價調降，最高估值、最低估值、中位數、綜合評級、近5日股價、大盤表現、即時新聞資訊。",
+   "date": "2026-09-21T00:10:22.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
    "source": "鉅亨網",
    "tier": "B",
    "lang": "zh-TW",
@@ -909,6 +2391,42 @@ window.NEWS_DATA = {
    "site": "https://news.cnyes.com"
   },
   {
+   "id": "p3k94c",
+   "title": "Google Tells Advertisers They Must Protect Their Contact Forms",
+   "url": "https://www.mediapost.com/publications/article/418149/google-tells-advertisers-they-must-protect-their-c.html",
+   "summary": "<span>Google has alerted advertisers that its invalid traffic filters cannot stop invalid submissions from reaching their advertisers&rsquo; contact forms,&nbsp;<i>PPC Land</i>&nbsp;reports. In a Google Ads Help Centre page, the firm explains that its anti-bot systems judge ad clicks after the ad ha",
+   "date": "2026-09-21T00:05:52.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "MediaPost",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
+   "id": "ghx8a9",
+   "title": "盤中速報 - Arweave大漲8.88%，報4.81美元",
+   "url": "https://news.cnyes.com/news/id/6611567",
+   "summary": "Arweave(AR)盤中上漲，交易價格、總成交量、市值、近日週月績效、即時新聞資訊。",
+   "date": "2026-09-21T00:05:22.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghx8a8",
+   "title": "盤中速報 - Saga大漲51.58%，報0.04美元",
+   "url": "https://news.cnyes.com/news/id/6611566",
+   "summary": "Saga(SAGA)盤中上漲，交易價格、總成交量、市值、近日週月績效、即時新聞資訊。",
+   "date": "2026-09-21T00:05:21.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
    "id": "ghx87k",
    "title": "再轟AI末日論！黃仁勳：毫無科學依據 嚇人不負責任 2030年世界末日機率為0%",
    "url": "https://news.cnyes.com/news/id/6611539",
@@ -921,6 +2439,66 @@ window.NEWS_DATA = {
    "site": "https://news.cnyes.com"
   },
   {
+   "id": "8vhaf9",
+   "title": "iFixit拆解iPhone 18 Pro雙機：精細如髮絲的機械可變光圈、部分Face ID模組也採用螢幕下鏡頭設計",
+   "url": "https://mashdigi.com/ifixit-teardown-of-iphone-18-pro-reveals-finely-crafted-mechanical-variable-aperture-and-under-display-camera-design-for-some-face-id-modules",
+   "summary": "每年新iPhone登場，iFixit的「解剖」總能帶外界窺見蘋果在極限內部空間裡的工藝取捨。今年的iPhone […]",
+   "date": "2026-09-21T00:00:20.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "mashdigi",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://mashdigi.com"
+  },
+  {
+   "id": "5fpvwa",
+   "title": "裂解中的大國：英國脫歐後「一分為三」憲政危機，如何成為俄羅斯戰略武器？",
+   "url": "https://www.thenewslens.com/article/270186",
+   "summary": "英國脫歐後的內部裂痕，已成俄羅斯資訊操作的破口。其藉由放大社會對立、侵蝕信任，挑戰聯合王國統一，並威脅北約位於蘇格蘭的核嚇阻部署，將內部治理問題轉化為國安風險。",
+   "date": "2026-09-20T23:59:00.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "5fpvwd",
+   "title": "誰來踩煞車？美中AI競爭的本質不是「安全」，而是誰有資格決定「速度」",
+   "url": "https://www.thenewslens.com/article/270189",
+   "summary": "美國AI領先者因安全考量呼籲放緩，卻怕被中國超越而陷入矛盾。北京則質疑此為打壓手段。這場競賽的困境在於，各方都看見風險，卻因互不信任而無人敢先踩煞車，台灣則需建立自主的風險判斷能力。",
+   "date": "2026-09-20T23:58:00.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "5f7gx4",
+   "title": "黃仁勳跟孩子說You need to learn Taiwanese：為何台灣母語只剩20年壽命？",
+   "url": "https://www.thenewslens.com/article/269489",
+   "summary": "本文批判官方語言政策延續殖民思維，致台語等母語瀕危。作者主張母語是認同根基與轉型正義核心，應積極振興以鞏固台灣主體性。",
+   "date": "2026-09-20T23:57:00.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "yixo8b",
+   "title": "Microsoft Seeks To Patent Gaming Ad System",
+   "url": "https://www.mediapost.com/publications/article/418148/microsoft-seeks-to-patent-gaming-ad-system.html",
+   "summary": "<p><span>Microsoft has filed a patent application for a system that would support free-to-play games at suitable pause points after a period of ad-free access, <em>TechSpot</em> reports. These points would include the end of a boss fight, a completed quest, a cutscene and a loading screen. The appli",
+   "date": "2026-09-20T23:56:27.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "MediaPost",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
    "id": "ghx88g",
    "title": "為川習會鋪路 美中高層紐約展開談判 三大議題成焦點",
    "url": "https://news.cnyes.com/news/id/6611548",
@@ -931,6 +2509,30 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-TW",
    "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "5fpvx7",
+   "title": "我們總是教長輩不要被騙，卻很少去理解「為什麼他願意相信陌生人？」",
+   "url": "https://www.thenewslens.com/article/270196",
+   "summary": "本文點出，詐騙得逞常非因貪婪或無知，而是騙徒精準填補了長輩的情感空缺。他們用持續關懷獲取信任，滿足了被需要感。因此，家人主動的溝通與陪伴，是比事後警告更根本的防線。",
+   "date": "2026-09-20T23:56:00.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "1n9in10",
+   "title": "Meta Files Action Against UK&#x27;s Media Regulator",
+   "url": "https://www.mediapost.com/publications/article/418147/meta-files-action-against-uks-media-regulator.html",
+   "summary": "Meta has filed a new legal challenge against&nbsp;<span>Ofcom</span><span class=\"apple-converted-space\">, the UK&rsquo;s media regulator, seeking to prevent additional burdens from being placed on WhatsApp and Instragram,&nbsp;<i>The Guardian&nbsp;</i>reports. The firm is appealing the placing of th",
+   "date": "2026-09-20T23:52:36.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "MediaPost",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
   },
   {
    "id": "ghx7io",
@@ -1020,7 +2622,7 @@ window.NEWS_DATA = {
    "id": "1tuwfb3",
    "title": "Former FTC Chair Lina Khan Says Paramount Merger ‘Seems Facially Illegal,’ Slams ‘Troubling’ Settlement Talks",
    "url": "https://www.thewrap.com/industry-news/deals-ma/ftc-lina-khan-paramount-merger-illegal",
-   "summary": "\"Behavioral remedies routinely fail,\" warns Khan, who led the Federal Trade Commission during Biden's administration The post Former FTC Chair Lina Khan Says Paramount Merger ‘Seems Facially Illegal,’ Slams ‘Troubling’ Settlement Talks appeared first on TheWrap.",
+   "summary": "\"Behavioral remedies routinely fail,\" warns Khan, who led the Federal Trade Commission during Joe Biden's administration The post Former FTC Chair Lina Khan Says Paramount Merger ‘Seems Facially Illegal,’ Slams ‘Troubling’ Settlement Talks appeared first on TheWrap.",
    "date": "2026-09-20T22:23:21.000Z",
    "firstSeen": "2026-09-21T00:54:01.452Z",
    "source": "TheWrap",
@@ -1317,6 +2919,30 @@ window.NEWS_DATA = {
    "site": "https://techcrunch.com"
   },
   {
+   "id": "1y93obm",
+   "title": "I&#x27;m So Glad Bill Harvey Picked Us",
+   "url": "https://www.mediapost.com/publications/article/418142/im-so-glad-bill-harvey-picked-us.html",
+   "summary": "\"In the six days of creation, when chaos was ordered into heaven and earth, there was no TV, so God did not create the ADI. That task was left to Bill Harvey. The year was 1966. Harvey was 24 years old.\"",
+   "date": "2026-09-20T18:25:58.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "MediaPost",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
+   "id": "1suyd7p",
+   "title": "Obit: Pioneering Researcher, Perpetual Futurist Bill Harvey, Dead At 84",
+   "url": "https://www.mediapost.com/publications/article/418138/obit-pioneering-researcher-perpetual-futurist-bi.html",
+   "summary": "Harvey spent more than half a century trying to answer what was, at heart, a deceptively simple question: How can advertisers understand what media and advertising actually do?",
+   "date": "2026-09-20T18:23:20.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "MediaPost",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
    "id": "zv8hni",
    "title": "Alan Ritchson Reveals Which ‘Reacher’ Season Got Canceled After “Someone Got Re-Elected”",
    "url": "https://www.hollywoodreporter.com/tv/tv-news/alan-ritchson-reacher-season-canceled-someone-re-elected-1236706469",
@@ -1390,9 +3016,9 @@ window.NEWS_DATA = {
   },
   {
    "id": "18g4e1i",
-   "title": "Sylvester Stallone Rejected Trump’s Hollywood Ambassador Role, Found Out He Was Appointed Anyway While Watching TV",
+   "title": "Sylvester Stallone Rejected Trump’s Hollywood Ambassador Role, Found Out While Watching TV",
    "url": "https://www.thewrap.com/creative-content/movies/sylvester-stallone-never-accepted-trump-hollywood-ambassador",
-   "summary": "\"Corporate people won’t want to hear me tell them about finance,\" the star explains The post Sylvester Stallone Rejected Trump’s Hollywood Ambassador Role, Found Out He Was Appointed Anyway While Watching TV appeared first on TheWrap.",
+   "summary": "\"Corporate people won’t want to hear me tell them about finance,\" the star explains The post Sylvester Stallone Rejected Trump’s Hollywood Ambassador Role, Found Out While Watching TV appeared first on TheWrap.",
    "date": "2026-09-20T17:27:07.000Z",
    "firstSeen": "2026-09-20T19:17:38.983Z",
    "source": "TheWrap",
@@ -1479,7 +3105,7 @@ window.NEWS_DATA = {
    "summary": "<p>The compelling documentary series is drawing to a close. But following people from childhood raises difficult ethical questions</p><p>In 1963, a television crew documented the lives of 14&nbsp;children. Michael Apted, then a young researcher, saw Seven Up! as an opportunity to expose the British ",
    "date": "2026-09-20T16:47:05.000Z",
    "firstSeen": "2026-09-20T19:17:38.983Z",
-   "source": "The Guardian 媒體版",
+   "source": "The Guardian",
    "tier": "C",
    "lang": "en",
    "site": "https://www.theguardian.com/uk/media"
@@ -1503,7 +3129,7 @@ window.NEWS_DATA = {
    "summary": "<p>Stage and screen actor admired for her television roles in Waiting for God, Tenko and Doc Martin</p><p>Stephanie Cole, who has died aged 84, was a skilful actor with a powerful voice. She was also an exemplar of the strong, no-nonsense characters that she played with layers of vulnerability, humo",
    "date": "2026-09-20T16:36:25.000Z",
    "firstSeen": "2026-09-20T19:17:38.983Z",
-   "source": "The Guardian 媒體版",
+   "source": "The Guardian",
    "tier": "C",
    "lang": "en",
    "site": "https://www.theguardian.com/uk/media"
@@ -1743,7 +3369,7 @@ window.NEWS_DATA = {
    "summary": "<p>Action against Ofcom comes as social media companies are being accused of using courts to slow down implementation</p><p>Meta has launched a fresh legal challenge against Britain’s media regulator in the latest of a slew of actions by social media companies who are accused of using the courts to ",
    "date": "2026-09-20T14:24:33.000Z",
    "firstSeen": "2026-09-20T19:17:38.983Z",
-   "source": "The Guardian 媒體版",
+   "source": "The Guardian",
    "tier": "C",
    "lang": "en",
    "site": "https://www.theguardian.com/uk/media"
@@ -1821,6 +3447,18 @@ window.NEWS_DATA = {
    "site": "https://www.hollywoodreporter.com"
   },
   {
+   "id": "1oupsnu",
+   "title": "19999 元起，启元机器人想把「个人机器人」先卖进普通人的生活",
+   "url": "https://www.ifanr.com/1681137",
+   "summary": "比造机器人更难的，可能是给机器人找到「应用」。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "date": "2026-09-20T13:10:39.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "爱范儿",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.ifanr.com/"
+  },
+  {
    "id": "ghx45r",
    "title": "馬斯克看旺AI紅利 預言美國明年GDP成長翻倍至4％",
    "url": "https://news.cnyes.com/news/id/6611097",
@@ -1881,13 +3519,25 @@ window.NEWS_DATA = {
    "site": "https://news.cnyes.com"
   },
   {
+   "id": "1oupry5",
+   "title": "50年首款纯电后驱！史上最强 GTI，赶不上时代",
+   "url": "https://www.ifanr.com/1681086",
+   "summary": "时代变了。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "date": "2026-09-20T12:04:33.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "爱范儿",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.ifanr.com/"
+  },
+  {
    "id": "10ggsc",
    "title": "‘There’s a whipsaw nature to it’: how we’ve covered Donald Trump’s tumultuous trade wars",
    "url": "https://www.theguardian.com/membership/2026/sep/20/theres-a-whipsaw-nature-to-it-how-weve-covered-donald-trumps-tumultuous-trade-wars",
    "summary": "<p>The erratic escalations and climbdowns by the US president have made covering trade disputes a high-octane affair. We spoke to some of our business reporters and our correspondent in Toronto about how they keep up with it</p><p>Reporting on international trade disputes is challenging enough at th",
    "date": "2026-09-20T12:00:15.000Z",
    "firstSeen": "2026-09-20T14:35:03.967Z",
-   "source": "The Guardian 媒體版",
+   "source": "The Guardian",
    "tier": "C",
    "lang": "en",
    "site": "https://www.theguardian.com/uk/media"
@@ -1983,7 +3633,7 @@ window.NEWS_DATA = {
    "summary": "<p>Fourteen years ago, Twitter was the fastest, funniest game on the web. Now I’ve been driven out by so-called ‘online activists’. The only answer is to unplug and try this instead</p><p>God, I love social media! I cannot believe my exquisite luck – to exist in a time when it was invented! Bliss it",
    "date": "2026-09-20T11:00:15.000Z",
    "firstSeen": "2026-09-20T14:35:03.967Z",
-   "source": "The Guardian 媒體版",
+   "source": "The Guardian",
    "tier": "C",
    "lang": "en",
    "site": "https://www.theguardian.com/uk/media"
@@ -1995,7 +3645,7 @@ window.NEWS_DATA = {
    "summary": "<p>Her last case was 50 years ago, written by Agatha Christie just before she died. Could I really follow in the footsteps of the Queen of Crime?</p><p>When I was asked to write the first full-length Miss Marple novel since Sleeping Murder was published posthumously, 50 years ago in October, I immed",
    "date": "2026-09-20T11:00:15.000Z",
    "firstSeen": "2026-09-20T14:35:03.967Z",
-   "source": "The Guardian 媒體版",
+   "source": "The Guardian",
    "tier": "C",
    "lang": "en",
    "site": "https://www.theguardian.com/uk/media"
@@ -2007,7 +3657,7 @@ window.NEWS_DATA = {
    "summary": "<p>The US’s deployment of weaponry in space marks the latest backward step from the show’s optimistic conception of the future</p><p>Who among us doesn’t dream of space in their youth?</p><p>OK, maybe some of us. Like the ones with lives. While you were out playing hopscotch with little Jimmy and Su",
    "date": "2026-09-20T11:00:15.000Z",
    "firstSeen": "2026-09-20T14:35:03.967Z",
-   "source": "The Guardian 媒體版",
+   "source": "The Guardian",
    "tier": "C",
    "lang": "en",
    "site": "https://www.theguardian.com/uk/media"
@@ -2023,6 +3673,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-CN",
    "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "1oupsky",
+   "title": "iPhone 18 Pro 系列开卖了，但苹果没告诉你的是……",
+   "url": "https://www.ifanr.com/1681102",
+   "summary": "苹果总会在你看不见的地方下猛料。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "date": "2026-09-20T10:24:12.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "爱范儿",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.ifanr.com/"
   },
   {
    "id": "ghx6oi",
@@ -2079,7 +3741,7 @@ window.NEWS_DATA = {
    "summary": "<p>Raised on punk, alt-comedy and the church, Cregger’s Lynchian approach to horror is anything but typical. After two wildly original hits, his pivot to a 30-year-old video game has caused a storm among protective fans</p><p>When <a href=\"https://www.theguardian.com/film/2022/sep/07/barbarian-revie",
    "date": "2026-09-20T09:00:12.000Z",
    "firstSeen": "2026-09-20T09:38:10.651Z",
-   "source": "The Guardian 媒體版",
+   "source": "The Guardian",
    "tier": "C",
    "lang": "en",
    "site": "https://www.theguardian.com/uk/media"
@@ -2091,7 +3753,7 @@ window.NEWS_DATA = {
    "summary": "<p>Six-part drama Gènesi tells the story of Adrià’s Catalan restaurant El Bulli from the day he arrived as a kitchen hand</p><p>Revered and reviled, during the 28 years he presided over El Bulli, a small restaurant in a remote corner of Catalonia, <a href=\"https://www.theguardian.com/lifeandstyle/20",
    "date": "2026-09-20T09:00:11.000Z",
    "firstSeen": "2026-09-20T09:38:10.651Z",
-   "source": "The Guardian 媒體版",
+   "source": "The Guardian",
    "tier": "C",
    "lang": "en",
    "site": "https://www.theguardian.com/uk/media"
@@ -2187,7 +3849,7 @@ window.NEWS_DATA = {
    "summary": "<p>Comments come after he accused King Charles of gaslighting him in response to claims made in new memoir</p><p>Earl Spencer has said the relationship between the press and the Duke and Duchess of Sussex “echoes” the way the media treated his sister Diana, Princess of Wales.</p><p>In an <a href=\"ht",
    "date": "2026-09-20T07:55:52.000Z",
    "firstSeen": "2026-09-20T09:38:10.651Z",
-   "source": "The Guardian 媒體版",
+   "source": "The Guardian",
    "tier": "C",
    "lang": "en",
    "site": "https://www.theguardian.com/uk/media"
@@ -2265,6 +3927,18 @@ window.NEWS_DATA = {
    "site": "https://news.cnyes.com"
   },
   {
+   "id": "1ouprv8",
+   "title": "苹果最强芯片 M8 Ultra，能让 Mac 重回服务器市场吗？",
+   "url": "https://www.ifanr.com/1681050",
+   "summary": "在特努斯时代，完成乔布斯的未竟事业#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "date": "2026-09-20T06:23:27.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "爱范儿",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.ifanr.com/"
+  },
+  {
    "id": "1p63ogj",
    "title": "【两年实战】一个生产级 AI 客服，到底是怎么做出来的？",
    "url": "https://www.woshipm.com/ai/6467109.html",
@@ -2319,7 +3993,7 @@ window.NEWS_DATA = {
    "summary": "<p>Her catchy videos have racked up billions of views, but Rachel Accurso’s statements on everything from Gaza to LGBTQ rights have caused a stir. She talks about screen time, song fatigue and speculation she might enter politics</p><p>The YouTube star Ms Rachel, toddler whisperer extraordinaire, sp",
    "date": "2026-09-20T05:00:06.000Z",
    "firstSeen": "2026-09-20T09:38:10.651Z",
-   "source": "The Guardian 媒體版",
+   "source": "The Guardian",
    "tier": "C",
    "lang": "en",
    "site": "https://www.theguardian.com/uk/media"
@@ -2383,6 +4057,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-TW",
    "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "1oup6xr",
+   "title": "体验完 Step 5 Preview，我发现阶跃重新坐上国产大模型主桌",
+   "url": "https://www.ifanr.com/1680881",
+   "summary": "模型入海，阶跃走向人群#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "date": "2026-09-20T04:00:16.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "爱范儿",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.ifanr.com/"
   },
   {
    "id": "5fpvud",
@@ -2455,6 +4141,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-TW",
    "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "4geox3",
+   "title": "Google: AI Model Hacked Companies In Cybersecurity Tests",
+   "url": "https://www.mediapost.com/publications/article/418137/google-ai-model-hacked-companies-in-cybersecurity.html",
+   "summary": "Google confirmed Friday that a Gemini AI model accessed the internet and hacked other companies' systems during a test of its cybersecurity capabilities.",
+   "date": "2026-09-20T03:00:00.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "MediaPost",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
   },
   {
    "id": "1nhvxxv",
@@ -2679,7 +4377,7 @@ window.NEWS_DATA = {
    "summary": "<p>Drawn from more than 100,000 images and negatives created between 1975 and 2025, the exhibition <a href=\"https://www.sl.nsw.gov.au/exhibitions/lorrie-graham-photojournalist\">Lorrie Graham: Photojournalist</a> is on now at the State Library of NSW. </p><p>Graham was the first female photography ca",
    "date": "2026-09-20T01:00:01.000Z",
    "firstSeen": "2026-09-20T09:38:10.651Z",
-   "source": "The Guardian 媒體版",
+   "source": "The Guardian",
    "tier": "C",
    "lang": "en",
    "site": "https://www.theguardian.com/uk/media"
@@ -2691,7 +4389,7 @@ window.NEWS_DATA = {
    "summary": "<div class=\"field field-name-field-image field-type-image field-label-hidden\"><div class=\"field-items\"><div class=\"field-item even\"><a href=\"/article/p-72946\"><img src=\"https://www.openbook.org.tw/sites/default/files/styles/full_post_image_xml/public/field/image/dong_ya_shu_fang_-zhu_tu__25.jpg?itok",
    "date": "2026-09-20T01:00:00.000Z",
    "firstSeen": "2026-09-20T09:38:10.651Z",
-   "source": "Openbook閱讀誌",
+   "source": "Openbook 閱讀誌",
    "tier": "C",
    "lang": "zh-TW",
    "site": "https://www.openbook.org.tw"
@@ -2931,7 +4629,7 @@ window.NEWS_DATA = {
    "summary": "<p>The presenters look terrified and some of the celebs are hard to identify, but Strictly remains a rare refuge of joy </p><p>At this point, Strictly Come Dancing cannot be allowed to fail. When we’re all living off our Wes Streeting-mandated prepper rations, it’s the only thing that will keep us g",
    "date": "2026-09-19T22:16:11.000Z",
    "firstSeen": "2026-09-20T00:46:29.438Z",
-   "source": "The Guardian 媒體版",
+   "source": "The Guardian",
    "tier": "C",
    "lang": "en",
    "site": "https://www.theguardian.com/uk/media"
@@ -3259,6 +4957,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-TW",
    "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "1oup61q",
+   "title": "专访苹果高管，揭秘 iPhone Duo 幕后工程和设计哲学 副本",
+   "url": "https://www.ifanr.com/1680763",
+   "summary": "用不变的空间秩序，对抗折叠带来的「迷失感」#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "date": "2026-09-19T16:00:45.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "爱范儿",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.ifanr.com/"
   },
   {
    "id": "2kt83i",
@@ -4149,6 +5859,18 @@ window.NEWS_DATA = {
    "site": "https://www.woshipm.com"
   },
   {
+   "id": "1oup7s1",
+   "title": "iPhone 18 拿到手了吗？首选配件可以先安排上了",
+   "url": "https://www.ifanr.com/1680982",
+   "summary": "CASETiFY，新机可靠之选#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "date": "2026-09-19T04:00:24.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "爱范儿",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.ifanr.com/"
+  },
+  {
    "id": "5fpvuj",
    "title": "引進外籍技術人力的戰略轉型：台灣旅宿業如何打造「全球人才循環」？",
    "url": "https://www.thenewslens.com/article/270169",
@@ -4419,7 +6141,7 @@ window.NEWS_DATA = {
    "summary": "<div class=\"field field-name-field-image field-type-image field-label-hidden\"><div class=\"field-items\"><div class=\"field-item even\"><a href=\"/article/p-72945\"><img src=\"https://www.openbook.org.tw/sites/default/files/styles/full_post_image_xml/public/field/image/qu_hai_an_shan_mo_zou_lu_ba_-zhu_tu_.",
    "date": "2026-09-19T02:00:00.000Z",
    "firstSeen": "2026-09-19T09:13:57.060Z",
-   "source": "Openbook閱讀誌",
+   "source": "Openbook 閱讀誌",
    "tier": "C",
    "lang": "zh-TW",
    "site": "https://www.openbook.org.tw"
@@ -4555,6 +6277,18 @@ window.NEWS_DATA = {
    "tier": "A",
    "lang": "en",
    "site": "https://techcrunch.com"
+  },
+  {
+   "id": "1oup7pe",
+   "title": "早报｜iPhone 18 Pro昨天开卖：Pro Max加价，Pro破发/12306回应国庆票价上涨/宁德时代倪军：全固态电池至少还需5年",
+   "url": "https://www.ifanr.com/1680956",
+   "summary": "· 赛力斯回应问界专属专营：用户权益不变，将择机进军轿车和 MPV · 钉钉创始人陈航出任百望股份非执行董事，年薪 10 万元 · 联想市值盘中超过美团，股价刷新高#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "date": "2026-09-19T00:59:13.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "爱范儿",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.ifanr.com/"
   },
   {
    "id": "ghwiac",
@@ -5397,6 +7131,18 @@ window.NEWS_DATA = {
    "site": "https://www.hollywoodreporter.com"
   },
   {
+   "id": "7x4l02",
+   "title": "Meta Defeats Privacy Suit Over &#x27;Voiceprints&#x27;",
+   "url": "https://www.mediapost.com/publications/article/418132/meta-defeats-privacy-suit-over-voiceprints.html",
+   "summary": "A federal judge dismissed a lawsuit by a California resident who claimed Meta violated an anti-hacking law by allegedly collecting his \"voiceprint\" when he used Messenger.",
+   "date": "2026-09-18T21:07:44.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "MediaPost",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
    "id": "12k8db8",
    "title": "An Ad Tech Firm Is on the Hunt for Smart AI Bets",
    "url": "https://www.thewrap.com/industry-news/business/an-ad-tech-firm-is-on-the-hunt-for-smart-ai-bets",
@@ -5587,6 +7333,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-TW",
    "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "zveno8",
+   "title": "Montana Deepfake Law Likely Unconstitutional, Judge Rules",
+   "url": "https://www.mediapost.com/publications/article/418123/montana-deepfake-law-likely-unconstitutional-judg.html",
+   "summary": "The law requires disclaimers on negative political ads with AI-generated content.",
+   "date": "2026-09-18T19:41:24.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "MediaPost",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
   },
   {
    "id": "ghwhe9",
@@ -6117,6 +7875,18 @@ window.NEWS_DATA = {
    "site": "https://news.cnyes.com"
   },
   {
+   "id": "1v3kkgh",
+   "title": "Doomforce",
+   "url": "https://stratechery.com/2026/doomforce/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L2Rvb21mb3JjZS8iXX0sImV4cCI6MTc5MjU1MzQzNSwiaWF0IjoxNzg5OTYxNDM1LCJpc3MiOiJodHRwczovL2FwcC5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyBwb2RjYXN0IHJzcyIsInN1YiI6Ijk0MDg0MGUyLTVlZjktNGJlNS04MjUwLTM3ODFmMjZlZTc5YSIsInVzZSI6ImFjY2VzcyJ9.FN_LUVy0McHZkZRimwoMXk-gT5c0xrPZt5XKC1slo_6RKog1HoyRpcY1jApk4IA31m_2PndgZ6I8treEbdN-OILMG6rguxR_DCD6Ku-Sk_RVTRtzEiJLi-x8WTDC-lLZLKQrVB7WlrN5RCv2a42bXIzoszyrR0APCeQByxYT2Vpz6PldADKLFYSYKEg6N9wpaB7u8_hBVBav_ykD3AarCGpzRDoqL4u3lADg8IhK5CHIk-iuMnJYwZEyjXnIFpp3VW6XFk6rBaHEDavgpTVezD3d12OtIADvvDH1rq_9EbkBpNSWVkJP-8D6n6ajbDdYGQZaCNyXSydDRbtI0QThGA",
+   "summary": "The best Stratechery content from the week of September 14, 2026, including the view from anywhere but San Francisco, the limited potential for a pacing deal, and the Salesforce zag.",
+   "date": "2026-09-18T17:00:00.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "STRATECHERY",
+   "tier": "S",
+   "lang": "en",
+   "site": "https://stratechery.com"
+  },
+  {
    "id": "1ramrj5",
    "title": "Jacobs Media Separated Profitable Events Brand From Rest of Company",
    "url": "https://www.amediaoperator.com/analysis/jacobs-media-separated-profitable-events-brand-from-rest-of-company",
@@ -6223,6 +7993,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-TW",
    "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "1kgbi9m",
+   "title": "Automating The Massive Ad Pivot",
+   "url": "https://www.mediapost.com/publications/article/418109/automating-the-massive-ad-pivot.html",
+   "summary": "'OpenAI Sponsored Agents' launched earlier this week with new integrations, with HubSpot the first CRM integration. The updates represent the next step in automation and building OpenAI's AI-based advertising platform, making the ads a part of the conversation with brands.",
+   "date": "2026-09-18T16:22:03.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "MediaPost",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
   },
   {
    "id": "12y53ui",
@@ -6729,6 +8511,30 @@ window.NEWS_DATA = {
    "site": "https://www.thewrap.com"
   },
   {
+   "id": "1ofq6a6",
+   "title": "Accenture Song Taps Fein To Expand U.S. Media Business",
+   "url": "https://www.mediapost.com/publications/article/418118/accenture-song-taps-fein-to-expand-us-media-busi.html",
+   "summary": "The former Initiative Australia CEO is credited with scaling Song's APAC media operation over the last two years and is tasked with doing the same in the U.S.",
+   "date": "2026-09-18T14:37:22.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "MediaPost",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
+   "id": "5lb4hk",
+   "title": "Taboola To Acquire Ad-Tech Company Targeting Affluent Consumers",
+   "url": "https://www.mediapost.com/publications/article/418116/taboola-to-acquire-ad-tech-company-targeting-afflu.html",
+   "summary": "For advertisers, the acquisition consolidates contextually relevant native ad inventory in finance and other high-value sectors.",
+   "date": "2026-09-18T14:31:59.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "MediaPost",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
    "id": "1ohguez",
    "title": "iHeart Podcasters Share 5 Lessons for Building an Enduring Franchise",
    "url": "https://www.adweek.com/media/iheart-podcasters-share-5-crucial-lessons-for-building-an-enduring-franchise",
@@ -7065,6 +8871,18 @@ window.NEWS_DATA = {
    "site": "https://www.journalism.co.uk"
   },
   {
+   "id": "wr6ruu",
+   "title": "Oversight Board: Meta Deepfake Protections &#x27;Inadequate&#x27;",
+   "url": "https://www.mediapost.com/publications/article/418115/oversight-board-meta-deepfake-protections-inadeq.html",
+   "summary": "Meta's Oversight Board has filed two new decisions criticizing Meta's ineffectiveness in protecting users from deepfakes - especially with regard to harassment of refugees and women.",
+   "date": "2026-09-18T13:34:23.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "MediaPost",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
    "id": "ynun4r",
    "title": "OWN Renews ‘Put a Ring on It: Cheathab’ for 2 More Seasons Ahead of Finale | Exclusive",
    "url": "https://www.thewrap.com/creative-content/tv-shows/own-put-a-ring-on-it-cheathab-renewed-two-seasons",
@@ -7183,6 +9001,18 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://thenextweb.com"
+  },
+  {
+   "id": "5mgwn9",
+   "title": "Adam Smith To Lead Disney&#x27;s Direct-To-Consumer Business",
+   "url": "https://www.mediapost.com/publications/article/418114/adam-smith-to-lead-disneys-direct-to-consumer-bus.html",
+   "summary": "Smith takes over Disney streaming businesses Disney+ and Hulu - overseeing product, engineering, ad tech, programming, viewer experience, partnerships, and data and analytics.",
+   "date": "2026-09-18T12:50:11.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "MediaPost",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
   },
   {
    "id": "1btmfzl",
@@ -7737,6 +9567,18 @@ window.NEWS_DATA = {
    "site": "https://www.hollywoodreporter.com"
   },
   {
+   "id": "1bf6lul",
+   "title": "U2 Concert At Las Vegas Sphere Was &#x27;Aha&#x27; Moment For Winfrey",
+   "url": "https://www.mediapost.com/publications/article/417975/u2-concert-at-las-vegas-sphere-was-aha-moment-fo.html",
+   "summary": "Oprah Winfrey says the idea for mounting a two-hour journey of light, sound and music at the Las Vegas Sphere came to her as she was watching a U2 performance in the famed globe-shaped arena.",
+   "date": "2026-09-18T11:00:00.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "MediaPost",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
    "id": "18e97ru",
    "title": "一卡通擴大 iPASS Money 生活版圖，攜手旅電、CYBERBIZ 從交通切入精準行銷與電商獲客",
    "url": "https://www.inside.com.tw/article/42436-ipass-expands-the-ipass-money-ecosystem-by-partnering-with-tripool-and-cyberbiz-to-drive-precision-marketing-and-ecommerce-customer-acquisition-through-mobility",
@@ -7767,7 +9609,7 @@ window.NEWS_DATA = {
    "summary": "<div class=\"field field-name-field-image field-type-image field-label-hidden\"><div class=\"field-items\"><div class=\"field-item even\"><a href=\"/article/p-72947\"><img src=\"https://www.openbook.org.tw/sites/default/files/styles/full_post_image_xml/public/field/image/guo_wai_ming_ren_-zhu_tu_.jpg?itok=ti",
    "date": "2026-09-18T10:30:00.000Z",
    "firstSeen": "2026-09-18T14:48:53.547Z",
-   "source": "Openbook閱讀誌",
+   "source": "Openbook 閱讀誌",
    "tier": "C",
    "lang": "zh-TW",
    "site": "https://www.openbook.org.tw"
@@ -7987,6 +9829,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-TW",
    "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "1oup6xu",
+   "title": "Figure 让机器人第一次「空手」进陌生人家：不遥操，也不提前预习，进了家门就干活",
+   "url": "https://www.ifanr.com/1680884",
+   "summary": "没去过你家，也不耽误帮你叠被子#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "date": "2026-09-18T09:05:20.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "爱范儿",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.ifanr.com/"
   },
   {
    "id": "32dimj",
@@ -9009,6 +10863,18 @@ window.NEWS_DATA = {
    "site": "https://www.adexchanger.com"
   },
   {
+   "id": "1oup6u6",
+   "title": "iPhone 18 Pro 系列正式开售，新 AI 功能「自相矛盾」",
+   "url": "https://www.ifanr.com/1680844",
+   "summary": "未来，摄像头要抢在任何算法介入之前，证明「以上像素来自我」#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "date": "2026-09-18T04:14:53.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "爱范儿",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.ifanr.com/"
+  },
+  {
    "id": "a9g68",
    "title": "當AI勞工「過勞死」怎麼辦？日本GMO推出全球首輛「人形機器人專用救護車」",
    "url": "https://mashdigi.com/what-happens-when-ai-workers-die-from-overwork-japans-gmo-unveils-the-worlds-first-humanoid-robot-ambulance",
@@ -9141,6 +11007,18 @@ window.NEWS_DATA = {
    "site": "https://www.thenewslens.com"
   },
   {
+   "id": "17qjgwn",
+   "title": "Lawsuits Mount Over Meta&#x27;s Smart Glasses",
+   "url": "https://www.mediapost.com/publications/article/418131/lawsuits-mount-over-metas-smart-glasses.html",
+   "summary": "Meta faces lawsuits from users who allege their Meta smart glasses captured intimate or sensitive footage of them and exposed it to paid-content reviewers abroad.",
+   "date": "2026-09-18T04:00:00.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "MediaPost",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
    "id": "1j2drme",
    "title": "Pixmax 2000+动作限免：短剧打斗不再靠抽卡",
    "url": "https://www.woshipm.com/ai/6466185.html",
@@ -9151,6 +11029,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-CN",
    "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "9zrorv",
+   "title": "Unsealed Court Filing Shows OpenAI, Microsoft Supplant Publishers&#x27; Sites",
+   "url": "https://www.mediapost.com/publications/article/418113/unsealed-court-filing-shows-openai-microsoft-supp.html",
+   "summary": "<p><span>OpenAI<span class=\"apple-converted-space\">&nbsp;</span>and<span class=\"apple-converted-space\">&nbsp;</span><bw-company data-stock-symbol=\"MSFT\" class=\"company\" data-name=\"Microsoft Corp\" data-urn=\"urn:blp:company:US:MSFT\">Microsoft<span class=\"apple-converted-space\">&nbsp;</span>executives<",
+   "date": "2026-09-18T03:57:51.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "MediaPost",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
   },
   {
    "id": "109pr0g",
@@ -9175,6 +11065,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-TW",
    "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "9qz7g3",
+   "title": "Pinterest Debuts Visual Search Ads Advertising Format",
+   "url": "https://www.mediapost.com/publications/article/418112/pinterest-debuts-visual-search-ads-advertising-for.html",
+   "summary": "<span>Pinterest unveiled a new ad format, Visual Search Ads, at its Pinterest Presents event, as it moves closer to performance marketing, Trading View reports. The new offering is designed to reach users when they are comparing products. Visual Search Ads will place brands inside Pinterest search r",
+   "date": "2026-09-18T03:51:46.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "MediaPost",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
   },
   {
    "id": "ghe0nt",
@@ -9213,6 +11115,30 @@ window.NEWS_DATA = {
    "site": "https://news.cnyes.com"
   },
   {
+   "id": "14m4146",
+   "title": "&#x27;The Atlantic&#x27; Gets Less Traffic But More Subscribers From Google",
+   "url": "https://www.mediapost.com/publications/article/418111/the-atlantic-gets-less-traffic-but-more-subscrib.html",
+   "summary": "<p>Like many publications,&nbsp;<i>The Atlantic&nbsp;</i>has seen referrals from Google decline. But The Atlantic is getting more subscribers from the Google traffic that does exist.&nbsp;<span>&ldquo;Google is sending us fewer people who aren&rsquo;t going to subscribe,&rdquo; said</span><span clas",
+   "date": "2026-09-18T03:44:26.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "MediaPost",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
+   "id": "1myy139",
+   "title": "News Groups Urge Newsom To Sign Tax Credit Bill",
+   "url": "https://www.mediapost.com/publications/article/418110/news-groups-urge-newsom-to-sign-tax-credit-bill.html",
+   "summary": "<span>Several organizations, including t</span><span>he News/Media Alliance</span><span>,</span><span>&nbsp;</span><span>have signed a letter urging California Governor Gavin Newsom to sign a &ldquo;news-neutral&rdquo; employment tax credit to preserve local journalism, the News/Media Alliance repor",
+   "date": "2026-09-18T03:38:46.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "MediaPost",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
    "id": "ghe29h",
    "title": "台灣央行限期開工切結退場 建商同步迎活水",
    "url": "https://news.cnyes.com/news/id/6609906",
@@ -9243,7 +11169,7 @@ window.NEWS_DATA = {
    "summary": "※ 歐盟擬推兒童法案 禁止13歲以下兒童使用社群媒體｜鉅亨網｜20260916 ※ 追蹤數與身材焦慮夾擊！研究揭社群媒體淪青春期毒藥 少女憂鬱風險急升｜ 聯合新聞網｜20260911 ※ 第52屆曾虛白先生新聞獎入圍名單｜ 曾虛白先生新聞獎基金會｜20260916",
    "date": "2026-09-18T03:34:10.000Z",
    "firstSeen": "2026-09-18T10:03:21.928Z",
-   "source": "卓越新聞獎基金會",
+   "source": "Excellent",
    "tier": "A",
    "lang": "zh-TW",
    "site": "https://www.feja.org.tw"
@@ -9267,7 +11193,7 @@ window.NEWS_DATA = {
    "summary": "✎ TechCrunch 資訊科技媒體《TechCrunch》｜20260914 Amazon Prime Video takes on TikTok with short-form news clips 亞馬遜Amazon Prime Video 推出短影音新聞片段，正面槓上 TikTok Amazon Prime Video is coming after TikTok with the addition of short-form news clips. The company said on Monday that it’s expanding its news coverage to",
    "date": "2026-09-18T03:28:53.000Z",
    "firstSeen": "2026-09-18T10:03:21.928Z",
-   "source": "卓越新聞獎基金會",
+   "source": "Excellent",
    "tier": "A",
    "lang": "zh-TW",
    "site": "https://www.feja.org.tw"
@@ -9801,6 +11727,18 @@ window.NEWS_DATA = {
    "site": "https://news.cnyes.com"
   },
   {
+   "id": "1oup49m",
+   "title": "早报｜赛力斯回应「问界撤出华为门店」/豆包座舱助手发布/罗永浩否认为钟薛高重启造势",
+   "url": "https://www.ifanr.com/1680525",
+   "summary": "· OpenAI 将定期披露模型异常行为，首批公开 6 份报告 · 华为昇腾 960 提前至明年一季度推出，超节点扩至 4096 卡 · 恒大汽车退出汽车制造，上半年转向电池贸易#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "date": "2026-09-18T00:04:28.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "爱范儿",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.ifanr.com/"
+  },
+  {
    "id": "fbta18",
    "title": "Khosla-backed Mazama Energy just raised $135M to drill deeper into superhot-rock geothermal",
    "url": "https://techcrunch.com/2026/09/17/khosla-backed-mazama-energy-just-raised-135m-to-drill-deeper-into-super-hot-rock-geothermal",
@@ -10224,7 +12162,7 @@ window.NEWS_DATA = {
    "id": "c57swz",
    "title": "Facebook Pages get charged for link posts",
    "url": "https://www.socialmediatoday.com/news/facebook-pages-get-charged-for-link-posts/830743",
-   "summary": "<p>After Meta One for Business launched its subscription packages, some managers say their accounts are being limited to two link posts per month.</p>",
+   "summary": "<p>After Meta One for Business launched its subscription packages, some managers said their accounts were being limited to two link posts per month.</p>",
    "date": "2026-09-17T21:48:59.000Z",
    "firstSeen": "2026-09-18T10:03:21.928Z",
    "source": "Social Media Today",
@@ -10260,7 +12198,7 @@ window.NEWS_DATA = {
    "id": "o6968e",
    "title": "Reddit offers insights from its Health Summit event",
    "url": "https://www.socialmediatoday.com/news/reddit-offers-insights-from-its-health-summit-event/830742",
-   "summary": "<p>New data shows the extent to which users turn to each other for medical advice and diagnoses.</p>",
+   "summary": "<p>The app presented data that showed the extent to which users turn to each other for medical advice and diagnoses.</p>",
    "date": "2026-09-17T21:38:14.000Z",
    "firstSeen": "2026-09-18T10:03:21.928Z",
    "source": "Social Media Today",
@@ -10303,6 +12241,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "en",
    "site": "https://www.socialmediatoday.com"
+  },
+  {
+   "id": "xa089x",
+   "title": "Judge Urged To Halt FCC Probe Of ABC",
+   "url": "https://www.mediapost.com/publications/article/418105/judge-urged-to-halt-fcc-probe-of-abc.html",
+   "summary": "\"The Commission's actions here signal a retaliatory effort to punish ABC-owned-and-operated stations for speech the administration dislikes,\" ex-FCC Chairs and other former officials argue.",
+   "date": "2026-09-17T21:15:14.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "MediaPost",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
   },
   {
    "id": "mmvm05",
@@ -10363,6 +12313,30 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://www.searchenginejournal.com"
+  },
+  {
+   "id": "6l2hmb",
+   "title": "AI Flick Of The Switch: Consumer Behavior Drives Changes In Marketing Spend",
+   "url": "https://www.mediapost.com/publications/article/418089/ai-flick-of-the-switch-consumer-behavior-drives-c.html",
+   "summary": "Almost two-thirds of every new ecommerce dollar will go to AI and cashback apps, Northwestern University's Retail Analytics Council and Minty report.",
+   "date": "2026-09-17T20:40:11.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "MediaPost",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
+   "id": "vznlwh",
+   "title": "Linear Reach Beats CTV Frequency For Scaling Performance TV",
+   "url": "https://www.mediapost.com/publications/article/418102/linear-reach-beats-ctv-frequency-for-scaling-perfo.html",
+   "summary": "There's a reason so many CTV advertisers today - particularly those that are performance-focused, are watching their campaigns hit plateaus much faster than they had anticipated.",
+   "date": "2026-09-17T20:38:55.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "MediaPost",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
   },
   {
    "id": "2u1k20",
@@ -10428,7 +12402,7 @@ window.NEWS_DATA = {
    "id": "3wefw1",
    "title": "Pinterest announces visual search ads and an AI restyle feature",
    "url": "https://www.socialmediatoday.com/news/pinterest-announces-visual-search-ads-and-an-ai-restyle-feature/830737",
-   "summary": "<figure><div><img src=\"https://imgproxy.divecdn.com/zYuK6nLxGefc_lAl8a6TyIK52yJ2nF3V8oma2sorWmM/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9waW50ZXJlc3RfcHJlc2VudHNfMjAyNl8xLnBuZw==.webp\"/></div></figure><p>At its Pinterest Presents event, the company unveiled new promotional ",
+   "summary": "<figure><div><img src=\"https://imgproxy.divecdn.com/zYuK6nLxGefc_lAl8a6TyIK52yJ2nF3V8oma2sorWmM/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9waW50ZXJlc3RfcHJlc2VudHNfMjAyNl8xLnBuZw==.webp\"/></div></figure><p>At the company&rsquo;s annual Pinterest presents event, it unveiled ne",
    "date": "2026-09-17T20:02:16.000Z",
    "firstSeen": "2026-09-18T10:03:21.928Z",
    "source": "Social Media Today",
@@ -10473,6 +12447,18 @@ window.NEWS_DATA = {
    "site": "https://techcrunch.com"
   },
   {
+   "id": "1na2rj8",
+   "title": "Sam&#x27;s Club Expands Predictive Ad Targeting",
+   "url": "https://www.mediapost.com/publications/article/418091/sams-club-expands-predictive-ad-targeting.html",
+   "summary": "Sam's Club Connect introduced \"Predictive Precision Targeting\" capabilities on Thursday, expanding its measurement offering.",
+   "date": "2026-09-17T19:40:57.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "MediaPost",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
    "id": "5oc1wr",
    "title": "Andrew Ng calls the AI extinction warnings science fiction",
    "url": "https://thenextweb.com/news/andrew-ng-extinction-science-fiction",
@@ -10483,6 +12469,18 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://thenextweb.com"
+  },
+  {
+   "id": "179r3th",
+   "title": "BSSP Elevates Dagli To Chief Creative Officer",
+   "url": "https://www.mediapost.com/publications/article/418096/bssp-elevates-dagli-to-chief-creative-officer.html",
+   "summary": "As a member of the senior leadership team, he'll also play a central role in planning the agency's next phase of growth, partnering with the CEO, Tracey Faux-Pattani, and executive strategy director, Jake Bayham.",
+   "date": "2026-09-17T19:20:24.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "MediaPost",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
   },
   {
    "id": "iznlit",
@@ -10533,6 +12531,18 @@ window.NEWS_DATA = {
    "site": "https://www.niemanlab.org"
   },
   {
+   "id": "18bdndt",
+   "title": "Newsom Signs Law Requiring Disclosure Of AI-Generated Performers In Ads",
+   "url": "https://www.mediapost.com/publications/article/418095/newsom-signs-law-requiring-disclosure-of-ai-genera.html",
+   "summary": "The ad industry opposed the law, arguing it \"places severe burdens on ordinary commercial speech.\"",
+   "date": "2026-09-17T18:46:35.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "MediaPost",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
    "id": "1yws6uj",
    "title": "New York Times training editor: Take these four steps before you roll out new things",
    "url": "https://www.niemanlab.org/2026/09/new-york-times-training-editor-take-these-four-steps-before-you-roll-out-new-things",
@@ -10579,6 +12589,18 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://www.theguardian.com/uk/media"
+  },
+  {
+   "id": "16wtszl",
+   "title": "Campaign Data Is First-Party Data, Too, And Maybe Brands&#x27; Best Tool",
+   "url": "https://www.mediapost.com/publications/article/418092/campaign-data-is-first-party-data-too-and-maybe.html",
+   "summary": "Most buying platforms have a mechanism through which a brand can request all its campaign data, down to the log-level insights that say exactly when and where each ad ran.",
+   "date": "2026-09-17T17:43:31.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "MediaPost",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
   },
   {
    "id": "k5hovp",
@@ -10677,6 +12699,30 @@ window.NEWS_DATA = {
    "site": "https://news.cnyes.com"
   },
   {
+   "id": "1oup6qm",
+   "title": "零跑官宣第二品牌，新车将有小米 SUV 同款升顶能力",
+   "url": "https://www.ifanr.com/1680808",
+   "summary": "独属于零跑的造车方法论。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "date": "2026-09-17T16:52:31.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "爱范儿",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.ifanr.com/"
+  },
+  {
+   "id": "1oup64e",
+   "title": "23.18 万元起，小鹏 G9L 正式上市，王凤英：全球无对手！",
+   "url": "https://www.ifanr.com/1680790",
+   "summary": "小鹏的旗舰 SUV 齐了。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "date": "2026-09-17T16:47:41.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "爱范儿",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.ifanr.com/"
+  },
+  {
    "id": "1her5il",
    "title": "TechCrunch Disrupt 2026 Side Events schedule: NMI, Backblaze, PeakXV Partners, Augment, and more to host",
    "url": "https://techcrunch.com/2026/09/17/techcrunch-disrupt-2026-side-events-schedule-nmi-backblaze-peakxv-partners-augment-and-more-to-host",
@@ -10699,6 +12745,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-TW",
    "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "1bmeuyu",
+   "title": "NFL Opening Week Draws 19.5M Viewers, Down 13%",
+   "url": "https://www.mediapost.com/publications/article/418086/nfl-opening-week-draws-195m-viewers-down-13.html",
+   "summary": "The first week of the 2026 NFL regular-season fell 13% to an average 19.5 million viewers per game vs. the record-breaking 22.3 million viewers per game averaged during Week 1 in 2025.",
+   "date": "2026-09-17T16:19:13.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "MediaPost",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
   },
   {
    "id": "155kfqh",
@@ -10755,10 +12813,22 @@ window.NEWS_DATA = {
    "summary": "<div class=\"field field-name-field-image field-type-image field-label-hidden\"><div class=\"field-items\"><div class=\"field-item even\"><a href=\"/article/p-72944\"><img src=\"https://www.openbook.org.tw/sites/default/files/styles/full_post_image_xml/public/field/image/vol399.jpg?itok=UkH-HZeO\" width=\"770\"",
    "date": "2026-09-17T16:00:00.000Z",
    "firstSeen": "2026-09-18T10:03:21.928Z",
-   "source": "Openbook閱讀誌",
+   "source": "Openbook 閱讀誌",
    "tier": "C",
    "lang": "zh-TW",
    "site": "https://www.openbook.org.tw"
+  },
+  {
+   "id": "wbmmxs",
+   "title": "WARC: Role Of TV Declines In Top Campaigns",
+   "url": "https://www.mediapost.com/publications/article/418088/warc-role-of-tv-declines-in-top-campaigns.html",
+   "summary": "The research analyzed more than 6,300 award-winning campaigns to see how often creative excellence translated into marketing effectiveness.",
+   "date": "2026-09-17T15:52:17.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "MediaPost",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
   },
   {
    "id": "1aqrue1",
@@ -11181,6 +13251,30 @@ window.NEWS_DATA = {
    "site": "https://www.mediacopilot.ai"
   },
   {
+   "id": "1rlzpw9",
+   "title": "Show Franchises Going Back Decades Fill Fall Lineups",
+   "url": "https://www.mediapost.com/publications/article/417974/show-franchises-going-back-decades-fill-fall-lineu.html",
+   "summary": "Many of the shows on ABC, CBS, Fox and NBC are so old that the networks have become the assisted-living facilities of TV.",
+   "date": "2026-09-17T12:00:00.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "MediaPost",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
+   "id": "1z0c5xm",
+   "title": "Apple Touts Big Emmy Wins: Will Marketing Do A Big Job?",
+   "url": "https://www.mediapost.com/publications/article/418051/apple-touts-big-emmy-wins-will-marketing-do-a-big.html",
+   "summary": "Premium streamer Apple keeps working under the radar of the big players - including Netflix, Prime Video, HBO Max and Disney+ - in scoring major awards.",
+   "date": "2026-09-17T12:00:00.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "MediaPost",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
    "id": "12b7ucy",
    "title": "What Ever Happened To Google Discover On Desktop",
    "url": "https://www.seroundtable.com/google-discover-on-desktop-not-found-42103.html",
@@ -11337,6 +13431,30 @@ window.NEWS_DATA = {
    "site": "https://www.cjr.org"
   },
   {
+   "id": "xubhfz",
+   "title": "AI Makes Creatives Faster, Brands Cheaper, Agencies More Expensive",
+   "url": "https://www.mediapost.com/publications/article/418073/ai-makes-creatives-faster-brands-cheaper-agencie.html",
+   "summary": "There's a growing divide over what AI should do to agency compensation, a consequential finding for media buyers.",
+   "date": "2026-09-17T10:00:00.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "MediaPost",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
+   "id": "1oup4d5",
+   "title": "刚刚，智谱首个 RSI 成果发布，10 万国产卡用 GLM 造 GLM",
+   "url": "https://www.ifanr.com/1680560",
+   "summary": "模型优化系统，而系统服务模型。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "date": "2026-09-17T09:56:01.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "爱范儿",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.ifanr.com/"
+  },
+  {
    "id": "25p0t2",
    "title": "邁達特取得 AWS Premier Tier 最高等級合作夥伴資格",
    "url": "https://www.inside.com.tw/article/42425-AWS%20Premier%20Tier",
@@ -11359,6 +13477,30 @@ window.NEWS_DATA = {
    "tier": "A",
    "lang": "zh-TW",
    "site": "https://www.inside.com.tw"
+  },
+  {
+   "id": "1oup5w5",
+   "title": "我用 Vidu S2 找来了「乔布斯」，跟他聊了聊 iPhone Duo",
+   "url": "https://www.ifanr.com/1680700",
+   "summary": "体验真正的「边看边改」#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "date": "2026-09-17T08:56:28.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "爱范儿",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.ifanr.com/"
+  },
+  {
+   "id": "1oup5a6",
+   "title": "ColorOS 17 发布，OPPO 想让 AI 往前一步，主动一些聪明一些",
+   "url": "https://www.ifanr.com/1680691",
+   "summary": "手机操作系统里的 AI，正在从被动走向主动。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "date": "2026-09-17T08:47:56.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "爱范儿",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.ifanr.com/"
   },
   {
    "id": "1g9dceb",
@@ -11397,6 +13539,18 @@ window.NEWS_DATA = {
    "site": "https://buzzorange.com/techorange/"
   },
   {
+   "id": "1oup59a",
+   "title": "独家实测｜15 分钟充 50%，iPhone 18 Pro 给出下一代快充的答案",
+   "url": "https://www.ifanr.com/1680682",
+   "summary": "不只是苹果一家的选择。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "date": "2026-09-17T08:06:10.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "爱范儿",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.ifanr.com/"
+  },
+  {
    "id": "9sjlnj",
    "title": "Audience and Content Editor - Reading & High Wycombe",
    "url": "https://www.journalism.co.uk/audience-and-content-editor-reading-high-wycombe-jl-118",
@@ -11427,10 +13581,22 @@ window.NEWS_DATA = {
    "summary": "<div class=\"field field-name-field-image field-type-image field-label-hidden\"><div class=\"field-items\"><div class=\"field-item even\"><a href=\"/article/p-72939\"><img src=\"https://www.openbook.org.tw/sites/default/files/styles/full_post_image_xml/public/field/image/597.jpg?itok=331-id5t\" width=\"770\" he",
    "date": "2026-09-17T07:10:00.000Z",
    "firstSeen": "2026-09-18T10:03:21.928Z",
-   "source": "Openbook閱讀誌",
+   "source": "Openbook 閱讀誌",
    "tier": "C",
    "lang": "zh-TW",
    "site": "https://www.openbook.org.tw"
+  },
+  {
+   "id": "1oup57j",
+   "title": "OPPO Find X10 体验：想得周到，拍得好看",
+   "url": "https://www.ifanr.com/1680665",
+   "summary": "功成事遂，谓我自然#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "date": "2026-09-17T06:46:20.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "爱范儿",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.ifanr.com/"
   },
   {
    "id": "1bzuzyp",
@@ -11583,10 +13749,22 @@ window.NEWS_DATA = {
    "summary": "<div class=\"field field-name-field-image field-type-image field-label-hidden\"><div class=\"field-items\"><div class=\"field-item even\"><a href=\"/article/p-72936\"><img src=\"https://www.openbook.org.tw/sites/default/files/styles/full_post_image_xml/public/field/image/zhen_ren_ren_zheng_zhong_qing_shao_ho",
    "date": "2026-09-17T03:30:00.000Z",
    "firstSeen": "2026-09-18T10:03:21.928Z",
-   "source": "Openbook閱讀誌",
+   "source": "Openbook 閱讀誌",
    "tier": "C",
    "lang": "zh-TW",
    "site": "https://www.openbook.org.tw"
+  },
+  {
+   "id": "1pa2u3b",
+   "title": "FCC Seeks Comments On Its Political Ad Pricing Guidance",
+   "url": "https://www.mediapost.com/publications/article/418083/fcc-seeks-comments-on-its-political-ad-pricing-gui.html",
+   "summary": "<span>The Federal Communication (FCC) is seeking comments on its guidance on discounts for political ads,&nbsp;<i>TVTechnology</i>&nbsp;reports. The guidance issued in March seemed to expand the types of organizations that are eligible for the &ldquo;lowest unit charge&rdquo; discounts. This could d",
+   "date": "2026-09-17T01:58:27.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "MediaPost",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
   },
   {
    "id": "slmcwd",
@@ -11601,6 +13779,18 @@ window.NEWS_DATA = {
    "site": "https://adtechradar.com"
   },
   {
+   "id": "1qdblkw",
+   "title": "R/GA Debuts AI Tool To Uphold Brand Guidelines",
+   "url": "https://www.mediapost.com/publications/article/418082/rga-debuts-ai-tool-to-uphold-brand-guidelines.html",
+   "summary": "<p>R/GA is launching an AI tool called the BRDNA Sequencer that can help marketers maintain their brand integrity,&nbsp;<i>Fast Company&nbsp;</i>writes. The new offering trains itself on a company&rsquo;s brand guidelines and puts them into a format that AI agents can read and understand. The platfo",
+   "date": "2026-09-17T01:53:59.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "MediaPost",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
    "id": "142icbo",
    "title": "【巨頭搶聘 FDE 前線部署工程師】需求暴增是雙面指標，企業評估績效該看能否自主營運",
    "url": "https://techorange.com/2026/09/17/deployed-engineers-around-ai",
@@ -11611,6 +13801,42 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-TW",
    "site": "https://buzzorange.com/techorange/"
+  },
+  {
+   "id": "1dp39ns",
+   "title": "FTC Clarifies Its Rules For Auto Pricing In Ads",
+   "url": "https://www.mediapost.com/publications/article/418080/ftc-clarifies-its-rules-for-auto-pricing-in-ads.html",
+   "summary": "<span>Auto dealers are finally&nbsp;</span><span>getting</span><span>&nbsp;the&nbsp;</span><span>clarification they have been seeking from the Federal Trade Commission (FTC) on vehicle price advertising,&nbsp;<i>RVBusiness&nbsp;</i>reports. The FAQ document specifies that dealers must provide the to",
+   "date": "2026-09-17T01:40:14.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "MediaPost",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
+   "id": "14aaouz",
+   "title": "Automotive TV Spending Falls 15.4% In August",
+   "url": "https://www.mediapost.com/publications/article/418078/automotive-tv-spending-falls-154-in-august.html",
+   "summary": "\"Sports remained a significant driver of automaker reach in August, with the WNBA in particular seeing notable year-over-year impression increases,\" says iSpot.tv's Stuart Schwartzapfel.",
+   "date": "2026-09-16T23:38:29.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "MediaPost",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
+   "id": "1kblm72",
+   "title": "Microsoft AI Chief Warns Humanlike Claude Is Risky",
+   "url": "https://www.mediapost.com/publications/article/418048/microsoft-ai-chief-warns-humanlike-claude-is-risky.html",
+   "summary": "The Microsoft CEO warned of the risks of training AI models like Anthropic's Claude to be human-like and consider their own state of consciousness or welfare.",
+   "date": "2026-09-16T23:30:42.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "MediaPost",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
   },
   {
    "id": "a2ojda",
@@ -11659,6 +13885,30 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-TW",
    "site": "https://buzzorange.com/techorange/"
+  },
+  {
+   "id": "1dz8yss",
+   "title": "&#x27;Harm Reduction&#x27; Is NOT Bad, Says Save A Life Day, Rebutting Feds",
+   "url": "https://www.mediapost.com/publications/article/418076/harm-reduction-is-not-bad-says-save-a-life-day.html",
+   "summary": "Save a Life Day -- which provides free doses of an opioid reversal drug -- has adopted \"Elevate Harm Reduction\" as this year's theme.",
+   "date": "2026-09-16T22:37:14.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "MediaPost",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
+   "id": "1vafvhv",
+   "title": "Meta Reportedly Readies Camera-Less Smart Glasses",
+   "url": "https://www.mediapost.com/publications/article/418074/meta-reportedly-readies-camera-less-smart-glasses.html",
+   "summary": "Meta reportedly plans to launch \"Luna\" - a new camera-less smart glasses model - after unveiling at the company's developer conference Sept. 23-24.",
+   "date": "2026-09-16T22:29:26.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "MediaPost",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
   },
   {
    "id": "ghg5nh",
@@ -11719,6 +13969,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "en",
    "site": "https://www.socialmediatoday.com"
+  },
+  {
+   "id": "mww90n",
+   "title": "&#x27;F-List&#x27; Finds Record Number Of Agency Fossil Fuel Contracts",
+   "url": "https://www.mediapost.com/publications/article/418060/f-list-finds-record-number-of-agency-fossil-fuel.html",
+   "summary": "Nearly a quarter of the contracts in the updated list are with major holding companies. Among those firms, Omnicom has the most, with 118 contracts.",
+   "date": "2026-09-16T20:41:43.000Z",
+   "firstSeen": "2026-09-21T03:30:54.931Z",
+   "source": "MediaPost",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
   },
   {
    "id": "1hgjezi",
@@ -12171,7 +14433,7 @@ window.NEWS_DATA = {
    "summary": "《讀賣新聞》、《朝日新聞》及日本放送協會（NHK）皆已簽署加入「創作者檔案（Originator Profile）」標準。 在日本，自然災害長期以來一直是虛假訊息（disinformation）的導火線。2024 年 1 月 1 日，日本能登半島發生芮氏規模 7.5 強震，造成 700 多人死亡。能登半島地震與後續引發的虛假消息亂象，讓一個持續推動更好工具打擊虛假訊息的組織，決定採取更積極的行動。這個組織由日本新聞出版商、廣告商和科技公司組成，他們推出一種名為「創作者檔案（Originator Profile，簡稱 OP）」的新網路標準來作為解決方案，協助一般使用者驗證某個網站的發布或建立者。",
    "date": "2026-09-16T04:35:20.000Z",
    "firstSeen": "2026-09-18T10:03:21.928Z",
-   "source": "卓越新聞獎基金會",
+   "source": "Excellent",
    "tier": "A",
    "lang": "zh-TW",
    "site": "https://www.feja.org.tw"
@@ -12219,7 +14481,7 @@ window.NEWS_DATA = {
    "summary": "<div class=\"field field-name-field-image field-type-image field-label-hidden\"><div class=\"field-items\"><div class=\"field-item even\"><a href=\"/article/p-72932\"><img src=\"https://www.openbook.org.tw/sites/default/files/styles/full_post_image_xml/public/field/image/bai_wen_yi_jian_-zhu_tu_.jpg?itok=XWl",
    "date": "2026-09-16T04:00:00.000Z",
    "firstSeen": "2026-09-18T10:03:21.928Z",
-   "source": "Openbook閱讀誌",
+   "source": "Openbook 閱讀誌",
    "tier": "C",
    "lang": "zh-TW",
    "site": "https://www.openbook.org.tw"
@@ -12243,7 +14505,7 @@ window.NEWS_DATA = {
    "summary": "單從數據來看，日本擁有繁榮的新聞產業。而這個全球第三大經濟體，同時也擁有世界上發行量最大的幾間報社，例如擁有 620 萬訂閱戶、高居全球獨立媒體付費發行量之冠的《讀賣新聞》（Yomiuri Shimbun），還有擁有 350 萬訂閱戶的《朝日新聞》（Asahi Shimbun）。 然而，編制龐大的編輯室和巨大的印刷量，並不代表調查報導或監督式新聞能享有充份的發揮空間。自從 2012 年安倍晉三（Shinzo Abe）當選首相以來，情況每況愈下。",
    "date": "2026-09-16T03:08:56.000Z",
    "firstSeen": "2026-09-18T10:03:21.928Z",
-   "source": "卓越新聞獎基金會",
+   "source": "Excellent",
    "tier": "A",
    "lang": "zh-TW",
    "site": "https://www.feja.org.tw"
@@ -12795,7 +15057,7 @@ window.NEWS_DATA = {
    "summary": "※ 學者看AI時代的新聞未來…「記者現場採訪 才有溫度」｜ 聯合報｜20260910 ※ 美記協翻修百年《新聞倫理守則》，迎戰 AI 衝擊與媒體生態巨變｜ TechNews 科技新報｜20260907 ※ 出版界巨擘殞落！讀書共和國創辦人郭重興病逝 享壽77歲｜東森新聞｜20260908",
    "date": "2026-09-11T03:29:21.000Z",
    "firstSeen": "2026-09-18T10:03:21.928Z",
-   "source": "卓越新聞獎基金會",
+   "source": "Excellent",
    "tier": "A",
    "lang": "zh-TW",
    "site": "https://www.feja.org.tw"
@@ -12807,7 +15069,7 @@ window.NEWS_DATA = {
    "summary": "✎ The Hollywood Reporter 美國雜誌《好萊塢報導》｜20260907 Streaming Is Raising Prices Faster Than Cable Ever Did 串流平台漲價速度，比當年有線電視還兇猛 The cost to simply watch new TV shows is up — way up — with streaming services delivering one wearisome price shock after another that rival the worst of the cable and satellite p",
    "date": "2026-09-11T03:24:23.000Z",
    "firstSeen": "2026-09-18T10:03:21.928Z",
-   "source": "卓越新聞獎基金會",
+   "source": "Excellent",
    "tier": "A",
    "lang": "zh-TW",
    "site": "https://www.feja.org.tw"
@@ -13131,7 +15393,7 @@ window.NEWS_DATA = {
    "summary": "當代新聞媒體正處於一個前所未有的生存轉捩點。隨著生成式AI崛起，搜尋引擎的演算法流量紅利迅速消失，社群媒體對外部連結的引流效果也大幅萎縮。在這個「零點擊時代」（Zero-click Era）與平台演算法不穩定的陰影下，傳統新聞媒體過去過度依賴的「平台驅動成長」模式已正式宣告破產。 然而，在這一片哀鴻遍野中，擁有百年歷史的《時代》（Time）雜誌，卻成功開闢出了一條矚目的新型生存道路：大膽「走入實體」，將核心戰略轉移至現場體驗活動（Live Experiences）。",
    "date": "2026-09-08T05:38:22.000Z",
    "firstSeen": "2026-09-18T10:03:21.928Z",
-   "source": "卓越新聞獎基金會",
+   "source": "Excellent",
    "tier": "A",
    "lang": "zh-TW",
    "site": "https://www.feja.org.tw"
@@ -13143,7 +15405,7 @@ window.NEWS_DATA = {
    "summary": "迅速變遷的科技推著媒體不斷轉型，也不斷面對新挑戰。AI科技尤其讓媒體遭逢多重難題：商業模式受創、社會信任崩解。在此困境下，新聞的未來究竟該走向何方？台灣網路新聞自律聯盟成立一周年，適逢九月一日記者節，舉辦年度論壇「新聞的未來在哪裡？重建新聞信任與樹立專業認證」，邀集各界講者共同探討新聞的下一步。 為當天活動揭開序幕的，是公廣集團董事長胡元輝的專題演講「信任重建的第一原理思維：AI時代真實性危機的挑戰與因應」。胡元輝特別表示，在社會極化的今天，媒體更應該追求資訊的「值得信任」，而非滿足於與自身政治光譜相近的受眾信任，才能重建社會大眾對「真實」的重視。",
    "date": "2026-09-08T04:50:02.000Z",
    "firstSeen": "2026-09-18T10:03:21.928Z",
-   "source": "卓越新聞獎基金會",
+   "source": "Excellent",
    "tier": "A",
    "lang": "zh-TW",
    "site": "https://www.feja.org.tw"
@@ -13263,7 +15525,7 @@ window.NEWS_DATA = {
    "summary": "一個創辦僅七年、剛剛辦完第六屆的新聞獎，可以有多大的國際影響力？ 創立於瑞士伯恩的 True Story Award，是目前少數真正以全球為尺度、跨越語言與地域評選書面報導的國際新聞獎。2026 年，獎項收到來自 103 個國家、以 22 種語言寫成的 959 篇作品；36 位入圍記者獲邀前往伯恩，參加頒獎典禮與 True Story Festival。獎項分為 Research、Storytelling 與 Impact 三類，得獎者各獲得兩萬美元獎金。其國際顧問成員包括諾貝爾文學獎得主斯維拉娜・亞歷塞維奇，以及《Internazionale》、《Harper’s》、《時代週報》等國際媒體的",
    "date": "2026-09-07T03:57:08.000Z",
    "firstSeen": "2026-09-18T10:03:21.928Z",
-   "source": "卓越新聞獎基金會",
+   "source": "Excellent",
    "tier": "A",
    "lang": "zh-TW",
    "site": "https://www.feja.org.tw"
