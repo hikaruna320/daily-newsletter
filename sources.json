@@ -12,7 +12,7 @@
     { "tier": "A", "name": "虎嗅网", "lang": "zh-CN", "site": "https://www.huxiu.com", "feed": "https://rss.aishort.top/?type=huxiu", "enabled": true, "note": "" },
     { "tier": "A", "name": "The Current", "lang": "en", "site": "https://www.thecurrent.com", "feed": "", "enabled": false, "note": "找不到 RSS" },
     { "tier": "A", "name": "TechCrunch", "lang": "en", "site": "https://techcrunch.com", "feed": "https://techcrunch.com/feed/", "enabled": true, "note": "" },
-    { "tier": "A", "name": "Semafor", "lang": "en", "site": "https://www.semafor.com/vertical/media", "feed": "https://www.semafor.com/rss.xml", "enabled": false, "note": "只有全站 feed" },
+    { "tier": "A", "name": "Semafor", "lang": "en", "site": "https://www.semafor.com/vertical/media", "feed": "https://www.semafor.com/rss.xml", "enabled": true, "note": "" },
     { "tier": "A", "name": "Press Gazette", "lang": "en", "site": "https://pressgazette.co.uk", "feed": "https://pressgazette.co.uk/feed/", "enabled": false, "note": "feed 存在但被 Cloudflare 擋" },
     { "tier": "A", "name": "Poynter", "lang": "en", "site": "https://www.poynter.org", "feed": "https://www.poynter.org/feed/", "enabled": true, "note": "" },
     { "tier": "A", "name": "Movement For An Open Web", "lang": "en", "site": "https://movementforanopenweb.com", "feed": "https://movementforanopenweb.com/feed/", "enabled": true, "note": "" },
