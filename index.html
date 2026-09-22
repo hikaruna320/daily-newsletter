@@ -625,8 +625,9 @@ document.getElementById('genConfigBtn').addEventListener('click', () => {
   document.getElementById('configText').value = buildSourcesJson(adminSources);
   document.getElementById('configOut').classList.remove('hidden');
 
-  // 從網址推出 repo 位置，不用寫死
-  let owner = 'hikaruna320', repo = 'udn-newsletter';
+  // 從網址推出 repo 位置。下面這組只有在不是從 GitHub Pages 開啟時（例如把檔案
+  // 存到桌面直接點開）才會用到，repo 改名的話記得一起改
+  let owner = 'hikaruna320', repo = 'daily-newsletter';
   const m = location.hostname.match(/^([^.]+)\.github\.io$/);
   if (m) {
     owner = m[1];
