@@ -117,6 +117,10 @@
       <button id="clearAllBtn" type="button" class="btn btn-paper text-xs" style="color:#B2371C;">🗑 清空資料</button>
     </div>
 
+    <div id="dailyResetMsg" class="hidden text-sm mb-4" style="background:#FFF6E0;border:2px solid #A8791A;color:#6E4E08;padding:.6rem .8rem;">
+      已自動清空前一天的新聞清單，請重新從「新聞蒐集台」挑選今天的新聞。
+    </div>
+
     <div class="mb-5">
       <h3 class="text-[11px] tracking-label mb-2" style="color:var(--muted);">新增新聞 — 貼上標題與網址即可</h3>
       <form id="addNewsForm" class="grid grid-cols-1 sm:grid-cols-6 gap-2">
@@ -215,18 +219,42 @@ let newsData = [];
 let selectedIds = [];
 let editingId = null;
 
+// 新聞清單會記在瀏覽器裡，所以關掉網頁再打開資料還在。但跨日之後昨天沒清掉的
+// 新聞會跟今天新加的混在一起，因此存檔時一併記下日期，隔天開啟就自動清空。
+// 注意：API Key 不受影響，那是另外存的。
+const LS_DATE = 'udn_nl_date';
+let clearedOldData = false;
+
+function dateKey() {
+  const d = new Date();
+  return `${d.getFullYear()}-${pad2(d.getMonth() + 1)}-${pad2(d.getDate())}`;
+}
+
 function saveState() {
   try {
     localStorage.setItem('udn_nl_newsData', JSON.stringify(newsData));
     localStorage.setItem('udn_nl_selectedIds', JSON.stringify(selectedIds));
+    localStorage.setItem(LS_DATE, dateKey());
   } catch {}
 }
 function loadState() {
   try {
     const nd = localStorage.getItem('udn_nl_newsData');
     const sid = localStorage.getItem('udn_nl_selectedIds');
+    const stamp = localStorage.getItem(LS_DATE);
+
+    if (nd && stamp && stamp !== dateKey()) {
+      localStorage.removeItem('udn_nl_newsData');
+      localStorage.removeItem('udn_nl_selectedIds');
+      localStorage.setItem(LS_DATE, dateKey());
+      clearedOldData = true;
+      return;
+    }
+
     if (nd) newsData = JSON.parse(nd) || [];
     if (sid) selectedIds = (JSON.parse(sid) || []).filter(id => newsData.some(n => n.id === id));
+    // 沒有日期標記的是舊版留下的資料，不確定是哪天的就當成今天，先補上標記
+    if (nd && !stamp) localStorage.setItem(LS_DATE, dateKey());
   } catch {}
 }
 
@@ -814,6 +842,7 @@ document.getElementById('copyFinalBtn').addEventListener('click', async () => {
 
 // ═══ 初始化 ═══
 loadState();
+if (clearedOldData) document.getElementById('dailyResetMsg').classList.remove('hidden');
 renderNewsList();
 renderSelectedList();
 renderPromptPreview();

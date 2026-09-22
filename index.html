@@ -426,6 +426,10 @@ function sendToNewsletter() {
   try {
     localStorage.setItem(LS_NEWSDATA, JSON.stringify(newsData));
     localStorage.setItem(LS_NL_SELECTED, JSON.stringify(nlSelected));
+    // 蓋上今天的日期，工作台隔天開啟時就知道這批是舊的、該清空
+    const d = new Date();
+    localStorage.setItem('udn_nl_date',
+      `${d.getFullYear()}-${pad2(d.getMonth() + 1)}-${pad2(d.getDate())}`);
   } catch (e) {
     alert('寫入失敗：' + e.message);
     return;
