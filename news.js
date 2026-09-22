@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-22T01:28:53.611Z",
+ "generatedAt": "2026-09-22T02:49:55.001Z",
  "keepDays": 14,
  "sources": [
   {
@@ -66,15 +66,6 @@ window.NEWS_DATA = {
    "count": 20
   },
   {
-   "name": "Press Gazette",
-   "tier": "A",
-   "lang": "en",
-   "feed": "https://pressgazette.co.uk/feed/",
-   "ok": false,
-   "error": "HTTP 403",
-   "count": 0
-  },
-  {
    "name": "Poynter",
    "tier": "A",
    "lang": "en",
@@ -93,13 +84,13 @@ window.NEWS_DATA = {
    "count": 10
   },
   {
-   "name": "MediaPost",
+   "name": "Journalism.co.uk",
    "tier": "A",
    "lang": "en",
-   "feed": "http://feeds.mediapost.com/mediadailynews",
+   "feed": "https://www.journalism.co.uk/rss",
    "ok": true,
    "error": null,
-   "count": 40
+   "count": 15
   },
   {
    "name": "Digiday",
@@ -177,7 +168,7 @@ window.NEWS_DATA = {
    "name": "36Kr",
    "tier": "B",
    "lang": "zh-CN",
-   "feed": "https://36kr.com/feed",
+   "feed": "https://rss.aishort.top/?type=36kr",
    "ok": false,
    "error": "解析不到文章",
    "count": 0
@@ -201,13 +192,13 @@ window.NEWS_DATA = {
    "count": 10
   },
   {
-   "name": "Journalism.co.uk",
+   "name": "MediaPost",
    "tier": "B",
    "lang": "en",
-   "feed": "https://www.journalism.co.uk/rss",
+   "feed": "http://feeds.mediapost.com/mediadailynews",
    "ok": true,
    "error": null,
-   "count": 15
+   "count": 40
   },
   {
    "name": "Columbia Journalism Review",
@@ -253,15 +244,6 @@ window.NEWS_DATA = {
    "ok": true,
    "error": null,
    "count": 18
-  },
-  {
-   "name": "經理人",
-   "tier": "C",
-   "lang": "zh-TW",
-   "feed": "https://www.managertoday.com.tw/rss",
-   "ok": false,
-   "error": "解析不到文章",
-   "count": 0
   },
   {
    "name": "品玩",
@@ -376,6 +358,11 @@ window.NEWS_DATA = {
    "note": "只有全站 feed"
   },
   {
+   "name": "Press Gazette",
+   "tier": "A",
+   "note": "feed 存在但被 Cloudflare 擋"
+  },
+  {
    "name": "The Media Copilot 電子報",
    "tier": "A",
    "note": "Substack 上的長篇專文，一週約 1~2 篇。總是抓取失敗，先關閉"
@@ -391,14 +378,14 @@ window.NEWS_DATA = {
    "note": "找不到 RSS"
   },
   {
-   "name": "Search Engine Land",
-   "tier": "B",
-   "note": "被 Cloudflare 擋"
-  },
-  {
    "name": "獨立評論",
    "tier": "C",
    "note": "找不到 RSS"
+  },
+  {
+   "name": "經理人",
+   "tier": "C",
+   "note": "有 RSS，但官方 feed 是空的"
   },
   {
    "name": "The Drum",
@@ -522,8 +509,8 @@ window.NEWS_DATA = {
    "lang": "en",
    "site": "https://pressgazette.co.uk",
    "feed": "https://pressgazette.co.uk/feed/",
-   "enabled": true,
-   "note": "feed 存在但好像會被 Cloudflare 擋"
+   "enabled": false,
+   "note": "feed 存在但被 Cloudflare 擋"
   },
   {
    "tier": "A",
@@ -545,12 +532,12 @@ window.NEWS_DATA = {
   },
   {
    "tier": "A",
-   "name": "MediaPost",
+   "name": "Journalism.co.uk",
    "lang": "en",
-   "site": "https://www.mediapost.com",
-   "feed": "http://feeds.mediapost.com/mediadailynews",
+   "site": "https://www.journalism.co.uk",
+   "feed": "https://www.journalism.co.uk/rss",
    "enabled": true,
-   "note": "有很多 RSS，先訂閱 MediaDailyNews"
+   "note": ""
   },
   {
    "tier": "A",
@@ -647,9 +634,9 @@ window.NEWS_DATA = {
    "name": "36Kr",
    "lang": "zh-CN",
    "site": "https://36kr.com",
-   "feed": "https://36kr.com/feed",
+   "feed": "https://rss.aishort.top/?type=36kr",
    "enabled": true,
-   "note": ""
+   "note": "第三方服務，失效時需另尋替代"
   },
   {
    "tier": "B",
@@ -684,17 +671,17 @@ window.NEWS_DATA = {
    "lang": "en",
    "site": "https://searchengineland.com",
    "feed": "",
-   "enabled": false,
-   "note": "被 Cloudflare 擋"
+   "enabled": true,
+   "note": "可能會被 Cloudflare 擋，先試試"
   },
   {
    "tier": "B",
-   "name": "Journalism.co.uk",
+   "name": "MediaPost",
    "lang": "en",
-   "site": "https://www.journalism.co.uk",
-   "feed": "https://www.journalism.co.uk/rss",
+   "site": "https://www.mediapost.com",
+   "feed": "http://feeds.mediapost.com/mediadailynews",
    "enabled": true,
-   "note": ""
+   "note": "有很多 RSS，先訂閱 MediaDailyNews"
   },
   {
    "tier": "B",
@@ -756,8 +743,8 @@ window.NEWS_DATA = {
    "lang": "zh-TW",
    "site": "https://www.managertoday.com.tw",
    "feed": "https://www.managertoday.com.tw/rss",
-   "enabled": true,
-   "note": ""
+   "enabled": false,
+   "note": "有 RSS，但官方 feed 是空的"
   },
   {
    "tier": "C",
@@ -879,6 +866,402 @@ window.NEWS_DATA = {
  ],
  "items": [
   {
+   "id": "4zj842",
+   "title": "Clavicular Charged With Rape, Drugging Person for Sex in Massachusetts",
+   "url": "https://www.hollywoodreporter.com/news/general-news/clavicular-charged-rape-drugging-massachusetts-1236707312",
+   "summary": "His rep wrote in response, \"Clavicular has not been physically served. As usual, the 'Bulwark' is exaggerating the status of a case to boost traffic.\"",
+   "date": "2026-09-22T02:44:07.000Z",
+   "firstSeen": "2026-09-22T02:49:55.001Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "ghy0tn",
+   "title": "保時捷卡宴降價30萬？中國4S店：2026款清庫存",
+   "url": "https://news.cnyes.com/news/id/6612650",
+   "summary": "保時捷2026款卡宴3.0T逐夢版限時特惠價較指導價直降30萬元。 4S店稱宣傳為引流，2027款新車將於明年初上市。 卡宴中國銷量2025年1.72萬輛，2026上半年0.6萬輛，保時捷在華承壓。",
+   "date": "2026-09-22T02:42:26.000Z",
+   "firstSeen": "2026-09-22T02:49:55.001Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "q794kl",
+   "title": "30家中国科技公司高管薪酬表：谁在拿最高的薪水",
+   "url": "https://www.huxiu.com/article/4892868.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/21/36332-prod-db-general-1-1789977362071.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>AI产业链上的公司，正在为关键人才开出越来越高的价码。智谱2025年营收7.24亿元，归母净利润亏损46.98亿元，但董事长刘德兵的年度",
+   "date": "2026-09-22T02:41:25.000Z",
+   "firstSeen": "2026-09-21T10:27:04.922Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "az1je8",
+   "title": "设计系统负责人的语义生长：从管”长什么样”到管”意味着什么”",
+   "url": "https://www.woshipm.com/ai/6468132.html",
+   "summary": "当AI开始生成界面，设计系统负责人面临新挑战：组件库管住了“长什么样”，却管不住“意味着什么”。本文深入探讨设计系统负责人如何参与语义令牌定义、语义域划分与约束显化，将人脑中的评审直觉转化为机器可执行的规则，确保AI生成界面时视觉与语义双重正确。 设计系统负责人不是 Schema-As-Code把设计规范写成代码格式 体系中新发明的岗位。在大多数组织中，这个角色已经存在，只是过去的工作对象是”视觉规范”（颜色、字体、间距、组件形态），现在需要延伸到”语义规范”（组件在不同场景下必须表达什么含义、不能突破什么边界）。 当AI开始生成界面，设计系统负责人面临一个新的问题：组件库管住了”长什么样”，",
+   "date": "2026-09-22T02:28:56.000Z",
+   "firstSeen": "2026-09-22T02:49:55.001Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "rfj6vs",
+   "title": "从数字化到AI化，ToB企业究竟走到了哪一步？",
+   "url": "https://www.huxiu.com/article/4893062.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/article/article_default_picpath_v1.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>过去一个月，我们基于公开财报与一线调研，核查了密尔克卫、齐心集团、京东工业、满帮、震坤行、上海钢联、国联股份、汇通达等8家领军企业。本篇不排座次，不打虚浮的成熟度得分，只用一把尺子收拢事实：在真实的产业",
+   "date": "2026-09-22T02:27:59.000Z",
+   "firstSeen": "2026-09-22T02:49:55.001Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "1vjkbqa",
+   "title": "Robin Williams’ Daughter Renews Plea for Fans to Stop AI Videos of Late Actor: ‘Have Some Shame’",
+   "url": "https://www.thewrap.com/industry-news/tech/robin-williams-daughter-slams-ai-videos-of-actor-have-some-shame",
+   "summary": "“Leave him out of your delusional bulls--t and let him rest,” the “Lisa Frankenstein” director writes The post Robin Williams’ Daughter Renews Plea for Fans to Stop AI Videos of Late Actor: ‘Have Some Shame’ appeared first on TheWrap.",
+   "date": "2026-09-22T02:24:16.000Z",
+   "firstSeen": "2026-09-22T02:49:55.001Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "jhq90d",
+   "title": "AI产品的发展趋势，正在把事情做的越来越完善",
+   "url": "https://www.woshipm.com/ai/6466957.html",
+   "summary": "9月AI产品迎来密集更新，21款新品不再空谈概念，而是扎进视频剪辑、Agent审批、企业数据、语音交互等真实工作流。从Fotor的视频Agent到OpenAI的托管环境，它们正让AI从“能生成”走向“能交付、能核查、能接手”。本文逐一拆解每款产品的适用场景与使用门槛，帮你找到真正能用的工具。 9月AI产品变化多样，越来越多的AI产品正在慢慢的把事情做的完整，我陆续看到 21 款值得讨论的 AI 产品。它们没有排成一条整齐的“市场趋势线”：有的产品在补视频剪辑的最后一步，有的在解决 Agent 执行时的审批和接力，还有团队忙着让企业数据可用、语音交互可控、AI 结果可复查。 共收集了 21 款产",
+   "date": "2026-09-22T02:23:09.000Z",
+   "firstSeen": "2026-09-22T02:49:55.001Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "1te1ev7",
+   "title": "你天天喊“以客户为中心”，为什么团队永远做不到？",
+   "url": "https://www.woshipm.com/share/6467386.html",
+   "summary": "很多团队一提新项目就‘竞品做了我们也要做’，上线后客户根本不买账。问题出在立项逻辑是反的：企业总从能做什么出发，而非客户需要什么。文章拆解亚马逊PR/FAQ工具如何把客户价值前置。 很多老板都有这样的困惑： 团队一提新项目，要么是“竞品做了，我们也要做”，要么是“技术觉得这个很酷”，要么问“老板，你觉得这个方向怎么样？” 立项会上热火朝天，上线后客户根本不买账。批评吧，打击团队信心，不批评吧，总失败也在浪费公司资源。 问题出在哪？ 不是团队不努力，而是整个组织的立项逻辑是反的——企业总是从能做什么出发，而不是从客户需要什么出发。 亚马逊，这家连续30年增长，市值稳居全球前五的巨头，它20年前就",
+   "date": "2026-09-22T02:21:22.000Z",
+   "firstSeen": "2026-09-22T02:49:55.001Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "ghy2dm",
+   "title": "技嘉旗下技鋼科技首座算力中心GAIFA落腳土城 強勢布局AIDC基礎建設與驗證能力",
+   "url": "https://news.cnyes.com/news/id/6612802",
+   "summary": "技嘉(2376-TW)旗下技鋼今(22)日宣布，公司首座自有算力中心 GAIFA（GIGABYTE AI Factory Accelerator）落腳新北市土城。GAIFA 是技鋼的首座自有算力中心，同時是公司將伺服器、液冷、資料中心設計與建置經驗，整合至 AI 運算環境的重要驗證基地，強化技鋼科技",
+   "date": "2026-09-22T02:19:44.000Z",
+   "firstSeen": "2026-09-22T02:49:55.001Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "alq79a",
+   "title": "2000亿，王传福发起了强攻",
+   "url": "https://www.huxiu.com/article/4893059.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/article/article_default_picpath_v1.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>过去五年，比亚迪的研发投入超过2000亿元，强攻高端与出海。可双路突围的背后，是比亚迪财报的短期承压。自2011年中报以来，比亚迪时隔15年，再次出现“双降”局面。压力之下，比亚迪不得不放缓扩张节奏，上",
+   "date": "2026-09-22T02:18:43.000Z",
+   "firstSeen": "2026-09-22T02:49:55.001Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "ghy1qs",
+   "title": "欣陸：欣達環工獲新竹客雅再生水BTO案最優申請人將投資84.5億元",
+   "url": "https://news.cnyes.com/news/id/6612785",
+   "summary": "欣陸投控(3703-TW)旗下欣達環工今(22)日宣布，正式獲評為「新竹市客雅水資源回收中心放流水回收再利用BTO案」最優申請人，並已完成議約程序。本案預估投資金額約84.5億元，興建及特許期合計約18年6個月，建置再生水系統後，每日供應寶山二期園區4萬噸再生水。 欣達環工已完成議約，並於今日取得",
+   "date": "2026-09-22T02:17:33.000Z",
+   "firstSeen": "2026-09-22T02:49:55.001Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "9b4l4s",
+   "title": "“城市更新”Vol.03：谁拥有城市的“开发权”？（中国篇）",
+   "url": "https://www.huxiu.com/article/4893057.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/22/36433-prod-db-general-1-1790043276731.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>在《「城市更新」Vol.02：谁拥有城市的开发权？》中，我们把视线投向不同国家和地区，也看到城市更新从来没有一套可以直接复制的答案。不同",
+   "date": "2026-09-22T02:15:54.000Z",
+   "firstSeen": "2026-09-22T02:49:55.001Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "ghy1o2",
+   "title": "不轟炸只加油！英國批准軍事支援沙烏地阿拉伯 後續視紅海與胡塞襲擊重新評估",
+   "url": "https://news.cnyes.com/news/id/6612756",
+   "summary": "英國應沙烏地阿拉請求，派出皇家空軍Voyager空中加油機，支援沙國戰機執行防禦任務 英相伯纳姆稱部署未來數日展開、初期持續數周，英國強調屬防禦性支持，不直接打擊胡塞 胡塞自7月來擴大攻擊沙國本土與紅海資產，英國加油機可延長巡邏攔截時間並強化防空",
+   "date": "2026-09-22T02:10:03.000Z",
+   "firstSeen": "2026-09-22T02:49:55.001Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghy1pt",
+   "title": "台股首見「2萬元」天價股 股王信驊跳空漲停一張大賺198萬元",
+   "url": "https://news.cnyes.com/news/id/6612773",
+   "summary": "信驊今跳空漲停至21,800元，創歷史新高，成台股首支突破2萬元個股 8月營收16.26億元、連10個月創高；公司估第4季營收續向上 明年AI基礎建置熱潮續強，在手訂單已超過今年全年營收，並向日月光簽2年產能合約確保供應",
+   "date": "2026-09-22T02:03:11.000Z",
+   "firstSeen": "2026-09-22T02:49:55.001Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "jz6qou",
+   "title": "聯發科也以台積電3nm製程天璣CX C10 Max進軍Googlebook市場，但實際應用機種要再等等",
+   "url": "https://mashdigi.com/mediatek-is-also-entering-the-googlebook-market-with-its-dimensity-cx-c10-max-manufactured-using-tsmcs-3nm-process-but-actual-devices-using-it-will-have-to-wait",
+   "summary": "聯發科宣布，針對全新崛起的Googlebook筆電生態系推出旗下「天璣個人運算」 (Dimensity Com […]",
+   "date": "2026-09-22T02:00:43.000Z",
+   "firstSeen": "2026-09-22T02:49:55.001Z",
+   "source": "mashdigi",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://mashdigi.com"
+  },
+  {
+   "id": "1o9xm65",
+   "title": "2万元的启元机器人，撑得起上纬新材的600亿市值吗？",
+   "url": "https://www.huxiu.com/article/4893049.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/22/36431-prod-nb2qnf-general-1-1790041354963.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>启元的C端故事进入验证时刻。定焦One（dingjiaoone）原创9月20日，启元机器人在上海举办新品发布会，黄晓明、胡军、田",
+   "date": "2026-09-22T02:00:38.000Z",
+   "firstSeen": "2026-09-22T02:49:55.001Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "1yqwwgc",
+   "title": "川普宣布成立「AI 軍」，要以太空軍為模板打造美國第六軍種",
+   "url": "https://www.inside.com.tw/article/42448-trump-ai-force-sixth-military-branch-2026",
+   "summary": "美國總統川普於 9 月 19 日透過社群媒體宣布將成立「AI Force」，比照太空軍模式創建第六個武裝部隊，並計畫任命 AI 沙皇。此舉需要國會立法授權，目前尚無詳細組織規劃，但已在美國科技與國防圈引發廣泛討論。",
+   "date": "2026-09-22T01:59:00.000Z",
+   "firstSeen": "2026-09-22T02:49:55.001Z",
+   "source": "INSIDE",
+   "tier": "A",
+   "lang": "zh-TW",
+   "site": "https://www.inside.com.tw"
+  },
+  {
+   "id": "4s0xp1",
+   "title": "贴钱留洋：这次，中国足球能砸出球星吗？",
+   "url": "https://www.huxiu.com/article/4893050.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/article/content/2026/09/22/094746348533.jpg?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/jpg\" referrerpolicy=\"no-referrer\"></figure>今年4月，“中国足协中国之队青少年励志计划”启动，面向15至23岁、已入选各级国字号球队的球员，通过资金补贴等方式，鼓励他们赴海外进行高水平联赛训练、比赛和生活。到了9月初，中国足协继续“加码",
+   "date": "2026-09-22T01:57:39.000Z",
+   "firstSeen": "2026-09-22T02:49:55.001Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "m0xbog",
+   "title": "独立站卖家做Awin联盟，最容易踩的6个致命坑",
+   "url": "https://www.woshipm.com/share/6467365.html",
+   "summary": "做独立站的卖家，但凡想拓展流量渠道，十有八九会被安利联盟营销。Awin作为全球头部联盟平台之一，体量已是全球最大。但很多卖家一腔热血冲进去，结果钱没赚到，坑倒踩了不少。其中折扣码泄露最为典型。 做独立站的卖家，但凡想拓展流量渠道，十有八九会被安利联盟营销。Awin作为全球头部联盟平台之一，加上2025年10月正式吞并了ShareASale，体量上已经是全球最大的联盟平台之一。 但很多卖家一腔热血冲进去，结果钱没赚到，坑倒踩了不少。 我自身的踩坑经历，加上翻遍了Shopify应用商店上Awin的多条真实评价（整体评分只有1.9分）、Trustpilot上1.5分的差评、以及大量卖家的真实反馈，整",
+   "date": "2026-09-22T01:54:17.000Z",
+   "firstSeen": "2026-09-22T02:49:55.001Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "1xs89la",
+   "title": "【Dreamforce 專訪】AI 讓駭客比防守方占上風？Salesforce 三大高管拆解 AI Agent 信任治理，從秒級威脅隔離到關鍵決策留給人類",
+   "url": "https://www.inside.com.tw/article/42452-salesforce-agentic-ai-trust-security-legal-ethics",
+   "summary": "因應 Agentic AI 從顧問轉為行動者，Salesforce 提出可規模化之信任治理體系。其高層從法律、資安與倫理角度闡述，如何透過內建護欄與自動化機制，在授權 AI 行動時，有效管理風險、確保合規。",
+   "date": "2026-09-22T01:54:00.000Z",
+   "firstSeen": "2026-09-22T02:49:55.001Z",
+   "source": "INSIDE",
+   "tier": "A",
+   "lang": "zh-TW",
+   "site": "https://www.inside.com.tw"
+  },
+  {
+   "id": "1s7igtk",
+   "title": "Trump TV Draws Ire Amid White House Press Shutout: ‘State-Run Media’",
+   "url": "https://www.thewrap.com/media-platforms/politics/trump-tv-press-shutout-state-run-media-reactions",
+   "summary": "\"This is truly autocratic behavior from a failed President,\" California Governor Gavin Newsom writes The post Trump TV Draws Ire Amid White House Press Shutout: ‘State-Run Media’ appeared first on TheWrap.",
+   "date": "2026-09-22T01:53:39.000Z",
+   "firstSeen": "2026-09-22T02:49:55.001Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "ghy1qo",
+   "title": "統一超點數發行超越去年整年 量販和餐券兌換最熱",
+   "url": "https://news.cnyes.com/news/id/6612781",
+   "summary": "統一超(2912-TW)透過集團聯名卡拓展點數生態圈有成，統計前三季累計發行OPENPOINT點數已超越去年整年，創歷史新高，其中擁有1萬點以上的會員超過2.5萬人，最熱愛兌換量販電子券、航空里程、美食餐券等，瞄準此龐大會員消費商機，OPENPOINT APP以點數放大的策略開出「金點賞專區」，後續",
+   "date": "2026-09-22T01:53:33.000Z",
+   "firstSeen": "2026-09-22T02:49:55.001Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "7d85y1",
+   "title": "医药股久违普涨背后：美国对华限制出现松动",
+   "url": "https://www.huxiu.com/article/4893054.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/22/36432-prod-nb2qnf-general-1-1790041904452.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>9月21日的A股市场，生物医药板块成为全场最强主线。截至收盘，生物医药指数大涨3.71%，细胞免疫治疗概念涨幅逼近5%，板块内超",
+   "date": "2026-09-22T01:53:01.000Z",
+   "firstSeen": "2026-09-22T02:49:55.001Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "ghy1pw",
+   "title": "〈房產〉全台七都預售屋買氣凍到僵 上半年十大重災區桃園大園衰退居首",
+   "url": "https://news.cnyes.com/news/id/6612776",
+   "summary": "隨著第七波信用管制、房貸緊縮效應發酵，房屋預售市場表現仍然冷。根據市調機構統計，2026年上半年七都預售交易件數，觀察年減幅最大的十大重災區表現，所有區域成交量均較去年同期衰退逾40%，甚至有8個區直接「腰斬」，其中以桃園大園年減75%最多。 《591實價登錄》觀察十大重災區橫跨北中南，桃園大園從",
+   "date": "2026-09-22T01:51:57.000Z",
+   "firstSeen": "2026-09-22T02:49:55.001Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghy1oy",
+   "title": "環球時報：中美加強合作有利於世界 台灣問題牽一髮動全身",
+   "url": "https://news.cnyes.com/news/id/6612765",
+   "summary": "習近平將於9月23日至25日訪美。 中美應推進建設性戰略穩定關係，共促世界和平。 台灣問題最關鍵，美方須恪守一中原則與三個聯合公報，勿向台獨發錯誤信號。",
+   "date": "2026-09-22T01:51:11.000Z",
+   "firstSeen": "2026-09-22T02:49:55.001Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "5fpuy7",
+   "title": "宇匯知識科技攜手愛酷智能 整合AccuIDEN三大受眾、消費數據與AI投放，重塑跨媒體投放邏輯",
+   "url": "https://www.thenewslens.com/article/270040",
+   "summary": "在第三方 Cookie 退場與零售媒體聯播網（RMN）遍地開花的雙重夾擊下，企業行銷正面臨前所未有的「數據孤島」挑戰。數位廣告與AI技術服務商宇匯知識科技（Bridgewell）宣布攜手企業數據與AI應用服務商愛酷智能（AccuHit），整合愛酷智能AccuIDEN企業意圖數據平台的地產數據、公司公開資訊與數位成熟度三類受眾，以及宇匯知識科技的消費交易資料、跨媒體投放與AI優化能力，共同建立從投放前受眾判斷、投放中媒體配置，到投放後成效驗證的數據行銷服務。",
+   "date": "2026-09-22T01:49:00.000Z",
+   "firstSeen": "2026-09-22T02:49:55.001Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "ghy1ps",
+   "title": "〈台股開盤〉噴漲逾800點衝破4萬8 股王信驊飛天漲停首現兩萬金股",
+   "url": "https://news.cnyes.com/news/id/6612772",
+   "summary": "中東衝突有望緩和，加上油價及美國公債殖利率回落，美股四大指數周一(21日)全數走揚，其中，納斯達克指數創高，帶動台股今(22)日多頭氣盛，股王信驊跳空漲停創新高，來到21800元，並成為台股首檔「兩萬金股」在電子權值股及PCB族群領軍下，早盤以47981.04點開高，盤中大漲逾800點，衝上4860",
+   "date": "2026-09-22T01:44:37.000Z",
+   "firstSeen": "2026-09-22T02:49:55.001Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghy1m3",
+   "title": "告別「唯GPU論」！伺服器CPU成AI新瓶頸 部分型號今年已漲逾40%",
+   "url": "https://news.cnyes.com/news/id/6612731",
+   "summary": "AI缺貨潮從GPU、HBM擴至伺服器CPU，英特爾與超微與中國客戶簽1至2年LTA鎖定採購量 AMD CPU交期達8至10週、英特爾最長6個月；伺服器平均交期升至8至12週以上 TrendForce：CPU、記憶體、載板與電源仍緊，AI競賽轉向供應決定能交付多少",
+   "date": "2026-09-22T01:35:08.000Z",
+   "firstSeen": "2026-09-22T02:49:55.001Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "55z8br",
+   "title": "【AI 代理只是聰明的猴子】軟體工程師的新工作，是打造讓代理更強大的系統邊界",
+   "url": "https://techorange.com/2026/09/22/software-engineer-new-job-ai-agent",
+   "summary": "資料工程領域專家認為，軟體工程師要開始理解系統邊界的意義，因為 AI 代理只是比較聰明的猴子，程式開發者得創造出有限環境，讓 AI 生成的邏輯能夠被人類所信賴。",
+   "date": "2026-09-22T01:33:41.000Z",
+   "firstSeen": "2026-09-22T02:49:55.001Z",
+   "source": "TechOrange",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://buzzorange.com/techorange/"
+  },
+  {
+   "id": "kbbc6p",
+   "title": "【電動車退役電池第二人生】供電給旅館、AI 資料中心，新創 Moment 與 Redwood 如何找到解方",
+   "url": "https://techorange.com/2026/09/22/ev-batteries-second-life",
+   "summary": "退役電動車電池還有第二人生，離島旅館、機場，甚至 AI 資料中心，都可能靠它們供電。電動車車主眼中「該換電池」的訊號，在儲能業者眼裡，卻是一批還沒用完的資源。 加拿大的 Moment Energy 與美國的 Redwood Materials，正把這些退役電池改造成固定式儲能系統。但這門生意能否成立，除了要拿到足夠的退役電池，還得解決兩個難題：一是電池品牌、電壓、容量與健康狀況都不同，業者得逐一檢測、重新組裝，並靠控制系統讓它們安全穩定運作；二是業者得證明這些系統真能解決客戶的實際問題，例如省下柴油發電成本、避開昂貴的電網升級，或讓資料中心不必苦等多年併網。 這兩個難題之所以有解方，關鍵在於，",
+   "date": "2026-09-22T01:33:18.000Z",
+   "firstSeen": "2026-09-22T02:49:55.001Z",
+   "source": "TechOrange",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://buzzorange.com/techorange/"
+  },
+  {
+   "id": "ghy1m5",
+   "title": "Meta Muse帶旺CPU行情！AMD躋身兆美元俱樂部 英特爾、Arm跟著嗨",
+   "url": "https://news.cnyes.com/news/id/6612733",
+   "summary": "Meta平台(META-US) 推出的消費級AI智能體Muse迅速走紅，也讓市場重新評估智能體普及帶來的運算需求，帶動CPU概念股全面上揚。 超微電腦(SMCI-US) 周一（21日）股價大漲近10%，收在615.52美元，市值首度突破1兆美元，成為繼輝達(NVDA-US) 、博通(AVGO-US",
+   "date": "2026-09-22T01:32:15.000Z",
+   "firstSeen": "2026-09-22T02:49:55.001Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "2q1shd",
+   "title": "马斯克放大招，新模型Grok 4.7上线！",
+   "url": "https://www.woshipm.com/ai/6468160.html",
+   "summary": "SpaceXAI 刚刚发布 Grok 4.7——用于编码和知识工作的最强大模型。 01 主要改进 ● 使用了一个新的、更大的基础模型 ● 在更难的、多小时任务上训练更长时间 ● 更好地验证自己的答案 ● 改进了长上下文性能 ● 在文档和演示文稿方面更好 ● 原生理解 Grok Bot 系统 ● 更强的安全性和越狱保护 02 基准测试结果 基准测试 Grok 4.7 Grok 4.6 CursorBench 4.0 46.3% 40.4% DeepSWE v1.1 71.0% 65.2% AA Briefcase v1.1 1,657 1,546 Terminal-Bench 4.0 38.0%",
+   "date": "2026-09-22T01:30:28.000Z",
+   "firstSeen": "2026-09-22T02:49:55.001Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "pcji27",
+   "title": "WorkBuddy + Flova，一句话交付20张产品图",
+   "url": "https://www.woshipm.com/ai/6468005.html",
+   "summary": "一批大促要用的产品展示图，过去得反复上传、改提示词、下载归类。这次把需求说清楚，由 WorkBuddy 理解和调度、Flova 执行创作，一次性交付覆盖五个场景的二十张图，作者把整条链路完整复盘了一遍。 前几天我刷到一条新闻：9月15日，快手电商宣布2026年双11招商全面启动，还配上了千亿流量激励。 平台把“AI提效”写进了大促主题，商家侧最先撞上的却是素材产能。 我手上正好有一个这样的任务，一批双11要用的产品展示图。这次我在WorkBuddy里把想要的结果说清楚，由它调用Flova的专业创作能力，把图片批量做出来，再把产物收回来整理好。 WorkBuddy负责理解和调度任务，Flova负",
+   "date": "2026-09-22T01:27:27.000Z",
+   "firstSeen": "2026-09-22T02:49:55.001Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
    "id": "ghy1jj",
    "title": "美國期中選舉將近！川普今年來點名批評拜登890次 單日最多16次",
    "url": "https://news.cnyes.com/news/id/6612708",
@@ -889,6 +1272,30 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-TW",
    "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "98egk",
+   "title": "风控从来不是一份让人焦虑的工作",
+   "url": "https://www.woshipm.com/zhichang/6467360.html",
+   "summary": "我翻着我风控主题下的笔记和备忘录，心里清楚已经没有多少想写的东西。大多都写过了。经验让工作更轻松，而风控是一个经验一定有用的工种，所以风控从来不应该是一件让人焦虑的工作，关键是关注长处而非短板。 我翻着我风控主题下的笔记和备忘录，以及各种随手记，心里清楚我已经没有多少想写的东西了。我想写的，我认为该写的，大多都写过了，也有例外，一个是bad case分析，一个是归因分析，这两个都值得写，我也想写，但就是没有写。 像其他的，各种不良指标怎么算，vintage、滚动率的sql技巧，策略怎么做，模型怎么建，你只要去到任何一个团队，你总会知道的。而且，AI都知道，只是你没有加入一个团队的话，你没有真的",
+   "date": "2026-09-22T01:24:28.000Z",
+   "firstSeen": "2026-09-22T02:49:55.001Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "1uv39hf",
+   "title": "一个离谱闹钟，让我看到 AI 的另一种用法",
+   "url": "https://www.woshipm.com/ai/6467998.html",
+   "summary": "有网友做了个不敢赖床的闹钟，响铃后一分钟内必须做完二十道加减法，否则持续消耗 GPT-6 Astra 的 Token。作者从中看到一次角色错位：惩罚落在 AI 身上，人才多出一个不讲情面的第三方。 一位网友做了个不敢赖床的闹钟。 规则是这样的：闹钟响，给你一分钟。这一分钟里你得彻底醒过来，并且连续做完 20 道加减法题。做不到？系统就疯狂消耗你 GPT-6 Astra 的 Token。 我看到这条动态，第一反应是乐——狠，真狠，哥们儿真有钱。 第二反应是——这个设计里最值钱的东西不是闹钟，是它顺手给 AI 换了个岗位。 先说这个产品设计里的巧思。 传统闹钟：最大的毛病是关掉它太容易——手指一划",
+   "date": "2026-09-22T01:21:24.000Z",
+   "firstSeen": "2026-09-22T02:49:55.001Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
   },
   {
    "id": "ghy0vj",
@@ -903,6 +1310,90 @@ window.NEWS_DATA = {
    "site": "https://news.cnyes.com"
   },
   {
+   "id": "n4grtd",
+   "title": "爆火的 Jev 模型还能与具身结合，远比低价决策更有想象空间",
+   "url": "https://www.woshipm.com/ai/6467701.html",
+   "summary": "在一批开源项目里，决策模型正被接进具身操作链路：有的用物理模拟先做排除法，把几何与运动学的粗筛交给代码，只把最终判断留给模型；也有项目把它放进无人机与真实机械臂的动作循环，减少对大模型的高频调用。 过去几天，一款决策模型 Jev 在海外技术社区引发集中讨论。多位开发者陆续公开测试案例：在浏览器自动化测试中，基于 Jev 的工具用约 7.073 秒完成了苏黎世到伦敦的航线查询与结果确认，全程调用 17 次 Jev，单次中位延迟 178 毫秒；在推特信息流过滤中，有开发者用它对单条推文做即时语义判定；在游戏测试中，社区有开发者自报跑出了整场低于 1 美分的 Subway Surfers 动作控制实",
+   "date": "2026-09-22T01:19:38.000Z",
+   "firstSeen": "2026-09-22T02:49:55.001Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "lch3j0",
+   "title": "对抗巨头，你不能只比他好一点点",
+   "url": "https://www.woshipm.com/ai/6467739.html",
+   "summary": "芯片公司 Cerebras 的 CEO 在播客里回忆早期至暗时刻：每隔六周开一次董事会，唯一能汇报的还是做不出来，而公司每个月在烧掉上千万美元。他给出的对抗巨头判断是，比对方好一点点或者便宜一点根本不够用。 做芯片这件事，到底有多难？我最近听了一期播客，Cerebras Systems 的 CEO 兼联合创始人 Andrew Feldman 在节目里讲了一段经历：有整整 18 个月，他们每隔六周开一次董事会，每次唯一能汇报的事情就是“还是做不出来”。而这段时间公司每个月在烧 800 万美元。每次开会，投资人问能帮上什么忙，他的回答是：没什么可以帮的，就等着吧。这不是一家小公司在画大饼的故事，而",
+   "date": "2026-09-22T01:17:08.000Z",
+   "firstSeen": "2026-09-22T02:49:55.001Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "x3bpjn",
+   "title": "不要在投资与分配之间做取舍",
+   "url": "https://www.huxiu.com/article/4893030.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/article/content/2026/09/22/090013259699.jpg?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/jpg\" referrerpolicy=\"no-referrer\"></figure>前一篇吐槽林毅夫的文章引来颇多讨论。有些留言是真讨论，有些就是站队了。作者对简中网曾经流行的所谓“林毅夫大战张维迎”毫无兴趣，作者认为，林毅夫在前三十年比张维迎可取得多。但前三十年是什么时代呢",
+   "date": "2026-09-22T01:14:10.000Z",
+   "firstSeen": "2026-09-22T02:49:55.001Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "1ig8clw",
+   "title": "家电过冬，咖啡机在悄悄“捡漏”",
+   "url": "https://www.huxiu.com/article/4893040.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/article/article_default_picpath_v1.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>一个品类的爆发，有时候不一定是自己多能打，而是竞争对手先替它把路铺好了。在瑞幸和库迪掀起9.9元价格战之前，国内自动咖啡机市场已发展20多年，只不过在家电市场始终是个不起眼的存在。直到连锁咖啡品牌用几年",
+   "date": "2026-09-22T01:13:03.000Z",
+   "firstSeen": "2026-09-22T02:49:55.001Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "d5vadn",
+   "title": "从“下一个TikTok”到关停：Sora的五个关键决策",
+   "url": "https://www.woshipm.com/chuangye/6467699.html",
+   "summary": "Sora 独立应用上线不到五天，下载量突破百万，热度一度盖过 ChatGPT，却不到半年就被宣布关停：30 天留存率仅 1%，日均运营成本约 1500 万美元，上线一年总收入才 140 万美元。作者由此拆解了背后的五个关键决策。 今天聊Sora。 2025年9月30日，OpenAI发布了Sora独立应用。上线不到五天，下载量突破百万，迅速登顶美国苹果App Store免费榜榜首，热度一度超越ChatGPT。OpenAI CEO山姆·奥特曼亲自开放自身形象生成权限，在社交媒体上引发传播热潮。官方将Sora 2定位为“视频领域的GPT-3.5时刻”。 2026年3月25日，OpenAI宣布关停So",
+   "date": "2026-09-22T01:09:00.000Z",
+   "firstSeen": "2026-09-22T02:49:55.001Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "129q61n",
+   "title": "同一品牌，怎么网住两代人？",
+   "url": "https://www.huxiu.com/article/4893038.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/22/36427-prod-nb2qnf-general-1-1790039259936.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>◎所谓品牌升级、迭代，可能压根不是渐进逻辑，而是直接拐弯。你眼里的名创优品是十元店，10后眼里是三丽鸥家族和哈利·波特联名；你眼",
+   "date": "2026-09-22T01:08:59.000Z",
+   "firstSeen": "2026-09-22T02:49:55.001Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "ayztge",
+   "title": "实测Step 5 Preview，又一个能打的国产模型来了",
+   "url": "https://www.woshipm.com/ai/6467696.html",
+   "summary": "阶跃星辰新发布的模型在 AA 智能指数上追平 K3，600B 总参数、1M 上下文，输入价格只有同档模型的零头。作者把它接到日常工具里跑了一轮实测，覆盖前端、游戏、视觉、工程与办公五类任务，逐项给出对比。 最近，国模也是好起来了。昨天阶跃星辰发布了Step 5 Preview，AA智能指数追平K3，仅次于Qwen3.8-Max（0902）和GLM-5.3。 它的上一代模型Step 3.7 Flash，在AA上只有19分，这次Step 5 Preview直接冲到了44分。 简单认识一下：依旧是MoE架构，总参数600B，27B激活，1M上下文，原生具备视觉理解能力，API价格（in 7/M to",
+   "date": "2026-09-22T01:08:01.000Z",
+   "firstSeen": "2026-09-22T02:49:55.001Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
    "id": "ckedrr",
    "title": "想做 AI 副业，先避开这 5 个割韭菜套路",
    "url": "https://www.woshipm.com/ai/6467590.html",
@@ -915,6 +1406,18 @@ window.NEWS_DATA = {
    "site": "https://www.woshipm.com"
   },
   {
+   "id": "qtzam7",
+   "title": "派拉蒙與美12州達成反壟斷和解！掃除最後障礙、110億美元華納兄弟收購案預計10月初正式完成",
+   "url": "https://mashdigi.com/paramount-reaches-antitrust-settlement-with-12-us-states-with-the-final-hurdle-cleared-the-11-billion-warner-bros-acquisition-is-expected-to-be-officially-completed-in-early-october",
+   "summary": "好萊塢近年最具震撼力的世紀大併購，終於掃除了最後一道關鍵阻礙。派拉蒙正式與由加州檢察總長Rob Bonta領軍 […]",
+   "date": "2026-09-22T01:00:24.000Z",
+   "firstSeen": "2026-09-22T02:49:55.001Z",
+   "source": "mashdigi",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://mashdigi.com"
+  },
+  {
    "id": "1yrfef",
    "title": "書評》你可也會離開我？——讀錢真《鄭經的朋友》",
    "url": "https://www.openbook.org.tw/article/p-72952",
@@ -925,6 +1428,42 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "zh-TW",
    "site": "https://www.openbook.org.tw"
+  },
+  {
+   "id": "zoixsn",
+   "title": "股价腰斩、产业化尚早、收入遭质疑：机器人热潮该重新定价了",
+   "url": "https://www.huxiu.com/article/4893034.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/22/36426-prod-nb2qnf-general-1-1790038676283.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>深度观察当技术进步、商业落地与资本估值，不在同一时钟上席席春迎博士2026年9月21日·阅读约12分钟三件事指向同一个问题！最近",
+   "date": "2026-09-22T00:59:17.000Z",
+   "firstSeen": "2026-09-22T02:49:55.001Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "10btquw",
+   "title": "股价跌去九成，为什么大股东还可以安然无恙？",
+   "url": "https://www.huxiu.com/article/4893035.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/22/36425-prod-db-general-1-1790038612814.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>港股观察从A股与港股的两套定价逻辑，看香港资本市场真正需要补上的制度短板席席春迎博士2026年9月22日·阅读约13分钟谈到港股和A股，",
+   "date": "2026-09-22T00:58:16.000Z",
+   "firstSeen": "2026-09-22T02:49:55.001Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "10z4jx5",
+   "title": "企业融资结构持续变化：2026年1-8月实体部门资金运转观察",
+   "url": "https://www.huxiu.com/article/4893036.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/22/36424-prod-db-general-1-1790038551041.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>一、整体资金情况我们延续前几篇文章的框架，梳理今年前8个月实体部门的资金运转情况。前8个月实体部门资金来源合计22.05万亿元，同比少增",
+   "date": "2026-09-22T00:57:06.000Z",
+   "firstSeen": "2026-09-22T02:49:55.001Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
   },
   {
    "id": "ghy0we",
@@ -1066,7 +1605,7 @@ window.NEWS_DATA = {
    "date": "2026-09-22T00:26:47.000Z",
    "firstSeen": "2026-09-22T01:28:53.611Z",
    "source": "MediaPost",
-   "tier": "A",
+   "tier": "B",
    "lang": "en",
    "site": "https://www.mediapost.com"
   },
@@ -1179,6 +1718,18 @@ window.NEWS_DATA = {
    "site": "https://www.thewrap.com"
   },
   {
+   "id": "hz3iyt",
+   "title": "Google遭愛爾蘭資料保護委員會重罰4.03億歐元，GDPR定位數據違規案塵埃落定",
+   "url": "https://mashdigi.com/google-has-been-fined-e403-million-by-the-irish-data-protection-commission-bringing-the-gdpr-location-data-violation-case-to-a-close",
+   "summary": "愛爾蘭資料保護委員會 (DPC)正式宣布，針對Google在處理用戶定位數據上的違規行為，將處以4.03億歐元 […]",
+   "date": "2026-09-22T00:00:26.000Z",
+   "firstSeen": "2026-09-22T02:49:55.001Z",
+   "source": "mashdigi",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://mashdigi.com"
+  },
+  {
    "id": "o108xf",
    "title": "‘Line of Fire’ Release Schedule: When Do New Episodes Come Out?",
    "url": "https://www.thewrap.com/creative-content/tv-shows/line-of-fire-episodes-release-date-time-schedule",
@@ -1282,7 +1833,7 @@ window.NEWS_DATA = {
    "date": "2026-09-21T23:33:57.000Z",
    "firstSeen": "2026-09-22T01:28:53.611Z",
    "source": "MediaPost",
-   "tier": "A",
+   "tier": "B",
    "lang": "en",
    "site": "https://www.mediapost.com"
   },
@@ -1306,7 +1857,7 @@ window.NEWS_DATA = {
    "date": "2026-09-21T23:31:12.000Z",
    "firstSeen": "2026-09-22T01:28:53.611Z",
    "source": "MediaPost",
-   "tier": "A",
+   "tier": "B",
    "lang": "en",
    "site": "https://www.mediapost.com"
   },
@@ -1330,7 +1881,7 @@ window.NEWS_DATA = {
    "date": "2026-09-21T23:25:43.000Z",
    "firstSeen": "2026-09-22T01:28:53.611Z",
    "source": "MediaPost",
-   "tier": "A",
+   "tier": "B",
    "lang": "en",
    "site": "https://www.mediapost.com"
   },
@@ -1354,7 +1905,7 @@ window.NEWS_DATA = {
    "date": "2026-09-21T23:19:58.000Z",
    "firstSeen": "2026-09-22T01:28:53.611Z",
    "source": "MediaPost",
-   "tier": "A",
+   "tier": "B",
    "lang": "en",
    "site": "https://www.mediapost.com"
   },
@@ -1534,7 +2085,7 @@ window.NEWS_DATA = {
    "date": "2026-09-21T22:10:49.000Z",
    "firstSeen": "2026-09-22T01:28:53.611Z",
    "source": "MediaPost",
-   "tier": "A",
+   "tier": "B",
    "lang": "en",
    "site": "https://www.mediapost.com"
   },
@@ -1690,7 +2241,7 @@ window.NEWS_DATA = {
    "date": "2026-09-21T21:15:48.000Z",
    "firstSeen": "2026-09-22T01:28:53.611Z",
    "source": "MediaPost",
-   "tier": "A",
+   "tier": "B",
    "lang": "en",
    "site": "https://www.mediapost.com"
   },
@@ -1726,7 +2277,7 @@ window.NEWS_DATA = {
    "date": "2026-09-21T21:01:36.000Z",
    "firstSeen": "2026-09-22T01:28:53.611Z",
    "source": "MediaPost",
-   "tier": "A",
+   "tier": "B",
    "lang": "en",
    "site": "https://www.mediapost.com"
   },
@@ -1738,7 +2289,7 @@ window.NEWS_DATA = {
    "date": "2026-09-21T20:56:29.000Z",
    "firstSeen": "2026-09-22T01:28:53.611Z",
    "source": "Journalism.co.uk",
-   "tier": "B",
+   "tier": "A",
    "lang": "en",
    "site": "https://www.journalism.co.uk"
   },
@@ -1786,7 +2337,7 @@ window.NEWS_DATA = {
    "date": "2026-09-21T20:35:03.000Z",
    "firstSeen": "2026-09-21T20:50:58.305Z",
    "source": "MediaPost",
-   "tier": "A",
+   "tier": "B",
    "lang": "en",
    "site": "https://www.mediapost.com"
   },
@@ -2230,7 +2781,7 @@ window.NEWS_DATA = {
    "date": "2026-09-21T17:33:16.000Z",
    "firstSeen": "2026-09-21T20:50:58.305Z",
    "source": "MediaPost",
-   "tier": "A",
+   "tier": "B",
    "lang": "en",
    "site": "https://www.mediapost.com"
   },
@@ -2734,7 +3285,7 @@ window.NEWS_DATA = {
    "date": "2026-09-21T15:00:00.000Z",
    "firstSeen": "2026-09-21T16:49:40.024Z",
    "source": "MediaPost",
-   "tier": "A",
+   "tier": "B",
    "lang": "en",
    "site": "https://www.mediapost.com"
   },
@@ -3454,7 +4005,7 @@ window.NEWS_DATA = {
    "date": "2026-09-21T12:43:56.000Z",
    "firstSeen": "2026-09-21T16:49:40.024Z",
    "source": "MediaPost",
-   "tier": "A",
+   "tier": "B",
    "lang": "en",
    "site": "https://www.mediapost.com"
   },
@@ -3646,7 +4197,7 @@ window.NEWS_DATA = {
    "date": "2026-09-21T12:00:00.000Z",
    "firstSeen": "2026-09-21T16:49:40.024Z",
    "source": "MediaPost",
-   "tier": "A",
+   "tier": "B",
    "lang": "en",
    "site": "https://www.mediapost.com"
   },
@@ -3658,7 +4209,7 @@ window.NEWS_DATA = {
    "date": "2026-09-21T12:00:00.000Z",
    "firstSeen": "2026-09-21T16:49:40.024Z",
    "source": "MediaPost",
-   "tier": "A",
+   "tier": "B",
    "lang": "en",
    "site": "https://www.mediapost.com"
   },
@@ -3670,7 +4221,7 @@ window.NEWS_DATA = {
    "date": "2026-09-21T12:00:00.000Z",
    "firstSeen": "2026-09-21T16:49:40.024Z",
    "source": "MediaPost",
-   "tier": "A",
+   "tier": "B",
    "lang": "en",
    "site": "https://www.mediapost.com"
   },
@@ -3814,7 +4365,7 @@ window.NEWS_DATA = {
    "date": "2026-09-21T11:24:55.000Z",
    "firstSeen": "2026-09-21T16:49:40.024Z",
    "source": "MediaPost",
-   "tier": "A",
+   "tier": "B",
    "lang": "en",
    "site": "https://www.mediapost.com"
   },
@@ -4522,7 +5073,7 @@ window.NEWS_DATA = {
    "date": "2026-09-21T08:20:07.000Z",
    "firstSeen": "2026-09-21T08:22:06.232Z",
    "source": "Journalism.co.uk",
-   "tier": "B",
+   "tier": "A",
    "lang": "en",
    "site": "https://www.journalism.co.uk"
   },
@@ -4729,18 +5280,6 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-CN",
    "site": "https://www.woshipm.com"
-  },
-  {
-   "id": "q794kl",
-   "title": "30家中国科技公司高管薪酬表：谁在拿最高的薪水",
-   "url": "https://www.huxiu.com/article/4892868.html",
-   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/21/36332-prod-db-general-1-1789977362071.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>AI产业链上的公司，正在为关键人才开出越来越高的价码。智谱2025年营收7.24亿元，归母净利润亏损46.98亿元，但董事长刘德兵的年度",
-   "date": "2026-09-21T07:57:25.000Z",
-   "firstSeen": "2026-09-21T10:27:04.922Z",
-   "source": "虎嗅网",
-   "tier": "A",
-   "lang": "zh-CN",
-   "site": "https://www.huxiu.com"
   },
   {
    "id": "1tcr8eu",
@@ -8458,7 +8997,7 @@ window.NEWS_DATA = {
    "date": "2026-09-21T00:10:44.000Z",
    "firstSeen": "2026-09-21T03:30:54.931Z",
    "source": "MediaPost",
-   "tier": "A",
+   "tier": "B",
    "lang": "en",
    "site": "https://www.mediapost.com"
   },
@@ -8518,7 +9057,7 @@ window.NEWS_DATA = {
    "date": "2026-09-21T00:05:52.000Z",
    "firstSeen": "2026-09-21T03:30:54.931Z",
    "source": "MediaPost",
-   "tier": "A",
+   "tier": "B",
    "lang": "en",
    "site": "https://www.mediapost.com"
   },
@@ -8614,7 +9153,7 @@ window.NEWS_DATA = {
    "date": "2026-09-20T23:56:27.000Z",
    "firstSeen": "2026-09-21T03:30:54.931Z",
    "source": "MediaPost",
-   "tier": "A",
+   "tier": "B",
    "lang": "en",
    "site": "https://www.mediapost.com"
   },
@@ -8650,7 +9189,7 @@ window.NEWS_DATA = {
    "date": "2026-09-20T23:52:36.000Z",
    "firstSeen": "2026-09-21T03:30:54.931Z",
    "source": "MediaPost",
-   "tier": "A",
+   "tier": "B",
    "lang": "en",
    "site": "https://www.mediapost.com"
   },
@@ -9106,7 +9645,7 @@ window.NEWS_DATA = {
    "date": "2026-09-20T18:25:58.000Z",
    "firstSeen": "2026-09-21T03:30:54.931Z",
    "source": "MediaPost",
-   "tier": "A",
+   "tier": "B",
    "lang": "en",
    "site": "https://www.mediapost.com"
   },
@@ -9118,7 +9657,7 @@ window.NEWS_DATA = {
    "date": "2026-09-20T18:23:20.000Z",
    "firstSeen": "2026-09-21T03:30:54.931Z",
    "source": "MediaPost",
-   "tier": "A",
+   "tier": "B",
    "lang": "en",
    "site": "https://www.mediapost.com"
   },
@@ -9586,7 +10125,7 @@ window.NEWS_DATA = {
    "date": "2026-09-20T13:45:14.000Z",
    "firstSeen": "2026-09-21T16:49:40.024Z",
    "source": "MediaPost",
-   "tier": "A",
+   "tier": "B",
    "lang": "en",
    "site": "https://www.mediapost.com"
   },
@@ -10342,7 +10881,7 @@ window.NEWS_DATA = {
    "date": "2026-09-20T03:00:00.000Z",
    "firstSeen": "2026-09-21T03:30:54.931Z",
    "source": "MediaPost",
-   "tier": "A",
+   "tier": "B",
    "lang": "en",
    "site": "https://www.mediapost.com"
   },
@@ -13330,7 +13869,7 @@ window.NEWS_DATA = {
    "date": "2026-09-18T21:07:44.000Z",
    "firstSeen": "2026-09-21T03:30:54.931Z",
    "source": "MediaPost",
-   "tier": "A",
+   "tier": "B",
    "lang": "en",
    "site": "https://www.mediapost.com"
   },
@@ -13534,7 +14073,7 @@ window.NEWS_DATA = {
    "date": "2026-09-18T19:41:24.000Z",
    "firstSeen": "2026-09-21T03:30:54.931Z",
    "source": "MediaPost",
-   "tier": "A",
+   "tier": "B",
    "lang": "en",
    "site": "https://www.mediapost.com"
   },
@@ -13654,7 +14193,7 @@ window.NEWS_DATA = {
    "date": "2026-09-18T19:09:34.000Z",
    "firstSeen": "2026-09-21T16:49:40.024Z",
    "source": "MediaPost",
-   "tier": "A",
+   "tier": "B",
    "lang": "en",
    "site": "https://www.mediapost.com"
   },
@@ -13750,7 +14289,7 @@ window.NEWS_DATA = {
    "date": "2026-09-18T18:47:00.000Z",
    "firstSeen": "2026-09-21T16:49:40.024Z",
    "source": "MediaPost",
-   "tier": "A",
+   "tier": "B",
    "lang": "en",
    "site": "https://www.mediapost.com"
   },
@@ -13930,7 +14469,7 @@ window.NEWS_DATA = {
    "date": "2026-09-18T17:48:34.000Z",
    "firstSeen": "2026-09-21T16:49:40.024Z",
    "source": "MediaPost",
-   "tier": "A",
+   "tier": "B",
    "lang": "en",
    "site": "https://www.mediapost.com"
   },
@@ -14218,7 +14757,7 @@ window.NEWS_DATA = {
    "date": "2026-09-18T16:39:55.000Z",
    "firstSeen": "2026-09-21T16:49:40.024Z",
    "source": "MediaPost",
-   "tier": "A",
+   "tier": "B",
    "lang": "en",
    "site": "https://www.mediapost.com"
   },
@@ -14290,7 +14829,7 @@ window.NEWS_DATA = {
    "date": "2026-09-18T16:22:03.000Z",
    "firstSeen": "2026-09-21T03:30:54.931Z",
    "source": "MediaPost",
-   "tier": "A",
+   "tier": "B",
    "lang": "en",
    "site": "https://www.mediapost.com"
   },
@@ -14650,7 +15189,7 @@ window.NEWS_DATA = {
    "date": "2026-09-18T15:25:10.000Z",
    "firstSeen": "2026-09-18T19:27:48.090Z",
    "source": "Journalism.co.uk",
-   "tier": "B",
+   "tier": "A",
    "lang": "en",
    "site": "https://www.journalism.co.uk"
   },
@@ -14806,7 +15345,7 @@ window.NEWS_DATA = {
    "date": "2026-09-18T14:37:22.000Z",
    "firstSeen": "2026-09-21T03:30:54.931Z",
    "source": "MediaPost",
-   "tier": "A",
+   "tier": "B",
    "lang": "en",
    "site": "https://www.mediapost.com"
   },
@@ -14818,7 +15357,7 @@ window.NEWS_DATA = {
    "date": "2026-09-18T14:31:59.000Z",
    "firstSeen": "2026-09-21T03:30:54.931Z",
    "source": "MediaPost",
-   "tier": "A",
+   "tier": "B",
    "lang": "en",
    "site": "https://www.mediapost.com"
   },
@@ -15154,7 +15693,7 @@ window.NEWS_DATA = {
    "date": "2026-09-18T13:36:36.000Z",
    "firstSeen": "2026-09-18T14:48:53.547Z",
    "source": "Journalism.co.uk",
-   "tier": "B",
+   "tier": "A",
    "lang": "en",
    "site": "https://www.journalism.co.uk"
   },
@@ -15166,7 +15705,7 @@ window.NEWS_DATA = {
    "date": "2026-09-18T13:34:23.000Z",
    "firstSeen": "2026-09-21T03:30:54.931Z",
    "source": "MediaPost",
-   "tier": "A",
+   "tier": "B",
    "lang": "en",
    "site": "https://www.mediapost.com"
   },
@@ -15298,7 +15837,7 @@ window.NEWS_DATA = {
    "date": "2026-09-18T12:50:11.000Z",
    "firstSeen": "2026-09-21T03:30:54.931Z",
    "source": "MediaPost",
-   "tier": "A",
+   "tier": "B",
    "lang": "en",
    "site": "https://www.mediapost.com"
   },
@@ -15862,7 +16401,7 @@ window.NEWS_DATA = {
    "date": "2026-09-18T11:00:00.000Z",
    "firstSeen": "2026-09-21T03:30:54.931Z",
    "source": "MediaPost",
-   "tier": "A",
+   "tier": "B",
    "lang": "en",
    "site": "https://www.mediapost.com"
   },
@@ -16042,7 +16581,7 @@ window.NEWS_DATA = {
    "date": "2026-09-18T09:36:42.000Z",
    "firstSeen": "2026-09-18T10:19:55.793Z",
    "source": "Journalism.co.uk",
-   "tier": "B",
+   "tier": "A",
    "lang": "en",
    "site": "https://www.journalism.co.uk"
   },
@@ -16078,7 +16617,7 @@ window.NEWS_DATA = {
    "date": "2026-09-18T09:19:55.000Z",
    "firstSeen": "2026-09-18T10:03:21.928Z",
    "source": "Journalism.co.uk",
-   "tier": "B",
+   "tier": "A",
    "lang": "en",
    "site": "https://www.journalism.co.uk"
   },
@@ -16102,7 +16641,7 @@ window.NEWS_DATA = {
    "date": "2026-09-18T09:10:57.000Z",
    "firstSeen": "2026-09-18T10:03:21.928Z",
    "source": "Journalism.co.uk",
-   "tier": "B",
+   "tier": "A",
    "lang": "en",
    "site": "https://www.journalism.co.uk"
   },
@@ -17302,7 +17841,7 @@ window.NEWS_DATA = {
    "date": "2026-09-18T04:00:00.000Z",
    "firstSeen": "2026-09-21T03:30:54.931Z",
    "source": "MediaPost",
-   "tier": "A",
+   "tier": "B",
    "lang": "en",
    "site": "https://www.mediapost.com"
   },
@@ -17326,7 +17865,7 @@ window.NEWS_DATA = {
    "date": "2026-09-18T03:57:51.000Z",
    "firstSeen": "2026-09-21T03:30:54.931Z",
    "source": "MediaPost",
-   "tier": "A",
+   "tier": "B",
    "lang": "en",
    "site": "https://www.mediapost.com"
   },
@@ -17362,7 +17901,7 @@ window.NEWS_DATA = {
    "date": "2026-09-18T03:51:46.000Z",
    "firstSeen": "2026-09-21T03:30:54.931Z",
    "source": "MediaPost",
-   "tier": "A",
+   "tier": "B",
    "lang": "en",
    "site": "https://www.mediapost.com"
   },
@@ -17410,7 +17949,7 @@ window.NEWS_DATA = {
    "date": "2026-09-18T03:44:26.000Z",
    "firstSeen": "2026-09-21T03:30:54.931Z",
    "source": "MediaPost",
-   "tier": "A",
+   "tier": "B",
    "lang": "en",
    "site": "https://www.mediapost.com"
   },
@@ -18310,7 +18849,7 @@ window.NEWS_DATA = {
    "date": "2026-09-17T23:00:00.000Z",
    "firstSeen": "2026-09-18T14:48:53.547Z",
    "source": "Journalism.co.uk",
-   "tier": "B",
+   "tier": "A",
    "lang": "en",
    "site": "https://www.journalism.co.uk"
   },
@@ -19666,7 +20205,7 @@ window.NEWS_DATA = {
    "date": "2026-09-17T10:54:04.000Z",
    "firstSeen": "2026-09-18T10:03:21.928Z",
    "source": "Journalism.co.uk",
-   "tier": "B",
+   "tier": "A",
    "lang": "en",
    "site": "https://www.journalism.co.uk"
   },
@@ -19846,7 +20385,7 @@ window.NEWS_DATA = {
    "date": "2026-09-17T07:22:33.000Z",
    "firstSeen": "2026-09-18T10:03:21.928Z",
    "source": "Journalism.co.uk",
-   "tier": "B",
+   "tier": "A",
    "lang": "en",
    "site": "https://www.journalism.co.uk"
   },
@@ -20566,7 +21105,7 @@ window.NEWS_DATA = {
    "date": "2026-09-16T10:50:13.000Z",
    "firstSeen": "2026-09-18T10:03:21.928Z",
    "source": "Journalism.co.uk",
-   "tier": "B",
+   "tier": "A",
    "lang": "en",
    "site": "https://www.journalism.co.uk"
   },
@@ -20830,7 +21369,7 @@ window.NEWS_DATA = {
    "date": "2026-09-16T00:00:00.000Z",
    "firstSeen": "2026-09-18T10:03:21.928Z",
    "source": "Journalism.co.uk",
-   "tier": "B",
+   "tier": "A",
    "lang": "en",
    "site": "https://www.journalism.co.uk"
   },
@@ -20902,7 +21441,7 @@ window.NEWS_DATA = {
    "date": "2026-09-15T16:46:12.000Z",
    "firstSeen": "2026-09-18T10:03:21.928Z",
    "source": "Journalism.co.uk",
-   "tier": "B",
+   "tier": "A",
    "lang": "en",
    "site": "https://www.journalism.co.uk"
   },
@@ -20914,7 +21453,7 @@ window.NEWS_DATA = {
    "date": "2026-09-15T16:19:40.000Z",
    "firstSeen": "2026-09-18T10:03:21.928Z",
    "source": "Journalism.co.uk",
-   "tier": "B",
+   "tier": "A",
    "lang": "en",
    "site": "https://www.journalism.co.uk"
   },
@@ -20938,7 +21477,7 @@ window.NEWS_DATA = {
    "date": "2026-09-15T15:52:54.000Z",
    "firstSeen": "2026-09-18T10:03:21.928Z",
    "source": "Journalism.co.uk",
-   "tier": "B",
+   "tier": "A",
    "lang": "en",
    "site": "https://www.journalism.co.uk"
   },
