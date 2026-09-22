@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>udn Daily Newsletter 產製工作台</title>
+<title>電子報工作台</title>
 <script src="https://cdn.tailwindcss.com"></script>
 <style>
   :root {
@@ -636,10 +636,10 @@ function pangu(s) {
   const urls = [];
   let t = String(s).replace(/https?:\/\/[^\s<>"']+/g, m => {
     urls.push(m);
-    return ` ${urls.length - 1} `;
+    return ` ${urls.length - 1} `;
   });
   t = t.replace(RE_CJK_FIRST, '$1 $2').replace(RE_LATIN_FIRST, '$1 $2');
-  return t.replace(/ (\d+) /g, (m, i) => urls[Number(i)]);
+  return t.replace(/ (\d+) /g, (m, i) => urls[Number(i)]);
 }
 
 function mdLink(html, runStyle) {
