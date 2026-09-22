@@ -713,19 +713,32 @@ function parseAiResultToHtml(raw) {
   // 因此不寫 border:none，而是把邊框顏色設成跟儲存格背景色一樣，讓格線視覺上完全隱形
   const NOBORDER_PAPER = `border:1px solid #E7E1D2;mso-border-alt:none;`;
   const NOBORDER_CARD = `border:1px solid ${CARD};mso-border-alt:none;`;
-  // 分隔線用「段落的上邊框」來畫，這是唯一在 Outlook 和 Gmail 都撐得住的做法。
-  // 試過但不行的：
-  //   儲存格 border-top —— Word 對 border-collapse 的合併判斷不可靠，常挑到旁邊
-  //     那條隱形邊框，整條線就不見了。
-  //   有背景色的實心列 —— Word 會套用預設字級的最小列高，2px 的線被撐成粗黑條。
-  //   實心列 + 透明 1x1 的 data: 圖 —— Outlook 正常，但 Gmail 會擋掉 data: 內嵌圖，
-  //     破圖佔位符的高度讓黑色儲存格又變成粗黑條。
-  // 段落邊框沒有這些問題：不參與表格邊框合併，而且就算某個信箱多給了行高，
-  // 多出來的也只是信紙底色的留白，不會變成一條粗黑塊。
-  const dividerRow = (height) => `<tr><td style="padding:0;${NOBORDER_CARD}"><p style="margin:0;border-top:${height}px solid ${INK};font-size:1px;line-height:1px;mso-line-height-rule:exactly;">&nbsp;</p></td></tr>`;
+  // 分隔線一律畫在「表格儲存格」的邊框上，因為信箱的編輯器會重寫 <p> 的樣式，
+  // 但不會動表格結構——新聞之間的細線一直都正常，就是這個原因。
+  //
+  // 關鍵在於：相鄰兩格共用同一條邊，各自宣告的邊框不一樣時，排版引擎要挑一條，
+  // 而 Word 挑哪一條並不可靠（footer 上緣第一次就是這樣整條消失的）。
+  // 因此這裡讓共用邊的上下兩格宣告「完全相同」的邊框，不論挑哪邊結果都一樣。
+  //
+  // 走過的冤枉路，留著避免重蹈：
+  //   有背景色的實心列 → Word 套用最小列高，細線被撐成粗黑條
+  //   實心列 + 透明 data: 圖 → Outlook 正常，但 Gmail 擋內嵌圖，又變粗黑條
+  //   段落的 border-top → 瀏覽器正常，但貼進信箱後被編輯器清掉
+  const EDGE_HIDDEN = `1px solid ${CARD}`;   // 與底色同色 = 隱形，同時壓掉 Word 預設格線
+  const EDGE_KICKER = `3px solid ${INK}`;    // 開頭訊息下緣
+  const EDGE_ITEM = `1px solid ${LINE}`;     // 各則新聞之間
+  const EDGE_FOOTER = `2px solid ${INK}`;    // footer 上緣
+  const cellEdges = (top, bottom) =>
+    `border-left:${EDGE_HIDDEN};border-right:${EDGE_HIDDEN};border-top:${top};border-bottom:${bottom};mso-border-alt:none;`;
+
+  const afterBody = closing.length ? EDGE_HIDDEN : EDGE_FOOTER;
+  const beforeBody = kicker ? EDGE_KICKER : EDGE_HIDDEN;
 
   const itemsHtml = items.map((it, i) => `
-    <tr><td style="padding:22px 26px;border-left:1px solid ${CARD};border-right:1px solid ${CARD};border-top:1px solid ${CARD};mso-border-alt:none;border-bottom:1px solid ${i === items.length - 1 ? CARD : LINE};">
+    <tr><td style="padding:22px 26px;${cellEdges(
+        i === 0 ? beforeBody : EDGE_ITEM,
+        i === items.length - 1 ? afterBody : EDGE_ITEM
+      )}">
       <p style="margin:0 0 8px 0;font-family:${SANS};font-size:14px;mso-line-height-rule:exactly;line-height:18px;font-weight:bold;letter-spacing:1.5px;color:${BLUE};">${pad2(i + 1)}${it.media ? '&nbsp;&nbsp;/&nbsp;&nbsp;' + it.media.toUpperCase() : ''}</p>
       <p style="margin:0;font-family:${SERIF};font-size:24px;mso-line-height-rule:exactly;line-height:33px;font-weight:bold;color:${INK};">${it.titleHtml}</p>
       ${it.origTitle ? `<p style="margin:5px 0 0 0;font-family:${SANS};font-size:13px;font-style:italic;mso-line-height-rule:exactly;line-height:19px;color:${MUTED};">${it.origTitle}</p>` : ''}
@@ -735,26 +748,24 @@ function parseAiResultToHtml(raw) {
     </td></tr>`).join('');
 
   const bodyHtml = items.length ? itemsHtml : `
-    <tr><td style="padding:22px 26px;${NOBORDER_CARD}"><p style="margin:0;font-family:${SANS};font-size:18px;mso-line-height-rule:exactly;line-height:30px;color:${MUTED};white-space:pre-wrap;">${lines.join('\n')}</p></td></tr>`;
+    <tr><td style="padding:22px 26px;${cellEdges(beforeBody, afterBody)}"><p style="margin:0;font-family:${SANS};font-size:18px;mso-line-height-rule:exactly;line-height:30px;color:${MUTED};white-space:pre-wrap;">${lines.join('\n')}</p></td></tr>`;
 
   return `
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#E7E1D2" style="width:100%;${NOBORDER_PAPER}border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;background-color:#E7E1D2;font-family:${SANS};">
  <tr><td align="center" valign="top" style="padding:24px 12px;text-align:center;${NOBORDER_PAPER}">
   <table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="${CARD}" style="width:600px;margin:0 auto;text-align:left;${NOBORDER_CARD}border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;background-color:${CARD};font-family:${SANS};">
 
-    ${kicker ? `<tr><td style="padding:24px 26px 14px;${NOBORDER_CARD}">
+    ${kicker ? `<tr><td style="padding:24px 26px 14px;${cellEdges(EDGE_HIDDEN, EDGE_KICKER)}">
       <p style="margin:0;font-family:${SANS};font-size:20px;mso-line-height-rule:exactly;line-height:28px;font-weight:bold;color:${INK};">${kicker}</p>
-    </td></tr>
-    ${dividerRow(3)}` : ''}
+    </td></tr>` : ''}
 
     ${bodyHtml}
 
-    ${closing.length ? `<tr><td style="padding:4px 26px 14px;${NOBORDER_CARD}">
+    ${closing.length ? `<tr><td style="padding:4px 26px 14px;${cellEdges(EDGE_HIDDEN, EDGE_FOOTER)}">
       ${closing.map(l => `<p style="margin:0 0 6px 0;font-family:${SANS};font-size:18px;mso-line-height-rule:exactly;line-height:29px;color:#3D382F;">${l}</p>`).join('')}
     </td></tr>` : ''}
 
-    ${dividerRow(2)}
-    <tr><td style="padding:14px 26px 22px;${NOBORDER_CARD}">
+    <tr><td style="padding:14px 26px 22px;${cellEdges(EDGE_FOOTER, EDGE_HIDDEN)}">
       <p style="margin:0 0 5px 0;font-family:${SANS};font-size:11px;mso-line-height-rule:exactly;line-height:17px;color:${MUTED};">※ 各位可按「讚」加入 udn.com Co. Ltd. 聯合線上股份有限公司 FB 粉絲團，每天精選產業新聞即於各位 FB 動態消息板上出現。</p>
       <p style="margin:0;font-family:${SANS};font-size:11px;mso-line-height-rule:exactly;line-height:17px;color:${MUTED};">※ udn 同仁可於 FB 個人資料學歷與工作經驗中任職公司欄填上「udn.com Co. Ltd. 聯合線上股份有限公司」，每天精選產業新聞即於各位 FB 動態消息板上出現。</p>
     </td></tr>
