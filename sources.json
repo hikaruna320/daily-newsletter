@@ -28,7 +28,7 @@
     { "tier": "B", "name": "天下雜誌", "lang": "zh-TW", "site": "https://www.cw.com.tw", "feed": "", "enabled": false, "note": "找不到 RSS" },
     { "tier": "B", "name": "woshipm", "lang": "zh-CN", "site": "https://www.woshipm.com", "feed": "https://www.woshipm.com/feed/", "enabled": true, "note": "" },
     { "tier": "B", "name": "爱范儿", "lang": "zh-CN", "site": "https://www.ifanr.com/", "feed": "https://www.ifanr.com/feed", "enabled": true, "note": "" },
-    { "tier": "B", "name": "36Kr", "lang": "zh-CN", "site": "https://36kr.com", "feed": "https://rss.aishort.top/?type=36kr", "enabled": true, "note": "第三方服務，失效時需另尋替代" },
+    { "tier": "B", "name": "36Kr", "lang": "zh-CN", "site": "https://36kr.com", "feed": "https://36kr.com/feed", "enabled": false, "note": "被安全檢測攔住" },
     { "tier": "B", "name": "TheWrap", "lang": "en", "site": "https://www.thewrap.com", "feed": "https://www.thewrap.com/feed/", "enabled": true, "note": "" },
     { "tier": "B", "name": "Social Media Today", "lang": "en", "site": "https://www.socialmediatoday.com", "feed": "https://www.socialmediatoday.com/feeds/news/", "enabled": true, "note": "" },
     { "tier": "B", "name": "SLATE", "lang": "en", "site": "https://slate.com", "feed": "", "enabled": false, "note": "找不到 RSS" },
