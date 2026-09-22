@@ -41,7 +41,7 @@
     { "tier": "C", "name": "Openbook 閱讀誌", "lang": "zh-TW", "site": "https://www.openbook.org.tw", "feed": "https://www.openbook.org.tw/rss.xml", "enabled": true, "note": "" },
     { "tier": "C", "name": "關鍵評論網", "lang": "zh-TW", "site": "https://www.thenewslens.com", "feed": "https://www.thenewslens.com/feed/feedly", "enabled": true, "note": "" },
     { "tier": "C", "name": "獨立評論", "lang": "zh-TW", "site": "https://opinion.cw.com.tw", "feed": "", "enabled": false, "note": "找不到 RSS" },
-    { "tier": "C", "name": "經理人", "lang": "zh-TW", "site": "https://www.managertoday.com.tw", "feed": "https://www.managertoday.com.tw/rss", "enabled": false, "note": "有 RSS，但官方 feed 是空的" },
+    { "tier": "C", "name": "經理人", "lang": "zh-TW", "site": "https://www.managertoday.com.tw", "feed": "https://www.managertoday.com.tw/rss", "enabled": true, "note": "有時候會抓取失敗，先觀察看看" },
     { "tier": "C", "name": "品玩", "lang": "zh-CN", "site": "https://www.pingwest.com", "feed": "https://decemberpei.cyou/rssbox/pingwest.xml", "enabled": true, "note": "沒有官方，找第三方自建 RSS，先試試看" },
     { "tier": "C", "name": "TNW", "lang": "en", "site": "https://thenextweb.com", "feed": "https://thenextweb.com/feed/", "enabled": true, "note": "" },
     { "tier": "C", "name": "The Hollywood Reporter", "lang": "en", "site": "https://www.hollywoodreporter.com", "feed": "https://www.hollywoodreporter.com/feed/rss/", "enabled": true, "note": "" },
