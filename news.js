@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-22T03:08:29.868Z",
+ "generatedAt": "2026-09-22T08:05:23.339Z",
  "keepDays": 14,
  "sources": [
   {
@@ -64,6 +64,15 @@ window.NEWS_DATA = {
    "ok": true,
    "error": null,
    "count": 20
+  },
+  {
+   "name": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "feed": "https://www.semafor.com/rss.xml",
+   "ok": true,
+   "error": null,
+   "count": 188
   },
   {
    "name": "Poynter",
@@ -144,7 +153,7 @@ window.NEWS_DATA = {
    "feed": "https://news.cnyes.com/rss/v1/news/category/headline",
    "ok": true,
    "error": null,
-   "count": 96
+   "count": 98
   },
   {
    "name": "woshipm",
@@ -241,18 +250,18 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "zh-TW",
    "feed": "https://www.managertoday.com.tw/rss",
-   "ok": false,
-   "error": "解析不到文章",
-   "count": 0
+   "ok": true,
+   "error": null,
+   "count": 7
   },
   {
    "name": "品玩",
    "tier": "C",
    "lang": "zh-CN",
    "feed": "https://decemberpei.cyou/rssbox/pingwest.xml",
-   "ok": true,
-   "error": null,
-   "count": 24
+   "ok": false,
+   "error": "解析不到文章",
+   "count": 0
   },
   {
    "name": "TNW",
@@ -351,11 +360,6 @@ window.NEWS_DATA = {
    "name": "The Current",
    "tier": "A",
    "note": "找不到 RSS"
-  },
-  {
-   "name": "Semafor",
-   "tier": "A",
-   "note": "只有全站 feed"
   },
   {
    "name": "Press Gazette",
@@ -500,8 +504,8 @@ window.NEWS_DATA = {
    "lang": "en",
    "site": "https://www.semafor.com/vertical/media",
    "feed": "https://www.semafor.com/rss.xml",
-   "enabled": false,
-   "note": "只有全站 feed"
+   "enabled": true,
+   "note": ""
   },
   {
    "tier": "A",
@@ -866,6 +870,1470 @@ window.NEWS_DATA = {
  ],
  "items": [
   {
+   "id": "ghyngt",
+   "title": "〈房產〉房仲調查：看跌房價從6成收歛到3成 房市信心轉中性 新竹最樂觀",
+   "url": "https://news.cnyes.com/news/id/6613039",
+   "summary": "台灣央行第七波管制對房市的干擾逐漸淡化。信義房屋(9940-TW)最新購屋意向調查顯示，看跌房價比例從管制後最高約6成，一路收斂到本季的29%，創管制以來新低，但信心並未轉多，42%受訪者認為房價持平，市場回到中性看待。 信義房屋針對網路會員進行購屋意向調查，本季調查購屋信心是第七波信用管制以來看",
+   "date": "2026-09-22T08:00:17.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "5fpwj2",
+   "title": "請問台北市長候選人：除了「再多送一瓶鮮奶」，你們對孩子的營養政見是什麼？",
+   "url": "https://www.thenewslens.com/article/270201",
+   "summary": "本文評論「生生喝鮮奶」政策，雖立意良善，但執行不便徒增家長負擔，且政策零碎。呼籲候選人應提出宏觀的整體營養政見，將學童、家長與採購串連，而非僅是單點式發放福利。",
+   "date": "2026-09-22T08:00:00.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "ghy3fb",
+   "title": "AI榮景背後：分析師警告算力層脆弱性與科技巨頭債務壓力等風險",
+   "url": "https://news.cnyes.com/news/id/6612986",
+   "summary": "Haissl警告AI算力層承壓，資金來源風險升高 點名Nebius、CoreWeave與甲骨文，均給賣出評級 亞馬遜、微軟、Alphabet發債籌資，AI交易結構性脆弱",
+   "date": "2026-09-22T07:50:03.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "12ncwez",
+   "title": "关于本地生活供应链，我重新想了三层逻辑",
+   "url": "https://www.woshipm.com/share/6468323.html",
+   "summary": "最近我在重新复盘自己做本地生活供应链这件事，门店规模只是表象，真正决定供应链能否成立的是需求频率、SKU集中度、有效门店密度和持续采购率；在此基础上把服务与产品标准化，才有机会从卖货走向经营能力与壁垒。 最近我在重新复盘自己做本地生活供应链这件事。 过去几年，我们从流量做到门店规模，再往下自然会碰到供应链。以前我会觉得，只要门店数量足够多，供应链就有机会成立，但真正往下做之后，我越来越觉得，门店规模只是一个表象，供应链最后比拼的还是需求组织能力、经营效率和系统深度。 如果把最近的思考收束一下，我会分成三层。 第一层：有门店，为什么不一定有供应链？ 真正的供应链不是建立在门店数量上，而是建立在稳",
+   "date": "2026-09-22T07:48:02.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "1ce8isv",
+   "title": "小米迈向 RSI，MiMo-V2.6 正式上线，347 万美元完成一轮大规模 RL",
+   "url": "https://www.woshipm.com/ai/6468320.html",
+   "summary": "小米正式发布并开源MiMo-V2.6系列，含Pro与Flash两款原生全模态模型，并推出UltraSpeed版本，最高提供20倍输出速度。这轮训练把重心放在大规模强化学习上，团队称它可能是开源模型团队迄今规模最大的单次RL训练之一。 9 月 22 日，小米正式发布并开源 MiMo-V2.6 系列，包括 MiMo-V2.6-Pro 和 MiMo-V2.6-Flash 两款原生全模态模型。 其中，Pro 是目前 MiMo 能力最强的模型，Flash 更强调能力、效率与成本之间的平衡。小米还同步推出 MiMo-V2.6-Pro-UltraSpeed，在模型质量保持一致的情况下，最高提供 20 倍输出",
+   "date": "2026-09-22T07:47:16.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "vkfj6d",
+   "title": "腾讯音乐内测“MusicBuddy”，与阿里HappyShrimp、字节妙响开启三国杀？",
+   "url": "https://www.woshipm.com/ai/6468317.html",
+   "summary": "腾讯音乐正在内测面向音乐人的AI音乐创作工具MusicBuddy，主工作区保留传统DAW的多音轨编辑视图，左侧嵌入AI对话面板，可用自然语言调整音轨、更换乐器、改写歌词，链路还延伸到发行与宣推经营。 腾讯音乐正在内测AI音乐创作工具“MusicBuddy”，这是一款面向音乐人的智能创作平台，灵感创作、精修发行、宣推经营，通过AI对话全程就能搞定音乐创作。 最近一年AI音乐赛道热度持续走高，海外标杆Suno受版权诉讼影响进行版本迭代，国内字节、阿里先后推出自有AI音乐工具妙响和HappyShrimp，大厂博弈逐步浮出水面。 在此背景下，腾讯音乐推出面向音乐人的智能创作平台MusicBuddy，有",
+   "date": "2026-09-22T07:46:36.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "sz8axd",
+   "title": "Qwen也能复刻的Jev，一周内被塞进了这么多产品",
+   "url": "https://www.woshipm.com/ai/6468313.html",
+   "summary": "当AI不再只会聊天，TypeSafe在9月15日公开的Jev只接收一段状态信息和一组问题，返回选择结果、分数或概率。社区一边质疑思路不新、架构未公开，一边把它接进真实流程：虚拟试衣产品Drape的实验中，每次判断约620毫秒。 TypeSafe在9月15日公开这款模型时，给它取了一个很大的名字，System One Model。 它不写回复，也不生成代码，只接收一段状态信息和一组问题，然后返回选择结果、分数或者概率。 上线没多久，社区里就出现两种截然不同的看法。 不少开发者直言，这个思路不算新鲜。给一段文字，配上几组备选答案，让模型挑最合适的选项，这类做法早就有人做过。 零样本分类就能完成类似",
+   "date": "2026-09-22T07:45:27.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "1ksr77d",
+   "title": "套餐、赠品和折扣，企业要重新算税了",
+   "url": "https://www.woshipm.com/pd/6468311.html",
+   "summary": "一家公司卖出一套10万元的设备套餐，里面有设备、安装服务、后续维护和免费赠品，客户又谈下1万元折扣。9月1日起实施的增值税新规要求先判断这笔业务是一项交易还是多项交易，再谈价格分配、税率与发票行数。 一家公司卖出一套10万元的设备套餐。 里面有8万元设备、1万元安装服务、1万元后续维护，还免费送了一批配件。签合同时，客户又谈下1万元折扣，最后付款9万元。 销售人员觉得这笔业务很简单：一份合同、一个套餐、一个总价。 到了财务这里，问题一下就多了： 设备和安装是一起计税，还是拆开计税？后续维护算不算套餐的一部分？免费配件要不要计税？1万元折扣应该分到哪些项目？发票最后开成几行？ 这类业务在企业里很",
+   "date": "2026-09-22T07:39:54.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "1uqz93x",
+   "title": "Palantir, Goldman Sachs and One Peak alumni raise €5M pre-seed round to build a tech-native audit firm",
+   "url": "https://thenextweb.com/news/benford-raises-5m-tech-native-audit-firm",
+   "summary": "For two decades, the standard way to modernize auditing has been to build software and sell it to auditors. Benford has decided to skip the middleman and become the auditor. Today, the Oslo- and London-based company Benford announced it has raised €5 million in pre-seed funding to build a tech-focus",
+   "date": "2026-09-22T07:39:13.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "TNW",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://thenextweb.com"
+  },
+  {
+   "id": "ghynfw",
+   "title": "老屋增 智生活推社區財務管理系統從管理費代收延伸至社區數位治理",
+   "url": "https://news.cnyes.com/news/id/6613029",
+   "summary": "隨著住宅老化、公共設施陸續進入維修週期，社區財務管理已不只是每月記帳，更關係到公共資金透明、資料追溯與管委會交接。智生活(7836-TW)社區服務平台宣布，將於明(23)日開放「社區財務管理系統」試用，整合日常收支、憑證保存、財務報表與交接資料，協助社區建立可延續的數位治理流程。 內政部政務次長董",
+   "date": "2026-09-22T07:34:46.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghynfr",
+   "title": "日盛台駿國際融資租賃獲銀行團人民幣12億元聯貸 超額認購240%",
+   "url": "https://news.cnyes.com/news/id/6613024",
+   "summary": "日盛台駿國際租賃集團旗下的「日盛台駿國際融資租賃有限公司」，獲得由瑞穗銀行統籌主辦、10家銀行參與的12億元人民幣聯貸，本月21日完成簽約儀式；最終募集金額超額認購 240%，顯示銀行團對公司經營前景的肯定。 日盛台駿表示，本聯貸案原預計籌募金額為人民幣5億元，在各銀行踴躍參貸下，超額認購總募集金",
+   "date": "2026-09-22T07:32:39.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "f1qvz4",
+   "title": "突发！支付宝换帅",
+   "url": "https://www.woshipm.com/share/6468418.html",
+   "summary": "差4000块，她当年可能就留不在阿里了。 2000年底，刚加入阿里不久的吴敏芝赶上公司收缩，开始背销售指标。按照《阿里铁军》里的记录，当时连续三个季度业绩不到4.5万元，就可能被淘汰。 最后一周，吴敏芝还差4000块。最终，她靠给一家服装公司做了一单4000元的Banner广告，踩线留下。 更离谱的是——第二年，她成了销售冠军。 26年后，这个曾经差点被阿里淘汰的人，接手了支付宝。 今天晚间，蚂蚁集团CEO韩歆毅发布全员信，支付宝迎来新一轮大调整。原来的支付宝事业群、数字支付事业群和芝麻信用事业部正式“会师”，组成全新的支付宝事业群。 吴敏芝担任总裁，同时继续兼任蚂蚁集团CPO。官方给出的方向",
+   "date": "2026-09-22T07:30:09.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "ghy0q3",
+   "title": "警訊浮現！標普500強勢攻高 為什麼近6成成分股悄悄進入熊市？",
+   "url": "https://news.cnyes.com/news/id/6612614",
+   "summary": "標普500逼近歷史高點，但59.2%成分股較歷史高點跌逾20%，市場廣度惡化。 科技七巨頭、半導體與AI概念股領漲，AMD周一飆升9.95%。 油價上漲、10年期美債殖利率近5%與通膨壓力仍牽動資金配置。",
+   "date": "2026-09-22T07:30:03.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "7metek",
+   "title": "一天工作 3 小时，我不允许任何人还没使用 AI + 知识库！太无敌了！",
+   "url": "https://www.woshipm.com/share/6467325.html",
+   "summary": "一个人 1 到 2 个月靠 AI 做完整套课程课件，80% 到 90% 的活都交给 AI。核心结论是上下文决定了写内容的质量：给足背景与知识库，而非一句帮我写方案。他还用外部 Skill 做 PPT 海报，把日常谈话交 AI 当咨询助理，思路来自生财航海家大课。 说到用 AI 提效，现在大家能想到的基本都是写文案、产品开发之类的，但 AI 的能力其实很多元，能够用在我们工作的所有方面。 我有80%～90%的工作，都交给了 AI ，一天只工作 3 小时，也是 AI 的功劳。 比如，最近几个月我上了几次线下课，做了很多课件，这些课件、PPT，所有的内容都是我自己一个人，在这1～2个月的时间里做的。",
+   "date": "2026-09-22T07:26:39.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "85km03",
+   "title": "牛市回歸？比特幣漲破 8.5 萬美元，9 月幣市市值增 17.6%",
+   "url": "https://www.inside.com.tw/article/42455-bitcoin-bull-market-community-sentiment-sept-2026",
+   "summary": "比特幣於 9 月 21 日在 24 小時內上漲 5.7%，觸及 85,111 美元，帶動全球加密貨幣市場市值在 9 月份增加 17.6%，達 2.7 兆美元。本輪漲勢以法人資金流入為主要驅動力，散戶投機情緒尚未全面升溫，社群對牛市前景意見分歧。",
+   "date": "2026-09-22T07:22:00.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "INSIDE",
+   "tier": "A",
+   "lang": "zh-TW",
+   "site": "https://www.inside.com.tw"
+  },
+  {
+   "id": "ghy0xh",
+   "title": "馬斯克聯手輝達押注軌道AI！100萬顆衛星上限已申請 太空機房要比星鏈大百倍",
+   "url": "https://news.cnyes.com/news/id/6612696",
+   "summary": "Ron Baron上周四推廣馬斯克旗下軌道AI專案Starmind，稱太空資料中心具低成本與高擴充性 FCC 2月4日受理SpaceX軌道資料中心申請，規劃500至2000公里近地軌道最多100萬顆衛星 輝達已確認合作，伍德麥肯錫估1GW軌道資料中心約1700億美元；外界質疑成本與技術細節仍未明",
+   "date": "2026-09-22T07:15:17.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghy2ky",
+   "title": "比爾蓋茲警告：AI就像人造外星人 不能再當普通科技看待",
+   "url": "https://news.cnyes.com/news/id/6612882",
+   "summary": "比爾蓋茲稱AI不像既有科技，是人類創造、置入電腦的「外星人」 他憂心AI指數級進步遠超社會準備，且可編程、找漏洞甚至入侵系統 蓋茲盼更多人參與討論AI風險，並呼籲富裕國家恢復援助低收入國家",
+   "date": "2026-09-22T07:10:05.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghyndu",
+   "title": "地緣政治緊張推升原油期貨 Meta AI熱潮助攻亞洲股市",
+   "url": "https://news.cnyes.com/news/id/6613001",
+   "summary": "地緣政治情勢發展與人工智慧(AI)需求增溫，同時成為周二(22日)影響國際原油價格與亞洲股市走勢的主因。 美伊會談前景不明 受市場對本周聯合國大會期間美伊會談的樂觀情緒減退影響，國際原油期貨價格周二走高。根據洲際交易所(ICE)數據，近月布蘭特原油期貨上漲 1.6%，收在每桶 101.99 美元",
+   "date": "2026-09-22T07:08:53.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "bi4i8m",
+   "title": "提示词工程还在，分享我 3 年的 Prompt 经验",
+   "url": "https://www.woshipm.com/ai/6468309.html",
+   "summary": "回想起2023年ChatGPT刚火起来的时候，提示词是个热门话题。三年过去，用日常聊天的方式说几句，模型往往就能理解需求，于是问题变成：还有必要专门学提示词工程吗？文章从模型生成回答的原理讲起，再谈常用写法。 回想起 2023 年 ChatGPT 刚火起来的时候，提示词可是个热门话题。各种教程、模板在网上满天飞，教你怎么给 AI 设定角色、拆解任务、约束回答格式。为了得到一个满意的答案，往往要先准备一大段提示词。 之前在网络上看到过一段话， 对提示词的一段介绍我觉得挺有意思的： 提示词 是 AGI 时代的 编程语言。 提示词工程是 AGI 时代的 软件工程。 提示词工程师是 AGI 时代的 程",
+   "date": "2026-09-22T07:03:51.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "1htg40",
+   "title": "字节营收8000亿，快顶上阿里腾讯总和了",
+   "url": "https://www.woshipm.com/ai/6468402.html",
+   "summary": "这两天看到字节跳动最新的一组财务数据，我又重新算了一遍。 然后发现，这家公司现在的体量确实有点夸张了，也难怪张一鸣喜提亚洲首富。 The Information最新披露，2026 年上半年，字节跳动营收已经达到 1200 亿美元，同比增长约 30%；净利润约 200亿美元。 按照现在人民币对美元大约 6.7左右的汇率粗略换算： 半年营收大约 8000 亿元，净利润约1340 亿元。 8000 亿是什么概念？ 拿国内几个互联网大厂放在一起看就知道了。 腾讯今年上半年营收约 4012 亿元，归母净利润 1141 亿元。阿里今年 1—6月两个季度营收加起来约 5123 亿元。 也就是说： 阿里+腾讯",
+   "date": "2026-09-22T07:01:01.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "ghyne2",
+   "title": "外匯速報 - 美元/台幣(USDTWD) 大跌0.29%，報31.665元",
+   "url": "https://news.cnyes.com/news/id/6613009",
+   "summary": "美元/台幣(FX:USDTWD:FOREX)盤中下跌，漲跌幅、近日週月績效、相關指數表現、即時新聞資訊。",
+   "date": "2026-09-22T07:00:22.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "1op6glo",
+   "title": "同事是真的有自信，還是自戀狂？心理學家：看他如何對待「不如自己的人」最準",
+   "url": "https://www.managertoday.com.tw/articles/view/72960",
+   "summary": "真正的安全感不在於頭銜、業績或談吐，而在於如何對待他人、面對錯誤與承認脆弱。5個跡象，教你在面試、合作與評估主管時，分辨誰是真安全感，誰只是假自信。",
+   "date": "2026-09-22T06:57:21.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "經理人",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.managertoday.com.tw"
+  },
+  {
+   "id": "7mbnv4",
+   "title": "演员不再是瓶颈那一刻，我突然想起自己被剧本逼疯的那个通宵",
+   "url": "https://www.woshipm.com/ai/6468303.html",
+   "summary": "前阵子跟一个做AI短剧的朋友喝酒，他说以前剧本写完才是开始，现在剧本写完反而结束了。字节的Seedance 2.5能一次生成30秒连贯镜头并接着续写，演员从先于剧本存在的活人变成剧本喂出来的结果，预算重心也从档期和补拍移向剧本迭代。 前阵子跟一个做AI短剧的朋友喝酒，他说了句话我记到现在： “以前剧本写完是开始，现在剧本写完是结束。” 以前一个本子写完，真正的战争才刚开始——找演员、对档期、跟组、补拍、剪辑救场。剧本上写“她转身，眼神复杂”，片场可能因为演员今天状态不好，或者场记漏拍了一条关键的正反打，最后剪出来“眼神复杂”变成“面无表情”。 我自己跟组熬过一个通宵，就是为了等一个演员从另一个",
+   "date": "2026-09-22T06:57:10.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "ghy3g7",
+   "title": "鉅亨投資雷達》高所得族群必看！投資海外如何用境內基金聰明節稅？",
+   "url": "https://news.cnyes.com/news/id/6612995",
+   "summary": "境外基金屬海外所得，單一申報戶海外所得達100萬元須全數計入基本所得額，基本所得額超過750萬元才可能產生基本稅額。 同樣海外所得下，林先生海外所得600萬元基本稅額30.72萬元低於一般所得稅額48.07萬元，王小姐海外所得800萬元則須補繳22.65萬元。",
+   "date": "2026-09-22T06:50:58.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "1hp67r4",
+   "title": "一文读懂PDM管理",
+   "url": "https://www.woshipm.com/share/6468364.html",
+   "summary": "制造企业研发管理正从传统PDM向云原生PLM演进，成本直降一个数量级。本文用5W1H框架拆解PDM的概念、发展、价值与选型策略，对比PDM、PLM、云PLM的差异，并给出不同规模企业的部署顺序与成本参考，帮助中小企业找到最适合的数字化起点。 PDM是制造企业产品数据管理的核心工具，并逐渐发展出了PLM、云PLM等新形态，在功能增加的同时成本也有大幅降低，已经成为企业研发管理的最优选择，并逐渐被有产品创新需求的中小企业所接纳。 本文会从PDM的概念和功能（What）、PDM的发展（Which）、PDM的使用场景和价值（Why）、哪些企业适合先部署PDM/PLM（When、Who）、怎么选择合适P",
+   "date": "2026-09-22T06:49:56.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "1w6w0my",
+   "title": "“中国版暗网”，不是对闲鱼的褒奖",
+   "url": "https://www.woshipm.com/share/6468061.html",
+   "summary": "一个 14 岁女孩在二手平台被明码标价，客服信息里写着「处宝可约」。文章从河北经视的暗访报道切入，梳理涉黄暗号如何借用日常词汇不断变异，并追问平台审核为何在「日抛式」暗号面前几乎失效。 一个14岁女孩，在闲鱼上被明码标价。标价2到3万，客服个人信息里赫然写着四个字——“处宝可约”。 这不是什么地下论坛的暗网链接，而是中国最大的二手交易平台。 2026年9月，河北经视《今日调查》的暗访报道撕开了闲鱼光鲜的外壳：涉黄产业链完整得令人心惊，从引流暗号到站外交易，从“上门”到“处宝可约”，甚至未成年人都被卷入其中。 闲鱼随后回应称，今年已累计处置色情引流类风险账号98358个，配合警方打掉15个色情团",
+   "date": "2026-09-22T06:49:21.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "gd1nh5",
+   "title": "你与AI之间，隔着一整套认知操作系统",
+   "url": "https://www.woshipm.com/ai/6468375.html",
+   "summary": "大多数人把AI用成了高级搜索，少数人用成了实习生，而真正的高手把它用成了思维延伸器官。本文从底层认知出发，拆解角色、场景、风格、目标四维约束系统，并给出可复用的工程级指令构建器，帮你彻底升级与AI协作的操作系统。 大多数人把AI用成了高级搜索。少数人把它用成了实习生。而真正的高手，把它用成了自己思维的延伸器官。 这三者之间的差距，不是几个提示词技巧能填平的。它是一整套认知操作系统的代差。 网上流传的那些“角色扮演”“给参考”“说人话”之类的技巧，本质上是这套操作系统里最表层的应用软件。你装了再多应用，底层系统不升级，该卡还是卡，该笨还是笨。 今天聊的，是底层系统的事。 一个被普遍忽略的底层事实",
+   "date": "2026-09-22T06:44:51.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "ghy3f9",
+   "title": "隱形冠軍又少一個？台灣扣件市占穩居全球前三 「斷崖式」人力缺口年增24%成隱憂",
+   "url": "https://news.cnyes.com/news/id/6612984",
+   "summary": "台灣為全球第3大扣件出口地區，近年來扣件產業「高值化」轉型逐步顯現成效。根據扣件業者統計，2026年8月單月出口總額達3.57億美元，雖受到全球建材及一般工業需求放緩影響，年減6.93％，但今年前8月平均出口單價逆勢上揚5.15％，攀升至每公斤3.67美元，顯示台灣業者轉型高附加價值產品的策略已展現",
+   "date": "2026-09-22T06:43:50.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghy3de",
+   "title": "針對涉嫌違反伊朗制裁 美聯邦檢察官調查幣安",
+   "url": "https://news.cnyes.com/news/id/6612963",
+   "summary": "美國曼哈頓聯邦檢察官調查幣安是否違反對伊朗經濟制裁 美司法部已就兩家香港公司經幣安洗錢6,100萬美元伊朗黑市石油收益提民事沒收訴訟 幣安稱對違反制裁零容忍、全力配合執法；調查未必導致起訴",
+   "date": "2026-09-22T06:40:04.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "1op6gmu",
+   "title": "瘋狂產出，其實是新型偷懶！別再一鍵送出「AI 垃圾手榴彈」，留給同事收拾",
+   "url": "https://www.managertoday.com.tw/articles/view/72979",
+   "summary": "用 AI 趕完報告，卻被主管退回重做；同事寄來大量資料，你還得替他找重點。省時的 AI 工具為何讓大家更忙？當產出愈來愈快，品質把關反而成了團隊的新負擔。",
+   "date": "2026-09-22T06:27:31.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "經理人",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.managertoday.com.tw"
+  },
+  {
+   "id": "t8znku",
+   "title": "两个人给网红装了个“AI 大脑”：两个月做出 20 亿播放、涨粉 400万",
+   "url": "https://www.woshipm.com/chuangye/6467290.html",
+   "summary": "Grocalo刚进入Y Combinator夏季批次，给创作者装一个会分析历史视频与平台数据的AI大脑，参与选题、优化与跨平台改编。公司仅两人，称过去两个月为客户带来20亿次播放与400万新增粉丝。 今天分享的产品很讨巧，叫 Grocalo，https://grocalo.com/ 现在做自媒体，最不缺的可能就是 AI 工具。 ChatGPT 们可以写脚本，AI 可以做封面、剪视频、加字幕、翻译，甚至直接生成一条完整视频。 但真正做过内容的人都知道，最难的往往不是把一条视频做出来，而是： 今天到底发什么？ 同样一段素材，应该剪成什么样？ 为什么上周这条突然爆了，另外一条几乎没人看？ TikTo",
+   "date": "2026-09-22T06:24:36.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "asbb8a",
+   "title": "康养/养老Agent 的下半场，胜负手不在模型，在「谁来签字」",
+   "url": "https://www.huxiu.com/article/4893127.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/22/36475-prod-db-general-1-1790058177567.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>9月20日下午，一场讲康养Agent的论坛，8位嘉宾，三个小时。我是带着一个预期去听的：这类行业论坛，通常会把大半篇幅花在能力覆盖有多全",
+   "date": "2026-09-22T06:24:30.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "1op6gmq",
+   "title": "HR 人資怎麼用 AI？完整教學：10 大工作情境拆解，可複製 Prompt 一次看",
+   "url": "https://www.managertoday.com.tw/articles/view/72975",
+   "summary": "人資怎麼用 AI？從撰寫 JD、篩履歷到績效面談，拆解 10 大工作情境，每個情境都附可複製 Prompt 與官方出處，並標出就業服務法、個資法下必須由人把關的界線。",
+   "date": "2026-09-22T06:23:53.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "經理人",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.managertoday.com.tw"
+  },
+  {
+   "id": "ghy0pz",
+   "title": "防AI自主升級失控！OpenAI提安全新標準 聚焦對齊研究與RSI技術風險",
+   "url": "https://news.cnyes.com/news/id/6612610",
+   "summary": "OpenAI公布尖端AI安全防護建議，聚焦對齊研究與遞迴自我改進(RSI) OpenAI籲各國合作制定前沿AI標準，強調自動化AI研究人員的風險管理 OpenAI提Hugging Face遭AI代理駭入為預演，稱若無防護RSI恐使人類失去控制",
+   "date": "2026-09-22T06:21:41.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghy3ef",
+   "title": "台積電供應鏈迅得將持續南下建立生產基地 將發行5億元無擔保CB籌資",
+   "url": "https://news.cnyes.com/news/id/6612977",
+   "summary": "迅得8月營收6.11億元，年增11.5%，創歷年同期新高；2026年1-8月營收48.18億元。 擬發行以5億元無擔保可轉換公司債籌資，22日獲金管會申報生效，預計10月中旬完成募集。 營運總部產能已滿載，全年營收估年增10-15%；半導體及PCB設備需求續強。",
+   "date": "2026-09-22T06:15:20.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghy2l2",
+   "title": "1450億美元AI豪賭開始兌現？Muse成Meta消費市場突破口",
+   "url": "https://news.cnyes.com/news/id/6612886",
+   "summary": "Meta平台(META-US) 本月推出的個人AI代理Muse迅速竄紅，下載量超越OpenAI的ChatGPT。這波熱度不僅帶動Meta股價單日大漲逾11%，也讓市場首度看見，Meta今年最高1,450億美元的AI資本支出，可能透過消費級產品轉化為實際回報。 Muse於本月8日在美國上線，定位並非",
+   "date": "2026-09-22T06:11:21.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghy3eh",
+   "title": "外匯速報 - 美元/韓元(USDKRW) 大跌1.24%，報1358.07元",
+   "url": "https://news.cnyes.com/news/id/6612979",
+   "summary": "美元/韓元(FX:USDKRW:FOREX)盤中下跌，漲跌幅、近日週月績效、相關指數表現、即時新聞資訊。",
+   "date": "2026-09-22T06:10:22.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "1mzrjqx",
+   "title": "對標 Claude Fable 5！旗艦模型 Grok 4.7 正式上線，開發者可透過 API 與 GitHub Copilot 使用",
+   "url": "https://www.inside.com.tw/article/42456-grok-47-xai-launch-api-github-copilot-sept-2026",
+   "summary": "xAI 於 9 月 21 日正式推出 Grok 4.7，新模型可透過 xAI API、GitHub Copilot、Cursor 和 Grok Build 使用，主打代理式程式開發（agentic coding）與長脈絡管理，但 grok.com 網頁版與 X 平台上的 Grok bot 目前尚未見到開放。",
+   "date": "2026-09-22T06:07:00.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "INSIDE",
+   "tier": "A",
+   "lang": "zh-TW",
+   "site": "https://www.inside.com.tw"
+  },
+  {
+   "id": "ghy3cf",
+   "title": "油價回落與半導體出口強勁 韓元大漲1.5%領跑亞幣",
+   "url": "https://news.cnyes.com/news/id/6612951",
+   "summary": "受到國際油價急跌、南韓出口數據強勁及外資湧入等多重利多帶動，韓元兌美元匯率周二(22日)顯著走揚，韓元單日漲幅一度擴大至1.5%，來到1,352.90韓元兌1美元，創下五周以來最大單日升幅，表現大幅跑贏其他亞洲貨幣。 市場數據顯示，韓元兌美元當日開盤報1,371韓元，較前一交易日收盤價升約0.67",
+   "date": "2026-09-22T06:06:49.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "k70kdr",
+   "title": "How The Times, Telegraph and Hearst are prioritising quality over quantity for long-term, sustainable audience growth",
+   "url": "https://voices.media/how-the-times-telegraph-and-hearst-are-prioritising-quality-over-quantity-for-long-term-sustainable-audience-growth",
+   "summary": "As pressures on traffic and discovery grow, coupled with the bombardment of AI ‘slop’, there is an opportunity for publishers … The post How The Times, Telegraph and Hearst are prioritising quality over quantity for long-term, sustainable audience growth appeared first on MediaVoices.",
+   "date": "2026-09-22T06:00:54.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "MEDIAVOICES",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://voices.media"
+  },
+  {
+   "id": "1tqxiv6",
+   "title": "Morphotonics raises €40M to expand its display tech into data centers",
+   "url": "https://techcrunch.com/2026/09/21/morphotonics-raises-e40m-as-it-tk-tk-tk-t",
+   "summary": "Deeptech company Morphotonics raises €40M from investors including 3M Ventures, Innovation Industries, BOM, and Invest-NL.",
+   "date": "2026-09-22T06:00:00.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "TechCrunch",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://techcrunch.com"
+  },
+  {
+   "id": "5fpwls",
+   "title": "餐飲缺工新解方？燒肉品牌彩豚屋雇 AI 當員工",
+   "url": "https://www.thenewslens.com/article/270230",
+   "summary": "為解決缺工及漏接電話，燒肉品牌彩豚屋導入 AI 員工。AI 能 24 小時自動處理訂位、同步系統，使人力專注現場服務，不再錯失商機。",
+   "date": "2026-09-22T06:00:00.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "j1i47g",
+   "title": "Google 新 AI 工具瞄準事實查核，協助追查 AI 假影像",
+   "url": "https://feja.org.tw/83319",
+   "summary": "當 AI 生成影像愈來愈逼真，新聞媒體面對的挑戰，也不再只是判斷一張圖片「是真是假」。每天，事實查核團隊都在處理大量在社群媒體流傳的虛假與誤導性影像，從 AI 生成的政治人物照片、被抽離原始脈絡的災難畫面，甚至是針對企業家與公眾人物製作的深偽內容。 Google DeepMind 開發的實驗性工具 Backstory，正試圖解決這個問題。",
+   "date": "2026-09-22T05:58:04.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Excellent",
+   "tier": "A",
+   "lang": "zh-TW",
+   "site": "https://www.feja.org.tw"
+  },
+  {
+   "id": "7jt9x1",
+   "title": "车企掀桌子，宁德时代的“宁王梦”醒了？",
+   "url": "https://www.huxiu.com/article/4893122.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/22/36472-prod-nb2qnf-general-1-1790056583567.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>一场利润、技术与话语权的再分配。9月18日，宁德时代收报301.95元，创2025年9月以来收盘新低。Wind数据显示，公司股价",
+   "date": "2026-09-22T05:58:00.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "ghy3cm",
+   "title": "金融力挺低碳轉型！新光合纖56.25億永續聯貸案到位 9家銀行超額認購1.43倍",
+   "url": "https://news.cnyes.com/news/id/6612958",
+   "summary": "兆豐銀、國泰世華、台北富邦統籌主辦新光合纖56.25億元永續聯貸，今完成簽約 9家金融機構參與，超額認購1.43倍，市場反應熱烈 資金用於償債、充實週轉金及循環經濟、綠色製程升級，並連結永續績效利率優惠",
+   "date": "2026-09-22T05:57:30.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghy3bp",
+   "title": "〈台股盤後〉漲逾800點創新高後虎頭蛇尾 小漲81點收最低47800點",
+   "url": "https://news.cnyes.com/news/id/6612948",
+   "summary": "台股22日盤中一度衝上48,601點創歷史新高，終場漲81.33點收47,800.17點，成交量1.02兆元 聯發科早盤攻上5,480元新天價，帶動台積電、台達電、鴻海、日月光投控等權值股與電子股走強 資金輪動至IC載板與IC設計，欣興、景碩、南電亮燈，信驊成台股首支突破2萬元個股、創意漲停",
+   "date": "2026-09-22T05:54:19.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "1pdpc1g",
+   "title": "客户教我写AI汇报PPT，嫌我太老实了",
+   "url": "https://www.woshipm.com/ai/6467344.html",
+   "summary": "做 FDE 到第九周，知识库样板间已搭完、几千份文档切完调试，幻觉压到 90% 以内，汇报 PPT 却被打回，甲方说结构都在但写得平平。客户负责人教他要学会吹：以终为始、量化业务价值、给领导造记忆点，并总结出 AI 汇报材料的四步骨架。 这周我的FDE工作，不是聊需求、不是出方案，也不是写Agent，而是花了一周时间，改给客户汇报的PPT材料。 是的，就在这周二上午，我在线上参加客户的项目预审会，被客户教了半天怎么给领导写PPT。 教我的人，是这个项目的甲方负责人，W主任。 他的原话是： “说句不好听的，让吹牛你都不会吹，都一个个太老实了。你们要学会吹，你们真的不会吹。” 我在这个项目做FDE",
+   "date": "2026-09-22T05:51:27.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "6wigus",
+   "title": "从11000只到400只，香港为什么还是出了人命",
+   "url": "https://www.huxiu.com/article/4893121.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/22/36471-prod-nb2qnf-general-1-1790055787069.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>9月19日晚上11点40分左右，一名27岁的女子从元朗港铁站出来，扫了一辆共享单车回家。大约15分钟后，路边的监控拍到她的单车后",
+   "date": "2026-09-22T05:44:21.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "697nsj",
+   "title": "日本这亚运会办的……不如印度",
+   "url": "https://www.huxiu.com/article/4893120.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/22/36470-prod-nb2qnf-general-1-1790055759768.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>日本这届亚运会办得有多糟呢？看看大家都在骂“不如印度”就知道了。众所周知，在承办体育这个事情上，印度是少有的能让各国体育官员、运",
+   "date": "2026-09-22T05:44:00.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "1pr4c9n",
+   "title": "匪夷所思的肯尼亚开庭纪实",
+   "url": "https://www.huxiu.com/article/4893119.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/22/36469-prod-nb2qnf-general-1-1790055757987.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>在中国，法院通常是一个让人不由自主降低音量的地方。大门庄严，安检严格，法庭肃穆，法官穿着法袍坐在高高的审判席上，一声“现在开庭”",
+   "date": "2026-09-22T05:43:50.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "1p3tj7e",
+   "title": "美国打伊朗，中国是目标？阿拉伯舆论场为何流行这套叙事？",
+   "url": "https://www.huxiu.com/article/4893118.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/22/36468-prod-nb2qnf-general-1-1790055697733.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>美伊战争爆发以来，部分阿拉伯国家直接承受战火，中东的命运充满变数。普遍的担忧是，在以色列的推动下，战事扩大到埃及、土耳其等国，最",
+   "date": "2026-09-22T05:42:52.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "1n4mbdl",
+   "title": "組織規模大就能待到退休？我的裁員經驗談：即使公司仍在獲利，也可能要你走人",
+   "url": "https://www.managertoday.com.tw/books/view/72966",
+   "summary": "當大公司不再是鐵飯碗，被動等待只會讓你陷入被淘汰的困境。打造不可替代的個人價值與職場生存力，才是保護自己的最佳策略，別再當「職場巨嬰」！",
+   "date": "2026-09-22T05:41:16.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "經理人",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.managertoday.com.tw"
+  },
+  {
+   "id": "1ogiq55",
+   "title": "贾国龙将西贝推向悬崖：曾被时代眷顾的企业家们总会高估自己",
+   "url": "https://www.huxiu.com/article/4893117.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/article/article_default_picpath_v1.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>昨天，“贾国龙发声”又登上热搜。他在演讲中恳请监管部门进一步厘清高流量网络账号的言论边界，区分正常舆论监督、观点辩论和恶意贬损、商业诋毁、网络软暴力。他认为“部分手握巨大流量的账号，在发生纠纷后绕开行业",
+   "date": "2026-09-22T05:41:12.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "ghy1m8",
+   "title": "全球債市殺聲隆隆！美債竟排不進前四 這四國拋售更猛烈",
+   "url": "https://news.cnyes.com/news/id/6612736",
+   "summary": "美國10年期公債殖利率上週一度升至5.04%，創2007年以來最高 過去一年韓國、日本、澳洲、法國10年期殖利率分別升178、145、114、102個基點，升幅皆高於美國 油價上漲、通膨黏性、政府舉債需求激增推升長債拋售，房貸、企業發債與股票等風險資產面臨更高成本",
+   "date": "2026-09-22T05:41:10.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghy3bj",
+   "title": "越南總書記：「非常接近」與美國達成貿易協議 否認轉口中國商品",
+   "url": "https://news.cnyes.com/news/id/6612942",
+   "summary": "越共中央總書記兼國家主席蘇林周一(21日)出席聯合國大會期間，接受彭博電視專訪時表示，越南與美國已「非常接近」達成貿易協議。蘇林強調，越南正積極縮小對美貿易順差，並嚴管商品轉口，絕不允許中國商品透過越南違規「轉口貿易」以規避美方關稅。 談及兩國談判進度，蘇林指出：「我們需要與美國領導人，特別是美國",
+   "date": "2026-09-22T05:40:03.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "1nt7x2w",
+   "title": "白宫迎宾，压轴节目是什么？",
+   "url": "https://www.huxiu.com/article/4893116.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/22/36466-prod-nb2qnf-general-1-1790055353082.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>美国迎宾的具体流程目前已经大致确定了：天上那几架，是买不到第二架的白宫南草坪那场欢迎仪式，压轴是一架B-2从头顶上飞过去，后面跟",
+   "date": "2026-09-22T05:37:42.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "1op6gha",
+   "title": "台灣美光 2 次勞資調解破局，宣布啟動罷工投票！豪發每人百萬感謝金也解不了危機？",
+   "url": "https://www.managertoday.com.tw/articles/view/72917",
+   "summary": "美光台灣勞資二度調解破局！資方突襲發放百萬獎金反激化矛盾。工會重申核心訴求為「制度性獲利分享機制」，而非一次性獎金。因雙方未達共識，桃園廠工會已宣布啟動罷工投票。",
+   "date": "2026-09-22T05:30:52.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "經理人",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.managertoday.com.tw"
+  },
+  {
+   "id": "ghy1n6",
+   "title": "績優生變拖油瓶 保時捷拖累福斯汽車利潤率跌破1%",
+   "url": "https://news.cnyes.com/news/id/6612747",
+   "summary": "福斯汽車將2026年營業利潤率預期自4.0%至5.5%下調至不超過1% 保時捷2025年營業利潤由56.4億歐元降至4.13億歐元，年減92.7% 中國交付量自2021年約9.57萬輛降至2025年4.19萬輛，2026年上半年再年減32%",
+   "date": "2026-09-22T05:25:46.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "1n5x40n",
+   "title": "逃无可逃，避无可避",
+   "url": "https://www.huxiu.com/article/4893115.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/22/36464-prod-nb2qnf-general-1-1790054659060.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>高通胀的国家，跑赢通胀不容易，低通胀的国家呢？追上GDP，赶上税收，不简单。9月20日，财政部公布了前8个月的财政收支情况，结果",
+   "date": "2026-09-22T05:25:37.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "ghy3bn",
+   "title": "合勤控旗下兆勤推出全新系列10G 智慧型網管交換器 解決中小企業網路效能瓶頸",
+   "url": "https://news.cnyes.com/news/id/6612946",
+   "summary": "網通廠合勤控(3704-T)兆勤今(22)日宣布推出全新XS1935系列 10G Multi-Gig Lite-L3智慧型網管交換器。XS1935系列具備高頻寬設備所需的網路效能，同時可因應未來網路需求成長，讓中小企業能夠靈活擴充。 日常工作中，檔案傳輸緩慢、備份中斷、多人連線延遲，或是監控畫面讀",
+   "date": "2026-09-22T05:23:39.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghy3bh",
+   "title": "〈焦點股〉友達利多加持、外資大買 連兩根漲停創16年新高價",
+   "url": "https://news.cnyes.com/news/id/6612940",
+   "summary": "友達繼傳出與台積電合作發展FOPLP後，又傳與英特爾攜手搶攻CPO及高密度算力晶片整合商機。 友達21日獲外資大買23.58萬張亮燈漲停，22日再度攻上漲停36.65元，創16年新高價。 友達推進Micro LED光通訊解決方案，鎖定資料中心10公尺短距離高速傳輸與CPO、AOC應用。",
+   "date": "2026-09-22T05:21:41.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "v023ox",
+   "title": "Jimmy Kimmel Roasts Trump and Mamdani’s Friendly Dynamic as the ‘Weirdest Buddy Road Trip Movie’",
+   "url": "https://www.thewrap.com/creative-content/tv-shows/jimmy-kimmel-reacts-trump-mamdani-friendly-press-conference",
+   "summary": "\"Trump really does seem to like Mamdani,” the late night host adds The post Jimmy Kimmel Roasts Trump and Mamdani’s Friendly Dynamic as the ‘Weirdest Buddy Road Trip Movie’ appeared first on TheWrap.",
+   "date": "2026-09-22T05:16:07.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "5fpwk4",
+   "title": "海外代孕公司滿街跑，為何台中「訂製嬰兒」集團被起訴？類似案例看懂法院紅線",
+   "url": "https://www.thenewslens.com/article/270216",
+   "summary": "海外代孕仲介的刑事紅線，在於是否「意圖營利，居間介紹生殖細胞」。依《人工生殖法》，仲介代理孕母本身不罰，但若介入精卵、胚胎交易並從中獲利即觸法。此為區分合法行政協助與犯罪之關鍵。",
+   "date": "2026-09-22T05:09:00.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "ghy39s",
+   "title": "把健康「變現」！健康幣10/1上路 健檢打疫苗癌篩有獎+周周抽200元年終再抽Apple Watch",
+   "url": "https://news.cnyes.com/news/id/6612925",
+   "summary": "衛福部宣布10月1日推出健康幣，18歲以上完成健檢、癌篩、疫苗等任務可累積點數 首波回饋含健檢200幣、成人預防保健或B、C肝篩檢800幣，公費癌篩每項900至1350幣 12月1日起可兌換健康商品；10月起連續8周抽3600名、送200元數位券，年終抽200名Apple Watch",
+   "date": "2026-09-22T05:07:39.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghy3bi",
+   "title": "盤中速報 - 天良(4127)股價殺至跌停，跌停價54.0元，成交694張",
+   "url": "https://news.cnyes.com/news/id/6612941",
+   "summary": "天良(4127-TW)盤中跌停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-22T05:05:52.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "5fpwl2",
+   "title": "多元行銷搶攻日本關西市場 臺南觀光魅力亮相大阪京瓷巨蛋",
+   "url": "https://www.thenewslens.com/article/270227",
+   "summary": "南市觀旅局赴日職棒賽場行銷，整合球場活動、交通廣告與社群宣傳，向關西民眾推廣古都魅力，有效提升臺南在日本市場的能見度，爭取成為旅客遊臺首選。",
+   "date": "2026-09-22T05:03:00.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "1l80otw",
+   "title": "中秋白酒怪相:批发价上涨，进货量下降",
+   "url": "https://www.huxiu.com/article/4893112.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/22/36463-prod-db-general-1-1790053297004.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>2026年9月8日，茅台43家自营店7款产品调价，飞天茅台从1753元/瓶上调至1766元/瓶，这已经是年内第六次调价了。同一周，成都、",
+   "date": "2026-09-22T05:02:55.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "ghy1ny",
+   "title": "美國不出手、盟友援助存變數 沙國石油命脈陷「至暗時刻」",
+   "url": "https://news.cnyes.com/news/id/6612752",
+   "summary": "沙烏地阿美通知歐洲買家，因東西輸油管遭襲關閉，10月將無法依長約交付原油。 沙國東、南、北三面受敵，荷姆茲海峽、東西輸油管與延布設施接連受衝擊。 美國不願對胡塞武裝發動進攻性打擊，沙國轉向土耳其、巴基斯坦與以色列求援。",
+   "date": "2026-09-22T05:00:06.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghy381",
+   "title": "美國制裁再升級！9/23起所有伊朗航空業者面臨「全球停擺」",
+   "url": "https://news.cnyes.com/news/id/6612908",
+   "summary": "美國9月23日起擴大對伊朗民航制裁，貝森特稱所有伊朗航空公司將面臨全球停擺。 若機場、燃油供應商、地勤與票務仍提供服務，恐失去進入美元金融體系資格。 美方透過美元結算與金融市場施壓海外服務商，國際航班受衝擊最大，國內航班未必全停。",
+   "date": "2026-09-22T04:58:17.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghy39t",
+   "title": "〈焦點股〉雙鴻AI伺服器水冷散熱需求不墜 衝1630元再創天價",
+   "url": "https://news.cnyes.com/news/id/6612926",
+   "summary": "散熱廠雙鴻(3324-TW)受惠AI伺服器水冷散熱需求暢旺，下半年營運展望樂觀，全年營收可望再上一層樓，激勵雙鴻近日股價持續走揚，今(22)日再度跳空開高，盤中衝上1630元，再創歷史新天價。 雙鴻早盤以1580元跳空開高，盤中衝上1630元，大漲逾半根停板，並創下歷史新天價，截至午盤",
+   "date": "2026-09-22T04:54:43.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghy39v",
+   "title": "盤中速報 - 惠特(6706)股價殺至跌停，跌停價148.0元，成交12,332張",
+   "url": "https://news.cnyes.com/news/id/6612928",
+   "summary": "惠特(6706-TW)盤中跌停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-22T04:53:53.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghy39p",
+   "title": "聯發科推個人運算新平台 首款3奈米旗艦晶片導入Googlebook",
+   "url": "https://news.cnyes.com/news/id/6612922",
+   "summary": "聯發科推出Dimensity CX C10 Max旗艦SoC，採台積電3奈米製程，將用於高階、超便攜Googlebook 搭載全大核8核心CPU、11核心GPU與第8代NPU 890，最高55 TOPS，支援Gemini Intelligence",
+   "date": "2026-09-22T04:51:31.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "1kkpvrn",
+   "title": "“自然聚焦-数字可穿戴设备”增刊",
+   "url": "https://www.huxiu.com/article/4893111.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/22/36461-prod-db-general-1-1790052611666.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>数字可穿戴设备在研究领域的应用日益广泛，但其科学严谨性和影响力仍存在争议。时间是2036年。在一项随机临床试验中，研究人员向200名志愿",
+   "date": "2026-09-22T04:51:28.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "1jxf2pe",
+   "title": "专访清华王立元：从“主动遗忘”到“内心世界模型”，持续学习是通用智能的核心能力",
+   "url": "https://www.huxiu.com/article/4893110.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/22/36460-prod-db-general-1-1790052600322.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>从“碳基”的神经网络，到“硅基”的人工神经网络，再到两者之间的交叉地带，王立元一直在寻找两者之间“殊途同归的点”。他的学术履历印证了这一",
+   "date": "2026-09-22T04:51:24.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "ghy38r",
+   "title": "漢測掛牌上櫃噴漲1.2倍直逼5000元 抽中一張現賺一張",
+   "url": "https://news.cnyes.com/news/id/6612911",
+   "summary": "漢測今以每股2,250元掛牌上櫃，盤中最高4,995元，大漲122%，抽中一張潛在獲利274.5萬元 漢測前8月營收31.7億元、年增125.94%，已超越2025年全年24.25億元，客製化比重提升帶動獲利結構優化 漢測看好CPO測試設備明年起大量貢獻營收",
+   "date": "2026-09-22T04:49:18.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghy39u",
+   "title": "盤中速報 - 其他類指數類股表現疲軟，跌幅2.07%，總成交額20.11億",
+   "url": "https://news.cnyes.com/news/id/6612927",
+   "summary": "台股盤中其他業類股表現疲軟，漲跌幅、成交額、大盤佔比、領漲跌個股、指數績效、即時新聞資訊。",
+   "date": "2026-09-22T04:49:17.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "14e7p7e",
+   "title": "中国押注光计算芯片：它们能用来跑AI吗？",
+   "url": "https://www.huxiu.com/article/4893109.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/22/36459-prod-nb2qnf-general-1-1790052438555.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>用光而不是电驱动的半导体芯片或能提升处理速度、降低能耗。北京大学的研究团队正在测试一款集成光量子芯片。来源：Xinhua via",
+   "date": "2026-09-22T04:48:27.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "ghy2kz",
+   "title": "最強國產AI晶片！阿里巴巴提前揭露「真武900」 2032年資料中心容量目標升至20GW",
+   "url": "https://news.cnyes.com/news/id/6612883",
+   "summary": "阿里巴巴雲棲大會發表自研AI加速晶片真武V900，性能較上代約提升3倍 阿里規劃2032年阿里雲全球資料中心容量擴至20GW，並可組50萬顆晶片超大叢集 吳泳銘稱AI需求將呈指數級成長，阿里將同步擴張算力供給與基礎建設",
+   "date": "2026-09-22T04:40:02.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "1xpozf0",
+   "title": "企業 AI 準確率如何從 43% 升至 90%？DoorDash 實踐證明：優化資料結構比升級模型更關鍵",
+   "url": "https://techorange.com/2026/09/22/ai-vera-doordashs-data-agent",
+   "summary": "美國最大的線上餐點與零售外送平台 DoorDash 正加速將 AI 代理導入企業內部資料分析，並自行打造名為 Vera 的 AI 資料分析代理，讓員工可以直接以自然語言提問，快速取得公司內部資料的分析結果。DoorDash 表示，目前已有超過 1 萬名員工仰賴公司資料生態系，而 Vera 可以從超過 20 萬個資料集、總規模達 350 PB 的企業資料中搜尋所需資訊。 員工可直接查詢營運數據，DoorDash 部署 Vera 減輕資料團隊負擔 《PYMNTS》提及，員工過去若想知道「為什麼上週加州訂單量下降」，或查詢特定商家的訂單取消情況，通常需要交由資料團隊處理。現在能直接向 Vera 提問",
+   "date": "2026-09-22T04:38:02.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "TechOrange",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://buzzorange.com/techorange/"
+  },
+  {
+   "id": "j1i46d",
+   "title": "窒息的咽喉：塔利班奪權五年，阿富汗新聞自由的凋零與記者的黑獄深淵",
+   "url": "https://feja.org.tw/83303",
+   "summary": "回首5年前的2021年8月15日，塔利班（Taliban）武裝部隊重新奪取阿富汗首都喀布爾（Kabul），至今阿富汗仍牢牢掌握在塔利班政權手中，不只女性的人身自由、受教權等基本權益遭受嚴重侵害，塔利班亦對新聞媒體與言論自由展開了系統性的殘酷打壓，將阿富汗一步步推向全球新聞工作環境最惡劣的深淵。根據無國界記者組織（RSF）公佈的2026年「世界新聞自由指數」，阿富汗在180個國家和地區中慘跌至第175位，獨立報導的生存空間已被壓縮至極限。",
+   "date": "2026-09-22T04:35:44.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Excellent",
+   "tier": "A",
+   "lang": "zh-TW",
+   "site": "https://www.feja.org.tw"
+  },
+  {
+   "id": "ghy39n",
+   "title": "盤中速報 - 光鋐(4956)股價殺至跌停，跌停價42.2元，成交22,240張",
+   "url": "https://news.cnyes.com/news/id/6612920",
+   "summary": "光鋐(4956-TW)盤中跌停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-22T04:31:15.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "1x69yal",
+   "title": "Elliot Graham, Oscar-Nominated Editor on ‘Milk,’ Dies at 50",
+   "url": "https://www.thewrap.com/creative-content/movies/elliot-graham-dies-oscar-nominated-milk-editor",
+   "summary": "\"I have so many thoughts and feelings about this sweet, kind and quirky man. For now, I’ll just say rest in peace,\" Dan Jinks, producer for \"Milk,\" writes The post Elliot Graham, Oscar-Nominated Editor on ‘Milk,’ Dies at 50 appeared first on TheWrap.",
+   "date": "2026-09-22T04:28:50.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "z7t8pe",
+   "title": "每票涨0.1元，净利翻一倍：快递业的低价时代正在分批结束",
+   "url": "https://www.huxiu.com/article/4893101.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/22/36458-prod-nb2qnf-general-1-1790051142439.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>9月19日深夜，一张盖着红章的通知截图在电商卖家群里传开。自9月20日零时起，江苏地区网点和合作客户的快递服务费，统一上调不低于",
+   "date": "2026-09-22T04:27:21.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "ghy37u",
+   "title": "〈房產〉雙北購屋主力總價帶全面上移 新北1000-2000萬元撐起近半市場",
+   "url": "https://news.cnyes.com/news/id/6612901",
+   "summary": "受到營建成本、市場供需及整體經濟環境變化等多重因素影響，雙北房價逐步走高，住宅交易的主力總價帶也隨著調整。房仲業者依實價登錄資料，觀察近十年雙北住宅交易總價帶變化，結果顯示，十年間台北市千萬元以下住宅交易占比僅9.2%；新北市交易主力則由1000萬元以下轉向1000萬元-2,000萬元。 同時，雙",
+   "date": "2026-09-22T04:24:17.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ykifn5",
+   "title": "商场争夺粉丝，生意不止于快闪",
+   "url": "https://www.huxiu.com/article/4893100.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/22/36457-prod-db-general-1-1790050937644.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>演唱会还没开场，商场已经开始争取粉丝的时间。2026年9月5日，周传雄上海演唱会当天，上海久光中心的下沉式广场举办了歌迷开放麦与大合唱；",
+   "date": "2026-09-22T04:23:34.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "ghy37x",
+   "title": "訊聯細胞智藥攻日報捷 人體幹細胞外泌體進軍化粧品市場、2新品獲醫藥部外品核可",
+   "url": "https://news.cnyes.com/news/id/6612904",
+   "summary": "訊聯細胞智藥(7808-TW)拓展日本市場報捷，人體幹細胞外泌體產品正式切入日本高端粧品市場，另有2項新品取得日本厚生勞動省(MHLW)醫藥部外品和可，主攻頭皮育毛以及美白等功能性領域。 訊聯細胞智藥指出，人體幹細胞外泌體被視為再生醫學與次世代美容科技的重要原料，在膚質改善、毛髮及色素",
+   "date": "2026-09-22T04:23:07.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghy1nz",
+   "title": "DeepSeek大模型再暴衝 2兆參數訓練中、下一步挑戰8兆",
+   "url": "https://news.cnyes.com/news/id/6612753",
+   "summary": "梁文鋒向投資人透露，DeepSeek正訓練2兆參數模型，後續還計畫開發8兆參數模型 DeepSeek現有旗艦V4-Pro總參數1.6兆、每Token啟用49億參數；Kimi K3總參數2.8兆 DeepSeek今年7月完成逾人民幣500億元融資、估值破500億美元，閉門會議並嚴格防資訊外洩",
+   "date": "2026-09-22T04:19:53.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghy37z",
+   "title": "盤中速報 - 塑膠工業類股表現疲軟，跌幅2.41%，總成交額155.23億",
+   "url": "https://news.cnyes.com/news/id/6612906",
+   "summary": "台股盤中塑膠工業類股表現疲軟，漲跌幅、成交額、大盤佔比、領漲跌個股、指數績效、即時新聞資訊。",
+   "date": "2026-09-22T04:19:19.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "npn3eo",
+   "title": "美股冲刺新高背后：这一幕本世纪以来从未见过",
+   "url": "https://www.huxiu.com/article/4893097.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/22/36455-prod-nb2qnf-general-1-1790050298535.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>无论从哪个指标来看，周一的美股都迎来了极为亮眼的行情。纳斯达克综合指数大涨2%，创下历史新高；覆盖范围更广的标普500指数亦劲升",
+   "date": "2026-09-22T04:12:54.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "ghy00i",
+   "title": "美光成長速度將放緩 對股價反而是好消息？",
+   "url": "https://news.cnyes.com/news/id/6612567",
+   "summary": "Stifel稱美光短期成長放緩，但可靠高價格與高利潤率彌補 預估美光9/30公布第四季財報，營收507.8億美元、季增22% 重申買進評級與1,500美元目標價，稱市場未完全反映其價值",
+   "date": "2026-09-22T04:10:03.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghy1m2",
+   "title": "不想再被荷姆茲掐住 川普推100億美元基金幫中東能源「換條路」",
+   "url": "https://news.cnyes.com/news/id/6612730",
+   "summary": "川普政府推動100億美元中東能源基礎建設基金，擬先出資50億美元，爭取8國配對 重點投資繞過荷姆茲海峽運輸路線、恢復能源出口及修復受損設施，由美國國際開發金融公司管理 伊朗戰爭重創區內能源命脈，油氣供應壓力與運輸成本升高，部分官員憂新設施仍有遭攻擊風險",
+   "date": "2026-09-22T04:09:37.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "n2cacf",
+   "title": "涉黄、自我整改，闲鱼如何摆脱C2C模式的“咸鱼”结尾",
+   "url": "https://www.huxiu.com/article/4893096.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/22/36452-prod-db-general-1-1790049975210.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>借用一句广东俚语：做人（平台）如果不努力，跟一条咸鱼有什么区别。闲鱼涉黄，十年了，该到不破不立的时刻9月21日，“闲鱼涉黄”话题冲上热搜",
+   "date": "2026-09-22T04:07:26.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "l4fv5o",
+   "title": "造一万台机器人，要补多少汽车工业的课？",
+   "url": "https://www.huxiu.com/article/4893093.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/22/36451-prod-nb2qnf-general-1-1790049949191.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>报道提要从一台走向一万台，人形机器人正在为“稳定、低成本地重复制造”补课，而汽车工业恰好有这门课的厚底子。9月17日，特斯拉机器",
+   "date": "2026-09-22T04:07:24.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "ghy2l3",
+   "title": "5兆至10兆參數！阿里巴巴打造超大AI模型「真武V900」性能較M890增3倍",
+   "url": "https://news.cnyes.com/news/id/6612887",
+   "summary": "阿里巴巴將訓練5兆至10兆參數新AI模型，目標推進更複雜、長期任務並朝ASI發展 同時推出自研AI晶片真武V900，性能為前一代M890的3倍，單一叢集最多支援50萬張卡 阿里雲全球資料中心總容量擬於2032年提升至逾20GW，今年第3季起大規模商業化部署AI超級節點",
+   "date": "2026-09-22T04:04:52.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "w1c3r6",
+   "title": "No More Ad-Free Magic Kingdom; What’s The Price?",
+   "url": "https://www.adexchanger.com/daily-news-roundup/tuesday-22092026",
+   "summary": "Ad-free might not be free anymore; Amazon isn’t the only company hiding its transaction data; and the Paramount WBD merger continues. The post No More Ad-Free Magic Kingdom; What’s The Price? appeared first on AdExchanger.",
+   "date": "2026-09-22T04:03:56.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "AdExchanger",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.adexchanger.com"
+  },
+  {
+   "id": "1p6ykuz",
+   "title": "Some creators want to negotiate deals like TV networks",
+   "url": "https://digiday.com/future-of-tv/some-creators-want-to-negotiate-deals-like-tv-networks",
+   "summary": "Creators have been brought onto traditional upfronts within the last year, but it's looking like they're ready for their own show.",
+   "date": "2026-09-22T04:01:00.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Digiday",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://digiday.com"
+  },
+  {
+   "id": "1t1breu",
+   "title": "Ad Tech Briefing: Google’s ad tech remedies arrive just as the platform battle moves to AI",
+   "url": "https://digiday.com/media-buying/ad-tech-briefing-googles-ad-tech-remedies-arrive-just-as-the-platform-battle-moves-to-ai",
+   "summary": "Regulators are prising open Google’s programmatic machinery just as AI, commerce and ad tech players race to control more of the advertising stack.",
+   "date": "2026-09-22T04:01:00.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Digiday",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://digiday.com"
+  },
+  {
+   "id": "1d8eipt",
+   "title": "How Semafor is redefining the head of video role",
+   "url": "https://digiday.com/media/how-semafor-is-redefining-the-head-of-video-role",
+   "summary": "As Semafor’s head of video, Adam Banicki sits at the intersection of the newsroom and the commercial team, reporting to the editor-in-chief with a dotted line to the revenue side.",
+   "date": "2026-09-22T04:01:00.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Digiday",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://digiday.com"
+  },
+  {
+   "id": "qigl23",
+   "title": "Comscore data shows how AI discovery is splintering beyond ChatGPT",
+   "url": "https://digiday.com/media/comscore-data-shows-how-ai-discovery-is-splintering-beyond-chatgpt",
+   "summary": "Comscore data shows ChatGPT losing ground to Gemini and Claude as AI citations emerge as a key visibility metric for publishers and brands.",
+   "date": "2026-09-22T04:01:00.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Digiday",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://digiday.com"
+  },
+  {
+   "id": "1xjd8zi",
+   "title": "Some marketers see ‘no ceiling’ for beauty brands advertising in sports",
+   "url": "https://digiday.com/marketing/some-marketers-see-no-ceiling-for-beauty-brands-advertising-in-sports",
+   "summary": "By now, many in the beauty space have wised up to just how powerful a tool athletes and sports are for their brands.",
+   "date": "2026-09-22T04:01:00.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Digiday",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://digiday.com"
+  },
+  {
+   "id": "1lqbn5y",
+   "title": "‘The Love Hypothesis’ Review: Charming Amazon Romance Sticks to the Formula",
+   "url": "https://www.thewrap.com/creative-content/movies/the-love-hypothesis-review",
+   "summary": "Lili Reinhart and Tom Bateman fake a relationship — for the sake of science! — in Claire Scanlon’s endearingly familiar love story The post ‘The Love Hypothesis’ Review: Charming Amazon Romance Sticks to the Formula appeared first on TheWrap.",
+   "date": "2026-09-22T04:00:00.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "5fpwj6",
+   "title": "AI替代不了你的感動，腦科學揭密：為什麼人文教育必須重回「美感經驗」？",
+   "url": "https://www.thenewslens.com/article/270205",
+   "summary": "在AI時代，人文藝術的價值在於AI無法取代的「美感經驗」。它整合主觀感受與自我反思，是人類建構意義、認識自我的獨特能力，也是鞏固人性的關鍵。",
+   "date": "2026-09-22T04:00:00.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "1y6ehuh",
+   "title": "做好事也要有商業思維！全家推動移工友善，如何兼顧營利與社會影響力？",
+   "url": "https://www.managertoday.com.tw/columns/view/72963",
+   "summary": "合作如果要走得長久，不能只靠理念相近。真正好的永續創新，不只是讓企業「看起來更善良」，而是讓企業用自己最擅長的能力，持續解決一個值得被解決的社會問題。",
+   "date": "2026-09-22T03:59:35.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "經理人",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.managertoday.com.tw"
+  },
+  {
+   "id": "ghy1n4",
+   "title": "比特幣衝上8個月新高 市場釋出風險偏好回歸訊號",
+   "url": "https://news.cnyes.com/news/id/6612745",
+   "summary": "比特幣週一突破8.6萬美元，一度觸及8萬9,004.47美元，創1月28日來新高 美股科技股、AI概念股同步走強，Roundhill美股七雄ETF漲3.5%，費半漲4.3% Strategy睽違3周再買進比特幣7,570萬美元；市場關注漲勢能否成為持久多頭",
+   "date": "2026-09-22T03:59:06.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghy1m9",
+   "title": "6G關鍵技術 邁入系統化驗證",
+   "url": "https://news.cnyes.com/news/id/6612737",
+   "summary": "近日中國移動(600941-CN) 與高通(QCOM-US) 成功完成了全球首個符合3GPP定義的U6G頻段6G原型基站與終端原型對接測試，代表6G關鍵技術從研究邁入系統化驗證新階段。 政策層面，中國工信部在9月印發的《信息通信行業發展「十五五」規劃》中，將「研製6G智慧手機」列為增強產業鏈韌性的",
+   "date": "2026-09-22T03:58:51.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "3019eo",
+   "title": "永和豆浆被授权店“烫伤了”",
+   "url": "https://www.huxiu.com/article/4893088.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/22/36449-prod-nb2qnf-general-1-1790049351609.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>品牌方将流量运营外包给了第三方，但消费者的品牌认知并不会因此区分“官方”与“授权”。授权模式下，品牌方对内容合规的管控究竟能延伸",
+   "date": "2026-09-22T03:57:05.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "2cqgcf",
+   "title": "当AI降低诈骗成本，平台该怎么算这笔账？",
+   "url": "https://www.huxiu.com/article/4893087.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/22/36448-prod-db-general-1-1790049327586.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>AI让诈骗进入流水线，平台的反诈投入也在增加。但仍有骗局没有被及时拦住，钱一旦进入打赏、广告这些正常业务，平台还可能从中获得收入。哪些损",
+   "date": "2026-09-22T03:56:42.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "1op6gmr",
+   "title": "將廢棄蚵殼變成鞋材，母子鱷魚如何打造馬拉松、媽祖遶境都能穿的拖鞋？",
+   "url": "https://www.managertoday.com.tw/articles/view/72976",
+   "summary": "母子鱷魚出名的拖鞋除了超跑穿、遶境穿，還有一個名號：蚵技鞋。而母子鱷魚背後的公司，是 1986 年成立的德成鞋業集團，",
+   "date": "2026-09-22T03:56:26.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "經理人",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.managertoday.com.tw"
+  },
+  {
+   "id": "s2melj",
+   "title": "Jon Stewart Tells Trump to Try ‘Presidenting Better’ Instead of Implementing White House Press Ban",
+   "url": "https://www.thewrap.com/creative-content/tv-shows/jon-stewart-reacts-trump-white-house-press-ban",
+   "summary": "\"Have we ever had a president just flat out in the Oval Office come out against the Constitution?\" the comedian adds The post Jon Stewart Tells Trump to Try ‘Presidenting Better’ Instead of Implementing White House Press Ban appeared first on TheWrap.",
+   "date": "2026-09-22T03:51:56.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "ghy2gc",
+   "title": "Mues登頂下載榜+超微市值破兆美元！機構：CPU成Agent核心 端測AI與算力需求進入實質拉動階段",
+   "url": "https://news.cnyes.com/news/id/6612831",
+   "summary": "Meta Muse登頂App Store免費榜，帶動美股費半周一大漲4.29%、A股端側AI與算力半導體走強 華為昇騰960系列提前完成研發，昇騰960DT將於明年Q1推出，較原規劃提早三個季度 台積電揭露2027年中期擴產，2奈米月產能9萬片升至11萬片、3奈米逾18萬片升至21萬片",
+   "date": "2026-09-22T03:50:04.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghy2ib",
+   "title": "〈房產〉新北最大里易主 房仲：新市鎮拆里重分要留意學區變化",
+   "url": "https://news.cnyes.com/news/id/6612856",
+   "summary": "新北市人口超過400萬人，是全台人口最多的縣市，也是最台最多里的縣市！根據民政局2026年8月最新資料，全市共1039個里，而全市最大里由三峽的龍學里1萬7225人，登上人數冠軍里，主要原因在新北市7月起實施行政區域調整，而在新市鎮的推案量大區域，房仲業者指出，所屬學區的因此變化是特別要注意的。",
+   "date": "2026-09-22T03:39:27.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "p4ajye",
+   "title": "RSI 風險浮上檯面，OpenAI 提新標準：AI 研發到哪一步要人類介入？",
+   "url": "https://techorange.com/2026/09/22/standards-ai-rsi",
+   "summary": "隨著 AI Agent 越界與模型異常行為話題持續延燒，前沿 AI 公司近期也接連端出新的安全治理方案。從 Anthropic 提出 AI 研發三大量測指標，到 Google DeepMind 主張建立前沿 AI 標準機構，業界正試圖把原本較抽象的安全原則，轉成可量測、可監督的制度。 OpenAI 也在短時間內連續採取行動：9/6 先公開 AI 如何加速內部研究，9/16 再推出模型未對齊報告框架（framework for reporting model misalignment），到了 9/21，進一步提出全球前沿 AI 技術標準構想，希望由美國帶頭建立跨國標準制定機制，並針對 AI 參與",
+   "date": "2026-09-22T03:37:08.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "TechOrange",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://buzzorange.com/techorange/"
+  },
+  {
+   "id": "ghy2j3",
+   "title": "稜研掛牌首日蜜月行情強勁 拚天線模組明年營收占比破5成",
+   "url": "https://news.cnyes.com/news/id/6612861",
+   "summary": "稜研今以每股60元登錄創新板，早盤最高75元，漲約25%。 公司在寬頻通訊、衛星、國防三大市場同步量產；天線模組為主力，目標2027年營收占比逾50%。 已取得143項全球專利、70項審查中；採Fabless委外製造，將擴充量產產能並深化台灣供應鏈。",
+   "date": "2026-09-22T03:30:54.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghy2j4",
+   "title": "〈焦點股〉欣興、南電噴漲停！PCB主題ETF 009828勁揚3% 規模暴增164%",
+   "url": "https://news.cnyes.com/news/id/6612862",
+   "summary": "市場情緒轉趨樂觀，半導體及電子族群重新點火，激勵台股今(22)日大漲並突破48,000點關卡。其中，欣興、南電盤中同步亮燈漲停，景碩等 PCB 族群個股亦強勢上揚，顯示市場已逐漸消化先前產業雜音與利空消息，資金重新回歸產業基本面。受惠PCB類股全面走強，台灣唯一以PCB產業為主題",
+   "date": "2026-09-22T03:29:30.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghy2j6",
+   "title": "盤中速報 - 定穎投控(3715)股價拉至漲停，漲停價130.0元，成交7,007張",
+   "url": "https://news.cnyes.com/news/id/6612864",
+   "summary": "定穎投控(3715-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-22T03:22:42.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghy2ie",
+   "title": "盤中速報 - 艾姆勒(2241)股價拉至漲停，漲停價41.05元，成交3,292張",
+   "url": "https://news.cnyes.com/news/id/6612859",
+   "summary": "艾姆勒(2241-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-22T03:14:35.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "4atatb",
+   "title": "Elliot Graham, Oscar-Nominated Film Editor on ‘Milk,’ Dies at 50",
+   "url": "https://www.hollywoodreporter.com/movies/movie-news/elliot-graham-dead-film-editor-milk-1236707303",
+   "summary": "He also worked on the films 'Steve Jobs,' 'Captain Marvel' and 'No Time to Die.'",
+   "date": "2026-09-22T03:12:52.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "ghy2gj",
+   "title": "星空聯盟巴黎戴高樂機場貴賓室 獲評為全球最佳",
+   "url": "https://news.cnyes.com/news/id/6612838",
+   "summary": "長榮航(2618-TW)所屬星空聯盟位於巴黎的戴高樂機場貴賓室，榮獲2026年Skytrax全球航空大獎(Skytrax World Airline Awards)「全球最佳航空聯盟貴賓室」肯定，此為該貴賓室自2023年10月啟用以來，連續第三年奪下此殊榮。 同時，星空聯盟洛杉磯國際機場貴賓室也拿",
+   "date": "2026-09-22T03:12:17.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghy0pa",
+   "title": "馬斯克母親：他真的希望未來幾十年能住在火星",
+   "url": "https://news.cnyes.com/news/id/6612608",
+   "summary": "梅耶・馬斯克稱，馬斯克可能想住在火星城市，並曾以衛星送太空、避免受困時無法求援為例說明其理念。 梅耶在新回憶錄談虐待婚姻後的經濟不穩、獨自養三子並創業。 她15歲入行，60歲以銀白髮走紅，69歲任CoverGirl形象大使、74歲登上《Sports Illustrated Swimsuit》封面。",
+   "date": "2026-09-22T03:10:04.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghy2ia",
+   "title": "盤中速報 - 碩禾(3691)股價拉至漲停，漲停價110.5元，成交1,416張",
+   "url": "https://news.cnyes.com/news/id/6612855",
+   "summary": "碩禾(3691-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-22T03:09:12.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghy2i9",
+   "title": "盤中速報 - 天瀚(6225)股價殺至跌停，跌停價51.3元，成交203張",
+   "url": "https://news.cnyes.com/news/id/6612854",
+   "summary": "天瀚(6225-TW)盤中跌停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-22T03:03:13.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghy2hh",
+   "title": "外匯速報 - 美元/韓元(USDKRW) 大跌1.12%，報1359.7元",
+   "url": "https://news.cnyes.com/news/id/6612849",
+   "summary": "美元/韓元(FX:USDKRW:FOREX)盤中下跌，漲跌幅、近日週月績效、相關指數表現、即時新聞資訊。",
+   "date": "2026-09-22T03:00:22.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
    "id": "loxz0g",
    "title": "加州簽 7 項資料中心法案！電網升級費用不得轉嫁一般用戶，環評豁免同步取消",
    "url": "https://www.inside.com.tw/article/42453-california-data-center-law-newsom-signs-seven-bills-electricity-water-cost",
@@ -914,12 +2382,36 @@ window.NEWS_DATA = {
    "site": "https://news.cnyes.com"
   },
   {
+   "id": "ghy2gi",
+   "title": "盤中速報 - NEAR大漲8.57%，報4.55美元",
+   "url": "https://news.cnyes.com/news/id/6612837",
+   "summary": "NEAR(NEAR)盤中上漲，交易價格、總成交量、市值、近日週月績效、即時新聞資訊。",
+   "date": "2026-09-22T02:50:19.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
    "id": "ghy1ji",
    "title": "個人Agent大戰開打！Muse、Grok Bot大紅 OpenAI也坐不住了",
    "url": "https://news.cnyes.com/news/id/6612707",
    "summary": "OpenAI正開發新功能與個人AI助手，反制Grok Bot與Meta Muse。 Grok Bot主打白領與小企業主，整合Gmail、日曆等應用，SuperGrok月費30美元。 AI個人Agent成新戰場，OpenAI增長放緩且預估2030年底累虧2780億美元。",
    "date": "2026-09-22T02:50:03.000Z",
    "firstSeen": "2026-09-22T03:08:29.868Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghy2gg",
+   "title": "盤中速報 - 揚博(2493)股價拉至漲停，漲停價201.0元，成交2,676張",
+   "url": "https://news.cnyes.com/news/id/6612835",
+   "summary": "揚博(2493-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-22T02:45:20.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
    "source": "鉅亨網",
    "tier": "B",
    "lang": "zh-TW",
@@ -1022,6 +2514,18 @@ window.NEWS_DATA = {
    "site": "https://www.woshipm.com"
   },
   {
+   "id": "ghy2fe",
+   "title": "盤中速報 - 精材(3374)股價拉至漲停，漲停價487.0元，成交12,116張",
+   "url": "https://news.cnyes.com/news/id/6612820",
+   "summary": "精材(3374-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-22T02:29:21.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
    "id": "az1je8",
    "title": "设计系统负责人的语义生长：从管”长什么样”到管”意味着什么”",
    "url": "https://www.woshipm.com/ai/6468132.html",
@@ -1044,6 +2548,30 @@ window.NEWS_DATA = {
    "tier": "A",
    "lang": "zh-CN",
    "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "ghy2eq",
+   "title": "盤中速報 - 高力(8996)股價拉至漲停，漲停價1655.0元，成交4,164張",
+   "url": "https://news.cnyes.com/news/id/6612819",
+   "summary": "高力(8996-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-22T02:27:13.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghy2ep",
+   "title": "盤中速報 - 達發(6526)股價拉至漲停，漲停價796.0元，成交3,170張",
+   "url": "https://news.cnyes.com/news/id/6612818",
+   "summary": "達發(6526-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-22T02:25:28.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
   },
   {
    "id": "1vjkbqa",
@@ -1070,6 +2598,30 @@ window.NEWS_DATA = {
    "site": "https://www.woshipm.com"
   },
   {
+   "id": "ghy2en",
+   "title": "盤中速報 - 三貝德(8489)股價拉至漲停，漲停價23.65元，成交201張",
+   "url": "https://news.cnyes.com/news/id/6612816",
+   "summary": "三貝德(8489-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-22T02:23:06.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghy2em",
+   "title": "盤中速報 - 安葆(7792)股價拉至漲停，漲停價378.0元，成交1,235張",
+   "url": "https://news.cnyes.com/news/id/6612815",
+   "summary": "安葆(7792-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現。",
+   "date": "2026-09-22T02:23:04.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
    "id": "1te1ev7",
    "title": "你天天喊“以客户为中心”，为什么团队永远做不到？",
    "url": "https://www.woshipm.com/share/6467386.html",
@@ -1080,6 +2632,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-CN",
    "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "ghy2el",
+   "title": "盤中速報 - 彩晶(6116)股價拉至漲停，漲停價16.25元，成交132,764張",
+   "url": "https://news.cnyes.com/news/id/6612814",
+   "summary": "彩晶(6116-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-22T02:20:22.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
   },
   {
    "id": "ghy2dm",
@@ -1118,6 +2682,54 @@ window.NEWS_DATA = {
    "site": "https://news.cnyes.com"
   },
   {
+   "id": "ghy2ej",
+   "title": "盤中速報 - 智原(3035)股價拉至漲停，漲停價210.0元，成交8,101張",
+   "url": "https://news.cnyes.com/news/id/6612812",
+   "summary": "智原(3035-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-22T02:17:26.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghy2ei",
+   "title": "盤中速報 - 嘉晶(3016)股價拉至漲停，漲停價132.5元，成交20,593張",
+   "url": "https://news.cnyes.com/news/id/6612811",
+   "summary": "嘉晶(3016-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-22T02:16:50.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghy2eh",
+   "title": "盤中速報 - 力旺(3529)股價拉至漲停，漲停價3110.0元，成交1,376張",
+   "url": "https://news.cnyes.com/news/id/6612810",
+   "summary": "力旺(3529-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-22T02:16:47.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghy2dt",
+   "title": "盤中速報 - 新唐(4919)股價拉至漲停，漲停價138.0元，成交13,379張",
+   "url": "https://news.cnyes.com/news/id/6612809",
+   "summary": "新唐(4919-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-22T02:16:45.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
    "id": "9b4l4s",
    "title": "“城市更新”Vol.03：谁拥有城市的“开发权”？（中国篇）",
    "url": "https://www.huxiu.com/article/4893057.html",
@@ -1130,12 +2742,60 @@ window.NEWS_DATA = {
    "site": "https://www.huxiu.com"
   },
   {
+   "id": "ghy2ds",
+   "title": "鉅亨買幣速報 - USDC(USDC)24小時成交量超過39.04億美元，NFPrompt Token(NFP)24小時漲幅達65.8%",
+   "url": "https://news.cnyes.com/news/id/6612808",
+   "summary": "鉅亨幣圈盤中速報，總結當日亮點幣種、指標幣種、宏觀市場表現、漲跌幅排名，掌握交易價格、總成交量、市值、即時新聞資訊。",
+   "date": "2026-09-22T02:15:18.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghy2dr",
+   "title": "鉅亨速報 - Factset 最新調查：弘塑(3131-TW)EPS預估下修至62.4元，預估目標價為4000元",
+   "url": "https://news.cnyes.com/news/id/6612807",
+   "summary": "FactSet 最新調查：弘塑(3131-TW)EPS預估下修，預估EPS、預估營收、目標價、歷史獲利表現、即時新聞資訊。",
+   "date": "2026-09-22T02:10:51.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghy2dq",
+   "title": "鉅亨速報 - Factset 最新調查：譜瑞-KY(4966-TW)EPS預估下修至33.6元，預估目標價為660元",
+   "url": "https://news.cnyes.com/news/id/6612806",
+   "summary": "FactSet 最新調查：譜瑞-KY(4966-TW)EPS預估下修，預估EPS、預估營收、目標價、歷史獲利表現、即時新聞資訊。",
+   "date": "2026-09-22T02:10:50.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
    "id": "ghy1o2",
    "title": "不轟炸只加油！英國批准軍事支援沙烏地阿拉伯 後續視紅海與胡塞襲擊重新評估",
    "url": "https://news.cnyes.com/news/id/6612756",
    "summary": "英國應沙烏地阿拉請求，派出皇家空軍Voyager空中加油機，支援沙國戰機執行防禦任務 英相伯纳姆稱部署未來數日展開、初期持續數周，英國強調屬防禦性支持，不直接打擊胡塞 胡塞自7月來擴大攻擊沙國本土與紅海資產，英國加油機可延長巡邏攔截時間並強化防空",
    "date": "2026-09-22T02:10:03.000Z",
    "firstSeen": "2026-09-22T02:49:55.001Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghy2dn",
+   "title": "盤中速報 - 艾達幣大漲8.01%，報0.2454美元",
+   "url": "https://news.cnyes.com/news/id/6612803",
+   "summary": "艾達幣(ADA)盤中上漲，交易價格、總成交量、市值、近日週月績效、即時新聞資訊。",
+   "date": "2026-09-22T02:05:25.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
    "source": "鉅亨網",
    "tier": "B",
    "lang": "zh-TW",
@@ -1176,6 +2836,18 @@ window.NEWS_DATA = {
    "tier": "A",
    "lang": "zh-CN",
    "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "ghxbn6",
+   "title": "特力屋13萬張訂單奏效，管家軍團打造新零售高獲利引擎！",
+   "url": "https://news.cnyes.com/news/id/6611964",
+   "summary": "特力屋以大型賣場轉型社區店、管家到府、線上預約與AI工具，從賣商品走向賣服務。 何湯雄指未來商品只是服務入口，居家安裝、維修、丈量與規畫將成新營收來源。 今年上半年EPS3.06元、毛利率38.91%，全年目標毛利率40%，預期全年EPS可望突破6元。",
+   "date": "2026-09-22T02:00:07.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
   },
   {
    "id": "1yqwwgc",
@@ -1262,6 +2934,18 @@ window.NEWS_DATA = {
    "site": "https://www.huxiu.com"
   },
   {
+   "id": "ghy1qr",
+   "title": "盤中速報 - 百德(4563)股價拉至漲停，漲停價51.7元，成交520張",
+   "url": "https://news.cnyes.com/news/id/6612784",
+   "summary": "百德(4563-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-22T01:52:14.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
    "id": "ghy1pw",
    "title": "〈房產〉全台七都預售屋買氣凍到僵 上半年十大重災區桃園大園衰退居首",
    "url": "https://news.cnyes.com/news/id/6612776",
@@ -1310,12 +2994,72 @@ window.NEWS_DATA = {
    "site": "https://news.cnyes.com"
   },
   {
+   "id": "ghy1qq",
+   "title": "盤中速報 - 巨有科技(8227)股價拉至漲停，漲停價316.0元，成交588張",
+   "url": "https://news.cnyes.com/news/id/6612783",
+   "summary": "巨有科技(8227-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-22T01:44:06.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghy1qp",
+   "title": "盤中速報 - 豪勉(6218)股價殺至跌停，跌停價61.0元，成交6,942張",
+   "url": "https://news.cnyes.com/news/id/6612782",
+   "summary": "豪勉(6218-TW)盤中跌停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-22T01:43:33.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "6kvply",
+   "title": "US TV networks suspend White House pool coverage over Trump media ban",
+   "url": "https://www.theguardian.com/us-news/2026/sep/21/trump-tv-networks-white-house-pool-coverage",
+   "summary": "<p>White House promoted its own ‘Trump TV’ feed online after ABC, CBS, Fox News and NBC decline to participate</p><p>The major US television news outlets agreed to suspend their video coverage of Donald Trump after the administration banned journalists from several outlets from entering the White Ho",
+   "date": "2026-09-22T01:37:29.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "The Guardian",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.theguardian.com/uk/media"
+  },
+  {
+   "id": "ghy1pv",
+   "title": "盤中速報 - 睿生光電(6861)股價拉至漲停，漲停價270.5元，成交2,842張",
+   "url": "https://news.cnyes.com/news/id/6612775",
+   "summary": "睿生光電(6861-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-22T01:35:47.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
    "id": "ghy1m3",
    "title": "告別「唯GPU論」！伺服器CPU成AI新瓶頸 部分型號今年已漲逾40%",
    "url": "https://news.cnyes.com/news/id/6612731",
    "summary": "AI缺貨潮從GPU、HBM擴至伺服器CPU，英特爾與超微與中國客戶簽1至2年LTA鎖定採購量 AMD CPU交期達8至10週、英特爾最長6個月；伺服器平均交期升至8至12週以上 TrendForce：CPU、記憶體、載板與電源仍緊，AI競賽轉向供應決定能交付多少",
    "date": "2026-09-22T01:35:08.000Z",
    "firstSeen": "2026-09-22T02:49:55.001Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghy1pu",
+   "title": "盤中速報 - 台表科(6278)股價拉至漲停，漲停價213.5元，成交7,326張",
+   "url": "https://news.cnyes.com/news/id/6612774",
+   "summary": "台表科(6278-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-22T01:34:50.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
    "source": "鉅亨網",
    "tier": "B",
    "lang": "zh-TW",
@@ -1370,6 +3114,18 @@ window.NEWS_DATA = {
    "site": "https://www.woshipm.com"
   },
   {
+   "id": "ghy1oz",
+   "title": "盤中速報 - 凱碩(8059)股價殺至跌停，跌停價18.15元，成交255張",
+   "url": "https://news.cnyes.com/news/id/6612766",
+   "summary": "凱碩(8059-TW)盤中跌停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-22T01:30:05.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
    "id": "pcji27",
    "title": "WorkBuddy + Flova，一句话交付20张产品图",
    "url": "https://www.woshipm.com/ai/6468005.html",
@@ -1418,6 +3174,18 @@ window.NEWS_DATA = {
    "site": "https://www.woshipm.com"
   },
   {
+   "id": "ghy1ov",
+   "title": "外匯速報 - 美元/台幣(USDTWD) 大跌0.29%，報31.665元",
+   "url": "https://news.cnyes.com/news/id/6612762",
+   "summary": "美元/台幣(FX:USDTWD:FOREX)盤中下跌，漲跌幅、近日週月績效、相關指數表現、即時新聞資訊。",
+   "date": "2026-09-22T01:20:22.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
    "id": "ghy0vj",
    "title": "Meta Muse登上App Store榜首 AMD市值首破1兆美元",
    "url": "https://news.cnyes.com/news/id/6612672",
@@ -1440,6 +3208,54 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-CN",
    "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "ghy1ou",
+   "title": "盤中速報 - 油電燃氣類股表現疲軟，跌幅2.25%，總成交額1.87億",
+   "url": "https://news.cnyes.com/news/id/6612761",
+   "summary": "台股盤中油電燃氣業類股表現疲軟，漲跌幅、成交額、大盤佔比、領漲跌個股、指數績效、即時新聞資訊。",
+   "date": "2026-09-22T01:19:17.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghy1ot",
+   "title": "盤中速報 - 倚強科(3219)股價拉至漲停，漲停價108.5元，成交1,593張",
+   "url": "https://news.cnyes.com/news/id/6612760",
+   "summary": "倚強科(3219-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-22T01:19:09.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghy1o5",
+   "title": "盤中速報 - 科嶠(4542)股價拉至漲停，漲停價332.5元，成交1,205張",
+   "url": "https://news.cnyes.com/news/id/6612759",
+   "summary": "科嶠(4542-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-22T01:18:45.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghy1o4",
+   "title": "盤中速報 - 西柏(3541)股價拉至漲停，漲停價24.6元，成交204張",
+   "url": "https://news.cnyes.com/news/id/6612758",
+   "summary": "西柏(3541-TW)盤中漲停，最新價格、委託買賣量、近5日股價、三大法人買賣超、即時新聞資訊、產業指數、大盤表現、融資融券增減。",
+   "date": "2026-09-22T01:18:36.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
   },
   {
    "id": "lch3j0",
@@ -1512,6 +3328,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-CN",
    "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "1fzmuh8",
+   "title": "Iran war’s peacemakers also have skin in the game",
+   "url": "https://www.semafor.com/article/09/21/2026/iran-wars-peacemakers-also-have-skin-in-the-game",
+   "summary": "Oman, Pakistan, and Qatar are the rare mediators with a direct interest in ending a conflict.",
+   "date": "2026-09-22T01:05:28.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
   },
   {
    "id": "ckedrr",
@@ -2114,6 +3942,30 @@ window.NEWS_DATA = {
    "site": "https://news.cnyes.com"
   },
   {
+   "id": "1dla6ka",
+   "title": "Paramount settles US states' lawsuits, clearing way for Warner Bros. takeover",
+   "url": "https://www.semafor.com/article/09/21/2026/paramount-settles-us-states-lawsuits-clearing-way-for-warner-bros-takeover",
+   "summary": "The $110 billion takeover will create one of the world’s largest entertainment companies. But the deal’s opponents are still skeptical.",
+   "date": "2026-09-21T22:50:50.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "n2v5l7",
+   "title": "Markets risk underpricing the scale of rate hikes, analysts say",
+   "url": "https://www.semafor.com/article/09/21/2026/markets-risk-underpricing-the-scale-of-rate-hikes-analysts-say",
+   "summary": "Increased hawkishness amongst central bankers suggests rate hikes will come faster and more frequently, Deutsche Bank analysts wrote.",
+   "date": "2026-09-21T22:44:36.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
    "id": "ghy00g",
    "title": "英特爾大漲12%安謀飆17% Meta AI代理Muse點燃晶片股漲勢",
    "url": "https://news.cnyes.com/news/id/6612565",
@@ -2172,6 +4024,30 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "en",
    "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "cevpgy",
+   "title": "Xi purges top generals for 'disloyalty'",
+   "url": "https://www.semafor.com/article/09/21/2026/chinas-xi-jinping-purges-top-generals-for-disloyalty",
+   "summary": "China said Monday that it removed two top generals over allegations of disloyalty and corruption, the latest in a long series of expulsions under leader Xi Jinping.",
+   "date": "2026-09-21T22:28:02.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "9macr0",
+   "title": "OpenAI calls for global US-led coalition on AI safety",
+   "url": "https://www.semafor.com/article/09/21/2026/openai-calls-for-global-us-led-coalition-on-ai-safety",
+   "summary": "Debate over the technology’s risk and promise looms over this week’s UN General Assembly.",
+   "date": "2026-09-21T22:26:01.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
   },
   {
    "id": "ghx88f",
@@ -2450,6 +4326,18 @@ window.NEWS_DATA = {
    "site": "https://news.cnyes.com"
   },
   {
+   "id": "1wbogit",
+   "title": "Collins challenges NIH grant review plan",
+   "url": "https://www.semafor.com/article/09/21/2026/collins-challenges-nih-grant-review-plan",
+   "summary": "Since the start of President Donald Trump's second term, she's successfully pushed back against National Institutes of Health funding cuts.",
+   "date": "2026-09-21T20:37:27.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
    "id": "93kc4j",
    "title": "Microsoft Tracks AI Adoption Rates, U.S. Ranking Stalls",
    "url": "https://www.mediapost.com/publications/article/418164/microsoft-tracks-ai-adoption-rates-us-ranking-s.html",
@@ -2568,6 +4456,18 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://www.adexchanger.com"
+  },
+  {
+   "id": "1y9sf96",
+   "title": "Gates Foundation commits $1B to Africa's AI development",
+   "url": "https://www.semafor.com/article/09/21/2026/gates-foundation-commits-1b-to-local-language-ai-development-in-africa",
+   "summary": "More than 90% of the data used to train early large language models came from English-language sources.",
+   "date": "2026-09-21T19:41:36.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
   },
   {
    "id": "f99wuf",
@@ -2942,6 +4842,18 @@ window.NEWS_DATA = {
    "site": "https://news.cnyes.com"
   },
   {
+   "id": "1ag5s9i",
+   "title": "The summit won’t break the US-China stalemate",
+   "url": "https://www.semafor.com/article/09/21/2026/the-summit-wont-break-the-us-china-stalemate",
+   "summary": "Beneath the diplomatic surface, the two sides are radically at odds over just about everything.",
+   "date": "2026-09-21T17:01:18.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
    "id": "1z11tjo",
    "title": "Anjanette Comer, Actress in ‘The Loved One’ and ‘The Appaloosa,’ Dies at 86",
    "url": "https://www.hollywoodreporter.com/movies/movie-news/anjanette-comer-dead-loved-one-appaloosa-baby-1236697962",
@@ -2976,6 +4888,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "en",
    "site": "https://www.adweek.com"
+  },
+  {
+   "id": "1k5oyo7",
+   "title": "Paramount settles lawsuits with 12 US states, clearing way for Warner merger",
+   "url": "https://www.theguardian.com/business/2026/sep/21/paramount-settles-lawsuits-warner-bros-merger",
+   "summary": "<p>States including California and New York sued over concerns of ‘extinguishing competition’ with $81bn merger</p><p><a href=\"https://www.theguardian.com/tv-and-radio/paramount-plus\">Paramount</a> has reached a settlement with <a href=\"https://www.theguardian.com/us-news/california\">California</a> ",
+   "date": "2026-09-21T16:52:49.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "The Guardian",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.theguardian.com/uk/media"
   },
   {
    "id": "191x026",
@@ -3072,6 +4996,18 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "1ta3nfz",
+   "title": "Republican group slashes ad spending in NC Senate race",
+   "url": "https://www.semafor.com/article/09/21/2026/republican-group-slashes-ad-spending-in-nc-senate-race",
+   "summary": "Republican candidate Michael Whatley is trailing former Democratic Gov. Roy Cooper in polls.",
+   "date": "2026-09-21T16:26:39.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
   },
   {
    "id": "ecf03o",
@@ -3590,6 +5526,18 @@ window.NEWS_DATA = {
    "site": "https://www.adweek.com"
   },
   {
+   "id": "2pl3ig",
+   "title": "'Trying to survive during impossible times'",
+   "url": "https://www.semafor.com/article/09/21/2026/a-devastating-biopic-on-ian-charleson",
+   "summary": "In this forthcoming biopic, Andrew Scott portrays Ian Charleson as the Scottish actor faces down a diagnosis while attempting to revive his career.",
+   "date": "2026-09-21T14:45:39.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
    "id": "17xiopi",
    "title": "把不喜欢的同人当仇人，然后呢？",
    "url": "https://www.huxiu.com/article/4893006.html",
@@ -3698,6 +5646,30 @@ window.NEWS_DATA = {
    "site": "https://www.thewrap.com"
   },
   {
+   "id": "5sx7c2",
+   "title": "South Africa woos US and China with platinum",
+   "url": "https://www.semafor.com/article/09/21/2026/south-africa-woos-us-and-china-with-platinum",
+   "summary": "Africa’s biggest economy is leveraging its role as the world’s dominant platinum supplier to forge ties with Washington and Beijing.",
+   "date": "2026-09-21T14:19:15.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "1mby9hz",
+   "title": "Copper production falls, leading to concerns over longterm supplies",
+   "url": "https://www.semafor.com/article/09/21/2026/copper-production-falls-leading-to-concerns-over-longterm-supplies",
+   "summary": "Production disruptions and weak output in Chile, the world’s biggest producer, sent prices to record highs.",
+   "date": "2026-09-21T14:15:12.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
    "id": "10gbndo",
    "title": "Meet the next wave of VCs judging Startup Battlefield 200 at TechCrunch Disrupt 2026",
    "url": "https://techcrunch.com/2026/09/21/meet-the-next-wave-of-vcs-judging-startup-battlefield-200-at-techcrunch-disrupt-2026",
@@ -3708,6 +5680,18 @@ window.NEWS_DATA = {
    "tier": "A",
    "lang": "en",
    "site": "https://techcrunch.com"
+  },
+  {
+   "id": "zvmc3g",
+   "title": "Global trade turmoil risks food price shock",
+   "url": "https://www.semafor.com/article/09/21/2026/global-trade-turmoil-risks-food-price-shock",
+   "summary": "Rising fuel prices caused by the instability at the Hormuz and Bab el-Mandeb straits are hitting farmers in parts of the West just as harvest season opens.",
+   "date": "2026-09-21T14:14:14.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
   },
   {
    "id": "19in6fh",
@@ -3722,6 +5706,18 @@ window.NEWS_DATA = {
    "site": "https://www.thewrap.com"
   },
   {
+   "id": "1aqx2cq",
+   "title": "Surging fuel prices heat up polls across US, Brazil and EU",
+   "url": "https://www.semafor.com/article/09/21/2026/surging-fuel-prices-heat-up-polls-across-us-brazil-and-eu",
+   "summary": "Though benchmark oil prices have stabilized after a recent surge, a shortage of fuel tankers and limits on global refining capacity have driven diesel costs.",
+   "date": "2026-09-21T14:12:49.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
    "id": "oq4l1y",
    "title": "Movie Theater Advertising Giant Closes $275 Million Deal to Expand to Offices",
    "url": "https://www.hollywoodreporter.com/business/business-news/national-cinemedia-offices-1236706861",
@@ -3734,6 +5730,18 @@ window.NEWS_DATA = {
    "site": "https://www.hollywoodreporter.com"
   },
   {
+   "id": "1urv43b",
+   "title": "Rifts ahead of US-China talks on AI safety",
+   "url": "https://www.semafor.com/article/09/21/2026/rifts-ahead-of-us-china-talks-on-ai-safety",
+   "summary": "Analysts voices skepticism that Washington and Beijing would reach an accommodation on the proposed AI safety mechanism.",
+   "date": "2026-09-21T14:10:58.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
    "id": "15zm9ir",
    "title": "这一次，我们不能再放过罗永浩",
    "url": "https://www.huxiu.com/article/4893003.html",
@@ -3744,6 +5752,18 @@ window.NEWS_DATA = {
    "tier": "A",
    "lang": "zh-CN",
    "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "e85ur",
+   "title": "Global diplomacy takes center stage in New York",
+   "url": "https://www.semafor.com/article/09/21/2026/global-diplomacy-takes-center-stage-in-new-york",
+   "summary": "The UN General Assembly could see talks between US President Donald Trump and his Ukrainian, and maybe even Iranian, counterparts.",
+   "date": "2026-09-21T14:09:05.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
   },
   {
    "id": "d09h9p",
@@ -3804,6 +5824,42 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://thenextweb.com"
+  },
+  {
+   "id": "ee3qmk",
+   "title": "African banks expand beyond home countries",
+   "url": "https://www.semafor.com/article/09/21/2026/african-banks-expand-beyond-home-countries",
+   "summary": "Banking groups are hoping to capture expected growth in cross-border transactions and reduce exposure to domestic risks, a Fitch Ratings report said.",
+   "date": "2026-09-21T13:57:17.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "n1kjlg",
+   "title": "Africa needs broadband, power expansion to bridge internet gap — report",
+   "url": "https://www.semafor.com/article/09/21/2026/africa-must-expand-broadband-power-access-to-reduce-internet-gap-report-says",
+   "summary": "Around 60% of people in Africa live in areas where mobile internet access is available, but don’t use it.",
+   "date": "2026-09-21T13:56:21.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "1pmztfq",
+   "title": "US lifts sanctions on Eritrean officials",
+   "url": "https://www.semafor.com/article/09/21/2026/us-lifts-sanctions-on-eritrean-officials",
+   "summary": "The Biden administration imposed the measures in 2021 over human rights abuses committed during the Tigray war in neighboring Ethiopia.",
+   "date": "2026-09-21T13:52:23.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
   },
   {
    "id": "141puc0",
@@ -4262,6 +6318,30 @@ window.NEWS_DATA = {
    "site": "https://news.cnyes.com"
   },
   {
+   "id": "74gtg4",
+   "title": "Al-Kaabi: Hormuz ‘cannot be obsolete’",
+   "url": "https://www.semafor.com/article/09/21/2026/al-kaabi-hormuz-cannot-be-obsolete",
+   "summary": "The Strait of Hormuz “cannot be obsolete,” despite the Trump administration’s assertions, Qatar’s energy minister said.",
+   "date": "2026-09-21T12:04:43.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "17yhkz4",
+   "title": "Qatar Investment Authority consolidates domestic portfolio",
+   "url": "https://www.semafor.com/article/09/21/2026/qatar-investment-authority-consolidates-domestic-portfolio",
+   "summary": "The sovereign wealth fund moved companies into a new division, Doha Investment, which will hold more than 40 firms.",
+   "date": "2026-09-21T12:04:24.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
    "id": "1n4a1to",
    "title": "給一般人的 AI 助理終於來了？Meta Muse 上線不到兩週登頂美國 App Store，超越 ChatGPT 和 Gemini",
    "url": "https://www.inside.com.tw/article/42443-meta-muse-app-store-number-one-us-2026",
@@ -4502,6 +6582,18 @@ window.NEWS_DATA = {
    "site": "https://news.cnyes.com"
   },
   {
+   "id": "wd7m8u",
+   "title": "Data centers drive a surge in climate tech funding",
+   "url": "https://www.semafor.com/article/09/21/2026/data-centers-drive-a-surge-in-climate-tech-funding",
+   "summary": "‘It’s a really weird moment because we’re having a bunch of tourists come in.’",
+   "date": "2026-09-21T11:04:51.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
    "id": "hh74jp",
    "title": "Poynter launches free course offering ethical guidance for funders interested in supporting local news",
    "url": "https://www.poynter.org/news-release/2026/poynter-launches-free-course-offering-ethical-guidance-for-funders-interested-in-supporting-local-news",
@@ -4584,6 +6676,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-TW",
    "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "174ycnh",
+   "title": "Conflict isn’t slowing deals for Gulf’s fastest-growing investment firm",
+   "url": "https://www.semafor.com/article/09/21/2026/conflict-isnt-slowing-deals-for-gulfs-fastest-growing-investment-firm",
+   "summary": "BlueFive Capital founder and CEO Hazem Ben-Gacem has used its $15 billion to invest in driverless deliveries, supercars, and Shariah-compliant finance.",
+   "date": "2026-09-21T10:33:07.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
   },
   {
    "id": "1op6gms",
@@ -4922,6 +7026,66 @@ window.NEWS_DATA = {
    "site": "https://www.woshipm.com"
   },
   {
+   "id": "43m4xz",
+   "title": "Inside a low-key House Democratic leadership fight",
+   "url": "https://www.semafor.com/article/09/21/2026/inside-a-low-key-house-democratic-leadership-fight",
+   "summary": "In recent days, allies of both Reps. Joe Neguse, D-Colo., and Ted Lieu, D-Calif., have laid claim to the fourth-ranking slot in a possible Democratic majority.",
+   "date": "2026-09-21T09:02:28.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "85eq7b",
+   "title": "‘This pushes the boundaries’: White House helped Pentagon explain the legality of its equity deals",
+   "url": "https://www.semafor.com/article/09/21/2026/this-pushes-the-boundaries-white-house-helped-pentagon-explain-the-legality-of-its-stock-deals",
+   "summary": "A legal opinion reviewed by Semafor shows how the Trump administration created the rationale for government stakes in more than a half-dozen companies.",
+   "date": "2026-09-21T09:01:57.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "4oxy1v",
+   "title": "Why the Senate won’t vote to repeal new Canada tariffs",
+   "url": "https://www.semafor.com/article/09/21/2026/why-the-senate-wont-vote-to-repeal-new-canada-tariffs",
+   "summary": "The president’s use of a nearly century-old law to impose the levies takes away individual senators' ability to force a vote on the Senate floor.",
+   "date": "2026-09-21T09:01:39.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "l738wd",
+   "title": "At Trump-Xi meeting, Taiwan will be on back burner",
+   "url": "https://www.semafor.com/article/09/21/2026/at-trump-xi-meeting-taiwan-will-be-on-back-burner",
+   "summary": "Still, rising US-China tensions over the self-governing island loom in the background.",
+   "date": "2026-09-21T09:01:23.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "1l4kabw",
+   "title": "US, Chinese officials talk trade, AI ahead of Xi visit",
+   "url": "https://www.semafor.com/article/09/21/2026/us-chinese-officials-talk-trade-ai-ahead-of-xi-visit",
+   "summary": "Officials picked up where they “left off in Beijing,” said Treasury Secretary Scott Bessent.",
+   "date": "2026-09-21T09:01:11.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
    "id": "1op6gj2",
    "title": "迎來「場均萬人」全盛期！中華職棒第 37 個年頭，6 隊商業軍備賽全面開火",
    "url": "https://www.managertoday.com.tw/articles/view/72935",
@@ -4932,6 +7096,18 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "zh-TW",
    "site": "https://www.managertoday.com.tw"
+  },
+  {
+   "id": "9n42ts",
+   "title": "France’s ‘school of happy globalization’ refocuses on security",
+   "url": "https://www.semafor.com/article/09/20/2026/frances-school-of-happy-globalization-refocuses-on-security",
+   "summary": "The shift at Sciences Po is indicative of a broader European pivot toward its own defense — and away from America.",
+   "date": "2026-09-21T09:00:07.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
   },
   {
    "id": "ghdztd",
@@ -9386,6 +11562,18 @@ window.NEWS_DATA = {
    "site": "https://news.cnyes.com"
   },
   {
+   "id": "34b2s6",
+   "title": "NATO backs US, Denmark deal over Greenland security",
+   "url": "https://www.semafor.com/article/09/20/2026/nato-backs-us-denmark-deal-over-greenland-security",
+   "summary": "The agreement potentially forestalls President Donald Trump’s demands to take over the Arctic territory.",
+   "date": "2026-09-20T22:34:41.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
    "id": "ghx45q",
    "title": "華爾街估Fed今年再升息2次 甚至一路升到「經濟出事」",
    "url": "https://news.cnyes.com/news/id/6611096",
@@ -9396,6 +11584,66 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-TW",
    "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "88x2h8",
+   "title": "Kyiv launches massive strikes on Moscow as Russians vote",
+   "url": "https://www.semafor.com/article/09/20/2026/kyiv-strikes-moscow-as-russians-vote",
+   "summary": "Ukraine launched a huge drone attack on Moscow and its surrounding regions Sunday as Russian voters cast ballots on the final day of parliamentary elections.",
+   "date": "2026-09-20T22:28:42.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "rg2lh",
+   "title": "Experts warn of AI warfare risk",
+   "url": "https://www.semafor.com/article/09/20/2026/experts-warn-of-ai-warfare-risk",
+   "summary": "The US military reportedly prepared to intercept a Chinese vessel in the Middle East this spring after an AI chatbot misidentified materials on board, a close call that “almost started a war,” a source told CNN.",
+   "date": "2026-09-20T22:28:16.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "cnvm82",
+   "title": "Houthis hit Saudia Arabia, threatening further escalation",
+   "url": "https://www.semafor.com/article/09/20/2026/middle-east-tensions-threaten-escalation",
+   "summary": "Yemen’s Iran-backed Houthi fighters struck Saudi Arabia over the weekend as Iran warned against new US attacks, threatening to ignite another round of regional escalation.",
+   "date": "2026-09-20T22:27:58.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "1rzbbt5",
+   "title": "US, Chinese officials meet before summit",
+   "url": "https://www.semafor.com/article/09/20/2026/us-chinese-officials-meet-before-trump-xi-summit",
+   "summary": "US Treasury Secretary Scott Bessent met with Chinese Vice Premier He Lifeng in New York on Sunday before this week’s high-stakes summit between US President Donald Trump and Chinese leader Xi Jinping.",
+   "date": "2026-09-20T22:26:42.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "1az8dy",
+   "title": "Merz's CDU collapses in German regional elections 'disaster'",
+   "url": "https://www.semafor.com/article/09/20/2026/merzs-cdu-collapses-in-german-regional-elections-disaster",
+   "summary": "Germany’s governing CDU suffered its worst result in 80 years in regional elections Sunday.",
+   "date": "2026-09-20T22:26:35.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
   },
   {
    "id": "1tuwfb3",
@@ -13982,6 +16230,18 @@ window.NEWS_DATA = {
    "site": "https://www.hollywoodreporter.com"
   },
   {
+   "id": "c8gos9",
+   "title": "Health wonks question who saves in Trump drug program",
+   "url": "https://www.semafor.com/article/09/18/2026/health-wonks-question-who-saves-in-trump-drug-program",
+   "summary": "President Trump boasted about his administration’s work on drug pricing, announcing the “most-favored-nation” program, but health policy experts question whether the changes will directly save consumers money.",
+   "date": "2026-09-18T21:21:28.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
    "id": "7x4l02",
    "title": "Meta Defeats Privacy Suit Over &#x27;Voiceprints&#x27;",
    "url": "https://www.mediapost.com/publications/article/418132/meta-defeats-privacy-suit-over-voiceprints.html",
@@ -14534,6 +16794,18 @@ window.NEWS_DATA = {
    "site": "https://www.thewrap.com"
   },
   {
+   "id": "fe28ed",
+   "title": "Shaheen holds up $2.8B arms sale to Israel",
+   "url": "https://www.semafor.com/article/09/18/2026/shaheen-holds-up-28b-arms-sale-to-israel",
+   "summary": "The deal was reported earlier this week, but the top Democrat on the Senate Foreign Relations Committee has had a hold on it since July.",
+   "date": "2026-09-18T18:00:07.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
    "id": "ghwgei",
    "title": "日銀升息也救不了日元？跌近158後傳出詢價 市場緊盯干預",
    "url": "https://news.cnyes.com/news/id/6610507",
@@ -14844,6 +17116,18 @@ window.NEWS_DATA = {
    "tier": "A",
    "lang": "en",
    "site": "https://www.amediaoperator.com"
+  },
+  {
+   "id": "1cqm2fm",
+   "title": "The real reason not to IPO",
+   "url": "https://www.semafor.com/article/09/18/2026/the-real-reason-not-to-ipo",
+   "summary": "OpenAI and Anthropic were once essentially research laboratories, running on the thrill of innovation without the pressure of revenue models or Wall Street analysts.",
+   "date": "2026-09-18T16:51:02.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
   },
   {
    "id": "10sd1kk",
@@ -15350,6 +17634,30 @@ window.NEWS_DATA = {
    "site": "https://techcrunch.com"
   },
   {
+   "id": "1l956zt",
+   "title": "AI titans to attend Xi White House dinner",
+   "url": "https://www.semafor.com/article/09/18/2026/ai-titans-to-attend-xi-white-house-dinner",
+   "summary": "The Chinese leader’s Washington visit next week is attracting attention among big names in the tech world.",
+   "date": "2026-09-18T15:19:22.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "ws2qh5",
+   "title": "Fears about technology causing extinction are not unprecedented",
+   "url": "https://www.semafor.com/article/09/18/2026/fears-about-technology-causing-extinction-are-not-unprecedented",
+   "summary": "A look at newspaper archives shows parallels in how society debated the impacts of nuclear power and its regulation and AI, though there are limits to the analogy.",
+   "date": "2026-09-18T15:05:53.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
    "id": "1wdhpw5",
    "title": "Why Brands Should Embrace ‘Constellation Thinking’ in Finding Their Purpose",
    "url": "https://www.adweek.com/brand-marketing/why-brands-should-embrace-constellation-thinking-in-finding-their-purpose",
@@ -15420,6 +17728,18 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://thenextweb.com"
+  },
+  {
+   "id": "1tvonj9",
+   "title": "How Silicon Valley took over the military-industrial complex",
+   "url": "https://www.semafor.com/article/09/18/2026/how-silicon-valley-took-over-the-defense-industry",
+   "summary": "A veteran security journalist chronicles how “a heavily financed ‘arsenal of the broligarchy,’” is reshaping the defense industry.",
+   "date": "2026-09-18T14:51:41.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
   },
   {
    "id": "11i1i9g",
@@ -16046,6 +18366,18 @@ window.NEWS_DATA = {
    "site": "https://news.cnyes.com"
   },
   {
+   "id": "1bbdz6v",
+   "title": "Africa’s diaspora needs a bigger role",
+   "url": "https://www.semafor.com/article/09/18/2026/africas-diaspora-needs-a-bigger-role",
+   "summary": "The continent needs more than remittances and goodwill from Africans abroad.",
+   "date": "2026-09-18T12:28:33.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
    "id": "5i83i5",
    "title": "Felicity Green obituary",
    "url": "https://www.theguardian.com/fashion/2026/sep/18/felicity-green-obituary",
@@ -16442,6 +18774,18 @@ window.NEWS_DATA = {
    "site": "https://news.cnyes.com"
   },
   {
+   "id": "mhtfjs",
+   "title": "Nigerian fuel price spike renews worry over inflation and Iran war exposure",
+   "url": "https://www.semafor.com/article/09/18/2026/nigerian-fuel-price-spike-renews-worry-over-inflation-and-iran-war-exposure",
+   "summary": "Prices have risen despite domestic oil production and growing refining capacity.",
+   "date": "2026-09-18T11:25:49.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
    "id": "eajn4t",
    "title": "Google Merchant Center API Now Supports Product Reviews",
    "url": "https://www.seroundtable.com/google-merchant-center-api-supports-product-reviews-42101.html",
@@ -16488,6 +18832,66 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-TW",
    "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "1nzvvgk",
+   "title": "US approves Africa investments as it challenges China's influence",
+   "url": "https://www.semafor.com/article/09/18/2026/us-approves-africa-investments-as-it-challenges-chinas-influence",
+   "summary": "Washington’s bets include $414 million in financing for a uranium project in Niger and hundreds of millions for digital infrastructure providers.",
+   "date": "2026-09-18T11:07:45.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "4e7qkt",
+   "title": "Germany’s Merz under pressure ahead of state elections",
+   "url": "https://www.semafor.com/article/09/18/2026/germanys-merz-under-pressure-ahead-of-state-elections",
+   "summary": "Polls suggest his party will likely do badly and concerns are rising that it could face falling to second in the capital.",
+   "date": "2026-09-18T11:07:00.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "1rjabxl",
+   "title": "New tanker orders spike as Iran war redraws trade routes",
+   "url": "https://www.semafor.com/article/09/18/2026/new-tanker-orders-spike-as-iran-war-redraws-trade-routes",
+   "summary": "The $20 billion buying spree comes as buyers turn to crude oil prodiced in the Americas, which must be shipped via long transoceanic voyages.",
+   "date": "2026-09-18T11:06:39.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "1iypqzi",
+   "title": "AI cybersecurity risks explode as Claude used to break into ChatGPT",
+   "url": "https://www.semafor.com/article/09/18/2026/ai-cybersecurity-risks-explode-as-claude-used-to-break-into-chatgpt",
+   "summary": "The effort, part of a bug-hunting program, was the latest in a series of cybersecurity breaches, The Wall Street Journal noted.",
+   "date": "2026-09-18T11:05:42.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "1reypjl",
+   "title": "Tech leaders clash over AI safety regulation",
+   "url": "https://www.semafor.com/article/09/18/2026/tech-leaders-clash-over-ai-safety-regulation",
+   "summary": "Palantir’s boss told CNBC that leading AI firms may need to be nationalized, while Huawei’s chair called for Chinese labs to accelerate their development.",
+   "date": "2026-09-18T11:05:14.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
   },
   {
    "id": "1x0z4sl",
@@ -16838,6 +19242,18 @@ window.NEWS_DATA = {
    "site": "https://news.cnyes.com"
   },
   {
+   "id": "jjbsjv",
+   "title": "Democrats look to investigate third-party deportations after midterms",
+   "url": "https://www.semafor.com/article/09/18/2026/democrats-look-to-investigate-third-party-deportations-after-midterms",
+   "summary": "Democrats are warning that the Trump administration’s secretive third-country deportation program could face a full congressional investigation if they retake power.",
+   "date": "2026-09-18T09:00:01.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
    "id": "11cfnsg",
    "title": "How Google is drafting AI chatbot laws around the country",
    "url": "https://www.npr.org/2026/09/18/nx-s1-5968878/ai-chatbots-safety-regulation-google",
@@ -16850,6 +19266,18 @@ window.NEWS_DATA = {
    "site": "https://www.npr.org"
   },
   {
+   "id": "1fd8fbx",
+   "title": "Saudi Arabia notches win with F-35 sale",
+   "url": "https://www.semafor.com/article/09/18/2026/saudi-notches-win-with-f-35-sale",
+   "summary": "The sale must still undergo congressional review, where it will likely face opposition.",
+   "date": "2026-09-18T08:53:38.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
    "id": "ruirp0",
    "title": "OpenAI launches Astra for Law, and its own legal research index",
    "url": "https://thenextweb.com/news/openai-astra-for-law-gpt-6-legal-search-index",
@@ -16860,6 +19288,42 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://thenextweb.com"
+  },
+  {
+   "id": "vuvbx2",
+   "title": "Democrats press Trump administration on Venezuela oil deal",
+   "url": "https://www.semafor.com/article/09/18/2026/democrats-press-state-doj-on-venezuela-oil-deal",
+   "summary": "The lawmakers homed in on the role of Venezuelan businessman Alejandro Betancourt.",
+   "date": "2026-09-18T08:53:05.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "11f3bl9",
+   "title": "Senate permitting talks reach a turning point",
+   "url": "https://www.semafor.com/article/09/18/2026/senate-permitting-talks-reach-a-turning-point",
+   "summary": "Senators want to hit the campaign trail for the fall, but first they have to figure out how much they want to get done before the election.",
+   "date": "2026-09-18T08:49:10.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "c45mje",
+   "title": "White House claims drug pricing progress",
+   "url": "https://www.semafor.com/article/09/18/2026/white-house-claims-drug-pricing-progress",
+   "summary": "The administration is set to announce all 50 states will see most-favored-nation pricing for certain drugs in Medicaid programs.",
+   "date": "2026-09-18T08:48:57.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
   },
   {
    "id": "ghwd7w",
@@ -16896,6 +19360,30 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "zh-TW",
    "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "szs2d3",
+   "title": "Why Kai-Fu Lee thinks companies need an AI boss",
+   "url": "https://www.semafor.com/article/09/18/2026/why-kai-fu-lee-thinks-companies-need-an-ai-boss",
+   "summary": "Google’s former China chief says CEOs face a Darwinian choice if they want more than “AI theater.”",
+   "date": "2026-09-18T08:43:21.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "8lv8b8",
+   "title": "How Atlassian built a $45 billion software company far from Silicon Valley’s ‘froth and bubbles’",
+   "url": "https://www.semafor.com/article/09/18/2026/how-atlassian-built-a-45-billion-software-company-far-from-silicon-valleys-froth-and-bubbles",
+   "summary": "CEO Mike Cannon-Brookes says CEOs need context, experimentation, and some big bets to get the most from AI.",
+   "date": "2026-09-18T08:43:10.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
   },
   {
    "id": "5fpvvg",
@@ -19010,6 +21498,30 @@ window.NEWS_DATA = {
    "site": "https://news.cnyes.com"
   },
   {
+   "id": "1njvfc3",
+   "title": "GM to build Patriot missile parts for Lockheed Martin",
+   "url": "https://www.semafor.com/article/09/17/2026/gm-to-build-patriot-missile-parts-for-lockheed-martin-in-us-munitions-push",
+   "summary": "The Pentagon is hoping to enlist more manufacturers in its push to speed up procurement and plug the gaping munitions holes that have emerged during the ongoing conflict with Iran.",
+   "date": "2026-09-17T22:42:25.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "15o0yjk",
+   "title": "Asian economies boom on AI-driven data center demand",
+   "url": "https://www.semafor.com/article/09/17/2026/asian-manufacturing-economies-profit-from-ai-driven-data-center-boom",
+   "summary": "Major Asian economies are profiting from growing global demand for AI.",
+   "date": "2026-09-17T22:41:45.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
    "id": "ghdz2s",
    "title": "美中AI競爭升溫 FBI甫指控阿里巴巴仿製Anthropic 美政府網站急撤Qwen",
    "url": "https://news.cnyes.com/news/id/6609572",
@@ -19020,6 +21532,30 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-TW",
    "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "19wjgb8",
+   "title": "Novo to partner with Anthropic on drug discovery efforts",
+   "url": "https://www.semafor.com/article/09/17/2026/novo-to-partner-with-anthropic-on-drug-discovery-efforts",
+   "summary": "The one-time GLP-1 leader is betting AI will help it reclaim lost market share.",
+   "date": "2026-09-17T22:35:42.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "xw0n44",
+   "title": "Trump backs Fed's Warsh following rate hike",
+   "url": "https://www.semafor.com/article/09/17/2026/trump-backs-warsh-after-fed-rate-hike",
+   "summary": "Stocks rallied Thursday as markets digested the US Federal Reserve’s decision to hike interest rates.",
+   "date": "2026-09-17T22:34:49.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
   },
   {
    "id": "1dq5jz1",
@@ -19044,6 +21580,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-TW",
    "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "14msz8f",
+   "title": "US, China ramp up summit preparations",
+   "url": "https://www.semafor.com/article/09/17/2026/us-china-ramp-up-summit-preparations",
+   "summary": "US President Donald Trump will reportedly greet China’s leader Xi Jinping as he steps off the plane in Washington, DC next week — the first leader accorded that deference in Trump’s second term.",
+   "date": "2026-09-17T22:22:13.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
   },
   {
    "id": "ghd826",
@@ -19226,6 +21774,18 @@ window.NEWS_DATA = {
    "site": "https://www.npr.org"
   },
   {
+   "id": "lk3dol",
+   "title": "Nvidia’s case for taming AI agents",
+   "url": "https://www.semafor.com/article/09/17/2026/nvidias-case-for-taming-ai-agents",
+   "summary": "The company’s VP of agentic AI told Semafor he sees AI safety as an engineering challenge, rather than an unprecedented, existential threat.",
+   "date": "2026-09-17T21:13:47.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
    "id": "ghces6",
    "title": "〈台股盤前要聞〉台指期夜盤大漲突破4萬7、央行不跟進升息對房市再鬆綁",
    "url": "https://news.cnyes.com/news/id/6607477",
@@ -19284,6 +21844,18 @@ window.NEWS_DATA = {
    "tier": "A",
    "lang": "en",
    "site": "https://www.mediapost.com"
+  },
+  {
+   "id": "9hnae5",
+   "title": "Behind the Trump administration's pro-AI meme campaign",
+   "url": "https://www.semafor.com/article/09/17/2026/behind-the-trump-administrations-pro-ai-meme-campaign",
+   "summary": "The administration is casting effective altruists — who focus on reducing harm from the tech and heavily weigh advancement versus risk — as the enemy.",
+   "date": "2026-09-17T20:38:57.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
   },
   {
    "id": "vznlwh",
@@ -19394,6 +21966,18 @@ window.NEWS_DATA = {
    "site": "https://techcrunch.com"
   },
   {
+   "id": "5jttbc",
+   "title": "Hilton on courting California's Trump haters",
+   "url": "https://www.semafor.com/article/09/17/2026/hilton-on-courting-californias-trump-haters",
+   "summary": "Steve Hilton, the Republican nominee for governor of California, is working to make the most of an endorsement from Trump as the president’s popularity wanes.",
+   "date": "2026-09-17T19:47:59.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
    "id": "zw1t79",
    "title": "Microsoft exec called AI scraping ‘the largest theft of labor in human history,’ new unredacted filings reveal",
    "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
@@ -19418,6 +22002,18 @@ window.NEWS_DATA = {
    "site": "https://www.mediapost.com"
   },
   {
+   "id": "gd15bj",
+   "title": "An 'AI OPEC' is unlikely",
+   "url": "https://www.semafor.com/article/09/17/2026/the-idea-of-an-ai-opec-will-likely-not-materialize",
+   "summary": "Mark Zuckerberg certainly wants no part of one, and cutthroat competition seems hard-coded into tech executives.",
+   "date": "2026-09-17T19:31:44.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
    "id": "5oc1wr",
    "title": "Andrew Ng calls the AI extinction warnings science fiction",
    "url": "https://thenextweb.com/news/andrew-ng-extinction-science-fiction",
@@ -19440,6 +22036,30 @@ window.NEWS_DATA = {
    "tier": "A",
    "lang": "en",
    "site": "https://www.mediapost.com"
+  },
+  {
+   "id": "1gvmjm0",
+   "title": "OpenAI will tell us when the world is ending",
+   "url": "https://www.semafor.com/article/09/17/2026/openai-will-tell-us-when-the-world-is-ending",
+   "summary": "Transparency goes a long way with investors and the public.",
+   "date": "2026-09-17T19:16:15.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "infxg5",
+   "title": "Wall Street's trading revenue slows down",
+   "url": "https://www.semafor.com/article/09/17/2026/wall-streets-trading-revenue-slows-down",
+   "summary": "Big bank executives this week warned that their third-quarter revenues would be down from the spring.",
+   "date": "2026-09-17T19:15:30.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
   },
   {
    "id": "iznlit",
@@ -19562,6 +22182,18 @@ window.NEWS_DATA = {
    "site": "https://www.mediapost.com"
   },
   {
+   "id": "hpxvj9",
+   "title": "Video AI company Pika offers new tool to speed up AI video creation",
+   "url": "https://www.semafor.com/article/09/17/2026/video-ai-company-pika-offers-tool-to-speed-up-ai-video-creation",
+   "summary": "Creators can use fewer prompts to generate shot-by-shot lists for AI videos.",
+   "date": "2026-09-17T17:33:55.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
    "id": "k5hovp",
    "title": "Ireland to boycott Eurovision again over Israeli participation and ongoing Gaza deaths",
    "url": "https://www.theguardian.com/tv-and-radio/2026/sep/17/ireland-to-boycott-eurovision-again-over-ongoing-deaths-in-gaza",
@@ -19632,6 +22264,18 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://www.adexchanger.com"
+  },
+  {
+   "id": "1v4tr3j",
+   "title": "Senate Republicans weigh whether to keep investing in North Carolina and Georgia races",
+   "url": "https://www.semafor.com/article/09/17/2026/senate-republicans-weigh-whether-to-keep-investing-in-north-carolina-and-georgia-races",
+   "summary": "With the majority on the line and the battleground map expanding, hard choices may be coming soon.",
+   "date": "2026-09-17T17:03:03.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
   },
   {
    "id": "15tiii0",
@@ -19874,6 +22518,30 @@ window.NEWS_DATA = {
    "site": "https://www.adweek.com"
   },
   {
+   "id": "1s4nq9j",
+   "title": "UAE's super stallions will compete in Japan's Asian Games",
+   "url": "https://www.semafor.com/article/09/17/2026/uaes-super-stallions-will-compete-in-japans-asian-games",
+   "summary": "The UAE fielded its first-ever Asian Games dressage team in Hangzhou in 2023. The 20th Asian Games run Sept. 19 to Oct. 4 in Nagoya, Japan.",
+   "date": "2026-09-17T15:12:52.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "d5uo88",
+   "title": "Saudi Arabia's well-timed uranium find near Medina",
+   "url": "https://www.semafor.com/article/09/17/2026/saudi-arabias-well-timed-uranium-find-near-medina",
+   "summary": "Though the element is more abundant than gold, the timing is curious. Beijing reportedly helped build a facility to extract yellowcake from ore.",
+   "date": "2026-09-17T15:12:42.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
    "id": "h1039g",
    "title": "Last call: Disrupt volunteer application closes soon",
    "url": "https://techcrunch.com/2026/09/17/last-call-disrupt-volunteer-application-closes-soon",
@@ -19920,6 +22588,18 @@ window.NEWS_DATA = {
    "tier": "A",
    "lang": "en",
    "site": "https://techcrunch.com"
+  },
+  {
+   "id": "dhyfbv",
+   "title": "A Norman Conquest retelling “steeped in Viking lore and gore\"",
+   "url": "https://www.semafor.com/article/09/17/2026/a-norman-conquest-retelling-steeped-in-viking-lore-and-gore",
+   "summary": "A scholar of Scandinavian studies recounts the Norman Conquest with a special emphasis on the influence of medieval England’s North Sea neighbors.",
+   "date": "2026-09-17T14:56:22.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
   },
   {
    "id": "ghdy8m",
@@ -20102,6 +22782,18 @@ window.NEWS_DATA = {
    "site": "https://www.adweek.com"
   },
   {
+   "id": "ebv4wn",
+   "title": "Quantum has major emissions savings potential, report finds",
+   "url": "https://www.semafor.com/article/09/17/2026/quantum-has-major-emissions-savings-potential-report-finds",
+   "summary": "The BCG Institute argued in its analysis that the industry’s long deployment cycles are more reason to plan ahead.",
+   "date": "2026-09-17T12:45:07.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
    "id": "wvjtx6",
    "title": "Siddharth Taparia’s Strategy for Transforming Globally Fragmented JLL Into a Unified Marketing Force",
    "url": "https://www.adweek.com/brand-marketing/siddharth-taparias-strategy-for-transforming-globally-fragmented-jll-into-a-unified-marketing-force",
@@ -20112,6 +22804,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "en",
    "site": "https://www.adweek.com"
+  },
+  {
+   "id": "1suvrn5",
+   "title": "Russia sanctions advance, as the US deepens economic pressure",
+   "url": "https://www.semafor.com/article/09/17/2026/russia-sanctions-advance-as-the-us-deepens-economic-pressure",
+   "summary": "The US House of Representatives passed the sanctions bill on Wednesday.",
+   "date": "2026-09-17T12:44:25.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
   },
   {
    "id": "10slee7",
@@ -20246,6 +22950,18 @@ window.NEWS_DATA = {
    "site": "https://www.seroundtable.com"
   },
   {
+   "id": "iwbbw7",
+   "title": "Tested by war, Abu Dhabi charts its energy and water future",
+   "url": "https://www.semafor.com/article/09/17/2026/tested-by-war-abu-dhabi-charts-its-energy-and-water-future",
+   "summary": "The emirate has earmarked almost $82 billion over the next decade for expanding and greening its power grid.",
+   "date": "2026-09-17T11:43:00.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
    "id": "1qsjhtm",
    "title": "Google Ad Tech Monopoly Remedies: Behavioral Changes With Oversight",
    "url": "https://www.seroundtable.com/google-ad-tech-monopoly-remedies-42107.html",
@@ -20256,6 +22972,30 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://www.seroundtable.com"
+  },
+  {
+   "id": "zsakbj",
+   "title": "Exxon nears Venezuela deal, two decades after messy exit",
+   "url": "https://www.semafor.com/article/09/17/2026/exxon-nears-venezuela-deal-two-decades-after-messy-exit",
+   "summary": "The move could help revamp oil production in the de facto US protectorate.",
+   "date": "2026-09-17T11:38:21.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "19il6gx",
+   "title": "Hopes dim for US-China détente during leaders’ summit",
+   "url": "https://www.semafor.com/article/09/17/2026/hopes-dim-for-us-china-talks-during-leaders-summit",
+   "summary": "The US Treasury secretary told Axios he was open to discussing “shared risks” on AI with Beijing at talks this weekend ahead of the summit.",
+   "date": "2026-09-17T11:38:02.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
   },
   {
    "id": "i2g7cd",
@@ -20292,6 +23032,18 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://www.seroundtable.com"
+  },
+  {
+   "id": "14o3p4m",
+   "title": "Aramco says technology delivered $5 billion in value last year",
+   "url": "https://www.semafor.com/article/09/17/2026/aramco-says-technology-delivered-5-billion-in-value-last-year",
+   "summary": "The Saudi oil producer is using AI, digital twins, and other tools to improve operations and adapt to wartime disruptions.",
+   "date": "2026-09-17T11:13:15.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
   },
   {
    "id": "msz5pf",
@@ -20340,6 +23092,42 @@ window.NEWS_DATA = {
    "tier": "A",
    "lang": "en",
    "site": "https://www.journalism.co.uk"
+  },
+  {
+   "id": "1h9kzwz",
+   "title": "Political, military costs of the US’ war in Iran become clearer",
+   "url": "https://www.semafor.com/article/09/17/2026/political-military-costs-of-the-us-war-in-iran-become-clearer",
+   "summary": "The war is widely unpopular with Americans, who will soon vote in the midterm elections, while US defense stockpiles are now vastly diminished.",
+   "date": "2026-09-17T10:41:54.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "y1byxu",
+   "title": "Chinese missile apparently used in Yemen conflict",
+   "url": "https://www.semafor.com/article/09/17/2026/chinese-missile-apparently-used-in-yemen-conflict",
+   "summary": "The discovery pointed to the growing use of Beijing’s military hardware in conflicts far afield.",
+   "date": "2026-09-17T10:41:17.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "yci9l3",
+   "title": "Fresh ‘unexpected or concerning’ AI incidents",
+   "url": "https://www.semafor.com/article/09/17/2026/fresh-unexpected-or-concerning-ai-incidents",
+   "summary": "The latest revelations by OpenAI follow recent calls by its CEO and fellow leading AI labs Anthropic and DeepMind to “pace the frontier.”",
+   "date": "2026-09-17T10:40:05.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
   },
   {
    "id": "uqk3fw",
@@ -20426,6 +23214,30 @@ window.NEWS_DATA = {
    "site": "https://www.inside.com.tw"
   },
   {
+   "id": "1rwtewc",
+   "title": "Democratic group launches campaign to boost Graham challenger",
+   "url": "https://www.semafor.com/article/09/17/2026/democratic-group-launches-campaign-to-boost-graham-challenger",
+   "summary": "The seat is widely considered reliably Republican, but some recent polling has Democrats feeling optimistic.",
+   "date": "2026-09-17T08:57:57.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "1uqse91",
+   "title": "FDA nominee preps for hearing next week",
+   "url": "https://www.semafor.com/article/09/17/2026/fda-nominee-preps-for-hearing-next-week",
+   "summary": "Heidi Overton, who works on the White House Domestic Policy Council, has been meeting with lawmakers.",
+   "date": "2026-09-17T08:57:07.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
    "id": "1yxsc49",
    "title": "【2026 高雄電影節】AI 影片大觀園：穿過《鳥居》、走進華爾街，AI 影片打造出更不一樣的視角與世界",
    "url": "https://www.inside.com.tw/article/42424-2026-kff-ai",
@@ -20438,6 +23250,18 @@ window.NEWS_DATA = {
    "site": "https://www.inside.com.tw"
   },
   {
+   "id": "1xl71oh",
+   "title": "Trump’s Saudi ambassador pick faces early hurdles",
+   "url": "https://www.semafor.com/article/09/16/2026/trumps-saudi-ambassador-pick-wesley-hunt-faces-early-hurdles",
+   "summary": "Sen. Thom Tillis and other Republicans expressed uncertainty about Rep. Wesley Hunt’s nomination.",
+   "date": "2026-09-17T08:56:48.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
    "id": "1oup5w5",
    "title": "我用 Vidu S2 找来了「乔布斯」，跟他聊了聊 iPhone Duo",
    "url": "https://www.ifanr.com/1680700",
@@ -20448,6 +23272,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-CN",
    "site": "https://www.ifanr.com/"
+  },
+  {
+   "id": "1jyihz5",
+   "title": "Senators sought to add AI antitrust exemption to defense bill",
+   "url": "https://www.semafor.com/article/09/16/2026/senators-sought-to-add-ai-antitrust-exemption-to-defense-bill",
+   "summary": "The effort has taken on new significance as debate over AI safety rages in Washington.",
+   "date": "2026-09-17T08:55:56.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
   },
   {
    "id": "1oup5a6",
@@ -20834,6 +23670,18 @@ window.NEWS_DATA = {
    "site": "https://www.socialmediatoday.com"
   },
   {
+   "id": "qh5vx1",
+   "title": "Global survey finds sinking trust in US, Chinese leadership",
+   "url": "https://www.semafor.com/article/09/16/2026/global-survey-finds-sinking-trust-in-us-chinese-leadership",
+   "summary": "When discussing solutions to global ​problems people “are no longer asking ⁠what do the Americans think,” the survey’s commissioner said.",
+   "date": "2026-09-16T22:44:55.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
    "id": "1m5nw9w",
    "title": "勞斯萊斯用代理式 AI 大改造 IT：MTTR 從 6 天砍到 1 天、38,000 張工單自動分流",
    "url": "https://techorange.com/2026/09/17/ai-control-tower-rolls-royce-servicenow",
@@ -20858,6 +23706,30 @@ window.NEWS_DATA = {
    "site": "https://www.mediapost.com"
   },
   {
+   "id": "3yx7fy",
+   "title": "US prosecutors charge five with plot to kill Russian dissident in DC",
+   "url": "https://www.semafor.com/article/09/16/2026/us-prosecutors-charge-five-with-plot-to-kill-russian-dissident-in-dc",
+   "summary": "US federal authorities alleged they were part of a Kremlin-controlled “global assassination network” targeting perceived allies of Ukraine.",
+   "date": "2026-09-16T22:36:08.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "1ma4ahp",
+   "title": "Top sovereign wealth fund executives warn of impending pullback in US stocks",
+   "url": "https://www.semafor.com/article/09/16/2026/top-sovereign-wealth-fund-executives-warn-of-impending-pullback-in-us-stocks",
+   "summary": "The head of the world’s best performing sovereign wealth fund said US returns in recent years were “close to double annualized returns for the past 20.”",
+   "date": "2026-09-16T22:33:36.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
    "id": "1vafvhv",
    "title": "Meta Reportedly Readies Camera-Less Smart Glasses",
    "url": "https://www.mediapost.com/publications/article/418074/meta-reportedly-readies-camera-less-smart-glasses.html",
@@ -20868,6 +23740,18 @@ window.NEWS_DATA = {
    "tier": "A",
    "lang": "en",
    "site": "https://www.mediapost.com"
+  },
+  {
+   "id": "1hxo8es",
+   "title": "Chinese oil prices hit record high",
+   "url": "https://www.semafor.com/article/09/16/2026/chinese-oil-prices-hit-record-high",
+   "summary": "Energy disruptions from an escalating Middle East conflict spilled into the world’s largest market for imported crude.",
+   "date": "2026-09-16T22:21:47.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
   },
   {
    "id": "ghg5nh",
@@ -20954,6 +23838,18 @@ window.NEWS_DATA = {
    "site": "https://www.searchenginejournal.com"
   },
   {
+   "id": "177kv9n",
+   "title": "Warsh breaks with Trump to raise rates",
+   "url": "https://www.semafor.com/article/09/16/2026/fed-raises-interest-rates-in-unanimous-vote",
+   "summary": "The quarter-point increase is the first in three years.",
+   "date": "2026-09-16T19:01:44.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
    "id": "1a9obwb",
    "title": "It Was There A Minute Ago",
    "url": "https://www.searchenginejournal.com/it-was-there-a-minute-ago/589500",
@@ -20978,6 +23874,18 @@ window.NEWS_DATA = {
    "site": "https://www.seroundtable.com"
   },
   {
+   "id": "byoj3q",
+   "title": "Bipartisan AI safety talks accelerate in Senate",
+   "url": "https://www.semafor.com/article/09/16/2026/bipartisan-ai-safety-talks-accelerate-in-senate",
+   "summary": "Key Republican tells Semafor a committee vote could happen ‘this month.’",
+   "date": "2026-09-16T18:58:59.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
    "id": "wjwwnh",
    "title": "The Library Newsroom Project could be coming to a library near you",
    "url": "https://www.niemanlab.org/2026/09/the-library-newsroom-project-could-be-coming-to-a-library-near-you",
@@ -20988,6 +23896,30 @@ window.NEWS_DATA = {
    "tier": "S",
    "lang": "en",
    "site": "https://www.niemanlab.org"
+  },
+  {
+   "id": "gkqipj",
+   "title": "Pacing the frontier is more about business models than AI models",
+   "url": "https://www.semafor.com/article/09/16/2026/pacing-the-frontier-is-more-about-business-models-than-ai-models",
+   "summary": "Spending billions on a race to grow the biggest and most capable models may not be the best sales pitch.",
+   "date": "2026-09-16T18:35:02.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "j4ip5w",
+   "title": "What crypto taught Democrats about the AI backlash",
+   "url": "https://www.semafor.com/article/09/16/2026/what-crypto-taught-democrats-about-the-ai-backlash",
+   "summary": "Democrats see a president who isn’t popular, an industry that’s less popular, and a very straightforward election story.",
+   "date": "2026-09-16T17:36:37.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
   },
   {
    "id": "o5qhcg",
@@ -21062,6 +23994,42 @@ window.NEWS_DATA = {
    "site": "https://www.amediaoperator.com"
   },
   {
+   "id": "1xgd6a4",
+   "title": "Kenya to host World Athletics Championship",
+   "url": "https://www.semafor.com/article/09/16/2026/kenya-to-host-world-athletics-championship",
+   "summary": "The announcement marks the first time that the event will be held in Africa.",
+   "date": "2026-09-16T15:37:56.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "1488mb2",
+   "title": "S. Africa unveils Johannesburg fiscal rescue plan",
+   "url": "https://www.semafor.com/article/09/16/2026/johannesburg-announces-fiscal-rescue-plan",
+   "summary": "Implementation of the plan will continue through local elections, regardless of whether there is a new municipal administration, said the country’s finance minister.",
+   "date": "2026-09-16T15:36:58.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "3i8xe8",
+   "title": "US imposes new visa restrictions on South Africans",
+   "url": "https://www.semafor.com/article/09/16/2026/us-imposes-new-visa-restrictions-on-south-african-officials",
+   "summary": "Washington has repeatedly accused Pretoria of “government-sponsored discrimination” against Afrikaners.",
+   "date": "2026-09-16T15:32:40.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
    "id": "1hcr622",
    "title": "VIDEO: Will AI end humanity? How to separate the real risks from the hype",
    "url": "https://www.poynter.org/ethics-trust/2026/will-ai-destroy-humanity-extinction-risk",
@@ -21074,6 +24042,18 @@ window.NEWS_DATA = {
    "site": "https://www.poynter.org"
   },
   {
+   "id": "m76auz",
+   "title": "Anatomy of an AI-powered hack",
+   "url": "https://www.semafor.com/article/09/16/2026/anatomy-of-an-ai-powered-hack",
+   "summary": "Palo Alto Networks revealed to Semafor fresh details about an AI-powered hack over the summer that targeted a European IT and software company.",
+   "date": "2026-09-16T15:18:19.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
    "id": "dsfckf",
    "title": "OpenAI Testing Sponsored Agents For ChatGPT Ads",
    "url": "https://www.seroundtable.com/openai-chatgpt-sponsored-agents-42104.html",
@@ -21084,6 +24064,30 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://www.seroundtable.com"
+  },
+  {
+   "id": "1alrvp1",
+   "title": "Kiley says he won’t caucus with Republicans if reelected",
+   "url": "https://www.semafor.com/article/09/16/2026/kiley-says-he-wont-caucus-with-republicans-if-reelected",
+   "summary": "The Republican-turned-independent discussed education policy at a Semafor event.",
+   "date": "2026-09-16T14:55:28.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "bp19wf",
+   "title": "'A masterclass in the ethics of espionage'",
+   "url": "https://www.semafor.com/article/09/16/2026/a-masterclass-in-the-ethics-of-espionage",
+   "summary": "Ben Macintyre’s “Redwood” is the surprising true account of how a KGB major’s erectile dysfunction may have altered geopolitics in the Middle East.",
+   "date": "2026-09-16T14:40:54.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
   },
   {
    "id": "9x0med",
@@ -21146,6 +24150,30 @@ window.NEWS_DATA = {
    "site": "https://www.mediacopilot.ai"
   },
   {
+   "id": "z6ny2b",
+   "title": "Iran-backed Houthis test Mecca’s sacred shield",
+   "url": "https://www.semafor.com/article/09/16/2026/iran-backed-houthis-test-meccas-sacred-shield",
+   "summary": "WhatsApp groups and social media across Saudi Arabia lit up on Tuesday with variations of the same message: The Houthis are attacking Mecca.",
+   "date": "2026-09-16T13:14:13.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "1i536re",
+   "title": "Gulf airlines muscle up, fending off European rivals",
+   "url": "https://www.semafor.com/article/09/16/2026/gulf-airlines-muscle-up-fending-off-european-rivals",
+   "summary": "Nowhere is this clearer than in Dammam, where Saudi Arabia has ordered a new budget airline and an expansion of King Fahd International Airport.",
+   "date": "2026-09-16T13:13:50.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
    "id": "1b0b7nq",
    "title": "Beyond Content Parity: Building A Validated Content Workflow For AI Search",
    "url": "https://www.searchenginejournal.com/beyond-content-parity-building-a-validated-content-workflow-for-ai-search/586184",
@@ -21168,6 +24196,18 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://www.seroundtable.com"
+  },
+  {
+   "id": "1exuq84",
+   "title": "Few took the Houthis seriously. A coalition is now needed to stop them.",
+   "url": "https://www.semafor.com/article/09/16/2026/few-took-the-houthis-seriously-a-coalition-is-now-needed-to-stop-them",
+   "summary": "The Gulf, Israel and the US should push the Iran-backed group away from the vital Red Sea shipping lane.",
+   "date": "2026-09-16T11:45:25.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
   },
   {
    "id": "1d49ksq",
@@ -21218,6 +24258,18 @@ window.NEWS_DATA = {
    "site": "https://www.amediaoperator.com"
   },
   {
+   "id": "1skego3",
+   "title": "Dangote mulls US listing for refinery",
+   "url": "https://www.semafor.com/article/09/16/2026/dangote-mulls-us-listing-for-refinery",
+   "summary": "The plan would coincide with the refinery’s expansion by 2029.",
+   "date": "2026-09-16T11:07:23.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
    "id": "4ncnlg",
    "title": "Local news audiences aren’t disappearing, but their habits are changing fast",
    "url": "https://www.poynter.org/business-work/2026/medill-survey-local-news-consumption-2026",
@@ -21228,6 +24280,102 @@ window.NEWS_DATA = {
    "tier": "A",
    "lang": "en",
    "site": "https://www.poynter.org"
+  },
+  {
+   "id": "secn94",
+   "title": "Top US and China trade officials hold talks",
+   "url": "https://www.semafor.com/article/09/16/2026/top-us-and-china-trade-officials-hold-talks",
+   "summary": "Though the rhetoric between the White House and Beijing has been largely conciliatory in recent weeks, the reality has been harsher.",
+   "date": "2026-09-16T10:56:20.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "151u9oc",
+   "title": "Fighting intensifies between Saudi forces and Iran-backed Houthis",
+   "url": "https://www.semafor.com/article/09/16/2026/fighting-intensifies-between-saudi-forces-and-iran-backed-houthis",
+   "summary": "Riyadh said it intercepted a Houthi drone near the holy Muslim city of Mecca; the Yemeni group denied the charge and said it downed a Saudi fighter jet.",
+   "date": "2026-09-16T10:55:16.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "1sw5se0",
+   "title": "The US Federal Reserve is expected to raise rates today",
+   "url": "https://www.semafor.com/article/09/16/2026/the-us-federal-reserve-is-expected-to-raise-rates-today",
+   "summary": "Despite many economists saying the move is necessary to corral inflation, it would put the central bank’s chair in conflict with the White House.",
+   "date": "2026-09-16T10:54:51.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "1etmkep",
+   "title": "EU hardens its China stance, as trade war risk heightens",
+   "url": "https://www.semafor.com/article/09/16/2026/eu-hardens-its-china-stance-as-trade-war-risk-heightens",
+   "summary": "Germany’s chancellor said this week that Europe’s biggest economy supported tougher measures to combat “unfair” Chinese trade practices.",
+   "date": "2026-09-16T10:53:58.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "1unyp2d",
+   "title": "Tech leaders take opposing positions on AI slowdown",
+   "url": "https://www.semafor.com/article/09/16/2026/tech-leaders-take-opposing-positions-on-ai-slowdown",
+   "summary": "Experts fear the US regulation window is closing fast ahead of midterm elections, which could neglect a researcher’s warning that AI is spiraling out of control.",
+   "date": "2026-09-16T10:53:23.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "1f48imf",
+   "title": "Democratic Republic of Congo courts US mining funds",
+   "url": "https://www.semafor.com/article/09/16/2026/democratic-republic-of-congo-courts-us-mining-funds",
+   "summary": "The DRC is the world’s largest producer of cobalt, a key component in electronics and is seeking to attract more Western funds.",
+   "date": "2026-09-16T10:52:44.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "paqbvc",
+   "title": "The EU invites Canada to become 'associate member'",
+   "url": "https://www.semafor.com/article/09/16/2026/the-eu-invites-canada-to-become-associate-member",
+   "summary": "The move would be the first of its kind, and it would transform a bloc defined by geography to one driven by values.",
+   "date": "2026-09-16T10:52:04.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "1um29yh",
+   "title": "Somaliland’s president puts everything on the table for Trump",
+   "url": "https://www.semafor.com/article/09/16/2026/somalilands-president-puts-everything-on-the-table-for-trump",
+   "summary": "The breakaway territory is offering Washington access to its port, minerals and potentially military facilities in exchange for recognition.",
+   "date": "2026-09-16T10:51:27.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
   },
   {
    "id": "1q5kenm",
@@ -21314,6 +24462,18 @@ window.NEWS_DATA = {
    "site": "https://www.npr.org"
   },
   {
+   "id": "1s2i7mo",
+   "title": "The public wants a say in AI development",
+   "url": "https://www.semafor.com/article/09/16/2026/the-public-wants-a-say-in-ai-development",
+   "summary": "Half of voters surveyed for a new poll said AI is moving too fast.",
+   "date": "2026-09-16T09:13:37.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
    "id": "1dtpvsw",
    "title": "So, you want to be a journalist in Indy? Here’s what you need to know",
    "url": "https://www.poynter.org/reporting-editing/2026/so-you-want-to-be-journalist-in-indy",
@@ -21338,6 +24498,42 @@ window.NEWS_DATA = {
    "site": "https://www.npr.org"
   },
   {
+   "id": "1f4u5pm",
+   "title": "Justice threatens GOP showdown in West Virginia",
+   "url": "https://www.semafor.com/article/09/15/2026/justice-threatens-gop-showdown-in-west-virginia",
+   "summary": "The Republican senator is considering a run for his old job, which would pit him against incumbent GOP Gov. Patrick Morrisey.",
+   "date": "2026-09-16T08:58:03.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "1hmrkai",
+   "title": "A new crop of Democratic early-state kingmakers rises for 2028",
+   "url": "https://www.semafor.com/article/09/16/2026/a-new-crop-of-democratic-early-state-kingmakers-rises-for-2028",
+   "summary": "Expect to hear a lot more from New Mexico’s delegation.",
+   "date": "2026-09-16T08:57:42.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "y5xve1",
+   "title": "Congress eyes final legislative push before midterms",
+   "url": "https://www.semafor.com/article/09/16/2026/congress-eyes-final-legislative-push-before-midterms",
+   "summary": "A final vote is expected Wednesday on a bill ratcheting up penalties on Russia.",
+   "date": "2026-09-16T08:57:33.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
    "id": "1tk4lml",
    "title": "AI 叢集 ROI 關鍵在傳輸效率？英特爾前員工創 Delos Data 募逾 1 億美元",
    "url": "https://techorange.com/2026/09/16/delos-data-efficient-ai-capacity",
@@ -21348,6 +24544,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-TW",
    "site": "https://buzzorange.com/techorange/"
+  },
+  {
+   "id": "15exjac",
+   "title": "Congress’ AI safety window is closing",
+   "url": "https://www.semafor.com/article/09/16/2026/congress-ai-safety-window-is-closing",
+   "summary": "The window for Congress to act on AI before the midterms is essentially shut — but a few senators are trying.",
+   "date": "2026-09-16T08:54:54.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
   },
   {
    "id": "10shk0p",
@@ -21506,6 +24714,66 @@ window.NEWS_DATA = {
    "site": "https://www.journalism.co.uk"
   },
   {
+   "id": "7lbkaz",
+   "title": "US diesel hits record highs as oil supply fears mount",
+   "url": "https://www.semafor.com/article/09/15/2026/us-diesel-hits-record-highs-as-oil-supply-fears-mount",
+   "summary": "Executives warned that the monthslong crunch in oil markets is entering its most acute phase, as commercial and strategic oil stockpiles run low and US diesel prices hit record highs Tuesday.",
+   "date": "2026-09-15T22:35:25.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "c4udsw",
+   "title": "China ramps up US soybean purchases ahead of summit",
+   "url": "https://www.semafor.com/article/09/15/2026/china-meets-us-trade-pledge-ahead-of-washington-summit",
+   "summary": "China bought at least 1 million metric tons of US soybeans last week as the country ramps up purchases ahead of Chinese leader Xi Jinping’s visit to Washington this month.",
+   "date": "2026-09-15T22:31:27.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "1ecjx1f",
+   "title": "Colombia to resume aerial spraying of cocaine crops",
+   "url": "https://www.semafor.com/article/09/15/2026/colombia-to-resume-aerial-spraying-of-cocaine-crops",
+   "summary": "The trial initiative sprang from recent talks between Colombia’s new rightist president and US Secretary of State Marco Rubio, according to The New York Times.",
+   "date": "2026-09-15T22:26:19.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "19kpkgy",
+   "title": "Musk calls for cooperation between US, China AI labs",
+   "url": "https://www.semafor.com/article/09/15/2026/elon-musk-calls-for-cooperation-between-us-china-ai-labs",
+   "summary": "A sweeping AI deal during US President Donald Trump and Chinese leader Xi Jinping’s meeting next week appears unlikely, experts said.",
+   "date": "2026-09-15T22:24:40.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "1ngodx1",
+   "title": "US 10-year yield hits highest level since 2007",
+   "url": "https://www.semafor.com/article/09/15/2026/us-10-year-yield-hits-highest-level-since-2007",
+   "summary": "US Treasury Secretary Scott Bessent defended his bond buyback program in contentious congressional hearings.",
+   "date": "2026-09-15T22:16:13.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
    "id": "1tiopzj",
    "title": "Google Adds New Ad Experience Metrics To CrUX Report",
    "url": "https://www.searchenginejournal.com/google-adds-new-ad-experience-metrics-to-crux-report/589569",
@@ -21542,6 +24810,18 @@ window.NEWS_DATA = {
    "site": "https://www.searchenginejournal.com"
   },
   {
+   "id": "ijdobr",
+   "title": "Crypto industry’s top legislative priority implodes",
+   "url": "https://www.semafor.com/article/09/15/2026/crypto-industrys-top-legislative-priority-implodes",
+   "summary": "“The amount of money the crypto industry spent on lobbying firms for such a staggering defeat would have been better spent curing cancer,” one lobbyist told Semafor.",
+   "date": "2026-09-15T20:33:44.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
    "id": "1hj6b5m",
    "title": "Protein grams and retirement plans: Service journalism enters its next era",
    "url": "https://www.niemanlab.org/2026/09/protein-grams-and-retirement-plans-service-journalism-enters-its-next-era",
@@ -21566,6 +24846,78 @@ window.NEWS_DATA = {
    "site": "https://www.searchenginejournal.com"
   },
   {
+   "id": "qj47xx",
+   "title": "New AI tool lets influencers ‘scale themselves like software’",
+   "url": "https://www.semafor.com/article/09/15/2026/new-ai-editing-tool-creatorapi-lets-influencers-scale-themselves-like-software",
+   "summary": "Brands can make dozens of variants of ads recorded by human influencers with a new tool from tech-media startup Avail.",
+   "date": "2026-09-15T17:58:54.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "kyzq02",
+   "title": "Slowing AI development could boost hyperscaler balance sheets",
+   "url": "https://www.semafor.com/article/09/15/2026/slowing-ai-development-could-boost-hyperscaler-balance-sheets",
+   "summary": "A Semafor review of analyst estimates finds that at current projections, as tracked by S&P Capital IQ, Amazon, Alphabet, Meta, and Microsoft are expected to spend $66 billion more on capital spending",
+   "date": "2026-09-15T17:54:08.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "kujhem",
+   "title": "AI is doing what Wall Street couldn't",
+   "url": "https://www.semafor.com/article/09/15/2026/ai-is-doing-what-wall-street-couldnt",
+   "summary": "It's not obvious what Dario Amodei’s idea to “pace the frontier” actually means in practice, but it’s clearly a warning issued at the cost of some short-term riches, which is more than Chuck Prince, CEO of Citigroup from 2003 to 2007, ever managed.",
+   "date": "2026-09-15T17:51:19.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "1i38dn9",
+   "title": "Slotkin, Peters urge fellow Democrats to help El-Sayed",
+   "url": "https://www.semafor.com/article/09/15/2026/slotkin-peters-urge-fellow-democrats-to-help-el-sayed",
+   "summary": "The Michiganders are making a concerted play for party unity.",
+   "date": "2026-09-15T17:30:04.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "szwh3i",
+   "title": "AI biotech Isomorphic Labs is not slowing down, exec says",
+   "url": "https://www.semafor.com/article/09/15/2026/ai-biotech-isomorphic-labs-is-not-slowing-down-exec-says",
+   "summary": "“All of our AI models are locked down and locked down in-house,” Chris Butler, who runs drug discovery at the Google-backed drug company, said at Semafor’s Future of Health Forum.",
+   "date": "2026-09-15T17:26:53.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "1l4t6p9",
+   "title": "Cassidy warns time running out to fix Social Security",
+   "url": "https://www.semafor.com/article/09/15/2026/cassidy-warns-time-running-out-to-fix-social-security",
+   "summary": "The Senate HELP Committee chair spoke to Semafor about his priorities before leaving office.",
+   "date": "2026-09-15T17:23:24.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
    "id": "8prbdw",
    "title": "RISJ report: Definitions of 'news' shifting, core standards still matter",
    "url": "https://www.journalism.co.uk/risj-report-2",
@@ -21576,6 +24928,30 @@ window.NEWS_DATA = {
    "tier": "A",
    "lang": "en",
    "site": "https://www.journalism.co.uk"
+  },
+  {
+   "id": "13bu99y",
+   "title": "Trump administration orders Kalshi to scrap AI price tracker over national security concerns",
+   "url": "https://www.semafor.com/article/09/15/2026/commerce-dept-ordered-kalshi-to-take-down-ai-compute-futures-product",
+   "summary": "The futures market for computer power lets buyers and sellers lock in prices, and gives traders a way to bet on where those prices go.",
+   "date": "2026-09-15T16:45:20.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "axm7u5",
+   "title": "Chipotle tries to get ahead of a potential activist problem",
+   "url": "https://www.semafor.com/article/09/15/2026/chipotle-tries-to-get-ahead-of-a-potential-activist-problem",
+   "summary": "The company is adding KFC’s former CEO to its board of directors.",
+   "date": "2026-09-15T16:32:33.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
   },
   {
    "id": "rm43j3",
@@ -21602,6 +24978,30 @@ window.NEWS_DATA = {
    "site": "https://www.niemanlab.org"
   },
   {
+   "id": "5fac5k",
+   "title": "AI agents collude to bypass guardrails, a new study shows",
+   "url": "https://www.semafor.com/article/09/14/2026/ai-agents-collude-to-bypass-guardrails-a-new-study-shows",
+   "summary": "Enterprise AI lab, Emergence AI, ran eight simulations testing how frontier models handle cybersecurity threats.",
+   "date": "2026-09-15T16:00:05.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "gk05fx",
+   "title": "A slower AI frontier won't matter for most companies. They aren’t living on it.",
+   "url": "https://www.semafor.com/article/09/15/2026/a-slower-ai-frontier-wont-impact-most-of-the-corporate-world",
+   "summary": "Big companies working to adopt AI are nowhere near the frontier, and are reducing their use of frontier AI models.",
+   "date": "2026-09-15T15:57:04.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
    "id": "h71aus",
    "title": "What using tarot cards as random prompts has taught me about interviews",
    "url": "https://www.journalism.co.uk/what-using-tarot-cards-as-random-prompts-has-taught-me-about-interviews",
@@ -21614,6 +25014,30 @@ window.NEWS_DATA = {
    "site": "https://www.journalism.co.uk"
   },
   {
+   "id": "16fyzyj",
+   "title": "Cassidy rips RFK Jr. on vaccines: ‘This is not making America healthy again’",
+   "url": "https://www.semafor.com/article/09/15/2026/cassidy-rips-rfk-on-vaccines-this-is-not-making-america-healthy-again",
+   "summary": "The outgoing Senate chairman also declined to say whether he’d support Trump’s FDA nominee.",
+   "date": "2026-09-15T15:26:07.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "otjwmv",
+   "title": "Walmart is hiring dedicated GLP-1 coaches to work in its stores",
+   "url": "https://www.semafor.com/article/09/15/2026/walmart-is-hiring-dedicated-glp-1-coaches-to-work-in-its-stores",
+   "summary": "In a new pilot program, ‘health ambassadors’ will be stationed in rural locations to focus on weight management, diabetes, and maternal care.",
+   "date": "2026-09-15T15:20:46.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
    "id": "1usfkxa",
    "title": "Investment Reporter/Editor",
    "url": "https://www.journalism.co.uk/investment-reporter-editor-jl-117",
@@ -21624,6 +25048,30 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "en",
    "site": "https://www.journalism.co.uk"
+  },
+  {
+   "id": "y6236x",
+   "title": "Senate Democrat demurs on ‘Medicare for All’",
+   "url": "https://www.semafor.com/article/09/15/2026/senate-democrat-demurs-on-medicare-for-all",
+   "summary": "Andy Kim told Semafor Democrats should campaign on more targeted approaches to achieve \"guaranteed coverage” in 2028.",
+   "date": "2026-09-15T14:56:22.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "qpyr3n",
+   "title": "A ‘gripping account’ of four women's escape from the Taliban",
+   "url": "https://www.semafor.com/article/09/15/2026/a-gripping-account-of-four-womens-escape-from-the-taliban",
+   "summary": "Rebecca Blumenstein recounts how she and a team at the The New York Times helped evacuate more than 200 employees and their families from Afghanistan.",
+   "date": "2026-09-15T14:55:29.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
   },
   {
    "id": "1pdtc2s",
@@ -21674,6 +25122,30 @@ window.NEWS_DATA = {
    "site": "https://www.mediacopilot.ai"
   },
   {
+   "id": "j8udkl",
+   "title": "House Democrats pitch energy plan ahead of the midterms",
+   "url": "https://www.semafor.com/article/09/15/2026/house-dems-pitch-energy-plan-ahead-of-the-midterms",
+   "summary": "It is the most comprehensive energy platform Democrats have put forward in years.",
+   "date": "2026-09-15T12:54:33.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "11o6743",
+   "title": "No energy ceasefire between Ukraine and Russia yet",
+   "url": "https://www.semafor.com/article/09/15/2026/no-energy-ceasefire-between-ukraine-and-russia-yet",
+   "summary": "Trump has sought to blame Ukraine’s strikes on Russian oil refineries for the recent runup in diesel prices.",
+   "date": "2026-09-15T12:53:43.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
    "id": "1ntxgbn",
    "title": "Google expands AI licensing payments based on publishers’ content value",
    "url": "https://mediacopilot.ai/google-ai-licensing-pilot",
@@ -21710,6 +25182,90 @@ window.NEWS_DATA = {
    "site": "https://movementforanopenweb.com"
   },
   {
+   "id": "2mu6zg",
+   "title": "China imposes new restrictions on overseas travel",
+   "url": "https://www.semafor.com/article/09/15/2026/china-imposes-new-restrictions-on-overseas-travel",
+   "summary": "The latest rules apply to a broader swathe of private citizens and lower-level officials.",
+   "date": "2026-09-15T10:57:42.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "h2gdah",
+   "title": "Russia's 'gray zone' tactics in Europe rattle NATO",
+   "url": "https://www.semafor.com/article/09/15/2026/russias-gray-zone-tactics-in-europe-rattle-nato",
+   "summary": "Poland’s foreign minister has advocated NATO take more steps against Russia.",
+   "date": "2026-09-15T10:57:11.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "418tmu",
+   "title": "Saudi Arabia under military pressure from Iran, Houthis",
+   "url": "https://www.semafor.com/article/09/15/2026/saudi-arabia-under-tense-military-pressure-from-iran-houthis",
+   "summary": "The kingdom was forced to close its East-West oil pipeline, and Houthi rebels in Yemen have seized strategic islands in the Bab el-Mandeb Strait.",
+   "date": "2026-09-15T10:56:04.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "41l941",
+   "title": "China's weak economic figures stoke calls for fiscal stimulus",
+   "url": "https://www.semafor.com/article/09/15/2026/chinas-weak-economic-figures-stoke-calls-for-fiscal-stimulus",
+   "summary": "Overall retail sales grew less than expected, while fixed-asset investment declined more than the year-to-date average.",
+   "date": "2026-09-15T10:55:22.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "1x31oox",
+   "title": "Political and business leaders back AI",
+   "url": "https://www.semafor.com/article/09/15/2026/political-and-business-leaders-back-ai",
+   "summary": "US President Donald Trump called Nvidia CEO Jensen Huang during a live panel discussion to argue that worries about AI’s impact were “all a hoax.”",
+   "date": "2026-09-15T10:54:46.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "1fyy9v7",
+   "title": "Japan considers boosting defense spending to 3.5% of GDP",
+   "url": "https://www.semafor.com/article/09/15/2026/japan-considers-boosting-defense-spending-to-35-of-gdp",
+   "summary": "The Trump administration has pushed Tokyo to reduce its reliance on US support, despite rising tensions between Japan and China.",
+   "date": "2026-09-15T10:54:25.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "5mcbdy",
+   "title": "The US and China are hurtling toward Kissinger’s worst AI nightmare",
+   "url": "https://www.semafor.com/article/09/15/2026/the-us-and-china-are-hurtling-toward-kissingers-worst-ai-nightmare",
+   "summary": "In 2023, diplomat warned that the US and China had five to 10 years to avoid an AI disaster. The clock is ticking.",
+   "date": "2026-09-15T10:11:58.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
    "id": "wkg8xp",
    "title": "Keeping Journalism in Russia’s Orbit",
    "url": "https://www.cjr.org/analysis/keeping-journalism-in-russias-orbit-guerrilla-data-vpn-meduza-mediazona-exile-ukraine-war-putin-kremlin-propaganda.php",
@@ -21720,6 +25276,90 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "en",
    "site": "https://www.cjr.org"
+  },
+  {
+   "id": "1qbnsw6",
+   "title": "More Americans worry tech will take their job, poll finds",
+   "url": "https://www.semafor.com/article/09/15/2026/more-americans-worry-tech-will-take-their-job-poll-finds",
+   "summary": "According to new Gallup polling, 27% of US workers worry that technology will render their jobs obsolete.",
+   "date": "2026-09-15T09:07:22.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "vj0a45",
+   "title": "Luna challenger links her to ‘culture of corruption’",
+   "url": "https://www.semafor.com/article/09/14/2026/luna-challenger-links-her-to-culture-of-corruption",
+   "summary": "Semafor gets first look at Democrat Leela Gray’s new general election ad.",
+   "date": "2026-09-15T08:59:41.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "92edy9",
+   "title": "House Democrats ready oversight of Trump’s Balkans policy",
+   "url": "https://www.semafor.com/article/09/14/2026/house-democrats-ready-oversight-of-trumps-balkans-policy",
+   "summary": "Democrats on the House Foreign Affairs Committee’s Europe panel will release a report today laying the groundwork for oversight of the Trump administration’s Balkans policy should their party win a majority.",
+   "date": "2026-09-15T08:59:30.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "1ddfe0a",
+   "title": "Manchin looks to campaign for Collins",
+   "url": "https://www.semafor.com/article/09/15/2026/manchin-looks-to-campaign-for-collins",
+   "summary": "“You lose Susan, you lose the heart and soul of the Senate,” the former West Virginia senator said.",
+   "date": "2026-09-15T08:59:18.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "1laf06k",
+   "title": "House Democrats to hammer Bessent on rising costs",
+   "url": "https://www.semafor.com/article/09/15/2026/house-democrats-to-hammer-bessent-on-rising-costs",
+   "summary": "Potential questions touch on a host of issues, including Russia, Iran, and Venezuela as well as tariffs, bonds, and crypto.",
+   "date": "2026-09-15T08:59:07.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "19j1s2k",
+   "title": "AI plays sophisticated defense in a broken Washington",
+   "url": "https://www.semafor.com/article/09/15/2026/ai-plays-sophisticated-defense-in-a-broken-washington",
+   "summary": "The industry is evolving how it applies the big lessons it learned from the social media techlash.",
+   "date": "2026-09-15T08:58:44.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "tn61k9",
+   "title": "White House makes closing argument on crypto bill",
+   "url": "https://www.semafor.com/article/09/15/2026/white-house-makes-closing-argument-on-crypto-bill",
+   "summary": "Multiple Republican lawmakers, including Sen. John Cornyn of Texas, have indicated they could take the banks’ side by voting “no” on Tuesday.",
+   "date": "2026-09-15T08:58:32.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
   },
   {
    "id": "415nmw",
@@ -21756,6 +25396,78 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://latamjournalismreview.org"
+  },
+  {
+   "id": "q37mn8",
+   "title": "US 10-year Treasury yields top 5% as energy outlook darkens",
+   "url": "https://www.semafor.com/article/09/14/2026/us-10-year-treasury-yields-top-5-as-energy-outlook-darkens",
+   "summary": "The 10-year US Treasury yield topped 5% Monday for the first time since 2023 as the widening Middle East conflict pushed oil prices up, cementing policymakers’ shift to a more hawkish posture.",
+   "date": "2026-09-14T23:00:49.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "9r6qqc",
+   "title": "Germany says AI slowdown 'not viable' for Europe",
+   "url": "https://www.semafor.com/article/09/14/2026/germany-says-ai-slowdown-not-viable-for-europe",
+   "summary": "As American tech leaders and policymakers debate the existential risks of AI and the necessity of regulating frontier development, other countries are focusing their efforts on catching up to the US.",
+   "date": "2026-09-14T22:58:16.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "w84770",
+   "title": "AI slowdown calls prompt chip selloff",
+   "url": "https://www.semafor.com/article/09/14/2026/ai-slowdown-calls-prompt-chip-selloff",
+   "summary": "Global AI stocks fell Monday after top AI leaders endorsed slowing down the development of frontier models.",
+   "date": "2026-09-14T22:35:00.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "1qbb2jt",
+   "title": "Ukraine signals openness to pausing strikes on Russian energy targets",
+   "url": "https://www.semafor.com/article/09/14/2026/ukraine-signals-openness-to-pausing-strikes-on-russian-energy-targets",
+   "summary": "Kyiv contradicted US President Donald Trump’s claim Monday that Ukraine and Russia had agreed to pause strikes against energy infrastructure.",
+   "date": "2026-09-14T22:32:56.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "1urqgiv",
+   "title": "Saudi Arabia eyes more tanker transits through Strait of Hormuz",
+   "url": "https://www.semafor.com/article/09/14/2026/saudi-arabia-eyes-more-tanker-transits-through-strait-of-hormuz",
+   "summary": "The kingdom is looking to boost oil shipments through the Strait of Hormuz after drone attacks took out a key pipeline bypassing the contested waterway.",
+   "date": "2026-09-14T22:28:21.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "muely7",
+   "title": "Trump dismisses calls for AI guardrails",
+   "url": "https://www.semafor.com/article/09/14/2026/trump-dismisses-calls-for-ai-guardrails",
+   "summary": "Trump said the only guardrails AI needs is a “STRONG AND SMART (High IQ!) PRESIDENT.”",
+   "date": "2026-09-14T22:27:54.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
   },
   {
    "id": "1j70n5m",
@@ -21818,6 +25530,18 @@ window.NEWS_DATA = {
    "site": "https://www.niemanlab.org"
   },
   {
+   "id": "1slks5x",
+   "title": "A 'geopolitical thriller' about Charles de Gaulle",
+   "url": "https://www.semafor.com/article/09/14/2026/a-geopolitical-thriller-about-charles-de-gaulle",
+   "summary": "This two-part historical saga follows de Gaulle’s role in the French resistance during World War II.",
+   "date": "2026-09-14T14:59:02.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
    "id": "1oz3tco",
    "title": "GlobalData Growth Target Falls Short as Earnings Disappoint",
    "url": "https://www.amediaoperator.com/news/globaldata-h1-2026-growth-target-falls-short",
@@ -21830,6 +25554,78 @@ window.NEWS_DATA = {
    "site": "https://www.amediaoperator.com"
   },
   {
+   "id": "vfjpy1",
+   "title": "Gambia bans protests without permits",
+   "url": "https://www.semafor.com/article/09/14/2026/gambia-bans-protests-without-permits",
+   "summary": "The move follows days of unrest over persistent electricity blackouts.",
+   "date": "2026-09-14T14:04:33.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "1io9hv3",
+   "title": "South Africa loses $4.7B on oil refinery closures",
+   "url": "https://www.semafor.com/article/09/14/2026/south-africa-looses-47b-on-oil-refinery-closures",
+   "summary": "Refining capacity in Africa’s largest economy has halved over the past decade.",
+   "date": "2026-09-14T14:02:13.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "8xqqwe",
+   "title": "Dubai crams events delayed by the war into autumn",
+   "url": "https://www.semafor.com/article/09/14/2026/dubai-crams-events-delayed-by-the-war-into-autumn",
+   "summary": "The twice-rescheduled Arabian Travel Market finally opens this week, while GITEX will bring 200,000 tech visitors in December.",
+   "date": "2026-09-14T13:06:41.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "3xwq3j",
+   "title": "Humanoid robots fight it out in Riyadh",
+   "url": "https://www.semafor.com/article/09/14/2026/humanoid-robots-fight-it-out-in-riyadh",
+   "summary": "Sponsored by Hero Esports, the brainchild of Chinese billionaire Dino Ying, the event was the first of its kind outside China.",
+   "date": "2026-09-14T13:06:33.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "7645yf",
+   "title": "DP World expands Africa network with new industrial park in Kenya",
+   "url": "https://www.semafor.com/article/09/14/2026/dp-world-expands-africa-network-with-new-industrial-park-in-kenya",
+   "summary": "The Dubai port operator formalized plans for a 222-hectare industrial park at Mombasa.",
+   "date": "2026-09-14T13:06:26.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "wkej1a",
+   "title": "UAE infrastructure moves underground",
+   "url": "https://www.semafor.com/article/09/14/2026/uae-infrastructure-moves-underground",
+   "summary": "Under consideration is the 5-gigawatt AI data center project underway with US technology partners, Reuters reported.",
+   "date": "2026-09-14T13:06:14.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
    "id": "92jmax",
    "title": "Press Gazette launches AI content detection tool for prepublication checks",
    "url": "https://mediacopilot.ai/ai-content-detection-newsrooms",
@@ -21840,6 +25636,114 @@ window.NEWS_DATA = {
    "tier": "A",
    "lang": "en",
    "site": "https://www.mediacopilot.ai"
+  },
+  {
+   "id": "1eauicp",
+   "title": "Dangote launches Africa’s largest ever IPO",
+   "url": "https://www.semafor.com/article/09/14/2026/aliko-dangote-refinery-ipo-launches",
+   "summary": "The company looks set to raise more than $4 billion at about a $50 billion valuation.",
+   "date": "2026-09-14T11:55:42.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "tt2feq",
+   "title": "Can the newest sovereign wealth fund avoid others’ mistakes?",
+   "url": "https://www.semafor.com/article/09/14/2026/can-the-newest-sovereign-wealth-fund-avoid-others-mistakes",
+   "summary": "Indonesia’s Danantara manages $1 trillion of state-owned businesses and money and wants economic, not just financial, returns from its Wall Street partners.",
+   "date": "2026-09-14T11:42:57.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "7caadn",
+   "title": "Trump needs to listen to Africa to shape AGOA’s future",
+   "url": "https://www.semafor.com/article/09/14/2026/why-we-need-to-listen-to-africa-to-shape-agoas-future",
+   "summary": "As Washington rethinks its engagement with Africa, the lesson from AGOA’s origins is clear: A durable commercial relationship starts with listening to African priorities.",
+   "date": "2026-09-14T11:06:51.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "emn70q",
+   "title": "Beijing issues AI warnings but rejects US calls to slow development",
+   "url": "https://www.semafor.com/article/09/14/2026/beijing-issues-ai-warnings-but-rejects-us-calls-to-slow-development",
+   "summary": "China’s minister of state security wrote in a weekend essay that AI posed six principal risks, including threatening the security of the country’s political regime.",
+   "date": "2026-09-14T10:49:55.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "7u9ilx",
+   "title": "Sweden's center left looks set to win in tight election race",
+   "url": "https://www.semafor.com/article/09/14/2026/swedens-center-left-looks-set-to-win-in-tight-election-race",
+   "summary": "The results nonetheless underlined the strength of the country’s far-right parties.",
+   "date": "2026-09-14T10:48:55.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "wiozdy",
+   "title": "Oil prices rise on fears Gulf war is escalating",
+   "url": "https://www.semafor.com/article/09/14/2026/oil-prices-rise-on-fears-gulf-war-is-escalating",
+   "summary": "Peace talks with Gulf nations and Iran were called off and Saudi Arabia closed a pipeline due to attadrone cks.",
+   "date": "2026-09-14T10:48:08.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "no22no",
+   "title": "US AI regulation calls gather pace",
+   "url": "https://www.semafor.com/article/09/14/2026/us-ai-regulation-calls-gather-pace",
+   "summary": "The US House of Representatives will this week take up a bill overseeing the data center buildout.",
+   "date": "2026-09-14T10:46:54.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "dgva1o",
+   "title": "Russia strikes Ukrainian passenger train",
+   "url": "https://www.semafor.com/article/09/14/2026/russia-strikes-ukrainian-passenger-train",
+   "summary": "The attack marks an uptick in civilian strikes, as analysts argue the war is pivoting into Russia’s favor.",
+   "date": "2026-09-14T10:46:14.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "wpoig7",
+   "title": "Uber paid drivers more than it charged passengers in Nigeria — report",
+   "url": "https://www.semafor.com/article/09/14/2026/uber-paid-drivers-more-than-it-charged-passengers-in-nigeria-report",
+   "summary": "The ride hailing giant subsidized drivers on short trips as inflation and weak demand made passengers price sensitive.",
+   "date": "2026-09-14T10:37:51.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
   },
   {
    "id": "1t80oh0",
@@ -21866,6 +25770,90 @@ window.NEWS_DATA = {
    "site": "https://www.cjr.org"
   },
   {
+   "id": "jndtwq",
+   "title": "Researchers probe how Democrats could win working-class voters",
+   "url": "https://www.semafor.com/article/09/14/2026/researchers-probe-how-democrats-could-win-working-class-voters",
+   "summary": "A new survey of 40,000 adults suggests how Democrats could appeal to them.",
+   "date": "2026-09-14T09:10:21.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "h1pmj7",
+   "title": "Klomp, nominated for No. 2 health post, faces Senate gauntlet",
+   "url": "https://www.semafor.com/article/09/14/2026/klomp-nominated-for-no-2-health-post-faces-senate-gauntlet",
+   "summary": "The man nominated to be Robert F. Kennedy Jr.’s No. 2 has quietly met with nearly 35 senators ahead of his confirmation hearings.",
+   "date": "2026-09-14T08:55:22.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "aw604a",
+   "title": "Fed poised to clash with Trump",
+   "url": "https://www.semafor.com/article/09/14/2026/fed-poised-to-clash-with-trump",
+   "summary": "Investors overwhelmingly expect Fed Chair Kevin Warsh to deliver on his hawkish speech in Jackson Hole last month.",
+   "date": "2026-09-14T08:54:49.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "1o1jtlf",
+   "title": "House Democrat pushes global effort on AI rules",
+   "url": "https://www.semafor.com/article/09/14/2026/house-democrat-pushes-global-effort-on-ai-rules",
+   "summary": "House Democrats are circulating a letter from Rep. Yassamin Ansari, D-Ariz., imploring President Trump to lead an international effort to set AI rules.",
+   "date": "2026-09-14T08:54:39.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "1pe24t2",
+   "title": "Republicans’ time crunch: Data centers, sports, crypto",
+   "url": "https://www.semafor.com/article/09/14/2026/republicans-time-crunch-data-centers-sports-crypto",
+   "summary": "Some Republicans are hoping they can address voters’ affordability concerns before the midterms.",
+   "date": "2026-09-14T08:54:21.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "fup8n9",
+   "title": "AI risk warnings belie lack of consensus in Congress",
+   "url": "https://www.semafor.com/article/09/14/2026/ai-risk-warnings-belie-lack-of-consensus-in-congress",
+   "summary": "OpenAI remains most supportive of bipartisan Senate Commerce Committee talks that could advance this week.",
+   "date": "2026-09-14T08:54:07.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "1z0kaga",
+   "title": "Citi raised more than $40 billion for Saudi clients this year",
+   "url": "https://www.semafor.com/article/09/14/2026/citi-raised-more-than-40-billion-for-saudi-clients-this-year",
+   "summary": "US bank says it increased direct exposure to Saudi Arabia since the US-Iran war began.",
+   "date": "2026-09-14T05:07:49.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
    "id": "1yrfbv",
    "title": "人物》在書店策展，像做一本新書：專訪田園城市生活風格書店陳炳槮",
    "url": "https://www.openbook.org.tw/article/p-72929",
@@ -21876,6 +25864,18 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "zh-TW",
    "site": "https://www.openbook.org.tw"
+  },
+  {
+   "id": "1xbtq1f",
+   "title": "Inside the US Treasury secretary’s tense relationship with financial media",
+   "url": "https://www.semafor.com/article/09/13/2026/inside-the-us-treasury-secretarys-tense-relationship-with-financial-media",
+   "summary": "Scott Bessent’s blacklist starts with Bloomberg.",
+   "date": "2026-09-14T00:49:45.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
   },
   {
    "id": "1j2e6c8",
@@ -21902,6 +25902,78 @@ window.NEWS_DATA = {
    "site": "https://www.journalism.co.uk"
   },
   {
+   "id": "tt4xbh",
+   "title": "Trump says US interest rates should be lowest in the world",
+   "url": "https://www.semafor.com/article/09/13/2026/trump-calls-for-lower-rates-setting-up-test-for-fed-chair-warsh",
+   "summary": "Trump’s call piles pressure on Federal Reserve Chair Kevin Warsh days before the bank is expected to raise rates amid an increasingly hawkish global outlook.",
+   "date": "2026-09-13T22:30:28.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "z20rbh",
+   "title": "Trump blames Kyiv for diesel shortage",
+   "url": "https://www.semafor.com/article/09/13/2026/trump-blames-kyiv-for-diesel-shortage",
+   "summary": "US President Donald Trump on Sunday called on Ukraine to stop striking Russian refineries, after Kyiv struck several over the weekend, attacks that he said were increasing the price of diesel and “hurting the world.”",
+   "date": "2026-09-13T22:27:20.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "1otbszf",
+   "title": "BRICS highlights opposition to tariffs",
+   "url": "https://www.semafor.com/article/09/13/2026/brics-highlights-opposition-to-tariffs",
+   "summary": "Opposition to US tariffs formed a point of consensus among the otherwise divergent interests at the BRICS summit, as Indian Prime Minister Narendra Modi touted the bloc’s “coming of age.”",
+   "date": "2026-09-13T22:25:22.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "keqwuh",
+   "title": "Iran and the UAE meet in New Delhi",
+   "url": "https://www.semafor.com/article/09/13/2026/iran-and-the-uae-meet-in-new-delhi",
+   "summary": "Iran and the UAE held their highest-level meeting since the start of the Iran war at the BRICS summit, where the two countries found a rare space for direct diplomacy.",
+   "date": "2026-09-13T22:25:17.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "1p4ioy1",
+   "title": "Saudi pipeline shut after drone attacks",
+   "url": "https://www.semafor.com/article/09/13/2026/saudi-pipeline-shut-after-drone-attacks",
+   "summary": "Saudi Arabia shut down its vital East-West pipeline after multiple drone attacks, intensifying the pressure on Gulf energy exports.",
+   "date": "2026-09-13T22:24:01.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "1n6p9on",
+   "title": "Everyone expects two AI blocs. The Gulf is betting on both",
+   "url": "https://www.semafor.com/article/09/13/2026/everyone-expects-two-ai-blocs-the-gulf-is-betting-on-both",
+   "summary": "Riyadh is building its AI infrastructure with American technology while keeping ties to Chinese firms.",
+   "date": "2026-09-13T19:06:39.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
    "id": "1yrfat",
    "title": "童書短評》#173陪孩子在世界勇敢冒險",
    "url": "https://www.openbook.org.tw/article/p-72914",
@@ -21912,6 +25984,18 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "zh-TW",
    "site": "https://www.openbook.org.tw"
+  },
+  {
+   "id": "1gnihao",
+   "title": "How the AI apocalypse story escaped containment",
+   "url": "https://www.semafor.com/article/09/12/2026/how-the-ai-apocalypse-story-escaped-containment",
+   "summary": "Sensational headlines are overwhelming a serious conversation in Silicon Valley.",
+   "date": "2026-09-13T01:31:21.000Z",
+   "firstSeen": "2026-09-22T08:05:23.339Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
   },
   {
    "id": "1yrfas",
@@ -22332,42 +26416,6 @@ window.NEWS_DATA = {
    "tier": "A",
    "lang": "en",
    "site": "https://www.amediaoperator.com"
-  },
-  {
-   "id": "x1oc9f",
-   "title": "News start-up The Nerve “really close” to sustainability as first birthday approaches",
-   "url": "https://voices.media/news-start-up-the-nerve-really-close-to-sustainability-as-first-birthday-approaches",
-   "summary": "Newsletter-first news start-up The Nerve is preparing to celebrate a year since launch with special events, and even a print … The post News start-up The Nerve “really close” to sustainability as first birthday approaches appeared first on MediaVoices.",
-   "date": "2026-09-08T06:00:45.000Z",
-   "firstSeen": "2026-09-18T10:03:21.928Z",
-   "source": "MEDIAVOICES",
-   "tier": "C",
-   "lang": "en",
-   "site": "https://voices.media"
-  },
-  {
-   "id": "j1i3d1",
-   "title": "從文字走入實體世界：在AI狂潮與流量危機中，現場活動如何成為當代媒體的救命解藥？",
-   "url": "https://feja.org.tw/83213",
-   "summary": "當代新聞媒體正處於一個前所未有的生存轉捩點。隨著生成式AI崛起，搜尋引擎的演算法流量紅利迅速消失，社群媒體對外部連結的引流效果也大幅萎縮。在這個「零點擊時代」（Zero-click Era）與平台演算法不穩定的陰影下，傳統新聞媒體過去過度依賴的「平台驅動成長」模式已正式宣告破產。 然而，在這一片哀鴻遍野中，擁有百年歷史的《時代》（Time）雜誌，卻成功開闢出了一條矚目的新型生存道路：大膽「走入實體」，將核心戰略轉移至現場體驗活動（Live Experiences）。",
-   "date": "2026-09-08T05:38:22.000Z",
-   "firstSeen": "2026-09-18T10:03:21.928Z",
-   "source": "Excellent",
-   "tier": "A",
-   "lang": "zh-TW",
-   "site": "https://www.feja.org.tw"
-  },
-  {
-   "id": "j1i3c7",
-   "title": "找回新聞人傳遞真實的使命感：從「trust」到「trustworthiness」",
-   "url": "https://feja.org.tw/83206",
-   "summary": "迅速變遷的科技推著媒體不斷轉型，也不斷面對新挑戰。AI科技尤其讓媒體遭逢多重難題：商業模式受創、社會信任崩解。在此困境下，新聞的未來究竟該走向何方？台灣網路新聞自律聯盟成立一周年，適逢九月一日記者節，舉辦年度論壇「新聞的未來在哪裡？重建新聞信任與樹立專業認證」，邀集各界講者共同探討新聞的下一步。 為當天活動揭開序幕的，是公廣集團董事長胡元輝的專題演講「信任重建的第一原理思維：AI時代真實性危機的挑戰與因應」。胡元輝特別表示，在社會極化的今天，媒體更應該追求資訊的「值得信任」，而非滿足於與自身政治光譜相近的受眾信任，才能重建社會大眾對「真實」的重視。",
-   "date": "2026-09-08T04:50:02.000Z",
-   "firstSeen": "2026-09-18T10:03:21.928Z",
-   "source": "Excellent",
-   "tier": "A",
-   "lang": "zh-TW",
-   "site": "https://www.feja.org.tw"
   }
  ]
 };
