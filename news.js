@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-22T02:49:55.001Z",
+ "generatedAt": "2026-09-22T03:08:29.868Z",
  "keepDays": 14,
  "sources": [
   {
@@ -165,15 +165,6 @@ window.NEWS_DATA = {
    "count": 20
   },
   {
-   "name": "36Kr",
-   "tier": "B",
-   "lang": "zh-CN",
-   "feed": "https://rss.aishort.top/?type=36kr",
-   "ok": false,
-   "error": "解析不到文章",
-   "count": 0
-  },
-  {
    "name": "TheWrap",
    "tier": "B",
    "lang": "en",
@@ -244,6 +235,15 @@ window.NEWS_DATA = {
    "ok": true,
    "error": null,
    "count": 18
+  },
+  {
+   "name": "經理人",
+   "tier": "C",
+   "lang": "zh-TW",
+   "feed": "https://www.managertoday.com.tw/rss",
+   "ok": false,
+   "error": "解析不到文章",
+   "count": 0
   },
   {
    "name": "品玩",
@@ -373,6 +373,11 @@ window.NEWS_DATA = {
    "note": "找不到 RSS"
   },
   {
+   "name": "36Kr",
+   "tier": "B",
+   "note": "被安全檢測攔住"
+  },
+  {
    "name": "SLATE",
    "tier": "B",
    "note": "找不到 RSS"
@@ -381,11 +386,6 @@ window.NEWS_DATA = {
    "name": "獨立評論",
    "tier": "C",
    "note": "找不到 RSS"
-  },
-  {
-   "name": "經理人",
-   "tier": "C",
-   "note": "有 RSS，但官方 feed 是空的"
   },
   {
    "name": "The Drum",
@@ -634,9 +634,9 @@ window.NEWS_DATA = {
    "name": "36Kr",
    "lang": "zh-CN",
    "site": "https://36kr.com",
-   "feed": "https://rss.aishort.top/?type=36kr",
-   "enabled": true,
-   "note": "第三方服務，失效時需另尋替代"
+   "feed": "https://36kr.com/feed",
+   "enabled": false,
+   "note": "被安全檢測攔住"
   },
   {
    "tier": "B",
@@ -743,8 +743,8 @@ window.NEWS_DATA = {
    "lang": "zh-TW",
    "site": "https://www.managertoday.com.tw",
    "feed": "https://www.managertoday.com.tw/rss",
-   "enabled": false,
-   "note": "有 RSS，但官方 feed 是空的"
+   "enabled": true,
+   "note": "有時候會抓取失敗，先觀察看看"
   },
   {
    "tier": "C",
@@ -866,6 +866,66 @@ window.NEWS_DATA = {
  ],
  "items": [
   {
+   "id": "loxz0g",
+   "title": "加州簽 7 項資料中心法案！電網升級費用不得轉嫁一般用戶，環評豁免同步取消",
+   "url": "https://www.inside.com.tw/article/42453-california-data-center-law-newsom-signs-seven-bills-electricity-water-cost",
+   "summary": "加州頒布新法，強制資料中心揭露用電、用水資訊，並自行負擔電網升級成本，不得轉嫁一般用戶。此為全美最完整的資料中心監管框架，為確保成本公平分攤。",
+   "date": "2026-09-22T03:00:00.000Z",
+   "firstSeen": "2026-09-22T03:08:29.868Z",
+   "source": "INSIDE",
+   "tier": "A",
+   "lang": "zh-TW",
+   "site": "https://www.inside.com.tw"
+  },
+  {
+   "id": "1232i3c",
+   "title": "‘Line of Fire’ Creator Explains Premiere’s Shocking Reveal and What’s Next",
+   "url": "https://www.thewrap.com/creative-content/tv-shows/line-of-fire-episode-1-joshua-safran-interview",
+   "summary": "Joshua Safran tells TheWrap about where the Hollingsworths go from here and the speed of making broadcast TV The post ‘Line of Fire’ Creator Explains Premiere’s Shocking Reveal and What’s Next appeared first on TheWrap.",
+   "date": "2026-09-22T03:00:00.000Z",
+   "firstSeen": "2026-09-22T03:08:29.868Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "3fjsro",
+   "title": "Right-Wing Livestreamer Clavicular Faces Rape and Drugging Charges Involving Minor | Report",
+   "url": "https://www.thewrap.com/industry-news/public-policy-legal/clavicular-rape-drugging-charges-report",
+   "summary": "\"The Bulwark is exaggerating like a tabloid,\" a rep for the \"Looksmaxxing\" influencer hits back The post Right-Wing Livestreamer Clavicular Faces Rape and Drugging Charges Involving Minor | Report appeared first on TheWrap.",
+   "date": "2026-09-22T02:59:19.000Z",
+   "firstSeen": "2026-09-22T03:08:29.868Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "ghy2gh",
+   "title": "阿里巴巴吳泳銘：未來機器思考總量將達到人類1,000倍以上",
+   "url": "https://news.cnyes.com/news/id/6612836",
+   "summary": "中國阿里巴巴集團(09988-HK) (BABA-US) 執行長吳泳銘在在2026杭州雲棲大會上發表最新演講，闡述對「機器智慧」時代的思考。 吳泳銘認為，機器正在成為思考的主力，智慧正在成為一種規模化商品，未來機器思考總量將達到人類的1,000倍以上。 據《財聯社》報導，吳泳銘表示，人工智慧（A",
+   "date": "2026-09-22T02:56:40.000Z",
+   "firstSeen": "2026-09-22T03:08:29.868Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghy1ji",
+   "title": "個人Agent大戰開打！Muse、Grok Bot大紅 OpenAI也坐不住了",
+   "url": "https://news.cnyes.com/news/id/6612707",
+   "summary": "OpenAI正開發新功能與個人AI助手，反制Grok Bot與Meta Muse。 Grok Bot主打白領與小企業主，整合Gmail、日曆等應用，SuperGrok月費30美元。 AI個人Agent成新戰場，OpenAI增長放緩且預估2030年底累虧2780億美元。",
+   "date": "2026-09-22T02:50:03.000Z",
+   "firstSeen": "2026-09-22T03:08:29.868Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
    "id": "4zj842",
    "title": "Clavicular Charged With Rape, Drugging Person for Sex in Massachusetts",
    "url": "https://www.hollywoodreporter.com/news/general-news/clavicular-charged-rape-drugging-massachusetts-1236707312",
@@ -876,6 +936,18 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "n0zcx1",
+   "title": "为啥AI没有带来繁荣？因为它无法创造需求",
+   "url": "https://www.woshipm.com/it/6468017.html",
+   "summary": "从彼得·蒂尔那句我们想要会飞的汽车、结果得到的却是 140 个字说起，作者追问：模型参数与芯片市值一路狂飙，普通人的工资、工时和消费能力却没有同步改善，因为生产率上去了，大众需求并没有被创造出来。 2011年前后，彼得·蒂尔和他创办的Founders Fund提出过一句后来广为流传的话： 我们想要会飞的汽车，结果得到的却是140个字。 140个字指的是当时的Twitter。那正是移动互联网最意气风发的年代，人们相信社交网络将重新连接世界，信息流动会带来一轮新的繁荣。 彼得·蒂尔却觉得，硅谷把大量聪明才智用在了优化点击、广告和用户停留时间上，人类真正需要的交通、能源和基础设施，进步速度反而慢了下",
+   "date": "2026-09-22T02:42:52.000Z",
+   "firstSeen": "2026-09-22T03:08:29.868Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
   },
   {
    "id": "ghy0tn",
@@ -890,6 +962,18 @@ window.NEWS_DATA = {
    "site": "https://news.cnyes.com"
   },
   {
+   "id": "18rjpxp",
+   "title": "Manus肖弘昔日大学搭档创业，Kylon做了个AI原生工作空间",
+   "url": "https://www.woshipm.com/ai/6468012.html",
+   "summary": "聊天窗口不再是团队协作的终点，越来越多产品想让 AI 直接进入大家平时工作的地方。Kylon 由一位此前在 Databricks 做研究的联合创始人带队，用 Room 把文件、真人和 Agent 放进同一个空间。 你的第一套Company Harness。 今年办公AI有个很明显的转向，大家不想只做一个聊天窗口了。 7月Jack Dorsey的Block放出开源项目Buzz，上线没多久GitHub就冲到几万Star，相关讨论热度快速攀升。 Buzz理解起来很简单，频道里不光是人，Claude Code、Codex这些都能进来一起协作。 比方大家正在频道聊新功能，直接丢任务给AI就行，它会自己读",
+   "date": "2026-09-22T02:41:55.000Z",
+   "firstSeen": "2026-09-22T03:08:29.868Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
    "id": "q794kl",
    "title": "30家中国科技公司高管薪酬表：谁在拿最高的薪水",
    "url": "https://www.huxiu.com/article/4892868.html",
@@ -900,6 +984,42 @@ window.NEWS_DATA = {
    "tier": "A",
    "lang": "zh-CN",
    "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "17gy3t7",
+   "title": "Vidu S2实测，实时720p交互，边播边改，数字人赛道卷起来了。",
+   "url": "https://www.woshipm.com/ai/6468010.html",
+   "summary": "Vidu S2 上线当天网页版就全量开放，分实时交互与实时编辑两个模型。作者用虚拟偶像直播和带货感场景做了实测，边播边改、动作幅度很大时画面也没有崩，还特意试了网速不理想时的表现。 Vidu 发了新的大招，Vidu S2 来了。论文是 9 月 10 号发的，产品是 9 月 15 号发布的。 上线当天网页版也全量开放，APP 和小程序也都上了，API 接口也放了，简单来说现在大家都可以直接体验。 这次 Vidu S2 有两个模型，分为实时交互和实时编辑模型，P 视频那个感觉是真的有了，而且速度快效果好。 背景没崩，人物的边界也很清晰，融合程度很好，光影效果也有照顾到。哪怕换完装、动作很大，画面帧",
+   "date": "2026-09-22T02:41:20.000Z",
+   "firstSeen": "2026-09-22T03:08:29.868Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "2c6f5u",
+   "title": "拼多多店铺被降权了怎么办",
+   "url": "https://www.woshipm.com/share/6468069.html",
+   "summary": "拼多多商家最怕店铺降权，但降权并非无解。本文基于代运营实战，将降权分为新店、二级限制、显性降权等类型，并给出针对性策略：新店等履约完成、二级限制换店重启、显性降权按平台提示修改。同时强调日常紧盯DSR、领航员分、店铺星级三大数据，提前规避风险。 咱们做拼多多的商家最喜欢的是什么？大概率是爆单了，哪怕没利润，看着店铺每天爆个几千单也是让人开心的一件事。那么咱们拼多多商家最不喜欢的是什么？我个人觉得排第一的应该是：店铺被降权了吧。 说起降权，其实分2种，一种是链接降权，一种是店铺降权。是先有了链接被降权，且这样的链接多了，最终导致店铺被降权。但不管是链接还是店铺，只要是降权，肯定不是好事了。 那么",
+   "date": "2026-09-22T02:39:10.000Z",
+   "firstSeen": "2026-09-22T03:08:29.868Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "1tbvj8h",
+   "title": "从“大而全”到“精准聚焦”的产品战略取舍方法论",
+   "url": "https://www.woshipm.com/pd/6468148.html",
+   "summary": "当产品团队试图覆盖用户全场景时，往往陷入资源分散、认知模糊的陷阱。本文提出五维评估框架，帮你科学筛选高价值场景，并通过核心、支撑、边界三类场景的差异化投入策略，结合宜家、追觅等案例，揭示取舍如何决定产品成败。 一、引言：当“场景扩张”成为陷阱 “我们要覆盖用户全场景的需求。”这句话几乎是所有产品团队在制定战略规划时最常听到的表述。然而，当企业试图将产品嵌入用户生活的每一个角落，往往换来的不是用户满意度的提升，而是产品的平庸化。 这背后隐藏着一个深刻的战略悖论：场景无限扩张，必然导致需求膨胀，进而引发资源分散，最终造成体验平庸。在资源紧张的初创公司中，产品经理最常面对的选择题，不是“做什么”，而",
+   "date": "2026-09-22T02:35:32.000Z",
+   "firstSeen": "2026-09-22T03:08:29.868Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
   },
   {
    "id": "az1je8",
@@ -14696,6 +14816,18 @@ window.NEWS_DATA = {
    "summary": "The best Stratechery content from the week of September 14, 2026, including the view from anywhere but San Francisco, the limited potential for a pacing deal, and the Salesforce zag.",
    "date": "2026-09-18T17:00:00.000Z",
    "firstSeen": "2026-09-21T16:49:40.024Z",
+   "source": "STRATECHERY",
+   "tier": "S",
+   "lang": "en",
+   "site": "https://stratechery.com"
+  },
+  {
+   "id": "qm570u",
+   "title": "Doomforce",
+   "url": "https://stratechery.com/2026/doomforce/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L2Rvb21mb3JjZS8iXX0sImV4cCI6MTc5MjYzODUwNSwiaWF0IjoxNzkwMDQ2NTA1LCJpc3MiOiJodHRwczovL2FwcC5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyBwb2RjYXN0IHJzcyIsInN1YiI6Ijk0MDg0MGUyLTVlZjktNGJlNS04MjUwLTM3ODFmMjZlZTc5YSIsInVzZSI6ImFjY2VzcyJ9.b2Z_400CmA-9GrjWSQCaWTh4sHQcxwIMaQLShkGFH12G_4tpqMubcE8gjHcdC6uVqc0kXaXXnfoSVQpLPFnQeQprdZb6WBy_K8uVZvKse44_Ra5wunEWh47eA7uqJA6HSTSiKOcsRK_ZyUK_-jeesIsPqxS66yjQ5qqV4-xBfxOGZ4uUUbHDk4_etM1ECa0DXfi2SmINLwW5ocgxShhROJI65uSv5aaDQDYnQIzU_zJLF7v-N6be1sJ-IkRD4RQSdLMJPlzfSLEbC7kG9__ySPOMBs9ZRJoYUlwX6Jy349_6EmA3hqRXe0-y9MXHm3QtOVyV6migtPLxNAdeHOSOOg",
+   "summary": "The best Stratechery content from the week of September 14, 2026, including the view from anywhere but San Francisco, the limited potential for a pacing deal, and the Salesforce zag.",
+   "date": "2026-09-18T17:00:00.000Z",
+   "firstSeen": "2026-09-22T03:08:29.868Z",
    "source": "STRATECHERY",
    "tier": "S",
    "lang": "en",
