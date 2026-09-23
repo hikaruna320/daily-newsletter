@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-22T21:39:43.303Z",
+ "generatedAt": "2026-09-23T00:56:21.888Z",
  "keepDays": 14,
  "sources": [
   {
@@ -72,16 +72,16 @@ window.NEWS_DATA = {
    "feed": "https://www.semafor.com/rss.xml",
    "ok": true,
    "error": null,
-   "count": 226
+   "count": 233
   },
   {
    "name": "Poynter",
    "tier": "A",
    "lang": "en",
    "feed": "https://www.poynter.org/feed/",
-   "ok": true,
-   "error": null,
-   "count": 10
+   "ok": false,
+   "error": "HTTP 403",
+   "count": 0
   },
   {
    "name": "Movement For An Open Web",
@@ -153,7 +153,7 @@ window.NEWS_DATA = {
    "feed": "https://news.cnyes.com/rss/v1/news/category/headline",
    "ok": true,
    "error": null,
-   "count": 96
+   "count": 99
   },
   {
    "name": "woshipm",
@@ -870,6 +870,1182 @@ window.NEWS_DATA = {
  ],
  "items": [
   {
+   "id": "14pxm27",
+   "title": "Mahershala Ali Agrees That Marvel’s Scrapped ‘Blade’ Reboot Is Kevin Feige’s “Biggest Failure”",
+   "url": "https://www.hollywoodreporter.com/movies/movie-news/mahershala-ali-marvel-blade-reboot-kevin-feige-failure-1236708012",
+   "summary": "The Marvel Studios president previously said he feels \"like a gigantic loser and failure\" that the project never came to fruition, and the two-time Oscar winner agrees.",
+   "date": "2026-09-23T00:55:51.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "pca7nn",
+   "title": "NYC Mayor Zohran Mamdani Slams Paramount-Warner Bros. Merger: “Shameful Monument to Corruption”",
+   "url": "https://www.hollywoodreporter.com/business/business-news/nyc-mayor-zohran-mamdani-slams-paramount-warner-bros-merger-1236708025",
+   "summary": "His comments came after 12 states, including New York, and the WGA agreed to settle their antitrust lawsuits against Paramount Skydance over its bid for Warner Bros.",
+   "date": "2026-09-23T00:55:51.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "ghysj3",
+   "title": "伊朗擬重罰未授權過境荷姆茲船隻 貨值20%罰款 拒付就扣押",
+   "url": "https://news.cnyes.com/news/id/6613644",
+   "summary": "伊朗議會國安委批准荷姆茲海峽新法，未授權通行船隻可罰貨值20%。 拒繳罰款者將被暫時扣押。 伊朗擬設司法分支，確保規定得到嚴格執行。",
+   "date": "2026-09-23T00:54:13.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghyt9q",
+   "title": "外資近5日賣超個股",
+   "url": "https://news.cnyes.com/news/id/6613706",
+   "summary": "1. 外資累計賣超 5 日的股票中鋼 (2002-TW)、南亞 (1303-TW)、台新新光金 (2887-TW)、仁寶 (2324-TW)、緯創 (3231-TW)2. 外資累計賣超 4 日的股票台新新光金 (2887-TW)、南亞 (1303-TW)、中鋼 (2002-TW)、仁寶 (2324-",
+   "date": "2026-09-23T00:50:20.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghyt9p",
+   "title": "【鉅亨-盤前掃瞄】技術面",
+   "url": "https://news.cnyes.com/news/id/6613705",
+   "summary": "【鉅亨-盤前掃瞄】技術面1. 5日均線 46967.33 點，10日均線 46651.94 點，20日均線 46537.07 點，60日均線 45271.37 點，120日均線 43291.19 點，240日均線 36561.28 點。2. 6日 RSI 為 86.70，12日 RSI 為 62.4",
+   "date": "2026-09-23T00:50:16.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghyt9o",
+   "title": "【鉅亨-盤前掃瞄】基本面",
+   "url": "https://news.cnyes.com/news/id/6613704",
+   "summary": "【鉅亨-盤前掃瞄】基本面1. 9 月 22 日新台幣以 31.71 兌 1 美元作收，收盤貶 5 分。2. 集中市場 22 日外資買超 453.21 億元，投信賣超 -3.66 億元，自營商買超 158.54 億元。 3. 集中市場 22 日融資餘額較前 1 日增加 18.23 億元，成為 6049",
+   "date": "2026-09-23T00:50:15.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghyt9n",
+   "title": "外資近5日買超個股",
+   "url": "https://news.cnyes.com/news/id/6613703",
+   "summary": "1. 外資累計買超 5 日的股票友達 (2409-TW)、主動統一升級50 (00403A-TW)、主動統一台股增長 (00981A-TW)、主動復華全球50 (00409A-TW)、力積電 (6770-TW)2. 外資累計買超 4 日的股票主動統一升級50 (00403A-TW)、友達 (2409",
+   "date": "2026-09-23T00:49:17.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghyt9m",
+   "title": "外資近3日賣超個股",
+   "url": "https://news.cnyes.com/news/id/6613702",
+   "summary": "1. 外資累計賣超 3 日的股票台新新光金 (2887-TW)、中鋼 (2002-TW)、仁寶 (2324-TW)、南亞 (1303-TW)、緯創 (3231-TW)2. 外資累計賣超 2 日的股票中鋼 (2002-TW)、台新新光金 (2887-TW)、仁寶 (2324-TW)、緯創 (3231-",
+   "date": "2026-09-23T00:48:15.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghyt9l",
+   "title": "外資近3日買超個股",
+   "url": "https://news.cnyes.com/news/id/6613701",
+   "summary": "1. 外資累計買超 3 日的股票主動統一升級50 (00403A-TW)、友達 (2409-TW)、主動統一台股增長 (00981A-TW)、主動復華全球50 (00409A-TW)、主動富邦台灣龍耀 (00405A-TW)2. 外資累計買超 2 日的股票友達 (2409-TW)、主動統一升級50",
+   "date": "2026-09-23T00:47:15.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghyt9k",
+   "title": "投信近5日賣超個股",
+   "url": "https://news.cnyes.com/news/id/6613700",
+   "summary": "1. 投信累計賣超 5 日的股票華邦電 (2344-TW)、元大金 (2885-TW)、華南金 (2880-TW)、群創 (3481-TW)、遠東新 (1402-TW)2. 投信累計賣超 4 日的股票華邦電 (2344-TW)、元大金 (2885-TW)、國泰金 (2882-TW)、群創 (3481",
+   "date": "2026-09-23T00:46:17.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghysnt",
+   "title": "投信近5日買超個股",
+   "url": "https://news.cnyes.com/news/id/6613699",
+   "summary": "1. 投信累計買超 5 日的股票聯電 (2303-TW)、南亞 (1303-TW)、永豐金 (2890-TW)、彰銀 (2801-TW)、玉山金 (2884-TW)2. 投信累計買超 4 日的股票聯電 (2303-TW)、南亞 (1303-TW)、長榮航 (2618-TW)、廣達 (2382-TW)",
+   "date": "2026-09-23T00:45:20.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghysns",
+   "title": "投信近3日賣超個股",
+   "url": "https://news.cnyes.com/news/id/6613698",
+   "summary": "1. 投信累計賣超 3 日的股票華邦電 (2344-TW)、兆豐金 (2886-TW)、國泰金 (2882-TW)、群創 (3481-TW)、緯創 (3231-TW)2. 投信累計賣超 2 日的股票華邦電 (2344-TW)、緯創 (3231-TW)、群創 (3481-TW)、兆豐金 (2886-T",
+   "date": "2026-09-23T00:44:15.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghysnr",
+   "title": "投信近3日買超個股",
+   "url": "https://news.cnyes.com/news/id/6613697",
+   "summary": "1. 投信累計買超 3 日的股票聯電 (2303-TW)、長榮航 (2618-TW)、藥華藥 (6446-TW)、廣達 (2382-TW)、華航 (2610-TW)2. 投信累計買超 2 日的股票聯電 (2303-TW)、京元電子 (2449-TW)、台新臺灣IC設計 (00947-TW)、華航 (",
+   "date": "2026-09-23T00:43:30.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "17elg2a",
+   "title": "Paramount, Bonta to Hammer Final Settlement Details on Thursday",
+   "url": "https://www.thewrap.com/industry-news/deals-ma/paramount-merger-settlement-hearing-scheduled-david-ellison-rob-bonta",
+   "summary": "The judge, who hasn't signed off on the settlement, will address outstanding questions on the consent decree The post Paramount, Bonta to Hammer Final Settlement Details on Thursday appeared first on TheWrap.",
+   "date": "2026-09-23T00:40:23.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "ghysi4",
+   "title": "敏感時機引關注！川普7月買進最多5萬美元Space X股票 隨後逢高減碼",
+   "url": "https://news.cnyes.com/news/id/6613632",
+   "summary": "川普7月10日買進15,001至5萬美元SpaceX股票，7月17日又賣出1001至15,000美元持股 SpaceX為馬斯克旗下火箭公司、軍方承包商，正值美國政府將做出可能影響其業務前景的決策 川普6月也曾買進SpaceX，白宮稱投資組合由第三方金融機構獨立管理，複製Schwab 1000等指數",
+   "date": "2026-09-23T00:40:06.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghyqxg",
+   "title": "胡塞警告土耳其、巴基斯坦 勿介入衝突",
+   "url": "https://news.cnyes.com/news/id/6613478",
+   "summary": "葉門叛軍胡塞領導人阿卜杜勒·馬利克·胡塞21日（周一）晚警告土耳其和巴基斯坦不要介入胡塞與沙烏地阿拉伯不斷升級的衝突。 阿卜杜勒·馬利克在馬西拉電視台播出的電視講話中說，沙國在與胡塞衝突不斷升級之際，尋求土耳其和巴基斯坦提供軍事支援。他敦促兩國不要為了與沙國的政治或經濟利益而捲入這場衝突。 談及",
+   "date": "2026-09-23T00:37:17.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "y5brpr",
+   "title": "Opus 5.5 搶先 90 分鐘登場！OpenAI 同日推出 GPT-6 Sol／Luna，雙方官網互點對手跑分",
+   "url": "https://www.inside.com.tw/article/42461-anthropic-opus-5-5-openai-gpt-6-sol-luna-same-day",
+   "summary": "Anthropic 與 OpenAI 同日發表新模型並大幅降價，更罕見地互比跑分，競爭焦點已從模型強弱轉向「單位任務成本」。",
+   "date": "2026-09-23T00:34:00.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "INSIDE",
+   "tier": "A",
+   "lang": "zh-TW",
+   "site": "https://www.inside.com.tw"
+  },
+  {
+   "id": "1gpmwgi",
+   "title": "Paramount-Warner Bros. Settlement to Be Considered at Thursday Court Hearing",
+   "url": "https://www.hollywoodreporter.com/business/business-news/paramount-warner-bros-settlement-court-hearing-1236708046",
+   "summary": "If the court approves the deal, Paramount will be one step closer to creating Hollywood's next media and entertainment colossus.",
+   "date": "2026-09-23T00:33:59.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "16jprz2",
+   "title": "智谱能过关吗？",
+   "url": "https://www.huxiu.com/article/4893347.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/23/36590-prod-db-general-1-1790123246099.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>这两天，智谱可能遇到了成立以来最棘手的一次信任考验。有意思的是，这场风波发生的时间点，实在太巧了。9月10日，Anthropic发布了一",
+   "date": "2026-09-23T00:28:36.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "16w3mzz",
+   "title": "Megyn Kelly Faces Backlash Over Cindy Crawford Criticism Following Son’s Death: ‘Goblinesque’",
+   "url": "https://www.thewrap.com/culture-lifestyle/culture/megyn-kelly-cindy-crawford-criticism-following-presley-gerber-death",
+   "summary": "“She did the same thing to Hayden’s family. She has no soul,” New York politician Inna Vernikov says The post Megyn Kelly Faces Backlash Over Cindy Crawford Criticism Following Son’s Death: ‘Goblinesque’ appeared first on TheWrap.",
+   "date": "2026-09-23T00:27:47.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "15weywt",
+   "title": "刚刚，GPT-6新模型掀桌，“白菜价”杀进DeepSeek 腹地",
+   "url": "https://www.huxiu.com/article/4893346.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/23/36589-prod-grokep-general-1-1790123153965.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>DeepSeek快醒醒，ChatGPT要打到家门口了。就在刚刚，OpenAI正式发布GPT-6 Sol和GPT-6 Luna，A",
+   "date": "2026-09-23T00:27:41.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "13yijq2",
+   "title": "中国正在把一座“数据中心”拆开送上太空",
+   "url": "https://www.huxiu.com/article/4893343.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/23/36587-prod-nb2qnf-general-1-1790122908910.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>如果把一座数据中心搬到太空，需要分几步？第一步，把计算机送上去；第二步，让这些计算机能够被软件统一管理；第三步，再用高速网络把它",
+   "date": "2026-09-23T00:23:21.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "15945uk",
+   "title": "Anthropic深夜放大招：Claude Opus5.5上线，任务成本大降40%",
+   "url": "https://www.huxiu.com/article/4893345.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/article/article_default_picpath_v1.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>订阅用户将获得一次使用限额重置机会。智东西9月23日消息，今天凌晨，Anthropic发布Claude Opus 5.5，这是Claude 5.5系列的首款模型。Anthropic称，新模型在多数任务上",
+   "date": "2026-09-23T00:23:16.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "ghysmn",
+   "title": "盤中速報 - Arbitrum大漲8.44%，報0.24美元",
+   "url": "https://news.cnyes.com/news/id/6613680",
+   "summary": "Arbitrum(ARB)在過去 24 小時內漲幅超過8.44%，最新價格0.24美元，總成交量達0.38億美元，總市值13.99億美元，目前市值排名第 27 名。近 1 日最高價：0.25美元，近 1 日最低價：0.21美元，流通供給量：5,939,074,958。歷史漲跌幅 近 1 週：+",
+   "date": "2026-09-23T00:20:22.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "14ltcsb",
+   "title": "月薪几万？国庆才敢出去玩？",
+   "url": "https://www.huxiu.com/article/4893344.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/article/article_default_picpath_v1.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>国庆旅行最刺激的项目，通常发生在出发前：打开订房软件，把入住日期从9月改成10月1日。据9月16日报道，甘肃武威一家酒店的行政大床房，平日321元，10月1日标价799元；陇南一家酒店，同类房型从325",
+   "date": "2026-09-23T00:19:50.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "13b7qnt",
+   "title": "德国一年关掉19万家企业，87%根本没破产，原因不是你想的那样……",
+   "url": "https://www.huxiu.com/article/4893342.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/23/36585-prod-nb2qnf-general-1-1790122435739.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>2026年8月18日，德国曼海姆的ZEW经济研究中心和征信机构Creditreform发布年度企业退出报告，一些关键的数字是这样",
+   "date": "2026-09-23T00:15:11.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "1lia3aj",
+   "title": "Activision will make the next Halo game as Xbox cuts 268 more jobs",
+   "url": "https://thenextweb.com/news/xbox-268-layoffs-halo-activision-ninja-theory-closure",
+   "summary": "First, we are eliminating 268 roles across Halo Studios, other first-party studios, and the XGS management and central functions layer. Matt Booty put that in an email to Xbox staff on Tuesday morning. Microsoft published the memo in full on Xbox Wire the same day, under the title Continuing Our Res",
+   "date": "2026-09-23T00:10:08.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "TNW",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://thenextweb.com"
+  },
+  {
+   "id": "ghysh7",
+   "title": "川習二會美中代表團對比鮮明！美CEO陣容豪華、中方傳企業高層缺席 兩國商業成果預期偏低",
+   "url": "https://news.cnyes.com/news/id/6613622",
+   "summary": "川習二會本周登場，美方多名科技與金融巨頭將出席國宴，中國企業代表團卻可能缺席 外界對商業協議預期偏低 美中在關稅、晶片出口、稀土磁鐵、AI與台灣等議題緊張升溫，川普稱盼達成「很多不同的協議」，但美中仍有分歧。",
+   "date": "2026-09-23T00:10:04.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghysk3",
+   "title": "盤中速報 - 比特幣現金大漲29.02%，報346.3美元",
+   "url": "https://news.cnyes.com/news/id/6613657",
+   "summary": "比特幣現金(BCH)在過去 24 小時內漲幅超過29.02%，最新價格346.3美元，總成交量達1.09億美元，總市值68.99億美元，目前市值排名第 12 名。近 1 日最高價：348.1美元，近 1 日最低價：261.6美元，流通供給量：20,003,600。比特幣現金是比特幣區塊鏈的硬分叉，一",
+   "date": "2026-09-23T00:07:25.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghysk4",
+   "title": "盤中速報 - 達世幣大漲8.82%，報64.4美元",
+   "url": "https://news.cnyes.com/news/id/6613658",
+   "summary": "達世幣(DASH)在過去 24 小時內漲幅超過8.82%，最新價格64.4美元，總成交量達0.31億美元，總市值8.07億美元，目前市值排名第 36 名。近 1 日最高價：65.7美元，近 1 日最低價：58.1美元，流通供給量：12,615,330。Dash在2014年以萊特幣LTC分支推出，以保",
+   "date": "2026-09-23T00:07:25.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghysk5",
+   "title": "盤中速報 - LayerZero大漲18.75%，報1.4美元",
+   "url": "https://news.cnyes.com/news/id/6613659",
+   "summary": "LayerZero(ZRO)在過去 24 小時內漲幅超過18.75%，最新價格1.4美元，總成交量達0.20億美元，總市值4.22億美元，目前市值排名第 49 名。近 1 日最高價：1.44美元，近 1 日最低價：1.15美元，流通供給量：303,720,315。歷史漲跌幅 近 1 週：+18",
+   "date": "2026-09-23T00:07:25.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghysk2",
+   "title": "盤中速報 - UNI大漲14.37%，報10.31美元",
+   "url": "https://news.cnyes.com/news/id/6613656",
+   "summary": "UNI(UNI)在過去 24 小時內漲幅超過14.37%，最新價格10.31美元，總成交量達2.07億美元，總市值65.05億美元，目前市值排名第 13 名。近 1 日最高價：10.35美元，近 1 日最低價：8.68美元，流通供給量：633,725,563。Uniswap是一個自動化造市商，目標是",
+   "date": "2026-09-23T00:07:24.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghysk1",
+   "title": "盤中速報 - 大零幣大漲10.13%，報1,624美元",
+   "url": "https://news.cnyes.com/news/id/6613655",
+   "summary": "大零幣(ZEC)在過去 24 小時內漲幅超過10.13%，最新價格1,624美元，總成交量達4.74億美元，總市值269.71億美元，目前市值排名第 8 名。近 1 日最高價：1,650美元，近 1 日最低價：1,445.9美元，流通供給量：16,566,356。Zcash使用零知識證明技術(zk-",
+   "date": "2026-09-23T00:07:24.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "12nwxlk",
+   "title": "菲尔兹奖得主迪米尼-科潘：我不用AI做创造性工作",
+   "url": "https://www.huxiu.com/article/4893341.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/article/article_default_picpath_v1.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>今年春天，AI给出了一个渗流理论难题的证明，用这一领域菲尔兹奖得主雨果·迪米尼-科潘的话说，闪电劈到了隔壁。他这篇文章讲述的，是一个自己始终没能证明的猜想怎样成就了他，以及下一代数学家为什么可能再难有这",
+   "date": "2026-09-23T00:06:56.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "1oupw3k",
+   "title": "早报｜GPT-6 Sol发布，价格腰斩/特努斯：Siri AI不应代替人际关系/4999起，OPPO Find X10系列发布",
+   "url": "https://www.ifanr.com/1681566",
+   "summary": "· 第六代骁龙 8 双旗舰发布，iQOO 16、红魔 12 Pro+ 首批搭载 · Qwen Intelligence 亮相，荣耀 Magic9 系列、Robot Phone 首批搭载 · 前小米 XLA 负责人陈龙创业，研发「自进化」具身大模型#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "date": "2026-09-23T00:05:46.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "爱范儿",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.ifanr.com/"
+  },
+  {
+   "id": "120m4jb",
+   "title": "“鞋王”跌落，奥康国际错过了时代",
+   "url": "https://www.huxiu.com/article/4893340.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/23/36583-prod-nb2qnf-general-1-1790121808549.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>奥康国际的皮鞋卖不动了，深陷主业增长困境。日前，控股股东及实控人协议转让部分股权套现的动作，搅动资本市场，股价随之异动。表面上来",
+   "date": "2026-09-23T00:04:40.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "upopbs",
+   "title": "Jesse Watters Questions Whether Trump Was Looking at Mamdani in ‘A Sexual Way’ at New York Presser",
+   "url": "https://www.thewrap.com/media-platforms/politics/jesse-watters-questions-trump-mamdani-press-conference-sexual-fox-news",
+   "summary": "Fox News' \"The Five\" co-host Jessica Tarlov calls the Queens speaking engagement a \"lovefest\" The post Jesse Watters Questions Whether Trump Was Looking at Mamdani in ‘A Sexual Way’ at New York Presser appeared first on TheWrap.",
+   "date": "2026-09-23T00:04:23.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "14p3auj",
+   "title": "平價版AirPods Max？Beats 360採模組化雙材質耳罩、IPX4防汗加持的健身日常雙棲耳機",
+   "url": "https://mashdigi.com/a-budget-friendly-version-of-airpods-max-beats-360s-modular-dual-material-earcups-and-ipx4-sweat-resistant-design-make-these-versatile-headphones-suitable-for-both-fitness-and-everyday-use",
+   "summary": "長久以來，隸屬蘋果旗下的Beats雖然在運動員與健身族群中擁有極高能見度，但旗下如Beats Studio P […]",
+   "date": "2026-09-23T00:00:05.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "mashdigi",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://mashdigi.com"
+  },
+  {
+   "id": "5fpwmw",
+   "title": "美中搶發許可證、台灣塞在沙盒裡，解析全球自駕車產業獲利新戰場",
+   "url": "https://www.thenewslens.com/article/270247",
+   "summary": "本文對比美中自駕車商業化，點出護城河已轉向營運許可。並剖析台灣業者，如何在法規、資金與供應鏈的限制下，尋找在地突圍策略。",
+   "date": "2026-09-22T23:59:00.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "5fpuwh",
+   "title": "美國對伊朗雙軌策略，為何讓海灣盟邦承擔風險、中國白嫖安全與廉價石油？",
+   "url": "https://www.thenewslens.com/article/270024",
+   "summary": "美國對伊朗採行制裁與護航的雙軌政策，反為中國等第三方創造套利空間。其藉影子貿易購入折價石油，並無償享受航行安全。此成本效益錯置削弱制裁成效，使美國陷入獨自承擔風險的戰略困境。",
+   "date": "2026-09-22T23:58:00.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "1262wvq",
+   "title": "‘Dancing With the Stars’ Goes Viral as the Couples Dance to Hit Songs: See the Scores, Who Went Home (Updating Live)",
+   "url": "https://www.hollywoodreporter.com/tv/tv-news/dwts-season-35-viral-hits-week-2-recap-scores-elimination-1236707773",
+   "summary": "For Viral Hits Night, celebrities and their professional dancers will perform numbers inspired by the biggest viral hits.",
+   "date": "2026-09-22T23:58:00.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "5fpwkz",
+   "title": "從OpenAI六起「失控」警訊，看川習會如何建立美中AI安全對話機制？",
+   "url": "https://www.thenewslens.com/article/270224",
+   "summary": "AI模型「未對齊」已構成國安風險，促使美中建立危機溝通機制，旨在區分模型自主行動與國家授意，避免誤判。此舉凸顯制定跨國通報框架與安全標準之迫切性，以管理潛在失控事件。",
+   "date": "2026-09-22T23:57:00.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "14guxjn",
+   "title": "Trump’s Africa adviser defends proposed Libyan deal: ‘Absolute partnership’",
+   "url": "https://www.semafor.com/article/09/22/2026/trumps-africa-adviser-defends-proposed-libyan-deal-absolute-partnership",
+   "summary": "Massad Boulos pushed back on claims that a US plan for Libya would hand control of the country to a powerful military commander and his family.",
+   "date": "2026-09-22T23:56:14.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "g4fvr7",
+   "title": "Alibaba says its new Zhenwu V900 is China’s most powerful AI chip",
+   "url": "https://thenextweb.com/news/alibaba-zhenwu-v900-ai-chip-20gw-data-centres-qwen-5",
+   "summary": "The most powerful AI chip in China today, delivering three times the performance of its predecessor, the Zhenwu M890. That is how Eddie Wu described the processor Alibaba unveiled on Tuesday. The chief executive was speaking at Apsara, the company’s annual cloud conference, in Hangzhou. The chip is ",
+   "date": "2026-09-22T23:56:03.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "TNW",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://thenextweb.com"
+  },
+  {
+   "id": "5fpwky",
+   "title": "當AI園區撞上草鴞棲地：南科沙崙開發案，為何正步上「三接」後塵？",
+   "url": "https://www.thenewslens.com/article/270223",
+   "summary": "沙崙園區環評的核心，在於面對生態衝擊時，應優先「避免損失」或「思考補償」。審查應質問開發配置能否修改以迴避破壞，而非將補償作為唯一解方，此為環境治理的關鍵。",
+   "date": "2026-09-22T23:56:00.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "1t84x3x",
+   "title": "Kendall Jenner Stars Alongside Herself in Campaign For New Beats 360 Headphones",
+   "url": "https://www.hollywoodreporter.com/lifestyle/shopping/kendall-jenner-apple-beats-360-campaign-1236707965",
+   "summary": "The model stars alongside versions of herself in the minute-long spot.",
+   "date": "2026-09-22T23:52:44.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "ghysi9",
+   "title": "川普揚言若談判未果 可能「殲滅」伊朗",
+   "url": "https://news.cnyes.com/news/id/6613637",
+   "summary": "川普在聯合國演說警告，若無法與伊朗達成終戰協議，可能迅速殲滅伊朗 他呼籲各國配合美國經濟孤立伊朗，會後稱美方與伊朗代表團談約3小時且非常順利，惟接觸的是調解人非官員 川普同場批評聯合國、國際刑事法院與墨西哥、古巴，並談AI、俄烏及將與習近平會晤；布蘭特與西德州原油連5日收黑",
+   "date": "2026-09-22T23:50:02.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "lu3xz2",
+   "title": "“黄金回家潮”，美元要崩盘了吗？",
+   "url": "https://www.huxiu.com/article/4893338.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/article/content/2026/09/23/081526170763.jpg?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/jpg\" referrerpolicy=\"no-referrer\"></figure>一、“黄金回家潮”9月2日荷兰央行发布官方公告，三至八月已将存放在北美313吨黄金中的86吨黄金，通过实物运输和置换的方式，从纽约和渥太华转移至伦敦。荷兰上一次大规模调整海外黄金是在2014年",
+   "date": "2026-09-22T23:43:27.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "l6t4wt",
+   "title": "一夜三连发，Claude Opus5.5、GPT-6 Sol和Luna全部都来了。",
+   "url": "https://www.huxiu.com/article/4893337.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202609/23/36580-prod-nb2qnf-general-1-1790120310555.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>人麻了，前几天不是都喊着模型要放慢吗。怎么这模型跟不要钱一样往外面扔啊。昨天Grok 4.7 PK MiMo v2.6，是给今天",
+   "date": "2026-09-22T23:40:16.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "ghysfh",
+   "title": "皇家加勒比跨足陸上度假市場 傳砸30億美元取得Sandals半數股權",
+   "url": "https://news.cnyes.com/news/id/6613606",
+   "summary": "皇家加勒比擬斥資約30億美元收購Sandals Resorts International 50%股權，整體估值約60億美元 若交易完成，皇家加勒比將成Sandals控股股東，進一步跨足加勒比海全包式度假市場 消息傳出後RCL股價一度跌約6%，公司2026年第三季營收估年增約8%",
+   "date": "2026-09-22T23:40:02.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "kjibuk",
+   "title": "第一批招不上生的小学，酒店盯上了",
+   "url": "https://www.huxiu.com/article/4893336.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/article/article_default_picpath_v1.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>废弃小学，成了酒店老板新猎物。01前几天，做酒店投资多年的朋友老韩突然给我发来几张照片。照片里是他老家闲置多年的小学，两层教学楼看上去还算完整，窗户蒙着灰，操场边的篮球架锈迹斑斑，杂草在水泥缝里疯长。老",
+   "date": "2026-09-22T23:37:14.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "wz3vbs",
+   "title": "当宁德时代不再是“默认选项”",
+   "url": "https://www.huxiu.com/article/4893206.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/article/content/2026/09/22/170643196325.jpg?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/jpg\" referrerpolicy=\"no-referrer\"></figure>2026年9月7日下午3点，理想App上锁单的新一代MEGA，电池供应商从宁德时代换成了理想自研的5C三元锂电池。没有发布会，没有公关稿，一条产品页的更新，折射出宁德时代在理想车型中的角色，正",
+   "date": "2026-09-22T23:34:43.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "tmyvz0",
+   "title": "MAGA Event Organizer Cancels Kid Rock, Dog the Bounty Hunter Freedom Fest Amid Dismal Ticket Sales",
+   "url": "https://www.thewrap.com/media-platforms/politics/maga-event-organizer-cancels-freedom-fest-kid-rock",
+   "summary": "\"None of these people will ever, ever, ever get a favor from me again,\" says Eric Deters after selling only six VIP tickets The post MAGA Event Organizer Cancels Kid Rock, Dog the Bounty Hunter Freedom Fest Amid Dismal Ticket Sales appeared first on TheWrap.",
+   "date": "2026-09-22T23:34:37.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "jw7isb",
+   "title": "他是诺奖热门人选，儿子是王虹的博士导师",
+   "url": "https://www.huxiu.com/article/4893335.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/article/content/2026/09/23/073119188096.jpg?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/jpg\" referrerpolicy=\"no-referrer\"></figure>2026诺贝尔奖即将揭晓，可以讨论的不仅有谁是获奖热门人选，还有哪些科学家做出了诺奖级贡献。这当中，阿兰·古斯，安德烈·林德，阿列克谢·斯塔罗宾斯基共同提出了宇宙暴胀理论。2012年科学突破奖",
+   "date": "2026-09-22T23:33:39.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "mchgll",
+   "title": "Australia’s attorney-general told councils to ban smart glasses",
+   "url": "https://thenextweb.com/news/western-australia-smart-glasses-ban-public-schools-ceo-instruction",
+   "summary": "Smart glasses may look cool but there’s absolutely no place in our schools or classrooms for them. Sabine Winton said that on Tuesday. Western Australia’s education minister was announcing what she called the country’s most comprehensive ban on the devices. It is not a policy statement. The same day",
+   "date": "2026-09-22T23:30:19.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "TNW",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://thenextweb.com"
+  },
+  {
+   "id": "ghyrtb",
+   "title": "甲骨文裁員衝擊開發人員與工程師 雲端基礎架構部門成重災區",
+   "url": "https://news.cnyes.com/news/id/6613590",
+   "summary": "甲骨文最新一輪裁員重創雲端基礎架構部門，軟體開發人員、工程師及經理受影響最深 美洲雲端基礎架構546人遭裁，占7185人7.6%；第3級軟體開發人員最多，57人失業 公司稱裁員與重組相關，預計成本28億美元，2027會計年度將投入900億至950億美元建資料中心",
+   "date": "2026-09-22T23:30:08.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "1iyo8rm",
+   "title": "‘Doc’ Season 3 Episode Release Schedule: When Do New Episodes Come Out?",
+   "url": "https://www.thewrap.com/creative-content/tv-shows/doc-fox-season-3-episode-release-schedule",
+   "summary": "Dr. Amy Larsen returns for another eventful run at Minneapolis’ Westside hospital The post ‘Doc’ Season 3 Episode Release Schedule: When Do New Episodes Come Out? appeared first on TheWrap.",
+   "date": "2026-09-22T23:30:00.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "1gauldi",
+   "title": "TechCrunch Founder Summit’s agenda revealed: Unlock fundraising, hiring, and AI insights in Boston on November 4",
+   "url": "https://techcrunch.com/2026/09/22/techcrunch-founder-summits-agenda-revealed-unlock-fundraising-hiring-and-ai-insights-in-boston-on-november-4",
+   "summary": "Founders shouldn't have to learn the hardest lessons the hardest way. TechCrunch Founder Summit is designed to make the challenges of starting a company easier and the highs that much greater.",
+   "date": "2026-09-22T23:21:49.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "TechCrunch",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://techcrunch.com"
+  },
+  {
+   "id": "ghysi8",
+   "title": "盤中速報 - 大零幣大漲10.95%，報1,634.2美元",
+   "url": "https://news.cnyes.com/news/id/6613636",
+   "summary": "大零幣(ZEC)在過去 24 小時內漲幅超過10.95%，最新價格1,634.2美元，總成交量達4.46億美元，總市值257.60億美元，目前市值排名第 8 名。近 1 日最高價：1,647.2美元，近 1 日最低價：1,445.9美元，流通供給量：16,566,356。Zcash使用零知識證明技術",
+   "date": "2026-09-22T23:20:19.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghyqwg",
+   "title": "花旗調查：通膨已成為家族辦公室頭號擔憂 正加速佈局黄金與股票",
+   "url": "https://news.cnyes.com/news/id/6613465",
+   "summary": "根據花旗最新發布的《2026年全球家族辦公室報告》，通膨已成為超高淨值投資者最擔心的問題。報告涵蓋40多國、逾350個家族辦公室，這項在今年6-7月進行的調查聚焦在他們如何在充滿不確定性的環境下，應對日益複雜的投資及財富管理挑戰。 與上一輪調查相比，通膨已取代貿易戰和關稅，排到風險關注首位，利率變",
+   "date": "2026-09-22T23:20:04.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghysh6",
+   "title": "〈台泥拓展東歐市場〉擬以212億元企業價值 併購烏克蘭第二大水泥公司",
+   "url": "https://news.cnyes.com/news/id/6613621",
+   "summary": "台泥擬以不超過7.5億歐元收購烏克蘭IFCEM等公司100%股權。 IFCEM為烏克蘭第二大水泥公司，市占率約36%、年產能約400萬噸，2025年營收年增20.3%。 台泥若完成併購IFCEM，歐洲水泥版圖將由南歐、西歐延伸至東歐。",
+   "date": "2026-09-22T23:15:30.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "meon5z",
+   "title": "‘It’s not popular’: Republicans break with Trump on Iran and more",
+   "url": "https://www.semafor.com/article/09/22/2026/its-not-popular-republicans-break-with-trump-on-iran-and-more",
+   "summary": "The president’s party is seeking distance from him at a crucial moment ahead of the midterms.",
+   "date": "2026-09-22T23:14:05.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "1nmnam8",
+   "title": "Kamala Harris Calls Trump’s Media Ban ‘Absolutely Abhorrent’",
+   "url": "https://www.thewrap.com/media-platforms/politics/kamala-harris-reacts-trump-media-ban",
+   "summary": "\"The man is afraid of the voice of the people and that the people understand and know what he's doing,\" the former vice president adds The post Kamala Harris Calls Trump’s Media Ban ‘Absolutely Abhorrent’ appeared first on TheWrap.",
+   "date": "2026-09-22T23:13:35.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "ghyrm0",
+   "title": "NAND不再只是儲存商品 SanDisk目標價喊到2400美元、還能漲30％",
+   "url": "https://news.cnyes.com/news/id/6613511",
+   "summary": "Rosenblatt 分析師 Kevin Cassidy 首次將 SanDisk 納入追蹤，給予買進評等。 2027 會計年度SanDisk資料中心營收可望達到217 億美元。 SanDisk新商業模式協議已與 8 家主要 NAND 客戶合作，提升需求能見度並降低產業循環波動。",
+   "date": "2026-09-22T23:10:43.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghysgc",
+   "title": "思科跌逾4% Piper Sandler下調目標價 憂成長見頂",
+   "url": "https://news.cnyes.com/news/id/6613614",
+   "summary": "Piper Sandler將思科目標價由132美元下調至125美元，股價周二跌4.5%。 分析師稱因市場憂慮產業成長接近高峰，下調本益比倍數預期；思科周二收106.44美元。 思科上月Q4營收172.5億美元優於預估，8月財測估2027會計年度營收成長近15%。",
+   "date": "2026-09-22T23:00:35.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "p5wshk",
+   "title": "Spike Lee, Chance the Rapper and Jenny Slate Sport J.Crew’s Barn Jacket in Starry Anniversary Campaign",
+   "url": "https://www.hollywoodreporter.com/lifestyle/shopping/j-crew-barn-jacket-40th-anniversary-celebrity-campaign-2026-1236707844",
+   "summary": "Scottie Pippen, Dave Franco, Amandla Stenberg and Bowen Yang are among 160 individuals also tapped for the retailer's most ambitious portrait campaign to date.",
+   "date": "2026-09-22T23:00:08.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "mx1493",
+   "title": "‘Best Medicine’ Season 2 Release Schedule: When Are New Episodes Out?",
+   "url": "https://www.thewrap.com/creative-content/what-to-watch/best-medicine-season-2-episodes-release-date-time",
+   "summary": "One of the most charming broadcast debuts of the last year returns in September The post ‘Best Medicine’ Season 2 Release Schedule: When Are New Episodes Out? appeared first on TheWrap.",
+   "date": "2026-09-22T23:00:00.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "xbindo",
+   "title": "Kara Swisher Is Trying to Get Out of Her CNN Contract in Light of Paramount Merger: ‘F–k These Guys’",
+   "url": "https://www.thewrap.com/media-platforms/journalism/kara-swisher-cnn-contract-paramount-merger",
+   "summary": "\"I don’t want to work for them. I just don’t,\" she says The post Kara Swisher Is Trying to Get Out of Her CNN Contract in Light of Paramount Merger: ‘F–k These Guys’ appeared first on TheWrap.",
+   "date": "2026-09-22T22:52:52.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "ghyo86",
+   "title": "〈貴金屬盤後〉市場強化Fed升息預期 黃金再度下挫",
+   "url": "https://news.cnyes.com/news/id/6613104",
+   "summary": "黃金周二下跌，現貨跌0.2%至4336.21美元，美國黃金期貨跌0.2%至4376.40美元 美元走強延續Fed升息後漲勢，CME FedWatch顯示12月再升息機率達90% 市場憂Fed續緊縮與中東衝突推升通膨，金價自1月高點已跌逾22%",
+   "date": "2026-09-22T22:52:24.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghy1jh",
+   "title": "巴菲特卸任告別信留下「4字箴言」 點破投資市場不敗法則",
+   "url": "https://news.cnyes.com/news/id/6612706",
+   "summary": "巴菲特18日發布告別信，宣布即刻卸下波克夏董事長，結束61年掌舵生涯。 信中寫下四字箴言「時間終會勝出」；他稱時間對人生與股市都是最後贏家。 他表示對波克夏未來比以往更有信心；標普500過去50年累漲2100%，含股息再投資總報酬4530%。",
+   "date": "2026-09-22T22:50:36.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "y3g2ij",
+   "title": "‘Digger’ First Reactions: Tom Cruise’s New Movie Is ‘Ambitious, Messy and Strange’",
+   "url": "https://www.thewrap.com/creative-content/movies/digger-first-reactions-mixed-tom-cruise",
+   "summary": "\"Cruise really does have a knack for comedy, and while not all the jokes land, he fully commits to his performances and the material,\" one critic writes The post ‘Digger’ First Reactions: Tom Cruise’s New Movie Is ‘Ambitious, Messy and Strange’ appeared first on TheWrap.",
+   "date": "2026-09-22T22:48:33.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "5q8zaw",
+   "title": "Matthew McConaughey and Woody Harrelson Explain Their ‘Brothers’ TV Idea — and What Happened at the Emmys",
+   "url": "https://www.hollywoodreporter.com/tv/tv-features/woody-harrelson-matthew-mcconaughey-emmys-brothers-show-1236707655",
+   "summary": "The actors who have been the closest of friends for three decades believe they may be half-brothers, and their 2026 Emmys bit teed up what to expect from their new Apple TV comedy inspired by the theory.",
+   "date": "2026-09-22T22:45:00.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "138ad24",
+   "title": "All the Easter Eggs Taylor Swift Dropped Over the Last 7 Months Teasing ‘Patient Zero’",
+   "url": "https://www.thewrap.com/creative-content/music/taylor-swift-patient-zero-easter-eggs",
+   "summary": "The pop star's new single is set to release on Friday The post All the Easter Eggs Taylor Swift Dropped Over the Last 7 Months Teasing ‘Patient Zero’ appeared first on TheWrap.",
+   "date": "2026-09-22T22:40:36.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "ghyrsk",
+   "title": "高通一次推兩款新手機晶片 聚焦AI代理",
+   "url": "https://news.cnyes.com/news/id/6613586",
+   "summary": "高通推出Snapdragon 8 Elite Extreme Gen 6與Snapdragon 8 Elite Gen 6。 兩款新晶片主打智慧代理AI，強調AI代理與模型可直接在裝置上運行、降低雲端使用成本。 高通持續降低對手機依賴，布局AI資料中心等業務；股價周二漲2.08%至198.27美元。",
+   "date": "2026-09-22T22:40:03.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "190dp54",
+   "title": "San Francisco Sues Trump Media Over Early Access For Firms That Pay",
+   "url": "https://www.mediapost.com/publications/article/418208/san-francisco-sues-trump-media-over-early-access-f.html",
+   "summary": "<p><span>The city&rsquo;s attorney, David Chiu, argued that Trump Media &amp; Technology Group (TMTG) violated California&rsquo;s Unfair Competition Law, a state law against insider trading.<span class=\"apple-converted-space\">&nbsp;</span>&ldquo;These everyday investors are placed at a substantial d",
+   "date": "2026-09-22T22:38:56.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
+   "id": "1dqxr4b",
+   "title": "Meta says Muse looks like OpenClaw because it was built that way",
+   "url": "https://thenextweb.com/news/meta-muse-openclaw-friedman-soul-md",
+   "summary": "We built Muse from scratch, but it is definitely heavily inspired as a product by OpenClaw. Nat Friedman posted that on X on Monday evening. The head of product at Meta Superintelligence Labs was answering a fortnight of speculation about Meta’s new personal agent, and why it felt so familiar to any",
+   "date": "2026-09-22T22:36:11.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "TNW",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://thenextweb.com"
+  },
+  {
+   "id": "ghysgf",
+   "title": "盤中速報 - UNI大漲10.42%，報9.77美元",
+   "url": "https://news.cnyes.com/news/id/6613617",
+   "summary": "UNI(UNI)在過去 24 小時內漲幅超過10.42%，最新價格9.77美元，總成交量達1.75億美元，總市值61.90億美元，目前市值排名第 13 名。近 1 日最高價：10美元，近 1 日最低價：8.68美元，流通供給量：633,725,563。Uniswap是一個自動化造市商，目標是使代幣交",
+   "date": "2026-09-22T22:35:17.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "no92q7",
+   "title": "Taboola Offers Platform For Converting Shoppers Who Show Intent",
+   "url": "https://www.mediapost.com/publications/article/418207/taboola-offers-platform-for-converting-shoppers-wh.html",
+   "summary": "<p><span>Taboola Inc. has launched an identity offering called Realize ID that it says can help performance marketers act on open-web intent, MarketScreener reports. The new offering, which supports Taboola&rsquo;s Realize advertising platform, allows advertisers to convert shoppers who have shown i",
+   "date": "2026-09-22T22:35:13.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
+   "id": "19yffp3",
+   "title": "Xi expected to press Trump to halt arms sales to Taiwan",
+   "url": "https://www.semafor.com/article/09/22/2026/xi-expected-to-press-trump-to-suspend-arms-sales-to-taiwan",
+   "summary": "Taipei is growing increasingly concerned over a frozen $14 billion arms sales deal that Trump has described as “a very good negotiating chip.”",
+   "date": "2026-09-22T22:32:57.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "ghysff",
+   "title": "油價成ECB關鍵指標 德國央行總裁：高能源價格恐迫使升息",
+   "url": "https://news.cnyes.com/news/id/6613604",
+   "summary": "納格爾稱油價近4年成ECB更相關指標，若能源價格續高，利率可能轉向溫和限制性區域。 市場因中東戰事推升油氣價格，押注ECB未來12個月再升息3至4次，政策利率現為2.5%。 拉加德、武伊契奇強調不會因油價機械升息，須綜合通膨、成長、所得與消費等數據。",
+   "date": "2026-09-22T22:30:03.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "6h7f52",
+   "title": "Google&#x27;s Former Safety Chief Calls For Slowdown In AI Development",
+   "url": "https://www.mediapost.com/publications/article/418206/googles-former-safety-chief-calls-for-slowdown-in.html",
+   "summary": "<span>Tom Siegel, the former vice president of trust and safety at Google, has called for a slowdown in AI development, warning that \"AI can cause more harm to children than social media has,\" Reuters reports. \"</span><span>We find ourselves in a really terrible situation in terms of what AI is doin",
+   "date": "2026-09-22T22:28:59.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
+   "id": "uh3ucb",
+   "title": "White House Draws Fire For Promoting App",
+   "url": "https://www.mediapost.com/publications/article/418205/white-house-draws-fire-for-promoting-app.html",
+   "summary": "<span>The White House is being scored for promoting its official app after President Donald Trump barred CNN, MSNOW and Politico from the promises <em>The Independent</em> reports. &ldquo;Get real-time updates and live events streamed DIRECTLY to your phone,&rdquo; the White House</span><span>&nbsp;",
+   "date": "2026-09-22T22:25:31.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
+   "id": "149qnlr",
+   "title": "Defiant UNGA speech belies Trump's woes",
+   "url": "https://www.semafor.com/article/09/22/2026/defiant-unga-speech-belies-trumps-woes",
+   "summary": "US President Donald Trump took credit for ending wars and confronting Iran in a defiant speech before world leaders at the UN General Assembly.",
+   "date": "2026-09-22T22:24:26.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "odz0jn",
+   "title": "Trump hails ‘productive’ US-Iran talks",
+   "url": "https://www.semafor.com/article/09/22/2026/trump-hails-productive-us-iran-talks",
+   "summary": "Trump had earlier threatened to “annihilate” Iran unless it agreed to end the war.",
+   "date": "2026-09-22T22:21:06.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "ghyrm2",
+   "title": "馬斯克、黃仁勳與庫克赴宴見習近平 一文看懂他們對中國的訴求",
+   "url": "https://news.cnyes.com/news/id/6613513",
+   "summary": "特斯拉2025年在中國營收209.6億美元，但中國純電動車市占率已跌至6.6%。 輝達H20遭美國出口管制認列45億美元費用，H200在中國銷售仍受限制。 蘋果2025會計年度大中華區營收644億美元，花旗全資證券公司仍待北京核准。",
+   "date": "2026-09-22T22:20:03.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghysga",
+   "title": "鉅亨速報 - Factset 最新調查：Roivant Sciences Ltd(ROIV-US)EPS預估下修至-1.35元，預估目標價為46.50元",
+   "url": "https://news.cnyes.com/news/id/6613612",
+   "summary": "根據FactSet最新調查，共12位分析師，對Roivant Sciences Ltd(ROIV-US)做出2027年EPS預估：中位數由-1.31元下修至-1.35元，其中最高估值-0.72元，最低估值-1.96元，預估目標價為46.50元。※本篇提及EPS與營收的單位均為「美元」市場預估EPS預",
+   "date": "2026-09-22T22:15:25.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghyrqn",
+   "title": "川普支持禁止柴油出口 稱很快會做出決定！",
+   "url": "https://news.cnyes.com/news/id/6613563",
+   "summary": "川普稱正評估禁止柴油出口，盼緩解美國物價壓力，並表示將很快決定是否採取行動 AAA顯示全美柴油均價升至每加侖6.53美元，加州達8.44美元，川普面臨共和黨議員壓力 專家指禁令或短期壓低本土油價，但恐傷煉油業、推高全球能源價格並回波美國市場",
+   "date": "2026-09-22T22:10:03.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "zb6q2t",
+   "title": "Heidi raises $340m and doubles its valuation to $900m",
+   "url": "https://thenextweb.com/news/heidi-340m-series-c-900m-valuation",
+   "summary": "From the day I started Heidi, the ambition was always bigger than writing doctor’s notes. Dr Thomas Kelly said that on Tuesday, as the company he cofounded announced US$340m of new funding. The money arrives in two parts. In its announcement, Heidi said Blackbird led a US$100m Series C that values t",
+   "date": "2026-09-22T22:06:48.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "TNW",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://thenextweb.com"
+  },
+  {
+   "id": "1h5r291",
+   "title": "TV Ratings: ‘60 Minutes’ Is Both Up and Down in Week 2",
+   "url": "https://www.hollywoodreporter.com/tv/tv-news/tv-ratings-sunday-sept-20-2026-1236707916",
+   "summary": "The newsmagazine improves on last season's second episode but dips week to week without a national NFL lead-in.",
+   "date": "2026-09-22T22:04:14.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "ghyqvi",
+   "title": "史上罕見！標普近高點卻有99檔個股創60日低 分析師：廣度背離創近年最怪盤面 市場卻還追AI",
+   "url": "https://news.cnyes.com/news/id/6613454",
+   "summary": "最新統計顯示，雖然標普500距離52週高點不到1%，但近三日成分股中出現60日新低者達99檔，創60日新高僅28檔，創120日新低77檔、同期新高22檔。此外，不到30%成分股站上50日移動平均線，顯示指數主要由少數權值股推高，多數個股已先進入修正，而技術分析師把這種「指數近高、個股破底」視為罕見背",
+   "date": "2026-09-22T22:00:03.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "1m5fmz3",
+   "title": "Snorkel AI triples valuation to $3.5B as demand for AI training data booms",
+   "url": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms",
+   "summary": "The seven-year-old startup has raised a $350 million Series E to fuel its data-as-a-service approach.",
+   "date": "2026-09-22T21:56:43.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "TechCrunch",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://techcrunch.com"
+  },
+  {
+   "id": "uqp4he",
+   "title": "歐洲央行正式接軌代幣化市場，Pontes 把鏈上交易接回央行貨幣",
+   "url": "https://techorange.com/2026/09/23/ecb-pontes-dlt",
+   "summary": "債券等金融資產逐漸走向代幣化，發行、交易甚至部分交割流程都能搬到分散式帳本，但交易完成後，最後要用什麼錢結算？歐洲央行（ECB）現在正式把央行貨幣接進這個新市場。 ECB 在 9/21 正式上線 Pontes，讓銀行與市場基礎設施交易代幣化資產後，可以透過歐元體系既有的 TARGET 服務，以央行貨幣完成結算。這也代表 ECB 過去數年的分散式帳本技術（distributed ledger technology，DLT）試驗，開始走向可供市場實際使用的金融基礎設施。 所謂代幣化，是將債券等金融資產轉成數位代幣，通常記錄在分散式帳本上。ECB 認為，這類技術有機會把發行、交易、交割、保管等原本分",
+   "date": "2026-09-22T21:52:00.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "TechOrange",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://buzzorange.com/techorange/"
+  },
+  {
+   "id": "1kg8x80",
+   "title": "DRC prime minister defends Ebola response",
+   "url": "https://www.semafor.com/article/09/22/2026/drc-prime-minister-defends-ebola-response",
+   "summary": "Judith Suminwa also discussed the country’s relationship with the US.",
+   "date": "2026-09-22T21:51:27.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "ghysfg",
+   "title": "〈能源盤後〉沙烏地重啟東西管線 油價跌逾1%回落至兩週低點 Brent跌破百美元",
+   "url": "https://news.cnyes.com/news/id/6613605",
+   "summary": "沙烏地恢復東西管線並擬重啟延布出口，帶動中東供應改善預期升溫 Brent跌1.09%至99.25美元，WTI跌1.24%至94.99美元，盤中一度跌逾2美元 川普稱美伊和平協議恐待11月期中選舉後，油價跌幅因而收斂",
+   "date": "2026-09-22T21:50:03.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghy1k8",
+   "title": "美光股價重返千美元 睽違26年的股票分割要來了嗎？",
+   "url": "https://news.cnyes.com/news/id/6612710",
+   "summary": "美光股價6月首度收在1,000美元上方，市值約1.2兆美元，市場關注是否將啟動股票分割。 公司尚未宣布分割，管理層也未提及；美光上次分割在2000年，距今已26年。 最新財報顯示AI資料中心需求推升記憶體價格，第三季營收年增逾三倍至415億美元，EPS 24.67美元。",
+   "date": "2026-09-22T21:50:02.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "h0ndjv",
+   "title": "Kara Swisher Says She’s Leaving CNN, Calls Ellisons “Terrible Media Owners”",
+   "url": "https://www.hollywoodreporter.com/tv/tv-news/kara-swisher-leaving-cnn-paramount-warner-bros-ellison-1236707906",
+   "summary": "\"F*** these guys ... I’d rather work for Rupert Murdoch,\" Swisher said.",
+   "date": "2026-09-22T21:47:50.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "1mkr8gu",
+   "title": "OpenAI exec is ‘cautiously optimistic’ about the US working with China on AI",
+   "url": "https://www.semafor.com/article/09/22/2026/openai-exec-is-cautiously-optimistic-about-the-us-working-with-china-on-ai",
+   "summary": "Communication between the two nations is a “starting place.”",
+   "date": "2026-09-22T21:46:32.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "19pp49i",
+   "title": "Bitdefender built a VPN that hides your AI agent, not you",
+   "url": "https://thenextweb.com/news/bitdefender-vpn-for-ai-agents-beta",
+   "summary": "Security can no longer stop at protecting the person behind the screen. It has to extend to the agent itself acting on their behalf. Ciprian Istrate said that on Tuesday. He runs consumer operations at Bitdefender, and the Romanian company was launching a VPN built for AI agents rather than for peop",
+   "date": "2026-09-22T21:45:40.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "TNW",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://thenextweb.com"
+  },
+  {
    "id": "191x0sw",
    "title": "荣耀方飞：与阿里共建五大垂域模型与解决方案，Magic9落地行业领先AI能力",
    "url": "https://www.pingwest.com/w/317735",
@@ -1060,6 +2236,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-TW",
    "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "1dqt5k4",
+   "title": "【科技早餐】Meta Muse 超車 ChatGPT，Amazon 封鎖 AI 代理購物",
+   "url": "https://techorange.com/2026/09/23/meta-muse-tops-app-store-amazon-blocks-ai-shopping",
+   "summary": "【科技早餐】今天精選 8 則國內外重要科技新聞。 ＊Meta Muse 超車 ChatGPT 登頂 App Store，Amazon 封鎖代理購物 Meta 於 9 月 8 日推出個人 AI 助理 Muse，可替使用者研究資料、填寫表格、預約服務及購買商品，並能連結電子郵件、行事曆、Instagram 等服務。Muse 上線後下載排名迅速超越 ChatGPT，一度登上美國 Apple App Store 免費應用程式排行榜第一名。與主要回覆問題的聊天機器人不同，Muse 的核心定位是取得使用者授權後，跨越不同網站與服務完成多步驟任務。 不過，Muse 進入亞馬遜（Amazon）代替使用者購物時",
+   "date": "2026-09-22T21:30:00.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "TechOrange",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://buzzorange.com/techorange/"
   },
   {
    "id": "4qx5ta",
@@ -1290,6 +2478,18 @@ window.NEWS_DATA = {
    "site": "https://www.mediapost.com"
   },
   {
+   "id": "139bqiq",
+   "title": "Qualcomm定調手機依然會是使用者最不可或缺、最核心的個人AI代理載體",
+   "url": "https://mashdigi.com/qualcomm-has-reaffirmed-that-smartphones-will-remain-the-most-indispensable-and-core-personal-ai-agent-for-users",
+   "summary": "在美國夏威夷茂宜島舉辦的Snapdragon Summit 2026期間，Qualcomm總裁暨執行長Cris […]",
+   "date": "2026-09-22T20:30:49.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "mashdigi",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://mashdigi.com"
+  },
+  {
    "id": "hrtpxc",
    "title": "Robert Eggers to Tackle ‘Romeo & Juliet’ as Next Film, Focus Wins Project in Bidding War",
    "url": "https://www.thewrap.com/creative-content/movies/robert-eggers-romeo-and-juliet-focus-features",
@@ -1362,6 +2562,18 @@ window.NEWS_DATA = {
    "site": "https://www.hollywoodreporter.com"
   },
   {
+   "id": "ghyrro",
+   "title": "盤中速報 - 特許通訊(CHTR-US)大跌5.01%，報117.17美元",
+   "url": "https://news.cnyes.com/news/id/6613577",
+   "summary": "特許通訊(CHTR-US)截至台北時間23日03:55股價下跌6.19美元，報117.17美元，跌幅5.01%，成交量3,078,176（股），盤中最高價126.48美元、最低價117.17美元。美股指數盤中表現道瓊指數：-0.36%S&P 500指數：0%NASDAQ指數：+0.45%費城半導體指",
+   "date": "2026-09-22T20:10:16.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
    "id": "19tq6qx",
    "title": "Robert Eggers Tackling ‘Romeo and Juliet’ Adaptation as Focus Wins Bidding War (Exclusive)",
    "url": "https://www.hollywoodreporter.com/movies/movie-news/robert-eggers-tackling-romeo-and-juliet-adaptation-1236707061",
@@ -1386,6 +2598,18 @@ window.NEWS_DATA = {
    "site": "https://www.thewrap.com"
   },
   {
+   "id": "ghyrrl",
+   "title": "盤中速報 - 美光科技(MU-US)大漲5.02%，報1096.33美元",
+   "url": "https://news.cnyes.com/news/id/6613574",
+   "summary": "美光科技(MU-US)截至台北時間23日03:52股價上漲52.37美元，報1096.33美元，漲幅5.02%，成交量24,951,506（股），盤中最高價1096.50美元、最低價1030.02美元。美股指數盤中表現道瓊指數：-0.28%S&P 500指數：+0.03%NASDAQ指數：+0.6%",
+   "date": "2026-09-22T20:07:21.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
    "id": "1hmmpym",
    "title": "首發Snapdragon 8 Elite Extreme Gen 6！Motorola Signature 27首度導入B&O音效與兩億畫素長焦",
    "url": "https://mashdigi.com/the-motorola-signature-27-debuts-with-snapdragon-8-elite-extreme-gen-6-and-features-bo-audio-and-a-200-megapixel-telephoto-lens",
@@ -1396,6 +2620,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-TW",
    "site": "https://mashdigi.com"
+  },
+  {
+   "id": "ghyrrk",
+   "title": "盤中速報 - 費城半導體大漲2%，報12681.64點",
+   "url": "https://news.cnyes.com/news/id/6613573",
+   "summary": "截至台北時間23日03:47，費城半導體上漲248.47點（或2%），暫報12681.64點。歷史漲跌幅近 1 週：+11.7%近 1 月：+5.9%近 3 月：-13.31%近 6 月：+62.09%今年以來：+75.53%焦點個股費城半導體成分股以芯源系統(MPWR-US)領漲。芯源系統(MPW",
+   "date": "2026-09-22T20:02:42.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
   },
   {
    "id": "qu15rd",
@@ -1468,6 +2704,18 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "ghyrrj",
+   "title": "盤中速報 - 英特格(ENTG-US)大漲5.09%，報150.42美元",
+   "url": "https://news.cnyes.com/news/id/6613572",
+   "summary": "英特格(ENTG-US)截至台北時間23日03:42股價上漲7.28美元，報150.42美元，漲幅5.09%，成交量1,006,125（股），盤中最高價150.42美元、最低價140.61美元。美股指數盤中表現道瓊指數：-0.17%S&P 500指數：+0.15%NASDAQ指數：+0.51%費城半",
+   "date": "2026-09-22T19:57:58.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
   },
   {
    "id": "oqmw5n",
@@ -1686,6 +2934,18 @@ window.NEWS_DATA = {
    "site": "https://thenextweb.com"
   },
   {
+   "id": "ghyrqp",
+   "title": "盤中速報 - 哈希圖大漲8.85%，報0.0985美元",
+   "url": "https://news.cnyes.com/news/id/6613565",
+   "summary": "哈希圖(HBAR)在過去 24 小時內漲幅超過8.85%，最新價格0.0985美元，總成交量達0.28億美元，總市值41.95億美元，目前市值排名第 18 名。近 1 日最高價：0.099美元，近 1 日最低價：0.0903美元，流通供給量：43,303,421,565。Hedera Hashgra",
+   "date": "2026-09-22T19:20:19.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
    "id": "122ogic",
    "title": "Mahershala Ali Agrees With Kevin Feige Feeling Like a Failure for Not Making ‘Blade’: ‘He Should Feel That Way’",
    "url": "https://www.thewrap.com/creative-content/movies/mahershala-ali-agrees-kevin-feige-failure-blade",
@@ -1770,6 +3030,18 @@ window.NEWS_DATA = {
    "site": "https://www.thewrap.com"
   },
   {
+   "id": "fs1si3",
+   "title": "4 Things We Saw Inside WPP’s New AI-Powered Production Hub",
+   "url": "https://www.adweek.com/agencies/inside-wpp-ai-powered-production-hub-devons-point",
+   "summary": "WPP's flagship production hub Devon's Point in London brings together human craft and AI tools.",
+   "date": "2026-09-22T19:01:00.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "Adweek",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.adweek.com"
+  },
+  {
    "id": "qgxzz4",
    "title": "Which Data Sources Should You Care About For AI Search?",
    "url": "https://www.searchenginejournal.com/which-data-sources-should-you-care-about-for-ai-search/590086",
@@ -1852,6 +3124,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "en",
    "site": "https://www.mediapost.com"
+  },
+  {
+   "id": "ghyroz",
+   "title": "盤中速報 - 交易台(TTD-US)大跌5.01%，報13.19美元",
+   "url": "https://news.cnyes.com/news/id/6613549",
+   "summary": "交易台(TTD-US)截至台北時間23日02:16股價下跌0.7美元，報13.19美元，跌幅5.01%，成交量17,309,086（股），盤中最高價14.03美元、最低價13.18美元。美股指數盤中表現道瓊指數：-0.33%S&P 500指數：+0.09%NASDAQ指數：+0.46%費城半導體指數",
+   "date": "2026-09-22T18:31:59.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
   },
   {
    "id": "15nw1wi",
@@ -1986,6 +3270,18 @@ window.NEWS_DATA = {
    "site": "https://techcrunch.com"
   },
   {
+   "id": "ghyro2",
+   "title": "盤中速報 - LayerZero大漲21.09%，報1.42美元",
+   "url": "https://news.cnyes.com/news/id/6613539",
+   "summary": "LayerZero(ZRO)在過去 24 小時內漲幅超過21.09%，最新價格1.42美元，總成交量達0.17億美元，總市值4.29億美元，目前市值排名第 48 名。近 1 日最高價：1.44美元，近 1 日最低價：1.15美元，流通供給量：303,720,315。歷史漲跌幅 近 1 週：+1",
+   "date": "2026-09-22T17:35:17.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
    "id": "ghyrm3",
    "title": "Meta測試Muse真人禮賓功能！AI通話交給承包商引爆隱私疑慮",
    "url": "https://news.cnyes.com/news/id/6613514",
@@ -2058,6 +3354,18 @@ window.NEWS_DATA = {
    "site": "https://www.adweek.com"
   },
   {
+   "id": "ghyrnz",
+   "title": "盤中速報 - 達世幣大漲8.92%，報64.4美元",
+   "url": "https://news.cnyes.com/news/id/6613536",
+   "summary": "達世幣(DASH)在過去 24 小時內漲幅超過8.92%，最新價格64.4美元，總成交量達0.23億美元，總市值7.77億美元，目前市值排名第 37 名。近 1 日最高價：64.7美元，近 1 日最低價：58.1美元，流通供給量：12,615,330。Dash在2014年以萊特幣LTC分支推出，以保",
+   "date": "2026-09-22T17:20:19.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
    "id": "4bdrwx",
    "title": "Choosing Seasonal Magic Over Product Features",
    "url": "https://www.adweek.com/creativity/choosing-seasonal-magic-over-product-features",
@@ -2116,6 +3424,18 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://www.theguardian.com/uk/media"
+  },
+  {
+   "id": "ghyrnw",
+   "title": "盤中速報 - MongoDB公司(MDB-US)大漲5.01%，報427.72美元",
+   "url": "https://news.cnyes.com/news/id/6613533",
+   "summary": "MongoDB公司(MDB-US)截至台北時間23日00:54股價上漲20.42美元，報427.72美元，漲幅5.01%，成交量946,677（股），盤中最高價427.72美元、最低價406.66美元。美股指數盤中表現道瓊指數：-0.35%S&P 500指數：+0.02%NASDAQ指數：+0.3%",
+   "date": "2026-09-22T17:09:23.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
   },
   {
    "id": "pozq3r",
@@ -2226,6 +3546,18 @@ window.NEWS_DATA = {
    "site": "https://www.npr.org"
   },
   {
+   "id": "ghyrlb",
+   "title": "盤中速報 - Arbitrum大跌8.96%，報0.21美元",
+   "url": "https://news.cnyes.com/news/id/6613509",
+   "summary": "Arbitrum(ARB)在過去 24 小時內跌幅超過8.96%，最新價格0.21美元，總成交量達0.33億美元，總市值12.72億美元，目前市值排名第 28 名。近 1 日最高價：0.23美元，近 1 日最低價：0.21美元，流通供給量：5,939,074,958。歷史漲跌幅 近 1 週：+",
+   "date": "2026-09-22T16:20:19.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
    "id": "p1xbig",
    "title": "Former Radio 1 DJ Tim Westwood charged with two more offences",
    "url": "https://www.theguardian.com/uk-news/2026/sep/22/tim-westwood-former-radio-1-dj-charged-with-two-more-offences",
@@ -2248,6 +3580,18 @@ window.NEWS_DATA = {
    "tier": "A",
    "lang": "en",
    "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "ghyrl9",
+   "title": "鉅亨速報 - Factset 最新調查：美國鋁業AA-US的目標價調升至67.37元，幅度約5.27%",
+   "url": "https://news.cnyes.com/news/id/6613507",
+   "summary": "根據FactSet最新調查，共13位分析師，對美國鋁業(AA-US)提出目標價估值：中位數由64元上修至67.37元，調升幅度5.27%。其中最高估值84.85元，最低估值49.7元。綜合評級 - 共有18位分析師給予美國鋁業評價：積極樂觀11位、保持中立6位、保守悲觀1位。美國鋁業今(23日)收盤",
+   "date": "2026-09-22T16:15:27.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
   },
   {
    "id": "1w6x0og",
@@ -2284,6 +3628,30 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "en",
    "site": "https://www.adweek.com"
+  },
+  {
+   "id": "ghyrl6",
+   "title": "盤中速報 - 比特幣現金大漲24.78%，報329.8美元",
+   "url": "https://news.cnyes.com/news/id/6613504",
+   "summary": "比特幣現金(BCH)在過去 24 小時內漲幅超過24.78%，最新價格329.8美元，總成交量達0.77億美元，總市值65.97億美元，目前市值排名第 12 名。近 1 日最高價：330.4美元，近 1 日最低價：261.6美元，流通供給量：20,003,600。比特幣現金是比特幣區塊鏈的硬分叉，一",
+   "date": "2026-09-22T16:05:21.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghyrl5",
+   "title": "盤中速報 - NEAR大漲8.63%，報4.417美元",
+   "url": "https://news.cnyes.com/news/id/6613503",
+   "summary": "NEAR(NEAR)在過去 24 小時內漲幅超過8.63%，最新價格4.417美元，總成交量達3.04億美元，總市值56.96億美元，目前市值排名第 14 名。近 1 日最高價：4.663美元，近 1 日最低價：3.916美元，流通供給量：1,289,487,540。NEAR剛開始在2017年是個A",
+   "date": "2026-09-22T16:05:20.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
   },
   {
    "id": "86y6vz",
@@ -2334,6 +3702,30 @@ window.NEWS_DATA = {
    "site": "https://news.cnyes.com"
   },
   {
+   "id": "ghyqz6",
+   "title": "盤中速報 - Atlassian Corporation - Class A(TEAM-US)大跌5.05%，報185.8美元",
+   "url": "https://news.cnyes.com/news/id/6613494",
+   "summary": "Atlassian Corporation - Class A(TEAM-US)截至台北時間22日23:37股價下跌9.88美元，報185.80美元，跌幅5.05%，成交量1,037,705（股），盤中最高價200.00美元、最低價185.65美元。美股指數盤中表現道瓊指數：-0.58%S&P 50",
+   "date": "2026-09-22T15:52:08.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghyqz5",
+   "title": "盤中速報 - 思科系統(CSCO-US)大跌5.04%，報105.85美元",
+   "url": "https://news.cnyes.com/news/id/6613493",
+   "summary": "思科系統(CSCO-US)截至台北時間22日23:36股價下跌5.62美元，報105.85美元，跌幅5.04%，成交量9,163,758（股），盤中最高價110.43美元、最低價105.84美元。美股指數盤中表現道瓊指數：-0.59%S&P 500指數：-0.09%NASDAQ指數：+0.32%費城",
+   "date": "2026-09-22T15:51:07.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
    "id": "1y6pfah",
    "title": "Stolen passwords are exposing America’s water providers to hackers",
    "url": "https://techcrunch.com/2026/09/22/stolen-passwords-are-exposing-americas-water-providers-to-hackers",
@@ -2344,6 +3736,18 @@ window.NEWS_DATA = {
    "tier": "A",
    "lang": "en",
    "site": "https://techcrunch.com"
+  },
+  {
+   "id": "ghyqz4",
+   "title": "盤中速報 - 安進(AMGN-US)大漲5.01%，報412.85美元",
+   "url": "https://news.cnyes.com/news/id/6613492",
+   "summary": "安進(AMGN-US)截至台北時間22日23:30股價上漲19.69美元，報412.85美元，漲幅5.01%，成交量1,470,669（股），盤中最高價413.00美元、最低價398.53美元。美股指數盤中表現道瓊指數：-0.61%S&P 500指數：-0.06%NASDAQ指數：+0.34%費城半",
+   "date": "2026-09-22T15:45:18.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
   },
   {
    "id": "hyb3lk",
@@ -2394,6 +3798,18 @@ window.NEWS_DATA = {
    "site": "https://news.cnyes.com"
   },
   {
+   "id": "ghyqy7",
+   "title": "盤中速報 - 直覺(INTU-US)大跌5.01%，報288.88美元",
+   "url": "https://news.cnyes.com/news/id/6613482",
+   "summary": "直覺(INTU-US)截至台北時間22日23:14股價下跌15.24美元，報288.88美元，跌幅5.01%，成交量1,674,386（股），盤中最高價310.50美元、最低價288.85美元。美股指數盤中表現道瓊指數：-0.46%S&P 500指數：+0.01%NASDAQ指數：+0.34%費城半",
+   "date": "2026-09-22T15:29:14.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
    "id": "42b0a6",
    "title": "Google Merchant Center Auto Enables Native Checkout: Buy On AI Mode & Gemini",
    "url": "https://www.seroundtable.com/google-native-checkout-emails-42140.html",
@@ -2424,6 +3840,18 @@ window.NEWS_DATA = {
    "summary": "川普聯合國大會演說，宣揚就任後美國經濟、就業與投資成績 稱將與俄羅斯、烏克蘭領導人合作結束衝突，並提及伊朗戰爭 表示若伊朗衝突結束，油價將大幅下跌；美軍過去12個月投資達1.5兆美元",
    "date": "2026-09-22T15:15:29.000Z",
    "firstSeen": "2026-09-22T21:39:43.303Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghyqxh",
+   "title": "盤中速報 - 連貫(COHR-US)大跌5.01%，報305.4美元",
+   "url": "https://news.cnyes.com/news/id/6613479",
+   "summary": "連貫(COHR-US)截至台北時間22日22:59股價下跌16.12美元，報305.40美元，跌幅5.01%，成交量3,124,579（股），盤中最高價323.43美元、最低價305.35美元。美股指數盤中表現道瓊指數：-0.37%S&P 500指數：+0.03%NASDAQ指數：+0.39%費城半",
+   "date": "2026-09-22T15:14:12.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
    "source": "鉅亨網",
    "tier": "B",
    "lang": "zh-TW",
@@ -2598,6 +4026,18 @@ window.NEWS_DATA = {
    "site": "https://www.thewrap.com"
   },
   {
+   "id": "ghyqwd",
+   "title": "盤中速報 - 莫德納(MRNA-US)大漲5.02%，報181.63美元",
+   "url": "https://news.cnyes.com/news/id/6613462",
+   "summary": "莫德納(MRNA-US)截至台北時間22日22:37股價上漲8.69美元，報181.63美元，漲幅5.02%，成交量7,256,815（股），盤中最高價182.65美元、最低價168.30美元。美股指數盤中表現道瓊指數：-0.42%S&P 500指數：-0.04%NASDAQ指數：+0.44%費城半",
+   "date": "2026-09-22T14:52:31.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
    "id": "t6aoip",
    "title": "A rare kind of journalism",
    "url": "https://www.semafor.com/article/09/22/2026/a-rare-kind-of-journalism",
@@ -2608,6 +4048,42 @@ window.NEWS_DATA = {
    "tier": "A",
    "lang": "en",
    "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "ghyqwb",
+   "title": "盤中速報 - 費城半導體大漲1.28%，報12592.63點",
+   "url": "https://news.cnyes.com/news/id/6613460",
+   "summary": "截至台北時間22日10:32，費城半導體上漲159.46點（或1.28%），暫報12592.63點。歷史漲跌幅近 1 週：+11.7%近 1 月：+5.9%近 3 月：-13.31%近 6 月：+62.09%今年以來：+75.53%焦點個股費城半導體成分股以芯源系統(MPWR-US)領漲。芯源系統(",
+   "date": "2026-09-22T14:47:38.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghyqvn",
+   "title": "盤中速報 - 嘉信理財(SCHW-US)大跌6.1%，報100.37美元",
+   "url": "https://news.cnyes.com/news/id/6613459",
+   "summary": "嘉信理財(SCHW-US)截至台北時間22日22:32股價下跌6.52美元，報100.37美元，跌幅6.1%，成交量3,629,855（股），盤中最高價106.51美元、最低價100.15美元。美股指數盤中表現道瓊指數：-0.43%S&P 500指數：+0.02%NASDAQ指數：+0.52%費城半",
+   "date": "2026-09-22T14:47:20.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghyqvm",
+   "title": "盤中速報 - 芯源系統(MPWR-US)大漲6.73%，報1363.69美元",
+   "url": "https://news.cnyes.com/news/id/6613458",
+   "summary": "芯源系統(MPWR-US)截至台北時間22日22:32股價上漲86.01美元，報1363.69美元，漲幅6.73%，成交量416,697（股），盤中最高價1367.79美元、最低價1271.20美元。美股指數盤中表現道瓊指數：-0.43%S&P 500指數：+0.02%NASDAQ指數：+0.52%",
+   "date": "2026-09-22T14:47:20.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
   },
   {
    "id": "17ulb5m",
@@ -2632,6 +4108,18 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://thenextweb.com"
+  },
+  {
+   "id": "ghyqvg",
+   "title": "盤中速報 - 莫德納(MRNA-US)大漲5.2%，報181.94美元",
+   "url": "https://news.cnyes.com/news/id/6613452",
+   "summary": "莫德納(MRNA-US)截至台北時間22日22:22股價上漲9美元，報181.94美元，漲幅5.2%，成交量5,424,082（股），盤中最高價181.94美元、最低價168.30美元。美股指數盤中表現道瓊指數：-0.42%S&P 500指數：+0.05%NASDAQ指數：+0.45%費城半導體指數",
+   "date": "2026-09-22T14:37:22.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
   },
   {
    "id": "1usqc7o",
@@ -2692,6 +4180,30 @@ window.NEWS_DATA = {
    "tier": "A",
    "lang": "en",
    "site": "https://techcrunch.com"
+  },
+  {
+   "id": "ghyquk",
+   "title": "盤中速報 - 嘉信理財(SCHW-US)大跌5.09%，報101.44美元",
+   "url": "https://news.cnyes.com/news/id/6613443",
+   "summary": "嘉信理財(SCHW-US)截至台北時間22日22:14股價下跌5.44美元，報101.44美元，跌幅5.09%，成交量2,389,190（股），盤中最高價106.51美元、最低價101.44美元。美股指數盤中表現道瓊指數：-0.35%S&P 500指數：+0.05%NASDAQ指數：+0.5%費城半",
+   "date": "2026-09-22T14:29:22.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghyquj",
+   "title": "盤中速報 - 費城半導體大漲1%，報12557.05點",
+   "url": "https://news.cnyes.com/news/id/6613442",
+   "summary": "截至台北時間22日10:12，費城半導體上漲123.88點（或1%），暫報12557.05點。歷史漲跌幅近 1 週：+11.7%近 1 月：+5.9%近 3 月：-13.31%近 6 月：+62.09%今年以來：+75.53%焦點個股費城半導體成分股以芯源系統(MPWR-US)領漲。芯源系統(MPW",
+   "date": "2026-09-22T14:27:17.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
   },
   {
    "id": "ghyqts",
@@ -2800,6 +4312,30 @@ window.NEWS_DATA = {
    "tier": "A",
    "lang": "zh-CN",
    "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "ghyqtr",
+   "title": "盤中速報 - 芯源系統(MPWR-US)大漲5.08%，報1342.62美元",
+   "url": "https://news.cnyes.com/news/id/6613437",
+   "summary": "芯源系統(MPWR-US)截至台北時間22日21:55股價上漲64.94美元，報1342.62美元，漲幅5.08%，成交量270,226（股），盤中最高價1342.62美元、最低價1271.20美元。美股指數盤中表現道瓊指數：-0.13%S&P 500指數：+0.06%NASDAQ指數：+0.4%費",
+   "date": "2026-09-22T14:10:26.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ghyqtq",
+   "title": "鉅亨速報 - Factset 最新調查：全新(2455-TW)目標價調升至622.5元，幅度約21.46%",
+   "url": "https://news.cnyes.com/news/id/6613436",
+   "summary": "根據FactSet最新調查，共10位分析師，對全新(2455-TW)提出目標價估值：中位數由512.5元上修至622.5元，調升幅度21.46%。其中最高估值846元，最低估值268元。綜合評級 - 共有10位分析師給予全新(2455-TW)評價：積極樂觀9位、保持中立1位、保守悲觀0位。全新(24",
+   "date": "2026-09-22T14:10:22.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
   },
   {
    "id": "11x4o1q",
@@ -3028,6 +4564,18 @@ window.NEWS_DATA = {
    "tier": "A",
    "lang": "zh-CN",
    "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "ghyqqz",
+   "title": "盤中速報 - Dogwifhat大漲14.06%，報0.26美元",
+   "url": "https://news.cnyes.com/news/id/6613406",
+   "summary": "Dogwifhat(WIF)在過去 24 小時內漲幅超過14.06%，最新價格0.26美元，總成交量達0.19億美元，總市值2.62億美元，目前市值排名第 58 名。近 1 日最高價：0.28美元，近 1 日最低價：0.22美元，流通供給量：998,839,325。歷史漲跌幅 近 1 週：+3",
+   "date": "2026-09-22T13:35:25.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
   },
   {
    "id": "1msqzoe",
@@ -3316,6 +4864,18 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "ghyq28",
+   "title": "盤中速報 - 比特幣現金大漲9.56%，報295.7美元",
+   "url": "https://news.cnyes.com/news/id/6613366",
+   "summary": "比特幣現金(BCH)在過去 24 小時內漲幅超過9.56%，最新價格295.7美元，總成交量達0.36億美元，總市值55.65億美元，目前市值排名第 14 名。近 1 日最高價：303.5美元，近 1 日最低價：260.5美元，流通供給量：20,003,600。比特幣現金是比特幣區塊鏈的硬分叉，一種",
+   "date": "2026-09-22T12:50:18.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
   },
   {
    "id": "ghyp61",
@@ -21546,6 +23106,18 @@ window.NEWS_DATA = {
    "site": "https://stratechery.com"
   },
   {
+   "id": "129yo09",
+   "title": "Doomforce",
+   "url": "https://stratechery.com/2026/doomforce/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L2Rvb21mb3JjZS8iXX0sImV4cCI6MTc5MjcxNjk3MCwiaWF0IjoxNzkwMTI0OTcwLCJpc3MiOiJodHRwczovL2FwcC5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyBwb2RjYXN0IHJzcyIsInN1YiI6Ijk0MDg0MGUyLTVlZjktNGJlNS04MjUwLTM3ODFmMjZlZTc5YSIsInVzZSI6ImFjY2VzcyJ9.mBiR9QNzJ8aPj5vzowvDEKAAIFi-3I1WYaeIu3hGMJun3nZX26atJwMcdhB6tY9KTeWJO_Ha45Btz4LFNQ7oR6CuRpXvmcD225u1qoHzGXbbDihQIYcHcZN3w5KBeW7ZTPsD5-078RfcKVA8ToR57DagplGkeqO03uUCogs4nHIKRuL7UvEyV87S1J3hzAOHGHclGlp2YqfV-IEYnocEZhJ4ZAZ8-zW-QdgQEaAViPUsvOICDeUtXAJclCfBDyW4TnjPWWfOFUU83Wy_S1vwC2-XcJfuNfOipMj1sgmJX1OEjE8Alu5U6bKHB2oKAZrXsoJjA3oWKAGsmKh6K8GKMA",
+   "summary": "The best Stratechery content from the week of September 14, 2026, including the view from anywhere but San Francisco, the limited potential for a pacing deal, and the Salesforce zag.",
+   "date": "2026-09-18T17:00:00.000Z",
+   "firstSeen": "2026-09-23T00:56:21.888Z",
+   "source": "STRATECHERY",
+   "tier": "S",
+   "lang": "en",
+   "site": "https://stratechery.com"
+  },
+  {
    "id": "1ramrj5",
    "title": "Jacobs Media Separated Profitable Events Brand From Rest of Company",
    "url": "https://www.amediaoperator.com/analysis/jacobs-media-separated-profitable-events-brand-from-rest-of-company",
@@ -30772,18 +32344,6 @@ window.NEWS_DATA = {
    "tier": "A",
    "lang": "en",
    "site": "https://www.amediaoperator.com"
-  },
-  {
-   "id": "9l4u2k",
-   "title": "Circana Adds Google Meridian to Liquid Mix",
-   "url": "https://adtechradar.com/2026/09/08/circana-google-meridian-liquid-mix-mmm",
-   "summary": "In the words of the Notorious B.I.G., “Mo Money, Mo Problems.” In a way, that explains the measurement… The post Circana Adds Google Meridian to Liquid Mix first appeared on AdTechRadar.",
-   "date": "2026-09-09T00:07:00.000Z",
-   "firstSeen": "2026-09-18T10:03:21.928Z",
-   "source": "AdTechRadar",
-   "tier": "B",
-   "lang": "en",
-   "site": "https://adtechradar.com"
   }
  ]
 };
