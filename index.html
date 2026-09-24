@@ -590,7 +590,10 @@ function buildSourcesJson(list) {
       `"feed": ${JSON.stringify(s.feed || '')}`,
       `"enabled": ${s.enabled ? 'true' : 'false'}`,
     ];
+    // match / exclude 只能手動編輯 sources.json，面板不提供介面，
+    // 但一定要原樣帶回來，否則用面板調整其他來源時會把這些設定洗掉
     if (s.match) parts.push(`"match": ${JSON.stringify(s.match)}`);
+    if (s.exclude) parts.push(`"exclude": ${JSON.stringify(s.exclude)}`);
     parts.push(`"note": ${JSON.stringify(s.note || '')}`);
     return '    { ' + parts.join(', ') + ' }';
   });
