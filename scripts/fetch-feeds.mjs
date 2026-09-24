@@ -123,6 +123,13 @@ async function fetchFeed(src) {
       const re = new RegExp(src.match, 'i');
       items = items.filter((it) => re.test(`${it.title} ${it.summary} ${it.url}`));
     }
+    // exclude 則相反，把標題含有這些字的文章擋掉（鉅亨網的盤前、速報、個股這類盤面快訊）。
+    // 只比對標題，不看摘要：正文提到「個股」的正常報導不該被誤殺。
+    // 同時符合 match 和 exclude 時以 exclude 為準。
+    if (src.exclude) {
+      const re = new RegExp(src.exclude, 'i');
+      items = items.filter((it) => !re.test(it.title));
+    }
     return { ok: true, error: null, items };
   } catch (err) {
     const msg = err.name === 'AbortError' ? '逾時' : String(err.message || err);
