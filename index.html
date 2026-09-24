@@ -67,26 +67,28 @@
   #tray { box-shadow: 0 -4px 0 var(--ink); }
 </style>
 </head>
+<!-- pb-28 是底部留白，用來避開浮在畫面下方的「已選 N 篇」選取列，拿掉的話捲到最底時
+     最後一則新聞和「來源管理」會被那條列蓋住 -->
 <body class="min-h-screen pb-28">
 
 <!-- ░░ 頁首 ░░ -->
 <header style="background:var(--ink);color:var(--card);">
-  <div class="max-w-[1000px] mx-auto px-5 py-3 flex items-center justify-between text-[10px] tracking-label" style="border-bottom:1px solid rgba(251,248,241,.25);">
+  <div class="max-w-[900px] mx-auto px-5 py-3 flex items-center justify-between text-[10px] tracking-label" style="border-bottom:1px solid rgba(251,248,241,.25);">
     <span>udn media industry watch</span>
     <span id="headerDate" style="color:#A79E8B;"></span>
   </div>
-  <div class="max-w-[1000px] mx-auto px-5 py-6 flex items-end gap-4 flex-wrap">
-    <div style="width:52px;height:52px;background:var(--blue);color:#fff;" class="flex items-center justify-center display text-2xl font-bold">◎</div>
+  <div class="max-w-[900px] mx-auto px-5 py-7 flex items-end gap-4 flex-wrap">
+    <div style="width:56px;height:56px;background:var(--blue);color:#fff;" class="flex items-center justify-center display text-2xl font-bold">◎</div>
     <div class="flex-1 min-w-[260px]">
       <div class="text-[10px] tracking-label" style="color:#A79E8B;">udn daily</div>
-      <h1 class="display font-bold leading-none" style="font-size:38px;letter-spacing:-1px;">新聞<span style="color:#6B85FF;">蒐集台</span></h1>
+      <h1 class="display font-bold leading-none" style="font-size:40px;letter-spacing:-1px;">新聞<span style="color:#6B85FF;">蒐集台</span></h1>
       <p class="text-xs mt-2" style="color:#A79E8B;">每天自動抓取各來源新文章 → 勾選你要的 → 一鍵送進電子報工作台</p>
     </div>
     <a href="newsletter.html" class="btn btn-paper text-sm">→ 前往電子報工作台</a>
   </div>
 </header>
 
-<main class="max-w-[1000px] mx-auto px-5 py-6 space-y-5">
+<main class="max-w-[900px] mx-auto px-5 py-6 space-y-5">
 
   <!-- ░░ 篩選列 ░░ -->
   <section class="card p-4 space-y-3">
