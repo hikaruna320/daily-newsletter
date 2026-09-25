@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-24T21:49:01.321Z",
+ "generatedAt": "2026-09-25T00:50:18.104Z",
  "keepDays": 14,
  "sources": [
   {
@@ -72,7 +72,7 @@ window.NEWS_DATA = {
    "feed": "https://www.semafor.com/rss.xml",
    "ok": true,
    "error": null,
-   "count": 259
+   "count": 260
   },
   {
    "name": "Poynter",
@@ -153,7 +153,7 @@ window.NEWS_DATA = {
    "feed": "https://news.cnyes.com/rss/v1/news/category/headline",
    "ok": true,
    "error": null,
-   "count": 48
+   "count": 84
   },
   {
    "name": "woshipm",
@@ -171,7 +171,7 @@ window.NEWS_DATA = {
    "feed": "https://www.ifanr.com/feed",
    "ok": true,
    "error": null,
-   "count": 18
+   "count": 17
   },
   {
    "name": "TheWrap",
@@ -873,6 +873,414 @@ window.NEWS_DATA = {
  ],
  "items": [
   {
+   "id": "t0m9uj",
+   "title": "做品牌是反人性的，大多数人死在第 3 年",
+   "url": "https://www.woshipm.com/share/6470069.html",
+   "summary": "《品牌营销 100 讲》里被划线最多的 20 多句话，按认知、定位、符号、传播、组织五层排开。人性喜欢爆款和短期见效，做品牌却要十年如一日，大多数人死在第 3 年。从心智份额到视觉锤，这篇文章把品牌营销的底层骨架重新捋了一遍。 这几天把《品牌营销 100 讲》这本书又翻了一遍，我把书中被读者划线最多的 20 多条热门句子整理出来，按认知—定位—符号—传播—组织五个层次排好。 读懂这 20 句，相当于读懂了品牌营销的底层骨架。 其中最后一句尤其让人印象深刻，提到：做品牌，是反人性的。人性喜欢爆款、一夜爆红、流量收割、短期见效； 做品牌却要 10 年如一日地做对的事。大多数人死在第 3 年，是因为",
+   "date": "2026-09-25T00:32:17.000Z",
+   "firstSeen": "2026-09-25T00:50:18.104Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "1lhmnlx",
+   "title": "CNN and MS Now journalists denied access to White House state dinner despite court ruling",
+   "url": "https://www.theguardian.com/us-news/2026/sep/24/judge-orders-trump-restore-white-house-access-cnn-ms-now-politico-media-ban",
+   "summary": "<p>Other news networks boycott dinner in honor of Xi Jinping after officials deny CNN and MS Now permission</p><ul><li><p><a href=\"https://www.theguardian.com/us-news/live/2026/sep/24/white-house-press-xi-jinping-netanyahu-trump-latest-news-updates\">US politics live – latest updates</a></p></li></ul",
+   "date": "2026-09-25T00:24:54.000Z",
+   "firstSeen": "2026-09-24T09:32:30.526Z",
+   "source": "The Guardian",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.theguardian.com/uk/media"
+  },
+  {
+   "id": "gi0adt",
+   "title": "〈熱門股〉車用放量疊加AI伺服器雙引擎發威 雷笛克光學周漲13%連7紅",
+   "url": "https://news.cnyes.com/news/id/6615473",
+   "summary": "LED透鏡廠雷笛克光學(5230-TW)在車用高階光學透鏡放量，以及AI伺服器精密散熱與結構件重啟拉貨的雙引擎題材持續發酵，本周股價表現強勁，24日收23.3元，周漲幅13%，連續7個交易日上漲，周成交量8632張。 車用照明領域正成為推動雷笛克營運結構優化的核心主力。受惠車用新專案陸續進入量產放",
+   "date": "2026-09-25T00:12:29.000Z",
+   "firstSeen": "2026-09-25T00:50:18.104Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "gi0a7g",
+   "title": "〈熱門股〉達發AI業務聚「光」 周漲22%創新高",
+   "url": "https://news.cnyes.com/news/id/6615405",
+   "summary": "達發搶進AI資料中心光通訊，單通道50G、100G已打入大型CSP。 公司估2026年光通訊營收年增逾4倍，2027年再較今年增3倍以上。 股價本周創862元新高，週漲22%；三大法人合買4,553張。",
+   "date": "2026-09-25T00:10:43.000Z",
+   "firstSeen": "2026-09-25T00:50:18.104Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "dxye6c",
+   "title": "‘Reacher’ and New Spinoff ‘Neagley’ Provide a 1-2 Punch Atop the Streaming Top 10 | Chart",
+   "url": "https://www.thewrap.com/commentary-analysis/data-analysis/reacher-neagley-streaming-top-10",
+   "summary": "Amazon's streaming hits held off Netflix's latest installment of \"Monster\" to hold the top spots The post ‘Reacher’ and New Spinoff ‘Neagley’ Provide a 1-2 Punch Atop the Streaming Top 10 | Chart appeared first on TheWrap.",
+   "date": "2026-09-25T00:00:45.000Z",
+   "firstSeen": "2026-09-25T00:50:18.104Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "1tczr6x",
+   "title": "CNN and MS NOW Blocked From White House Coverage of Xi Jinping Welcome Despite Lifted Ban",
+   "url": "https://www.thewrap.com/media-platforms/politics/cnn-ms-now-blocked-from-white-house-coverage-despite-lifted-ban",
+   "summary": "“Just a pretty typical event here at the White House that we would regularly cover,” MS NOW’s Laura Barrón-López reports The post CNN and MS NOW Blocked From White House Coverage of Xi Jinping Welcome Despite Lifted Ban appeared first on TheWrap.",
+   "date": "2026-09-25T00:00:29.000Z",
+   "firstSeen": "2026-09-25T00:50:18.104Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "5fpwoo",
+   "title": "俄羅斯測試北約底線：無人機突襲邊境列車，波蘭如何應對普亭「灰色地帶」威脅？",
+   "url": "https://www.thenewslens.com/article/270265",
+   "summary": "情報指，俄羅斯或對北約東翼國家採行混合攻擊，旨在測試聯盟集體防衛與決心。波蘭等國已提升戒備，並整合美國與歐盟資源強化防禦，以應對灰色地帶威脅。",
+   "date": "2026-09-24T23:59:00.000Z",
+   "firstSeen": "2026-09-25T00:50:18.104Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "5fpwnt",
+   "title": "【影評】《驀然回首》：是枝裕和的兒時童謠，青春輓歌與成年悲劇",
+   "url": "https://www.thenewslens.com/article/270257",
+   "summary": "是枝裕和改編藤本樹漫畫《驀然回首》。描繪兩位少女因創作而生的動人情誼，以細膩光影捕捉青春熱情與遺憾，是一首獻給創作者的溫柔輓歌。",
+   "date": "2026-09-24T23:58:00.000Z",
+   "firstSeen": "2026-09-25T00:50:18.104Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "5fpwkx",
+   "title": "誰家沒藏見不得人的爛事？阮劇團「噪音風暴 II」開撕台灣家庭的難嚥與荒謬",
+   "url": "https://www.thenewslens.com/article/270222",
+   "summary": "阮劇團「噪音風暴」計畫，以「人生百味」為題於水源劇場上演。內容包含改編自文學作品之《家族排列》與《樓上的好人》兩部台語戲劇，藉由揭開家庭祕密與創傷，探討現代家庭關係的複雜樣貌。",
+   "date": "2026-09-24T23:57:00.000Z",
+   "firstSeen": "2026-09-25T00:50:18.104Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "5fpwqf",
+   "title": "印尼華人的中秋滋味：一塊「福建月餅」是如何走過移民歲月？",
+   "url": "https://www.thenewslens.com/article/270282",
+   "summary": "中秋節不只廣式月餅，在印尼雅加達草埔唐人街，以木炭烙烤的「福建月餅」承載著龐大閩南移民記憶。相較於在星馬一度銷聲匿跡，它如何靠著融入榴槤、起司等在地滋味歷久不衰？走進印尼華人的中秋餐桌故事。",
+   "date": "2026-09-24T23:49:00.000Z",
+   "firstSeen": "2026-09-25T00:50:18.104Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "5fpwmt",
+   "title": "「印尼有人說客家話？」當異鄉成為新故鄉，南洋客家的尋根練習",
+   "url": "https://www.thenewslens.com/article/270244",
+   "summary": "「印尼，有人說客家話？」「山口洋？聽起來像在日本欸！」與親友告知將前往印尼西加里曼丹島的「客家聚落」，消息一出，得到各種花式回覆中，最傷人的大概是：「你客家話全家最爛還可以去喔？」",
+   "date": "2026-09-24T23:46:00.000Z",
+   "firstSeen": "2026-09-25T00:50:18.104Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "1a4n6ar",
+   "title": "Megyn Kelly Says ‘Super Woke’ Lesbian Bar Patrons Are ‘Most Vicious Against Their Own’ Amid Mask Outrage",
+   "url": "https://www.thewrap.com/culture-lifestyle/culture/megyn-kelly-lesbian-bar-mask-outrage-vicious-against-their-own",
+   "summary": "The host of \"The Megyn Kelly Show\" shares how one Massachusetts lesbian bar received fierce backlash after making their bar mask optional The post Megyn Kelly Says ‘Super Woke’ Lesbian Bar Patrons Are ‘Most Vicious Against Their Own’ Amid Mask Outrage appeared first on TheWrap.",
+   "date": "2026-09-24T23:40:51.000Z",
+   "firstSeen": "2026-09-25T00:50:18.104Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "gi0bwr",
+   "title": "Meta搶先OpenAI進軍AI硬體「Muse Charm」鑰匙圈最快12月上市",
+   "url": "https://news.cnyes.com/news/id/6615611",
+   "summary": "Meta預計12月推出Muse Charm鑰匙圈，不開手機App即可與AI代理Muse互動。 Muse可執行寄信、訂旅行、處理表格、購物與部分交易，並已擴大串接Walmart、PayPal、Expedia、Instacart等服務。 Muse上市爆紅，帶動Meta漲逾20%、市值增逾2000億美元。",
+   "date": "2026-09-24T23:40:10.000Z",
+   "firstSeen": "2026-09-25T00:50:18.104Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "16ylxhc",
+   "title": "MGM Resorts Considering Bid for People Inc.",
+   "url": "https://www.thewrap.com/industry-news/deals-ma/mgm-resorts-eyes-people-inc-bid",
+   "summary": "The move comes after the Barry Diller-owned publisher withdrew a takeover bid for the hospitality company The post MGM Resorts Considering Bid for People Inc. appeared first on TheWrap.",
+   "date": "2026-09-24T23:36:18.000Z",
+   "firstSeen": "2026-09-25T00:50:18.104Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "5fpwos",
+   "title": "台灣與菲律賓沒有外交關係，為何要贈與「金門艦」給菲國海防隊？",
+   "url": "https://www.thenewslens.com/article/270269",
+   "summary": "本月22日，菲律賓非營利組織「我們保護我們的海在一場儀式中，將一艘訓練船捐贈給菲律賓海岸防衛隊（PCG）。據消息人士向中央社證實，這艘船即為台灣海巡署除役的巡防救難艦「金門艦」。為回應外界質疑金門艦贈予菲律賓恐損及台灣漁民權益或引發海上衝突，海巡署於20日澄清，在與菲國協議書中也已載明，這艘艦艇未來絕不會用於對台灣漁船執法。",
+   "date": "2026-09-24T23:33:00.000Z",
+   "firstSeen": "2026-09-25T00:50:18.104Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "8xnyf1",
+   "title": "‘American Horror Story’ Season 13 Creators and Cast Tease Voodoo, Odd Pairings … and Lady Gaga?",
+   "url": "https://www.thewrap.com/creative-content/tv-shows/ahs-13-creators-cast-interview",
+   "summary": "Ryan Murphy tells TheWrap to prepare for a fan-inspired cross between \"Murder House,\" \"Coven\" and \"Hotel\" The post ‘American Horror Story’ Season 13 Creators and Cast Tease Voodoo, Odd Pairings … and Lady Gaga? appeared first on TheWrap.",
+   "date": "2026-09-24T23:30:31.000Z",
+   "firstSeen": "2026-09-25T00:50:18.104Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "1pzme40",
+   "title": "Waymo is scaling fast. Here’s what the fleet data shows.",
+   "url": "https://techcrunch.com/2026/09/24/waymo-is-scaling-fast-heres-what-the-fleet-data-shows",
+   "summary": "In the past month, Waymo has expanded its fleet in Texas by 49%. There are other hotspots as well.",
+   "date": "2026-09-24T23:24:33.000Z",
+   "firstSeen": "2026-09-25T00:50:18.104Z",
+   "source": "TechCrunch",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://techcrunch.com"
+  },
+  {
+   "id": "14egf9q",
+   "title": "UBS considers an exit from Switzerland",
+   "url": "https://www.semafor.com/article/09/24/2026/ubs-considers-an-exit-from-switzerland",
+   "summary": "Senior leaders have revived discussions about combining with a foreign bank after Swiss regulators voted this week to demand it raise more capital.",
+   "date": "2026-09-24T23:00:45.000Z",
+   "firstSeen": "2026-09-25T00:50:18.104Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "gi0bwu",
+   "title": "戴爾高層狂賣股 AI漲勢加速下套現3200萬美元",
+   "url": "https://news.cnyes.com/news/id/6615614",
+   "summary": "戴爾高階主管9月起賣股，財務長與法務長9月17日合計套現逾1,500萬美元 本月四名高階主管合計出售約3,170萬美元持股，交易量不到戴爾超過3.15億股流通股的1% 戴爾股價本月初來大漲逾17%，AI伺服器營收翻倍、積壓訂單自513億美元增至950億美元",
+   "date": "2026-09-24T23:00:05.000Z",
+   "firstSeen": "2026-09-25T00:50:18.104Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "c0rtp8",
+   "title": "Nvidia CEO Jensen Huang dismisses AI fears as 'distraction'",
+   "url": "https://www.semafor.com/article/09/24/2026/nvidia-ceo-jensen-huang-dismisses-ai-fears-as-distraction",
+   "summary": "Nvidia chief Jensen Huang characterized fears over AI’s existential threats as a “distraction” that’s “not grounded on science.",
+   "date": "2026-09-24T22:50:47.000Z",
+   "firstSeen": "2026-09-25T00:50:18.104Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "ggrwxg",
+   "title": "Israel's Netanyahu defends Iran war, rails against critics in combative UN speech",
+   "url": "https://www.semafor.com/article/09/24/2026/an-increasingly-isolated-netanyahu-gives-campaign-speech-at-un",
+   "summary": "Hundreds of diplomats left the Assembly Hall as the increasingly isolated Israeli Prime Minister defended the Iran war and railed against Israel’s critics.",
+   "date": "2026-09-24T22:43:54.000Z",
+   "firstSeen": "2026-09-25T00:50:18.104Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "5qjh3p",
+   "title": "Xi calls for ‘healthy’ competition between China and US",
+   "url": "https://www.semafor.com/article/09/24/2026/xi-calls-for-healthy-competition-between-china-and-the-us-on-ai",
+   "summary": "During his historic White House visit, China’s leader Xi Jinping said the countries shared the “responsibility to develop and manage AI for good.”",
+   "date": "2026-09-24T22:41:23.000Z",
+   "firstSeen": "2026-09-25T00:50:18.104Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "gi0bw2",
+   "title": "貝佐斯砸錢25年320億美元仍不夠？藍色起源首度引入外部資金100億美元",
+   "url": "https://news.cnyes.com/news/id/6615609",
+   "summary": "藍色起源首度向外部募資，籌得約100億美元，估值約1400億美元；貝佐斯再投20億美元 貝佐斯自2000年創立以來累計投入約320億美元，資金主要來自出售Amazon股票 公司重整資源聚焦New Glenn、NASA合約與月球任務，暫停部分次軌道太空旅遊",
+   "date": "2026-09-24T22:40:05.000Z",
+   "firstSeen": "2026-09-25T00:50:18.104Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "1y5lwdf",
+   "title": "UK's Burnham signals booze could return to soccer stands",
+   "url": "https://www.semafor.com/article/09/24/2026/uks-burnham-signals-booze-could-return-to-soccer-stands",
+   "summary": "UK Prime Minister Andy Burnham called the 40-year ban “discriminatory.”",
+   "date": "2026-09-24T22:35:04.000Z",
+   "firstSeen": "2026-09-25T00:50:18.104Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "m96n8o",
+   "title": "Russia looking to escalate hybrid war, Denmark warns",
+   "url": "https://www.semafor.com/article/09/24/2026/russia-looking-to-escalate-hybrid-war-denmark-warns",
+   "summary": "Denmark’s intelligence service warned that there is a “low but growing risk” of direct attack by Moscow.",
+   "date": "2026-09-24T22:28:58.000Z",
+   "firstSeen": "2026-09-25T00:50:18.104Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "vwavv1",
+   "title": "US, Iran explore phased deal to reopen Hormuz",
+   "url": "https://www.semafor.com/article/09/24/2026/us-iran-explore-phased-deal-to-reopen-hormuz",
+   "summary": "Diplomacy will be challenged by both sides’ unwillingness to surrender leverage.",
+   "date": "2026-09-24T22:26:16.000Z",
+   "firstSeen": "2026-09-25T00:50:18.104Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "gi0bwx",
+   "title": "甲骨文重挫3.5%「不可抗力」通知讓AI多頭感到不安？",
+   "url": "https://news.cnyes.com/news/id/6615617",
+   "summary": "甲骨文對新墨西哥州資料中心Project Jupiter發出不可抗力通知，稱通知不代表延遲、仍按時程推進。 該案與OpenAI、軟銀Stargate計畫相關，通知發給開發商與Blue Owl Capital，旨在若2028年未啟用可延後付款。 消息拖累甲骨文股價跌3.5%，輝達、超微、美光同走低。",
+   "date": "2026-09-24T22:15:44.000Z",
+   "firstSeen": "2026-09-25T00:50:18.104Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "e7x0ob",
+   "title": "Streaming Ratings: ‘Reacher’ Tops 1 Billion Viewing Minutes for Fifth Straight Week",
+   "url": "https://www.hollywoodreporter.com/tv/tv-news/streaming-ratings-sept-7-13-2026-1236709681",
+   "summary": "Former TNT series 'Major Crimes' debuts on the Nielsen charts after being added to Netflix.",
+   "date": "2026-09-24T22:13:11.000Z",
+   "firstSeen": "2026-09-25T00:50:18.104Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "gi0bvy",
+   "title": "OpenAI高層再流動！前數據中心主管轉投輝達 出任DSX平台副總裁",
+   "url": "https://news.cnyes.com/news/id/6615605",
+   "summary": "OpenAI前數據中心主管Chris Malone 8月甫離職，本月加入輝達，任DSX Platform副總裁，負責協助客戶依輝達架構建造AI數據中心。 OpenAI與輝達去年9月宣布合作，將部署至少10GW輝達AI系統。 輝達DSX將整合GPU、CPU、網路、軟體與基礎設施。",
+   "date": "2026-09-24T22:10:05.000Z",
+   "firstSeen": "2026-09-25T00:50:18.104Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "1wqx6ky",
+   "title": "SCAD Savannah Film Fest: Directors of 10 of 2026’s Top Documentaries Set for ‘Docs to Watch’ Panel (Exclusive)",
+   "url": "https://www.hollywoodreporter.com/movies/movie-news/scad-savannah-film-fest-2026-docs-to-watch-panel-1236705876",
+   "summary": "'American Doctor,' 'Avedon,' 'Cookie Queens,' 'Everest: The Other Side,' 'The Last First: Winter K2,' 'My Undesirable Friends: Part II – Exile,' 'Once Upon a Time in Harlem,' 'One in a Million,' 'The Trial of Alec Baldwin' and 'You Can See Everything' will be represented at the Oct. 28 gathering.",
+   "date": "2026-09-24T22:07:03.000Z",
+   "firstSeen": "2026-09-25T00:50:18.104Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "ghzmvs",
+   "title": "美債殖利率「坐5望6」 比起漲多高更怕漲太快",
+   "url": "https://news.cnyes.com/news/id/6614985",
+   "summary": "10年期美債殖利率突破5%後再急升，單日波動創2025年4月「解放日」關稅動盪以來最大。 市場焦點轉向6%可能性；高盛稱1個月變動50個基點、2週30個基點將引發股市高度關注。 美債升至5%至6%區間恐重定資產定價，全球資金轉向公債，新興市場先見資金外流。",
+   "date": "2026-09-24T22:00:03.000Z",
+   "firstSeen": "2026-09-25T00:50:18.104Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "1jyulvv",
+   "title": "The 8 Best New Movies and Shows to Stream This Weekend on Netflix, Apple and More",
+   "url": "https://www.thewrap.com/creative-content/what-to-watch/best-new-movies-shows-streaming-this-weekend-september-25-27",
+   "summary": "From \"Brothers\" to \"Unabomber\" and everything in between The post The 8 Best New Movies and Shows to Stream This Weekend on Netflix, Apple and More appeared first on TheWrap.",
+   "date": "2026-09-24T22:00:00.000Z",
+   "firstSeen": "2026-09-25T00:50:18.104Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "gfy25n",
+   "title": "Why California Was Willing to Cave to Paramount",
+   "url": "https://www.hollywoodreporter.com/business/business-news/california-paramount-court-hearing-1236709725",
+   "summary": "A court hearing offered insight into the states' decision to settle the case while bringing to the forefront some of the deal's shortcomings, which have positioned CEO David Ellison as the ultimate winner.",
+   "date": "2026-09-24T21:58:20.000Z",
+   "firstSeen": "2026-09-25T00:50:18.104Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "2g7qj4",
+   "title": "Brian Stelter Applauds Fox News as a ‘Real Ally’ Amid CNN White House Ban",
+   "url": "https://www.thewrap.com/media-platforms/journalism/brian-stelter-celebrates-fox-news-ally-cnn-white-house-ban",
+   "summary": "\"It’s thinking about the past and Obama, but it’s also thinking about what happens when a Democrat is back the Oval Office,\" he adds The post Brian Stelter Applauds Fox News as a ‘Real Ally’ Amid CNN White House Ban appeared first on TheWrap.",
+   "date": "2026-09-24T21:56:57.000Z",
+   "firstSeen": "2026-09-25T00:50:18.104Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
    "id": "191x1qt",
    "title": "奕境X9正式上市限时优惠价27.98万元起，满配华为乾崑全栈智能",
    "url": "https://www.pingwest.com/w/317875",
@@ -919,6 +1327,18 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "zh-CN",
    "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "14c4s9b",
+   "title": "‘Cracking auction, Gromit!’ Original Aardman puppets go under the hammer",
+   "url": "https://www.theguardian.com/film/2026/sep/24/wallace-gromit-auction-aardman-stop-motion-puppets-animators",
+   "summary": "<p>Wallace and Gromit stop-motion models and other beloved creations raise money to train new generations of animators </p><p>Wallace’s reaction as the auction got into full swing might have been a trademark “good grief!” – and the enthusiasm of some of the bidding could have caused even the phlegma",
+   "date": "2026-09-24T21:41:31.000Z",
+   "firstSeen": "2026-09-24T21:49:01.321Z",
+   "source": "The Guardian",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.theguardian.com/uk/media"
   },
   {
    "id": "gi0b80",
@@ -1135,6 +1555,18 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "1c7xypc",
+   "title": "E.l.f. Cosmetics Names Joaquina Its Brand Ambassador Alongside Second Album Drop",
+   "url": "https://www.adweek.com/brand-marketing/elf-cosmetics-names-joaquina-its-brand-ambassador-alongside-second-album-drop",
+   "summary": "The Latin artist is joined by six other artists on the album.",
+   "date": "2026-09-24T20:00:00.000Z",
+   "firstSeen": "2026-09-25T00:50:18.104Z",
+   "source": "Adweek",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.adweek.com"
   },
   {
    "id": "6ycj8q",
@@ -1497,18 +1929,6 @@ window.NEWS_DATA = {
    "site": "https://techcrunch.com"
   },
   {
-   "id": "1lhmnlx",
-   "title": "Journalists for CNN, MS Now and Politico allowed back into the White House after judge’s ruling",
-   "url": "https://www.theguardian.com/us-news/2026/sep/24/judge-orders-trump-restore-white-house-access-cnn-ms-now-politico-media-ban",
-   "summary": "<p>The outlets had requested an emergency hearing after the White House initially seemed to flout a judge’s order</p><ul><li><p><a href=\"https://www.theguardian.com/us-news/live/2026/sep/24/white-house-press-xi-jinping-netanyahu-trump-latest-news-updates\">US politics live – latest updates</a></p></l",
-   "date": "2026-09-24T17:51:07.000Z",
-   "firstSeen": "2026-09-24T09:32:30.526Z",
-   "source": "The Guardian",
-   "tier": "C",
-   "lang": "en",
-   "site": "https://www.theguardian.com/uk/media"
-  },
-  {
    "id": "5e54sx",
    "title": "Meta’s Muse Charm looks like a Tamagotchi, but it’s tapping into a much newer trend",
    "url": "https://techcrunch.com/2026/09/24/metas-muse-charm-looks-like-a-tamagotchi-but-its-tapping-into-a-much-newer-trend",
@@ -1711,18 +2131,6 @@ window.NEWS_DATA = {
    "tier": "A",
    "lang": "en",
    "site": "https://techcrunch.com"
-  },
-  {
-   "id": "14c4s9b",
-   "title": "‘Cracking auction, Gromit!’ Original Aardman puppets go under the hammer",
-   "url": "https://www.theguardian.com/film/2026/sep/24/wallace-gromit-auction-aardman-stop-motion-puppets-animators",
-   "summary": "<p>Wallace and Gromit stop-motion models and other beloved creations raise money to train new generations of animators</p><p>Wallace’s reaction as the auction got into full swing might have been a trademark “good grief!” – and the enthusiasm of some of the bidding could have caused even the phlegmat",
-   "date": "2026-09-24T16:00:52.000Z",
-   "firstSeen": "2026-09-24T21:49:01.321Z",
-   "source": "The Guardian",
-   "tier": "C",
-   "lang": "en",
-   "site": "https://www.theguardian.com/uk/media"
   },
   {
    "id": "gi0aev",
@@ -4812,7 +5220,7 @@ window.NEWS_DATA = {
    "id": "1qxsrsi",
    "title": "Meta outlines Muse, AI glasses and VR device updates at Connect 2026",
    "url": "https://www.socialmediatoday.com/news/meta-outlines-muse-ai-glasses-and-vr-device-updates-at-connect-2026/831223",
-   "summary": "<p>Meta showed off its latest artificial intelligence-powered&nbsp;wearables at its annual showcase event.&nbsp;</p>",
+   "summary": "<p>Meta showed off its latest AI-powered&nbsp;wearables at its annual showcase event.&nbsp;</p>",
    "date": "2026-09-24T06:15:54.000Z",
    "firstSeen": "2026-09-24T09:32:30.526Z",
    "source": "Social Media Today",
@@ -7248,7 +7656,7 @@ window.NEWS_DATA = {
    "id": "1ra56b8",
    "title": "US opposes Australia’s proposed social media restrictions",
    "url": "https://www.socialmediatoday.com/news/us-opposes-australias-proposed-social-media-restrictions/831217",
-   "summary": "<p>Embassy officials submitted an objection letter outlining concerns related to potential censorship and control over U.S. interests, per the BBC.</p>",
+   "summary": "<p>U.S. embassy officials submitted an objection letter outlining concerns related to potential censorship and control over U.S. interests, per the BBC.</p>",
    "date": "2026-09-23T23:22:43.000Z",
    "firstSeen": "2026-09-24T00:53:10.980Z",
    "source": "Social Media Today",
@@ -7318,9 +7726,9 @@ window.NEWS_DATA = {
   },
   {
    "id": "19gmfj6",
-   "title": "YouTube presents new AI and engagement features at Made On 2026",
+   "title": "YouTube presents new AI and engagement features at Made on 2026",
    "url": "https://www.socialmediatoday.com/news/youtube-presents-new-ai-and-engagement-features-at-made-on-2026/831216",
-   "summary": "<p>The platform is expanding its custom feed feature and enabling creators to group their shorts into series in order to align with microdrama trends.</p>",
+   "summary": "<p>The company is expanding its custom feed feature and enabling creators to group their shorts into series in order to align with microdrama trends.</p>",
    "date": "2026-09-23T23:14:48.000Z",
    "firstSeen": "2026-09-24T00:53:10.980Z",
    "source": "Social Media Today",
@@ -44527,30 +44935,6 @@ window.NEWS_DATA = {
    "tier": "A",
    "lang": "zh-TW",
    "site": "https://www.feja.org.tw"
-  },
-  {
-   "id": "xouhmn",
-   "title": "Who to follow: 100+ media consultants to help your newsroom",
-   "url": "https://www.journalism.co.uk/who-to-follow-x-media-consultants",
-   "summary": "There is a wise owl out there for any challenge your newsroom wants to solve, like coming up with a brand new social media strategy, improving newsroom culture or implementing generative AI workflows",
-   "date": "2026-09-10T23:00:00.000Z",
-   "firstSeen": "2026-09-18T10:03:21.928Z",
-   "source": "Journalism.co.uk",
-   "tier": "B",
-   "lang": "en",
-   "site": "https://www.journalism.co.uk"
-  },
-  {
-   "id": "1iqt4o6",
-   "title": "Four steps to successfully introduce AI into your newsroom, in a way that actually improves journalism",
-   "url": "https://www.journalism.co.uk/four-steps-to-successfully-introduce-ai-into-your-newsroom-in-a-way-that-actually-improves-journalism",
-   "summary": "Ex-BBC News Labs's Joe Whitwell has spent years watching journalists dismiss AI as hype and learning that imagination, not scepticism, is what moves a newsroom forward",
-   "date": "2026-09-10T22:12:18.000Z",
-   "firstSeen": "2026-09-18T10:03:21.928Z",
-   "source": "Journalism.co.uk",
-   "tier": "B",
-   "lang": "en",
-   "site": "https://www.journalism.co.uk"
   }
  ]
 };
