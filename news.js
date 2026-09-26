@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-25T21:49:37.799Z",
+ "generatedAt": "2026-09-26T00:52:48.898Z",
  "keepDays": 14,
  "sources": [
   {
@@ -153,7 +153,7 @@ window.NEWS_DATA = {
    "feed": "https://news.cnyes.com/rss/v1/news/category/headline",
    "ok": true,
    "error": null,
-   "count": 37
+   "count": 60
   },
   {
    "name": "woshipm",
@@ -885,6 +885,282 @@ window.NEWS_DATA = {
    "site": "https://www.mediapost.com"
   },
   {
+   "id": "1jg0v5p",
+   "title": "我所了解的机器视觉检测产品应用（4）：把算子做成产品，参数、公差、复检逻辑怎么设计",
+   "url": "https://www.woshipm.com/pd/6470196.html",
+   "summary": "机器视觉检测设备交付后，客户真正关心的不是算法，而是参数、公差与复检逻辑。本文从产品经理视角拆解：如何将算子翻译成产品语言、用三层用户与配方管理降低误操作、将公差视为商业条款，以及让复检数据反哺模型迭代。算法决定下限，产品化决定上限。 销售带客户来公司看 demo，客户在检测机前站了十分钟，问了一个问题：“你们这个，算法是自己写的吗？” 我说核心算子是自研的，一部分用了开源库封装。客户点点头，又摇摇头：“我不管谁写的，我就想知道，产线上的小伙子能不能用明白。” 这句话我记到现在。那天我意识到一件事：客户问的是算法，关心的却是产品。 这个系列前面两篇，（2）写了一条缺陷检测需求怎么从产线走到闭环",
+   "date": "2026-09-26T00:42:12.000Z",
+   "firstSeen": "2026-09-26T00:52:48.898Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "gi10by",
+   "title": "微軟變身企業導入AI入口！切入協調層解鎖需求 股價自低點大漲32%重返今年高點",
+   "url": "https://news.cnyes.com/news/id/6616235",
+   "summary": "微軟(MSFT-US)今年初股價表現低迷，但過去幾個月投資人重新看好該公司的人工智慧(AI)發展前景，帶動股價強勢反彈，周五(25日)收在今年最高收盤價。 微軟周五終場上漲3.66%至每股516.17美元，是2026年迄今最高收盤價，也是去年11月以來最高收盤價。微軟也成為道瓊工業指數30檔成分股",
+   "date": "2026-09-26T00:40:05.000Z",
+   "firstSeen": "2026-09-26T00:52:48.898Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "iylnw",
+   "title": "‘SNL’ Promotes Keri Powers and Rebecca Schwartz Ahead of Season 52 Premiere",
+   "url": "https://www.thewrap.com/creative-content/tv-shows/snl-promotions-keri-powers-rebecca-schwartz-nbc",
+   "summary": "Powers becomes sole head of the NBC sketch series' talent department, while Schwartz is upped to producer The post ‘SNL’ Promotes Keri Powers and Rebecca Schwartz Ahead of Season 52 Premiere appeared first on TheWrap.",
+   "date": "2026-09-26T00:30:00.000Z",
+   "firstSeen": "2026-09-26T00:52:48.898Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "15jw0ua",
+   "title": "‘SNL’ Promotes Keri Powers to Sole Head of Talent Department, Rebecca Schwartz Upped to Producer",
+   "url": "https://www.hollywoodreporter.com/tv/tv-news/snl-keri-powers-head-talent-rebecca-schwartz-producer-1236710402",
+   "summary": "The news comes after longtime music booker Brian Siedlecki departed from the series; The Hollywood Reporter previously reported that the program chose not to renew his contract.",
+   "date": "2026-09-26T00:30:00.000Z",
+   "firstSeen": "2026-09-26T00:52:48.898Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "10ixc6a",
+   "title": "隨著PCIe 5.0生態逐漸成熟，主流與旗艦Gen5 SSD該如何抉擇？",
+   "url": "https://mashdigi.com/as-the-pcie-5-0-ecosystem-matures-how-should-one-choose-between-mainstream-and-flagship-gen5-ssds",
+   "summary": "在目前的個人電腦儲存產品發展中，PCIe 5.0 (Gen5) 規格已經從初期的「火力展示」階段，逐漸步入產品 […]",
+   "date": "2026-09-26T00:00:46.000Z",
+   "firstSeen": "2026-09-26T00:52:48.898Z",
+   "source": "mashdigi",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://mashdigi.com"
+  },
+  {
+   "id": "5fpwqg",
+   "title": "川習二會紅毯之外的四張底牌，台灣最該盯住哪些變化？",
+   "url": "https://www.thenewslens.com/article/270283",
+   "summary": "川習二會重於禮賓，然於台灣軍售、AI治理、稀土及經貿等核心議題未獲突破。峰會成果為管理競爭，為雙邊關係裝設護欄，而非解決根本分歧。後續實質進展為評估關係走向之關鍵。",
+   "date": "2026-09-25T23:59:00.000Z",
+   "firstSeen": "2026-09-26T00:52:48.898Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "5f7l2g",
+   "title": "從「大遞換」到MAGA：范斯如何挪用白人失權恐懼鞏固右翼民粹？",
+   "url": "https://www.thenewslens.com/article/269966",
+   "summary": "本文剖析川普式排外言論的演變。J.D. 范斯挪用宗教與哲學，將「大取代理論」的恐懼，從墨西哥移民轉嫁至中國，製造新的代罪羔羊，藉此鞏固其右翼民粹主義根基。",
+   "date": "2026-09-25T23:58:00.000Z",
+   "firstSeen": "2026-09-26T00:52:48.898Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "5fpwqj",
+   "title": "川習會是一場浪費時間的表演，已無法掩蓋中共獨裁擴張的疑慮",
+   "url": "https://www.thenewslens.com/article/270286",
+   "summary": "作者認為中美元首會面是誤導公眾的表演。鑑於中共過往背信，峰會協議難採信。重啟熊貓外交等舊策略，反曝露雙方根本分歧加劇，關係實則惡化。",
+   "date": "2026-09-25T23:57:00.000Z",
+   "firstSeen": "2026-09-26T00:52:48.898Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "5fpwpj",
+   "title": "被制度卡住的「學習歷程」：怕走錯路、不敢換志向，高中生為何寧可高三「砍掉重練」？",
+   "url": "https://www.thenewslens.com/article/270273",
+   "summary": "一份全國性學習歷程資料庫，因設計僵化、缺乏彈性，致使用者提交率低落。用戶寧願放棄其認證機制，改採更靈活的PDF自行上傳。此案例凸顯系統設計若忽略使用者歷程與實際需求，將導致失敗。",
+   "date": "2026-09-25T23:55:00.000Z",
+   "firstSeen": "2026-09-26T00:52:48.898Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "gi10a5",
+   "title": "智慧戒指熱度爆發 Oura上市需求火熱 IPO超額認購約4倍 最快下周掛牌",
+   "url": "https://news.cnyes.com/news/id/6616216",
+   "summary": "Oura IPO獲約4倍超額認購, 預計9月28日結束接單, 下周定價並在Nasdaq交易 IPO發售5000萬股、每股40至44美元, 最高募資22億美元; Oura申請以OURA掛牌 以44美元計市值約141億美元, 近四分之三股份由現有股東出售, Forerunner擬全數出清",
+   "date": "2026-09-25T23:50:03.000Z",
+   "firstSeen": "2026-09-26T00:52:48.898Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "1i5qpoy",
+   "title": "What ‘60 Minutes’ Was Missing In Its First Two New Episodes, According to Its Ex-Managing Editor",
+   "url": "https://www.hollywoodreporter.com/business/business-news/what-60-minutes-was-missing-in-its-first-two-new-episodes-according-to-its-ex-managing-editor-1236709835",
+   "summary": "Guy Campanile, a famously exacting 34-year veteran of CBS News, offered his view of the new season — and it’s less bleak than you might think.",
+   "date": "2026-09-25T23:49:22.000Z",
+   "firstSeen": "2026-09-26T00:52:48.898Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "j9se5m",
+   "title": "Chris Hansen Gives His Unfiltered Take on Robert Pattinson’s ‘Primetime’: ‘Absolutely a Fictional Portrayal’",
+   "url": "https://www.thewrap.com/creative-content/movies/chris-hansen-responds-primetime-movie",
+   "summary": "\"If this is a love letter, I'd hate to get a poison pen letter from this director,\" the former \"To Catch a Predator\" host says The post Chris Hansen Gives His Unfiltered Take on Robert Pattinson’s ‘Primetime’: ‘Absolutely a Fictional Portrayal’ appeared first on TheWrap.",
+   "date": "2026-09-25T23:49:10.000Z",
+   "firstSeen": "2026-09-26T00:52:48.898Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "mlf010",
+   "title": "‘The Tonight Show’ Is Bringing Back Its Billionaire Microdrama Satire for a Second Season",
+   "url": "https://www.hollywoodreporter.com/tv/tv-news/the-tonight-show-microdrama-second-season-1236710367",
+   "summary": "‘Who Billionaire? Me Billionaire' will premiere during the upcoming Sunday episode of Jimmy Fallon’s late-night show.",
+   "date": "2026-09-25T23:36:26.000Z",
+   "firstSeen": "2026-09-26T00:52:48.898Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "gi0ykm",
+   "title": "Palo Alto執行長：放慢AI發展「不切實際」AI公司試圖取得監管「同情」",
+   "url": "https://news.cnyes.com/news/id/6616002",
+   "summary": "Arora批評AI放慢發展論，稱是爭取監管同情與責任「免費通行證」，認為控速不切實際。 他指AI消滅人類機率微乎其微，應把安全防護納入模型，未確信安全前不應推出產品。 Palo Alto Networks推Unit 42服務，6個月測試、與逾100客戶合作，3周找出一年累積暴露。",
+   "date": "2026-09-25T23:30:02.000Z",
+   "firstSeen": "2026-09-26T00:52:48.898Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "97sdwo",
+   "title": "Crusoe abandons $1.25B plan to use Boom turbines at AI data centers",
+   "url": "https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers",
+   "summary": "Boom Supersonic CEO Blake Scholl said its new stationary power plants were no longer in Crusoe's near-term plans.",
+   "date": "2026-09-25T23:11:10.000Z",
+   "firstSeen": "2026-09-26T00:52:48.898Z",
+   "source": "TechCrunch",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://techcrunch.com"
+  },
+  {
+   "id": "gi0do1",
+   "title": "OpenAI傳將推GPT-6 Cyber！專攻AI網路安全、最快下週DevDay亮相",
+   "url": "https://news.cnyes.com/news/id/6615842",
+   "summary": "OpenAI預計未來幾天預覽網路安全AI模型GPT-6 Cyber，並推新產品協助客戶更安全、自動化部署。 GPT-6 Cyber或於29日舊金山DevDay亮相，為OpenAI今年第4款網安模型，並有十多項產品計畫。 已有少數客戶取得使用權限做Alpha測試；網安成AI成長最快市場之一。",
+   "date": "2026-09-25T23:10:03.000Z",
+   "firstSeen": "2026-09-26T00:52:48.898Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "1gt9hhv",
+   "title": "Automattic has a new board after failed attempt to put CEO on leave",
+   "url": "https://techcrunch.com/2026/09/25/automattic-has-a-new-board-after-failed-attempt-to-put-ceo-on-leave",
+   "summary": "After days of upheaval at Automattic, following a failed attempt to remove CEO Matt Mullenweg, the company has a new board.",
+   "date": "2026-09-25T23:04:34.000Z",
+   "firstSeen": "2026-09-26T00:52:48.898Z",
+   "source": "TechCrunch",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://techcrunch.com"
+  },
+  {
+   "id": "lfihwz",
+   "title": "White House claims pro-Trump ad it paid Fox to air was ‘public service announcement’",
+   "url": "https://www.theguardian.com/us-news/2026/sep/25/white-house-pro-trump-ad-fox",
+   "summary": "<p>Some Democrats say taxpayer-funded ad could be illegal government propaganda aimed at influencing voters</p><p>The White House on Friday defended its decision to use taxpayer funds to buy airtime on Fox News for a White House-produced, pro-Trump ad that some Democrats said could be illegal govern",
+   "date": "2026-09-25T23:02:35.000Z",
+   "firstSeen": "2026-09-26T00:52:48.898Z",
+   "source": "The Guardian",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.theguardian.com/uk/media"
+  },
+  {
+   "id": "gi10a4",
+   "title": "SK海力士Solidigm擬赴美IPO 估值上看1500億美元",
+   "url": "https://news.cnyes.com/news/id/6616215",
+   "summary": "Solidigm考慮最快2027年赴美IPO，估值最高1500億美元、募資約150億美元。 Solidigm本周已與投行舉行IPO承銷商提案簡報會，籌備進入較具體階段。 若成案，將凸顯NAND與企業級SSD在AI資料中心需求下的價值，並成為美國半導體大IPO之一。",
+   "date": "2026-09-25T22:50:03.000Z",
+   "firstSeen": "2026-09-26T00:52:48.898Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "18vo6pj",
+   "title": "【微軟前沿企業 AI 轉型守則】試點小組人均營收成長 9.4%，靠「角色加速配方」找出職務痛點嵌入 AI",
+   "url": "https://techorange.com/2026/09/26/becoming-a-frontier-firm",
+   "summary": "微軟近期發布白皮書《Becoming a Frontier Firm: Our Frontier Playbook》（成為前沿企業：前沿教戰守則），提供全球企業一套將人工智慧技術深度融入營運模式、業務流程與人才架構的系統化轉型方法論與實證指標。 報告核心在於破除「購買工具即完成轉型」的迷思，強調「AI 導入」本質上是一場全面的商業變革，必須由企業整體商業戰略導引，並錨定明確的業務成效。 📎 這份報告適合誰閱讀？ 報告內容並非單純的技術說明書，而是涵蓋戰略、營運、技術與組織變革的指南，適合以下 5 類工作者閱讀： 🔴 報告洞見 微軟透過審視內部超過 100 個跨部門的 AI 實證轉型案例，提",
+   "date": "2026-09-25T22:29:00.000Z",
+   "firstSeen": "2026-09-26T00:52:48.898Z",
+   "source": "TechOrange",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://buzzorange.com/techorange/"
+  },
+  {
+   "id": "gi0b92",
+   "title": "伊朗提7天內重啟荷姆茲方案 阿拉奇：選擇權在美方手中",
+   "url": "https://news.cnyes.com/news/id/6615586",
+   "summary": "美伊在紐約談判據報已進入具體技術討論階段，技術專家也加入會談，伊朗代表團並已取得美國簽證。 伊朗外長阿拉奇稱已經過卡達向美國提7天重開荷姆茲海峽方案，美方若接受，通航時程即啟動。 美伊局勢降溫，西德州原油跌2.33%至92.41美元，布蘭特跌2.14%至104.32美元。",
+   "date": "2026-09-25T22:26:43.000Z",
+   "firstSeen": "2026-09-26T00:52:48.898Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "1o7tigp",
+   "title": "Unsecured OpenAI agents posted 53 user images on the internet without the lab’s knowledge",
+   "url": "https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge",
+   "summary": "AI agents operating in OpenAI's research environment posted user images on public image-hosting sites without the lab's knowledge.",
+   "date": "2026-09-25T22:20:47.000Z",
+   "firstSeen": "2026-09-26T00:52:48.898Z",
+   "source": "TechCrunch",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://techcrunch.com"
+  },
+  {
+   "id": "1a7pdi0",
+   "title": "Jodie Turner-Smith Named in Lawsuit Over Brother’s Alleged Sexual Misconduct and Drug Dealing",
+   "url": "https://www.thewrap.com/industry-news/public-policy-legal/jodie-turner-smith-sued-brother-sexual-misconduct-lawsuit",
+   "summary": "Three women sued Richard Smith, and claimed the actress enabled his behavior The post Jodie Turner-Smith Named in Lawsuit Over Brother’s Alleged Sexual Misconduct and Drug Dealing appeared first on TheWrap.",
+   "date": "2026-09-25T21:58:50.000Z",
+   "firstSeen": "2026-09-26T00:52:48.898Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
    "id": "191x1qw",
    "title": "英伟达黄仁勋、高通安蒙、微软纳德拉等科技业代表参加欢迎国宴",
    "url": "https://www.pingwest.com/w/317878",
@@ -922,7 +1198,7 @@ window.NEWS_DATA = {
   },
   {
    "id": "5e0fl4",
-   "title": "‘Transformers No. 1’ Getting 15th Printing as Skybound’s Engergon Universe Comics Sell Over 7.6 Million Units (Exclusive)",
+   "title": "‘Transformers No. 1’ Getting 15th Printing as Skybound’s Energon Universe Comics Sell Over 7.6 Million Units (Exclusive)",
    "url": "https://www.hollywoodreporter.com/business/business-news/transformers-engergon-universe-comics-1236710111",
    "summary": "We know that Skybound's Energon Universe is a hit, but how big of a hit? In this case, knowing (the sales figures) is the entire battle.",
    "date": "2026-09-25T21:33:02.000Z",
@@ -958,9 +1234,9 @@ window.NEWS_DATA = {
   },
   {
    "id": "1wc6wlr",
-   "title": "The Major Social Media Platforms Are All Rejecting Paid Ads for ‘Musk’ (Exclusive)",
+   "title": "The Major Social Media Platforms Are All Rejecting Paid Ads for Alex Gibney’s ‘Musk’ (Exclusive)",
    "url": "https://www.hollywoodreporter.com/business/digital/elon-musk-documentary-trailer-rejected-tiktok-youtube-1236710259",
-   "summary": "Its U.S. distributor has received denials from YouTube, Meta, TikTok and X on running the trailer. The studio is appealing.",
+   "summary": "YouTube, TikTok and Meta have all turned down the trailer for the Oct. 9 doc, citing “political” content. X won't even take Bleecker Street's calls. The distributor is appealing.",
    "date": "2026-09-25T21:24:43.000Z",
    "firstSeen": "2026-09-25T21:49:37.799Z",
    "source": "The Hollywood Reporter",
@@ -1485,6 +1761,18 @@ window.NEWS_DATA = {
    "site": "https://www.amediaoperator.com"
   },
   {
+   "id": "1n9qtkk",
+   "title": "The Guardian view on the 2026 Booker shortlist: what it takes to be a man | Editorial",
+   "url": "https://www.theguardian.com/commentisfree/2026/sep/25/the-guardian-view-on-the-2026-booker-shortlist-what-it-takes-to-be-a-man",
+   "summary": "<p>All the contenders for this year’s prize are a reflection of the crisis in masculinity</p><p>Jarvis Cocker, one of the judges for this year’s Booker prize, has <a href=\"https://www.thetimes.com/culture/books/article/male-authors-are-lagging-behind-says-booker-judge-jarvis-cocker-7bcfq7qgk\">expres",
+   "date": "2026-09-25T16:52:33.000Z",
+   "firstSeen": "2026-09-26T00:52:48.898Z",
+   "source": "The Guardian",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.theguardian.com/uk/media"
+  },
+  {
    "id": "1r7iup2",
    "title": "Pentagon seeks $30.3m for an AI lie detector that reads the body from afar",
    "url": "https://thenextweb.com/news/pentagon-ai-lie-detector-polygraph-next",
@@ -1545,6 +1833,18 @@ window.NEWS_DATA = {
    "site": "https://thenextweb.com"
   },
   {
+   "id": "z6c852",
+   "title": "Why Ed Miliband has embraced his ‘awkward dad’ image in viral TikTok video",
+   "url": "https://www.theguardian.com/politics/2026/sep/25/why-ed-miliband-has-embraced-his-awkward-dad-image-in-viral-tiktok-video",
+   "summary": "<p>About 1.5 million people have watched footage of foreign secretary that capitalises on social media’s love of a cringe moment</p><p>It sparked delight among the diehard Milifans and a begrudging smile from those less keen on the foreign secretary, but a viral video of Ed Miliband has – possibly –",
+   "date": "2026-09-25T16:22:55.000Z",
+   "firstSeen": "2026-09-26T00:52:48.898Z",
+   "source": "The Guardian",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.theguardian.com/uk/media"
+  },
+  {
    "id": "5dkzq4",
    "title": "Europe keeps buying more electric cars, which now take 29% of new registrations",
    "url": "https://thenextweb.com/news/europe-ev-share-august-petrol-level",
@@ -1581,6 +1881,18 @@ window.NEWS_DATA = {
    "site": "https://techcrunch.com"
   },
   {
+   "id": "1xbkkqo",
+   "title": "Novelist accused of using AI to write book removed from French prize list",
+   "url": "https://www.theguardian.com/books/2026/sep/25/thelyson-orelien-goncourt-prize-france",
+   "summary": "<p>Thélyson Orélien had been in the running to win a top literary prize before the AI claim emerged on social media</p><p>The organisers of France’s most prestigious literary prize said they had removed a critically acclaimed novel by a Canadian-Haitian writer from the longlist after an anonymous on",
+   "date": "2026-09-25T16:14:32.000Z",
+   "firstSeen": "2026-09-26T00:52:48.898Z",
+   "source": "The Guardian",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.theguardian.com/uk/media"
+  },
+  {
    "id": "t7pshp",
    "title": "Out Of The Frying Pan, Into The Opaque Margin Fire",
    "url": "https://www.mediapost.com/publications/article/418294/out-of-the-frying-pan-into-the-opaque-margin-fire.html",
@@ -1591,6 +1903,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "en",
    "site": "https://www.mediapost.com"
+  },
+  {
+   "id": "165a4t5",
+   "title": "The makers of the 7 Up series set out to prove a point about class. What they achieved is far more profound | Jonathan Freedland",
+   "url": "https://www.theguardian.com/commentisfree/2026/sep/25/7-up-class-documentary-series-social-attitudes",
+   "summary": "<p>The epic documentary series reveals much about the shifting social attitudes of the last 60 years – and much more about the quiet mystery of human life</p><p>For an hour or two this week, I’ve been in the company of people whose lives I’ve seen unfold, almost from the beginning, almost to the end",
+   "date": "2026-09-25T16:10:14.000Z",
+   "firstSeen": "2026-09-26T00:52:48.898Z",
+   "source": "The Guardian",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.theguardian.com/uk/media"
   },
   {
    "id": "y95lop",
@@ -1831,6 +2155,18 @@ window.NEWS_DATA = {
    "tier": "A",
    "lang": "en",
    "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "271mkt",
+   "title": "From shocking cruelty to the reason Claudia hid in a bush: 10 things you need to know about The Celebrity Traitors",
+   "url": "https://www.theguardian.com/tv-and-radio/2026/sep/25/10-things-to-know-about-celebrity-traitors-claudia-winkleman",
+   "summary": "<p>Meltdowns, more contestants, Ross Kemp being ‘the daddy’: read on for our guide to the return of TV’s best reality gameshow</p><p>Prepare to become obsessed with famous people backstabbing and betraying one another in a Scottish castle. Yes, autumn is upon us, meaning the return of last year’s TV",
+   "date": "2026-09-25T15:00:10.000Z",
+   "firstSeen": "2026-09-26T00:52:48.898Z",
+   "source": "The Guardian",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.theguardian.com/uk/media"
   },
   {
    "id": "z5s8h3",
@@ -2673,6 +3009,18 @@ window.NEWS_DATA = {
    "site": "https://www.theguardian.com/uk/media"
   },
   {
+   "id": "d2hrh3",
+   "title": "‘I’d strip for £100!’ Dominic West and Sienna Miller on nudity, narcissism and their juicy new show War",
+   "url": "https://www.theguardian.com/tv-and-radio/2026/sep/25/sienna-miller-and-dominic-west-interview-war",
+   "summary": "<p>The stars are no strangers to public scrutiny of their most intimate relationships – but they’ve never experienced anything like this. They talk about playing a famous divorcing couple, and how money makes things revolting</p><p>In a London hotel room, Dominic West is weighing up how much he woul",
+   "date": "2026-09-25T12:00:49.000Z",
+   "firstSeen": "2026-09-26T00:52:48.898Z",
+   "source": "The Guardian",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.theguardian.com/uk/media"
+  },
+  {
    "id": "5fpwlv",
    "title": "匡靈秀《臺北故事》小說選摘：在台北101美食街，我們試圖點午餐時丟光了臉",
    "url": "https://www.thenewslens.com/article/270233",
@@ -3151,6 +3499,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-CN",
    "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "4kqqme",
+   "title": "‘My generation of novelists is dying’: Rose Tremain on 70 years of writing, and late-life inspiration",
+   "url": "https://www.theguardian.com/books/2026/sep/25/my-generation-of-novelists-is-dying-rose-tremain-on-70-years-of-writing-and-late-life-inspiration",
+   "summary": "<p>As her latest novel about Daphne du Maurier is published, the bestselling author reflects on age and creativity – and why at 83 she has no plans to stop </p><p>My generation of writers is dying. Of&nbsp;Granta’s fabled list of 20 Best of Young British Novelists, 1983, six&nbsp;are gone, including",
+   "date": "2026-09-25T09:00:45.000Z",
+   "firstSeen": "2026-09-26T00:52:48.898Z",
+   "source": "The Guardian",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.theguardian.com/uk/media"
   },
   {
    "id": "1z0tbtg",
@@ -4555,6 +4915,18 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "zh-TW",
    "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "j71tic",
+   "title": "The reporter whose Albanese question put her on the front page of her own paper | Weekly Beast",
+   "url": "https://www.theguardian.com/media/2026/sep/25/latika-m-bourke-fraud-question-australian-pm-anthony-albanese-weekly-beast",
+   "summary": "<p>‘Why don’t more journalists do this?’ one commentator asked on News24 after Latika M Bourke literally made the headlines. Plus: interviewing the KKK</p><ul><li><p>Want to get this in your inbox every Friday? <a href=\"https://www.theguardian.com/media/article/2024/aug/28/weekly-beast-email-austrai",
+   "date": "2026-09-24T23:58:10.000Z",
+   "firstSeen": "2026-09-26T00:52:48.898Z",
+   "source": "The Guardian",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.theguardian.com/uk/media"
   },
   {
    "id": "5fpwnt",
