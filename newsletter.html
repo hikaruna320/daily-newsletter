@@ -632,14 +632,17 @@ const RE_LATIN_FIRST = new RegExp(`([A-Za-z0-9][%‰°]?)([${CJK_RANGE}])`, 'g')
 
 function pangu(s) {
   if (!s) return s;
-  // 網址中間不能插空格，先抽出來放回去
+  // 網址中間不能插空格，先抽掉、補完空格再放回去。
+  // 記號必須用正常文字不可能出現的字元（這裡用 NUL）：
+  // 曾經用過「空格＋數字＋空格」，結果補空格這個動作自己會把「有5個」變成「有 5 個」，
+  // 還原時就把它誤認成記號、換成不存在的網址，標題裡的數字全變成 undefined。
   const urls = [];
   let t = String(s).replace(/https?:\/\/[^\s<>"']+/g, m => {
     urls.push(m);
-    return ` ${urls.length - 1} `;
+    return `\u0000${urls.length - 1}\u0000`;
   });
   t = t.replace(RE_CJK_FIRST, '$1 $2').replace(RE_LATIN_FIRST, '$1 $2');
-  return t.replace(/ (\d+) /g, (m, i) => urls[Number(i)]);
+  return t.replace(/\u0000(\d+)\u0000/g, (m, i) => urls[Number(i)] ?? m);
 }
 
 function mdLink(html, runStyle) {

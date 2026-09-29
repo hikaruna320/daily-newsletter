@@ -410,10 +410,19 @@ function sendToNewsletter() {
   if (!DATA || selected.size === 0) return;
   const chosen = DATA.items.filter(it => selected.has(it.id));
 
+  const d = new Date();
+  const today = `${d.getFullYear()}-${pad2(d.getMonth() + 1)}-${pad2(d.getDate())}`;
+
+  // 只有「今天建立的清單」才沿用，否則從空的開始。
+  // 工作台開啟時也會做一樣的判斷，但這裡一定要再擋一次：使用者通常是直接從蒐集台
+  // 送出、之後才進工作台，如果這裡先把昨天的清單接下去，工作台看到的日期標記就已經
+  // 是今天了，清空就永遠不會觸發，昨天和今天的新聞會混在一起。
   let newsData = [];
   let nlSelected = [];
-  try { newsData = JSON.parse(localStorage.getItem(LS_NEWSDATA) || '[]') || []; } catch {}
-  try { nlSelected = JSON.parse(localStorage.getItem(LS_NL_SELECTED) || '[]') || []; } catch {}
+  if (localStorage.getItem('udn_nl_date') === today) {
+    try { newsData = JSON.parse(localStorage.getItem(LS_NEWSDATA) || '[]') || []; } catch {}
+    try { nlSelected = JSON.parse(localStorage.getItem(LS_NL_SELECTED) || '[]') || []; } catch {}
+  }
 
   let added = 0, skipped = 0;
   chosen.forEach(it => {
@@ -429,9 +438,7 @@ function sendToNewsletter() {
     localStorage.setItem(LS_NEWSDATA, JSON.stringify(newsData));
     localStorage.setItem(LS_NL_SELECTED, JSON.stringify(nlSelected));
     // 蓋上今天的日期，工作台隔天開啟時就知道這批是舊的、該清空
-    const d = new Date();
-    localStorage.setItem('udn_nl_date',
-      `${d.getFullYear()}-${pad2(d.getMonth() + 1)}-${pad2(d.getDate())}`);
+    localStorage.setItem('udn_nl_date', today);
   } catch (e) {
     alert('寫入失敗：' + e.message);
     return;
