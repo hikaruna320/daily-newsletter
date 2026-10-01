@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-09-30T22:37:50.960Z",
+ "generatedAt": "2026-10-01T01:34:55.935Z",
  "keepDays": 14,
  "sources": [
   {
@@ -72,7 +72,7 @@ window.NEWS_DATA = {
    "feed": "https://www.semafor.com/rss.xml",
    "ok": true,
    "error": null,
-   "count": 262
+   "count": 264
   },
   {
    "name": "Poynter",
@@ -153,7 +153,7 @@ window.NEWS_DATA = {
    "feed": "https://news.cnyes.com/rss/v1/news/category/headline",
    "ok": true,
    "error": null,
-   "count": 48
+   "count": 88
   },
   {
    "name": "woshipm",
@@ -171,7 +171,7 @@ window.NEWS_DATA = {
    "feed": "https://www.ifanr.com/feed",
    "ok": true,
    "error": null,
-   "count": 18
+   "count": 17
   },
   {
    "name": "TheWrap",
@@ -873,6 +873,606 @@ window.NEWS_DATA = {
  ],
  "items": [
   {
+   "id": "gi3ccx",
+   "title": "投資雷達》美國期中選舉倒數，該減碼觀望還是布局卡位?",
+   "url": "https://news.cnyes.com/news/id/6619334",
+   "summary": "美國2026期中選舉將至，油價與美伊戰事牽動通膨，眾議院翻轉風險升高 歷史顯示分裂國會未必利空；期中選舉後一年標普500平均近17%，嚴格分裂國會仍有12.1% 市場常提前定價政治變化，選前一個月買進標普500，持有1年平均報酬達19%",
+   "date": "2026-10-01T01:27:19.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "gi3bjj",
+   "title": "普丁：俄羅斯與一些國家不同 不會滿世界「乞討」",
+   "url": "https://news.cnyes.com/news/id/6619242",
+   "summary": "俄羅斯總統普丁30日（周四）在國家杜馬（議會下院）會議上發表講話，據《塔斯社》報導，普丁在講話中說，與一些國家不同，俄羅斯不會滿世界「乞討」。 普丁說：「與一些國家不同——就不點名了，俄羅斯不會跑到世界各地卑躬屈膝乞求施捨。首先，正如我剛才所說，這樣做非常恥辱。其次，沒有人會給我國，我國很清楚這一",
+   "date": "2026-10-01T01:13:52.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "gi3ca3",
+   "title": "川普10萬美元H-1B費用連遭兩法官阻擋 科技業招才再陷法律戰",
+   "url": "https://news.cnyes.com/news/id/6619301",
+   "summary": "加州聯邦法院阻擋川普10萬美元H-1B費用，認定USCIS與國務院未走完規則程序 這是第二名聯邦法官出手，波士頓法院6月也曾擋下同額費用，上訴法院7月拒暫停 川普政府另推10萬3265美元新規，科技業與美國商會持續提告，H-1B爭議未歇",
+   "date": "2026-10-01T01:10:05.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "gi3ami",
+   "title": "永笙臍帶血細胞製劑申請台灣藥證 擴大臍帶血臨床應用",
+   "url": "https://news.cnyes.com/news/id/6619111",
+   "summary": "永笙(4178-TW)宣布，旗下臍帶血細胞製劑REGENECYTE正式向台灣TFDA申請台灣再生醫療製劑查驗登記，進一步擴大符合國際規格的臍帶血細胞製劑臨床應用。 永笙REGENECYTE已通過美國FDA生物製劑許可，核准應用於80種造血與免疫系統疾病。過去台灣臍帶血臨床應用的範圍為既",
+   "date": "2026-10-01T01:03:19.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "gi3atw",
+   "title": "AI支出續強勁 美銀點名美光、輝達、英特爾等「贏家」",
+   "url": "https://news.cnyes.com/news/id/6619193",
+   "summary": "美銀半導體分析師Arya上調2026至2030年AI資料中心系統TAM至2.2兆美元，年增40%。 他稱AI資本支出與推理需求將維持強勁，費半估值21倍、EPS成長潛力逾40%。 看好輝達、英特爾、美光、邁威爾、科林研發，並續看AMD、AMAT、ADI、ON與博通。",
+   "date": "2026-10-01T01:00:11.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "gi3bkf",
+   "title": "天安門廣場舉行升國旗儀式 現場1萬隻和平鴿放飛",
+   "url": "https://news.cnyes.com/news/id/6619251",
+   "summary": "今天（1日）是中國國慶，新中國迎來77周年華誕，天安門廣場舉行2026年國慶升旗儀式。 凌晨1點20分，天安門廣場已十分熱鬧，不少民眾早早趕來等候升旗儀式，大家席地而坐，有人帶上小馬扎、毛毯，還有人鋪開被子就地休息。 據《九派新聞》報導，吉林李女士是第一次觀看升旗儀式，帶著父親和妹妹坐了6個小時",
+   "date": "2026-10-01T01:00:10.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "1yrfgf",
+   "title": "現場》2026《熱吵集》攝影書展：觸摸吧，當代攝影書的重混與翻閱的力量",
+   "url": "https://www.openbook.org.tw/article/p-72978",
+   "summary": "<div class=\"field field-name-field-image field-type-image field-label-hidden\"><div class=\"field-items\"><div class=\"field-item even\"><a href=\"/article/p-72978\"><img src=\"https://www.openbook.org.tw/sites/default/files/styles/full_post_image_xml/public/field/image/re_chao_ji_-zhu_tu_.jpg?itok=90NMD3GH",
+   "date": "2026-10-01T01:00:00.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "Openbook 閱讀誌",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.openbook.org.tw"
+  },
+  {
+   "id": "oiyxz9",
+   "title": "‘Scrubs’ Begins Season 2 With Midlife Crises for Everyone",
+   "url": "https://www.hollywoodreporter.com/tv/tv-features/scrubs-season-2-premiere-showrunner-interview-1236717580",
+   "summary": "Showrunner Aseem Batra discusses where the show is headed and how the quartet of J.D.s in the two-episode premiere came to be.",
+   "date": "2026-10-01T01:00:00.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "1te6nf6",
+   "title": "产品经理和项目经理区别是什么？哪一个更厉害？",
+   "url": "https://www.woshipm.com/zhichang/6472641.html",
+   "summary": "产品经理和项目经理的职责边界常被混淆，导致项目上线时各方对“完成”的理解大相径庭。本文以订单状态查询为例，拆解从需求定义、范围取舍到上线验收的全过程，揭示两个角色如何在同一张事实表上协作，真正解决用户问题。 做了多年产品，我遇到过很多这样的项目：明明需求已经说得很清楚，排期也排出来了，到了上线前却发现，大家对“做完”这件事的理解完全不同。 产品经理说，用户要的结果还没有实现。 项目经理说，任务都按计划完成了。 研发说，接口按约定返回了数据。 测试说，提测范围内没有阻断性问题。 每个人都有依据，项目却还是没有真正解决问题。 下面用一个订单状态查询的业务示例把这件事讲清楚。我们只看一个完整过程：用",
+   "date": "2026-10-01T00:53:55.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "gi3bo7",
+   "title": "台新00904、00947本季配息雙創新高 年化配息率衝20%",
+   "url": "https://news.cnyes.com/news/id/6619295",
+   "summary": "台股 ETF 十月除息秀登場，台新臺灣半導體30(00904)與台新臺灣IC設計(00947)兩檔季配半導體ETF公布最新配息，在 AI 浪潮助攻下，00904 預計每單位配息2.2元、00947擬配 2 元，配息金額同步創成立以來新高，若用 9/30 收盤價推算，預估年化配息率分別達 2",
+   "date": "2026-10-01T00:51:20.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "gi3bn9",
+   "title": "AI資料中心搶電！Bloom Energy今年暴漲219% 克雷默仍看好但喊「先別追」",
+   "url": "https://news.cnyes.com/news/id/6619284",
+   "summary": "Bloom Energy今年股價大漲219%，AI資料中心擴張帶動現場燃料電池需求，克雷默仍看好其AI供電布局。 Q2營收年增166%，調整後每股盈餘0.78美元，全年營收預測上調至39億至42億美元。 該公司與甲骨文合作擴大至最多2.8GW，但克雷默提醒估值偏高，可待股價回檔再評估。",
+   "date": "2026-10-01T00:50:04.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "1nu9y6f",
+   "title": "prompt工程师，一个新兴职业的崛起与消失",
+   "url": "https://www.woshipm.com/ai/6470211.html",
+   "summary": "三年前，提示词工程师还是年薪30万美元的AI新贵，如今招聘几近归零。从Anthropic停招到提示词生成器、Agent Skills相继落地，这门手艺正被产品功能与技能生态悄然吞噬。本文复盘这场职业速兴速衰，追问一个更本质的问题：当AI越来越懂人，我们还需要学机器说话吗？ 2023 年 3 月，Anthropic 在招聘网站上挂出一个岗位，Prompt Engineer，也就是提示词工程师，如今这个岗位已经停止接受申请。 留存的页面里，仍能看到系统提示词、模型行为、产品质量等工作要求。招聘停止，当然不能证明一个职业消失了，但这个名字很容易让人想起，几年前围绕它发生过的那场热闹。 当年，Anth",
+   "date": "2026-10-01T00:46:41.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "gi3bjn",
+   "title": "空中驚魂！以色列防長：杜拜航空是一起「恐怖襲擊未遂事件」",
+   "url": "https://news.cnyes.com/news/id/6619246",
+   "summary": "卡茨稱杜拜航空事件是恐怖襲擊未遂。 尼坦雅胡證實，機上一名飛行員刺傷另一名飛行員後，企圖讓飛機墜機。 嫌犯已被逮捕，並在沙烏地阿拉伯接受訊問。",
+   "date": "2026-10-01T00:42:09.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "gi3bmf",
+   "title": "柴油價格飆史高！川普承認「每天」討論出口禁令 Fed調查：高價恐需至少1年才回落",
+   "url": "https://news.cnyes.com/news/id/6619277",
+   "summary": "美國柴油價漲至每加侖6.53美元，創新高，過去一年漲逾四成，衝擊物流、農業等實體經濟。 川普稱正磋商是否禁止柴油出口壓價；白宮同時研擬限產、擴大免稅柴油銷售並敦促歐盟釋放儲備。 業界憂禁令推高海外油價且拖累墨西哥灣煉廠降載；德州已進入災難狀態放寬規定因應。",
+   "date": "2026-10-01T00:40:04.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "1ouqpia",
+   "title": "Gemini 4 正式发布，我们终于有了一个写作强于代码的前沿模型",
+   "url": "https://www.ifanr.com/1682765",
+   "summary": "跑分不可思议，能力谨慎怀疑#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "date": "2026-10-01T00:31:33.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "爱范儿",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.ifanr.com/"
+  },
+  {
+   "id": "gi3bke",
+   "title": "只花22天！Muse在美超越ChatGPT成最快達成500萬次下載量AI應用程式",
+   "url": "https://news.cnyes.com/news/id/6619250",
+   "summary": "Muse上線約3週，下載量突破500萬次，連12天居美國App Store免費榜首 Muse於9月30日問世第22天破500萬，快於ChatGPT 56天、Grok 103天、Claude 492天 Meta自9月16日起加大投放，Muse佔自有廣告展示量最高50%，臉書與WhatsApp份額下滑",
+   "date": "2026-10-01T00:30:11.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "gi3asw",
+   "title": "Fed總部翻修調查出爐！未發現違法 川普仍逼鮑爾辭理事",
+   "url": "https://news.cnyes.com/news/id/6619180",
+   "summary": "Fed總部翻修案監察報告指有管理監督缺失，但未見違法或行政不當，工程估費約24億美元、比原預算多10億美元。 川普批鮑爾應為工程管理不善辭去Fed理事，並要求司法部長Blanche審查報告及後續處置。 Fed稱將依建議由GSA主導後續工程管理，並聘獨立稽核；鮑爾任期至2028年1月。",
+   "date": "2026-10-01T00:30:11.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "dtmfkb",
+   "title": "Nicolas Cage Roasts Marvel Movies as a ‘Glorified WWE’ With ’50-Plus’ Actors in ‘Ridiculous Outfits’",
+   "url": "https://www.thewrap.com/creative-content/movies/nicolas-cage-roasts-marvel-glorified-wwe",
+   "summary": "The actor says comic book movies \"started out terrific\" but have changed in recent years The post Nicolas Cage Roasts Marvel Movies as a ‘Glorified WWE’ With ’50-Plus’ Actors in ‘Ridiculous Outfits’ appeared first on TheWrap.",
+   "date": "2026-10-01T00:28:12.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "1ukkp84",
+   "title": "John Galliano Reworks Zara’s Archive Through a Couture Lens for His First Collection",
+   "url": "https://www.hollywoodreporter.com/lifestyle/shopping/john-galliano-zara-collection-oct-2026-buy-online-1236717639",
+   "summary": "The two-year partnership kicks off Oct. 1 with a collection starting at $29.90 and built from pieces pulled from Zara’s past seasons.",
+   "date": "2026-10-01T00:17:48.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "1i5akd0",
+   "title": "2026年最新「iPhone 手機檔案傳到電腦」五大實用方法總整理 | 徹底解決卡頓痛點！",
+   "url": "https://mashdigi.com/completely-solve-the-problem-of-lag-a-comprehensive-guide-to-five-practical-methods-for-transferring-iphone-files-to-your-computer-in-2026",
+   "summary": "對於許多使用 iPhone 的台灣用戶而言，日常拍照、錄影記錄生活已經是理所當然的習慣。然而，每當手機儲存空間 […]",
+   "date": "2026-10-01T00:00:03.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "mashdigi",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://mashdigi.com"
+  },
+  {
+   "id": "131a4t3",
+   "title": "Creatorverse: Creators Are on the Forefront of AI – Whether They Like It Or Not",
+   "url": "https://www.thewrap.com/media-platforms/tv/creatorverse-creators-are-on-the-forefront-of-ai-whether-they-like-it-or-not",
+   "summary": "TheWrap and What's Trending hosted its first ever AI Creator Day The post Creatorverse: Creators Are on the Forefront of AI – Whether They Like It Or Not appeared first on TheWrap.",
+   "date": "2026-10-01T00:00:00.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "5f7k4m",
+   "title": "俄羅斯視北冰洋為自己的「極地地中海」，會允許中國染指北極嗎？",
+   "url": "https://www.thenewslens.com/article/269829",
+   "summary": "中國為規避馬六甲困境，推動「冰上絲路」北極航線。然此航道受季節、成本及俄羅斯管制等地緣政治因素限制，僅能作為備援通道，無法根本解決其海上交通線的結構性風險。",
+   "date": "2026-09-30T23:59:00.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "gi3bir",
+   "title": "卡什卡利「放鷹」：通膨已蔓延至服務業 仍需壓制 預計今年再升息一次",
+   "url": "https://news.cnyes.com/news/id/6619237",
+   "summary": "卡什卡利稱通膨已擴散至服務業，Fed仍保留升息選項。 他預期今年再升息一次、2027年再加息一次，最新數據未改判斷。 美國經濟仍強韌、失業率4.1%，但房地產承壓；Fed待更多數據。",
+   "date": "2026-09-30T23:58:46.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "5fpxg5",
+   "title": "藍白封殺27位監委提名：剖析國會角力、五權憲法死結與修憲可能性",
+   "url": "https://www.thenewslens.com/article/270334",
+   "summary": "立法院否決全數監委提名，致監察院因委員懸缺而停擺。此憲政僵局凸顯於分立政府體制中，國會人事同意權的行使，可能癱瘓憲政機關運作。",
+   "date": "2026-09-30T23:58:00.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "5fpxg4",
+   "title": "從教宗批黃仁勳、Anthropic示警到OpenAI GPT-6.1喊卡，看美中AI競逐下的台灣戰略重塑",
+   "url": "https://www.thenewslens.com/article/270333",
+   "summary": "本文闡述AI競爭正從算力轉向治理與安全。領導者雖競相開發，亦因風險而自律，凸顯監管兩難。作者主張台灣須超越硬體供應角色，建立可驗證的治理能力，此為比算力更難複製的國家競爭力。",
+   "date": "2026-09-30T23:57:00.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "5fpv2t",
+   "title": "美國靠資本敘事、中國靠實體製造，台灣如何擺脫「算力打工仔」宿命？",
+   "url": "https://www.thenewslens.com/article/270091",
+   "summary": "本文剖析，相較美中建立可累積數據資產的AI閉環，台灣雖掌握關鍵硬體，卻因算力出口而面臨「有供給，無回流」的斷鏈危機。挑戰在於將晶片優勢轉化為本土的數據、知識與系統能力。",
+   "date": "2026-09-30T23:56:00.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "1v3k4tn",
+   "title": "When and Where to Watch ‘The Amazing Race’ Season 39 Online",
+   "url": "https://www.hollywoodreporter.com/tv/tv-news/watch-the-amazing-race-season-39-free-online-streaming-2026-1236717579",
+   "summary": "The new season kicks off with a two-night premiere on Sept. 30 and Oct. 1.",
+   "date": "2026-09-30T23:50:02.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "f46bf",
+   "title": "Lionsgate Chief on ‘Michael’ Success and Ignoring Critics ‘Shouting at You That You’re Making a Horrible Mistake’",
+   "url": "https://www.thewrap.com/industry-news/business/lionsgate-michael-success-horrible-mistake",
+   "summary": "TheGrill 2026: Adam Fogelson, AMC Theatres CEO Adam Aron and Regal CEO Eduardo Acuna talk about this summer's mammoth box office The post Lionsgate Chief on ‘Michael’ Success and Ignoring Critics ‘Shouting at You That You’re Making a Horrible Mistake’ appeared first on TheWrap.",
+   "date": "2026-09-30T23:44:44.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "pk6s64",
+   "title": "Google releases Gemini 4 Argon, called its most powerful model yet",
+   "url": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet",
+   "summary": "Google has released its latest Gemini model, marketing it as a workhorse for coding and cybersecurity work.",
+   "date": "2026-09-30T23:43:07.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "TechCrunch",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://techcrunch.com"
+  },
+  {
+   "id": "gi3bgw",
+   "title": "南韓砸2000億美元投資美國 4家能源企業可望受惠",
+   "url": "https://news.cnyes.com/news/id/6619216",
+   "summary": "南韓將投資最多2000億美元於美國戰略項目，涵蓋阿拉斯加LNG、核電與德州天然氣發電。 投資計畫另包括德州超過6GW天然氣電廠，預計供應AI資料中心等高耗電設施。 ConocoPhillips、Baker Hughes、Cameco與Brookfield Renewable，皆可能受惠。",
+   "date": "2026-09-30T23:40:05.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "1p0vl89",
+   "title": "US economy shows resilience on solid consumer spending, growth data",
+   "url": "https://www.semafor.com/article/09/30/2026/us-economy-shows-resilience-on-consumer-spending-growth-data",
+   "summary": "Cooler-than-expected August inflation data and strong consumer spending gave markets a boost before a frantic final hour of trading erased gains.",
+   "date": "2026-09-30T23:39:35.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "givgxy",
+   "title": "Schumer embraces Trump’s campaign travel, puts Senate fight at ‘50/50’",
+   "url": "https://www.semafor.com/article/09/30/2026/schumer-embraces-trumps-campaign-travel-puts-senate-fight-at-5050",
+   "summary": "The Senate minority leader expressed concerns about Republicans’ money advantage in an interview with Semafor.",
+   "date": "2026-09-30T23:38:25.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "17w3ytl",
+   "title": "FlyDubai Hero Passenger Credits Canadian Docuseries for Helping Avert Midair Disaster",
+   "url": "https://www.hollywoodreporter.com/tv/tv-news/flydubai-hero-passenger-credits-docuseries-help-avert-crash-1236717656",
+   "summary": "‘Mayday,’ aka ‘Air Crash Investigations,’ dramatizes real-life airplane crashes, near crashes, hijackings and bombings.",
+   "date": "2026-09-30T23:34:04.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "gi3bgs",
+   "title": "日銀政策轉向 未來升息可能加速",
+   "url": "https://news.cnyes.com/news/id/6619212",
+   "summary": "路透引述消息人士稱，日銀預期未來升息速度將加快，頻率也會提高，以防通膨超標。 周四短觀與周五通膨數據受關注，若東京9月核心CPI升至2.4%如預期，或強化10月、12月再升息理由。 日銀雖對10月升息設高門檻，但植田和男稱若通膨急升將提前行動；前委員櫻井真估明年6月利率升至2%。",
+   "date": "2026-09-30T23:30:10.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "5fpxh4",
+   "title": "從系辦裁撤到美圖秀秀取代Adobe：世新校務爭議未止，學生團體將赴教育部陳情",
+   "url": "https://www.thenewslens.com/article/270346",
+   "summary": "世新大學行政改制引發爭議。學生就恢復系辦、資源配置等四大訴求與校方對談，但歧見仍存。學生方將赴教育部陳情，爭議未歇。",
+   "date": "2026-09-30T23:30:00.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "i92002",
+   "title": "Golden Globes Surprise: ‘Obsession’ Submitted for Musical/Comedy Categories (Exclusive)",
+   "url": "https://www.hollywoodreporter.com/movies/movie-news/golden-globes-obsession-musical-comedy-categories-1236717417",
+   "summary": "Insiders cite as precedents numerous other genre-blurring films that were submitted, accepted and nominated at the Globes in the musical or comedy categories, including 'Get Out,' 'The Banshees of Inisherin,' 'Triangle of Sadness,' 'Poor Things,' 'The Substance' and 'Bugonia.'",
+   "date": "2026-09-30T23:20:14.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "gi3bg1",
+   "title": "川普公布南韓對美2000億美元投資計畫 含阿拉斯加LNG",
+   "url": "https://news.cnyes.com/news/id/6619208",
+   "summary": "川普稱南韓擬投資美國能源建設最多 2000 億美元，其中約 540 億美元用於阿拉斯加 LNG 計畫 白宮指阿拉斯加 LNG 將建 807 英里管線連接北坡與南部出口碼頭，施工約三年、出口再兩年 韓方是否批准與實際出資未明；川普藉此凸顯關稅成果，也被視為期中選舉前造勢",
+   "date": "2026-09-30T23:20:03.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "q65xna",
+   "title": "Alec Baldwin Civil Rights Lawsuit Over ‘Rust’ Prosecution Dismissed",
+   "url": "https://www.hollywoodreporter.com/movies/movie-news/alec-baldwin-civil-rights-lawsuit-rust-prosecution-dismissed-1236717664",
+   "summary": "The court said that Santa Fe officials are shielded by prosecutorial immunity, though it nodded to potentially \"gross misconduct\" across the criminal case.",
+   "date": "2026-09-30T23:13:54.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "1gy97ul",
+   "title": "Peppino Mazzullo, Voice of Topo Gigio, the Italian Puppet on ‘The Ed Sullivan Show,’ Dies at 100",
+   "url": "https://www.hollywoodreporter.com/tv/tv-news/peppino-mazzullo-dead-topo-gigio-ed-sullivan-show-puppet-1236717655",
+   "summary": "The actor helped bring out a warmer side of the famously wooden host in sketches from 1962-71.",
+   "date": "2026-09-30T23:09:08.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "10dr5iz",
+   "title": "‘Grand Theft Auto VI’ Becomes First Video Game of 2026 to Top List of Titles People Are Most Excited About",
+   "url": "https://www.thewrap.com/commentary-analysis/data-analysis/grand-theft-auto-vi-excitement-chart",
+   "summary": "ScreenShare: A data partnership between ScreenEngine & TheWrap The post ‘Grand Theft Auto VI’ Becomes First Video Game of 2026 to Top List of Titles People Are Most Excited About appeared first on TheWrap.",
+   "date": "2026-09-30T23:08:51.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "1gss68l",
+   "title": "The Pentagon taps Elon Musk and Palmer Luckey to help decide what the military should do next",
+   "url": "https://techcrunch.com/2026/09/30/the-pentagon-taps-elon-musk-and-palmer-luckey-to-help-decide-what-the-military-should-do-next",
+   "summary": "Defense Secretary Pete Hegseth just launched a 120-day study on the future of warfare, led by Elon Musk, Palmer Luckey, and Newt Gingrich, and while it makes sense given their ties to the administration, critics could point out that Musk's and Luckey's companies already sell the kinds of technology ",
+   "date": "2026-09-30T23:08:00.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "TechCrunch",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://techcrunch.com"
+  },
+  {
+   "id": "shbi4g",
+   "title": "‘The Real Housewives of Salt Lake City’ Season 7 Notches Biggest Premiere Ratings Yet | Exclusive",
+   "url": "https://www.thewrap.com/creative-content/tv-shows/real-housewives-of-salt-lake-city-season-7-premiere-ratings-bravo",
+   "summary": "The opener tallied 2.6 million total viewers across platforms in its opening week The post ‘The Real Housewives of Salt Lake City’ Season 7 Notches Biggest Premiere Ratings Yet | Exclusive appeared first on TheWrap.",
+   "date": "2026-09-30T23:00:00.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "1atnyxz",
+   "title": "‘Beware Boiúna’ Review: A Really, Really Scary Movie About a Really, Really Big Snake",
+   "url": "https://www.thewrap.com/creative-content/reviews/beware-boiuna-review-jessica-rothe-kiana-madeira",
+   "summary": "Jessica Rothe and Kiana Madeira try to survive a killer Amazon god The post ‘Beware Boiúna’ Review: A Really, Really Scary Movie About a Really, Really Big Snake appeared first on TheWrap.",
+   "date": "2026-09-30T23:00:00.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "kjf7wq",
+   "title": "Where to Stream ID’s Aileen Wuornos Docuseries ‘Unmasking a Monster’ Online",
+   "url": "https://www.hollywoodreporter.com/tv/tv-news/watch-aileen-wuornos-id-docuseries-unmasking-a-monster-free-1236717581",
+   "summary": "By pairing exclusive interviews with AI-mask technology, Investigation Discovery's new three-parter examines the infamous serial killer like never before.",
+   "date": "2026-09-30T22:58:18.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "gi3as0",
+   "title": "10年期美債遭遇逾30年來最慘季 TLT寫下歷史新低",
+   "url": "https://news.cnyes.com/news/id/6619171",
+   "summary": "10年期美債殖利率升至5.29%，過去3個月累升87個基點，創1994年Q1來最大季升幅 美國8月PCE年增3.4%、核心PCE年增3%低於預期，FedWatch顯示10月升息1碼機率降至約37% 長天期債壓力未解，TLT第三季跌10%且創歷史新低，9月非農就業將成下一個關鍵",
+   "date": "2026-09-30T22:55:51.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "ota6hi",
+   "title": "Source Code: WSJ's social carousels, Black Current News and a queer critique of AI",
+   "url": "https://www.journalism.co.uk/source-code-wsjs-social-carousels-black-current-news-and-queer-critique-of-ai",
+   "summary": "Three speakers at London's much-loved networking event showed how journalists can challenge AI's blind spots, serve overlooked communities and win over audiences on social media",
+   "date": "2026-09-30T22:53:55.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "Journalism.co.uk",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.journalism.co.uk"
+  },
+  {
+   "id": "xncc3i",
+   "title": "Upworthy Is Launching an Entertainment Studio (Exclusive)",
+   "url": "https://www.hollywoodreporter.com/business/digital/upworthy-launching-entertainment-studio-1236713896",
+   "summary": "One of the dominant digital platforms of the early social media era has hired Sarah Yourgrau to help it develop positive, uplifting stories to new platforms.",
+   "date": "2026-09-30T22:52:36.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "w08jj9",
+   "title": "Florence Pugh Says Instagram Censored Post About Cornell Assault Case",
+   "url": "https://www.thewrap.com/culture-lifestyle/culture/florence-pugh-instagram-censored-cornell-case",
+   "summary": "\"Instagram censored me when I said it, which is also just another shock that women are censored,\" the \"East of Eden\" actress says The post Florence Pugh Says Instagram Censored Post About Cornell Assault Case appeared first on TheWrap.",
+   "date": "2026-09-30T22:51:26.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "gi3atv",
+   "title": "特斯拉與SpaceX合併又近一步？投票制度改變引聯想",
+   "url": "https://news.cnyes.com/news/id/6619192",
+   "summary": "特斯拉為散戶股東設定常設投票指示，股東將依董事會建議自動投票，仍可自行覆蓋。 此舉有助動員約持有40%流通股的散戶，也可能提高董事會提案與馬斯克2025年獎勵計畫的通過機率。 市場並關注特斯拉與SpaceX合併可能性，兩家公司皆聚焦AI；周三股價反應不大。",
+   "date": "2026-09-30T22:40:02.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "wl4o3s",
+   "title": "Everything New on Netflix in October 2026",
+   "url": "https://www.thewrap.com/creative-content/what-to-watch/new-on-netflix-october-2026",
+   "summary": "From \"East of Eden\" and \"Below\" to \"The Diplomat\" Season 4 The post Everything New on Netflix in October 2026 appeared first on TheWrap.",
+   "date": "2026-09-30T22:39:14.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
    "id": "g21qy5",
    "title": "OpenAI accuses top Chinese lab of distilling models",
    "url": "https://www.semafor.com/article/09/30/2026/openai-accuses-top-chinese-lab-of-distilling-models",
@@ -933,6 +1533,18 @@ window.NEWS_DATA = {
    "site": "https://www.thewrap.com"
   },
   {
+   "id": "9shcfc",
+   "title": "P&G 測紙巾、三星 SDI 測電池內部金屬：AI 視覺如何攻下傳統光學檢測盲點？",
+   "url": "https://techorange.com/2026/10/01/pg-siemens-samsung",
+   "summary": "在製造現場，品質檢測一直是自動化最難處理的環節之一。當產線運轉速度越快，留給相機擷取影像、算力進行分析與判定瑕疵的時間就被壓縮得越短，若遇上紙巾、包裝材料等容易伸縮、褶皺或移位的柔軟材質，產品外觀本身的變化甚至可能被誤判為瑕疵。若瑕疵藏在產品內部，傳統光學檢測更難直接辨識。 近年來，工業級 AI 視覺技術的普及正徹底翻轉傳統自動光學檢測（AOI）的局限。寶潔（P&G）與西門子（Siemens）聯手打造的「視覺檢測駕駛艙」（Visual Inspection Cockpit，VIC），成功將深度學習導入極速運轉的日用消費品產線；三星 SDI 則將 AI 深度結合 X-Ray 穿透技術，用於精準捕",
+   "date": "2026-09-30T22:24:00.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "TechOrange",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://buzzorange.com/techorange/"
+  },
+  {
    "id": "jec9kf",
    "title": "US watchdog to investigate AI labs for potential consumer harms",
    "url": "https://www.semafor.com/article/09/30/2026/ftc-to-investigate-openai-anthropic-for-potential-consumer-harms",
@@ -967,6 +1579,18 @@ window.NEWS_DATA = {
    "tier": "A",
    "lang": "en",
    "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "gbrvp8",
+   "title": "Reddit ends support for RSS feeds",
+   "url": "https://www.socialmediatoday.com/news/reddit-ends-support-for-rss-feeds/831844",
+   "summary": "<p>The platform also announced an end to free API access as it tries to protect its data from artificial intelligence scrapers.</p>",
+   "date": "2026-09-30T22:17:43.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "Social Media Today",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.socialmediatoday.com"
   },
   {
    "id": "1g57k07",
@@ -1005,6 +1629,18 @@ window.NEWS_DATA = {
    "site": "https://news.cnyes.com"
   },
   {
+   "id": "9u1h2d",
+   "title": "Instagram adds option to boost livestreams",
+   "url": "https://www.socialmediatoday.com/news/instagram-adds-option-to-boost-livestreams/831842",
+   "summary": "<p>The app already allows promotional boosts of posts, Stories and Reels, and now creators can use an in-app feature to increase engagement of their live videos.</p>",
+   "date": "2026-09-30T22:05:28.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "Social Media Today",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.socialmediatoday.com"
+  },
+  {
    "id": "14iuavb",
    "title": "大成基金的“三不像”困局",
    "url": "https://www.huxiu.com/article/4894877.html",
@@ -1027,6 +1663,18 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://www.npr.org"
+  },
+  {
+   "id": "1jz0gnw",
+   "title": "WhatsApp adds new parental controls",
+   "url": "https://www.socialmediatoday.com/news/whatsapp-adds-new-parental-controls/831841",
+   "summary": "<p>The messaging app has implemented tools that will help monitor what groups teens connect with and how certain in-app features are used.</p>",
+   "date": "2026-09-30T21:56:52.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "Social Media Today",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.socialmediatoday.com"
   },
   {
    "id": "1ts915y",
@@ -1065,6 +1713,18 @@ window.NEWS_DATA = {
    "site": "https://news.cnyes.com"
   },
   {
+   "id": "uduzc6",
+   "title": "TikTok hosts launch of David Geffen Galleries",
+   "url": "https://www.socialmediatoday.com/news/tiktok-hosts-launch-of-david-geffen-galleries/831839",
+   "summary": "<p>The app expanded its Museums Alive series by partnering with the Los Angeles County Museum of Art to showcase the museum&rsquo;s Egyptian collection.</p>",
+   "date": "2026-09-30T21:39:17.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "Social Media Today",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.socialmediatoday.com"
+  },
+  {
    "id": "b3j0v7",
    "title": "得过抑郁症，就该被辞退吗，如何保障自身权益",
    "url": "https://www.huxiu.com/article/4894963.html",
@@ -1087,6 +1747,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "en",
    "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "1po2fjw",
+   "title": "LinkedIn updates its AI-powered hiring bot",
+   "url": "https://www.socialmediatoday.com/news/linkedin-updates-its-ai-powered-hiring-bot/831837",
+   "summary": "<p>The platform announced the launch of Hiring Assistant 2, which has improved capacity for personalization and candidate matchmaking.</p>",
+   "date": "2026-09-30T21:21:03.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "Social Media Today",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.socialmediatoday.com"
   },
   {
    "id": "gi2otw",
@@ -1258,9 +1930,9 @@ window.NEWS_DATA = {
   },
   {
    "id": "i800j3",
-   "title": "Factory CEO just accused his VC board advisor of spying for Cognition",
+   "title": "Factory CEO just accused his VC board adviser of spying for Cognition",
    "url": "https://techcrunch.com/2026/09/30/factory-ceo-just-accused-his-vc-board-advisor-of-spying-for-cognition",
-   "summary": "VC Chris Degnan and former board advisor to Factory AI has taken a job as chief revenue officer for Cognition.",
+   "summary": "VC Chris Degnan and former board adviser to Factory AI has taken a job as chief revenue officer for competitor Cognition -- and everyone is arguing on X about it.",
    "date": "2026-09-30T20:39:09.000Z",
    "firstSeen": "2026-09-30T22:37:50.960Z",
    "source": "TechCrunch",
@@ -1423,6 +2095,18 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://thenextweb.com"
+  },
+  {
+   "id": "w3f4yd",
+   "title": "Meta adds AI assistant to Edits",
+   "url": "https://www.socialmediatoday.com/news/meta-adds-ai-assistant-to-edits/831834",
+   "summary": "<figure><div><img src=\"https://imgproxy.divecdn.com/gvE9M4tCUAlVXxglyndgfnzaT_HWyERWh9xxNceExf0/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9lZGl0c19haV9hc3Npc3RhbnQucG5n.webp\"/></div></figure><p>The company said its artificial intelligence-powered &ldquo;creative partner&rdquo",
+   "date": "2026-09-30T19:48:11.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "Social Media Today",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.socialmediatoday.com"
   },
   {
    "id": "1tsanom",
@@ -1605,6 +2289,18 @@ window.NEWS_DATA = {
    "site": "https://www.searchenginejournal.com"
   },
   {
+   "id": "1kf47e1",
+   "title": "Slow Ventures Backs 3 More Creators in Its $64 Million Bet on Niche ‘Cults’",
+   "url": "https://www.adweek.com/dealroom/slow-ventures-invests-creators",
+   "summary": "The venture capital firm is writing $1 million to $3 million checks to creators it believes can turn trusted audiences into portfolios of businesses.",
+   "date": "2026-09-30T19:00:00.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "Adweek",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.adweek.com"
+  },
+  {
    "id": "macoxa",
    "title": "Esther Rantzen, TV presenter and Childline founder, dies aged 86",
    "url": "https://www.theguardian.com/tv-and-radio/2026/sep/30/esther-rantzen-dies",
@@ -1675,6 +2371,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-TW",
    "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "l4rtrf",
+   "title": "Instinct Is Putting Ads in Its AI Agent (Kind Of)",
+   "url": "https://adtechradar.com/2026/09/30/instinct-ai-agent-ad-like-selections",
+   "summary": "We’re calling ads something else now. Instinct, a fast-growing AI agent competing with Meta’s Muse, has introduced what… The post Instinct Is Putting Ads in Its AI Agent (Kind Of) first appeared on AdTechRadar.",
+   "date": "2026-09-30T17:58:19.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "AdTechRadar",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://adtechradar.com"
   },
   {
    "id": "18ojama",
@@ -5529,6 +6237,18 @@ window.NEWS_DATA = {
    "site": "https://www.thewrap.com"
   },
   {
+   "id": "7mc1ik",
+   "title": "The Trade Desk Can’t Currently Serve Ads on Safari",
+   "url": "https://adtechradar.com/2026/09/29/the-trade-desk-safari-apple-ios-27",
+   "summary": "Well, this is awkward. According to a juicy report from AdExchanger, The Trade Desk can’t currently serve ads… The post The Trade Desk Can’t Currently Serve Ads on Safari first appeared on AdTechRadar.",
+   "date": "2026-09-30T03:11:11.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "AdTechRadar",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://adtechradar.com"
+  },
+  {
    "id": "5zdehg",
    "title": "Back by Popular Demand: Last Year’s Most Unexpected Hit, Pumpkin Spice 5-Hour Energy",
    "url": "https://www.hollywoodreporter.com/lifestyle/shopping/viral-pumpkin-spice-5-hour-energy-drink-fall-2026-relaunch-1236715162",
@@ -6636,7 +7356,7 @@ window.NEWS_DATA = {
    "id": "1clvd6z",
    "title": "TikTok adds certification tiers for agency partners",
    "url": "https://www.socialmediatoday.com/news/tiktok-adds-certification-tiers-for-agency-partners/831719",
-   "summary": "<p>The platform will be offering either Agency Partner or Premier Agency Partner badges to assure marketers that partnership requirements have been met.</p>",
+   "summary": "<p>The platform will offer Agency Partner or Premier Agency Partner badges to assure marketers that partnership requirements have been met.</p>",
    "date": "2026-09-29T22:29:28.000Z",
    "firstSeen": "2026-09-30T10:44:29.093Z",
    "source": "Social Media Today",
@@ -6648,7 +7368,7 @@ window.NEWS_DATA = {
    "id": "1d7jt9o",
    "title": "Instagram updates its educational safety program",
    "url": "https://www.socialmediatoday.com/news/instagram-updates-its-educational-safety-program/831718",
-   "summary": "<p>The app&rsquo;s School Partnerships offer educators a way to report potential safety issues directly, and is launching school-related in-app hubs.</p>",
+   "summary": "<p>The School Partnerships program offers educators a way to report potential safety issues directly.</p>",
    "date": "2026-09-29T22:27:54.000Z",
    "firstSeen": "2026-09-30T10:44:29.093Z",
    "source": "Social Media Today",
@@ -6699,6 +7419,18 @@ window.NEWS_DATA = {
    "summary": "<p>The company is trying to convert Facebook Groups into a more interactive Q&amp;A format, while also adding topic labels to help with discovery.</p>",
    "date": "2026-09-29T22:20:15.000Z",
    "firstSeen": "2026-09-30T10:44:29.093Z",
+   "source": "Social Media Today",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.socialmediatoday.com"
+  },
+  {
+   "id": "8amlp9",
+   "title": "Meta adds contributor badges to Forum chat app",
+   "url": "https://www.socialmediatoday.com/news/meta-adds-contributor-badges-to-forum-chat-app/831717",
+   "summary": "<p>The company is trying to convert Facebook Groups into a more interactive Q&amp;A format, while also adding topic labels to help with discovery.</p>",
+   "date": "2026-09-29T22:20:15.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
    "source": "Social Media Today",
    "tier": "B",
    "lang": "en",
@@ -6828,7 +7560,7 @@ window.NEWS_DATA = {
    "id": "18rwizp",
    "title": "Pinterest offers post-holiday marketing tips",
    "url": "https://www.socialmediatoday.com/news/pinterest-offers-post-holiday-marketing-tips/831715",
-   "summary": "<p>The company said that in the week between Christmas and New Year&rsquo;s, marketing experts should shift from gifting to self-care.</p>",
+   "summary": "<p>In the week between Christmas and New Year&rsquo;s, marketing experts should shift from gifting to self-care, according to the platform.</p>",
    "date": "2026-09-29T21:45:40.000Z",
    "firstSeen": "2026-09-30T10:44:29.093Z",
    "source": "Social Media Today",
@@ -11563,6 +12295,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-CN",
    "site": "https://www.ifanr.com/"
+  },
+  {
+   "id": "1vqlq5m",
+   "title": "MNTN, AppsFlyer Work to Close the CTV-to-Mobile Gap",
+   "url": "https://adtechradar.com/2026/09/28/mntn-appsflyer-ctv-mobile-attribution",
+   "summary": "TV would like some credit. MNTN has expanded its integration with AppsFlyer to give advertisers a clearer picture… The post MNTN, AppsFlyer Work to Close the CTV-to-Mobile Gap first appeared on AdTechRadar.",
+   "date": "2026-09-29T03:21:36.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "AdTechRadar",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://adtechradar.com"
   },
   {
    "id": "1feh6nu",
@@ -21219,6 +21963,18 @@ window.NEWS_DATA = {
    "summary": "The best Stratechery content from the week of September 21, 2026, including Meta vs. Amazon, GM bending the knee to CarPlay, and profiling the profiler.",
    "date": "2026-09-25T17:00:00.000Z",
    "firstSeen": "2026-09-30T22:37:50.960Z",
+   "source": "STRATECHERY",
+   "tier": "S",
+   "lang": "en",
+   "site": "https://stratechery.com"
+  },
+  {
+   "id": "135mi1d",
+   "title": "Begun, the Aggregator Wars Have",
+   "url": "https://stratechery.com/2026/begun-the-aggregator-wars-have/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L2JlZ3VuLXRoZS1hZ2dyZWdhdG9yLXdhcnMtaGF2ZS8iXX0sImV4cCI6MTc5MzQxMDQ5MSwiaWF0IjoxNzkwODE4NDkxLCJpc3MiOiJodHRwczovL2FwcC5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyBwb2RjYXN0IHJzcyIsInN1YiI6Ijk0MDg0MGUyLTVlZjktNGJlNS04MjUwLTM3ODFmMjZlZTc5YSIsInVzZSI6ImFjY2VzcyJ9.T8RZtwa-Npy4BWSgKnod611FA-A4jZ81-01hzKO-dKmXvr_XJLH4C641Xi6klGnXY-Fjvgebs42DEVMTPRfR8a6LdCWo7h6ESrgUrF9AHICgQXP74eGRgdJmsgFbfBIuASCJwEsJHztSoE7It9u-yj5lv4vZkkSNJkHeCYRtfywJAUh2DIBmqZ1XiD9G1dIHbdLw7RuX4nGTG2g_7xgIfEMse1k6-zBtXHEv9V07f4r5Iys5SNQ8fsQrR9jqCHY46Z4YBE7YHJlOKCt7iU974LFz9CraIm96iQEv-M93Wgr3Qz5h6lnPNtDxjsj0UXEQIC2FxgL7jPRAKofCQJf1og",
+   "summary": "The best Stratechery content from the week of September 21, 2026, including Meta vs. Amazon, GM bending the knee to CarPlay, and profiling the profiler.",
+   "date": "2026-09-25T17:00:00.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
    "source": "STRATECHERY",
    "tier": "S",
    "lang": "en",
@@ -59709,6 +60465,18 @@ window.NEWS_DATA = {
    "site": "https://stratechery.com"
   },
   {
+   "id": "s3nvfz",
+   "title": "Doomforce",
+   "url": "https://stratechery.com/2026/doomforce/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L2Rvb21mb3JjZS8iXX0sImV4cCI6MTc5MzQxMDQ5MSwiaWF0IjoxNzkwODE4NDkxLCJpc3MiOiJodHRwczovL2FwcC5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyBwb2RjYXN0IHJzcyIsInN1YiI6Ijk0MDg0MGUyLTVlZjktNGJlNS04MjUwLTM3ODFmMjZlZTc5YSIsInVzZSI6ImFjY2VzcyJ9.BUia32iXHU3CvlTChu3qDWfYPaPni0hX-ZH5lNu-x9KL2nO_GRYlKf6C54wdUkla890Nj1OZvpSjLSbLpmFj-4G6_Uk8hcWsVSg6QdRGI73a8QlrFbi_x34_ScfKct37RhVorKmS-y-zIJFRNBSDgz7Mm78xoJJT5dIjcjt5iLAFS8OpH7CZzMM-ZsAs0NsTA5l_7uQAOQHB7b0pW8ICGSWjpB4UxcKGoEe2qDKPmU3Xtfx6HhS2RZqQ0Xun5cIuQqI8KuGhLkZVwEfug4HTiOBYg0d4pEv7YdGv7Zc2ZZvJFQzoX1pwc465GFfzkdLoRzghm95SLe1Pyiz_qBZliA",
+   "summary": "The best Stratechery content from the week of September 14, 2026, including the view from anywhere but San Francisco, the limited potential for a pacing deal, and the Salesforce zag.",
+   "date": "2026-09-18T17:00:00.000Z",
+   "firstSeen": "2026-10-01T01:34:55.935Z",
+   "source": "STRATECHERY",
+   "tier": "S",
+   "lang": "en",
+   "site": "https://stratechery.com"
+  },
+  {
    "id": "1ramrj5",
    "title": "Jacobs Media Separated Profitable Events Brand From Rest of Company",
    "url": "https://www.amediaoperator.com/analysis/jacobs-media-separated-profitable-events-brand-from-rest-of-company",
@@ -66211,90 +66979,6 @@ window.NEWS_DATA = {
    "tier": "A",
    "lang": "en",
    "site": "https://www.mediapost.com"
-  },
-  {
-   "id": "14aaouz",
-   "title": "Automotive TV Spending Falls 15.4% In August",
-   "url": "https://www.mediapost.com/publications/article/418078/automotive-tv-spending-falls-154-in-august.html",
-   "summary": "\"Sports remained a significant driver of automaker reach in August, with the WNBA in particular seeing notable year-over-year impression increases,\" says iSpot.tv's Stuart Schwartzapfel.",
-   "date": "2026-09-16T23:38:29.000Z",
-   "firstSeen": "2026-09-21T03:30:54.931Z",
-   "source": "MediaPost",
-   "tier": "A",
-   "lang": "en",
-   "site": "https://www.mediapost.com"
-  },
-  {
-   "id": "1kblm72",
-   "title": "Microsoft AI Chief Warns Humanlike Claude Is Risky",
-   "url": "https://www.mediapost.com/publications/article/418048/microsoft-ai-chief-warns-humanlike-claude-is-risky.html",
-   "summary": "The Microsoft CEO warned of the risks of training AI models like Anthropic's Claude to be human-like and consider their own state of consciousness or welfare.",
-   "date": "2026-09-16T23:30:42.000Z",
-   "firstSeen": "2026-09-21T03:30:54.931Z",
-   "source": "MediaPost",
-   "tier": "A",
-   "lang": "en",
-   "site": "https://www.mediapost.com"
-  },
-  {
-   "id": "a2ojda",
-   "title": "X adds in-stream stock trading",
-   "url": "https://www.socialmediatoday.com/news/x-adds-in-stream-stock-trading/830620",
-   "summary": "<p>Users in the U.S. can now tap through Cashtag partner listings to buy or trade stocks in-stream, furthering the platform&rsquo;s ambitions to provide financial services.</p>",
-   "date": "2026-09-16T23:07:58.000Z",
-   "firstSeen": "2026-09-18T10:03:21.928Z",
-   "source": "Social Media Today",
-   "tier": "B",
-   "lang": "en",
-   "site": "https://www.socialmediatoday.com"
-  },
-  {
-   "id": "1rbvx4p",
-   "title": "Google Search Profile Badges Expose The Publisher Traffic Crisis",
-   "url": "https://www.searchenginejournal.com/google-search-profile-badges-expose-the-publisher-traffic-crisis/589724",
-   "summary": "Google published guidance for adding a Search profile badge as Search becomes a destination for following creators and publisher. The post Google Search Profile Badges Expose The Publisher Traffic Crisis appeared first on Search Engine Journal.",
-   "date": "2026-09-16T23:07:48.000Z",
-   "firstSeen": "2026-09-18T10:03:21.928Z",
-   "source": "Search Engine Journal",
-   "tier": "C",
-   "lang": "en",
-   "site": "https://www.searchenginejournal.com"
-  },
-  {
-   "id": "15a4q6g",
-   "title": "Report highlights the value of creator-led collabs on Instagram",
-   "url": "https://www.socialmediatoday.com/news/report-highlights-the-value-of-creator-led-collabs-on-instagram/830619",
-   "summary": "<p>Creator-published brand collaborations outperform brand posts and brand-published collaborations, according to a new study from Emplifi.</p>",
-   "date": "2026-09-16T23:04:38.000Z",
-   "firstSeen": "2026-09-18T10:03:21.928Z",
-   "source": "Social Media Today",
-   "tier": "B",
-   "lang": "en",
-   "site": "https://www.socialmediatoday.com"
-  },
-  {
-   "id": "qh5vx1",
-   "title": "Global survey finds sinking trust in US, Chinese leadership",
-   "url": "https://www.semafor.com/article/09/16/2026/global-survey-finds-sinking-trust-in-us-chinese-leadership",
-   "summary": "When discussing solutions to global ​problems people “are no longer asking ⁠what do the Americans think,” the survey’s commissioner said.",
-   "date": "2026-09-16T22:44:55.000Z",
-   "firstSeen": "2026-09-22T08:05:23.339Z",
-   "source": "Semafor",
-   "tier": "A",
-   "lang": "en",
-   "site": "https://www.semafor.com/vertical/media"
-  },
-  {
-   "id": "1m5nw9w",
-   "title": "勞斯萊斯用代理式 AI 大改造 IT：MTTR 從 6 天砍到 1 天、38,000 張工單自動分流",
-   "url": "https://techorange.com/2026/09/17/ai-control-tower-rolls-royce-servicenow",
-   "summary": "對航空引擎製造商而言，IT 系統異常影響的不只是員工能否順利工作，更直接牽動生產線的運作效率。英國航空引擎巨頭勞斯萊斯（Rolls-Royce）近年將代理式 AI（Agentic AI）與預測性智慧導入企業 IT 服務，打破長期累積的系統複雜度、資料孤島與重複性工作。 據官方案例顯示，這項轉型已將平均修復時間（MTTR）從 6 天縮短至 1 天，54% 的 IT 查詢無須人工介入，單是在生產現場（Shop floor）就釋放了約 30 萬小時生產力。 打破轉型瓶頸：先做資料清理與治理，再推動員工採用 勞斯萊斯擁有超過 80 年的工程與製造經驗，長期累積的營運系統也逐漸形成工作流程複雜、工具使用",
-   "date": "2026-09-16T22:38:00.000Z",
-   "firstSeen": "2026-09-18T10:03:21.928Z",
-   "source": "TechOrange",
-   "tier": "B",
-   "lang": "zh-TW",
-   "site": "https://buzzorange.com/techorange/"
   }
  ]
 };
