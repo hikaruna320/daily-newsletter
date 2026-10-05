@@ -499,6 +499,8 @@ ${todayStr()}　市場訊息
 
 標題請一律翻譯成通順的繁體中文放入 [ ] 中；「原文｜」這一行只填原文標題本身，不要加上「英文原文標題」等其他文字說明。
 
+每則新聞的「📍【媒體名稱】[標題](原文網址)」必須完整寫在同一行，中途不可換行，收尾的右括號也要在同一行。
+
 排版規則：標題與摘要的中文，與英文、數字之間一律插入一個半形空格，例如「Netflix 遭降評跌近 5%」「主導 26% 的 AI 研發工作」「紐約時報迎接創刊 175 週年」。中文與半形符號之間也比照辦理。但全形標點（，。、：；？！「」）前後不要加空格。
 
 ---（各新聞間請用分隔線隔開）---
@@ -681,14 +683,30 @@ function parseAiResultToHtml(raw) {
     });
     if (cur.length) blocks.push(cur);
 
+    const LINK_RE = /\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/;
+    // 內文行：摘要、原文標題、分隔線、空行。用來判斷哪裡不該再往下接。
+    const isBodyLine = (l) => !l || l.startsWith('•') || /^原文[｜:：]/.test(l) || /^-{3,}/.test(l);
+
     blocks.forEach(block => {
-      let head = block[0].replace('📍', '').trim();
-      const body = block.slice(1).map(l => l.trim()).filter(l => l && !/^-{3,}/.test(l));
+      const rows = block.map(l => l.trim());
+      rows[0] = rows[0].replace('📍', '').trim();
+
+      // AI 偶爾會把 [標題](網址) 拆成兩行，最常見的是收尾括號掉到下一行。
+      // 這時標題行比對不到連結語法，整串 markdown 會原封不動印出來，
+      // 落單的「)」還會被當成內文。所以先把斷掉的連結接回來再解析。
+      // 只接「不像內文」的行，以免把摘要或原文標題吃進標題裡。
+      let head = rows[0];
+      let used = 1;
+      while (used < rows.length && head.includes('[') && !LINK_RE.test(head) && !isBodyLine(rows[used])) {
+        head = (head + rows[used]).trim();
+        used++;
+      }
+      const body = rows.slice(used).filter(l => l && !/^-{3,}/.test(l));
 
       let media = '';
       head = head.replace(/【(.+?)】/, (m, g) => { media = g.trim(); return ''; }).trim();
 
-      const link = head.match(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/);
+      const link = head.match(LINK_RE);
       let titleHtml, sub = '';
       if (link) {
         titleHtml = mdLink(link[0], `color:${BLUE};font-family:${SERIF};font-size:24px;font-weight:bold;`);
