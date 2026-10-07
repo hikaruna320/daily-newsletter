@@ -731,9 +731,14 @@ function parseAiResultToHtml(raw) {
   }
 
   // Word 貼上「保持原始格式」時，沒有明確設色的表格邊框會被強制套用預設格線，
-  // 因此不寫 border:none，而是把邊框顏色設成跟儲存格背景色一樣，讓格線視覺上完全隱形
-  const NOBORDER_PAPER = `border:1px solid #E7E1D2;mso-border-alt:none;`;
-  const NOBORDER_CARD = `border:1px solid ${CARD};mso-border-alt:none;`;
+  // 因此不寫 border:none，而是把邊框顏色設成跟儲存格背景色一樣，讓格線視覺上完全隱形。
+  //
+  // 這裡刻意不加 mso-border-alt。它是 Word 專用指令，正常寫法要明確指定
+  //「樣式 顏色 粗細」（例如 solid windowtext .5pt），而先前寫的是 none —— 不是合法值。
+  // 推測對方按回覆時 Word 會再處理一次表格，讀到這個無效值就退回預設的黑框，
+  // 導致本來同色隱形的左右邊框整個變黑，每則新聞都被黑框包起來。
+  const NOBORDER_PAPER = `border:1px solid #E7E1D2;`;
+  const NOBORDER_CARD = `border:1px solid ${CARD};`;
   // 分隔線一律畫在「表格儲存格」的邊框上，因為信箱的編輯器會重寫 <p> 的樣式，
   // 但不會動表格結構——新聞之間的細線一直都正常，就是這個原因。
   //
@@ -750,7 +755,7 @@ function parseAiResultToHtml(raw) {
   const EDGE_ITEM = `1px solid ${LINE}`;     // 各則新聞之間
   const EDGE_FOOTER = `2px solid ${INK}`;    // footer 上緣
   const cellEdges = (top, bottom) =>
-    `border-left:${EDGE_HIDDEN};border-right:${EDGE_HIDDEN};border-top:${top};border-bottom:${bottom};mso-border-alt:none;`;
+    `border-left:${EDGE_HIDDEN};border-right:${EDGE_HIDDEN};border-top:${top};border-bottom:${bottom};`;
 
   const afterBody = closing.length ? EDGE_HIDDEN : EDGE_FOOTER;
   const beforeBody = kicker ? EDGE_KICKER : EDGE_HIDDEN;
