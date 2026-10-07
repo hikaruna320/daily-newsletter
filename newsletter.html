@@ -731,14 +731,9 @@ function parseAiResultToHtml(raw) {
   }
 
   // Word 貼上「保持原始格式」時，沒有明確設色的表格邊框會被強制套用預設格線，
-  // 因此不寫 border:none，而是把邊框顏色設成跟儲存格背景色一樣，讓格線視覺上完全隱形。
-  //
-  // 這裡刻意不加 mso-border-alt。它是 Word 專用指令，正常寫法要明確指定
-  //「樣式 顏色 粗細」（例如 solid windowtext .5pt），而先前寫的是 none —— 不是合法值。
-  // 推測對方按回覆時 Word 會再處理一次表格，讀到這個無效值就退回預設的黑框，
-  // 導致本來同色隱形的左右邊框整個變黑，每則新聞都被黑框包起來。
-  const NOBORDER_PAPER = `border:1px solid #E7E1D2;`;
-  const NOBORDER_CARD = `border:1px solid ${CARD};`;
+  // 因此不寫 border:none，而是把邊框顏色設成跟儲存格背景色一樣，讓格線視覺上完全隱形
+  const NOBORDER_PAPER = `border:1px solid #E7E1D2;mso-border-alt:none;`;
+  const NOBORDER_CARD = `border:1px solid ${CARD};mso-border-alt:none;`;
   // 分隔線一律畫在「表格儲存格」的邊框上，因為信箱的編輯器會重寫 <p> 的樣式，
   // 但不會動表格結構——新聞之間的細線一直都正常，就是這個原因。
   //
@@ -750,12 +745,16 @@ function parseAiResultToHtml(raw) {
   //   有背景色的實心列 → Word 套用最小列高，細線被撐成粗黑條
   //   實心列 + 透明 data: 圖 → Outlook 正常，但 Gmail 擋內嵌圖，又變粗黑條
   //   段落的 border-top → 瀏覽器正常，但貼進信箱後被編輯器清掉
+  //
+  // 已知未解：對方按「回覆」引用這封信時，Outlook 會把同色隱形的左右邊框變成黑框。
+  // 2026-10-07 試過拿掉 mso-border-alt（曾懷疑是無效值害的），實測對這個狀況沒有幫助，
+  // 也沒有讓格線跑回來，所以已經還原。要再查的話方向不在這個屬性上。
   const EDGE_HIDDEN = `1px solid ${CARD}`;   // 與底色同色 = 隱形，同時壓掉 Word 預設格線
   const EDGE_KICKER = `3px solid ${INK}`;    // 開頭訊息下緣
   const EDGE_ITEM = `1px solid ${LINE}`;     // 各則新聞之間
   const EDGE_FOOTER = `2px solid ${INK}`;    // footer 上緣
   const cellEdges = (top, bottom) =>
-    `border-left:${EDGE_HIDDEN};border-right:${EDGE_HIDDEN};border-top:${top};border-bottom:${bottom};`;
+    `border-left:${EDGE_HIDDEN};border-right:${EDGE_HIDDEN};border-top:${top};border-bottom:${bottom};mso-border-alt:none;`;
 
   const afterBody = closing.length ? EDGE_HIDDEN : EDGE_FOOTER;
   const beforeBody = kicker ? EDGE_KICKER : EDGE_HIDDEN;
