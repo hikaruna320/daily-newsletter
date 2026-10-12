@@ -24,7 +24,7 @@
 
     { "tier": "B", "name": "TechOrange", "lang": "zh-TW", "site": "https://buzzorange.com/techorange/", "feed": "https://techorange.com/feed/", "enabled": true, "exclude": "科技早餐", "note": "擋掉每日彙整的「科技早餐」，只留單篇報導" },
     { "tier": "B", "name": "mashdigi", "lang": "zh-TW", "site": "https://mashdigi.com", "feed": "https://mashdigi.com/feed/", "enabled": true, "note": "" },
-    { "tier": "B", "name": "鉅亨網", "lang": "zh-TW", "site": "https://news.cnyes.com", "feed": "https://news.cnyes.com/rss/v1/news/category/headline", "enabled": true, "exclude": "盤前|盤中|盤後|速報|個股|法說會|台幣|漲停|開盤|買超|賣超|收盤", "note": "頭條全類別，量大，用 exclude 擋掉純盤面快訊" },
+    { "tier": "B", "name": "鉅亨網", "lang": "zh-TW", "site": "https://news.cnyes.com", "feed": "https://news.cnyes.com/rss/v1/news/category/headline", "enabled": true, "exclude": "盤前|盤中|盤後|速報|個股|法說會|台幣|漲停|開盤|買超|賣超|收盤|台股|美股|美債|外資", "note": "頭條全類別，量大，用 exclude 擋掉純盤面快訊" },
     { "tier": "B", "name": "天下雜誌", "lang": "zh-TW", "site": "https://www.cw.com.tw", "feed": "", "enabled": false, "note": "找不到 RSS" },
     { "tier": "B", "name": "woshipm", "lang": "zh-CN", "site": "https://www.woshipm.com", "feed": "https://www.woshipm.com/feed/", "enabled": true, "note": "" },
     { "tier": "B", "name": "爱范儿", "lang": "zh-CN", "site": "https://www.ifanr.com/", "feed": "https://www.ifanr.com/feed", "enabled": true, "exclude": "早报", "note": "擋掉每日彙整的「早报」，只留單篇報導" },
