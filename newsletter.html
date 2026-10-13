@@ -501,6 +501,8 @@ ${todayStr()}　市場訊息
 
 每則新聞的「📍【媒體名稱】[標題](原文網址)」必須完整寫在同一行，中途不可換行，收尾的右括號也要在同一行。
 
+「原文｜」那一行請照原標題完整轉錄，標點一律用半形（例如 ' " ? !），不要用全形符號或全形空格。
+
 排版規則：標題與摘要的中文，與英文、數字之間一律插入一個半形空格，例如「Netflix 遭降評跌近 5%」「主導 26% 的 AI 研發工作」「紐約時報迎接創刊 175 週年」。中文與半形符號之間也比照辦理。但全形標點（，。、：；？！「」）前後不要加空格。
 
 ---（各新聞間請用分隔線隔開）---
@@ -647,6 +649,28 @@ function pangu(s) {
   return t.replace(/\u0000(\d+)\u0000/g, (m, i) => urls[Number(i)] ?? m);
 }
 
+// 全形轉半形。只用在「原文｜」那一行：它必定是外文標題，不會有「全形符號才正確」
+// 的例外，所以可以放心機械轉換。中文摘要不能這樣處理，那裡的「，。」本來就該是全形。
+// AI 在中文語境下轉錄英文標題時，常會打出 ＇ ？ 和全形空格，排出來會異常寬。
+function toHalfWidth(s) {
+  if (!s) return s;
+  return String(s)
+    // 這幾個要先處理：英文裡逗號冒號後面要有空格，而全形字自帶間距、轉成半形後會黏在一起。
+    // 必須搶在下面那條通則前面做，否則已經是半形的數字（1,000）也會被插入空格。
+    .replace(/，/g, ', ')        // ，
+    .replace(/：/g, ': ')        // ：
+    .replace(/；/g, '; ')        // ；
+    .replace(/、/g, ', ')        // 、
+    .replace(/。/g, '. ')        // 。
+    // 其餘全形 ASCII（！到～）整段對應到半形，碼點固定差 0xFEE0
+    .replace(/[！-～]/g, (ch) => String.fromCharCode(ch.charCodeAt(0) - 0xFEE0))
+    .replace(/　/g, ' ')         // 全形空格
+    .replace(/[‘’]/g, "'") // 彎引號 ' '
+    .replace(/[“”]/g, '"') // 彎雙引號 " "
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
 function mdLink(html, runStyle) {
   const st = (runStyle || `color:${BLUE};`) + 'text-decoration:none;';
   // Outlook/Word 會用內建的 Hyperlink 樣式覆寫 <a> 上的字型與大小，
@@ -717,7 +741,7 @@ function parseAiResultToHtml(raw) {
 
       let origTitle = '';
       const origMatch = body.find(l => /^原文[｜:：]\s*.+/.test(l));
-      if (origMatch) origTitle = origMatch.replace(/^原文[｜:：]\s*/, '').trim();
+      if (origMatch) origTitle = toHalfWidth(origMatch.replace(/^原文[｜:：]\s*/, '').trim());
       const rest = body.filter(l => l !== origMatch);
 
       const points = rest
