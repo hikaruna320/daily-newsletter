@@ -8,7 +8,7 @@
 
     { "tier": "A", "name": "INSIDE", "lang": "zh-TW", "site": "https://www.inside.com.tw", "feed": "https://www.inside.com.tw/feed/rss", "enabled": true, "note": "" },
     { "tier": "A", "name": "Excellent", "lang": "zh-TW", "site": "https://www.feja.org.tw", "feed": "https://www.feja.org.tw/feed/", "enabled": true, "note": "" },
-    { "tier": "A", "name": "數位時代", "lang": "zh-TW", "site": "https://www.bnext.com.tw", "feed": "", "enabled": false, "note": "找不到 RSS" },
+    { "tier": "A", "name": "數位時代", "lang": "zh-TW", "site": "https://www.bnext.com.tw", "feed": "https://rss.bnextmedia.com.tw/feed/bnext", "enabled": true, "note": "官方 feed，一次只給 3 篇、約涵蓋 40 小時，量少屬正常" },
     { "tier": "A", "name": "虎嗅网", "lang": "zh-CN", "site": "https://www.huxiu.com", "feed": "https://rss.aishort.top/?type=huxiu", "enabled": true, "note": "" },
     { "tier": "A", "name": "The Current", "lang": "en", "site": "https://www.thecurrent.com", "feed": "", "enabled": false, "note": "找不到 RSS" },
     { "tier": "A", "name": "TechCrunch", "lang": "en", "site": "https://techcrunch.com", "feed": "https://techcrunch.com/feed/", "enabled": true, "note": "" },
