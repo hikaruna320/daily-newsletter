@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-10-17T20:58:16.142Z",
+ "generatedAt": "2026-10-18T00:19:46.078Z",
  "keepDays": 14,
  "sources": [
   {
@@ -162,7 +162,7 @@ window.NEWS_DATA = {
    "feed": "https://news.cnyes.com/rss/v1/news/category/headline",
    "ok": true,
    "error": null,
-   "count": 30
+   "count": 31
   },
   {
    "name": "woshipm",
@@ -877,6 +877,186 @@ window.NEWS_DATA = {
  ],
  "items": [
   {
+   "id": "1a56zxy",
+   "title": "蘋果內部備忘錄曝光：直營店員工遭指示「勸退」消費者於10/23當日排隊購買iPhone Duo現貨",
+   "url": "https://mashdigi.com/an-internal-apple-memo-has-been-leaked-revealing-that-apple-store-employees-were-instructed-to-discourage-customers-from-queuing-to-buy-iphone-duo-stock-on-october-23",
+   "summary": "隨著蘋果首款摺疊手機iPhone Duo於日前開放預購，並且掀起瘋狂搶購潮，線上訂購出貨日期更直接排至2027 […]",
+   "date": "2026-10-18T00:00:12.000Z",
+   "firstSeen": "2026-10-18T00:19:46.078Z",
+   "source": "mashdigi",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://mashdigi.com"
+  },
+  {
+   "id": "gjc5oz",
+   "title": "川普力挺AI仍有變數！為何「德州州長選戰」被點名是資料中心發展關鍵？",
+   "url": "https://news.cnyes.com/news/id/6631936",
+   "summary": "Evercore稱德州州長選舉是AI與資料中心政策最大風險，Abbott對決Hinojosa。 德州資料中心數量全美第二，Abbott任內已祭出暫時建設禁令，影響達拉斯等地開發。 若Abbott勝選，審查與制度方向將更明朗；若Hinojosa勝出，禁令恐無限期延長。",
+   "date": "2026-10-18T00:00:03.000Z",
+   "firstSeen": "2026-10-18T00:19:46.078Z",
+   "source": "鉅亨網",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://news.cnyes.com"
+  },
+  {
+   "id": "5fpz7h",
+   "title": "《逃出鯨吞》：人類為何恐懼巨獸？從克蘇魯、《白鯨記》到鯨落，狂妄的極限求生史詩",
+   "url": "https://www.thenewslens.com/article/270567",
+   "summary": "本文分析電影《逃出鯨吞》。此片顛覆傳統巨獸敘事，將巨獸從敵對者重新定位為催化劑，迫使主角於極限情境中，面對創傷並達成和解。全文探討此設定之多重文本脈絡。",
+   "date": "2026-10-17T23:59:00.000Z",
+   "firstSeen": "2026-10-18T00:19:46.078Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "5fpzx4",
+   "title": "從俄烏、北約到葉門：川普交易式外交，算不出失去同盟信用的成本",
+   "url": "https://www.thenewslens.com/article/270616",
+   "summary": "本文分析美國嚇阻失靈困境。因國內政治成本考量，對手遂以灰色地帶行動測試底線，盟友亦質疑其安全承諾可靠性。",
+   "date": "2026-10-17T23:58:00.000Z",
+   "firstSeen": "2026-10-18T00:19:46.078Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "1l2hday",
+   "title": "陳少〈所謂幸福，是兩隻金背鳩〉：在辦公室反思出「鳥生哲理」",
+   "url": "https://www.thenewslens.com/column/modernpoetry/270590",
+   "summary": "解析陳少詩作〈所謂幸福，是兩隻金背鳩〉。此詩將辦公室術語與自然意象並置融合，探討在僵化工作中，對自然的嚮往及其與工作共存之道，並藉由鳥類反思人類的生存哲理。",
+   "date": "2026-10-17T23:57:00.000Z",
+   "firstSeen": "2026-10-18T00:19:46.078Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "5fpza7",
+   "title": "有之以為利，無之以為用：借鏡網路泡沫歷史，看松機土地的永續抉擇",
+   "url": "https://www.thenewslens.com/article/270596",
+   "summary": "本文質疑為AI熱潮而開發松山機場的短視。作者援引「無之以為用」哲學，主張應避免單一、填滿式開發，保留土地的「留白」與彈性，方能為城市未來保有應變的韌性。",
+   "date": "2026-10-17T23:56:00.000Z",
+   "firstSeen": "2026-10-18T00:19:46.078Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "1j21fu5",
+   "title": "No Kings Instagram Account Disappears Amid Nationwide Trump Protests",
+   "url": "https://www.thewrap.com/media-platforms/politics/no-kings-instagram-account-disappears-amid-nationwide-trump-protests",
+   "summary": "“Meta must answer for this suspension and take immediate steps to ensure it never happens again — to any account,” the No Kings coalition says The post No Kings Instagram Account Disappears Amid Nationwide Trump Protests appeared first on TheWrap.",
+   "date": "2026-10-17T23:48:31.000Z",
+   "firstSeen": "2026-10-18T00:19:46.078Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "4tqbxq",
+   "title": "Gene Schwam, Hollywood Publicist to Elvis Presley, Judy Garland and Julie Andrews, Dies at 96",
+   "url": "https://www.hollywoodreporter.com/movies/movie-news/gene-schwam-dead-publicist-elvis-judy-garland-julie-andrews-1236734445",
+   "summary": "Schwam died Friday in Los Angeles following a brief illness.",
+   "date": "2026-10-17T23:35:28.000Z",
+   "firstSeen": "2026-10-18T00:19:46.078Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "1pfxcn6",
+   "title": "百事为什么没能留住肯德基",
+   "url": "https://www.huxiu.com/article/4898346.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/18/39357-prod-grokep-general-1-1792279240811.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>2026年10月8日，百事公司第三季度业绩会上，CEO龙嘉德（Ramon Laguarta）承认，他们在美国软饮市场的竞争表现不",
+   "date": "2026-10-17T23:21:54.000Z",
+   "firstSeen": "2026-10-18T00:19:46.078Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "1sgv712",
+   "title": "Miley Cyrus Returns to the Stage With Emotional and Cathartic Hollywood Bowl Show",
+   "url": "https://www.hollywoodreporter.com/music/music-news/miley-cyrus-live-hollywood-bowl-2026-night-1-highlights-1236734276",
+   "summary": "The 33-year-old played her first major concert in four years Friday night for the first of two shows at the iconic L.A. venue.",
+   "date": "2026-10-17T23:17:39.000Z",
+   "firstSeen": "2026-10-18T00:19:46.078Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "1hj1p9q",
+   "title": "‘The Diplomat’ U.K. Prime Minister on the Operatic Way He Learned of His “Shocking” Season 4 Storyline",
+   "url": "https://www.hollywoodreporter.com/tv/tv-news/the-diplomat-trowbridge-resigns-rory-kinnear-interview-1236734442",
+   "summary": "Showrunner Debora Cahn and actor Rory Kinnear break down the realistic reasons for the Netflix series' latest political shakeup, which plays out amid a surreal episode replete with hallucinations, costumes and an aria.",
+   "date": "2026-10-17T23:11:46.000Z",
+   "firstSeen": "2026-10-18T00:19:46.078Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "95gfxk",
+   "title": "当代校园恐怖：父母社交账号成了霸凌武器库",
+   "url": "https://www.huxiu.com/article/4897749.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/article/content/2026/10/15/151935814718.jpg?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/jpg\" referrerpolicy=\"no-referrer\"></figure>今天的AI短剧就像是美杜莎。当你在看它的时候，它也在看着你，你俩眼一对，一切停滞，你就搁那呆着吧。这种魔力，来自于对现实人心的精准洞察。比如，最近流行的剧情：工地门口拿死猪肉做盖饭的黑心商家赚",
+   "date": "2026-10-17T23:00:06.000Z",
+   "firstSeen": "2026-10-18T00:19:46.078Z",
+   "source": "虎嗅网",
+   "tier": "A",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "1jerxl9",
+   "title": "Carrot Top Breaks Silence on Suicide Attempt, Plans to Return to Comedy",
+   "url": "https://www.thewrap.com/culture-lifestyle/culture/carrot-top-breaks-silence-on-suicide-attempt-plans-to-return-to-comedy",
+   "summary": "\"Every message, text, and kind thought has meant more to me than you know,\" the comedian says The post Carrot Top Breaks Silence on Suicide Attempt, Plans to Return to Comedy appeared first on TheWrap.",
+   "date": "2026-10-17T22:34:18.000Z",
+   "firstSeen": "2026-10-18T00:19:46.078Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "8nky94",
+   "title": "Meta removes language that raised scraping and AI training concerns",
+   "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns",
+   "summary": "A Meta spokesperson insisted that the updated terms did not reflect a change in the way Meta crawls the web.",
+   "date": "2026-10-17T21:31:32.000Z",
+   "firstSeen": "2026-10-18T00:19:46.078Z",
+   "source": "TechCrunch",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://techcrunch.com"
+  },
+  {
+   "id": "1ta5j75",
+   "title": "Harry Styles Debuts Unreleased Song at MSG to Honor Liam Payne on Second Death Anniversary",
+   "url": "https://www.hollywoodreporter.com/music/music-news/harry-styles-unreleased-song-honor-liam-payne-anniversary-1236734395",
+   "summary": "The pair were former bandmates of One Direction from 2010 to 2016.",
+   "date": "2026-10-17T21:07:57.000Z",
+   "firstSeen": "2026-10-18T00:19:46.078Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
    "id": "1refpj6",
    "title": "TikTok permanently bans ‘Musk’ documentary advertising account",
    "url": "https://techcrunch.com/2026/10/17/tiktok-permanently-bans-musk-documentary-advertising-account",
@@ -1453,6 +1633,18 @@ window.NEWS_DATA = {
    "site": "https://www.huxiu.com"
   },
   {
+   "id": "oga8ec",
+   "title": "Selma Blair ‘did not intend to harm anyone’ during airplane incident, representatives say",
+   "url": "https://www.theguardian.com/film/2026/oct/17/selma-blair-airplane-incident",
+   "summary": "<p>Actor experienced a ‘medical emergency’ on flight during which she allegedly injured crew members, statement says</p><p>Actor <a href=\"https://www.theguardian.com/film/selma-blair\">Selma Blair</a> did not mean to hurt anyone during the recent flight which led to her arrest on allegations that she",
+   "date": "2026-10-17T13:52:37.000Z",
+   "firstSeen": "2026-10-18T00:19:46.078Z",
+   "source": "The Guardian",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.theguardian.com/uk/media"
+  },
+  {
    "id": "ec6i9q",
    "title": "XBOW used GPT-5.6 Sol to build a $250,000 Chrome exploit in six days",
    "url": "https://thenextweb.com/news/xbow-chrome-exploit-gpt-5-6-sol-250000-six-days",
@@ -1991,6 +2183,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-CN",
    "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "lcwg0y",
+   "title": "‘You can’t make this stuff up’: why we remain fascinated by Elizabeth Holmes",
+   "url": "https://www.theguardian.com/film/2026/oct/17/elizabeth-holmes-documentary-why-we-care",
+   "summary": "<p>The entrepreneur turned fraudster is the subject of an Oscar-tipped new documentary that takes an unusual look at her strange legacy</p><p>David Agus’s first encounter with <a href=\"https://www.theguardian.com/us-news/elizabeth-holmes\">Elizabeth Holmes</a> at a health conference came as a shock. ",
+   "date": "2026-10-17T09:00:28.000Z",
+   "firstSeen": "2026-10-18T00:19:46.078Z",
+   "source": "The Guardian",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.theguardian.com/uk/media"
   },
   {
    "id": "1awz191",
@@ -3227,6 +3431,18 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "1e7ht3o",
+   "title": "Magnite Brings Agentic Ad Buying to LG TVs",
+   "url": "https://adtechradar.com/2026/10/16/magnite-lg-ad-solutions-agentic-ctv",
+   "summary": "Agentic advertising is coming to your TV’s home screen. LG Ad Solutions and Magnite have extended their partnership… The post Magnite Brings Agentic Ad Buying to LG TVs first appeared on AdTechRadar.",
+   "date": "2026-10-16T22:13:02.000Z",
+   "firstSeen": "2026-10-18T00:19:46.078Z",
+   "source": "AdTechRadar",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://adtechradar.com"
   },
   {
    "id": "25qaq1",
@@ -61631,162 +61847,6 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-CN",
    "site": "https://www.woshipm.com"
-  },
-  {
-   "id": "1n787y7",
-   "title": "‘A Statement’ Review: Tom McCarthy’s Climate Change Dramedy Is a Period Piece That Slyly Meets Our Moment",
-   "url": "https://www.thewrap.com/creative-content/movies/a-statement-review-tom-mccarthy-climate-change-dramedy",
-   "summary": "New York Film Festival 2026: Paul Giamatti and John Turturro star in an entirely engaging film made from bureaucrats’ transcripts The post ‘A Statement’ Review: Tom McCarthy’s Climate Change Dramedy Is a Period Piece That Slyly Meets Our Moment appeared first on TheWrap.",
-   "date": "2026-10-04T00:15:00.000Z",
-   "firstSeen": "2026-10-04T01:59:29.143Z",
-   "source": "TheWrap",
-   "tier": "B",
-   "lang": "en",
-   "site": "https://www.thewrap.com"
-  },
-  {
-   "id": "9lxq1t",
-   "title": "‘A Statement’ Review: A Top Ensemble Including Paul Rudd, Amy Ryan and John Turturro Breathes Surprising Vitality Into Dry Docu-Drama",
-   "url": "https://www.hollywoodreporter.com/movies/movie-reviews/a-statement-review-paul-rudd-amy-ryan-john-turturro-1236721637",
-   "summary": "Paul Giamatti, Evan Peters and Tatiana Maslany also star in Tom McCarthy’s account of a 1980 conference at which a group of experts is tasked with getting ahead of the climate crisis.",
-   "date": "2026-10-04T00:15:00.000Z",
-   "firstSeen": "2026-10-04T01:59:29.143Z",
-   "source": "The Hollywood Reporter",
-   "tier": "C",
-   "lang": "en",
-   "site": "https://www.hollywoodreporter.com"
-  },
-  {
-   "id": "spyy8g",
-   "title": "犀牛盾針對iPhone 18 Pro系列推出防護配件，AirX創3萬公尺太空落摔紀錄、更全面相容iPhone 17 Pro",
-   "url": "https://mashdigi.com/rhino-shield-launches-protective-accessories-for-the-iphone-18-pro-series-airx-sets-a-record-for-a-30000-meter-drop-from-space-more-comprehensive-compatibility-with-iphone-17-pro",
-   "summary": "隨著蘋果正式換上iPhone 18 Pro系列，消費者在入手新機後的第一件事，往往是尋找一款能提供極致防護的手 […]",
-   "date": "2026-10-04T00:00:06.000Z",
-   "firstSeen": "2026-10-04T01:59:29.143Z",
-   "source": "mashdigi",
-   "tier": "B",
-   "lang": "zh-TW",
-   "site": "https://mashdigi.com"
-  },
-  {
-   "id": "5fpxko",
-   "title": "【影評】《實境誘捕》：實境直播、抓猴誘捕──羅伯派汀森主客體交錯的凝視暴力",
-   "url": "https://www.thenewslens.com/article/270382",
-   "summary": "電影《實境誘捕》改編自爭議節目《誘捕掠食者》幕後，探討媒體為收視率設局的倫理界線。在製作方到觀眾的層層「凝視」下，質疑誰才是真正的掠食者。",
-   "date": "2026-10-03T23:59:00.000Z",
-   "firstSeen": "2026-10-04T01:59:29.143Z",
-   "source": "關鍵評論網",
-   "tier": "C",
-   "lang": "zh-TW",
-   "site": "https://www.thenewslens.com"
-  },
-  {
-   "id": "5fpvx1",
-   "title": "「我們幹不了粗工，雇主也不要我們」：泰國開放緬甸難民就業一年，為何仍是「行走的提款機」？",
-   "url": "https://www.thenewslens.com/article/270190",
-   "summary": "泰國首度開放邊境緬甸難民合法就業，旨在緩解勞力短缺，並賦予難民經濟自主。惟此政策轉變仍面臨勞動剝削、就業選擇有限與執法不彰等挑戰，亟需完善勞權保護機制，以達雙贏局面。",
-   "date": "2026-10-03T23:58:00.000Z",
-   "firstSeen": "2026-10-04T01:59:29.143Z",
-   "source": "關鍵評論網",
-   "tier": "C",
-   "lang": "zh-TW",
-   "site": "https://www.thenewslens.com"
-  },
-  {
-   "id": "5fpvui",
-   "title": "外交承認不是終點：巴拿馬國會開啟與台灣「斷交卻不斷連」的另一條路",
-   "url": "https://www.thenewslens.com/article/270168",
-   "summary": "巴拿馬國會成立跨黨派友台小組，顯示即便在斷交後，台灣仍可透過國會外交，與民主機構建立實質關係，挑戰中國的外交封鎖。此模式為台灣在正式承認之外，開創了新的互動空間。",
-   "date": "2026-10-03T23:57:00.000Z",
-   "firstSeen": "2026-10-04T01:59:29.143Z",
-   "source": "關鍵評論網",
-   "tier": "C",
-   "lang": "zh-TW",
-   "site": "https://www.thenewslens.com"
-  },
-  {
-   "id": "5fpxjx",
-   "title": "拼圖式隱私侵擾：大型語言模型如何透過生活細節肉搜出「你是誰」？",
-   "url": "https://www.thenewslens.com/article/270378",
-   "summary": "AI可串接零散的公開貼文，以低成本揭露匿名者真實身分，挑戰既有隱私保障。本文指出，即使資料各自公開，其彙整、連結仍受我國個資法與憲法解釋規範，使用者有權控制個人資訊如何被拼湊與利用。",
-   "date": "2026-10-03T23:56:00.000Z",
-   "firstSeen": "2026-10-04T01:59:29.143Z",
-   "source": "關鍵評論網",
-   "tier": "C",
-   "lang": "zh-TW",
-   "site": "https://www.thenewslens.com"
-  },
-  {
-   "id": "15uhutn",
-   "title": "Chris Rock Says ‘Wokeness’ Has Created a Less Forgiving World: ‘We’re in the Old Testament Right Now’",
-   "url": "https://www.thewrap.com/culture-lifestyle/culture/chris-rock-wokeness-forgiveness-cancel-culture",
-   "summary": "“It’s great to help those that need help. We need more of that. The problem is when you institutionalize it,” the \"Misty Green\" filmmaker says The post Chris Rock Says ‘Wokeness’ Has Created a Less Forgiving World: ‘We’re in the Old Testament Right Now’ appeared first on TheWrap.",
-   "date": "2026-10-03T23:53:24.000Z",
-   "firstSeen": "2026-10-04T01:59:29.143Z",
-   "source": "TheWrap",
-   "tier": "B",
-   "lang": "en",
-   "site": "https://www.thewrap.com"
-  },
-  {
-   "id": "gimj6z",
-   "title": "「對AI應採核電級別防護措施」！OpenAI安全系統團隊負責人辭職後撰文轟前東家企業文化",
-   "url": "https://news.cnyes.com/news/id/6621083",
-   "summary": "OpenAI負責安全透明度的David Robinson離職，並批評公司降低AI風險做得不夠。 他稱OpenAI一路靠反覆試錯擴張，但AI能力升高後，失敗風險也同步放大。 近幾週多家AI公司員工示警災難性風險，Anthropic執行長Amodei提議放慢前沿模型開發。",
-   "date": "2026-10-03T23:50:04.000Z",
-   "firstSeen": "2026-10-04T01:59:29.143Z",
-   "source": "鉅亨網",
-   "tier": "B",
-   "lang": "zh-TW",
-   "site": "https://news.cnyes.com"
-  },
-  {
-   "id": "1wxln0l",
-   "title": "White House Fires Back at Chuck Lorre After Anti-Trump Gala Speech: ‘Seek Psychiatric Help’",
-   "url": "https://www.thewrap.com/culture-lifestyle/culture/white-house-fires-back-chuck-lorre-anti-trump-gala-speech",
-   "summary": "The veteran TV producer took jabs at President Trump and first lady Melania Trump at a recent charity event The post White House Fires Back at Chuck Lorre After Anti-Trump Gala Speech: ‘Seek Psychiatric Help’ appeared first on TheWrap.",
-   "date": "2026-10-03T22:11:55.000Z",
-   "firstSeen": "2026-10-04T01:59:29.143Z",
-   "source": "TheWrap",
-   "tier": "B",
-   "lang": "en",
-   "site": "https://www.thewrap.com"
-  },
-  {
-   "id": "1syh7mz",
-   "title": "Florence Pugh on How Zoe Kazan ‘East of Eden’ Collaboration Helped Boost Her Confidence",
-   "url": "https://www.hollywoodreporter.com/tv/tv-features/florence-pugh-east-of-eden-zoe-kazan-boosted-confidence-1236721680",
-   "summary": "The actress who plays the central character of Cathy and serves as an executive producer on the well-reviewed Netflix adaptation was Kazan's first and only choice for the role: \"I didn't have a backup.\"",
-   "date": "2026-10-03T22:06:56.000Z",
-   "firstSeen": "2026-10-04T01:59:29.143Z",
-   "source": "The Hollywood Reporter",
-   "tier": "C",
-   "lang": "en",
-   "site": "https://www.hollywoodreporter.com"
-  },
-  {
-   "id": "89c6y1",
-   "title": "Annabelle Wallis on the Defining Question of ‘Unabomber,’ a Potential James Wan Reunion and ‘Peaky Blinders’ What-Ifs",
-   "url": "https://www.hollywoodreporter.com/movies/movie-features/annabelle-wallis-unabomber-netflix-1236720760",
-   "summary": "Plus: how an old The Hollywood Reporter interview with Wallis sparked a false viral story about the real-life Annabelle doll escaping the Warren Museum in Connecticut.",
-   "date": "2026-10-03T21:15:42.000Z",
-   "firstSeen": "2026-10-03T21:46:01.481Z",
-   "source": "The Hollywood Reporter",
-   "tier": "C",
-   "lang": "en",
-   "site": "https://www.hollywoodreporter.com"
-  },
-  {
-   "id": "dm58o3",
-   "title": "Tom Cruise Insists He’s ‘So Proud’ of ‘Digger’ Amid Disappointing Box Office",
-   "url": "https://www.thewrap.com/creative-content/movies/tom-cruise-proud-of-digger-amid-disappointing-box-office",
-   "summary": "\"Thank you to the entire cast and crew for your dedication, hard work and joy,\" the actor adds The post Tom Cruise Insists He’s ‘So Proud’ of ‘Digger’ Amid Disappointing Box Office appeared first on TheWrap.",
-   "date": "2026-10-03T21:10:21.000Z",
-   "firstSeen": "2026-10-03T21:46:01.481Z",
-   "source": "TheWrap",
-   "tier": "B",
-   "lang": "en",
-   "site": "https://www.thewrap.com"
   }
  ]
 };
