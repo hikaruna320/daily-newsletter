@@ -12,7 +12,7 @@
     { "tier": "B", "name": "虎嗅网", "lang": "zh-CN", "site": "https://www.huxiu.com", "feed": "https://rss.aishort.top/?type=huxiu", "enabled": true, "note": "一天約 45 篇、主題分散，刻意不設關鍵字過濾：想要的是有洞察的商業評論，這是品質判斷，關鍵字篩不出來。改用分級讓它排在後面" },
     { "tier": "A", "name": "The Current", "lang": "en", "site": "https://www.thecurrent.com", "feed": "", "enabled": false, "note": "找不到 RSS" },
     { "tier": "A", "name": "TechCrunch", "lang": "en", "site": "https://techcrunch.com", "feed": "https://techcrunch.com/feed/", "enabled": true, "match": "media|advertis|publisher|newsroom|journalis|streaming|subscription|creator|social|YouTube|Netflix|TikTok|Meta|Instagram|Spotify|Disney|copyright|content", "note": "一天約 16 篇，夾雜消費電子與汽車評測，用 match 挑出媒體與平台相關" },
-    { "tier": "A", "name": "Semafor", "lang": "en", "site": "https://www.semafor.com/vertical/media", "feed": "https://www.semafor.com/rss.xml", "enabled": true, "note": "" },
+    { "tier": "A", "name": "Semafor", "lang": "en", "site": "https://www.semafor.com/vertical/media", "feed": "https://www.semafor.com/rss.xml", "enabled": true, "category": "Media", "note": "沒有分類專屬 feed，但全站 feed 的每篇都標了 category，取 Media 就等於只收媒體版的文章" },
     { "tier": "A", "name": "Press Gazette", "lang": "en", "site": "https://pressgazette.co.uk", "feed": "https://pressgazette.co.uk/feed/", "enabled": false, "note": "feed 存在但被 Cloudflare 擋" },
     { "tier": "A", "name": "Poynter", "lang": "en", "site": "https://www.poynter.org", "feed": "https://www.poynter.org/feed/", "enabled": true, "note": "" },
     { "tier": "A", "name": "Movement For An Open Web", "lang": "en", "site": "https://movementforanopenweb.com", "feed": "https://movementforanopenweb.com/feed/", "enabled": true, "note": "" },
@@ -24,7 +24,7 @@
 
     { "tier": "B", "name": "TechOrange", "lang": "zh-TW", "site": "https://buzzorange.com/techorange/", "feed": "https://techorange.com/feed/", "enabled": true, "exclude": "科技早餐", "note": "擋掉每日彙整的「科技早餐」，只留單篇報導" },
     { "tier": "B", "name": "mashdigi", "lang": "zh-TW", "site": "https://mashdigi.com", "feed": "https://mashdigi.com/feed/", "enabled": true, "note": "" },
-    { "tier": "B", "name": "鉅亨網", "lang": "zh-TW", "site": "https://news.cnyes.com", "feed": "https://news.cnyes.com/rss/v1/news/category/headline", "enabled": true, "match": "媒體|廣告|串流|訂閱|社群|出版|影音|版權|著作權|記者|編輯|報導", "exclude": "盤前|盤中|盤後|速報|個股|法說會|台幣|漲停|開盤|買超|賣超|收盤|台股|美股|美債|外資", "note": "頭條全類別一天上百篇、九成是盤面文，改用 match 白名單挑出媒體產業相關，exclude 保留當保險" },
+    { "tier": "B", "name": "鉅亨網", "lang": "zh-TW", "site": "https://news.cnyes.com", "feed": "https://news.cnyes.com/rss/v1/news/category/headline", "enabled": true, "excludeCategory": "台股|美股|外匯|歐亞股|港股|陸股|期貨|基金", "match": "媒體|廣告|串流|訂閱|社群|出版|影音|版權|著作權|記者|編輯|報導", "exclude": "盤前|盤中|盤後|速報|個股|漲停|開盤|買超|賣超|收盤", "note": "頭條全類別一天上百篇。先用 excludeCategory 剔掉股市版面（約佔七成），再用 match 挑出媒體產業相關，exclude 當最後保險" },
     { "tier": "B", "name": "天下雜誌", "lang": "zh-TW", "site": "https://www.cw.com.tw", "feed": "", "enabled": false, "note": "找不到 RSS" },
     { "tier": "B", "name": "woshipm", "lang": "zh-CN", "site": "https://www.woshipm.com", "feed": "https://www.woshipm.com/feed/", "enabled": true, "note": "" },
     { "tier": "B", "name": "爱范儿", "lang": "zh-CN", "site": "https://www.ifanr.com/", "feed": "https://www.ifanr.com/feed", "enabled": true, "exclude": "早报", "note": "擋掉每日彙整的「早报」，只留單篇報導" },
