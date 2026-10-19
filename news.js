@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-10-19T17:09:59.929Z",
+ "generatedAt": "2026-10-19T22:38:19.440Z",
  "keepDays": 14,
  "sources": [
   {
@@ -72,7 +72,7 @@ window.NEWS_DATA = {
    "feed": "https://techcrunch.com/feed/",
    "ok": true,
    "error": null,
-   "count": 3
+   "count": 1
   },
   {
    "name": "Semafor",
@@ -144,7 +144,7 @@ window.NEWS_DATA = {
    "feed": "https://techorange.com/feed/",
    "ok": true,
    "error": null,
-   "count": 19
+   "count": 18
   },
   {
    "name": "mashdigi",
@@ -881,6 +881,354 @@ window.NEWS_DATA = {
  ],
  "items": [
   {
+   "id": "adwc7h",
+   "title": "GOP Sues 11 TV Stations to Block Democrats’ Hope Florida Ad, Threatens Criminal Charges",
+   "url": "https://www.thewrap.com/industry-news/public-policy-legal/florida-gop-sues-tv-stations-democratic-ad-hope-florida",
+   "summary": "The lawsuit seeks to stop broadcasters from airing a campaign ad about the Hope Florida scandal, drawing criticism from press freedom groups The post GOP Sues 11 TV Stations to Block Democrats’ Hope Florida Ad, Threatens Criminal Charges appeared first on TheWrap.",
+   "date": "2026-10-19T22:33:24.000Z",
+   "firstSeen": "2026-10-19T22:38:19.440Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "10wko7q",
+   "title": "‘You Can See Everything’ Is a Gothic Romance for the Ages",
+   "url": "https://www.hollywoodreporter.com/movies/movie-features/you-can-see-everything-gothic-romance-for-ages-1236735800",
+   "summary": "Here’s why Nathan Fielder and Lance Oppenheim’s hit doc is a shared-unreality narrative soon to be taught in film schools alongside 'Rebecca,' 'Gaslight' and 'Mulholland Drive.'",
+   "date": "2026-10-19T22:23:46.000Z",
+   "firstSeen": "2026-10-19T22:38:19.440Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "123h7s3",
+   "title": "In Dublin, tech workers raise concerns about AI",
+   "url": "https://www.npr.org/2026/10/19/nx-s1-6003512/in-dublin-tech-workers-raise-concerns-about-ai",
+   "summary": "Dublin, Ireland, is a longtime hub for American tech companies. A group of workers held a summit to discuss their concerns about AI in Irish workplaces and life.",
+   "date": "2026-10-19T22:20:52.000Z",
+   "firstSeen": "2026-10-19T22:38:19.440Z",
+   "source": "NPR",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.npr.org"
+  },
+  {
+   "id": "1pl7cdr",
+   "title": "Jason Segel Marries Kayla Radomski",
+   "url": "https://www.hollywoodreporter.com/lifestyle/lifestyle-news/jason-segel-married-kayla-radomski-shrinking-himym-1236735763",
+   "summary": "The 'Shrinking' star and 'So You Think You Can Dance' alum have tied the knot after more than two years together.",
+   "date": "2026-10-19T22:16:15.000Z",
+   "firstSeen": "2026-10-19T22:38:19.440Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "15r3e5",
+   "title": "Oscar Predictions via Feinberg Forecast: Scott’s Mid-October Charts and Dissection of the Race",
+   "url": "https://www.hollywoodreporter.com/lists/oscar-predictions-feinberg-forecast-2027-race",
+   "summary": "The Hollywood Reporter's executive editor of awards offers his latest assessment following a slew of film festivals, the theatrical unveilings of 'You Can See Everything' and 'La Bola Negra,' the Academy Museum Gala at which Taylor Swift performed and more.",
+   "date": "2026-10-19T22:11:42.000Z",
+   "firstSeen": "2026-10-19T22:38:19.440Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "m9i2an",
+   "title": "Our 7 Burning Questions for Netflix’s Big Earnings Report",
+   "url": "https://www.thewrap.com/industry-news/business/netflix-q3-2026-earnings-preview-burning-questions",
+   "summary": "The streaming giant will need to address concerns about its engagement problem as well as its recent leadership shakeup The post Our 7 Burning Questions for Netflix’s Big Earnings Report appeared first on TheWrap.",
+   "date": "2026-10-19T21:52:46.000Z",
+   "firstSeen": "2026-10-19T22:38:19.440Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "w1p7gv",
+   "title": "How to Watch the Record-Breaking ‘Celebrity Traitors’ U.K. Online From the States",
+   "url": "https://www.hollywoodreporter.com/tv/tv-news/where-to-watch-celebrity-traitors-uk-season-2-online-2026-1236717306",
+   "summary": "The second season airs twice a week on Thursdays and Fridays at 8:00 p.m. U.K. time (12 p.m. PT/3 p.m. ET).",
+   "date": "2026-10-19T21:44:36.000Z",
+   "firstSeen": "2026-10-19T22:38:19.440Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "2xcrt0",
+   "title": "Victoria Justice on Releasing a Remixed “Love Zombie,” a Viral Hit 15 Years in the Making",
+   "url": "https://www.hollywoodreporter.com/music/music-news/victoria-justice-interview-love-zombie-remix-viral-hit-1236735623",
+   "summary": "The actress-singer-songwriter also opens up about why she asked to be released from her label and go independent.",
+   "date": "2026-10-19T21:07:02.000Z",
+   "firstSeen": "2026-10-19T22:38:19.440Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "1yaq0fr",
+   "title": "Nicolas Cage Is Unrecognizable in ‘Best Pancakes in the County’ Trailer",
+   "url": "https://www.hollywoodreporter.com/movies/movie-news/nicolas-cage-best-pancakes-in-the-county-trailer-ifc-1236735643",
+   "summary": "Justin Long and Shelley Hennig also star Ken Sanzel's crime thriller that hits theaters next month.",
+   "date": "2026-10-19T20:56:50.000Z",
+   "firstSeen": "2026-10-19T22:38:19.440Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "1g1uq5z",
+   "title": "5 New Shows to Stream This Week on Netflix, Prime Video and More",
+   "url": "https://www.thewrap.com/creative-content/what-to-watch/new-shows-streaming-this-week-oct-18-24",
+   "summary": "From \"Nobody Wants This\" to \"The Terminal List\" The post 5 New Shows to Stream This Week on Netflix, Prime Video and More appeared first on TheWrap.",
+   "date": "2026-10-19T20:50:38.000Z",
+   "firstSeen": "2026-10-19T22:38:19.440Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "1bqgoxv",
+   "title": "Megyn Kelly Bemoans ‘You Can See Everything’ ‘Political’ Charlie Kirk Mentions: ‘Cannot Go Anywhere’",
+   "url": "https://www.thewrap.com/creative-content/movies/megyn-kelly-you-can-see-everything-charlie-kirk-mention",
+   "summary": "\"Does this make me want to say don't go see the movie to you? No, it doesn't,\" the host says The post Megyn Kelly Bemoans ‘You Can See Everything’ ‘Political’ Charlie Kirk Mentions: ‘Cannot Go Anywhere’ appeared first on TheWrap.",
+   "date": "2026-10-19T20:47:15.000Z",
+   "firstSeen": "2026-10-19T22:38:19.440Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "y1kp22",
+   "title": "How publishers can compete with AI overviews by reviving their archives",
+   "url": "https://www.journalism.co.uk/how-publishers-can-compete-with-ai-overviews-by-reviving-their-archives",
+   "summary": "Copyright restrictions aren't the answer, and neither is despair. So stop treating the archive as something that just sits there waiting to be scraped",
+   "date": "2026-10-19T20:46:12.000Z",
+   "firstSeen": "2026-10-19T22:38:19.440Z",
+   "source": "Journalism UK",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.journalism.co.uk"
+  },
+  {
+   "id": "knuknw",
+   "title": "BBC Seeks Jack Smith Deposition in Trump’s $10 Billion Defamation Case",
+   "url": "https://www.thewrap.com/industry-news/public-policy-legal/bbc-trump-defamation-lawsuit-jack-smith-deposition",
+   "summary": "The broadcaster says the former special counsel may have evidence relevant to the president's Jan. 6 intent The post BBC Seeks Jack Smith Deposition in Trump’s $10 Billion Defamation Case appeared first on TheWrap.",
+   "date": "2026-10-19T20:18:26.000Z",
+   "firstSeen": "2026-10-19T22:38:19.440Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "1fg4huc",
+   "title": "Richard Riehle, ‘Office Space’ Actor, Dies at 78",
+   "url": "https://www.hollywoodreporter.com/movies/movie-news/richard-riehle-dead-office-space-1236735653",
+   "summary": "The Wisconsin native also was memorable in ‘The Fugitive,’ ‘Glory,’ ‘Casino,’ ‘Deuce Bigalow: Male Gigolo’ and ‘Grounded for Life.’",
+   "date": "2026-10-19T20:17:41.000Z",
+   "firstSeen": "2026-10-19T22:38:19.440Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "v1tw6",
+   "title": "Chelsey Summey Departs Warner Bros. as Skydance Plans Comms Reshuffle",
+   "url": "https://www.thewrap.com/culture-lifestyle/culture/chelsey-summey-departs-warner-bros-skydance",
+   "summary": "Paramount comms EVP Brooke Robertson will handle Warner Bros.' film division The post Chelsey Summey Departs Warner Bros. as Skydance Plans Comms Reshuffle appeared first on TheWrap.",
+   "date": "2026-10-19T20:10:18.000Z",
+   "firstSeen": "2026-10-19T22:38:19.440Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "1i036o9",
+   "title": "Richard Riehle, ‘Office Space’ Actor, Dies at 78",
+   "url": "https://www.thewrap.com/culture-lifestyle/culture/richard-riehle-office-space-actor-dies-at-78",
+   "summary": "The actor appeared in over 400 screen projects, including “Casino,” “The Fugitive” and “Grounded for Life” The post Richard Riehle, ‘Office Space’ Actor, Dies at 78 appeared first on TheWrap.",
+   "date": "2026-10-19T20:09:44.000Z",
+   "firstSeen": "2026-10-19T22:38:19.440Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "10zvxf6",
+   "title": "Charli xcx Brings Out Chappell Roan, Adéla Across Two-Night Stand at Los Angeles’ Kia Forum",
+   "url": "https://www.hollywoodreporter.com/music/music-news/charli-xcx-los-angeles-concerts-chappell-roan-adela-1236735509",
+   "summary": "The singer-songwriter's arena tour is in support of her latest album, 'Music, Fashion, Film.'",
+   "date": "2026-10-19T19:12:40.000Z",
+   "firstSeen": "2026-10-19T22:38:19.440Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "8uc205",
+   "title": "Netflix Orders Two Seasons of A24’s ‘The Apology’ Starring Gwyneth Paltrow",
+   "url": "https://www.hollywoodreporter.com/tv/tv-news/gwyneth-paltrow-a24-show-the-apology-2-season-order-netflix-1236735579",
+   "summary": "Thomas Vinterberg will direct.",
+   "date": "2026-10-19T19:08:45.000Z",
+   "firstSeen": "2026-10-19T22:38:19.440Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "ooeu42",
+   "title": "Gwyneth Paltrow Will Star in A24 Netflix Series ‘The Apology’",
+   "url": "https://www.thewrap.com/creative-content/tv-shows/gwyneth-paltrow-star-the-apology-a24-netflix",
+   "summary": "The series, which will be directed by Thomas Vinterberg, has already been picked up for two seasons The post Gwyneth Paltrow Will Star in A24 Netflix Series ‘The Apology’ appeared first on TheWrap.",
+   "date": "2026-10-19T19:04:07.000Z",
+   "firstSeen": "2026-10-19T22:38:19.440Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "1hjzb75",
+   "title": "New RingConn Gen 3 Smart Ring Makes Awards Show Debut at Emmys Gifting Suite",
+   "url": "https://www.hollywoodreporter.com/lifestyle/shopping/ringconn-gen-3-smart-ring-2026-emmys-gifting-suite-1236731297",
+   "summary": "The latest iteration of RingConn’s subscription-free smart ring is proving a wellness — and now, entertainment — space standout.",
+   "date": "2026-10-19T18:32:53.000Z",
+   "firstSeen": "2026-10-19T22:38:19.440Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "1t3giue",
+   "title": "Meta Drops Training From Its Crawl Clause And Keeps The Crawl",
+   "url": "https://www.searchenginejournal.com/meta-removes-training-crawl-clause-commercial-terms/593584",
+   "summary": "Meta removed training from the crawling clause in its upcoming Commercial Terms. The permission to crawl sites tied to business users is still in place. The post Meta Drops Training From Its Crawl Clause And Keeps The Crawl appeared first on Search Engine Journal.",
+   "date": "2026-10-19T18:30:50.000Z",
+   "firstSeen": "2026-10-19T22:38:19.440Z",
+   "source": "Search Engine Journal",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.searchenginejournal.com"
+  },
+  {
+   "id": "163n9bf",
+   "title": "Michael Douglas Says He Asked Marvel to Kill Him Off in ‘Ant-Man’ Movies: ‘You Can’t Get Out of It’",
+   "url": "https://www.thewrap.com/creative-content/movies/michael-douglas-asked-marvel-to-kill-him-ant-man",
+   "summary": "The actor reveals he didn't want to return as Hank Pym after 2018's \"Ant-Man and the Wasp\" The post Michael Douglas Says He Asked Marvel to Kill Him Off in ‘Ant-Man’ Movies: ‘You Can’t Get Out of It’ appeared first on TheWrap.",
+   "date": "2026-10-19T18:30:38.000Z",
+   "firstSeen": "2026-10-19T22:38:19.440Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "16qd5ux",
+   "title": "Jon Stewart Will Continue Hosting ‘The Daily Show’ Through 2028",
+   "url": "https://www.thewrap.com/creative-content/tv-shows/jon-stewart-daily-show-contract-renewal-2028",
+   "summary": "The news comes after the Comedy Central program won two Emmys in September and hit an eight-year viewership high The post Jon Stewart Will Continue Hosting ‘The Daily Show’ Through 2028 appeared first on TheWrap.",
+   "date": "2026-10-19T18:30:00.000Z",
+   "firstSeen": "2026-10-19T22:38:19.440Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "1c8gaag",
+   "title": "B2B Lead Generation: How To Choose Your 2027 Marketing Channels [Webinar]",
+   "url": "https://www.searchenginejournal.com/b2b-lead-generation-how-to-choose-your-2027-marketing-channels-webinar/593589",
+   "summary": "Learn how to choose B2B marketing channels, fund a trial campaign and measure results with CallRail and Matter Made on October 29. The post B2B Lead Generation: How To Choose Your 2027 Marketing Channels [Webinar] appeared first on Search Engine Journal.",
+   "date": "2026-10-19T18:28:32.000Z",
+   "firstSeen": "2026-10-19T22:38:19.440Z",
+   "source": "Search Engine Journal",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.searchenginejournal.com"
+  },
+  {
+   "id": "1yo9uuz",
+   "title": "Microsoft Builds Controls For &#x27;Insider&#x27; Agents To Reduce Risks",
+   "url": "https://www.mediapost.com/publications/article/418829/microsoft-builds-controls-for-insider-agents-to.html",
+   "summary": "Autonomous AI agents can reason and access databases, presenting a new cybersecurity risk. Microsoft is building a tool, \"Guardian Agents,\" to monitor AI systems running inside a business's network as part of its security strategy.",
+   "date": "2026-10-19T18:11:37.000Z",
+   "firstSeen": "2026-10-19T22:38:19.440Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
+   "id": "10xj0b3",
+   "title": "Modal says Nvidia’s Vera CPU doubles throughput for its AI sandboxes",
+   "url": "https://thenextweb.com/news/modal-nvidia-vera-cpu-sandboxes",
+   "summary": "Modal plans to run its Sandboxes product on Nvidia’s Arm-based Vera CPU, its first step away from x86 chips. In Modal’s own tests, Vera handled up to twice as many tasks as an Intel server when packed with containers. The results have not been independently checked. Modal plans to run its AI agent s",
+   "date": "2026-10-19T18:00:15.000Z",
+   "firstSeen": "2026-10-19T22:38:19.440Z",
+   "source": "TNW",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://thenextweb.com"
+  },
+  {
+   "id": "vaiugx",
+   "title": "Vingroup’s Green SM brings 500 VinFast EV taxis to Los Angeles",
+   "url": "https://thenextweb.com/news/green-sm-vinfast-ev-taxis-los-angeles",
+   "summary": "Green SM, a ride-hailing firm owned by Vietnam’s Vingroup, has launched an all-electric taxi service in Los Angeles. It starts with 500 VinFast VF 8 SUVs and full-time drivers. The US is its ninth market, and the launch puts more cars from sister company VinFast on US roads. Green SM, a Vietnamese r",
+   "date": "2026-10-19T17:33:54.000Z",
+   "firstSeen": "2026-10-19T22:38:19.440Z",
+   "source": "TNW",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://thenextweb.com"
+  },
+  {
+   "id": "7m5ymy",
+   "title": "Christiane Amanpour announces she’s leaving CNN after 43 years",
+   "url": "https://www.theguardian.com/media/2026/oct/19/christiane-amanpour-leaving-cnn",
+   "summary": "<p>Anchor’s departure not thought to be linked to company’s recent acquisition by David Ellison’s Skydance Media</p><p>Christiane Amanpour, one of CNN’s most decorated and venerated journalists, is leaving the network after 43 years, she said in a statement on Monday.</p><p>Amanpour, who began worki",
+   "date": "2026-10-19T17:21:59.000Z",
+   "firstSeen": "2026-10-19T17:09:59.929Z",
+   "source": "The Guardian",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.theguardian.com/uk/media"
+  },
+  {
+   "id": "113fypq",
+   "title": "Axel Springer moves in on the creator model, starting with star podcaster Paul Ronzheimer",
+   "url": "https://www.journalism.co.uk/axel-springer-launches-creator-platform-starting-with-star-podcaster-paul-ronzheimer",
+   "summary": "Journalists will get Axel Springer’s backing to develop their own followings, as Ronzheimer steps down as BILD's deputy editor-in-chief to go all in on his top ranked podcast",
+   "date": "2026-10-19T17:09:56.000Z",
+   "firstSeen": "2026-10-19T22:38:19.440Z",
+   "source": "Journalism UK",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.journalism.co.uk"
+  },
+  {
    "id": "161a86v",
    "title": "‘Upgraded 2’: Camila Mendes to Return as Star and Producer for Sequel From Gulfstream, Honor Role (Exclusive)",
    "url": "https://www.hollywoodreporter.com/movies/movie-news/upgraded-2-camila-mendes-star-producer-amazon-mgm-sequel-1236735310",
@@ -927,6 +1275,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "en",
    "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "5evuig",
+   "title": "蘋果秋季第三場發表會確定10/28於洛杉磯舉辦，傳將推出史上首款觸控OLED MacBook Pro",
+   "url": "https://mashdigi.com/apples-third-fall-event-is-confirmed-to-be-held-in-los-angeles-on-october-28th-where-it-is-rumored-to-unveil-the-first-ever-touchscreen-oled-macbook-pro",
+   "summary": "在剛結束以智慧家庭為主題的秋季發表會不久後，蘋果緊接著發出官方邀請函，正式確認將於10月28日在洛杉磯舉辦本季 […]",
+   "date": "2026-10-19T17:00:17.000Z",
+   "firstSeen": "2026-10-19T22:38:19.440Z",
+   "source": "mashdigi",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://mashdigi.com"
   },
   {
    "id": "2lw4pv",
@@ -977,18 +1337,6 @@ window.NEWS_DATA = {
    "site": "https://www.theguardian.com/uk/media"
   },
   {
-   "id": "7m5ymy",
-   "title": "Christiane Amanpour announces she’s leaving CNN after 43 years",
-   "url": "https://www.theguardian.com/media/2026/oct/19/christiane-amanpour-leaving-cnn",
-   "summary": "<p>Anchor’s departure not thought to be linked to company’s recent acquisition by David Ellison’s Skydance Media</p><p>Christiane Amanpour, one of CNN’s most decorated and venerated journalists, is leaving the network after 43 years, she said in a statement on Monday.</p><p>Amanpour, who began worki",
-   "date": "2026-10-19T16:36:03.000Z",
-   "firstSeen": "2026-10-19T17:09:59.929Z",
-   "source": "The Guardian",
-   "tier": "C",
-   "lang": "en",
-   "site": "https://www.theguardian.com/uk/media"
-  },
-  {
    "id": "1s79d53",
    "title": "Ofcom investigates Huw Edwards complaint over Channel 5 drama",
    "url": "https://www.theguardian.com/media/2026/oct/19/ofcom-investigates-huw-edwards-complaint-over-channel-5-drama",
@@ -1013,6 +1361,18 @@ window.NEWS_DATA = {
    "site": "https://www.hollywoodreporter.com"
   },
   {
+   "id": "lbj4dd",
+   "title": "Nebraska Battles Tech Industry Over Social Media Restrictions",
+   "url": "https://www.mediapost.com/publications/article/418824/nebraska-battles-tech-industry-over-social-media-r.html",
+   "summary": "\"The First Amendment does not protect speech with minors to which their parents do not consent,\" Nebraska is arguing to the Eighth Circuit Court of Appeals.",
+   "date": "2026-10-19T16:27:12.000Z",
+   "firstSeen": "2026-10-19T22:38:19.440Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
    "id": "16t5mr5",
    "title": "Miley Cyrus on Hollywood Bowl Show Criticism: “Will Not Stand Any Question About Where My Heart Is”",
    "url": "https://www.hollywoodreporter.com/music/music-news/miley-cyrus-hollywood-bowl-concert-criticism-1236735335",
@@ -1023,6 +1383,18 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "va3yyv",
+   "title": "智界的独立，走到生产资质这一步",
+   "url": "https://www.huxiu.com/article/4898774.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/20/39588-prod-nb2qn-general-1-1792426375892.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>智界离一家具备独立生产身份的汽车公司，又近了一步。10月16日，工业和信息化部公示第412批《道路机动车辆生产企业及产品公告》拟发",
+   "date": "2026-10-19T16:22:27.000Z",
+   "firstSeen": "2026-10-19T22:38:19.440Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
   },
   {
    "id": "hw6y5o",
@@ -1047,6 +1419,18 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://thenextweb.com"
+  },
+  {
+   "id": "vxes14",
+   "title": "智慧水务大洗牌：一个人人看好的赛道，为什么始终没跑出想象中的规模？",
+   "url": "https://www.huxiu.com/article/4898775.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/20/39589-prod-grokep-general-1-1792426392107.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>过去几年，环保行业有一个方向，几乎没有人怀疑过它的前景。智慧水务。理由其实非常充分。水务本身是一个极其庞大的存量行业，过去的信息",
+   "date": "2026-10-19T16:16:41.000Z",
+   "firstSeen": "2026-10-19T22:38:19.440Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
   },
   {
    "id": "15wjy2k",
@@ -1325,6 +1709,18 @@ window.NEWS_DATA = {
    "site": "https://www.huxiu.com"
   },
   {
+   "id": "1rgmzwq",
+   "title": "Week of Oct. 5 Cable News Ratings: CNN Up in Both Measurements",
+   "url": "https://www.adweek.com/tvnewser/week-of-oct-5-2026-cable-news-ratings",
+   "summary": "Despite the other gains, Fox News was still the most-watched news network.",
+   "date": "2026-10-19T14:51:46.000Z",
+   "firstSeen": "2026-10-19T22:38:19.440Z",
+   "source": "Adweek",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.adweek.com"
+  },
+  {
    "id": "1ow0cxz",
    "title": "一分钟卖光的 iPhone Duo，把苹果产能短板摆上台面",
    "url": "https://www.huxiu.com/article/4898756.html",
@@ -1517,6 +1913,18 @@ window.NEWS_DATA = {
    "site": "https://www.thewrap.com"
   },
   {
+   "id": "znvuhz",
+   "title": "After Torching a Rimowa, John Summit Becomes Away’s Chief Destruction Officer",
+   "url": "https://www.adweek.com/creativity/after-torching-a-rimowa-john-summit-becomes-aways-chief-destruction-officer",
+   "summary": "Away answers John Summit's viral post with a partnership that puts its aluminum luggage through a trial by fire.",
+   "date": "2026-10-19T13:43:19.000Z",
+   "firstSeen": "2026-10-19T22:38:19.440Z",
+   "source": "Adweek",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.adweek.com"
+  },
+  {
    "id": "14tpc08",
    "title": "战魔田默｜罗氏最高11.6亿美元押注中国在研减重药，为什么九成要等结果？",
    "url": "https://www.huxiu.com/article/4898748.html",
@@ -1568,7 +1976,7 @@ window.NEWS_DATA = {
    "id": "176yd01",
    "title": "Beyond Big Exec Moves, Studio Interest Again For Netflix?",
    "url": "https://www.mediapost.com/publications/article/418799/beyond-big-exec-moves-studio-interest-again-for-n.html",
-   "summary": "The question is: why now? Perhaps Netflix's expansion with unscripted content, live events and sports has peaked? More importantly, what comes next?",
+   "summary": "The question is - why now? Has Netflix's expansion with unscripted content, live events and sports peaked? More importantly, what comes next?",
    "date": "2026-10-19T13:22:59.000Z",
    "firstSeen": "2026-10-19T17:09:59.929Z",
    "source": "MediaPost",
@@ -4362,7 +4770,7 @@ window.NEWS_DATA = {
   },
   {
    "id": "1xfz3p4",
-   "title": "Disney agrees to hire the majority of Character.AI’s workforce",
+   "title": "Disney agrees to hire the majority of Character AI’s workforce",
    "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce",
    "summary": "The filing also says that the “vast majority” of Character.AI employees who were offered jobs at Disney accepted them. However, this is a stalking horse bid, so another company could come forward with a higher offer.",
    "date": "2026-10-18T16:30:00.000Z",
@@ -4809,7 +5217,7 @@ window.NEWS_DATA = {
    "title": "Legal experts warn Meta’s new terms still grant broad scraping permissions, despite language changes",
    "url": "https://www.niemanlab.org/2026/10/legal-experts-warn-metas-new-terms-still-grant-broad-scraping-permissions-despite-language-changes",
    "summary": "Meta has removed the word “train” from its upcoming terms of service for business accounts. The company revised its terms after Nieman Lab’s story on Thursday exposed that the new terms would permit broad scraping of websites “associated with” business accounts, and possibly allow Meta to use that s",
-   "date": "2026-10-17T18:49:46.000Z",
+   "date": "2026-10-17T18:30:46.000Z",
    "firstSeen": "2026-10-19T03:37:33.468Z",
    "source": "NiemanLab",
    "tier": "S",
@@ -8367,54 +8775,6 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://voices.media"
-  },
-  {
-   "id": "1dawt4j",
-   "title": "ChatGPT is adding real cartoonists’ signatures to fake New Yorker cartoons",
-   "url": "https://www.niemanlab.org/2026/10/chatgpt-is-adding-real-cartoonists-signatures-to-fake-new-yorker-cartoons",
-   "summary": "At the pearly gates, Dolly Parton, in a sparkling gown, stands arm in arm with Tim Curry, dressed as Dr. Frank-N-Furter. “I knew I chose the right plus one,” Parton says to God, who is standing at heaven’s reception desk. That’s the premise of a cartoon that went viral on Twitter in the days after..",
-   "date": "2026-10-05T20:01:27.000Z",
-   "firstSeen": "2026-10-19T03:37:33.468Z",
-   "source": "NiemanLab",
-   "tier": "S",
-   "lang": "en",
-   "site": "https://www.niemanlab.org"
-  },
-  {
-   "id": "ptfxkk",
-   "title": "TikTok Expands Its Ad Network to the U.S.",
-   "url": "https://adtechradar.com/2026/10/05/tiktok-ad-network-us-pangle",
-   "summary": "TikTok is expanding beyond TikTok. Timed to Advertising Week, the company is bringing TikTok Ad Network (TTAN) to… The post TikTok Expands Its Ad Network to the U.S. first appeared on AdTechRadar.",
-   "date": "2026-10-05T19:00:46.000Z",
-   "firstSeen": "2026-10-19T03:37:33.468Z",
-   "source": "AdTechRadar",
-   "tier": "B",
-   "lang": "en",
-   "site": "https://adtechradar.com"
-  },
-  {
-   "id": "1oayxxl",
-   "title": "How a plan to turn the Spokane Spokesman-Review into “The People’s Paper” ended in a newsroom revolt",
-   "url": "https://www.niemanlab.org/2026/10/how-a-plan-to-turn-the-spokane-spokesman-review-into-the-peoples-paper-ended-in-a-newsroom-revolt",
-   "summary": "When the Spokesman-Review announced plans to transfer Spokane’s 143-year-old, family-owned newspaper to a nonprofit founded by executive editor Rob Curley, it took over the front page. “The People’s Paper,” read the April 16, 2025, headline, saying ownership would transfer “to you, the community.” K",
-   "date": "2026-10-05T18:44:52.000Z",
-   "firstSeen": "2026-10-19T03:37:33.468Z",
-   "source": "NiemanLab",
-   "tier": "S",
-   "lang": "en",
-   "site": "https://www.niemanlab.org"
-  },
-  {
-   "id": "nfxjzt",
-   "title": "1440’s $27M Newsletter Business Is Moving Beyond the Inbox",
-   "url": "https://www.amediaoperator.com/news/1440s-27m-newsletter-business-is-moving-beyond-the-inbox",
-   "summary": "1440 is reshuffling its editorial leadership as the profitable newsletter publisher looks to turn its audience of more than 4.5 million subscribers… The post 1440’s $27M Newsletter Business Is Moving Beyond the Inbox appeared first on A Media Operator.",
-   "date": "2026-10-05T17:45:17.000Z",
-   "firstSeen": "2026-10-19T03:37:33.468Z",
-   "source": "A Media Operator",
-   "tier": "A",
-   "lang": "en",
-   "site": "https://www.amediaoperator.com"
   }
  ]
 };
