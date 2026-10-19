@@ -117,14 +117,15 @@ async function fetchFeed(src) {
     const xml = await res.text();
     let items = parseFeed(xml);
     if (!items.length) return { ok: false, error: '解析不到文章', items: [] };
-    // 全站型 feed（例如 Semafor）用 match 關鍵字挑出媒體產業相關的文章，
-    // 否則幾百篇無關新聞會把同分級的其他來源洗掉
+    // 全站型 feed 用 match 關鍵字挑出想要的文章，否則幾百篇無關新聞會把同分級的其他來源洗掉。
+    // 只比對標題：原本連摘要一起比對，結果「報導」「媒體」這些新聞稿慣用語到處都是，
+    // 撈回來一堆「勒龐喊停援烏」之類完全無關的文章，白名單形同虛設。
     if (src.match) {
       const re = new RegExp(src.match, 'i');
-      items = items.filter((it) => re.test(`${it.title} ${it.summary} ${it.url}`));
+      items = items.filter((it) => re.test(it.title));
     }
     // exclude 則相反，把標題含有這些字的文章擋掉（鉅亨網的盤前、速報、個股這類盤面快訊）。
-    // 只比對標題，不看摘要：正文提到「個股」的正常報導不該被誤殺。
+    // 同樣只比對標題，理由一致：正文提到「個股」的正常報導不該被誤殺。
     // 同時符合 match 和 exclude 時以 exclude 為準。
     if (src.exclude) {
       const re = new RegExp(src.exclude, 'i');
