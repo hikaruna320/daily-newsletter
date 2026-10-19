@@ -103,7 +103,10 @@ function parseFeed(xml) {
     if (!title || !url) continue;
     const summary = clean(pick(b, ['description', 'summary', 'content:encoded', 'content'])).slice(0, 300);
     const date = toIso(pick(b, ['pubDate', 'published', 'updated', 'dc:date']));
-    out.push({ title, url, summary, date });
+    // 有些 feed 會自己標分類（Semafor 的 <category>Media</category>），
+    // 這比我們用關鍵字猜主題準確得多，留著給 sources.json 的 category 用
+    const category = clean(pick(b, ['category']));
+    out.push({ title, url, summary, date, category });
   }
   return out;
 }
@@ -117,6 +120,19 @@ async function fetchFeed(src) {
     const xml = await res.text();
     let items = parseFeed(xml);
     if (!items.length) return { ok: false, error: '解析不到文章', items: [] };
+    // category 是最準的過濾方式：用來源自己標的分類，不是我們猜關鍵字。
+    // Semafor 全站 feed 一天 20 幾篇政治新聞，但每篇都標了分類，取 Media 就乾淨了。
+    // 有這個欄位時優先用它，沒有才退回關鍵字。
+    if (src.category) {
+      const re = new RegExp(src.category, 'i');
+      items = items.filter((it) => re.test(it.category || ''));
+    }
+    // excludeCategory 則相反，用來剔掉整個不要的分類（鉅亨網的台股、美股、外匯這些版面）。
+    // 比用標題關鍵字可靠：來源換說法（債市、股市、AI股）時分類不會變，不用一直補關鍵字。
+    if (src.excludeCategory) {
+      const re = new RegExp(src.excludeCategory, 'i');
+      items = items.filter((it) => !re.test(it.category || ''));
+    }
     // 全站型 feed 用 match 關鍵字挑出想要的文章，否則幾百篇無關新聞會把同分級的其他來源洗掉。
     // 只比對標題：原本連摘要一起比對，結果「報導」「媒體」這些新聞稿慣用語到處都是，
     // 撈回來一堆「勒龐喊停援烏」之類完全無關的文章，白名單形同虛設。
