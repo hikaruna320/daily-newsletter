@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-10-20T15:22:11.484Z",
+ "generatedAt": "2026-10-20T21:52:44.416Z",
  "keepDays": 14,
  "sources": [
   {
@@ -52,9 +52,9 @@ window.NEWS_DATA = {
    "tier": "A",
    "lang": "zh-TW",
    "feed": "https://rss.bnextmedia.com.tw/feed/bnext",
-   "ok": true,
-   "error": null,
-   "count": 10
+   "ok": false,
+   "error": "解析不到文章",
+   "count": 0
   },
   {
    "name": "虎嗅网",
@@ -72,7 +72,7 @@ window.NEWS_DATA = {
    "feed": "https://techcrunch.com/feed/",
    "ok": true,
    "error": null,
-   "count": 2
+   "count": 4
   },
   {
    "name": "Semafor",
@@ -259,9 +259,9 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "zh-TW",
    "feed": "https://www.managertoday.com.tw/rss",
-   "ok": true,
-   "error": null,
-   "count": 9
+   "ok": false,
+   "error": "解析不到文章",
+   "count": 0
   },
   {
    "name": "品玩",
@@ -881,6 +881,606 @@ window.NEWS_DATA = {
  ],
  "items": [
   {
+   "id": "1htlq1z",
+   "title": "‘Heated Rivalry’ Goes All In on Physical Media Including Special Edition Blu-Ray and DVD",
+   "url": "https://www.hollywoodreporter.com/lifestyle/shopping/heated-rivalry-bluray-dvd-ill-believe-in-anything-book-1236612287",
+   "summary": "Fans of the Jacob Tierney-created series, and the Rachel Reid books they’re based upon, are getting the chance to buy ‘Heated Rivalry’ on Blu-Ray and DVD.",
+   "date": "2026-10-20T21:46:00.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "1sby36h",
+   "title": "Australia set to sue Meta, TikTok, Snap and YouTube, Bloomberg reports",
+   "url": "https://thenextweb.com/news/australia-social-media-ban-sue-meta-tiktok-snap-youtube",
+   "summary": "Australia expects to take Meta, TikTok, Snap and Google’s YouTube to court over its social media ban for under-16s. Communications Minister Anika Wells told Bloomberg that the eSafety Commissioner, Julie Inman Grant, is using new powers to build the case. Wells named Facebook, Instagram, TikTok, Sna",
+   "date": "2026-10-20T21:43:35.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "TNW",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://thenextweb.com"
+  },
+  {
+   "id": "1b64ve8",
+   "title": "‘You Can See Everything’ Would Have Looked Much Different Without Emma Stone’s Help",
+   "url": "https://www.thewrap.com/creative-content/movies/you-can-see-everything-emma-stone-nathan-fielder",
+   "summary": "Stone and Nathan Fielder previously worked together on \"The Curse\" The post ‘You Can See Everything’ Would Have Looked Much Different Without Emma Stone’s Help appeared first on TheWrap.",
+   "date": "2026-10-20T21:40:42.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "122w36f",
+   "title": "Netflix’s Theatrical Strategy ‘Has Evolved,’ Ted Sarandos Says",
+   "url": "https://www.thewrap.com/creative-content/movies/netflix-theatrical-strategy-changes-ted-sarandos-explains",
+   "summary": "Still, he admits, “we are a streaming-first business” The post Netflix’s Theatrical Strategy ‘Has Evolved,’ Ted Sarandos Says appeared first on TheWrap.",
+   "date": "2026-10-20T21:37:17.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "1p8i08s",
+   "title": "Culinary Creator Desmond Scott Launches and EPs Digital Cooking Series With BET and Paramount | Exclusive",
+   "url": "https://www.thewrap.com/media-platforms/tv/desmond-scott-lets-get-it-started-cooking-show-bet-paramount",
+   "summary": "\"Let’s Get It Started with Desmond Scott\" premieres in November The post Culinary Creator Desmond Scott Launches and EPs Digital Cooking Series With BET and Paramount | Exclusive appeared first on TheWrap.",
+   "date": "2026-10-20T21:30:00.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "i8m9mo",
+   "title": "Golden Globes Rejects ‘Michael’ Submission as Comedy/Musical",
+   "url": "https://www.thewrap.com/culture-lifestyle/culture/golden-globes-rejects-michael-submission-as-comedy-musical",
+   "summary": "Lionsgate has until Oct. 31 to appeal the decision The post Golden Globes Rejects ‘Michael’ Submission as Comedy/Musical appeared first on TheWrap.",
+   "date": "2026-10-20T21:29:40.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "1y4ef85",
+   "title": "Greg Peters Says Netflix Ad Business Is ‘A Bit Behind’ and Has a ‘Long Road Ahead’",
+   "url": "https://www.thewrap.com/media-platforms/streaming/greg-peters-netflix-ads-business-behind-earnings-call",
+   "summary": "The co-CEO adds he does not think the \"modest short-term hit\" will impact its growth down the line The post Greg Peters Says Netflix Ad Business Is ‘A Bit Behind’ and Has a ‘Long Road Ahead’ appeared first on TheWrap.",
+   "date": "2026-10-20T21:28:06.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "b1rp40",
+   "title": "Netflix: “We Need Better Execution” in U.S., and Peter Rice Can Deliver It",
+   "url": "https://www.hollywoodreporter.com/business/business-news/netflix-better-execution-us-ted-sarandos-peter-rice-1236736729",
+   "summary": "Co-CEO Ted Sarandos says the former Disney and Fox executive can help the streamer keep growing.",
+   "date": "2026-10-20T21:23:51.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "10k9ilm",
+   "title": "Netflix Teases Add-On Subscriptions to Come Amid Engagement Slowdown",
+   "url": "https://www.thewrap.com/media-platforms/tv/netflix-teases-add-on-subscriptions-engagement-slowdown",
+   "summary": "Greg Peters says the potential features will provide \"same core benefits\" as third-party partnerships like TF1 The post Netflix Teases Add-On Subscriptions to Come Amid Engagement Slowdown appeared first on TheWrap.",
+   "date": "2026-10-20T21:21:50.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "scn130",
+   "title": "FTC clears Publicis’ $2.2bn LiveRamp deal if rivals keep equal access",
+   "url": "https://thenextweb.com/news/publicis-liveramp-ftc-consent-order-equal-access",
+   "summary": "The US Federal Trade Commission will let Publicis Groupe buy LiveRamp for $2.2bn, but only if the data company keeps serving the agency’s rivals on equal terms. The proposed consent order, announced on Monday, binds both companies for five years. Publicis must give every LiveRamp customer “non-discr",
+   "date": "2026-10-20T21:21:43.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "TNW",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://thenextweb.com"
+  },
+  {
+   "id": "1a2ewqu",
+   "title": "Meta details Prometheus, the Ohio supercluster heading for 1 million GPUs",
+   "url": "https://thenextweb.com/news/meta-prometheus-supercluster-1-million-gpus-muse",
+   "summary": "Meta’s Prometheus supercluster in New Albany, Ohio, already runs hundreds of thousands of Nvidia GPUs across several buildings, and Meta plans to grow it to about 1 million. The company set out the details in an engineering blog post on Monday. The first phase of the gigawatt-scale cluster is finish",
+   "date": "2026-10-20T21:08:11.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "TNW",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://thenextweb.com"
+  },
+  {
+   "id": "1rvf13c",
+   "title": "Where to Watch ‘The Golden Life,’ ‘Real Housewives of New York City’ Spinoff",
+   "url": "https://www.hollywoodreporter.com/tv/tv-news/watch-the-golden-life-rhony-spinoff-streaming-free-2026-s1-1236736650",
+   "summary": "Original 'RHONY' stars Kelly Bensimon, Countess Luann De Lesseps, Dorinda Medley, Sonja Morgan and Ramona Singer front the new reality series.",
+   "date": "2026-10-20T21:08:04.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "1y0mz74",
+   "title": "Ted Sarandos Explains Why He Chose Peter Rice to Run Netflix’s Content Strategy",
+   "url": "https://www.thewrap.com/culture-lifestyle/culture/ted-sarandos-explains-why-he-hired-peter-rice-netflix",
+   "summary": "The co-CEO says industry reaction to his hiring of the former Fox exec has been \"nothing short of overwhelming\" The post Ted Sarandos Explains Why He Chose Peter Rice to Run Netflix’s Content Strategy appeared first on TheWrap.",
+   "date": "2026-10-20T21:04:38.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "qk0chl",
+   "title": "Ex-OpenAI research chief Bob McGrew’s Arda raises $232M for US factories",
+   "url": "https://thenextweb.com/news/arda-bob-mcgrew-232m-1-5bn-ai-manufacturing",
+   "summary": "Arda Industries, founded by OpenAI’s former research chief Bob McGrew, has come out of stealth with $232 million in funding, the company announced on Tuesday. Its AI software turns new product designs into working assembly lines. The total includes a $160 million Series A at a $1.5 billion valuation",
+   "date": "2026-10-20T20:55:10.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "TNW",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://thenextweb.com"
+  },
+  {
+   "id": "1wardrj",
+   "title": "Threads Assembles Live NFL Commentator &#x27;Team&#x27;",
+   "url": "https://www.mediapost.com/publications/article/418872/threads-assembles-live-nfl-commentator-team.html",
+   "summary": "To help bolster real-time conversations taking place around the NFL, Threads has assembled a team of commentators and creators who have built audiences around the professional sport.",
+   "date": "2026-10-20T20:47:00.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
+   "id": "wxglr1",
+   "title": "AI Slop Ad Requests Have Surged 354% in 2026",
+   "url": "https://adtechradar.com/2026/10/20/doubleverify-ai-slop-ad-requests-2026",
+   "summary": "AI slop is spreading. New data from DoubleVerify finds that monthly ad requests associated with AI slop pages… The post AI Slop Ad Requests Have Surged 354% in 2026 first appeared on AdTechRadar.",
+   "date": "2026-10-20T20:41:41.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "AdTechRadar",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://adtechradar.com"
+  },
+  {
+   "id": "19i7azd",
+   "title": "Why I Directed a Pregnancy Dramedy After a Career in Big Budget, World-Ending Movies",
+   "url": "https://www.hollywoodreporter.com/movies/movie-features/why-adam-sztykiel-directed-lets-get-pregnant-1236729326",
+   "summary": "Adam Sztykiel is known for features like 'Black Adam' and 'Rampage' and TV shows such as 'Bad Monkey.' When it came to direct his first movie, 'Let's Have Kids,' he went for something where the stakes weren't world ending, but instead were purely personal.",
+   "date": "2026-10-20T20:36:41.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "1i8e453",
+   "title": "Vivek Ramaswamy Faces Backlash Over Ad Featuring Opponent Amy Acton’s Mother",
+   "url": "https://www.thewrap.com/media-platforms/politics/vivek-ramaswamy-attack-ad-amy-acton-mother-backlash",
+   "summary": "Acton accuses her Republican rival in Ohio of exploiting her childhood abuse, but the video's origins remain unknown The post Vivek Ramaswamy Faces Backlash Over Ad Featuring Opponent Amy Acton’s Mother appeared first on TheWrap.",
+   "date": "2026-10-20T20:34:17.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "j7cn8h",
+   "title": "ASI hits a $3bn valuation as its AI moves from air traffic to the grid",
+   "url": "https://thenextweb.com/news/asi-325m-series-c-3bn-valuation-air-space-intelligence",
+   "summary": "ASI has raised $325 million in a Series C round that values it at $3 billion, the Boston AI company announced on Tuesday. Its software models air traffic, power grids and military operations hours, days and weeks ahead. The aim is to let operators act before problems spread. Spark Capital led the ro",
+   "date": "2026-10-20T20:31:44.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "TNW",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://thenextweb.com"
+  },
+  {
+   "id": "1tslzed",
+   "title": "YouTube Tests Monthly Bonuses For &#x27;Shorts&#x27; Creators",
+   "url": "https://www.mediapost.com/publications/article/418871/youtube-tests-monthly-bonuses-for-shorts-creator.html",
+   "summary": "With a focus on originality and episodic content for its short-form video feed, YouTube has begun testing a monthly bonus program for select creators based on Shorts uploads and performance.",
+   "date": "2026-10-20T20:25:40.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
+   "id": "1ny8tgl",
+   "title": "Robert Downey Jr. joins Snap’s SPECS as honorary customer experience chief",
+   "url": "https://thenextweb.com/news/robert-downey-jr-snap-specs-chief-customer-experience-officer",
+   "summary": "Robert Downey Jr. has joined SPECS, Snap’s augmented reality glasses business, as its honorary chief customer experience officer, Snap announced. His job is to show people what the see-through glasses can do. SPECS runs as Specs Inc., a wholly owned Snap subsidiary. Its glasses put digital content i",
+   "date": "2026-10-20T20:23:05.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "TNW",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://thenextweb.com"
+  },
+  {
+   "id": "1b8fkdy",
+   "title": "Netflix Warns of Disappointing Q4 Revenue As Growth Questions Remain",
+   "url": "https://www.thewrap.com/industry-news/business/netflix-earnings-q3-2026",
+   "summary": "The forecast overshadowed third-quarter profits that topped expectations The post Netflix Warns of Disappointing Q4 Revenue As Growth Questions Remain appeared first on TheWrap.",
+   "date": "2026-10-20T20:17:32.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "rtdri5",
+   "title": "Netflix Beats Q3 Earnings Estimates But Braces Wall Street for 2026 Ad Sales Whiff",
+   "url": "https://www.hollywoodreporter.com/business/business-news/netflix-q3-2026-earnings-ad-sales-stock-decline-continues-1236735383",
+   "summary": "Shares in NFLX continue to tumble after the streamer released its fourth quarter forecast.",
+   "date": "2026-10-20T20:16:36.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "fk928p",
+   "title": "Reliable Robotics tops a $1bn valuation with $115M for self-flying planes",
+   "url": "https://thenextweb.com/news/reliable-robotics-115m-1bn-valuation-autonomous-flight",
+   "summary": "Reliable Robotics has raised $115 million, taking its valuation past $1 billion, the company announced on Tuesday. The Mountain View, California, startup builds systems that let existing aircraft taxi, take off, fly and land on their own. The money extends the Series D it announced in April at $160 ",
+   "date": "2026-10-20T20:13:44.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "TNW",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://thenextweb.com"
+  },
+  {
+   "id": "14qhgds",
+   "title": "Broadway Box Office: Julia Louis-Dreyfus’ ‘Other Desert Cities,’ Billy Crystal’s ‘860,’ ‘A Few Good Men’ See Strong Momentum",
+   "url": "https://www.hollywoodreporter.com/lifestyle/arts/broadway-box-office-julia-louis-dreyfus-other-desert-cities-billy-crystal-1236736628",
+   "summary": "Billy Crystal’s solo show '860' brought in an impressive $1.3 million across seven shows.",
+   "date": "2026-10-20T20:07:13.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "1uqehdf",
+   "title": "‘American Horror Story’ Scores Early Season 14 Renewal at FX and Hulu",
+   "url": "https://www.thewrap.com/media-platforms/tv/american-horror-story-season-14-renewed-fx-hulu",
+   "summary": "The renewal comes as \"AHS\" Season 13 breaks streaming records for creator Ryan Murphy The post ‘American Horror Story’ Scores Early Season 14 Renewal at FX and Hulu appeared first on TheWrap.",
+   "date": "2026-10-20T20:00:00.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "17dp21x",
+   "title": "‘American Horror Story’ Scores Season 14 Renewal at FX",
+   "url": "https://www.hollywoodreporter.com/tv/tv-news/american-horror-story-renewed-season-14-fx-1236736606",
+   "summary": "The pickup comes after a strong ratings performance from the show's current run.",
+   "date": "2026-10-20T20:00:00.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "7n6i10",
+   "title": "OpenAI Auto Enabling Creative Enhancements In ChatGPT Ads",
+   "url": "https://www.seroundtable.com/openai-chatgpt-ads-enabling-creative-enhancements-42344.html",
+   "summary": "OpenAI sent out emails to advertisers, including me, telling me they have automatically enabled creative enhancements for my ChatGPT Ads. The email says this is starting on October 30, 2026 and I can opt out of creative enhancements or change your settings at any time in Ads Manager.",
+   "date": "2026-10-20T19:35:00.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "Search Engine Roundtable",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.seroundtable.com"
+  },
+  {
+   "id": "7wzjzg",
+   "title": "Publicist Emily Vespa Joins Birch Public Relations",
+   "url": "https://www.hollywoodreporter.com/news/general-news/birch-public-relations-emily-vespa-client-list-1236735833",
+   "summary": "Her talent roster includes D’Pharaoh Woon-A-Tai, Adam Pally, Ed Weeks, Zarna Garg, Brandon Kyle Goodman and Fiona Dourif.",
+   "date": "2026-10-20T19:34:54.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "32w5pf",
+   "title": "Josh Hartnett on Finding (and Shedding) His ‘Below’ Accent, and the Car Accident That Nearly Derailed Production",
+   "url": "https://www.hollywoodreporter.com/tv/tv-features/josh-hartnett-below-interview-widows-bay-car-crash-season-2-1236730830",
+   "summary": "Hartnett tells The Hollywood Reporter the 'Widow's Bay' comparisons created \"a little bit of a scary situation,\" but then he saw the trailer: \"Oh, thank God.\"",
+   "date": "2026-10-20T19:31:32.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "1hg0mu6",
+   "title": "Keanu Reeves in Talks to Star in James Wan’s ‘The Gangster, The Cop, The Devil’ (Exclusive)",
+   "url": "https://www.hollywoodreporter.com/movies/movie-news/keanu-reeves-james-wan-the-gangster-the-cop-the-devil-1236736550",
+   "summary": "Paramount Pictures is reimagining the 2019 Korean action crime thriller.",
+   "date": "2026-10-20T19:30:00.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "wxzibg",
+   "title": "Two out of five Americans regularly get their news on Facebook",
+   "url": "https://www.niemanlab.org/2026/10/two-out-of-five-americans-are-regularly-getting-their-news-on-facebook",
+   "summary": "Despite what my Facebook feed looks like, the platform’s not just for AI fruit videos and birthday posts. According to data from the Pew Research Center published Monday, 40% of adults in the United States regularly get their news from Facebook. That’s up from 36% in 2020, signaling the continued st",
+   "date": "2026-10-20T19:07:52.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "NiemanLab",
+   "tier": "S",
+   "lang": "en",
+   "site": "https://www.niemanlab.org"
+  },
+  {
+   "id": "un3fcb",
+   "title": "Your Audience Uses AI But Doesn’t Trust It – Build Content For The Gap",
+   "url": "https://www.searchenginejournal.com/your-audience-uses-ai-but-doesnt-trust-it-build-content-for-the-gap/592818",
+   "summary": "Build an SEO and content strategy for audiences who use AI but distrust it, with clearer sourcing, audience segmentation, and honest product limits. The post Your Audience Uses AI But Doesn’t Trust It – Build Content For The Gap appeared first on Search Engine Journal.",
+   "date": "2026-10-20T19:00:30.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "Search Engine Journal",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.searchenginejournal.com"
+  },
+  {
+   "id": "3vt1cd",
+   "title": "Sierra and Stripe let AI agents take card payments during calls",
+   "url": "https://thenextweb.com/news/sierra-stripe-payments-ai-agent-calls",
+   "summary": "Sierra, the AI customer service startup led by Bret Taylor, has partnered with Stripe so its agents can take card payments during phone calls. Customers type their card number on the keypad and the data goes straight to Stripe. Healthcare billing firm Cedar is an early user. Sierra, the AI customer ",
+   "date": "2026-10-20T18:54:32.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "TNW",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://thenextweb.com"
+  },
+  {
+   "id": "25hftv",
+   "title": "Meta’s policy chief Joel Kaplan will leave the company in 2027",
+   "url": "https://thenextweb.com/news/meta-joel-kaplan-leaving-2027",
+   "summary": "Joel Kaplan, Meta’s chief global affairs officer, will leave the company in 2027 after more than 15 years, Bloomberg reported. He will stay through the US midterm elections. No successor was named, but president Dina Powell McCormick and chief legal officer C.J. Mahoney are taking on more policy wor",
+   "date": "2026-10-20T18:31:55.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "TNW",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://thenextweb.com"
+  },
+  {
+   "id": "n5uj0i",
+   "title": "Why I'm building an LGBTQ+ media platform: \"Who gets to be considered worth writing about?\"",
+   "url": "https://www.journalism.co.uk/why-im-building-an-lgbtq-media-platform-who-gets-to-be-considered-worth-writing-about",
+   "summary": "She Comes With Baggage aims to go beyond the household names and instead spotlight \"local legends\", \"changemakers\" and companies genuinely committed to allyship (not just in Pride month)",
+   "date": "2026-10-20T17:56:20.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "Journalism UK",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.journalism.co.uk"
+  },
+  {
+   "id": "zebpe3",
+   "title": "Netflix Lowers Expected Ad Revenue After Slower Rollout of Capabilities",
+   "url": "https://www.adweek.com/convergent-tv/netflix-lowers-expected-ad-revenue-after-slower-rollout-of-capabilities",
+   "summary": "After previously targeting $3 billion in ad revenue, Netflix announced it's expected to hit $2.7 billion for the year.",
+   "date": "2026-10-20T17:31:49.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "Adweek",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.adweek.com"
+  },
+  {
+   "id": "axywp3",
+   "title": "Otter.ai raises $320M from General Catalyst for enterprise growth",
+   "url": "https://thenextweb.com/news/otter-ai-320m-general-catalyst",
+   "summary": "Otter.ai has raised $320 million in growth financing from General Catalyst’s Customer Value Fund. The AI meeting notetaker announced the deal on Tuesday. It will use the money for enterprise growth, its go-to-market strategy, international expansion and product development. Otter says more than 40 m",
+   "date": "2026-10-20T17:25:45.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "TNW",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://thenextweb.com"
+  },
+  {
+   "id": "9f9lf9",
+   "title": "Meta’s Muse hits 10M U.S. downloads in 40 days, a milestone reached by only 11 other apps",
+   "url": "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps",
+   "summary": "Meta's AI companion Muse has surpassed 10 million U.S. downloads in its first 40 days, joining an exclusive group of apps that includes Threads. New data also shows Muse is retaining users at higher rates than its AI rivals.",
+   "date": "2026-10-20T17:12:48.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "TechCrunch",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://techcrunch.com"
+  },
+  {
+   "id": "1rt3bwl",
+   "title": "Apple Publishes Its Plan To Wipe Out Web Tracking",
+   "url": "https://www.adexchanger.com/platforms/apple-publishes-its-plan-to-wipe-out-web-tracking",
+   "summary": "Do you hear them? The bells? The drums? Apple is coming. And we’re not talking about 30%. “It’s not enough to block cross-site cookies to prevent cross-site tracking today because the tracking industry has not stopped trying to track users on the web.” Those are the words of Apple WebKit software en",
+   "date": "2026-10-20T16:29:42.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "AdExchanger",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.adexchanger.com"
+  },
+  {
+   "id": "1i7sj7p",
+   "title": "当所有人都相信自己明天会更弱",
+   "url": "https://www.huxiu.com/article/4899087.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/21/39753-prod-grokep-general-1-1792512449105.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>上周五，10月16日。一部由美国国会两党压倒性通过、以已故参议员格雷厄姆命名的对俄制裁法案，眼看两天后就要生效，特朗普签署行政令",
+   "date": "2026-10-20T16:08:46.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "1hkhq5g",
+   "title": "中国在全球的流浪工厂",
+   "url": "https://www.huxiu.com/article/4899086.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/21/39752-prod-grokep-general-1-1792512328362.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>中国制造为何在全球四下迁移，成为全球化的流浪工厂？美国关税和法令是关键驱动力。中国的光伏组件工厂，当前正在埃塞俄比亚加班加点出货",
+   "date": "2026-10-20T16:07:00.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "10ocgah",
+   "title": "Streaming guide JustWatch becomes a streamer itself",
+   "url": "https://techcrunch.com/2026/10/20/streaming-guide-justwatch-becomes-a-streamer-itself",
+   "summary": "JustWatch, the popular streaming search guide used by 50 million people, is launching its own streaming service, offering free, ad-supported movies and shows alongside a $3.99-per-month ad-free tier and movie rentals.",
+   "date": "2026-10-20T16:01:24.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "TechCrunch",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://techcrunch.com"
+  },
+  {
+   "id": "1vgto09",
+   "title": "Public broadcasting found a lifeline after defunding. How long will it last?",
+   "url": "https://www.poynter.org/reporting-editing/2026/public-broadcasting-federal-funding-cuts-donations",
+   "summary": "This article was originally published by Northwestern University’s Medill Local News Initiative and is republished here with permission. Last summer, Asia Burnett was staring into a financial abyss. President Donald Trump was […] The post Public broadcasting found a lifeline after defunding. How lon",
+   "date": "2026-10-20T16:00:50.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "Poynter",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.poynter.org"
+  },
+  {
+   "id": "2fe7ul",
+   "title": "從傳聞中的「HomeView Max」推估：當智慧中控長出機械臂，蘋果如何進軍實體AI鋪路？",
+   "url": "https://mashdigi.com/rumors-suggest-apple-is-secretly-developing-a-high-end-homeview-max-ultra-model-codenamed-j595-aiming-to-enter-the-physical-ai-market",
+   "summary": "在蘋果正式發表首款採用7吋固定式螢幕的智慧家庭中控HomeView後，市場原以為這只是蘋果跨足智慧家庭生態的常 […]",
+   "date": "2026-10-20T16:00:16.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "mashdigi",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://mashdigi.com"
+  },
+  {
+   "id": "1gx6x37",
+   "title": "政策、竞争两头夹击，国模未来看昇腾？",
+   "url": "https://www.huxiu.com/article/4899085.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/20/39751-prod-nb2qn-general-1-1792511881266.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>上周五DeepSeek 4.1版本进行了更新，虽然只是一次版本之内的“小更新”，但实际性能提升明显。叠加同一天爆出的DS计划用昇腾",
+   "date": "2026-10-20T15:59:33.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "1fmlayp",
+   "title": "微信正在远离“用完即走”的产品哲学",
+   "url": "https://www.huxiu.com/article/4899083.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/20/39750-prod-nb2qn-general-1-1792511266724.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>10月19日，微信开放平台联合视频号团队正式启动“公众号小说改编微短剧”激励计划，入选作品的作者与承制方均可获得优先发行期变现收入",
+   "date": "2026-10-20T15:49:34.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "1rtiim7",
+   "title": "Salesforce to Buy Braze for $5.66 Billion",
+   "url": "https://www.adweek.com/dealroom/salesforce-to-buy-braze-for-566-billion",
+   "summary": "Salesforce intends on using Braze’s AI to deliver customers real-time signals on customer behavior, deliver services across platforms, and utilize the company’s AI to help marketers to optimize content.",
+   "date": "2026-10-20T15:47:16.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "Adweek",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.adweek.com"
+  },
+  {
+   "id": "fyl5oz",
+   "title": "When hackers become sources: Inside the new craft of reporting on hacked data",
+   "url": "https://www.niemanlab.org/2026/10/when-hackers-become-sources-inside-the-new-craft-of-reporting-on-hacked-data",
+   "summary": "Some consequential reporting of recent years has emerged thanks to what is normally defined as a “hack-and-leak,” a specific kind of cyberattack that results in the release of the information obtained by hackers. When Anonymous and allied collectives breached corporations and state agencies during t",
+   "date": "2026-10-20T15:39:06.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "NiemanLab",
+   "tier": "S",
+   "lang": "en",
+   "site": "https://www.niemanlab.org"
+  },
+  {
+   "id": "nwwe9p",
+   "title": "Google Ads Expands Financial Services Verification To US & Canada",
+   "url": "https://www.seroundtable.com/google-ads-financial-services-verification-expand-42338.html",
+   "summary": "Google has announced it is expanding its Google Ads Financial Services Verification requirements to the United States and Canada. Google is working with the American Bankers Association and Canadian Bankers Association for this.",
+   "date": "2026-10-20T15:20:00.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "Search Engine Roundtable",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.seroundtable.com"
+  },
+  {
    "id": "1xnmp23",
    "title": "Netflix’s Jinny Howe Restructures US and Canada Scripted Series Team, Promotes Cole Galvin and Neil Thomas",
    "url": "https://www.thewrap.com/media-platforms/tv/netflix-restructures-us-canada-scripted-series-jinny-howe",
@@ -927,6 +1527,18 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "y5hi9y",
+   "title": "识人很难的一关：看清你真心佩服的人",
+   "url": "https://www.huxiu.com/article/4899079.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/20/39749-prod-nb2qn-general-1-1792508808971.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>我觉得，识人很难的一关，是看清一个你真心佩服的人。明摆着的吹嘘，会让人留个心眼。可一个人确实做出过好东西，你对他的信任就有了来由。",
+   "date": "2026-10-20T15:08:22.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
   },
   {
    "id": "1dxqaqm",
@@ -1025,6 +1637,18 @@ window.NEWS_DATA = {
    "site": "https://www.hollywoodreporter.com"
   },
   {
+   "id": "sr8jhf",
+   "title": "New AI Tools Piloted at Builder Innovator Summit to Mixed Reviews",
+   "url": "https://www.amediaoperator.com/analysis/ae-ventures-ai-tools",
+   "summary": "Drew Ondrey, a partner at Southern Green Builders, a luxury custom homebuilder in Houston, was one of nine guests at a recent… The post New AI Tools Piloted at Builder Innovator Summit to Mixed Reviews appeared first on A Media Operator.",
+   "date": "2026-10-20T15:00:00.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "A Media Operator",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.amediaoperator.com"
+  },
+  {
    "id": "1jsfeqw",
    "title": "‘Crystal Lake’ Showrunner Says He Wasn’t Allowed to Show Nudity: “That’s America”",
    "url": "https://www.hollywoodreporter.com/tv/tv-news/crystal-lake-showrunner-nudity-friday-the-13th-peacock-1236736116",
@@ -1035,6 +1659,18 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "x1gj8e",
+   "title": "Publicis Agrees To FTC Consent Order, Settles LiveRamp Deal",
+   "url": "https://www.mediapost.com/publications/article/418857/publicis-agrees-to-ftc-consent-order-settles-live.html",
+   "summary": "The FTC said the order would alleviate concerns about restricted competition in the media agency and audience data services sectors.",
+   "date": "2026-10-20T14:53:37.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
   },
   {
    "id": "on2qq0",
@@ -1073,6 +1709,18 @@ window.NEWS_DATA = {
    "site": "https://www.hollywoodreporter.com"
   },
   {
+   "id": "xi6p7p",
+   "title": "中西部首个万亿外贸城市，要来了",
+   "url": "https://www.huxiu.com/article/4899078.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/20/39748-prod-nb2qn-general-1-1792507191749.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>中国万亿外贸城市格局即将改写。2025年，深圳、上海、北京、苏州、东莞、宁波、广州、金华进出口总值站上万亿元台阶，构成中国外贸城市",
+   "date": "2026-10-20T14:43:18.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
    "id": "11033mn",
    "title": "CNN Threatens New Legal Action Against Trump White House Over Air Force One Access",
    "url": "https://www.thewrap.com/media-platforms/journalism/cnn-trump-white-house-air-force-one-legal-threat",
@@ -1095,6 +1743,30 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://thenextweb.com"
+  },
+  {
+   "id": "19xwn77",
+   "title": "Anthropic Teaches &#x27;Cheating&#x27; AI Models How To Behave",
+   "url": "https://www.mediapost.com/publications/article/418851/anthropic-teaches-cheating-ai-models-how-to-beha.html",
+   "summary": "AI models being trained can \"cheat\" or take shortcuts to attain a high score - a process called \"reward hacking\" that leads to wasted ad spend, brand-safety violations, and corrupted consumer data.",
+   "date": "2026-10-20T14:32:14.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
+   "id": "vkaa0y",
+   "title": "民营美术馆，快撑不住了",
+   "url": "https://www.huxiu.com/article/4899075.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/20/39747-prod-nb2qn-general-1-1792506555220.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>“这么多年了，怎么说没就没了？”9月中旬，北京798园区的遇见博物馆突然消失了。这个曾经园区里最热闹的场馆之一，默默撤出了798，",
+   "date": "2026-10-20T14:30:48.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
   },
   {
    "id": "kxixe9",
@@ -1421,6 +2093,30 @@ window.NEWS_DATA = {
    "site": "https://www.thewrap.com"
   },
   {
+   "id": "t2yqqs",
+   "title": "Less Than Two-Thirds Of Americans Get News From TV, 87% Get It From Digital",
+   "url": "https://www.mediapost.com/publications/article/418852/less-than-two-thirds-of-americans-get-news-from-tv.html",
+   "summary": "Pew also found 31% of U.S. adults \"often\" get news from TV vs. 12% for radio and 6% for newspapers/magazines, while 59% get news \"often\" from digital devices - up from 56% in 2025.",
+   "date": "2026-10-20T13:00:00.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
+   "id": "14w3c9s",
+   "title": "Stagwell Relaunches Agentic Services Under Umbrella &#x27;AI&#x27; Brand",
+   "url": "https://www.mediapost.com/publications/article/418843/stagwell-relaunches-agentic-services-under-umbrell.html",
+   "summary": "The goal is to make it easier for businesses to find and use Stagwell's agentic tools, whether they need a single product or several that work together.",
+   "date": "2026-10-20T13:00:00.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
    "id": "1mkzfr2",
    "title": "热点｜星巴克实施“消费才可入座”：“第三空间”，终于开始筛选人了",
    "url": "https://www.huxiu.com/article/4899053.html",
@@ -1517,6 +2213,18 @@ window.NEWS_DATA = {
    "site": "https://www.huxiu.com"
   },
   {
+   "id": "r28224",
+   "title": "Netflix Announces New Ad Updates for Measurement and Capabilities",
+   "url": "https://www.adweek.com/convergent-tv/netflix-announces-new-ad-updates-for-measurement-and-capabilities",
+   "summary": "Netflix says new ad updates will provide better outcomes for its advertisers.",
+   "date": "2026-10-20T12:00:05.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "Adweek",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.adweek.com"
+  },
+  {
    "id": "1r9dk7q",
    "title": "What Personal AI Agents Like Meta Muse And OpenAI Dots Mean For SEO",
    "url": "https://www.searchenginejournal.com/personal-ai-agents-meta-muse-openai-dots-seo/592530",
@@ -1589,6 +2297,42 @@ window.NEWS_DATA = {
    "site": "https://www.thenewslens.com"
   },
   {
+   "id": "s3sid5",
+   "title": "Brave Anchorman Reports On Own Alzheimer&#x27;s Journey",
+   "url": "https://www.mediapost.com/publications/article/418845/brave-anchorman-reports-on-own-alzheimers-journey.html",
+   "summary": "News anchor Bill Ritter, a fixture of local TV in New York for 28 years, is courageously facing Alzheimer's disease by sharing his journey with the city he loves.",
+   "date": "2026-10-20T12:00:00.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
+   "id": "vz22t6",
+   "title": "Netflix Needs &#x27;Buzzy&#x27; Franchises",
+   "url": "https://www.mediapost.com/publications/article/418832/netflix-needs-buzzy-franchises.html",
+   "summary": "Despite being impacted by weakening viewer engagement, Netflix has the financial wherewithal to up its game with major brand franchises and prized intellectual property.",
+   "date": "2026-10-20T12:00:00.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
+   "id": "1ow5tay",
+   "title": "Kalshi Gives NBA Star Dillon Brooks a Device to Block LeBron James",
+   "url": "https://www.adweek.com/creativity/kalshi-gives-nba-star-dillon-brooks-a-device-to-block-lebron-james",
+   "summary": "Kalshi’s ‘King Blocker’ device mutes any mention of Dillon Brooks’ on-court rival, LeBron James.",
+   "date": "2026-10-20T12:00:00.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "Adweek",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.adweek.com"
+  },
+  {
    "id": "11vdlr2",
    "title": "新iPad mini 与首款触控Mac 下周齐发，它俩的“禁忌之恋”要藏不住了",
    "url": "https://www.huxiu.com/article/4899044.html",
@@ -1599,6 +2343,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-CN",
    "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "1dsh79h",
+   "title": "FTC Approves Publicis’ $2.2 Billion LiveRamp Deal With ‘Neutrality’ Conditions",
+   "url": "https://www.adweek.com/agencies/ftc-approves-publicis-22-billion-liveramp-deal-with-neutrality-conditions",
+   "summary": "The order outlined numerous rules Publicis must abide by in an attempt to maintain market neutrality",
+   "date": "2026-10-20T11:56:59.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "Adweek",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.adweek.com"
   },
   {
    "id": "11dri3i",
@@ -1767,6 +2523,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "en",
    "site": "https://www.adweek.com"
+  },
+  {
+   "id": "7ulvbh",
+   "title": "Yelp AI Mines Searches To Predict What Users Need Next",
+   "url": "https://www.mediapost.com/publications/article/418848/yelp-ai-mines-searches-to-predict-what-users-need.html",
+   "summary": "Yelp's AI assistant will soon have the ability to draw from a user's prior search history on the platform, pulling in preferences, saved business searches, interactions and other app activity.",
+   "date": "2026-10-20T11:00:00.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
   },
   {
    "id": "1wbi2pu",
@@ -2291,6 +3059,18 @@ window.NEWS_DATA = {
    "summary": "CTM’s Lisa Salvatore and Brian Barranger show how to mine customer conversations for useful content, qualified-lead criteria, conversion feedback, and product-demand signals. The post A New Place To Look: Where Your Next AI Citations & Clicks Come From appeared first on Search Engine Journal.",
    "date": "2026-10-20T07:45:18.000Z",
    "firstSeen": "2026-10-20T09:38:00.381Z",
+   "source": "Search Engine Journal",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.searchenginejournal.com"
+  },
+  {
+   "id": "1c91dhh",
+   "title": "A New Place To Look: Where Your Next AI Citations & Clicks Come From",
+   "url": "https://www.searchenginejournal.com/where-your-next-ai-citations-clicks-come-from/592892",
+   "summary": "CTM’s Lisa Salvatore and Brian Barranger show how to mine customer conversations for useful content, qualified-lead criteria, conversion feedback, and product-demand signals. The post A New Place To Look: Where Your Next AI Citations & Clicks Come From appeared first on Search Engine Journal.",
+   "date": "2026-10-20T07:45:18.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
    "source": "Search Engine Journal",
    "tier": "C",
    "lang": "en",
@@ -3027,6 +3807,18 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "zh-TW",
    "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "e9gd4j",
+   "title": "X Builds Out &#x27;Gametime&#x27; Hub With NBA Partnership",
+   "url": "https://www.mediapost.com/publications/article/418841/x-builds-out-gametime-hub-with-nba-partnership.html",
+   "summary": "X is further expanding its Gametime live updates hub to include real-time scores, highlights, discussion and licensed content surrounding the NBA 2026-27 season.",
+   "date": "2026-10-20T04:00:00.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
   },
   {
    "id": "1ousaq3",
@@ -3977,6 +4769,18 @@ window.NEWS_DATA = {
    "site": "https://www.thewrap.com"
   },
   {
+   "id": "jxyh2s",
+   "title": "Burger King Says Hello Kitty With Collectibles Claw Machine",
+   "url": "https://www.mediapost.com/publications/article/418840/burger-king-says-hello-kitty-with-collectibles-cla.html",
+   "summary": "Six different characters are available in the limited-time promo.",
+   "date": "2026-10-19T20:46:58.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
    "id": "y1kp22",
    "title": "How publishers can compete with AI overviews by reviving their archives",
    "url": "https://www.journalism.co.uk/how-publishers-can-compete-with-ai-overviews-by-reviving-their-archives",
@@ -4049,6 +4853,18 @@ window.NEWS_DATA = {
    "site": "https://www.socialmediatoday.com"
   },
   {
+   "id": "1qfaia2",
+   "title": "A Human-Generated Rant",
+   "url": "https://www.mediapost.com/publications/article/418837/a-human-generated-rant.html",
+   "summary": "Everyone talks about the quality of AI slop, but most of the human content we see can only be labeled as \"human generated slop.\" The quality of creative work frankly sucks. No one knows what a real idea is anymore.",
+   "date": "2026-10-19T19:35:17.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
    "id": "10zvxf6",
    "title": "Charli xcx Brings Out Chappell Roan, Adéla Across Two-Night Stand at Los Angeles’ Kia Forum",
    "url": "https://www.hollywoodreporter.com/music/music-news/charli-xcx-los-angeles-concerts-chappell-roan-adela-1236735509",
@@ -4083,6 +4899,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "en",
    "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "hf06bg",
+   "title": "Media Agents Now Equivalent To An Assistant Media Planner",
+   "url": "https://www.mediapost.com/publications/article/418833/media-agents-now-equivalent-to-an-assistant-media.html",
+   "summary": "Two in five early agentic adopters now use agents for media planning, according to new research from Basis Technologies. Team leaders characterize them as being on a level with assistant planners.",
+   "date": "2026-10-19T19:01:30.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
   },
   {
    "id": "rgb3eu",
@@ -4179,6 +5007,18 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://thenextweb.com"
+  },
+  {
+   "id": "19wwjuy",
+   "title": "You Can See Everything, And Still Not Know What&#x27;s True",
+   "url": "https://www.mediapost.com/publications/article/418831/you-can-see-everything-and-still-not-know-whats.html",
+   "summary": "Nathan Fielder and Lance Oppenheim's Elizabeth Holmes documentary may mark the end of a century of documentary filmmaking and the start of something new.",
+   "date": "2026-10-19T17:58:17.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
   },
   {
    "id": "vaiugx",
@@ -4491,6 +5331,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-TW",
    "site": "https://mashdigi.com"
+  },
+  {
+   "id": "bw4a30",
+   "title": "Americans Would Rather Have Their Flight Delayed Than Lose Wi-Fi",
+   "url": "https://www.mediapost.com/publications/article/418826/americans-would-rather-have-their-flight-delayed-t.html",
+   "summary": "Sitting in an airport for six hours is tolerable as long as there's enough bandwidth to watch Netflix, complain on social media and check whether the airline has responded to your increasingly unhinged messages.",
+   "date": "2026-10-19T15:57:07.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
   },
   {
    "id": "tgha3b",
@@ -8705,6 +9557,18 @@ window.NEWS_DATA = {
    "site": "https://stratechery.com"
   },
   {
+   "id": "2gzryz",
+   "title": "Home At Last",
+   "url": "https://stratechery.com/2026/home-at-last/?access_token=eyJhbGciOiJFUzI1NiIsImtpZCI6IkxzanFRcEhoMUJUdmU0djJQUUVuejIiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L2hvbWUtYXQtbGFzdC8iXX0sImV4cCI6MTc5NTEyNTE1OSwiaWF0IjoxNzkyNTMzMTU5LCJpc3MiOiJodHRwczovL2FwcC5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyBwb2RjYXN0IHJzcyIsInN1YiI6Ijk0MDg0MGUyLTVlZjktNGJlNS04MjUwLTM3ODFmMjZlZTc5YSIsInVzZSI6ImFjY2VzcyJ9.wvOF48wvs1Zx_VrR1fIK245Zwk6-TfIuAgCySV9bRkM3xUEyMpqY63-K0L5Owrad5MT5yEZ_HGop3O5nrA_xeQ",
+   "summary": "The best Stratechery content from the week of October 12, 2026, including what Apple is doing, SpaceX's appetite, and the title, takes, and the Washington Wizards.",
+   "date": "2026-10-16T17:42:42.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "STRATECHERY",
+   "tier": "S",
+   "lang": "en",
+   "site": "https://stratechery.com"
+  },
+  {
    "id": "1660ko9",
    "title": "Google Paid Search Becoming More Expensive",
    "url": "https://www.mediapost.com/publications/article/418796/google-paid-search-becoming-more-expensive.html",
@@ -11465,6 +12329,18 @@ window.NEWS_DATA = {
    "site": "https://stratechery.com"
   },
   {
+   "id": "1s5j2md",
+   "title": "It’s Not You, It’s Me",
+   "url": "https://stratechery.com/?access_token=eyJhbGciOiJFUzI1NiIsImtpZCI6IkxzanFRcEhoMUJUdmU0djJQUUVuejIiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8_cD0yMDI2NyJdfSwiZXhwIjoxNzk1MTI1MTU5LCJpYXQiOjE3OTI1MzMxNTksImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiOTQwODQwZTItNWVmOS00YmU1LTgyNTAtMzc4MWYyNmVlNzlhIiwidXNlIjoiYWNjZXNzIn0.HyUwbCGoPbAauGZFTparRxd9jKWFGBJEXvlCsM9RcyG2hHPYFS97Hhe8KJ2K--shBSUOlRxaB3y8ntr9zIFD0g&p=20267",
+   "summary": "The best Stratechery content from the week of October 5, 2026, including drifting apart from Apple, Facebook complications, and the delightful absurdity of U.S.-China dynamics.",
+   "date": "2026-10-09T17:00:00.000Z",
+   "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "STRATECHERY",
+   "tier": "S",
+   "lang": "en",
+   "site": "https://stratechery.com"
+  },
+  {
    "id": "1n8sw55",
    "title": "Private Equity Transformed the Racing Post. A Decade Later, Growth Has Stalled",
    "url": "https://www.amediaoperator.com/analysis/private-equity-transformed-the-racing-post-a-decade-later-growth-has-stalled",
@@ -11727,42 +12603,6 @@ window.NEWS_DATA = {
    "tier": "A",
    "lang": "en",
    "site": "https://www.amediaoperator.com"
-  },
-  {
-   "id": "y7n3eg",
-   "title": "Informa’s $3 Billion Clarion Bet Puts Its Acquisition Playbook to the Test",
-   "url": "https://www.amediaoperator.com/analysis/informa-makes-a-3-billion-bet-on-its-events-playbook-then-theres-techtarget",
-   "summary": "Informa said its £2.24 billion ($2.96 billion) acquisition of Clarion Events will ultimately cost it roughly eight times EBITDA. Getting there requires… The post Informa’s $3 Billion Clarion Bet Puts Its Acquisition Playbook to the Test appeared first on A Media Operator.",
-   "date": "2026-10-06T21:34:21.000Z",
-   "firstSeen": "2026-10-19T03:37:33.468Z",
-   "source": "A Media Operator",
-   "tier": "A",
-   "lang": "en",
-   "site": "https://www.amediaoperator.com"
-  },
-  {
-   "id": "k7nus9",
-   "title": "Subscribers are up, but growth is down. Here’s what worker-owned Hell Gate is trying next.",
-   "url": "https://www.niemanlab.org/2026/10/subscribers-are-up-but-growth-is-down-heres-what-worker-owned-hell-gate-is-trying-next",
-   "summary": "With around $1.5 million in revenue, 2026 is on track to be a break-even year for the worker-owned local news site Hell Gate. “We’ve spent a lot of money growing this year,” Hell Gate co-founder Nick Pinto told me, “so the fact we’re ending the year in the same place with regards to our bank...",
-   "date": "2026-10-06T18:06:53.000Z",
-   "firstSeen": "2026-10-19T03:37:33.468Z",
-   "source": "NiemanLab",
-   "tier": "S",
-   "lang": "en",
-   "site": "https://www.niemanlab.org"
-  },
-  {
-   "id": "14tiohe",
-   "title": "A study of nonprofit newsrooms reveals some cracks in the model’s foundation",
-   "url": "https://www.niemanlab.org/2026/10/a-study-of-nonprofit-newsrooms-reveals-some-cracks-in-the-models-foundation",
-   "summary": "Over the past decade, nonprofit news has been seen as one of the bright spots in U.S. journalism — an emblem of hope for the future amid a landscape littered with failures and financial struggles. With an average of 10 local newspapers closing each month, joining the thousands that have met that fat",
-   "date": "2026-10-06T18:00:07.000Z",
-   "firstSeen": "2026-10-19T03:37:33.468Z",
-   "source": "NiemanLab",
-   "tier": "S",
-   "lang": "en",
-   "site": "https://www.niemanlab.org"
   }
  ]
 };
