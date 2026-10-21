@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-10-20T21:52:44.416Z",
+ "generatedAt": "2026-10-21T00:57:32.846Z",
  "keepDays": 14,
  "sources": [
   {
@@ -52,9 +52,9 @@ window.NEWS_DATA = {
    "tier": "A",
    "lang": "zh-TW",
    "feed": "https://rss.bnextmedia.com.tw/feed/bnext",
-   "ok": false,
-   "error": "解析不到文章",
-   "count": 0
+   "ok": true,
+   "error": null,
+   "count": 1
   },
   {
    "name": "虎嗅网",
@@ -144,7 +144,7 @@ window.NEWS_DATA = {
    "feed": "https://techorange.com/feed/",
    "ok": true,
    "error": null,
-   "count": 19
+   "count": 18
   },
   {
    "name": "mashdigi",
@@ -180,7 +180,7 @@ window.NEWS_DATA = {
    "feed": "https://www.ifanr.com/feed",
    "ok": true,
    "error": null,
-   "count": 16
+   "count": 15
   },
   {
    "name": "TheWrap",
@@ -268,9 +268,9 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "zh-CN",
    "feed": "https://decemberpei.cyou/rssbox/pingwest.xml",
-   "ok": false,
-   "error": "解析不到文章",
-   "count": 0
+   "ok": true,
+   "error": null,
+   "count": 28
   },
   {
    "name": "TNW",
@@ -881,6 +881,834 @@ window.NEWS_DATA = {
  ],
  "items": [
   {
+   "id": "191xr01",
+   "title": "理想汽车举办Power Day电动技术发布会，正式发布“连山”电动技术体系",
+   "url": "https://www.pingwest.com/w/318591",
+   "summary": "",
+   "date": null,
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191xqyf",
+   "title": "荣耀闪电与萨维、赵家驹首次同框，诠释 \"敢想敢不同\" 品牌主张",
+   "url": "https://www.pingwest.com/w/318579",
+   "summary": "",
+   "date": null,
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191xqyd",
+   "title": "网易云音乐鸿蒙版上线桌面歌词跨端续播等新功能",
+   "url": "https://www.pingwest.com/w/318577",
+   "summary": "",
+   "date": null,
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191xqyb",
+   "title": "央视《对话》聚焦杭州“新八骏”曦望，探寻降低单位Token成本路径",
+   "url": "https://www.pingwest.com/w/318575",
+   "summary": "",
+   "date": null,
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191xqwe",
+   "title": "OpenCode Console遭入侵致部分API密钥泄露 团队防御中遇模型拒答",
+   "url": "https://www.pingwest.com/w/318552",
+   "summary": "据 TechCrunch 报道，开源AI编程工具OpenCode披露，攻击者未经授权访问其一套旧系统，导致OpenCode Console约1.4%用户受影响，部分工作区中保存的第三方API密钥可能泄露。",
+   "date": null,
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191xqvo",
+   "title": "Replika创始人Eugenia Kuyda推出多用户个人AI助手Wabi 2.0",
+   "url": "https://www.pingwest.com/w/318549",
+   "summary": "据 TechCrunch 报道，Eugenia Kuyda正式向所有用户推出个人AI助手Wabi 2.0。该产品以消息应用形态呈现，支持多智能体线程，用户可在不同线程中构建定制应用，如健康追踪器、家庭活动日历等。",
+   "date": null,
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191xqvm",
+   "title": "Meshy推出Meshy Edit：基于全新自研AI模型，一句指令实现3D模型局部编辑",
+   "url": "https://www.pingwest.com/w/318547",
+   "summary": "圈选修改区域，一句话描述改动，约一分钟生成新模型，未选中区域保持原样",
+   "date": null,
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191xqvl",
+   "title": "AI编程工具掀起智能电视“去臃肿”风潮",
+   "url": "https://www.pingwest.com/w/318546",
+   "summary": "据 TechCrunch 报道，近期，多名开发者利用Claude Code等AI编程工具，通过局域网调试通道对智能电视进行“瘦身”，移除预装应用、广告和追踪功能，并替换启动器。",
+   "date": null,
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191xqvk",
+   "title": "英伟达发布Nemotron 3.5 Super VL与Bolt系列开源模型",
+   "url": "https://www.pingwest.com/w/318545",
+   "summary": "据 TechCrunch 报道，英伟达近日发布三款新的开源权重模型，面向常驻运行的企业级智能体与边缘计算场景。",
+   "date": null,
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191xqvi",
+   "title": "从“能坐”到“好开”，享界V8重新定义家庭智慧旗舰MPV品类及格线",
+   "url": "https://www.pingwest.com/w/318543",
+   "summary": "",
+   "date": null,
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191xqvh",
+   "title": "OpenAI加速300亿美元融资 力争抢在Anthropic IPO前锁定资金",
+   "url": "https://www.pingwest.com/w/318542",
+   "summary": "据AI Weekly报道，OpenAI正加速推进一轮约300亿美元融资，估值或超1.4万亿美元，力争在竞争对手Anthropic预计11月中旬IPO前锁定投资者承诺。",
+   "date": null,
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191xqvg",
+   "title": "MiniMax发布M3.1 Flash模型 Agent性能与成本再突破",
+   "url": "https://www.pingwest.com/w/318541",
+   "summary": "MiniMax官方宣布，现已发布M3.1 Flash模型，此前以匿名身份处理超200T Token。",
+   "date": null,
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191xqur",
+   "title": "Anthropic分享Claude Code代码审查流程：90%代码由Claude自身生成",
+   "url": "https://www.pingwest.com/w/318539",
+   "summary": "Anthropic官方近日发布博文，详细介绍Claude Code的代码审查流程。",
+   "date": null,
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191xqun",
+   "title": "中国办公Agent用户行为报告：近七成用户偏爱单模型，重度用户人均使用2.4个",
+   "url": "https://www.pingwest.com/w/318535",
+   "summary": "",
+   "date": null,
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191xqso",
+   "title": "Anthropic发布工作报告：AI重塑用工结构 初级技术岗缩减",
+   "url": "https://www.pingwest.com/w/318510",
+   "summary": "据 TechCrunch 报道，Anthropic发布工作报告，披露过去一年公司用工结构和业务模式的显著变化。",
+   "date": null,
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191xqry",
+   "title": "OpenAI API现三个神秘Aurora模型标识 官方未予确认",
+   "url": "https://www.pingwest.com/w/318507",
+   "summary": "据orcaroute 报道，三个名为aurora-blue-alpha、aurora-green-alpha和aurora-red-alpha的模型标识出现在OpenAI API模型列表中，创建时间集中在97秒内，所有者字段为system且无关闭日期。该发现由CellCog通过认证密钥查询模型列表端点确认，三标识位列于返回的144个模型之中。",
+   "date": null,
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191xqrx",
+   "title": "阿里速卖通：对优秀AI硬件品牌进行天使轮投资",
+   "url": "https://www.pingwest.com/w/318506",
+   "summary": "",
+   "date": null,
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191xqrw",
+   "title": "速卖通和天猫发布“中国品牌全球增长计划”，推动品牌国内外经营",
+   "url": "https://www.pingwest.com/w/318505",
+   "summary": "",
+   "date": null,
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191xqrv",
+   "title": "六项评测超越GPT-6 Astra！大晓ACE-Brain-0.6以数据Scaling推动具身空间智能跃迁",
+   "url": "https://www.pingwest.com/w/318504",
+   "summary": "",
+   "date": null,
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191xqru",
+   "title": "阿里速卖通：对优秀AI硬件品牌进行天使轮投资",
+   "url": "https://www.pingwest.com/w/318503",
+   "summary": "",
+   "date": null,
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191xqrt",
+   "title": "Anthropic拟以超10%收益率向黑石融资购买谷歌TPU芯片",
+   "url": "https://www.pingwest.com/w/318502",
+   "summary": "据TipRanks报道，人工智能公司Anthropic正推进总额600亿美元的债务融资，用于采购谷歌的张量处理单元（TPU）芯片。",
+   "date": null,
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191xq60",
+   "title": "微软退出Nscale英国数据中心项目 IPO前景受关注",
+   "url": "https://www.pingwest.com/w/318499",
+   "summary": "据investing报道，微软已退出与英国AI基础设施服务商Nscale的一项数据中心合作，终止了位于埃塞克斯郡劳顿的数据中心协议。微软是Nscale两大核心客户之一，此次退出引发市场对其IPO计划的关注。",
+   "date": null,
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191xq5z",
+   "title": "Meta删除商业条款中涉AI训练争议表述",
+   "url": "https://www.pingwest.com/w/318498",
+   "summary": "据PCMAG报道，Meta近日更新商业服务条款引发行业争议，相关表述已被删除。修订后的条款明确，网络抓取仅适用于广告和商业产品，不改变现有网络爬虫使用方式，内容所有者仍可通过robots.txt表达偏好。",
+   "date": null,
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191xq52",
+   "title": "微信鸿蒙版上线小艺语音操作：一句话即可发消息、打语音和视频",
+   "url": "https://www.pingwest.com/w/318488",
+   "summary": "",
+   "date": null,
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191xq41",
+   "title": "WPS移动版完成iPhone Duo适配：全形态自适应、分屏双开与伴随式AI侧栏上线",
+   "url": "https://www.pingwest.com/w/318474",
+   "summary": "",
+   "date": null,
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191xq3y",
+   "title": "2026 AI Cloud 100 China榜单发布：一目科技代表Physical AI赛道入选",
+   "url": "https://www.pingwest.com/w/318471",
+   "summary": "",
+   "date": null,
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191xq24",
+   "title": "PrismML发布Ternary Bonsai 2系列端侧模型",
+   "url": "https://www.pingwest.com/w/318451",
+   "summary": "AI公司PrismML官方近日宣布扩展Bonsai 2系列，推出基于Qwen3.5的三款三元权重模型：Ternary Bonsai 2 2B、4B和9B，与已发布的27B版本共同覆盖从轻量到复杂任务的端侧部署需求。",
+   "date": null,
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191xq1d",
+   "title": "Anthropic向METR开放员工级访问权限 引入独立安全评估",
+   "url": "https://www.pingwest.com/w/318447",
+   "summary": "据 TechCrunch 报道，Anthropic于10月15日宣布，已向非营利机构METR的6名研究人员提供员工级访问权限，以独立评估其模型、安全实践及风险管理。METR研究人员将获得公司笔记本电脑、办公空间及与内部风险评估团队大致同级的内部工具访问权限。",
+   "date": null,
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "ds648l",
+   "title": "網站紛紛擋下 AI 代理！Amazon、Delta、Yelp 設限，Meta Muse、Grok 接連受阻",
+   "url": "https://www.inside.com.tw/article/42678-websites-block-ai-agents-amazon-delta-yelp-meta-muse-grok-verge",
+   "summary": "Meta Muse、Grok、OpenAI Dots 等 AI 代理在 Amazon、Delta、Yelp 及銀行網站遇到封鎖，業者改走零售夥伴與付費授權路線。",
+   "date": "2026-10-21T00:54:00.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "INSIDE",
+   "tier": "A",
+   "lang": "zh-TW",
+   "site": "https://www.inside.com.tw"
+  },
+  {
+   "id": "1snpsip",
+   "title": "Comedy Trio Please Don’t Destroy Take Their Act to J.Crew for New Suiting Campaign",
+   "url": "https://www.hollywoodreporter.com/lifestyle/style/comedy-trio-please-dont-destroy-jcrew-suit-campaign-1236736846",
+   "summary": "The campaign makes use of their talents beyond being just pretty faces: \"We take suiting seriously\" pairs still photography shot by Luke Gilford with a comedy short penned by the trio and Brady Lees.",
+   "date": "2026-10-21T00:47:01.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "17r5vps",
+   "title": "Versant CEO Says Buying Skydance Cable Networks Is ‘Probably Not in Our Short-Term Future’",
+   "url": "https://www.thewrap.com/industry-news/deals-ma/versant-ceo-says-they-will-not-buy-skydance-cable-networks",
+   "summary": "Mark Lazarus dispels rumors that the NBCUniversal spinoff would acquire the merged company's linear assets The post Versant CEO Says Buying Skydance Cable Networks Is ‘Probably Not in Our Short-Term Future’ appeared first on TheWrap.",
+   "date": "2026-10-21T00:35:23.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "hccvq2",
+   "title": "这可能是全世界最成功的中试平台",
+   "url": "https://www.huxiu.com/article/4899103.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/21/39772-prod-nb2qn-general-1-1792541789910.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>比利时有座小城叫鲁汶，十万人口，原本最出名的是啤酒。时代啤酒（Stella Artois）就是从这儿酿出来的。城南有一片园区，园区",
+   "date": "2026-10-21T00:18:43.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "gp22nt",
+   "title": "2026年，登山者几乎无山可登",
+   "url": "https://www.huxiu.com/article/4899102.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/21/39771-prod-nb2qn-general-1-1792541734442.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>2026年，想在国内正经爬座雪山，光有钱、有体能，已经不太管用了。今年4月，康定市教育和体育局答复登山从业者，说全市符合对外开放条",
+   "date": "2026-10-21T00:16:54.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "1ksvhpn",
+   "title": "Lance Oppenheim Bribed Robert Pattinson With 200 Zyn Canisters to Star in ‘Primetime’",
+   "url": "https://www.hollywoodreporter.com/movies/movie-news/lance-oppenheim-bribed-robert-pattinson-zyn-star-primetime-1236736866",
+   "summary": "The actor eventually agreed to portray Chris Hansen in the film, which chronicles the intense production, ethical dilemmas and media sensationalism behind 'To Catch a Predator.'",
+   "date": "2026-10-21T00:15:51.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "feggjb",
+   "title": "为什么说：软件公司做AI，更难成功？",
+   "url": "https://www.huxiu.com/article/4899100.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/21/39769-prod-db-general-1-1792541096688.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>按理说，最该把AI做好的，本该是软件公司。写了天量行的代码，升级了无数个版本，维护了成千上万的客户。在企业市场上折腾了几十年，论积累和底",
+   "date": "2026-10-21T00:06:24.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "1jrns0i",
+   "title": "蘋果發文捍衛WebKit最新隱私封鎖機制：全面宣戰「身分解析」、重擊線上廣告追蹤產業",
+   "url": "https://mashdigi.com/apple-defends-its-latest-webkit-privacy-blocking-mechanism-a-full-scale-war-against-identity-analysis-and-a-heavy-blow-to-the-online-advertising-tracking-industry",
+   "summary": "在過去幾週以來，因Safari瀏覽器底層引擎WebKit突發性的隱私限制更新，導致全球線上廣告與AdTech […]",
+   "date": "2026-10-21T00:00:39.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "mashdigi",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://mashdigi.com"
+  },
+  {
+   "id": "1in68nf",
+   "title": "Disney+ Sets Japanese Horror Anthology Series ‘Night Tales Club’ With Kiyoshi Kurosawa, Takayuki Yamada",
+   "url": "https://www.hollywoodreporter.com/tv/tv-news/disney-japanese-horror-series-night-tales-club-1236735982",
+   "summary": "The six-part supernatural mystery series, based on stories by Japanese horror author Ichi Sawamura, will feature episodes directed by the filmmakers behind ‘Cure,’ ‘Ju-on’ and ‘Gannibal.’",
+   "date": "2026-10-21T00:00:00.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "5fpzw7",
+   "title": "「洋流效應」難以翻轉北市選情，卻成功把蔣萬安牽制在漩渦中心",
+   "url": "https://www.thenewslens.com/article/270606",
+   "summary": "本文評估2026台北市長選戰之「洋流效應」。此現象雖難助民進黨翻轉北市藍大於綠結構，但其戰術價值在於成功牽制對手蔣萬安，並對新北等鄰近選情產生外溢效果，扮演關鍵變數。",
+   "date": "2026-10-20T23:59:00.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "1ush26b",
+   "title": "Netflix Touts New Measurement Capabilities As It Struggles With “Modest” Engagement Growth",
+   "url": "https://www.adexchanger.com/tv/netflix-touts-new-measurement-capabilities-as-it-struggles-with-modest-engagement-growth",
+   "summary": "Netflix's revenue grew 12% YOY to $12.9 billion in Q3, which it maintains is in line with its forecast. Its ads business, however, is lagging slightly compared with expectations, causing Netflix to tweak its forecast for the rest of the year. The post Netflix Touts New Measurement Capabilities As It",
+   "date": "2026-10-20T23:58:10.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "AdExchanger",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.adexchanger.com"
+  },
+  {
+   "id": "5fq00n",
+   "title": "誰能替AI的失控風險買單？科技巨頭、政府與金融市場的危險共生",
+   "url": "https://www.thenewslens.com/article/270651",
+   "summary": "AI風險已從理論走向實際：今夏接連出現AI代理人逃逸沙盒、入侵企業系統的事故，防守方被安全護欄綁住手腳，各國監管與金融體系的緩衝卻遠未到位。",
+   "date": "2026-10-20T23:58:00.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "ap59gq",
+   "title": "Grab the Tissues, It’s Dedication Night on ‘Dancing With the Stars’: See the Scores, Who Went Home (Updating Live)",
+   "url": "https://www.hollywoodreporter.com/tv/tv-news/dwts-season-35-dedication-week-6-recap-scores-elimination-1236736527",
+   "summary": "Val Chmerkovskiy will not partake in Tuesday night's episode following a controversial comment he made referencing Will Smith slapping Chris Rock at the 2022 Oscars while defending his wife, fellow pro Jenna Johnson, against comments Carrie Ann Inaba made on Super Bowl Night.",
+   "date": "2026-10-20T23:58:00.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "5fq00o",
+   "title": "潮聲已變，台灣不能只守一座神山：從日美中歐局勢看全球經濟「重新定價」",
+   "url": "https://www.thenewslens.com/article/270652",
+   "summary": "日本、美國、中國與歐洲的經濟數字看似各自獨立，實際上四者都在回答同一個問題：成本重新上升後，誰能把壓力轉嫁出去。台灣不能只看AI供應鏈的繁榮，也必須看見這股壓力如何擴散。",
+   "date": "2026-10-20T23:57:00.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "ht2ktb",
+   "title": "科技股失宠，谁来撑场子？",
+   "url": "https://www.huxiu.com/article/4899036.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/article/content/2026/10/20/201719697882.jpg?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/jpg\" referrerpolicy=\"no-referrer\"></figure>科技股一跌，市场又开始寻找新的“撑场子”选手。此前嫌煤炭、银行增长慢，现在看上了它们的分红；消费股冷落了很久，也开始有人期待困境反转。但真要下手，又有新的纠结：红利已经涨了一轮，还能追吗？消费",
+   "date": "2026-10-20T23:56:43.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "5fpzzx",
+   "title": "Grab併購foodpanda案：個資與資安風險，能直接算成「限制競爭之不利益」嗎？",
+   "url": "https://www.thenewslens.com/article/270648",
+   "summary": "本文主張，Grab併購案所涉國安、個資風險，非屬《公平交易法》「限制競爭不利益」。公平會應聚焦市場競爭，國安議題由權責機關處理，以釐清審查界線。",
+   "date": "2026-10-20T23:56:00.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "5u6qfc",
+   "title": "年轻人爱玩的生意，赚钱太难？",
+   "url": "https://www.huxiu.com/article/4899099.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/21/39768-prod-nb2qn-general-1-1792540188142.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>在线玩乐平台，躲不过旅行社的命。01苦等了整整11个月，头顶亚太最大目的地玩乐平台光环的Klook（客路旅行），最终在纽交所门前踩",
+   "date": "2026-10-20T23:51:48.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "16z7erw",
+   "title": "在自家卧室安装摄像头，侵犯隐私吗？",
+   "url": "https://www.huxiu.com/article/4898986.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/article/content/2026/10/21/074808260027.jpg?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/jpg\" referrerpolicy=\"no-referrer\"></figure>近日，一起离婚案件引发关注。据报道，妻子在家中安装摄像头，提交录像证明丈夫对婚姻不忠；丈夫否认存在不正当关系，也对录像的真实性和合法性提出异议。一审法院认为，妻子在卧室隐匿安装摄像头，严重侵害",
+   "date": "2026-10-20T23:46:39.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "4jl4au",
+   "title": "避险光环褪去，黄金消费降温",
+   "url": "https://www.huxiu.com/article/4899097.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/21/39767-prod-nb2qn-general-1-1792539801968.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>在所有人都在讲消费降级的市场环境中，黄金消费一度是一个特例。人们可以在吃穿上省吃俭用，却愿意到金店柜台前去排队。这是因为，金饰不仅",
+   "date": "2026-10-20T23:44:37.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "3wab8l",
+   "title": "朝阳合生汇，北京网红店最严厉的母亲",
+   "url": "https://www.huxiu.com/article/4899096.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/21/39766-prod-nb2qn-general-1-1792539488314.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>在北京，最火的商场有什么特点？地处商圈中心，顶奢大店林立，宜家山姆为邻？抱歉，以上这些，朝阳合生汇是通通没有的。朝阳合生汇所在的九",
+   "date": "2026-10-20T23:39:33.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "6y797q",
+   "title": "White House Won’t Deny Trump Is Eyeing Press Briefing Room for Indoor Pool",
+   "url": "https://www.thewrap.com/media-platforms/politics/white-house-does-not-deny-trump-eyeing-press-briefing-room-for-indoor-pool",
+   "summary": "\"All options remain on the table,” Communications Director Steven Cheung says The post White House Won’t Deny Trump Is Eyeing Press Briefing Room for Indoor Pool appeared first on TheWrap.",
+   "date": "2026-10-20T23:35:32.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "v63pv3",
+   "title": "‘Whalefall’ Director Brian Duffield and Star Austin Abrams Resisted the New Ending Before Embracing It",
+   "url": "https://www.hollywoodreporter.com/movies/movie-features/whalefall-ending-brian-duffield-interview-1236736368",
+   "summary": "The coda was added after test screenings, though both the filmmaker and star were initially hesitant about it.",
+   "date": "2026-10-20T23:34:32.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "7m6epp",
+   "title": "没有“大结果”，全是“大红果”",
+   "url": "https://www.huxiu.com/article/4899061.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/article/content/2026/10/21/073111212423.jpg?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/jpg\" referrerpolicy=\"no-referrer\"></figure>你有没有发现，现在的消费场景越来越像是一场全员入戏的红果短剧。过去广告是广告，故事是故事，买东西就是买东西。现在这三件事被揉到了一起：直播间里主播“不懂平台规则”“上错价”，助理急得直跺脚；社",
+   "date": "2026-10-20T23:32:07.000Z",
+   "firstSeen": "2026-10-20T15:22:11.484Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "38zi6c",
+   "title": "有钱一切都好说",
+   "url": "https://www.huxiu.com/article/4899095.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/21/39765-prod-nb2qn-general-1-1792538947701.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>在资本市场崩老头看最近各种群里讨论行情的问题，亏了钱的各种投资者真是“计谋百出”“人均诸葛亮”，发挥聪明才智想了各种激活资本市场拉",
+   "date": "2026-10-20T23:30:45.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "2lop43",
+   "title": "藏在“楚界”里的求生欲：边缘车企的“钝刀子割肉”",
+   "url": "https://www.huxiu.com/article/4899094.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/21/39762-prod-grokep-general-1-1792537673186.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>2026年10月19日，海马汽车与楚能乘用车合资设立研发公司的消息受到关注。天眼查APP信息显示，郑州楚界汽车研发有限公司近期注",
+   "date": "2026-10-20T23:09:10.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "1ydw1u",
+   "title": "入座请消费，星巴克告诉你为什么",
+   "url": "https://www.huxiu.com/article/4899093.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/21/39760-prod-nb2qn-general-1-1792537522768.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>一块新的桌牌，即将摆在星巴克门店里——营业空间，请消费入座。10月中旬，星巴克部分门店出现消费入座倡议。公司否认了全国统一强制消费",
+   "date": "2026-10-20T23:06:35.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "1b32zl",
+   "title": "战魔田默｜前三季度民间投资下降10.4%，企业下一笔钱该投向哪里？",
+   "url": "https://www.huxiu.com/article/4899092.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/21/39757-prod-db-general-1-1792537072353.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>9月中国出口按人民币计价同比增长29.6%，前三季度民间固定资产投资却下降10.4%。10月19日，国家统计局公布前三季度经济数据：第三",
+   "date": "2026-10-20T23:01:57.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "ns9xc",
+   "title": "战魔田默｜湖南裕能再投20亿元扩产，磷酸铁锂还值得下注吗？",
+   "url": "https://www.huxiu.com/article/4899091.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/21/39756-prod-nb2qn-general-1-1792536723908.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>半年赚了29亿元，湖南裕能又决定拿出最多20亿元建设新工厂。10月19日，公司董事会审议通过湘潭六期磷酸铁锂项目，建设期计划为12",
+   "date": "2026-10-20T22:55:49.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "1tkgp17",
+   "title": "Hunter Schafer Reveals She Underwent Gender-Affirming Bottom Surgery",
+   "url": "https://www.hollywoodreporter.com/lifestyle/lifestyle-news/hunter-schafer-gender-affirming-bottom-surgery-1236736776",
+   "summary": "\"I just had bottom surgery in December, which was amazing, and I love it so much,\" the 'Euphoria' star shares.",
+   "date": "2026-10-20T22:42:59.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "x12jxp",
+   "title": "Harrison Ford and Calista Flockhart to Receive First Joint Award as Couple Is Selected for Icon Honors",
+   "url": "https://www.hollywoodreporter.com/lifestyle/lifestyle-news/harrison-ford-calista-flockhart-couple-award-stardust-ball-1236736736",
+   "summary": "The pair will share the spotlight at the Women's Guild Cedars-Sinai's Stardust Ball at which Byron Allen will be celebrated with a trophy for his humanitarian work at the Beverly Wilshire on Nov. 18.",
+   "date": "2026-10-20T22:39:53.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "1m7movv",
+   "title": "Supermicro expects up to $19.5bn in quarterly revenue, $4bn above guidance",
+   "url": "https://thenextweb.com/news/supermicro-revenue-q1-fy2027-preliminary-19-5bn-ai-demand",
+   "summary": "Supermicro expects to report revenue of $18.5bn to $19.5bn for the three months to September, against the $14.5bn to $15.5bn it had guided. The AI server maker put the gap down to “increased demand for AI platforms”. The company published the preliminary figures in a business update after the US mar",
+   "date": "2026-10-20T22:38:24.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "TNW",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://thenextweb.com"
+  },
+  {
+   "id": "1etuwni",
+   "title": "Denzel Washington Teams With Christopher McQuarrie for Thriller at Amazon MGM, United Artists",
+   "url": "https://www.thewrap.com/creative-content/movies/christopher-mcquarrie-denzel-washington-movie-amazon-mgm-studios-ua",
+   "summary": "The film will be released in theaters on Oct. 1, 2027 The post Denzel Washington Teams With Christopher McQuarrie for Thriller at Amazon MGM, United Artists appeared first on TheWrap.",
+   "date": "2026-10-20T22:29:43.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "4wgvtb",
+   "title": "Korean AI data centre firm Elice sinks 32% in a record-worst IPO debut",
+   "url": "https://thenextweb.com/news/elice-ipo-32-percent-debut-korea-ai-data-centre-neocloud",
+   "summary": "Shares in Elice, a South Korean AI data centre company, fell 32% on their first day of trading in Seoul on Tuesday. It was the worst debut on record for a Korean IPO of $100m or more, according to data compiled by Bloomberg, as Yoolim Lee and Youkyung Lee reported. Elice raised 201.1bn won ($151m) [",
+   "date": "2026-10-20T22:24:15.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "TNW",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://thenextweb.com"
+  },
+  {
+   "id": "15hjwmj",
+   "title": "Hugging Face CEO warns that Netflix’s OpenAI hack documentary isn’t accurate",
+   "url": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate",
+   "summary": "Before you share the Netflix documentary \"AI Gone Rogue\" take note. Clem Delangue, Hugging Face's co-founder who is featured in the film, says it went \"full doomer mode\" and isn't accurate.",
+   "date": "2026-10-20T22:24:02.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "TechCrunch",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://techcrunch.com"
+  },
+  {
+   "id": "gahmlr",
+   "title": "The Hollywood Reporter Power Business Managers Event to Honor Michael Ullman, Feature Conversations With David Kramer and Lisa Callif",
+   "url": "https://www.hollywoodreporter.com/business/business-news/hollywood-reporter-power-business-managers-michael-ullman-1236736743",
+   "summary": "Sugar Ray Leonard will present THR’s Business Manager Icon Award to Ullman, CEO of Platinum Financial Management, at the 16th annual event.",
+   "date": "2026-10-20T22:22:24.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "umwyu1",
+   "title": "Denzel Washington, Christopher McQuarrie Team for Original Thriller at Amazon MGM, United Artists",
+   "url": "https://www.hollywoodreporter.com/movies/movie-news/denzel-washington-christopher-mcquarrie-thriller-1236736781",
+   "summary": "Amazon and UA have greenlit the untitled feature and set a release for late 2027.",
+   "date": "2026-10-20T22:19:50.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "jhqvic",
+   "title": "White House Reporter Fires Back After Trump Warns Him He ‘Better Be Careful’ in Oval Office Exchange",
+   "url": "https://www.thewrap.com/media-platforms/politics/donald-trump-snaps-white-house-reporter-andrew-feinberg-responds",
+   "summary": "\"I don't know who the hell you are, but you better be careful,” the president snaps The post White House Reporter Fires Back After Trump Warns Him He ‘Better Be Careful’ in Oval Office Exchange appeared first on TheWrap.",
+   "date": "2026-10-20T22:09:54.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "108ad8a",
+   "title": "Ex-DeepMind researcher Thore Graepel launches London AI lab Metis Reasoning",
+   "url": "https://thenextweb.com/news/metis-reasoning-thore-graepel-alphago-london-ai-lab",
+   "summary": "Thore Graepel, who helped build Google DeepMind’s AlphaGo, has launched Metis Reasoning in London. The company’s founding claim is that large language models cannot be trusted to reason. Its founders want to apply the lessons of AlphaGo to general reasoning instead. The company set out its thesis in",
+   "date": "2026-10-20T22:08:30.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "TNW",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://thenextweb.com"
+  },
+  {
+   "id": "1hoiw3l",
+   "title": "John Oliver Hosts Comic Relief’s 40th Anniversary Night at Carnegie Hall",
+   "url": "https://www.hollywoodreporter.com/news/general-news/john-oliver-comic-relief-40th-anniversary-carnegie-hall-1236736659",
+   "summary": "Roy Wood Jr., Josh Johnson and Zarna Garg take the stage as the charity marks four decades since its HBO debut.",
+   "date": "2026-10-20T22:04:42.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "8ze4sd",
+   "title": "TikTok shares Black Friday/Cyber Monday promotion tips",
+   "url": "https://www.socialmediatoday.com/news/tiktok-shares-black-fridaycyber-monday-promotion-tips/833546",
+   "summary": "<p>The app published a series of videos that examined how companies including Princess Polly, Dossier and SharkNinja boosted their brand exposure.</p>",
+   "date": "2026-10-20T21:52:30.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "Social Media Today",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.socialmediatoday.com"
+  },
+  {
+   "id": "19a94eu",
+   "title": "Australia prepares to sue social platforms over age violations",
+   "url": "https://www.socialmediatoday.com/news/australia-prepares-to-sue-social-platforms-over-age-violations/833545",
+   "summary": "<p>Bloomberg reported that the government planned to sue Meta, TikTok, Snapchat and YouTube for alleged non-compliance with a nationwide ban on teen users.</p>",
+   "date": "2026-10-20T21:46:56.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "Social Media Today",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.socialmediatoday.com"
+  },
+  {
    "id": "1htlq1z",
    "title": "‘Heated Rivalry’ Goes All In on Physical Media Including Special Edition Blu-Ray and DVD",
    "url": "https://www.hollywoodreporter.com/lifestyle/shopping/heated-rivalry-bluray-dvd-ill-believe-in-anything-book-1236612287",
@@ -953,6 +1781,18 @@ window.NEWS_DATA = {
    "site": "https://www.thewrap.com"
   },
   {
+   "id": "12s8ax4",
+   "title": "Golden Globes Rejects ‘Michael’ Submission as Comedy/Musical",
+   "url": "https://www.thewrap.com/industry-news/awards/golden-globes-rejects-michael-submission-as-comedy-musical",
+   "summary": "Lionsgate has until Oct. 31 to appeal the decision The post Golden Globes Rejects ‘Michael’ Submission as Comedy/Musical appeared first on TheWrap.",
+   "date": "2026-10-20T21:29:40.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
    "id": "1y4ef85",
    "title": "Greg Peters Says Netflix Ad Business Is ‘A Bit Behind’ and Has a ‘Long Road Ahead’",
    "url": "https://www.thewrap.com/media-platforms/streaming/greg-peters-netflix-ads-business-behind-earnings-call",
@@ -977,6 +1817,18 @@ window.NEWS_DATA = {
    "site": "https://www.hollywoodreporter.com"
   },
   {
+   "id": "12pj6nh",
+   "title": "Instagram announces next phase of Rings creative talent awards",
+   "url": "https://www.socialmediatoday.com/news/instagram-announces-next-phase-of-rings-creative-talent-awards/833543",
+   "summary": "<figure><div><img src=\"https://imgproxy.divecdn.com/pxy7ubk8q3o0vrzzoC_WoWskqVHEWmetaqAzJLZqVM0/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9pbnN0YWdyYW1fcmluZ3NfMjAyNi5wbmc=.webp\"/></div></figure><p>The promotional event is designed to highlight the app&rsquo;s top creators, a",
+   "date": "2026-10-20T21:23:18.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "Social Media Today",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.socialmediatoday.com"
+  },
+  {
    "id": "10k9ilm",
    "title": "Netflix Teases Add-On Subscriptions to Come Amid Engagement Slowdown",
    "url": "https://www.thewrap.com/media-platforms/tv/netflix-teases-add-on-subscriptions-engagement-slowdown",
@@ -999,6 +1851,30 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://thenextweb.com"
+  },
+  {
+   "id": "1h3flc9",
+   "title": "YouTube inks affiliate deal with AliExpress",
+   "url": "https://www.socialmediatoday.com/news/youtube-inks-affiliate-deal-with-aliexpress/833542",
+   "summary": "<p>Creators will be able to tag the company&rsquo;s products in their videos and earn commissions for any resulting sales.</p>",
+   "date": "2026-10-20T21:17:44.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "Social Media Today",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.socialmediatoday.com"
+  },
+  {
+   "id": "1y0eofa",
+   "title": "You Can See Everything mania lifts viewership for The Dropout by 186%",
+   "url": "https://www.theguardian.com/film/2026/oct/20/you-can-see-everything-dropout-viewership",
+   "summary": "<p>The hit Elizabeth Holmes documentary led to increased interest in the award-winning narrative series on Hulu as well as Bad Blood, a 2018 book on the scandal</p><ul><li><p><a href=\"https://www.theguardian.com/film/2026/oct/15/stranger-than-stranger-than-fiction-how-lance-oppenheim-made-the-years-",
+   "date": "2026-10-20T21:16:23.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "The Guardian",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.theguardian.com/uk/media"
   },
   {
    "id": "1a2ewqu",
@@ -1047,6 +1923,18 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://thenextweb.com"
+  },
+  {
+   "id": "a2fr5t",
+   "title": "Snap taps Robert Downey Jr. to promote Specs",
+   "url": "https://www.socialmediatoday.com/news/snap-taps-robert-downey-jr-to-promote-specs/833539",
+   "summary": "<p>The actor was named chief customer experience officer and will create videos demonstrating the capabilities of the company&rsquo;s augmented reality glasses.</p>",
+   "date": "2026-10-20T20:52:00.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "Social Media Today",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.socialmediatoday.com"
   },
   {
    "id": "1wardrj",
@@ -1253,6 +2141,18 @@ window.NEWS_DATA = {
    "site": "https://www.hollywoodreporter.com"
   },
   {
+   "id": "yxiyp6",
+   "title": "Reddit adds AI-powered ad guidance tools",
+   "url": "https://www.socialmediatoday.com/news/reddit-adds-ai-powered-ad-guidance-tools/833532",
+   "summary": "<p>The platform has a new campaign planner element and a way for brands to improve their optimization scores using customized recommendations.</p>",
+   "date": "2026-10-20T19:26:06.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "Social Media Today",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.socialmediatoday.com"
+  },
+  {
    "id": "wxzibg",
    "title": "Two out of five Americans regularly get their news on Facebook",
    "url": "https://www.niemanlab.org/2026/10/two-out-of-five-americans-are-regularly-getting-their-news-on-facebook",
@@ -1301,6 +2201,18 @@ window.NEWS_DATA = {
    "site": "https://thenextweb.com"
   },
   {
+   "id": "nusvhw",
+   "title": "Russell Brand told woman to ‘clear up the mess you’ve made’ after alleged rape, court hears",
+   "url": "https://www.theguardian.com/uk-news/2026/oct/20/russell-brand-told-woman-to-clear-up-mess-after-alleged-rape-court-hears",
+   "summary": "<p>Woman says alleged assault at comedian’s London home was one of most painful experiences of her life</p><p>A woman has said she “couldn’t speak or breathe” when Russell Brand raped her at his London townhouse after picking her out from a crowd after one of his gigs, a court has heard.</p><p>She s",
+   "date": "2026-10-20T18:22:25.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "The Guardian",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.theguardian.com/uk/media"
+  },
+  {
    "id": "n5uj0i",
    "title": "Why I'm building an LGBTQ+ media platform: \"Who gets to be considered worth writing about?\"",
    "url": "https://www.journalism.co.uk/why-im-building-an-lgbtq-media-platform-who-gets-to-be-considered-worth-writing-about",
@@ -1335,6 +2247,18 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://thenextweb.com"
+  },
+  {
+   "id": "1mohcbp",
+   "title": "‘I’ll make you famous’: court hears recording of Tommy Robinson threat to Daily Mail editor",
+   "url": "https://www.theguardian.com/uk-news/2026/oct/20/tommy-robinson-threatened-families-mail-journalists-famous-court-hears",
+   "summary": "<p>Jurors in harassment trial told reporters who had written about far-right activist feared ‘vigilante attack’</p><p>Tommy Robinson told the Daily Mail’s editor he would make the paper’s journalists and their families “famous”, the harassment trial of the far-right activist has been told.</p><p>The",
+   "date": "2026-10-20T17:16:52.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "The Guardian",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.theguardian.com/uk/media"
   },
   {
    "id": "9f9lf9",
@@ -1505,6 +2429,18 @@ window.NEWS_DATA = {
    "site": "https://thenextweb.com"
   },
   {
+   "id": "1w218wl",
+   "title": "‘It’s important that Michael’s voice is heard’: Jaafar Jackson says second biopic of his uncle will cover sexual abuse allegations",
+   "url": "https://www.theguardian.com/film/2026/oct/20/michael-jackson-jaafar-jackson-biopic-uncle-sexual-abuse-allegations",
+   "summary": "<p>The star of Michael, the most commercially successful biopic of all time, has said sequel will give airtime to point-of-view of late singer</p><p>Of all the criticisms levelled at the authorised biopic of Michael Jackson released earlier this year, the most persistent was that Antoine Fuqua’s fil",
+   "date": "2026-10-20T15:15:32.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "The Guardian",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.theguardian.com/uk/media"
+  },
+  {
    "id": "12c5t1r",
    "title": "OpenAI pulls back from China chip controls, Politico reports",
    "url": "https://thenextweb.com/news/openai-china-chip-export-controls-retreat-nvidia",
@@ -1647,6 +2583,18 @@ window.NEWS_DATA = {
    "tier": "A",
    "lang": "en",
    "site": "https://www.amediaoperator.com"
+  },
+  {
+   "id": "1f5pt4",
+   "title": "BBC Three and BBC Scotland TV channels to be shut down next year",
+   "url": "https://www.theguardian.com/media/2026/oct/20/bbc-three-and-bbc-scotland-tv-channels-to-be-shut-down",
+   "summary": "<p>Corporation announces broadcast closures and job losses in effort to find savings of £500m</p><ul><li><p><a href=\"https://www.theguardian.com/politics/live/2026/oct/20/kemi-badenoch-john-healey-capital-gains-tax-budget-covid-inquiry-care-homes-uk-politics-latest-news\">UK politics live – latest up",
+   "date": "2026-10-20T14:54:59.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "The Guardian",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.theguardian.com/uk/media"
   },
   {
    "id": "1jsfeqw",
@@ -1803,6 +2751,18 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://www.searchenginejournal.com"
+  },
+  {
+   "id": "181v6r9",
+   "title": "‘We’ll keep doing this if people pay us!’ The cast of TV hit Ghosts on making a movie – and maybe a caveman spinoff",
+   "url": "https://www.theguardian.com/film/2026/oct/20/ghosts-the-possession-of-button-house-caveman-robin",
+   "summary": "<p>As the haunters of Button House hit the big screen with a plot about an escaped phantom, we hear how the team just missed each other too much – and why grunting Robin may get his own show</p><p>When the final episode of Ghosts was aired in December 2023, the sitcom felt as if it had reached a def",
+   "date": "2026-10-20T14:14:43.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "The Guardian",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.theguardian.com/uk/media"
   },
   {
    "id": "1ousush",
@@ -1966,18 +2926,6 @@ window.NEWS_DATA = {
    "url": "https://www.huxiu.com/article/4899063.html",
    "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/20/39740-prod-grokep-general-1-1792502045219.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>摘要：大众正艰难地试图重振其在中国市场的命运。综合整理｜萧雨北京时间10月20日，路透社发表深度文章称，大众汽车联手小鹏汽车来挽",
    "date": "2026-10-20T13:15:44.000Z",
-   "firstSeen": "2026-10-20T15:22:11.484Z",
-   "source": "虎嗅网",
-   "tier": "B",
-   "lang": "zh-CN",
-   "site": "https://www.huxiu.com"
-  },
-  {
-   "id": "7m6epp",
-   "title": "没有“大结果”，全是“大红果”",
-   "url": "https://www.huxiu.com/article/4899061.html",
-   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/20/39738-prod-nb2qn-general-1-1792501864430.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>你有没有发现，现在的消费场景越来越像是一场全员入戏的红果短剧。过去广告是广告，故事是故事，买东西就是买东西。现在这三件事被揉到了一",
-   "date": "2026-10-20T13:12:58.000Z",
    "firstSeen": "2026-10-20T15:22:11.484Z",
    "source": "虎嗅网",
    "tier": "B",
@@ -2213,6 +3161,18 @@ window.NEWS_DATA = {
    "site": "https://www.huxiu.com"
   },
   {
+   "id": "d23u21",
+   "title": "Tom Cruise’s Digger is a commercial flop – but also the perfect climate film for our time",
+   "url": "https://www.theguardian.com/film/2026/oct/20/tom-cruise-digger-climate-film",
+   "summary": "<p>The movie follows Digger Rockwell, whose drilling triggers a vast iceberg that’s five times the size of Washington DC</p><p>Digger, the new Alejandro González Iñárritu film, is bombastic, misanthropic and an epic, critically savaged flop. It is also the near-perfect climate change film for our er",
+   "date": "2026-10-20T12:00:34.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "The Guardian",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.theguardian.com/uk/media"
+  },
+  {
    "id": "r28224",
    "title": "Netflix Announces New Ad Updates for Measurement and Capabilities",
    "url": "https://www.adweek.com/convergent-tv/netflix-announces-new-ad-updates-for-measurement-and-capabilities",
@@ -2429,6 +3389,18 @@ window.NEWS_DATA = {
    "site": "https://www.poynter.org"
   },
   {
+   "id": "cg7nnp",
+   "title": "‘Oh God, I can’t bear it’: Judi Dench says Cats film was ‘a waste of goodwill and talent’",
+   "url": "https://www.theguardian.com/film/2026/oct/20/judi-dench-cats-film-was-a-waste-of-goodwill-and-talent",
+   "summary": "<p>The actor’s forthcoming memoir Is It Too Late to Make a Run for It? says the makers had honourable intentions but the elements ‘didn’t coalesce’</p><p>Dame Judi Dench has long made her feelings clear about Cats, the doomed 2019 adaptation of the Andrew Lloyd Webber musical. In an interview the ye",
+   "date": "2026-10-20T11:28:47.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "The Guardian",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.theguardian.com/uk/media"
+  },
+  {
    "id": "fv65mk",
    "title": "气价创新高，取暖油暴涨，欧洲人开始抢中国热泵了",
    "url": "https://www.huxiu.com/article/4899033.html",
@@ -2595,6 +3567,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-TW",
    "site": "https://buzzorange.com/techorange/"
+  },
+  {
+   "id": "9fsg6h",
+   "title": "That piping hot new TV show I just watched? I can’t recall a thing about it | Zoe Williams",
+   "url": "https://www.theguardian.com/commentisfree/2026/oct/20/that-piping-hot-new-tv-show-i-just-watched-i-cant-recall-a-thing-about-it",
+   "summary": "<p>I’m never fully concentrating, always simultaneously thinking a huge thought about the future or scrolling through Vinted</p><p>Some friends and I were talking, at the weekend, about the TV shows War (about a couple getting divorced) and The Diplomat (about an entirely different couple, not getti",
+   "date": "2026-10-20T10:00:33.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "The Guardian",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.theguardian.com/uk/media"
   },
   {
    "id": "1vgrgff",
@@ -3222,7 +4206,7 @@ window.NEWS_DATA = {
   },
   {
    "id": "1seb9ax",
-   "title": "觀點／從前AI投資百億美元獲利神話到廠商冷靜審視，當前AI浪潮是淘金機遇，還是巨大賭注？",
+   "title": "觀點／從AI投資百億美元獲利神話到廠商冷靜審視，當前AI浪潮是淘金機遇，還是巨大賭注？",
    "url": "https://mashdigi.com/opinion-from-the-previous-myth-of-making-billions-of-dollars-in-profits-from-ai-investments-to-manufacturers-sober-assessment-is-the-current-ai-wave-a-gold-rush-opportunity-or-a-huge-gamble",
    "summary": "在生成式AI推動全球產業重組的進程中，資本市場正上演著兩極化的強烈對比。例如，前Google執行長Eric S […]",
    "date": "2026-10-20T07:00:26.000Z",
@@ -3987,6 +4971,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "en",
    "site": "https://www.mediapost.com"
+  },
+  {
+   "id": "1jlcaz2",
+   "title": "蘋果市占率只有5%，賈伯斯卻想搶下另外95%！一封電子郵件，揭開Apple Store誕生秘辛",
+   "url": "https://www.bnext.com.tw/article/92715/apple-store-ritz-carlton-service-shop-different",
+   "summary": "Apple Store開幕前，羅恩．強生帶店長到麗思卡爾頓飯店受訓，打造蘋果零售的服務信條與「豐富生命」的使命。開幕前夕，賈伯斯寄出一封「5%進度，95%待完成」的郵件，寫下「有購不同」廣告。",
+   "date": "2026-10-20T02:25:07.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "數位時代",
+   "tier": "A",
+   "lang": "zh-TW",
+   "site": "https://www.bnext.com.tw"
   },
   {
    "id": "1ve1emz",
@@ -9569,6 +10565,18 @@ window.NEWS_DATA = {
    "site": "https://stratechery.com"
   },
   {
+   "id": "mwwuar",
+   "title": "Home At Last",
+   "url": "https://stratechery.com/2026/home-at-last/?access_token=eyJhbGciOiJFUzI1NiIsImtpZCI6IkxzanFRcEhoMUJUdmU0djJQUUVuejIiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L2hvbWUtYXQtbGFzdC8iXX0sImV4cCI6MTc5NTEzNjI0NywiaWF0IjoxNzkyNTQ0MjQ3LCJpc3MiOiJodHRwczovL2FwcC5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyBwb2RjYXN0IHJzcyIsInN1YiI6Ijk0MDg0MGUyLTVlZjktNGJlNS04MjUwLTM3ODFmMjZlZTc5YSIsInVzZSI6ImFjY2VzcyJ9.88z5fa6EJKw6rTsVYANiU2iBjWUTYTCNZr_NSUxt2TWrVHB6opGZNm_Q6xlhBpaNH_aaanNouiOfleqRPxV45A",
+   "summary": "The best Stratechery content from the week of October 12, 2026, including what Apple is doing, SpaceX's appetite, and the title, takes, and the Washington Wizards.",
+   "date": "2026-10-16T17:42:42.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
+   "source": "STRATECHERY",
+   "tier": "S",
+   "lang": "en",
+   "site": "https://stratechery.com"
+  },
+  {
    "id": "1660ko9",
    "title": "Google Paid Search Becoming More Expensive",
    "url": "https://www.mediapost.com/publications/article/418796/google-paid-search-becoming-more-expensive.html",
@@ -12335,6 +13343,18 @@ window.NEWS_DATA = {
    "summary": "The best Stratechery content from the week of October 5, 2026, including drifting apart from Apple, Facebook complications, and the delightful absurdity of U.S.-China dynamics.",
    "date": "2026-10-09T17:00:00.000Z",
    "firstSeen": "2026-10-20T21:52:44.416Z",
+   "source": "STRATECHERY",
+   "tier": "S",
+   "lang": "en",
+   "site": "https://stratechery.com"
+  },
+  {
+   "id": "12ef1wv",
+   "title": "It’s Not You, It’s Me",
+   "url": "https://stratechery.com/?access_token=eyJhbGciOiJFUzI1NiIsImtpZCI6IkxzanFRcEhoMUJUdmU0djJQUUVuejIiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8_cD0yMDI2NyJdfSwiZXhwIjoxNzk1MTM2MjQ3LCJpYXQiOjE3OTI1NDQyNDcsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiOTQwODQwZTItNWVmOS00YmU1LTgyNTAtMzc4MWYyNmVlNzlhIiwidXNlIjoiYWNjZXNzIn0.A_smS-IJ3l8HE35Ej5h4UmdKmvKa1f01B9tR66qLKIKY4TP2-vAlpulvTkCaE6iIB2TrfeeTsPROfRoRM539mw&p=20267",
+   "summary": "The best Stratechery content from the week of October 5, 2026, including drifting apart from Apple, Facebook complications, and the delightful absurdity of U.S.-China dynamics.",
+   "date": "2026-10-09T17:00:00.000Z",
+   "firstSeen": "2026-10-21T00:57:32.846Z",
    "source": "STRATECHERY",
    "tier": "S",
    "lang": "en",
