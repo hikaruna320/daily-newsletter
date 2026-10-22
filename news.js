@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-10-21T21:58:40.262Z",
+ "generatedAt": "2026-10-22T00:54:08.015Z",
  "keepDays": 14,
  "sources": [
   {
@@ -72,7 +72,7 @@ window.NEWS_DATA = {
    "feed": "https://techcrunch.com/feed/",
    "ok": true,
    "error": null,
-   "count": 2
+   "count": 3
   },
   {
    "name": "Semafor",
@@ -268,9 +268,9 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "zh-CN",
    "feed": "https://decemberpei.cyou/rssbox/pingwest.xml",
-   "ok": true,
-   "error": null,
-   "count": 29
+   "ok": false,
+   "error": "解析不到文章",
+   "count": 0
   },
   {
    "name": "TNW",
@@ -881,6 +881,450 @@ window.NEWS_DATA = {
  ],
  "items": [
   {
+   "id": "1ouswgr",
+   "title": "首发｜我们用了一周的 iPhone Duo，这里有你关心的一切",
+   "url": "https://www.ifanr.com/1685251",
+   "summary": "在魔术与魔法的夹缝里，我们看到了一种天马行空，但又脚踏实地的产品哲学。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "date": "2026-10-22T00:45:50.000Z",
+   "firstSeen": "2026-10-22T00:54:08.015Z",
+   "source": "爱范儿",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.ifanr.com/"
+  },
+  {
+   "id": "1btzy4",
+   "title": "機器網軍來了！美軍 ECHOTRIBBLE 計畫召集 AI 代理自主數位索敵並消滅目標",
+   "url": "https://www.inside.com.tw/article/42691-us-army-echotribble-autonomous-ai-agents-digital-infrastructure-tomshardware",
+   "summary": "美國陸軍公開徵求 ECHOTRIBBLE 原型，目標是讓 AI 代理在數位環境自主導航並處置威脅。",
+   "date": "2026-10-22T00:38:00.000Z",
+   "firstSeen": "2026-10-22T00:54:08.015Z",
+   "source": "INSIDE",
+   "tier": "A",
+   "lang": "zh-TW",
+   "site": "https://www.inside.com.tw"
+  },
+  {
+   "id": "83okp1",
+   "title": "Gap and Victoria Beckham Are Running Back Their Sold-Out Collab: How to Shop the Fall Drop Early",
+   "url": "https://www.hollywoodreporter.com/lifestyle/shopping/gap-victoria-beckham-fall-2026-second-collab-release-prices-1236737831",
+   "summary": "The 37-piece fall/winter 2026 collection marks the duo's second limited-edition launch.",
+   "date": "2026-10-22T00:26:29.000Z",
+   "firstSeen": "2026-10-22T00:54:08.015Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "15onil8",
+   "title": "CAR-T试验保费猛涨，赔付率超200%，临床试验责任险为何越来越难买？",
+   "url": "https://www.huxiu.com/article/4899420.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/22/39980-prod-db-general-1-1792628362836.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>保险经纪人陈铭（化名）最近一次的理赔，发生在上海的某家医院。十月中旬，从早上八点进医院，一直谈到下午五点，陈铭泡了一整天，才把赔偿协议签",
+   "date": "2026-10-22T00:20:52.000Z",
+   "firstSeen": "2026-10-22T00:54:08.015Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "q5g538",
+   "title": "AI挖出藏了十几年的底层PHP漏洞，网络安全也回不去那个旧时代了。",
+   "url": "https://www.huxiu.com/article/4899419.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/22/39979-prod-db-general-1-1792628055519.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>昨晚，可能是网络安全的噩梦。也是很多工程师的，不眠之夜。只能说，我们整个时代和社会，在AI的加速下，都会变得焦头烂额中。事情是这样的。首",
+   "date": "2026-10-22T00:15:29.000Z",
+   "firstSeen": "2026-10-22T00:54:08.015Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "1ily6dh",
+   "title": "Trump Again Attacks Kaitlan Collins as a ‘Dummy, Low IQ Person’ for Russian Sanctions Question",
+   "url": "https://www.thewrap.com/media-platforms/journalism/trump-attacks-kaitlan-collins-cnn-russian-sanctions-question",
+   "summary": "\"You don’t know anything. You’re fake news CNN,\" the president says in his latest takedown of the White House correspondent The post Trump Again Attacks Kaitlan Collins as a ‘Dummy, Low IQ Person’ for Russian Sanctions Question appeared first on TheWrap.",
+   "date": "2026-10-22T00:14:19.000Z",
+   "firstSeen": "2026-10-22T00:54:08.015Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "1v6z7q0",
+   "title": "Meta Grows Revenue 26% Despite Massive Muse Operating Costs",
+   "url": "https://www.adexchanger.com/platforms/meta-grows-revenue-26-despite-massive-muse-operating-costs",
+   "summary": "Despite spending billions in lawsuits and high Muse operating costs, Meta's third quarter earnings still showed significant growth. The post Meta Grows Revenue 26% Despite Massive Muse Operating Costs appeared first on AdExchanger.",
+   "date": "2026-10-22T00:14:00.000Z",
+   "firstSeen": "2026-10-22T00:54:08.015Z",
+   "source": "AdExchanger",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.adexchanger.com"
+  },
+  {
+   "id": "ouuiyq",
+   "title": "生命密码必须 ATCG4个字母？新研究发现8个字母，细胞机器也照单全收",
+   "url": "https://www.huxiu.com/article/4899417.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/22/39978-prod-db-general-1-1792627864124.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>所有地球已知生命DNA均以A、T、C、G四种碱基储存遗传信息。一个根本问题随之而来：四种碱基是物理规律约束下的必然，还是演化的偶然？一定",
+   "date": "2026-10-22T00:12:45.000Z",
+   "firstSeen": "2026-10-22T00:54:08.015Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "e3av2c",
+   "title": "觀點／AI浪潮擠壓記憶體產能、筆電規格「倒退」回8GB容量，為什麼現在更不該向入門規格妥協？",
+   "url": "https://mashdigi.com/opinion-the-ai-wave-is-squeezing-memory-production-capacity-and-laptop-specifications-are-regressing-back-to-8gb-why-shouldnt-we-compromise-with-entry-level-specifications-now",
+   "summary": "如果從2024年一路關注PC市場發展，應該會對當時微軟大張旗鼓推動「Copilot+ PC」設計，並且硬性規定 […]",
+   "date": "2026-10-22T00:00:40.000Z",
+   "firstSeen": "2026-10-22T00:54:08.015Z",
+   "source": "mashdigi",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://mashdigi.com"
+  },
+  {
+   "id": "v3kkxp",
+   "title": "第一批返乡创业的中产，已经“旺铺招租”了？",
+   "url": "https://www.huxiu.com/article/4899142.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/article/content/2026/10/21/111451006881.jpg?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/jpg\" referrerpolicy=\"no-referrer\"></figure>回乡创业，正在成为这些年的趋势。数据显示，截至2025年底，全国各类返乡创业人员累计超过1510万人。另一项覆盖27个省份的调研发现，返乡青年中有27.1% 为城市户籍，41.9%拥有本科及以",
+   "date": "2026-10-22T00:00:00.000Z",
+   "firstSeen": "2026-10-22T00:54:08.015Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "5fpzyx",
+   "title": "北京不再硬碰硬？中歐貿易讓步的經濟算計，台灣應看清三點啟示",
+   "url": "https://www.thenewslens.com/article/270635",
+   "summary": "因經濟疲弱、亟需對歐出口，北京在中歐貿易磋商中務實讓步。此舉凸顯，面對團結並握有可信反制工具的對手時，北京並非無法妥協。然結構性矛盾未解，貿易摩擦料將持續。",
+   "date": "2026-10-21T23:59:00.000Z",
+   "firstSeen": "2026-10-22T00:54:08.015Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "5fpzw8",
+   "title": "親巴紐約市長 vs 挺以警察局長：曼達尼為何離不開立場南轅北轍的蒂施？",
+   "url": "https://www.thenewslens.com/article/270607",
+   "summary": "一個管轄全美國最大的警察局，一個領導整座城市；前者出生自億萬富翁家庭，後者是公開的社會主義者，兩人開展出一段令人意想不到的穩定合作關係。",
+   "date": "2026-10-21T23:58:00.000Z",
+   "firstSeen": "2026-10-22T00:54:08.015Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "5fpzy2",
+   "title": "「醫師，我上網查過了，你這樣開藥對嗎？」當病人帶著AI的答案走進心臟科診間",
+   "url": "https://www.thenewslens.com/article/270627",
+   "summary": "本文藉由案例說明，AI 問診的成敗在於「如何使用」。AI 僅依片面資訊提供建議，易因遺漏關鍵病史而失準。應將其作為看診前的準備工具，而非最終診斷，因「AI 只聽你說的，醫師會問你沒說的」。",
+   "date": "2026-10-21T23:57:00.000Z",
+   "firstSeen": "2026-10-22T00:54:08.015Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "5fpzyw",
+   "title": "別只看訪團和MOU：退出矽谷之後，加拿大AI新創為何決定轉向台灣？",
+   "url": "https://www.thenewslens.com/article/270634",
+   "summary": "加拿大AI軟體公司執行長主張，因臺灣硬體主導AI供應鏈，軟體商應與其整合以求商機。他建議臺加合作成效，應以「共同開發且已出貨的產品數」為指標，而非官方交流次數或備忘錄數量。",
+   "date": "2026-10-21T23:56:00.000Z",
+   "firstSeen": "2026-10-22T00:54:08.015Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "h2kh54",
+   "title": "美国最大车企，做成小而美了",
+   "url": "https://www.huxiu.com/article/4899378.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/article/content/2026/10/22/074355939720.jpg?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/jpg\" referrerpolicy=\"no-referrer\"></figure>中国车企正在成群结队驶向欧洲。这片热闹的战场上却看不到通用汽车，早在2017年，它就把欧宝卖给了法国PSA，退出了欧洲主流市场。退出并没有动摇它的根基。今天，通用每年还能在全球卖出约600万辆",
+   "date": "2026-10-21T23:54:24.000Z",
+   "firstSeen": "2026-10-21T15:37:08.571Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "o7jpwh",
+   "title": "史上最强厄尔尼诺，干懵旅游老板",
+   "url": "https://www.huxiu.com/article/4899416.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/22/39977-prod-grokep-general-1-1792626707812.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>靠天吃饭的旅游人，今年彻底破防。01上周末，我和几个外地来京的朋友去金山岭阿那亚玩，天气非常给力，刚出门雨就不停的下。我当时还安",
+   "date": "2026-10-21T23:53:21.000Z",
+   "firstSeen": "2026-10-22T00:54:08.015Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "10xgu6",
+   "title": "AI 時代資安更重要！Anthropic 推出 OSS Scanner，開源專案可申請免費定期漏洞掃描",
+   "url": "https://www.inside.com.tw/article/42690-anthropic-oss-scanner-free-periodic-vulnerability-scans-open-source",
+   "summary": "Anthropic 於 10 月 8 日推出 OSS Scanner，讓符合條件的開源專案免費取得定期漏洞掃描，每項發現附概念驗證，報告未經人工驗證，可能含誤報。",
+   "date": "2026-10-21T23:45:00.000Z",
+   "firstSeen": "2026-10-22T00:54:08.015Z",
+   "source": "INSIDE",
+   "tier": "A",
+   "lang": "zh-TW",
+   "site": "https://www.inside.com.tw"
+  },
+  {
+   "id": "nk8wu8",
+   "title": "爆红的中国摩托车，苦熬了20年",
+   "url": "https://www.huxiu.com/article/4899415.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/22/39975-prod-nb2qn-general-1-1792626114005.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>摩托车销量居然在增长。数据显示，今年上半年国内燃油摩托车销量264.96万辆，同比增长2.09%。如果再加上继续炸裂的摩托车出口数",
+   "date": "2026-10-21T23:43:10.000Z",
+   "firstSeen": "2026-10-22T00:54:08.015Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "1mskk2c",
+   "title": "Meta ordered to pay $25bn to New Mexico in Cambridge Analytica data-privacy case",
+   "url": "https://www.theguardian.com/technology/2026/oct/21/meta-fined-new-mexico-data-privacy-case",
+   "summary": "<p>Jury had found Meta misled consumers after Trump’s 2016 presidential campaign obtained user data without consent</p><p>A judge in <a href=\"https://www.theguardian.com/us-news/newmexico\">New Mexico</a> ordered <a href=\"https://www.theguardian.com/technology/meta\">Meta Platforms</a> to pay $25bn on",
+   "date": "2026-10-21T23:33:34.000Z",
+   "firstSeen": "2026-10-21T21:58:40.262Z",
+   "source": "The Guardian",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.theguardian.com/uk/media"
+  },
+  {
+   "id": "mwy3rz",
+   "title": "人形机器人租金暴跌，厂商为什么还在铺渠道？",
+   "url": "https://www.huxiu.com/article/4899414.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/22/39973-prod-nb2qn-general-1-1792624916514.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>机器人的租金降了，而且降得过于离谱了。2025年初，一台人形机器人的全包日租还要1万元。到了今年10月，宇树U2连同技术人员一起打",
+   "date": "2026-10-21T23:24:25.000Z",
+   "firstSeen": "2026-10-22T00:54:08.015Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "m9napq",
+   "title": "我发现大部分中国人都缺少一种核心能力",
+   "url": "https://www.huxiu.com/article/4899413.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/article/content/2026/10/22/071339824037.jpg?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/jpg\" referrerpolicy=\"no-referrer\"></figure>这几天，有几位读者在公号后台和星球向我提问，说的事情不一样，但内核出奇地相似。有读者问我，工作五年了，活儿干得最多，但是单位每次晋升，或者有什么好机会，名单上都没有自己；或者是，明明自己的方案",
+   "date": "2026-10-21T23:19:54.000Z",
+   "firstSeen": "2026-10-22T00:54:08.015Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "8ldqid",
+   "title": "Chris Pratt Says Marvel Has Taken ‘Hard Action’ on Star-Lord’s Return",
+   "url": "https://www.thewrap.com/creative-content/movies/chris-pratt-says-marvel-taken-action-star-lord-return",
+   "summary": "“So yeah, you’ll see Star-Lord again, which is very exciting,” the actor adds The post Chris Pratt Says Marvel Has Taken ‘Hard Action’ on Star-Lord’s Return appeared first on TheWrap.",
+   "date": "2026-10-21T23:12:11.000Z",
+   "firstSeen": "2026-10-22T00:54:08.015Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "lmchnh",
+   "title": "安踏李宁，同时看上了曼联老板投资的公司",
+   "url": "https://www.huxiu.com/article/4899412.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/22/39972-prod-db-general-1-1792623929660.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>一般企业收购谈判时，主角通常会保密，英国运动品牌Castore创始人Tom Beahon的做法相反，他主动说出了潜在买家的名字。10月2",
+   "date": "2026-10-21T23:06:44.000Z",
+   "firstSeen": "2026-10-22T00:54:08.015Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "17lrbfa",
+   "title": "Can a ‘Glee’ Reboot Really Work in 2026?",
+   "url": "https://www.thewrap.com/creative-content/tv-shows/glee-reboot-revival-can-it-work-disney-hulu",
+   "summary": "Disney’s revival could be an intriguing opportunity for Ryan Murphy to learn from the mistakes of the beloved series’ past The post Can a ‘Glee’ Reboot Really Work in 2026? appeared first on TheWrap.",
+   "date": "2026-10-21T23:00:00.000Z",
+   "firstSeen": "2026-10-22T00:54:08.015Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "99zvrj",
+   "title": "Jon Stewart Admits He’s in a ‘Dark Hole’ Over Midterm Elections, Says Polling Is ‘Always So Wrong’",
+   "url": "https://www.thewrap.com/creative-content/tv-shows/jon-stewart-admits-dark-hole-midterm-elections-decries-polling",
+   "summary": "\"Not a one of them that deserves to be reelected,\" the \"Daily Show\" host adds of the GOP's slate of candidates The post Jon Stewart Admits He’s in a ‘Dark Hole’ Over Midterm Elections, Says Polling Is ‘Always So Wrong’ appeared first on TheWrap.",
+   "date": "2026-10-21T22:58:23.000Z",
+   "firstSeen": "2026-10-22T00:54:08.015Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "6srfe1",
+   "title": "Jeff Garlin Recalls Texting ‘Curb’ Co-Star Susie Essman a Suicide Note Before Seeking Treatment",
+   "url": "https://www.thewrap.com/culture-lifestyle/culture/jeff-garlin-sent-suicide-note-curb-co-star-susie-essman",
+   "summary": "“I had a nervous breakdown and I was going to commit suicide,” the actor shares The post Jeff Garlin Recalls Texting ‘Curb’ Co-Star Susie Essman a Suicide Note Before Seeking Treatment appeared first on TheWrap.",
+   "date": "2026-10-21T22:55:12.000Z",
+   "firstSeen": "2026-10-22T00:54:08.015Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "kz1ol8",
+   "title": "当IP把自己封装成AI：卖技能的套利、泡沫与真人壁垒",
+   "url": "https://www.huxiu.com/article/4899411.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/22/39970-prod-nb2qn-general-1-1792622927292.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>在一个周末的AI实操培训现场，几十号人挤在会议室里，屏幕上闪烁着腾讯ima、Workbuddy等工具的界面。讲师在台上演示如何打通",
+   "date": "2026-10-21T22:52:18.000Z",
+   "firstSeen": "2026-10-22T00:54:08.015Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "18tzz06",
+   "title": "Meta wants to pay for its broad AI buildout with a newly created class of stock",
+   "url": "https://techcrunch.com/2026/10/21/meta-wants-to-pay-for-its-broad-ai-buildout-with-a-newly-created-class-of-stock",
+   "summary": "The social media giant is planning a new stock strategy to help power its broad investments in AI models and services.",
+   "date": "2026-10-21T22:45:34.000Z",
+   "firstSeen": "2026-10-22T00:54:08.015Z",
+   "source": "TechCrunch",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://techcrunch.com"
+  },
+  {
+   "id": "pla6o0",
+   "title": "‘Street Fighter’ Director Kitao Sakurai Built a Career by Embracing the Ridiculous",
+   "url": "https://www.hollywoodreporter.com/movies/movie-features/street-fighter-director-kitao-sakurai-ending-sequel-1236737763",
+   "summary": "Sakurai helped launch ‘The Eric Andre Show’ in the 2010s, a building block that has now led to a big-budget video game movie.",
+   "date": "2026-10-21T22:33:51.000Z",
+   "firstSeen": "2026-10-22T00:54:08.015Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "1ub2ll0",
+   "title": "LA Art Show Unveils Plans for 2027 Event",
+   "url": "https://www.hollywoodreporter.com/lifestyle/arts/la-art-show-2027-event-tickets-exhibitor-schedule-1236737771",
+   "summary": "The long-running art show will post up in Los Angeles Convention Center's West Hall for its 32nd run from Jan. 6-10, with works from more than 90 exhibitors, and a new charity partner and ticket platform.",
+   "date": "2026-10-21T22:32:26.000Z",
+   "firstSeen": "2026-10-22T00:54:08.015Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "1vonj1x",
+   "title": "Meta offers creative ad targeting for specific audiences",
+   "url": "https://www.socialmediatoday.com/news/meta-offers-creative-ad-targeting-for-specific-audiences/833672",
+   "summary": "<p>The company added a new feature that will allow third-party platforms to tailor age ranges and gender details for different elements in a promotional campaign.</p>",
+   "date": "2026-10-21T22:30:35.000Z",
+   "firstSeen": "2026-10-22T00:54:08.015Z",
+   "source": "Social Media Today",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.socialmediatoday.com"
+  },
+  {
+   "id": "w37qru",
+   "title": "Keira Knightley Forgets She Previously Starred Opposite Luke Thompson — Right in Front of Him",
+   "url": "https://www.thewrap.com/creative-content/movies/keira-knightley-luke-thompson-forgot-misbehaviour",
+   "summary": "\"I don’t remember anyone on that film at all,\" the actress defends The post Keira Knightley Forgets She Previously Starred Opposite Luke Thompson — Right in Front of Him appeared first on TheWrap.",
+   "date": "2026-10-21T22:15:39.000Z",
+   "firstSeen": "2026-10-22T00:54:08.015Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "3mi05e",
+   "title": "‘Obsession’ Star Inde Navarrette Says Meeting Nikki Scare Actor at Halloween Horror Nights Was “Surreal”",
+   "url": "https://www.hollywoodreporter.com/movies/movie-news/obsession-inde-navarrette-nikki-halloween-horror-nights-1236737517",
+   "summary": "\"She didn’t break. She was really committed,\" the 25-year-old actress tells The Hollywood Reporter.",
+   "date": "2026-10-21T22:13:58.000Z",
+   "firstSeen": "2026-10-22T00:54:08.015Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "180ofrn",
+   "title": "Stephen A. Smith Defends His Dinner With Trump: ‘He’s Not Going Away’",
+   "url": "https://www.thewrap.com/media-platforms/politics/stephen-a-smith-defends-trump-dinner",
+   "summary": "\"Whether you like it or not, he’s the president of the United States of America,\" the radio host and commentator says, refusing to apologize The post Stephen A. Smith Defends His Dinner With Trump: ‘He’s Not Going Away’ appeared first on TheWrap.",
+   "date": "2026-10-21T22:08:47.000Z",
+   "firstSeen": "2026-10-22T00:54:08.015Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "1c8jawd",
+   "title": "Meta adds users and revenue as AI costs climb",
+   "url": "https://www.socialmediatoday.com/news/meta-adds-users-and-revenue-as-ai-costs-climb/833671",
+   "summary": "<p>Third-quarter revenue rose 26% year over year to nearly $65 billion, but expenses were up 68% due to capital expenditures.</p>",
+   "date": "2026-10-21T22:08:33.000Z",
+   "firstSeen": "2026-10-22T00:54:08.015Z",
+   "source": "Social Media Today",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.socialmediatoday.com"
+  },
+  {
+   "id": "qa2430",
+   "title": "UpdraftPlus WordPress Plugin Security Breach Enables Backdoor Attacks",
+   "url": "https://www.searchenginejournal.com/updraftplus-wordpress-plugin-security-breach-enables-backdoor-attacks/593909",
+   "summary": "Hackers installed backdoors on WordPress sites using UpdraftPlus, putting over 3 million active installations at risk. The post UpdraftPlus WordPress Plugin Security Breach Enables Backdoor Attacks appeared first on Search Engine Journal.",
+   "date": "2026-10-21T22:03:33.000Z",
+   "firstSeen": "2026-10-22T00:54:08.015Z",
+   "source": "Search Engine Journal",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.searchenginejournal.com"
+  },
+  {
+   "id": "ft0pz3",
+   "title": "Billie Eilish and Finneas Used Grammy-Winning Song of the Year to Inspire New Jewelry Collection",
+   "url": "https://www.hollywoodreporter.com/lifestyle/style/billie-eilish-finneas-grammy-jewelry-collection-john-hardy-1236737693",
+   "summary": "The Billie Eilish & Finneas Collection, in partnership with John Hardy, is available online with prices ranging from $195 to $2,400.",
+   "date": "2026-10-21T22:01:20.000Z",
+   "firstSeen": "2026-10-22T00:54:08.015Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
    "id": "191xrnv",
    "title": "持续关注发生在中国的好故事，IMAX出品《象行记》深化本土内容合作",
    "url": "https://www.pingwest.com/w/318621",
@@ -1133,6 +1577,18 @@ window.NEWS_DATA = {
    "site": "https://www.thewrap.com"
   },
   {
+   "id": "1muwym9",
+   "title": "YouTube shares data on how creators are using AI",
+   "url": "https://www.socialmediatoday.com/news/youtube-shares-data-on-how-creators-are-using-ai/833657",
+   "summary": "<p>A new study commissioned by the platform found that nearly two-thirds of people posting videos wanted to insert themselves into the content using artificial intelligence.</p>",
+   "date": "2026-10-21T20:00:56.000Z",
+   "firstSeen": "2026-10-22T00:54:08.015Z",
+   "source": "Social Media Today",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.socialmediatoday.com"
+  },
+  {
    "id": "eue5kb",
    "title": "Los Angeles Film and TV Shoot Days Keep Plunging As Local Officials Scramble for a Turnaround Plan",
    "url": "https://www.hollywoodreporter.com/business/business-news/los-angeles-film-tv-shoot-days-1236737619",
@@ -1170,7 +1626,7 @@ window.NEWS_DATA = {
   },
   {
    "id": "igzos4",
-   "title": "Meta ordered to pay $25 billion in case related to Cambridge Analytica scandal",
+   "title": "Meta ordered to pay $25B in case related to Cambridge Analytica scandal",
    "url": "https://techcrunch.com/2026/10/21/meta-ordered-to-pay-25-billion-in-case-related-to-cambridge-analytica-scandal",
    "summary": "The payout is related to a recent trial involving the social media giant that revolved around its data privacy practices.",
    "date": "2026-10-21T19:42:32.000Z",
@@ -1215,6 +1671,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "en",
    "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "1xtzjm7",
+   "title": "YouTube adds temporary pause for hacked accounts",
+   "url": "https://www.socialmediatoday.com/news/youtube-adds-temporary-pause-for-hacked-accounts/833651",
+   "summary": "<p>The new security feature is designed to keep creator channels safe by preventing bad actors from uploading content or starting livestreams.</p>",
+   "date": "2026-10-21T19:37:54.000Z",
+   "firstSeen": "2026-10-22T00:54:08.015Z",
+   "source": "Social Media Today",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.socialmediatoday.com"
   },
   {
    "id": "qwnv7p",
@@ -1301,6 +1769,18 @@ window.NEWS_DATA = {
    "site": "https://www.niemanlab.org"
   },
   {
+   "id": "1vxyw6f",
+   "title": "Meta shares more information on Edits Plus subscriptions",
+   "url": "https://www.socialmediatoday.com/news/meta-shares-more-information-on-edits-plus-subscriptions/833646",
+   "summary": "<p>The company said paying users will get extra storage but did not reveal a pricing structure or offer details about when new features would roll out.</p>",
+   "date": "2026-10-21T19:03:06.000Z",
+   "firstSeen": "2026-10-22T00:54:08.015Z",
+   "source": "Social Media Today",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.socialmediatoday.com"
+  },
+  {
    "id": "1ekso74",
    "title": "Rank Tracking Broke In September – The Future Is Measured By Brand & Revenue",
    "url": "https://www.searchenginejournal.com/rank-tracking-broke-in-september-the-future-is-measured-by-brand-revenue/592783",
@@ -1349,16 +1829,28 @@ window.NEWS_DATA = {
    "site": "https://www.thewrap.com"
   },
   {
-   "id": "1mskk2c",
-   "title": "Meta ordered to pay $25bn to New Mexico in Cambridge Analytica data-privacy case",
-   "url": "https://www.theguardian.com/technology/2026/oct/21/meta-fined-new-mexico-data-privacy-case",
-   "summary": "<p>Jury had found Meta misled consumers after Trump’s 2016 presidential campaign obtained user data without consent</p><p>A judge in <a href=\"https://www.theguardian.com/us-news/newmexico\">New Mexico</a> ordered <a href=\"https://www.theguardian.com/technology/meta\">Meta Platforms</a> to pay $25bn on",
-   "date": "2026-10-21T18:34:17.000Z",
-   "firstSeen": "2026-10-21T21:58:40.262Z",
-   "source": "The Guardian",
-   "tier": "C",
+   "id": "1t0hak9",
+   "title": "Tilly Norwood Tells All",
+   "url": "https://www.adweek.com/media/tilly-norwood-tells-all",
+   "summary": "This story was originally published in On Background with Mark Stenberg, a free, weekly newsletter that explores the key themes shaping the media industry. You can sign up for it here. [&hellip;]",
+   "date": "2026-10-21T19:00:00.000Z",
+   "firstSeen": "2026-10-22T00:54:08.015Z",
+   "source": "Adweek",
+   "tier": "B",
    "lang": "en",
-   "site": "https://www.theguardian.com/uk/media"
+   "site": "https://www.adweek.com"
+  },
+  {
+   "id": "b6p45q",
+   "title": "Meta Beats Q3 Expectations With Strong Earnings",
+   "url": "https://www.adweek.com/media/meta-beats-q3-expectations-with-strong-earnings",
+   "summary": "The company says its AI investments are already paying off for advertisers",
+   "date": "2026-10-21T18:35:10.000Z",
+   "firstSeen": "2026-10-22T00:54:08.015Z",
+   "source": "Adweek",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.adweek.com"
   },
   {
    "id": "rigle5",
@@ -2247,18 +2739,6 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://www.searchenginejournal.com"
-  },
-  {
-   "id": "h2kh54",
-   "title": "美国最大车企，做成小而美了",
-   "url": "https://www.huxiu.com/article/4899378.html",
-   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/21/39939-prod-db-general-1-1792590117942.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>越活越小的通用汽车，单季赚了41亿美元。定焦One（dingjiaoone）原创中国车企正在成群结队驶向欧洲。这片热闹的战场上却看不到通",
-   "date": "2026-10-21T13:43:38.000Z",
-   "firstSeen": "2026-10-21T15:37:08.571Z",
-   "source": "虎嗅网",
-   "tier": "B",
-   "lang": "zh-CN",
-   "site": "https://www.huxiu.com"
   },
   {
    "id": "kzdtru",
@@ -5360,7 +5840,7 @@ window.NEWS_DATA = {
    "id": "19a94eu",
    "title": "Australia prepares to sue social platforms over age violations",
    "url": "https://www.socialmediatoday.com/news/australia-prepares-to-sue-social-platforms-over-age-violations/833545",
-   "summary": "<p>Bloomberg reported that the government planned to sue Meta, TikTok, Snapchat and YouTube for alleged non-compliance with a nationwide ban on teen users.</p>",
+   "summary": "<p>Bloomberg reported that the government plans to sue Meta, TikTok, Snapchat and YouTube for alleged noncompliance with a nationwide ban on teen users.</p>",
    "date": "2026-10-20T21:46:56.000Z",
    "firstSeen": "2026-10-21T00:57:32.846Z",
    "source": "Social Media Today",
@@ -5480,7 +5960,7 @@ window.NEWS_DATA = {
    "id": "12pj6nh",
    "title": "Instagram announces next phase of Rings creative talent awards",
    "url": "https://www.socialmediatoday.com/news/instagram-announces-next-phase-of-rings-creative-talent-awards/833543",
-   "summary": "<figure><div><img src=\"https://imgproxy.divecdn.com/pxy7ubk8q3o0vrzzoC_WoWskqVHEWmetaqAzJLZqVM0/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9pbnN0YWdyYW1fcmluZ3NfMjAyNi5wbmc=.webp\"/></div></figure><p>The promotional event is designed to highlight the app&rsquo;s top creators, a",
+   "summary": "<figure><div><img src=\"https://imgproxy.divecdn.com/pxy7ubk8q3o0vrzzoC_WoWskqVHEWmetaqAzJLZqVM0/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9pbnN0YWdyYW1fcmluZ3NfMjAyNi5wbmc=.webp\"/></div></figure><p>The promotional event is designed to highlight the app&rsquo;s top creators an",
    "date": "2026-10-20T21:23:18.000Z",
    "firstSeen": "2026-10-21T00:57:32.846Z",
    "source": "Social Media Today",
@@ -14285,6 +14765,18 @@ window.NEWS_DATA = {
    "site": "https://stratechery.com"
   },
   {
+   "id": "1ifqngv",
+   "title": "Home At Last",
+   "url": "https://stratechery.com/2026/home-at-last/?access_token=eyJhbGciOiJFUzI1NiIsImtpZCI6IkxzanFRcEhoMUJUdmU0djJQUUVuejIiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L2hvbWUtYXQtbGFzdC8iXX0sImV4cCI6MTc5NTIyMjQ0MywiaWF0IjoxNzkyNjMwNDQzLCJpc3MiOiJodHRwczovL2FwcC5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyBwb2RjYXN0IHJzcyIsInN1YiI6Ijk0MDg0MGUyLTVlZjktNGJlNS04MjUwLTM3ODFmMjZlZTc5YSIsInVzZSI6ImFjY2VzcyJ9.zRy-19MGNbezOYI0IFzSKnPGmlogUG1LVuWNbsFLvTAflu8OHKC9dLIE3mvu0fgPrQr6sodNWKPYULoQ6Q69hw",
+   "summary": "The best Stratechery content from the week of October 12, 2026, including what Apple is doing, SpaceX's appetite, and the title, takes, and the Washington Wizards.",
+   "date": "2026-10-16T17:42:42.000Z",
+   "firstSeen": "2026-10-22T00:54:08.015Z",
+   "source": "STRATECHERY",
+   "tier": "S",
+   "lang": "en",
+   "site": "https://stratechery.com"
+  },
+  {
    "id": "1660ko9",
    "title": "Google Paid Search Becoming More Expensive",
    "url": "https://www.mediapost.com/publications/article/418796/google-paid-search-becoming-more-expensive.html",
@@ -17105,6 +17597,18 @@ window.NEWS_DATA = {
    "site": "https://stratechery.com"
   },
   {
+   "id": "1j876vf",
+   "title": "It’s Not You, It’s Me",
+   "url": "https://stratechery.com/?access_token=eyJhbGciOiJFUzI1NiIsImtpZCI6IkxzanFRcEhoMUJUdmU0djJQUUVuejIiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8_cD0yMDI2NyJdfSwiZXhwIjoxNzk1MjIyNDQzLCJpYXQiOjE3OTI2MzA0NDMsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiOTQwODQwZTItNWVmOS00YmU1LTgyNTAtMzc4MWYyNmVlNzlhIiwidXNlIjoiYWNjZXNzIn0.ZHykTkkDpzVM6urT0LaPFyagcitTMw58ZIgZBdHoP4iemEClrkA1sA8uNPu8Da4wLxOa4DLh8OJ9MaeqVeIfXw&p=20267",
+   "summary": "The best Stratechery content from the week of October 5, 2026, including drifting apart from Apple, Facebook complications, and the delightful absurdity of U.S.-China dynamics.",
+   "date": "2026-10-09T17:00:00.000Z",
+   "firstSeen": "2026-10-22T00:54:08.015Z",
+   "source": "STRATECHERY",
+   "tier": "S",
+   "lang": "en",
+   "site": "https://stratechery.com"
+  },
+  {
    "id": "1n8sw55",
    "title": "Private Equity Transformed the Racing Post. A Decade Later, Growth Has Stalled",
    "url": "https://www.amediaoperator.com/analysis/private-equity-transformed-the-racing-post-a-decade-later-growth-has-stalled",
@@ -17271,18 +17775,6 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://voices.media"
-  },
-  {
-   "id": "dl4gy1",
-   "title": "Exiled journalists fled repression in Nicaragua. Now they face immigration uncertainty in the U.S.",
-   "url": "https://latamjournalismreview.org/articles/exiled-journalists-fled-repression-in-nicaragua-now-they-face-immigration-uncertainty-in-the-u-s",
-   "summary": "Luis Galeano’s recent detention underscores the risks many other exiled Nicaraguan journalists face as the Trump administration ramps up its immigration crackdown. The post Exiled journalists fled repression in Nicaragua. Now they face immigration uncertainty in the U.S. appeared first on LatAm Jour",
-   "date": "2026-10-07T22:41:59.000Z",
-   "firstSeen": "2026-10-19T03:37:33.468Z",
-   "source": "LatAm Journalism Review",
-   "tier": "C",
-   "lang": "en",
-   "site": "https://latamjournalismreview.org"
   }
  ]
 };
