@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-10-22T21:55:29.241Z",
+ "generatedAt": "2026-10-23T00:56:48.096Z",
  "keepDays": 14,
  "sources": [
   {
@@ -52,9 +52,9 @@ window.NEWS_DATA = {
    "tier": "A",
    "lang": "zh-TW",
    "feed": "https://rss.bnextmedia.com.tw/feed/bnext",
-   "ok": false,
-   "error": "解析不到文章",
-   "count": 0
+   "ok": true,
+   "error": null,
+   "count": 1
   },
   {
    "name": "虎嗅网",
@@ -144,7 +144,7 @@ window.NEWS_DATA = {
    "feed": "https://techorange.com/feed/",
    "ok": true,
    "error": null,
-   "count": 18
+   "count": 17
   },
   {
    "name": "mashdigi",
@@ -180,7 +180,7 @@ window.NEWS_DATA = {
    "feed": "https://www.ifanr.com/feed",
    "ok": true,
    "error": null,
-   "count": 17
+   "count": 16
   },
   {
    "name": "TheWrap",
@@ -268,9 +268,9 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "zh-CN",
    "feed": "https://decemberpei.cyou/rssbox/pingwest.xml",
-   "ok": false,
-   "error": "解析不到文章",
-   "count": 0
+   "ok": true,
+   "error": null,
+   "count": 29
   },
   {
    "name": "TNW",
@@ -881,6 +881,426 @@ window.NEWS_DATA = {
  ],
  "items": [
   {
+   "id": "191xrqr",
+   "title": "影石发布轻旗舰麦克风 Insta360 Mic，499元起解锁自由存储",
+   "url": "https://www.pingwest.com/w/318656",
+   "summary": "",
+   "date": null,
+   "firstSeen": "2026-10-23T00:56:48.096Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191xrqs",
+   "title": "网易云音乐打破世界纪录 自研模型智慧耳CloudEar获MIREX2026冠军",
+   "url": "https://www.pingwest.com/w/318657",
+   "summary": "",
+   "date": null,
+   "firstSeen": "2026-10-23T00:56:48.096Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191xrpw",
+   "title": "让美媒感叹“Meta相形见绌”，千问AI硬件收获海外创业者体验好评",
+   "url": "https://www.pingwest.com/w/318648",
+   "summary": "千问",
+   "date": null,
+   "firstSeen": "2026-10-23T00:56:48.096Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "12ziyvc",
+   "title": "‘Clayface’ Aims to Give DC Studios a Box Office Win as ‘You Can See Everything’ Stays Strong",
+   "url": "https://www.hollywoodreporter.com/movies/movie-news/clayface-box-office-you-can-see-everything-wildwood-klara-1236738669",
+   "summary": "Also debuting this weekend are 'Wildwood,' 'Klara and the Sun,' 'Wicker' and 'Ali G: Who Iz I?'",
+   "date": "2026-10-23T00:52:00.000Z",
+   "firstSeen": "2026-10-23T00:56:48.096Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "1lgo3s1",
+   "title": "Looksmaxxing Influencer Clavicular Pleads Not Guilty to Rape Charge",
+   "url": "https://www.hollywoodreporter.com/news/general-news/looksmaxxing-clavicular-pleads-not-guilty-rape-charge-1236738752",
+   "summary": "The manosphere influencer, whose real name is Braden Peters, faces charges related to raping a teenager in Massachusetts.",
+   "date": "2026-10-23T00:48:25.000Z",
+   "firstSeen": "2026-10-23T00:56:48.096Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "15g947i",
+   "title": "Obama Is Still Confronted With Netflix’s ‘Leave the World Behind’ Conspiracies: ‘You Know Something!’",
+   "url": "https://www.thewrap.com/creative-content/movies/obama-leave-the-world-behind-involvement-conspiracies",
+   "summary": "Michelle Obama tells Mahershala Ali that the Netflix movie is now one of the president's most-asked questions The post Obama Is Still Confronted With Netflix’s ‘Leave the World Behind’ Conspiracies: ‘You Know Something!’ appeared first on TheWrap.",
+   "date": "2026-10-23T00:45:11.000Z",
+   "firstSeen": "2026-10-23T00:56:48.096Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "186ng8a",
+   "title": "房子里不能存骨灰，是哪门子的公序良俗？",
+   "url": "https://www.huxiu.com/article/4899767.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/23/40156-prod-nb2qn-general-1-1792715457452.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>昨天有个新闻，广东江门台山市海宴镇一个小区有多名业主反映情况，说有人买下小区多间商铺，装修后长期关门，疑似作为骨灰房。海宴镇政府调",
+   "date": "2026-10-23T00:32:14.000Z",
+   "firstSeen": "2026-10-23T00:56:48.096Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "14y5ex1",
+   "title": "对话Google Labs负责人：大团队正在拖垮AI产品创新",
+   "url": "https://www.huxiu.com/article/4899762.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/article/content/2026/10/23/081430272278.jpg?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/jpg\" referrerpolicy=\"no-referrer\"></figure>当模型每隔几个月就改写一次能力边界，产品团队该如何判断：哪些只是令人惊叹的演示，哪些值得投入，最终能成为用户离不开的产品？Josh Woodward 同时负责 Google Labs 和 Ge",
+   "date": "2026-10-23T00:32:03.000Z",
+   "firstSeen": "2026-10-23T00:56:48.096Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "17jcn61",
+   "title": "7年心血恐被AI抢先，数学家带两名中国博士生，3天赶出95页论文",
+   "url": "https://www.huxiu.com/article/4899766.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/23/40155-prod-nb2qn-general-1-1792715271293.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>7年研究心血，传闻马上要被AI抢先。MIT数学副教授收到风声后，立刻带着两名中国博士生，用时3天赶出95页论文，赶在AI之前公开发",
+   "date": "2026-10-23T00:29:26.000Z",
+   "firstSeen": "2026-10-23T00:56:48.096Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "168r11j",
+   "title": "中国亿万富豪，有点不一样了……",
+   "url": "https://www.huxiu.com/article/4899764.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/23/40153-prod-grokep-general-1-1792714720438.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>1990年，经济学家威廉·鲍莫尔在《政治经济学杂志》上发了一篇论文，标题是《企业家精神：生产性的、非生产性的、破坏性的》。文章的",
+   "date": "2026-10-23T00:20:29.000Z",
+   "firstSeen": "2026-10-23T00:56:48.096Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "15lg7za",
+   "title": "祭出“30天无理由退货”，四川要对低价购物游下死手了？",
+   "url": "https://www.huxiu.com/article/4899763.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/23/40151-prod-db-general-1-1792714419816.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>与其处处被动，不如争取主动。头图：AI生成四川将逐步推行旅游购物“30天无理由退货”的消息日前引爆业内。四川省文旅厅等九部门联合印发的《",
+   "date": "2026-10-23T00:15:48.000Z",
+   "firstSeen": "2026-10-23T00:56:48.096Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "14aulus",
+   "title": "你知道你的贷款咋定价的？“双锚”来啦",
+   "url": "https://www.huxiu.com/article/4899761.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/23/40150-prod-nb2qn-general-1-1792714060624.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>近日，央行行长在2026金融街论坛年会开幕式上发表讲话！从比较单一地参考LPR定价，向更多元的定价基准转型！一句话，贷款利率定价的",
+   "date": "2026-10-23T00:09:21.000Z",
+   "firstSeen": "2026-10-23T00:56:48.096Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "5fpzys",
+   "title": "破解美國清教徒立國神話：被發明的「山巔之城」與1620修正主義史觀",
+   "url": "https://www.thenewslens.com/article/270630",
+   "summary": "本文辨析「山巔之城」一詞，主張美國立國精神非1620年清教徒史觀，而是1776年啟蒙時代的宗教自由。此精神明確揚棄了清教徒政教合一、宗教不寬容的傳統。",
+   "date": "2026-10-22T23:59:00.000Z",
+   "firstSeen": "2026-10-23T00:56:48.096Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "5fq02i",
+   "title": "車麗屋興櫃背後的平台野心：如何整合一萬家汽修廠，將街邊生意變成連鎖生態系？",
+   "url": "https://www.thenewslens.com/article/270672",
+   "summary": "汽車百貨龍頭車麗屋登錄興櫃，瞄準整合台灣零散的千億售後市場。其策略是從零售轉型為加盟平台，但高估值已預支潛力。商業模式能否將街邊生意標準化，是其估值能否站穩的關鍵。",
+   "date": "2026-10-22T23:58:00.000Z",
+   "firstSeen": "2026-10-23T00:56:48.096Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "o4cfaj",
+   "title": "当面包不再变大",
+   "url": "https://www.huxiu.com/article/4899759.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/23/40148-prod-grokep-general-1-1792713337582.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>发展停止的代价大家都关心的A股的事儿后面再说。最近马克龙政府的法国爆发了规模相当大的骚乱，骚乱过程中发生的很多事情要么就是回旋镖",
+   "date": "2026-10-22T23:57:34.000Z",
+   "firstSeen": "2026-10-23T00:56:48.096Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "tt3hyu",
+   "title": "Evangeline Lilly Has No Regrets About Leaving Hollywood: ‘I’ve Always Hated Being Famous’",
+   "url": "https://www.thewrap.com/creative-content/movies/evangeline-lilly-gripping-fear-of-leaving-hollywood-video",
+   "summary": "“I love telling stories, but I’d like to tell stories of my own instead of being in front of the camera,” the \"Ant-Man\" star admits The post Evangeline Lilly Has No Regrets About Leaving Hollywood: ‘I’ve Always Hated Being Famous’ appeared first on TheWrap.",
+   "date": "2026-10-22T23:57:34.000Z",
+   "firstSeen": "2026-10-23T00:56:48.096Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "1xpkirx",
+   "title": "Collage Wants to Navigate New AI Studios Through the Hollywood System",
+   "url": "https://www.thewrap.com/industry-news/business/collage-management-dante-desario-ai-studios",
+   "summary": "The management firm, founded by former UTA agent Dante DeSario, wants to be a bridge between traditional studios and AI startups The post Collage Wants to Navigate New AI Studios Through the Hollywood System appeared first on TheWrap.",
+   "date": "2026-10-22T23:57:32.000Z",
+   "firstSeen": "2026-10-23T00:56:48.096Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "5fq04e",
+   "title": "【小笠原欣幸觀點】沈伯洋會成為2010年功敗垂成的蘇貞昌，還是2018年捲起韓流的韓國瑜？",
+   "url": "https://www.thenewslens.com/article/270694",
+   "summary": "本文為小笠原欣幸之選情分析。文中剖析，挑戰者沈伯洋掀起「洋流」熱潮，如何撼動現任者蔣萬安的穩定優勢，使臺北市長選情陷入激戰。文章並探討此轉折背景與雙方陣營的決勝關鍵。",
+   "date": "2026-10-22T23:57:00.000Z",
+   "firstSeen": "2026-10-23T00:56:48.096Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "5fq0qf",
+   "title": "從Grab案看公平會審查盲點：當企業沒垂危，卻決定退出台灣市場",
+   "url": "https://www.thenewslens.com/article/270705",
+   "summary": "企業沒有垂危，不代表不會因經營策略退出市場。Grab與foodpanda案中，公平會應調查退出決策是否確定、有無其他買家，並比較結合與不結合的競爭影響，而不只以財務狀況判斷。",
+   "date": "2026-10-22T23:56:00.000Z",
+   "firstSeen": "2026-10-23T00:56:48.096Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "mtqt61",
+   "title": "希尔顿，为何逃离纽交所？",
+   "url": "https://www.huxiu.com/article/4899757.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/23/40147-prod-nb2qn-general-1-1792713110219.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>百年纽交所，留不住酒店巨头。01本周，全球酒店业市值排头兵希尔顿集团决定搬家。10月20日，希尔顿宣布，计划将普通股的上市地点从纽",
+   "date": "2026-10-22T23:53:52.000Z",
+   "firstSeen": "2026-10-23T00:56:48.096Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "n4rppp",
+   "title": "Mark Zuckerberg’s creative plan to pay California’s proposed billionaire tax without losing control of Meta",
+   "url": "https://techcrunch.com/2026/10/22/mark-zuckerbergs-creative-plan-to-pay-californias-proposed-billionaire-tax-without-losing-control-of-meta",
+   "summary": "A newly launched stock class being offered was partially engineered to help Meta founder and CEO Mark Zuckerberg pay the \"billionaire's tax,\" should the measure be voted into law.",
+   "date": "2026-10-22T23:50:41.000Z",
+   "firstSeen": "2026-10-23T00:56:48.096Z",
+   "source": "TechCrunch",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://techcrunch.com"
+  },
+  {
+   "id": "1dvoqtm",
+   "title": "‘The Great Mouse Detective’: Ron Clements and John Musker Talk Disney Classic Ahead of LightBox Expo",
+   "url": "https://www.thewrap.com/creative-content/movies/the-great-mouse-detective-anniversary-ron-clements-john-musker",
+   "summary": "The panel, timed to its 40th anniversary, will chart the creation of the pivotal Disney film The post ‘The Great Mouse Detective’: Ron Clements and John Musker Talk Disney Classic Ahead of LightBox Expo appeared first on TheWrap.",
+   "date": "2026-10-22T23:42:49.000Z",
+   "firstSeen": "2026-10-23T00:56:48.096Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "1n8a4hp",
+   "title": "‘Ali G’ Boycotts Over Sacha Baron Cohen’s Past Israel Support Blasted by ADL as ‘Ideological Litmus Test’",
+   "url": "https://www.thewrap.com/creative-content/movies/sacha-baron-cohen-ali-g-boycotts-blasted-adl-ceo-jonathan-greenblatt",
+   "summary": "\"No artist should be pressured, blacklisted or silenced over their Jewish identity,\" CEO Jonathan Greenblatt says The post ‘Ali G’ Boycotts Over Sacha Baron Cohen’s Past Israel Support Blasted by ADL as ‘Ideological Litmus Test’ appeared first on TheWrap.",
+   "date": "2026-10-22T23:37:22.000Z",
+   "firstSeen": "2026-10-23T00:56:48.096Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "zkbiuo",
+   "title": "Q3: Omnicom’s Media Business Is Growing, But Is It Agent-Proof?",
+   "url": "https://www.adexchanger.com/agencies/q3-omnicoms-media-business-is-growing-but-is-it-agent-proof",
+   "summary": "If AI agents can plan and buy media, who needs a holding company? Good question. Toward the end of Omnicom’s third quarter earnings call on Thursday, Tim Nolan, an equity analyst at independent financial research firm SSR, asked Omnicom’s leadership how the role of a large holdco will have to change",
+   "date": "2026-10-22T23:34:10.000Z",
+   "firstSeen": "2026-10-23T00:56:48.096Z",
+   "source": "AdExchanger",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.adexchanger.com"
+  },
+  {
+   "id": "jjajak",
+   "title": "停班停課最新名單（滾動更新）｜22縣市颱風假查詢、放假標準與宣布時間一次看",
+   "url": "https://www.bnext.com.tw/article/92745/typhoon-day-off-list-taiwan-22-counties",
+   "summary": "颱風薔琵逼近台灣，本文整理10月23日全台22縣市停班停課最新名單，一次看懂颱風假標準、宣布時間，以及居住地與工作地不同時的出勤與薪資規定。",
+   "date": "2026-10-22T23:32:40.000Z",
+   "firstSeen": "2026-10-22T09:38:10.031Z",
+   "source": "數位時代",
+   "tier": "A",
+   "lang": "zh-TW",
+   "site": "https://www.bnext.com.tw"
+  },
+  {
+   "id": "1wm5dpe",
+   "title": "AI短剧火疯了，赢家却没几个",
+   "url": "https://www.huxiu.com/article/4899741.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202607/18/29351-prod-nb2ep-general-1-1784359212943.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>“芒果超媒终于20cm涨停”，10月9日，妙投投资群中有用户感叹。十一节后，AI剧带领传媒股走出了一波涨停潮；龙头股慈文传媒一度走",
+   "date": "2026-10-22T23:24:17.000Z",
+   "firstSeen": "2026-10-23T00:56:48.096Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "1axvbze",
+   "title": "What AI agents need from journalism: an explainer",
+   "url": "https://www.journalism.co.uk/what-ai-agents-need-from-journalism-an-explainer",
+   "summary": "Your next reader may be an AI agent that reads every line, checks every byline and decides in milliseconds whether your story makes the cut. Here is what it looks for",
+   "date": "2026-10-22T23:24:01.000Z",
+   "firstSeen": "2026-10-23T00:56:48.096Z",
+   "source": "Journalism UK",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.journalism.co.uk"
+  },
+  {
+   "id": "lj571j",
+   "title": "“我们被灌输了一种根本无法维持的生活方式”",
+   "url": "https://www.huxiu.com/article/4899755.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/article/content/2026/10/23/071043798268.jpg?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/jpg\" referrerpolicy=\"no-referrer\"></figure>我现在理解我们的长辈为什么从早到晚都在厨房里了。因为如果你想健康、正常地吃三顿饭，那么就会这样。自从我打算健康饮食，吃得干净、吃够蛋白质，一天做一到两顿饭都足以让我精疲力尽。朋友们都知道我现在",
+   "date": "2026-10-22T23:17:23.000Z",
+   "firstSeen": "2026-10-23T00:56:48.096Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "xm32pa",
+   "title": "Tesla 無人監督 FSD 目標延至 2027 年第二季，初期僅限 Robotaxi 營運區域",
+   "url": "https://www.inside.com.tw/article/42706-tesla-unsupervised-fsd-q2-2027-robotaxi-fleet",
+   "summary": "Tesla 目標於 2027 年第二季推出無人監督 FSD。初期規劃並非開放個人隨處使用，而是讓車主將車輛加入官方管理的 Robotaxi 車隊，服務範圍將受限於特定地理圍欄區域，能否擴及私人用途仍是觀察重點。",
+   "date": "2026-10-22T23:07:00.000Z",
+   "firstSeen": "2026-10-23T00:56:48.096Z",
+   "source": "INSIDE",
+   "tier": "A",
+   "lang": "zh-TW",
+   "site": "https://www.inside.com.tw"
+  },
+  {
+   "id": "roj3l5",
+   "title": "Michael Gray, Former Teen Idol and Star of ‘Shazam!,’ Dies at 75",
+   "url": "https://www.hollywoodreporter.com/tv/tv-news/michael-gray-dead-shazam-1236738709",
+   "summary": "After dating Marcia on ‘The Brady Bunch,’ he spent three seasons turning into Captain Marvel on Saturday mornings.",
+   "date": "2026-10-22T22:59:26.000Z",
+   "firstSeen": "2026-10-23T00:56:48.096Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "dowup7",
+   "title": "This ‘Glee’ Star Is Waiting for Ryan Murphy’s Call for Reboot Return: ‘There’s No Guarantee’",
+   "url": "https://www.thewrap.com/creative-content/tv-shows/glee-star-becca-tobin-reboot-return",
+   "summary": "The Season 4 cast mate jokes that the stress \"gives me diarrhea\" The post This ‘Glee’ Star Is Waiting for Ryan Murphy’s Call for Reboot Return: ‘There’s No Guarantee’ appeared first on TheWrap.",
+   "date": "2026-10-22T22:32:42.000Z",
+   "firstSeen": "2026-10-23T00:56:48.096Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "18euehk",
+   "title": "Streaming Ratings: ‘Carrie’ Has a Bloody Good Opening Week",
+   "url": "https://www.hollywoodreporter.com/tv/tv-news/streaming-ratings-oct-5-11-2026-1236738659",
+   "summary": "The Stephen King adaptation premieres at No. 1 overall.",
+   "date": "2026-10-22T22:25:58.000Z",
+   "firstSeen": "2026-10-23T00:56:48.096Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "13k2207",
+   "title": "‘Carrie’ Is Queen of Nielsen Streaming Charts With Nearly 1.3 Billion Minutes in 5 Days",
+   "url": "https://www.thewrap.com/creative-content/tv-shows/carrie-prime-video-ratings-viewership-nielsen-charts",
+   "summary": "Mike Flanagan's Prime Video TV adaptation is already renewed for Season 2 The post ‘Carrie’ Is Queen of Nielsen Streaming Charts With Nearly 1.3 Billion Minutes in 5 Days appeared first on TheWrap.",
+   "date": "2026-10-22T22:25:45.000Z",
+   "firstSeen": "2026-10-23T00:56:48.096Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "oasaz8",
+   "title": "‘Slow Horses’ Team Unpacks Season 6 Finale’s Shocking Twist Ending: ‘A Proper Cliffhanger’",
+   "url": "https://www.thewrap.com/creative-content/tv-shows/slow-horses-season-6-ending-explained-river-dead-sid-flyte",
+   "summary": "\"It reminded me of reading 'Game of Thrones' and thinking, 'Wait, what? Ned Stark's dead?\" head writer Gaby Chiappe tells TheWrap of this season's devastating conclusion The post ‘Slow Horses’ Team Unpacks Season 6 Finale’s Shocking Twist Ending: ‘A Proper Cliffhanger’ appeared first on TheWrap.",
+   "date": "2026-10-22T22:10:56.000Z",
+   "firstSeen": "2026-10-23T00:56:48.096Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "6uz6ek",
+   "title": "台灣軟體業如何擺脫接案模式？政府採購破百億，產品化還缺什麼？",
+   "url": "https://techorange.com/2026/10/23/taiwan-digital-ai-policy",
+   "summary": "從專案接案走向可規模化的產品經營，是台灣軟體產業長期面臨的轉型課題。數發部近年推動軟體業從專案開發（Project）走向產品經營（Product），希望透過政府採購擴大標準化軟體的市場，今年更公布 2025 年政府電腦軟體共同供應契約採購總額達 107 億元，年增 25%，其中國產產品訂單數量占比達 58%。然而，政府採購能創造市場，不代表業者取得訂單後，就能順利發展出可重複銷售的產品。 10 月 22 日，台灣數位科技與政策協進會舉辦「創造台灣數位與 AI 競爭力大環境座談會」，從公私協力壯大軟體產業、採購環境與履約機制調整兩個面向展開討論。除了企業如何將客製化專案轉化為產品，政府如何整合跨",
+   "date": "2026-10-22T22:00:00.000Z",
+   "firstSeen": "2026-10-23T00:56:48.096Z",
+   "source": "TechOrange",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://buzzorange.com/techorange/"
+  },
+  {
    "id": "wjhv79",
    "title": "Nobody Knew This Game Existed, and Now It’s a Hot 2027 Title",
    "url": "https://www.hollywoodreporter.com/business/digital/1001-threads-of-mizan-game-1236730017",
@@ -1014,15 +1434,27 @@ window.NEWS_DATA = {
   },
   {
    "id": "hu879i",
-   "title": "The FT’s B2B Acquisition Playbook: 10x Subscription Revenue, Be Wary of Data",
+   "title": "The FT’s B2B Acquisition Playbook: Charge More, Be Wary of Data",
    "url": "https://www.amediaoperator.com/news/the-fts-b2b-acquisition-playbook-10x-subscription-revenue-be-wary-of-data",
-   "summary": "The Financial Times Group’s specialist acquisition strategy focuses on subscription businesses serving competitive, ideally regulated and potentially international markets. It also wants… The post The FT’s B2B Acquisition Playbook: 10x Subscription Revenue, Be Wary of Data appeared first on A Media ",
+   "summary": "The Financial Times Group’s specialist acquisition strategy focuses on subscription businesses serving competitive, ideally regulated and potentially international markets. It also wants… The post The FT’s B2B Acquisition Playbook: Charge More, Be Wary of Data appeared first on A Media Operator.",
    "date": "2026-10-22T20:23:46.000Z",
    "firstSeen": "2026-10-22T21:55:29.241Z",
    "source": "A Media Operator",
    "tier": "A",
    "lang": "en",
    "site": "https://www.amediaoperator.com"
+  },
+  {
+   "id": "1jxnac9",
+   "title": "Tom Skerritt, Alien and Top Gun actor, dies aged 93",
+   "url": "https://www.theguardian.com/film/2026/oct/22/tom-skerritt-actor-dead",
+   "summary": "<p>Actor also had roles in M*A*S*H, A River Runs Through It and Picket Fences in career spanning 60 years</p><p>Tom Skerritt, the actor known for roles in Alien and Top Gun, has died at the age of 93.</p><p>His publicist confirmed to <a href=\"https://variety.com/2026/film/news/tom-skerritt-dead-pick",
+   "date": "2026-10-22T20:19:49.000Z",
+   "firstSeen": "2026-10-23T00:56:48.096Z",
+   "source": "The Guardian",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.theguardian.com/uk/media"
   },
   {
    "id": "14t4tgs",
@@ -1397,6 +1829,18 @@ window.NEWS_DATA = {
    "site": "https://www.searchenginejournal.com"
   },
   {
+   "id": "1ovizux",
+   "title": "Reform snowflake Zia Yusuf demands safe space from ITV’s racism hunters",
+   "url": "https://www.theguardian.com/politics/2026/oct/22/itv-undercover-journalists-reform-uk-zia-yusuf",
+   "summary": "<p>How can it be right that undercover reporters failed to ask permission to expose party’s racist and misogynist views? </p><p>The world has gone mad. What has happened to the country when you can’t even have a bit of racist and sexist banter with your mates at work? Time was when up to 20 million ",
+   "date": "2026-10-22T16:56:57.000Z",
+   "firstSeen": "2026-10-23T00:56:48.096Z",
+   "source": "The Guardian",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.theguardian.com/uk/media"
+  },
+  {
    "id": "1bgwx4j",
    "title": "Russell Brand raped woman even though she screamed in pain, court hears",
    "url": "https://www.theguardian.com/uk-news/2026/oct/22/russell-brand-raped-woman-even-though-she-screamed-in-pain-court-hears",
@@ -1623,6 +2067,18 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://thenextweb.com"
+  },
+  {
+   "id": "gxqcv5",
+   "title": "Zadie Smith among authors letting public bid to name new characters for charity auction",
+   "url": "https://www.theguardian.com/law/2026/oct/22/zadie-smith-margaret-atwood-ian-mcewan-public-bid-name-new-characters-charity-auction",
+   "summary": "<p>Other prizes at Freedom from Torture event include rare Mary Wollstonecraft book illustrated by William Blake </p><p>Margaret Atwood, Zadie Smith and Ian McEwan are among a number of literary stars auctioning off the chance for readers to name characters in their next novels to raise money for su",
+   "date": "2026-10-22T15:13:50.000Z",
+   "firstSeen": "2026-10-23T00:56:48.096Z",
+   "source": "The Guardian",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.theguardian.com/uk/media"
   },
   {
    "id": "15r8jq9",
@@ -2247,18 +2703,6 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://www.theguardian.com/uk/media"
-  },
-  {
-   "id": "jjajak",
-   "title": "停班停課最新名單（滾動更新）｜22縣市颱風假查詢、放假標準與宣布時間一次看",
-   "url": "https://www.bnext.com.tw/article/92745/typhoon-day-off-list-taiwan-22-counties",
-   "summary": "颱風薔琵逼近台灣，本文持續整理10月22日、23日全台22縣市停班停課最新名單，一次看懂颱風假標準、宣布時間，以及居住地與工作地不同時的出勤與薪資規定。",
-   "date": "2026-10-22T12:32:31.000Z",
-   "firstSeen": "2026-10-22T09:38:10.031Z",
-   "source": "數位時代",
-   "tier": "A",
-   "lang": "zh-TW",
-   "site": "https://www.bnext.com.tw"
   },
   {
    "id": "lzuw4s",
@@ -4748,7 +5192,7 @@ window.NEWS_DATA = {
    "id": "1c8jawd",
    "title": "Meta adds users and revenue as AI costs climb",
    "url": "https://www.socialmediatoday.com/news/meta-adds-users-and-revenue-as-ai-costs-climb/833671",
-   "summary": "<p>Third-quarter revenue rose 26% year over year to nearly $65 billion, but expenses were up 68% due to capital expenditures.</p>",
+   "summary": "<p>Revenue rose 26% year over year in the third quarter to nearly $65 billion, but expenses were up 68% due to capital expenditures.</p>",
    "date": "2026-10-21T22:08:33.000Z",
    "firstSeen": "2026-10-22T00:54:08.015Z",
    "source": "Social Media Today",
@@ -5036,7 +5480,7 @@ window.NEWS_DATA = {
    "id": "1muwym9",
    "title": "YouTube shares data on how creators are using AI",
    "url": "https://www.socialmediatoday.com/news/youtube-shares-data-on-how-creators-are-using-ai/833657",
-   "summary": "<p>A new study commissioned by the platform found that nearly two-thirds of people posting videos wanted to insert themselves into the content using artificial intelligence.</p>",
+   "summary": "<p>A study commissioned by the platform found that nearly two-thirds of people posting videos want to insert themselves into the content using artificial intelligence.</p>",
    "date": "2026-10-21T20:00:56.000Z",
    "firstSeen": "2026-10-22T00:54:08.015Z",
    "source": "Social Media Today",
@@ -21231,30 +21675,6 @@ window.NEWS_DATA = {
    "tier": "A",
    "lang": "zh-TW",
    "site": "https://www.feja.org.tw"
-  },
-  {
-   "id": "268fpr",
-   "title": "OpenAI caught Russians and Iranians using ChatGPT for influence campaigns",
-   "url": "https://www.npr.org/2026/10/08/nx-s1-5995576/openai-russia-iran-influence-operations-chatgpt",
-   "summary": "The company says Russian operatives used its AI chatbot to update their bosses, shedding light on influence campaigns previously not attributed to Russia.",
-   "date": "2026-10-09T00:25:15.000Z",
-   "firstSeen": "2026-10-19T03:37:33.468Z",
-   "source": "NPR",
-   "tier": "C",
-   "lang": "en",
-   "site": "https://www.npr.org"
-  },
-  {
-   "id": "kmsiij",
-   "title": "The ethics of care: Lessons from two stories of grief in Brazil",
-   "url": "https://latamjournalismreview.org/articles/the-ethics-of-care-lessons-from-two-stories-of-grief-in-brazil",
-   "summary": "Two stories involving grieving families this year offer contrasting lessons for journalists covering death and loss. The post The ethics of care: Lessons from two stories of grief in Brazil appeared first on LatAm Journalism Review by the Knight Center.",
-   "date": "2026-10-08T23:41:30.000Z",
-   "firstSeen": "2026-10-19T03:37:33.468Z",
-   "source": "LatAm Journalism Review",
-   "tier": "C",
-   "lang": "en",
-   "site": "https://latamjournalismreview.org"
   }
  ]
 };
