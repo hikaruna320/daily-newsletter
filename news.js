@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-10-23T15:29:11.596Z",
+ "generatedAt": "2026-10-23T21:41:05.832Z",
  "keepDays": 14,
  "sources": [
   {
@@ -9,7 +9,7 @@ window.NEWS_DATA = {
    "feed": "https://stratechery.passport.online/feed/rss/WXErCixRoZzZJcHe3Cu94k",
    "ok": true,
    "error": null,
-   "count": 5
+   "count": 6
   },
   {
    "name": "Reuters Institute",
@@ -52,9 +52,9 @@ window.NEWS_DATA = {
    "tier": "A",
    "lang": "zh-TW",
    "feed": "https://rss.bnextmedia.com.tw/feed/bnext",
-   "ok": true,
-   "error": null,
-   "count": 12
+   "ok": false,
+   "error": "解析不到文章",
+   "count": 0
   },
   {
    "name": "虎嗅网",
@@ -153,7 +153,7 @@ window.NEWS_DATA = {
    "feed": "https://mashdigi.com/feed/",
    "ok": true,
    "error": null,
-   "count": 10
+   "count": 20
   },
   {
    "name": "鉅亨網",
@@ -232,9 +232,9 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "en",
    "feed": "https://adtechradar.com/feed/",
-   "ok": true,
-   "error": null,
-   "count": 10
+   "ok": false,
+   "error": "逾時",
+   "count": 0
   },
   {
    "name": "Openbook 閱讀誌",
@@ -259,18 +259,18 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "zh-TW",
    "feed": "https://www.managertoday.com.tw/rss",
-   "ok": true,
-   "error": null,
-   "count": 10
+   "ok": false,
+   "error": "解析不到文章",
+   "count": 0
   },
   {
    "name": "品玩",
    "tier": "C",
    "lang": "zh-CN",
    "feed": "https://decemberpei.cyou/rssbox/pingwest.xml",
-   "ok": false,
-   "error": "解析不到文章",
-   "count": 0
+   "ok": true,
+   "error": null,
+   "count": 29
   },
   {
    "name": "TNW",
@@ -881,6 +881,762 @@ window.NEWS_DATA = {
  ],
  "items": [
   {
+   "id": "191xsj7",
+   "title": "荣耀亮相 CEIC：Magic9 领衔 AI 智能体手机 全场景 AI 生态加速落地",
+   "url": "https://www.pingwest.com/w/318737",
+   "summary": "",
+   "date": null,
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191xsj6",
+   "title": "iQOO 亮相 Unreal Fest Shanghai 2026，分享移动游戏图形与性能优化进展",
+   "url": "https://www.pingwest.com/w/318736",
+   "summary": "",
+   "date": null,
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191xsic",
+   "title": "WPS for iPhone Duo正式上线：大屏表格、双开对照与AI侧栏全面落地",
+   "url": "https://www.pingwest.com/w/318729",
+   "summary": "",
+   "date": null,
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191xrsf",
+   "title": "360纳米Work升级AI编辑器，文档、图片、视频实现“一切皆可编辑”",
+   "url": "https://www.pingwest.com/w/318670",
+   "summary": "近日，360出品的安全可靠AI办公平台纳米Work全面升级AI编辑器，融合超级画布功能，打通文档、表格、PPT、图片、视频等创作与编辑，将人机协同从办公文档延伸至多媒体内容和创作流程，以“一切皆可编辑”探索AI时代Office的新形态。",
+   "date": null,
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191xrrr",
+   "title": "「千问Go!」上线“我的应用”，支持搭建长期、可分享的专属应用",
+   "url": "https://www.pingwest.com/w/318669",
+   "summary": "",
+   "date": null,
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191xrrq",
+   "title": "易观Q3办公智能体榜单出炉：20款产品同台竞技，WPS灵犀专业版进入典型案例分析",
+   "url": "https://www.pingwest.com/w/318668",
+   "summary": "",
+   "date": null,
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191xrrp",
+   "title": "“双十一”激战中，WPS灵犀成了这位电商运营的“随叫随到搭子”",
+   "url": "https://www.pingwest.com/w/318667",
+   "summary": "",
+   "date": null,
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191xrrl",
+   "title": "金蝶徐少春：企业AI转型，一把手要做“首席实践官”",
+   "url": "https://www.pingwest.com/w/318663",
+   "summary": "",
+   "date": null,
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "191xrrk",
+   "title": "腾讯视频首批全场景适配 iPhone Duo 现已重磅上线",
+   "url": "https://www.pingwest.com/w/318662",
+   "summary": "",
+   "date": null,
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "品玩",
+   "tier": "C",
+   "lang": "zh-CN",
+   "site": "https://www.pingwest.com"
+  },
+  {
+   "id": "6yiblt",
+   "title": "Sandra Hüller Set for Cameo Role in ‘Avengers: Doomsday’",
+   "url": "https://www.hollywoodreporter.com/movies/movie-news/avengers-doomsday-sandra-huller-cameo-1236739095",
+   "summary": "The Oscar-nominated actress is having a big year, with 'Project Hail Mary' a hit in the spring.",
+   "date": "2026-10-23T21:29:11.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "17nh9dx",
+   "title": "New ‘Alien’ Movie in the Works with Writer Aaron Guzikowski (Exclusive)",
+   "url": "https://www.hollywoodreporter.com/movies/movie-news/new-alien-movie-in-the-works-1236739216",
+   "summary": "Ridley Scott is reteaming with the scribe that created HBO Max sci-fi drama \"Raised by Wolves.\"",
+   "date": "2026-10-23T21:28:10.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "133ya8",
+   "title": "Olivia Colman and Alexander Skarsgård Fell in Love With ‘Wicker’ at First Sight",
+   "url": "https://www.thewrap.com/creative-content/movies/wicker-movie-premiere-olivia-colman-alexander-skarsgard-interview",
+   "summary": "\"I loved the Fisherwoman and I just wanted to be her. Weirdly, I didn't think it was too absurd,\" the actress and producer tells TheWrap The post Olivia Colman and Alexander Skarsgård Fell in Love With ‘Wicker’ at First Sight appeared first on TheWrap.",
+   "date": "2026-10-23T21:21:59.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "e7x0dd",
+   "title": "The 45 Most Dazzling Jewelry Gifts From Celebrity-Owned and Hollywood-Loved Labels",
+   "url": "https://www.hollywoodreporter.com/lifestyle/shopping/best-jewelry-gifts-1236053591",
+   "summary": "Here are the most enviable necklaces, earrings, rings and bracelets from $30 to $13,000.",
+   "date": "2026-10-23T21:20:54.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "14ydomv",
+   "title": "Media Personality Keltie Knight Tapped as Editor-at-Large for Digital Styling App Alta",
+   "url": "https://www.hollywoodreporter.com/lifestyle/style/host-keltie-knight-editor-digital-styling-app-alta-1236737093",
+   "summary": "The Emmy-winner, E! host, 'LadyGang' podcast co-creator and NYT best-selling author will shape Alta's voice across newsletters and social and steer a digital magazine cover set to debut in November.",
+   "date": "2026-10-23T21:20:41.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "16rftrq",
+   "title": "The Best Horror Movies of 2026 (So Far)",
+   "url": "https://www.thewrap.com/creative-content/movies/best-horror-movies-of-2026",
+   "summary": "From \"Faces of Death\" to \"Obsession,\" these movies are scary good The post The Best Horror Movies of 2026 (So Far) appeared first on TheWrap.",
+   "date": "2026-10-23T20:48:22.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "1xxzw2m",
+   "title": "Director Rory Kennedy on ‘The Trial of Alec Baldwin’: “If This Was Tom Hanks or Julia Roberts, I Don’t Think This Would Have Gone to Trial”",
+   "url": "https://www.hollywoodreporter.com/movies/movie-features/alec-baldwin-rory-kennedy-rust-1236738791",
+   "summary": "The director's film asks how social media and public opinion can affect legal proceedings.",
+   "date": "2026-10-23T20:45:05.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "1jq1i8j",
+   "title": "Adam Conover Talks His Self-Released Stand-Up Special and Why Women Joke About Sex Better Than Men",
+   "url": "https://www.thewrap.com/culture-lifestyle/culture/adam-conover-interview-big-divorce-energy",
+   "summary": "The CollegeHumor veteran also laments the state of Hollywood after taking part in the Block the Merger protests The post Adam Conover Talks His Self-Released Stand-Up Special and Why Women Joke About Sex Better Than Men appeared first on TheWrap.",
+   "date": "2026-10-23T20:43:24.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "1f21dx0",
+   "title": "‘Law & Order: SVU’ Brings Back Another Familiar Face in Stephanie March",
+   "url": "https://www.hollywoodreporter.com/tv/tv-news/stephanie-march-law-order-svu-return-1236739266",
+   "summary": "She'll make a guest appearance as Alexandra Cabot later this season.",
+   "date": "2026-10-23T20:31:34.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "1o6558i",
+   "title": "Teen Study: YouTube Rules, AI Doom Increases With Age and Moviegoing Beats Sports on Weekends",
+   "url": "https://www.hollywoodreporter.com/news/general-news/ucla-teens-screens-study-2026-tv-film-media-habits-youth-1236739182",
+   "summary": "A new Teens and Screens report from UCLA's Center for Scholars & Storytellers dropped this week featuring data pulled from 1,500 adolescents ages 10-24 on takes for all things media.",
+   "date": "2026-10-23T20:30:57.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "1vp2ivw",
+   "title": "‘Law & Order: SVU’ Brings Back Stephanie March as Alexandra Cabot in Season 28",
+   "url": "https://www.thewrap.com/creative-content/tv-shows/law-order-svu-stephanie-march-alexandra-cabot-returns-season-28",
+   "summary": "The actress has appeared in more than 100 episodes and even got her own spinoff as the assistant district attorney The post ‘Law & Order: SVU’ Brings Back Stephanie March as Alexandra Cabot in Season 28 appeared first on TheWrap.",
+   "date": "2026-10-23T20:30:00.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "j0uvi8",
+   "title": "Lone FCC Democrat Urges Broadcasters to Push Back on Brendan Carr’s Regulatory Review Threats",
+   "url": "https://www.thewrap.com/media-platforms/politics/fcc-democrat-urges-broadcasters-push-back-brendan-carr-fake-polls-threat",
+   "summary": "\"Reporting the results of a poll this administration happens to dislike does not come close to meeting those standards,\" Anna M. Gomez says of the so-called \"fake polls\" The post Lone FCC Democrat Urges Broadcasters to Push Back on Brendan Carr’s Regulatory Review Threats appeared first on TheWrap.",
+   "date": "2026-10-23T20:20:35.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "hapwwm",
+   "title": "The Scariest Horror Movies on Netflix",
+   "url": "https://www.thewrap.com/creative-content/what-to-watch/scariest-movies-on-netflix-right-now",
+   "summary": "Boo! The post The Scariest Horror Movies on Netflix appeared first on TheWrap.",
+   "date": "2026-10-23T20:09:00.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "11o6idm",
+   "title": "Where to Stream Every ‘Friday the 13th’ Movie",
+   "url": "https://www.thewrap.com/creative-content/what-to-watch/friday-the-13-movies-where-to-stream",
+   "summary": "The entire horror franchise is spread across a number of streamers The post Where to Stream Every ‘Friday the 13th’ Movie appeared first on TheWrap.",
+   "date": "2026-10-23T19:58:58.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "i833xm",
+   "title": "Apple’s Newest iPhone May Be Hollywood’s Best Friend",
+   "url": "https://www.hollywoodreporter.com/business/digital/apple-iphone-duo-hollywood-streaming-optimized-1236739014",
+   "summary": "As more video goes vertical, the iPhone Duo embraces horizontal video and a bigger canvas, making it ideal for watching longer-form, premium content at a moment when cheap vertical video is everywhere.",
+   "date": "2026-10-23T19:58:23.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "1by0tjs",
+   "title": "Greece Passes Teen Social Media Ban",
+   "url": "https://www.mediapost.com/publications/article/418963/greece-passes-teen-social-media-ban.html",
+   "summary": "Greece has followed through on initial plans to impose a social-media ban for kids under 15, with its parliament passing the measure into law, requiring social media companies to enact age-verification measures starting Jan 1.",
+   "date": "2026-10-23T19:48:15.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
+   "id": "193sbl7",
+   "title": "Academy Museum Gala Brings Out Hollywood’s Best-Dressed, While Victoria’s Secret Has the Least",
+   "url": "https://www.thewrap.com/culture-lifestyle/fashion/wrapstyle-academy-museum-gala-best-dressed",
+   "summary": "WrapStyle: Plus, could the upcoming Amazon MGM show \"Bella From Barneys\" help bring back beloved retailer Barneys New York? The post Academy Museum Gala Brings Out Hollywood’s Best-Dressed, While Victoria’s Secret Has the Least appeared first on TheWrap.",
+   "date": "2026-10-23T19:41:58.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "b0zz46",
+   "title": "The 8 Best New Movies and Shows to Stream This Weekend on Netflix, Hulu and More",
+   "url": "https://www.thewrap.com/creative-content/what-to-watch/best-new-movies-shows-streaming-this-weekend-oct-23-25",
+   "summary": "From \"Lupin\" Season 4 to \"Nobody Wants This\" Season 3 and everything in between The post The 8 Best New Movies and Shows to Stream This Weekend on Netflix, Hulu and More appeared first on TheWrap.",
+   "date": "2026-10-23T19:37:09.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "c79mmu",
+   "title": "NY Times Reporter Elizabeth Holmes Accused of Misquoting Her Reacts to ‘You Can See Everything’ Controversy",
+   "url": "https://www.thewrap.com/creative-content/movies/ny-times-reporter-elizabeth-holmes-quote-you-can-see-everything",
+   "summary": "\"I really wish I’d kept that notebook,\" Amy Chozick says The post NY Times Reporter Elizabeth Holmes Accused of Misquoting Her Reacts to ‘You Can See Everything’ Controversy appeared first on TheWrap.",
+   "date": "2026-10-23T19:08:03.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "jc82e",
+   "title": "GEO Is A Distraction: Here’s Where The Real Opportunity Is",
+   "url": "https://www.searchenginejournal.com/geo-is-a-distraction-heres-where-the-real-opportunity-is/593870",
+   "summary": "Universal Cart, UCP, WebMCP, intelligent eyewear: the agentic web is arriving. Marie Haynes maps the opportunities most businesses are ignoring. The post GEO Is A Distraction: Here’s Where The Real Opportunity Is appeared first on Search Engine Journal.",
+   "date": "2026-10-23T19:00:43.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "Search Engine Journal",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.searchenginejournal.com"
+  },
+  {
+   "id": "gzc2nr",
+   "title": "Chino Pacas, Clave Especial, Vic Blends Join Gina Rodriguez’s Boxing Drama ‘House of Guerrero’ (Exclusive)",
+   "url": "https://www.hollywoodreporter.com/movies/movie-news/house-of-guerrero-chino-pacas-clave-especial-vic-blends-1236739166",
+   "summary": "Emily Austin will also appear in the Justin Baldoni-produced feature that stars Carlos Sanson Jr., Rosario Dawson and George Lopez.",
+   "date": "2026-10-23T18:57:34.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "ti06a3",
+   "title": "‘Wicker’ Premieres, Taika Waititi Debuts ‘Klara and the Sun’ and This Week’s Best Events",
+   "url": "https://www.hollywoodreporter.com/gallery/wicker-klara-and-the-sun-red-carpet-events-1236735373",
+   "summary": "Inside this week's biggest Hollywood premieres, parties and openings.",
+   "date": "2026-10-23T18:52:08.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "1cpzv31",
+   "title": "Hindsight puts up to $1M behind its AI content moderation as Google shuts down Perspective API",
+   "url": "https://thenextweb.com/news/hindsight-ai-content-moderation-perspective-api-shutdown",
+   "summary": "Starting January 1, any moderation pipeline calling Perspective will fail. Google’s Jigsaw unit shuts the service down on December 31, ending one of the most widely used tools for scoring online comments for toxicity. For platforms, publishers, marketplaces, and communities built on it, the next few",
+   "date": "2026-10-23T18:49:15.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "TNW",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://thenextweb.com"
+  },
+  {
+   "id": "1qictfd",
+   "title": "Trump Admin Presses Bid To Vacate 2019 TikTok Settlement",
+   "url": "https://www.mediapost.com/publications/article/418961/trump-admin-presses-bid-to-vacate-2019-tiktok-sett.html",
+   "summary": "The Trump administration will appeal a district court judge's rejection of a proposed settlement with TikTok over charges that the app collected personal information from children younger than 13.",
+   "date": "2026-10-23T18:42:27.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
+   "id": "1l590u9",
+   "title": "Moonshot releases Kimi K3.1 Pro and says it cut its hacking skills",
+   "url": "https://thenextweb.com/news/moonshot-kimi-k3-1-pro-open-weight-cyber",
+   "summary": "Moonshot has released Kimi K3.1 Pro, an upgraded version of its open-weight Kimi K3, with full weights due by 4 November. It says the model nearly matches Claude Opus 5.5 on a coding test. Moonshot also says it removed hacking-related training data to limit misuse of the open release. Chinese AI lab",
+   "date": "2026-10-23T18:19:34.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "TNW",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://thenextweb.com"
+  },
+  {
+   "id": "kkjrzn",
+   "title": "Meta delays rollout of terms that would allow broad scraping of news sites. Legal experts are still skeptical.",
+   "url": "https://www.niemanlab.org/2026/10/meta-delays-rollout-of-terms-that-would-allow-broad-scraping-of-news-sites-legal-experts-are-still-skeptical",
+   "summary": "Meta has delayed the effective date of its new terms of service for business accounts to November 20 in the face of mounting pressure from the global news industry. Nieman Lab first reported on the terms on October 15. They would allow for the mass scraping of websites “associated with” business acc",
+   "date": "2026-10-23T18:03:31.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "NiemanLab",
+   "tier": "S",
+   "lang": "en",
+   "site": "https://www.niemanlab.org"
+  },
+  {
+   "id": "1itmkz2",
+   "title": "AI chipmaker Cambricon’s sales miss points to tight chip supply in China",
+   "url": "https://thenextweb.com/news/cambricon-q3-sales-miss-chip-supply",
+   "summary": "Cambricon’s revenue doubled to 3.53B yuan in the third quarter, well short of the 6.26B analysts expected, Bloomberg reported. Profit rose 148%, and the company kept its 2026 target. Chinese AI chipmakers face shortages of high-bandwidth memory and limited access to advanced manufacturing. Cambricon",
+   "date": "2026-10-23T17:42:31.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "TNW",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://thenextweb.com"
+  },
+  {
+   "id": "kus1h8",
+   "title": "Axel Springer to Restructure Telegraph as ‘Global, AI-Powered Media and Intelligence Business’",
+   "url": "https://www.amediaoperator.com/news/axel-springer-daily-telegraph-restructure-redundancies-b2b-intelligence",
+   "summary": "Axel Springer has begun a major restructure at its recently acquired British newspaper The Daily Telegraph, promising to turn it into a… The post Axel Springer to Restructure Telegraph as ‘Global, AI-Powered Media and Intelligence Business’ appeared first on A Media Operator.",
+   "date": "2026-10-23T17:33:15.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "A Media Operator",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.amediaoperator.com"
+  },
+  {
+   "id": "1tupl4r",
+   "title": "Court Sides With Google In AI-Powered Customer Service Privacy Battle",
+   "url": "https://www.mediapost.com/publications/article/418960/court-sides-with-google-in-ai-powered-customer-ser.html",
+   "summary": "A federal judge has dismissed a privacy complaint over its Google Cloud Contact Center AI - an AI service that answers some customer service calls for Home Depot and others.",
+   "date": "2026-10-23T17:32:41.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
+   "id": "ww67rh",
+   "title": "Wayve, Stellantis and Nvidia team up with France on self-driving cars",
+   "url": "https://thenextweb.com/news/wayve-stellantis-nvidia-france-self-driving",
+   "summary": "Wayve, Stellantis and Nvidia announced a collaboration with the French government to deploy self-driving vehicles in France and across the EU. Stellantis supplies L4-ready platforms, Wayve its AI Driver and Nvidia its Hyperion system. Uber is also involved, a French trade paper reported. No launch d",
+   "date": "2026-10-23T17:08:23.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "TNW",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://thenextweb.com"
+  },
+  {
+   "id": "1m3a9zc",
+   "title": "UK children just as likely to have suffered harm on social media despite crackdown",
+   "url": "https://www.theguardian.com/society/2026/oct/23/uk-children-just-as-likely-to-have-suffered-harm-on-social-media-despite-crackdown-ofcom-online-safety-act",
+   "summary": "<p>Campaigners call lack of progress ‘staggering’, as Ofcom also admits little change in severity of harm to children encountering unsafe content</p><p>Landmark online safety measures have failed to limit the proportion of children suffering harm from social media, the UK’s online regulator has admi",
+   "date": "2026-10-23T17:06:04.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "The Guardian",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.theguardian.com/uk/media"
+  },
+  {
+   "id": "1v5obg8",
+   "title": "Week of Oct. 12 Cable News Ratings: All Networks Had Gains",
+   "url": "https://www.adweek.com/tvnewser/week-of-oct-12-2026-cable-news-ratings",
+   "summary": "Fox News was the most-watched news network.",
+   "date": "2026-10-23T17:01:13.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "Adweek",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.adweek.com"
+  },
+  {
+   "id": "1hno5f3",
+   "title": "2026.43: A New Era",
+   "url": "https://stratechery.com/?access_token=eyJhbGciOiJFUzI1NiIsImtpZCI6IkxzanFRcEhoMUJUdmU0djJQUUVuejIiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8_cD0yMDQ3NyJdfSwiZXhwIjoxNzk1MzgzNjQzLCJpYXQiOjE3OTI3OTE2NDMsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiOTQwODQwZTItNWVmOS00YmU1LTgyNTAtMzc4MWYyNmVlNzlhIiwidXNlIjoiYWNjZXNzIn0.HN4gtshBS8dJZ4N1GaL25uIVuNrmEE4Dxb3J7OIEvDb8KkNTIynpYOjFpfcfxo1PDb8K4t1Mmp9AzkQweZj4_Q&p=20477",
+   "summary": "The best Stratechery content from the week of October 19, 2026, including the best iPad but worst phone, SS Sarandos in a storm, and You Can See Everything.",
+   "date": "2026-10-23T17:00:00.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "STRATECHERY",
+   "tier": "S",
+   "lang": "en",
+   "site": "https://stratechery.com"
+  },
+  {
+   "id": "ztwia2",
+   "title": "Using AI To Make Agents More Authentic - No, Not Those Agents",
+   "url": "https://www.mediapost.com/publications/article/418957/using-ai-to-make-agents-more-authentic-no-not-t.html",
+   "summary": "\"Ironically, AI also helped us be more authentic,\" Bennett Richardson, CMO of a real estate agents trade association, quipped at the ANA conference this week.",
+   "date": "2026-10-23T16:41:38.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
+   "id": "1urb7t2",
+   "title": "Ticker: Christiane Amanpour to Exit From CNN in 2027",
+   "url": "https://www.adweek.com/tvnewser/ticker-christiane-amanpour-to-exit-from-cnn-in-2027",
+   "summary": "CNN is also losing Bianna Golodryga, who is set to join Politico and CBS News.",
+   "date": "2026-10-23T16:31:27.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "Adweek",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.adweek.com"
+  },
+  {
+   "id": "1wqtcxi",
+   "title": "Meta delays its website-crawling terms after a publisher backlash",
+   "url": "https://thenextweb.com/news/meta-delays-crawling-terms-publishers",
+   "summary": "Meta has pushed the start of its new business terms to 20 November from 30 October, Reuters reported. Publishers say the terms let Meta crawl their websites for its products. The delay came a day after the News/Media Alliance demanded the terms be withdrawn. Meta has pushed back new business terms t",
+   "date": "2026-10-23T16:12:31.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "TNW",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://thenextweb.com"
+  },
+  {
+   "id": "k21row",
+   "title": "Meta’s New Terms Aren’t Just a Publisher Problem. Ask Taylor Swift.",
+   "url": "https://www.amediaoperator.com/news/metas-new-terms-arent-just-a-publisher-problem-ask-taylor-swift",
+   "summary": "Meta is giving publishers and other businesses three more weeks before controversial new terms governing how it can access their websites take… The post Meta’s New Terms Aren’t Just a Publisher Problem. Ask Taylor Swift. appeared first on A Media Operator.",
+   "date": "2026-10-23T16:11:58.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "A Media Operator",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.amediaoperator.com"
+  },
+  {
+   "id": "lot04l",
+   "title": "Omnicom’s $900M Cost Cutting Drive Continues in Q3 as Revenues Stay Flat",
+   "url": "https://www.adweek.com/agencies/omnicoms-900m-cost-cutting-drive-continues-in-q3-as-revenues-stay-flat",
+   "summary": "Holdco's revenues remain flat despite major client wins",
+   "date": "2026-10-23T16:08:58.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "Adweek",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.adweek.com"
+  },
+  {
+   "id": "tpf0mn",
+   "title": "“生软”之死",
+   "url": "https://www.huxiu.com/article/4900064.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/24/40299-prod-grokep-general-1-1792771492732.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>这次真不怪EA2026年10月21日，EA宣布关闭旗下游戏工作室BioWare，同时取消仍处于早期开发阶段的下一部《质量效应》。",
+   "date": "2026-10-23T16:07:13.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "setei5",
+   "title": "2026谷圈“IP啃老”：棋魂、守护甜心等快闪翻红",
+   "url": "https://www.huxiu.com/article/4900062.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/24/40298-prod-grokep-general-1-1792771326985.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>稍微有点年纪的二次元，今年最高频的感叹词可能是“今昔何夕”。“竟然在展位上看到了《幽游白书》和《圣斗士星矢》，今年是2026还是",
+   "date": "2026-10-23T16:03:31.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "1ejpfzx",
+   "title": "蘋果於官網埋藏初代iPod 25週年互動彩蛋：完美還原機械轉盤手感，內建千禧年代經典金曲試聽",
+   "url": "https://mashdigi.com/apple-has-hidden-an-interactive-easter-egg-on-its-website-to-commemorate-the-25th-anniversary-of-the-original-ipod-perfectly-recreating-the-feel-of-the-mechanical-turntable-and-featuring-built-in-pre",
+   "summary": "2001年10月23日時，已故蘋果創辦人Steve Jobs在舞台上從牛仔褲口袋裡掏出第一代iPod，並且標榜 […]",
+   "date": "2026-10-23T16:00:37.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "mashdigi",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://mashdigi.com"
+  },
+  {
+   "id": "t247ke",
+   "title": "开云重新学习中国市场：建“内容工厂”，向本地团队放权",
+   "url": "https://www.huxiu.com/article/4900063.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/23/40297-prod-db-general-1-1792771038689.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>10月22日，开云集团在第三季度业绩电话会上宣布，将在中国建立「内容工厂」（content factory），为中国市场策划传播内容，同",
+   "date": "2026-10-23T15:58:49.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "1sjx9ts",
+   "title": "Allegations against Thomas Markle Sr challenge media’s Meghan narrative",
+   "url": "https://www.theguardian.com/uk-news/2026/oct/23/thomas-markle-sr-allegations-challenge-media-meghan-narrative",
+   "summary": "<p>Duchess of Sussex’s decision to cut ties with elderly father cast in new light as he faces sexual abuse image claims</p><ul><li><p><a href=\"https://www.theguardian.com/uk-news/2026/oct/23/meghan-duchess-of-sussex-distressed-child-sexual-abuse-image-claims-against-father\">Meghan ‘deeply distressed",
+   "date": "2026-10-23T15:57:45.000Z",
+   "firstSeen": "2026-10-23T15:29:11.596Z",
+   "source": "The Guardian",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.theguardian.com/uk/media"
+  },
+  {
+   "id": "r47sdn",
+   "title": "极致低价的蜜雪，为何在巴西开店不及预期？",
+   "url": "https://www.huxiu.com/article/4900060.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/23/40296-prod-grokep-general-1-1792770936747.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>本文是芒见出海第187篇原创，巴西系列第77篇。本文正文长度4200字，完整阅读约需10分钟。去年9月，圣保罗城市购物中心（Sh",
+   "date": "2026-10-23T15:57:06.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "j6beul",
+   "title": "Week of Oct. 12 Evening News Ratings: NBC Nightly News Up in Both Measurements",
+   "url": "https://www.adweek.com/tvnewser/week-of-oct-12-2026-evening-news-ratings",
+   "summary": "It was a big week for NBC Nightly News with Tom Llamas, but World News Tonight is still tops in viewers.",
+   "date": "2026-10-23T15:49:11.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "Adweek",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.adweek.com"
+  },
+  {
+   "id": "13f73xm",
+   "title": "Oracle pledges $1B over four years to partners that sell its AI tools",
+   "url": "https://thenextweb.com/news/oracle-1b-partner-ecosystem-ai-world",
+   "summary": "Oracle announced a $1B, four-year commitment to its partner ecosystem at AI World in Las Vegas, covering training, test and demo environments, cloud migration funding and Marketplace sales. It also changed Marketplace rules. The pledge comes as Oracle cuts costs to fund its AI data centres. Oracle w",
+   "date": "2026-10-23T15:49:07.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "TNW",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://thenextweb.com"
+  },
+  {
+   "id": "bl0evn",
+   "title": "走访一线商场，我发现了三大消费趋势",
+   "url": "https://www.huxiu.com/article/4900059.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/23/40295-prod-db-general-1-1792770142067.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>走访武汉10余家商场后，“表外表里”发现了一个耐人寻味的现象。沿着武商MALL走一圈，LV、迪奥、卡地亚等数十家奢侈品贵气逼人，然而路的",
+   "date": "2026-10-23T15:44:10.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "ygnjum",
+   "title": "We are reclaiming real life after getting rid of Instagram | Letters",
+   "url": "https://www.theguardian.com/technology/2026/oct/23/we-are-reclaiming-real-life-after-getting-rid-of-instagram",
+   "summary": "<p>Readers on taking back their lives – and brains – from social media algorithms</p><p>I couldn’t agree more with Georgina McNamara (<a href=\"https://www.theguardian.com/lifeandstyle/2026/oct/19/the-one-change-that-worked-i-deleted-instagram-and-embraced-the-joys-of-a-truly-private-life\">The one ch",
+   "date": "2026-10-23T15:41:58.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "The Guardian",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.theguardian.com/uk/media"
+  },
+  {
+   "id": "6wiw9w",
+   "title": "Nscale sued in Norway over a data centre engineer’s dismissal",
+   "url": "https://thenextweb.com/news/nscale-sued-norway-engineer-subcontracting",
+   "summary": "An engineer at Nscale’s Stavanger data centre has sued the AI cloud firm and subcontractor CloudBrothers, Bloomberg reported. He claims Nscale directed his work like an employer and that he was fired after raising pay concerns. The case comes as Nscale prepares a contested IPO. An engineer at Nscale",
+   "date": "2026-10-23T15:36:32.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "TNW",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://thenextweb.com"
+  },
+  {
+   "id": "5rb5be",
+   "title": "极致低价的蜜雪，为何在巴西开店不及预期？",
+   "url": "https://www.huxiu.com/article/4900050.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/23/40291-prod-grokep-general-1-1792766267293.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>本文是芒见出海第187篇原创，巴西系列第77篇。本文正文长度4200字，完整阅读约需10分钟。去年9月，圣保罗城市购物中心（Sh",
+   "date": "2026-10-23T15:32:35.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "12b45o5",
+   "title": "How Amazon Made a Stronger Partnership Play in Thursday Night Football in Year 5",
+   "url": "https://www.adweek.com/convergent-tv/how-amazon-made-a-stronger-partnership-play-in-thursday-night-football-in-year-5",
+   "summary": "Prime Video's Thursday Night Football advertisers are up 6% year over year.",
+   "date": "2026-10-23T15:26:37.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "Adweek",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.adweek.com"
+  },
+  {
+   "id": "aaesr5",
+   "title": "赚钱为什么越来越难？这是我看过最深刻的一篇",
+   "url": "https://www.huxiu.com/article/4900057.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/23/40294-prod-nb2qn-general-1-1792768406605.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>去创造，去劳动，去发现自我——我们对工人这样说。期刊上的文字，请你们重新思考，用你们自己的眼睛去看……唯有亲自争取到的东西才有价值",
+   "date": "2026-10-23T15:14:50.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "i4xd11",
+   "title": "2 Marketing Blueprints From Competitors: 1 Can&#x27;t Work Without The Other",
+   "url": "https://www.mediapost.com/publications/article/418952/2-marketing-blueprints-from-competitors-1-cant-w.html",
+   "summary": "McKinsey approaches marketing as a capability engine that needs rewiring. PwC looks at the organizational plumbing rather than the marketing approach itself.",
+   "date": "2026-10-23T15:08:52.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
+   "id": "8cidke",
+   "title": "宇树60%的毛利率，扛得住第一场机器人价格战吗？",
+   "url": "https://www.huxiu.com/article/4900054.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/23/40293-prod-grokep-general-1-1792767624713.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>一、比同行高出16个百分点2025年，宇树科技营业收入16.99亿元，营业成本6.72亿元，毛利10.27亿元，综合毛利率60.",
+   "date": "2026-10-23T15:01:59.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
    "id": "1wacjrx",
    "title": "Telegraph cuts up to 100 jobs as new owner promises to turn paper into ‘AI-powered’ global business",
    "url": "https://www.theguardian.com/media/2026/oct/23/telegraph-job-cuts-axel-springer-owner-promises-turn-paper-ai-powered-global-business",
@@ -917,6 +1673,18 @@ window.NEWS_DATA = {
    "site": "https://www.hollywoodreporter.com"
   },
   {
+   "id": "9iu9b7",
+   "title": "Polymarket’s Reported CMO Firing is the Latest in a Long String of Controversies",
+   "url": "https://www.adweek.com/brand-marketing/polymarkets-reported-cmo-firing-is-the-latest-in-a-long-string-of-controversies",
+   "summary": "The prediction market is facing a string of regulatory investigations and lawsuits as it tries to build its brand",
+   "date": "2026-10-23T14:57:34.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "Adweek",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.adweek.com"
+  },
+  {
    "id": "4duh8q",
    "title": "Jared Kushner Threatens Legal Action Over Vanity Fair Story Alleging Secret Bank Accounts",
    "url": "https://www.thewrap.com/media-platforms/journalism/jared-kushner-vanity-fair-book-legal-threat",
@@ -927,6 +1695,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "en",
    "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "polofv",
+   "title": "Prince William makes surprise appearance on Graham Norton show",
+   "url": "https://www.theguardian.com/uk-news/2026/oct/23/prince-william-graham-norton-show",
+   "summary": "<p>Cate Blanchett and Hannah Waddingham join William on sofa for special edition to celebrate prince’s Earthshot prize</p><p>The Prince of Wales has braved the chatshow sofa, making a surprise appearance on The Graham Norton Show.</p><p>In the pre-recorded show, to be aired on Friday on BBC One, Wil",
+   "date": "2026-10-23T14:52:06.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "The Guardian",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.theguardian.com/uk/media"
   },
   {
    "id": "vkgh0c",
@@ -941,6 +1721,30 @@ window.NEWS_DATA = {
    "site": "https://www.thewrap.com"
   },
   {
+   "id": "6elydn",
+   "title": "投资人要套现，这对创始人为什么把安踏李宁搬出来？",
+   "url": "https://www.huxiu.com/article/4900051.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/23/40292-prod-grokep-general-1-1792766392019.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>安踏和李宁大概是全球体育商业传闻里出现频率最高的两个名字。Puma要卖，名单上有它们；Reebok传出出售消息时，名单上也有它们",
+   "date": "2026-10-23T14:41:24.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "1btfdu3",
+   "title": "Omnicom&#x27;s Credera, AWS Strengthen Ties, Strike Five-Year Partnership",
+   "url": "https://www.mediapost.com/publications/article/418949/omnicoms-credera-aws-strengthen-ties-strike-fiv.html",
+   "summary": "As noted on an Omnicom earnings call Thursday, the agreement formalizes a long-term collaboration with AWS aimed at helping enterprise customers.",
+   "date": "2026-10-23T14:37:19.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
    "id": "mdum7n",
    "title": "Bose buys Skullcandy, the cheaper headphone brand already using its sound",
    "url": "https://thenextweb.com/news/bose-buys-skullcandy-sound-by-bose-partner",
@@ -953,16 +1757,16 @@ window.NEWS_DATA = {
    "site": "https://thenextweb.com"
   },
   {
-   "id": "1sjx9ts",
-   "title": "Allegations against Thomas Markle Sr challenge media’s Meghan narrative",
-   "url": "https://www.theguardian.com/uk-news/2026/oct/23/thomas-markle-sr-allegations-challenge-media-meghan-narrative",
-   "summary": "<p>Duchess of Sussex’s decision to cut ties with elderly father cast in new light as he faces sexual abuse image claims</p><ul><li><p><a href=\"https://www.theguardian.com/uk-news/2026/oct/23/meghan-duchess-of-sussex-distressed-child-sexual-abuse-image-claims-against-father\">Meghan ‘deeply distressed",
-   "date": "2026-10-23T14:31:42.000Z",
-   "firstSeen": "2026-10-23T15:29:11.596Z",
-   "source": "The Guardian",
-   "tier": "C",
-   "lang": "en",
-   "site": "https://www.theguardian.com/uk/media"
+   "id": "1nbbelr",
+   "title": "战魔田默｜星巴克开始要求消费入座，第三空间的商业模式要重做了吗？",
+   "url": "https://www.huxiu.com/article/4900046.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/23/40290-prod-grokep-general-1-1792764664035.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>星巴克开始给一张椅子设置使用门槛，却准备再花3亿元改善门店体验。10月22日起，星巴克中国在全国门店施行消费入座。一天前，星巴克",
+   "date": "2026-10-23T14:30:38.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
   },
   {
    "id": "wgp1d8",
@@ -1001,6 +1805,18 @@ window.NEWS_DATA = {
    "site": "https://thenextweb.com"
   },
   {
+   "id": "13q9rmu",
+   "title": "WebMD Goes Agentic, Unveils &#x27;Ignite Ruby&#x27;",
+   "url": "https://www.mediapost.com/publications/article/418945/webmd-goes-agentic-unveils-ignite-ruby.html",
+   "summary": "The ecosystem combines AI agents, healthcare data and marketing expertise to move through ad creation, analysis, media planning, measurement, reporting, and return on investments. The system launched Thursday during Breast Cancer Awareness Month.",
+   "date": "2026-10-23T14:16:34.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
    "id": "syi48t",
    "title": "‘The Mosquito Bowl’ Review: Nicholas Galitzine and Bill Skarsgard in Peter Berg’s Technically Impressive, Emotionally Hollow Netflix War Drama",
    "url": "https://www.hollywoodreporter.com/movies/movie-reviews/the-mosquito-bowl-review-peter-berg-netflix-1236738732",
@@ -1011,6 +1827,18 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "1ewqz6r",
+   "title": "Smirnoff Kicks Off Football Season With Weekly Merch Drops",
+   "url": "https://www.mediapost.com/publications/article/418947/smirnoff-kicks-off-football-season-with-weekly-mer.html",
+   "summary": "In this week's drop of merch specially made for pre-game gatherings: a red vinyl cocktail-serving armchair.",
+   "date": "2026-10-23T14:02:37.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
   },
   {
    "id": "82al7n",
@@ -1047,6 +1875,18 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "v65j4w",
+   "title": "Daily Search Forum Recap: October 23, 2026",
+   "url": "https://www.seroundtable.com/recap-10-23-2026-42368.html",
+   "summary": "Here is a recap of what happened in the search forums today...",
+   "date": "2026-10-23T14:00:00.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "Search Engine Roundtable",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.seroundtable.com"
   },
   {
    "id": "1g4b38w",
@@ -1251,6 +2091,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-CN",
    "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "1e6s4hu",
+   "title": "Netflix Ad Subs Rise, Time Spent Does Not",
+   "url": "https://www.mediapost.com/publications/article/418943/netflix-ad-subs-rise-time-spent-does-not.html",
+   "summary": "Nearly half (47%) of Netflix subcribers now use \"Standard with Ads\" vs. a third who choose \"Standard\" and a fifth who use \"Premium,\" according to data released by measurement firm Digital i.",
+   "date": "2026-10-23T13:12:56.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
   },
   {
    "id": "ypwq89",
@@ -1613,6 +2465,18 @@ window.NEWS_DATA = {
    "site": "https://www.searchenginejournal.com"
   },
   {
+   "id": "1meml67",
+   "title": "&#x27;Simpsons&#x27; Annual Halloween Show Is &#x27;Treehouse&#x27; Of Hilarity",
+   "url": "https://www.mediapost.com/publications/article/418860/simpsons-annual-halloween-show-is-treehouse-of.html",
+   "summary": "A backyard shed that spits out husbands, the transformation of a boy into a dog, and a hellish DMV are the subjects of \"Treehouse of Horror XXXVII.\"",
+   "date": "2026-10-23T12:00:00.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
    "id": "191yyu",
    "title": "Puppy love: Finnish 24-hour newborn pup livestream is TV smash hit",
    "url": "https://www.theguardian.com/world/2026/oct/23/finnish-24-hour-puppy-dog-newborn-livestream-tv-smash-hit",
@@ -1914,9 +2778,9 @@ window.NEWS_DATA = {
   },
   {
    "id": "1mb4uc3",
-   "title": "Hacking attempts rise after flaws found in program affecting 70 percent of websites",
+   "title": "Hacking attempts rise after flaws found in program affecting 70% of websites",
    "url": "https://www.npr.org/2026/10/23/g-s1-149503/hacking-php-flaws",
-   "summary": "Governments around the world are rushing to implement safety measures after AI technology found 'severe' vulnerabilities in a key programming language called PHP.",
+   "summary": "Governments around the world are rushing to implement safety measures after AI technology found \"severe\" vulnerabilities in a key programming language called PHP.",
    "date": "2026-10-23T09:37:38.000Z",
    "firstSeen": "2026-10-23T15:29:11.596Z",
    "source": "NPR",
@@ -3317,6 +4181,18 @@ window.NEWS_DATA = {
    "site": "https://www.hollywoodreporter.com"
   },
   {
+   "id": "93p4jm",
+   "title": "Musk Pours $1 Billion Into Skydance",
+   "url": "https://www.mediapost.com/publications/article/418942/musk-pours-1-billion-into-skydance.html",
+   "summary": "<span>Elon Musk has made a $1 billion investment in Skydance, Semafor reports. Observers have speculated about a more expansive partnership between Skydance, the Ellisons and Musk&rsquo;s Starlink satellite network. They say the $1 billion may be just a beginning. Musk was one of several monied peop",
+   "date": "2026-10-23T02:49:04.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
    "id": "1o2swun",
    "title": "字節跳動、阿里、騰訊訂逾 350 億美元 NVIDIA RTX PRO 5500，Reuters 稱供貨恐僅滿足 5% 至 10%",
    "url": "https://www.inside.com.tw/article/42711-bytedance-alibaba-tencent-nvidia-rtx-pro-5500-35-billion-orders-reuters",
@@ -3365,6 +4241,18 @@ window.NEWS_DATA = {
    "site": "https://www.thewrap.com"
   },
   {
+   "id": "9d309i",
+   "title": "Comcast Headed For Layoffs, Restructuring",
+   "url": "https://www.mediapost.com/publications/article/418941/comcast-headed-for-layoffs-restructuring.html",
+   "summary": "<p>Comcast is bracing for major job cuts in its cable and telecom businesses as the company restructures prior to the planned spinoff of NBCUniversal next year,&nbsp;<i>Variety&nbsp;</i>reports. &ldquo;We expect to have a significant charge in the fourth quarter related mostly to our transformation ",
+   "date": "2026-10-23T02:08:33.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
    "id": "3m7d6p",
    "title": "‘Nobody Wants This’ Creator Shares ‘Complicated’ Feelings on Adam Brody’s Call for Free Palestine",
    "url": "https://www.thewrap.com/creative-content/tv-shows/nobody-wants-this-creator-erin-foster-adam-brodys-israel-criticism",
@@ -3387,6 +4275,30 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-TW",
    "site": "https://mashdigi.com"
+  },
+  {
+   "id": "mmpbnw",
+   "title": "Detroit Tourism Bureau No Longer Advertising In Canada",
+   "url": "https://www.mediapost.com/publications/article/418940/detroit-tourism-bureau-no-longer-advertising-in-ca.html",
+   "summary": "<p class=\"paragraph-b3gxd\"><span>Detroit&rsquo;s tourism bureau has stopped advertising in Canada, eliminating what had been an annual seven-figure spend, CBC.ca reports. The bureau acknowledged that relations between the U.S. and Canada have been strained by actions taken by the U.S. government. &l",
+   "date": "2026-10-23T01:57:14.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
+   "id": "58x8rv",
+   "title": "Group Demands Meta Drop New Content Terms",
+   "url": "https://www.mediapost.com/publications/article/418939/group-demands-meta-drop-new-content-terms.html",
+   "summary": "<p>The News/Media Alliance has demanded that Meta withdraw a clause in its revised Commercial Terms prior to their taking effect on Oct. 30. The new terms would allow Meta to send robots to publishers&rsquo; websites to scrape their content and would amount to their handing over their journalism for",
+   "date": "2026-10-23T01:53:30.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
   },
   {
    "id": "bt546x",
@@ -3821,6 +4733,18 @@ window.NEWS_DATA = {
    "site": "https://www.socialmediatoday.com"
   },
   {
+   "id": "1run756",
+   "title": "Omnicom Stock Rises On Q3 Results, Coke Media Win",
+   "url": "https://www.mediapost.com/publications/article/418934/omnicom-stock-rises-on-q3-results-coke-media-win.html",
+   "summary": "Omnicom's organic revenue rose 7.3% during the third quarter. WPP and Omnicom were the big winners in an agency review completed by The Coca-Cola Company.",
+   "date": "2026-10-22T22:35:08.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
    "id": "dowup7",
    "title": "This ‘Glee’ Star Is Waiting for Ryan Murphy’s Call for Reboot Return: ‘There’s No Guarantee’",
    "url": "https://www.thewrap.com/creative-content/tv-shows/glee-star-becca-tobin-reboot-return",
@@ -4181,12 +5105,36 @@ window.NEWS_DATA = {
    "site": "https://www.mediapost.com"
   },
   {
+   "id": "10932kf",
+   "title": "Meta Q3: Boosts AI Spend, Ad Biz, Users",
+   "url": "https://www.mediapost.com/publications/article/418930/meta-q3-boosts-ai-spend-ad-biz-users.html",
+   "summary": "Meta continues to add users across its family of social-media platforms while reporting increases in ad impressions, ad prices and ad revenue for Q3 2026.",
+   "date": "2026-10-22T19:50:01.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
    "id": "1f4imds",
    "title": "Ohio Parental Consent Law Unconstitutional, NetChoice Says In SCOTUS Filing",
    "url": "https://www.mediapost.com/publications/article/418929/ohio-parental-consent-law-unconstitutional-netcho.html",
    "summary": "An Ohio law that limits minors' ability to access social media \"restricts access to massive quantities of constitutionally protected speech,\" the tech industry group NetChoice said this week in a filing that previews its upcoming petition to the Supreme Court.",
    "date": "2026-10-22T19:49:56.000Z",
    "firstSeen": "2026-10-22T21:55:29.241Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
+   "id": "1s4fc2",
+   "title": "NetChoice To SCOTUS: Ohio Parental Consent Law Unconstitutional",
+   "url": "https://www.mediapost.com/publications/article/418929/netchoice-to-scotus-ohio-parental-consent-law-unc.html",
+   "summary": "An Ohio law that limits minors' ability to access social media \"restricts access to massive quantities of constitutionally protected speech,\" the tech industry group NetChoice said this week in a filing that previews its upcoming petition to the Supreme Court.",
+   "date": "2026-10-22T19:49:56.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
    "source": "MediaPost",
    "tier": "B",
    "lang": "en",
@@ -4211,6 +5159,18 @@ window.NEWS_DATA = {
    "summary": "Commerce media will approach a quarter of all digital ad spending by 2030. Here are five changes I believe will shape its growth.",
    "date": "2026-10-22T19:46:54.000Z",
    "firstSeen": "2026-10-22T21:55:29.241Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
+   "id": "1vsasb6",
+   "title": "History Will Well Remember Where We Stood On Ukraine",
+   "url": "https://www.mediapost.com/publications/article/418926/history-will-well-remember-where-we-stood-on-ukrai.html",
+   "summary": "We have lost our way. Chaos, corruption and cruelty are now becoming defining principles of U.S. foreign policy.",
+   "date": "2026-10-22T19:34:07.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
    "source": "MediaPost",
    "tier": "B",
    "lang": "en",
@@ -4371,6 +5331,18 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://thenextweb.com"
+  },
+  {
+   "id": "1x9et4f",
+   "title": "Android TVs Turn &#x27;Off&#x27; Hours Into Interactive AI Shopping Portals",
+   "url": "https://www.mediapost.com/publications/article/418921/android-tvs-turn-off-hours-into-interactive-ai-s.html",
+   "summary": "Advertisers have a reason to keep TVs in ambient mode. A partnership that brings AI-powered commerce to Android TVs will turn the screen into a continuous ad.",
+   "date": "2026-10-22T17:33:36.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
   },
   {
    "id": "e2cxl4",
@@ -4553,6 +5525,18 @@ window.NEWS_DATA = {
    "site": "https://thenextweb.com"
   },
   {
+   "id": "arxdcj",
+   "title": "Samy Wins US, LATAM Accounts For Grindr",
+   "url": "https://www.mediapost.com/publications/article/418919/samy-wins-us-latam-accounts-for-grindr.html",
+   "summary": "<div class=\"OutlineElement Ltr SCXW50996997 BCX0\"> <p class=\"Paragraph SCXW50996997 BCX0\" lang=\"EN-US\" paraid=\"1166102314\" paraeid=\"{bb707265-333d-4a17-9866-201f6f7765a3}{185}\">&nbsp;<img class='img-responsive' src=\"https://s3.amazonaws.com/media.mediapost.com/dam/cropped/2026/10/22/banner_samy_grin",
+   "date": "2026-10-22T16:04:54.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
    "id": "1wsjv7c",
    "title": "傳iPhone Duo二代原型機測試搭載螢幕下Face ID與動作按鈕，解析初代機為何僅使用Touch ID",
    "url": "https://mashdigi.com/reports-suggest-that-the-second-generation-iphone-duo-prototype-is-equipped-with-under-screen-face-id-and-a-motion-button-while-an-analysis-explains-why-the-original-model-only-used-touch-id",
@@ -4614,9 +5598,9 @@ window.NEWS_DATA = {
   },
   {
    "id": "1wme8bf",
-   "title": "Pichai Says AI Agents Will Click Through Pages And Use Protocols",
+   "title": "Google CEO Says Agents Will Hit Sites Two Ways, Pages And APIs",
    "url": "https://www.searchenginejournal.com/pichai-ai-agents-browsing-protocols/593986",
-   "summary": "Google's CEO expects AI agents to reach websites by browsing pages and through protocols, and says protocols scale better but will take longer to develop. The post Pichai Says AI Agents Will Click Through Pages And Use Protocols appeared first on Search Engine Journal.",
+   "summary": "Google's CEO expects AI agents to reach websites by browsing pages and through protocols, and says protocols scale better but will take longer to develop. The post Google CEO Says Agents Will Hit Sites Two Ways, Pages And APIs appeared first on Search Engine Journal.",
    "date": "2026-10-22T15:36:05.000Z",
    "firstSeen": "2026-10-22T15:39:38.095Z",
    "source": "Search Engine Journal",
@@ -21401,6 +22385,18 @@ window.NEWS_DATA = {
    "site": "https://stratechery.com"
   },
   {
+   "id": "za0455",
+   "title": "Home At Last",
+   "url": "https://stratechery.com/2026/home-at-last/?access_token=eyJhbGciOiJFUzI1NiIsImtpZCI6IkxzanFRcEhoMUJUdmU0djJQUUVuejIiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L2hvbWUtYXQtbGFzdC8iXX0sImV4cCI6MTc5NTM4MzY0MywiaWF0IjoxNzkyNzkxNjQzLCJpc3MiOiJodHRwczovL2FwcC5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyBwb2RjYXN0IHJzcyIsInN1YiI6Ijk0MDg0MGUyLTVlZjktNGJlNS04MjUwLTM3ODFmMjZlZTc5YSIsInVzZSI6ImFjY2VzcyJ9.VF8FOWm7kfAkcqO1OHsyMPjIF5fQvSjLEhaI-RCFdoKyARAS0AxFssYQzTjXJikJZh9MW03p-_JFa66u8z5hZA",
+   "summary": "The best Stratechery content from the week of October 12, 2026, including what Apple is doing, SpaceX's appetite, and the title, takes, and the Washington Wizards.",
+   "date": "2026-10-16T17:42:42.000Z",
+   "firstSeen": "2026-10-23T21:41:05.832Z",
+   "source": "STRATECHERY",
+   "tier": "S",
+   "lang": "en",
+   "site": "https://stratechery.com"
+  },
+  {
    "id": "1660ko9",
    "title": "Google Paid Search Becoming More Expensive",
    "url": "https://www.mediapost.com/publications/article/418796/google-paid-search-becoming-more-expensive.html",
@@ -24063,222 +25059,6 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://www.npr.org"
-  },
-  {
-   "id": "7fx7em",
-   "title": "Fired OpenAI employees question the company's commitment to safety",
-   "url": "https://www.npr.org/2026/10/09/nx-s1-5996890/openai-safety-firings",
-   "summary": "The three fired workers say OpenAI punished them for being outspoken about safety. The company disputes the claims and says they were fired over mishandling sensitive information.",
-   "date": "2026-10-09T21:28:09.000Z",
-   "firstSeen": "2026-10-19T03:37:33.468Z",
-   "source": "NPR",
-   "tier": "C",
-   "lang": "en",
-   "site": "https://www.npr.org"
-  },
-  {
-   "id": "1eod3mf",
-   "title": "Apple’s AdTech Crackdown Gives Trusted Server Its Moment",
-   "url": "https://adtechradar.com/2026/10/09/iab-tech-lab-trusted-server-safari-apple",
-   "summary": "As the adtech industry gathered in NYC for Advertising Week, Apple’s new Safari restrictions created an unexpected headache.… The post Apple’s AdTech Crackdown Gives Trusted Server Its Moment first appeared on AdTechRadar.",
-   "date": "2026-10-09T20:45:45.000Z",
-   "firstSeen": "2026-10-19T03:37:33.468Z",
-   "source": "AdTechRadar",
-   "tier": "B",
-   "lang": "en",
-   "site": "https://adtechradar.com"
-  },
-  {
-   "id": "1y1r12e",
-   "title": "USA Today Co. sues OpenAI for $250 million over use of articles from 19 publications",
-   "url": "https://mediacopilot.ai/usa-today-co-openai-lawsuit",
-   "summary": "USA Today Co. seeks $250 million, alleging OpenAI used hundreds of thousands of articles without permission or payment. The post USA Today Co. sues OpenAI for $250 million over use of articles from 19 publications appeared first on The Media Copilot.",
-   "date": "2026-10-09T18:42:43.000Z",
-   "firstSeen": "2026-10-19T03:37:33.468Z",
-   "source": "The Media Copilot",
-   "tier": "A",
-   "lang": "en",
-   "site": "https://www.mediacopilot.ai"
-  },
-  {
-   "id": "b3hkkx",
-   "title": "It’s Not You, It’s Me",
-   "url": "https://stratechery.com/?access_token=eyJhbGciOiJFUzI1NiIsImtpZCI6IkxzanFRcEhoMUJUdmU0djJQUUVuejIiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8_cD0yMDI2NyJdfSwiZXhwIjoxNzk0OTQ5MzM3LCJpYXQiOjE3OTIzNTczMzcsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiOTQwODQwZTItNWVmOS00YmU1LTgyNTAtMzc4MWYyNmVlNzlhIiwidXNlIjoiYWNjZXNzIn0.vx52-8VGDBC9oKjKHZzt7ukJfty1USbIdMA4r2mjCODZJnklK2ZjOfbpbp5ZL88UfiYMsj48CoAFgyjlfPNBvQ&p=20267",
-   "summary": "The best Stratechery content from the week of October 5, 2026, including drifting apart from Apple, Facebook complications, and the delightful absurdity of U.S.-China dynamics.",
-   "date": "2026-10-09T17:00:00.000Z",
-   "firstSeen": "2026-10-19T03:37:33.468Z",
-   "source": "STRATECHERY",
-   "tier": "S",
-   "lang": "en",
-   "site": "https://stratechery.com"
-  },
-  {
-   "id": "1545zs3",
-   "title": "It’s Not You, It’s Me",
-   "url": "https://stratechery.com/?access_token=eyJhbGciOiJFUzI1NiIsImtpZCI6IkxzanFRcEhoMUJUdmU0djJQUUVuejIiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8_cD0yMDI2NyJdfSwiZXhwIjoxNzk0OTk3MDUxLCJpYXQiOjE3OTI0MDUwNTEsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiOTQwODQwZTItNWVmOS00YmU1LTgyNTAtMzc4MWYyNmVlNzlhIiwidXNlIjoiYWNjZXNzIn0.98wbBmGxpcLWHgM9ogSXMguAKcOn-NgaM07RqojiP3LARfyzMa51PJS0wQoQCrZGY-oj1sAXASQIpxdB4TtQAQ&p=20267",
-   "summary": "The best Stratechery content from the week of October 5, 2026, including drifting apart from Apple, Facebook complications, and the delightful absurdity of U.S.-China dynamics.",
-   "date": "2026-10-09T17:00:00.000Z",
-   "firstSeen": "2026-10-19T10:17:37.689Z",
-   "source": "STRATECHERY",
-   "tier": "S",
-   "lang": "en",
-   "site": "https://stratechery.com"
-  },
-  {
-   "id": "1iz9lld",
-   "title": "It’s Not You, It’s Me",
-   "url": "https://stratechery.com/?access_token=eyJhbGciOiJFUzI1NiIsImtpZCI6IkxzanFRcEhoMUJUdmU0djJQUUVuejIiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8_cD0yMDI2NyJdfSwiZXhwIjoxNzk1MDIxNzg1LCJpYXQiOjE3OTI0Mjk3ODUsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiOTQwODQwZTItNWVmOS00YmU1LTgyNTAtMzc4MWYyNmVlNzlhIiwidXNlIjoiYWNjZXNzIn0.Rg7dJf4y3H9EvWlfLfWEAn7r9vaLoskBYKA_HD4pXgA_8mSrATizwmsnr244XbMmxdphEUikQtXlRhSA0-hZDg&p=20267",
-   "summary": "The best Stratechery content from the week of October 5, 2026, including drifting apart from Apple, Facebook complications, and the delightful absurdity of U.S.-China dynamics.",
-   "date": "2026-10-09T17:00:00.000Z",
-   "firstSeen": "2026-10-19T17:09:59.929Z",
-   "source": "STRATECHERY",
-   "tier": "S",
-   "lang": "en",
-   "site": "https://stratechery.com"
-  },
-  {
-   "id": "71ownf",
-   "title": "It’s Not You, It’s Me",
-   "url": "https://stratechery.com/?access_token=eyJhbGciOiJFUzI1NiIsImtpZCI6IkxzanFRcEhoMUJUdmU0djJQUUVuejIiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8_cD0yMDI2NyJdfSwiZXhwIjoxNzk1MDUwOTgxLCJpYXQiOjE3OTI0NTg5ODEsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiOTQwODQwZTItNWVmOS00YmU1LTgyNTAtMzc4MWYyNmVlNzlhIiwidXNlIjoiYWNjZXNzIn0.uJBHlWUlzqJsFxgNwo473SEceKrt6qCSr4WZPAguC1CuYmS58krqypDDgiJ8Ne7i7v3-pwCevv-4BILPL2NSqw&p=20267",
-   "summary": "The best Stratechery content from the week of October 5, 2026, including drifting apart from Apple, Facebook complications, and the delightful absurdity of U.S.-China dynamics.",
-   "date": "2026-10-09T17:00:00.000Z",
-   "firstSeen": "2026-10-20T01:16:26.660Z",
-   "source": "STRATECHERY",
-   "tier": "S",
-   "lang": "en",
-   "site": "https://stratechery.com"
-  },
-  {
-   "id": "5dvbin",
-   "title": "It’s Not You, It’s Me",
-   "url": "https://stratechery.com/?access_token=eyJhbGciOiJFUzI1NiIsImtpZCI6IkxzanFRcEhoMUJUdmU0djJQUUVuejIiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8_cD0yMDI2NyJdfSwiZXhwIjoxNzk1MDgxMDc1LCJpYXQiOjE3OTI0ODkwNzUsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiOTQwODQwZTItNWVmOS00YmU1LTgyNTAtMzc4MWYyNmVlNzlhIiwidXNlIjoiYWNjZXNzIn0.6YQBgry0qocRpKxDVfStDgqyB3rbA5R_COYFjTLvRUKaRnK5xs5yx-bvqkYuQBd4RaRXIC29BbZkvrDTU-oD-w&p=20267",
-   "summary": "The best Stratechery content from the week of October 5, 2026, including drifting apart from Apple, Facebook complications, and the delightful absurdity of U.S.-China dynamics.",
-   "date": "2026-10-09T17:00:00.000Z",
-   "firstSeen": "2026-10-20T09:38:00.381Z",
-   "source": "STRATECHERY",
-   "tier": "S",
-   "lang": "en",
-   "site": "https://stratechery.com"
-  },
-  {
-   "id": "1ttefot",
-   "title": "It’s Not You, It’s Me",
-   "url": "https://stratechery.com/?access_token=eyJhbGciOiJFUzI1NiIsImtpZCI6IkxzanFRcEhoMUJUdmU0djJQUUVuejIiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8_cD0yMDI2NyJdfSwiZXhwIjoxNzk1MTAxNzI1LCJpYXQiOjE3OTI1MDk3MjUsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiOTQwODQwZTItNWVmOS00YmU1LTgyNTAtMzc4MWYyNmVlNzlhIiwidXNlIjoiYWNjZXNzIn0.hqoaJjOInsswBxQlu09nMjJkIkJeA-lwvCVzNiaVqKbHAZDnJkW4cW3CnyLzeJ2utFBjzO0pYXpQf9P8XY71hA&p=20267",
-   "summary": "The best Stratechery content from the week of October 5, 2026, including drifting apart from Apple, Facebook complications, and the delightful absurdity of U.S.-China dynamics.",
-   "date": "2026-10-09T17:00:00.000Z",
-   "firstSeen": "2026-10-20T15:22:11.484Z",
-   "source": "STRATECHERY",
-   "tier": "S",
-   "lang": "en",
-   "site": "https://stratechery.com"
-  },
-  {
-   "id": "1s5j2md",
-   "title": "It’s Not You, It’s Me",
-   "url": "https://stratechery.com/?access_token=eyJhbGciOiJFUzI1NiIsImtpZCI6IkxzanFRcEhoMUJUdmU0djJQUUVuejIiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8_cD0yMDI2NyJdfSwiZXhwIjoxNzk1MTI1MTU5LCJpYXQiOjE3OTI1MzMxNTksImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiOTQwODQwZTItNWVmOS00YmU1LTgyNTAtMzc4MWYyNmVlNzlhIiwidXNlIjoiYWNjZXNzIn0.HyUwbCGoPbAauGZFTparRxd9jKWFGBJEXvlCsM9RcyG2hHPYFS97Hhe8KJ2K--shBSUOlRxaB3y8ntr9zIFD0g&p=20267",
-   "summary": "The best Stratechery content from the week of October 5, 2026, including drifting apart from Apple, Facebook complications, and the delightful absurdity of U.S.-China dynamics.",
-   "date": "2026-10-09T17:00:00.000Z",
-   "firstSeen": "2026-10-20T21:52:44.416Z",
-   "source": "STRATECHERY",
-   "tier": "S",
-   "lang": "en",
-   "site": "https://stratechery.com"
-  },
-  {
-   "id": "12ef1wv",
-   "title": "It’s Not You, It’s Me",
-   "url": "https://stratechery.com/?access_token=eyJhbGciOiJFUzI1NiIsImtpZCI6IkxzanFRcEhoMUJUdmU0djJQUUVuejIiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8_cD0yMDI2NyJdfSwiZXhwIjoxNzk1MTM2MjQ3LCJpYXQiOjE3OTI1NDQyNDcsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiOTQwODQwZTItNWVmOS00YmU1LTgyNTAtMzc4MWYyNmVlNzlhIiwidXNlIjoiYWNjZXNzIn0.A_smS-IJ3l8HE35Ej5h4UmdKmvKa1f01B9tR66qLKIKY4TP2-vAlpulvTkCaE6iIB2TrfeeTsPROfRoRM539mw&p=20267",
-   "summary": "The best Stratechery content from the week of October 5, 2026, including drifting apart from Apple, Facebook complications, and the delightful absurdity of U.S.-China dynamics.",
-   "date": "2026-10-09T17:00:00.000Z",
-   "firstSeen": "2026-10-21T00:57:32.846Z",
-   "source": "STRATECHERY",
-   "tier": "S",
-   "lang": "en",
-   "site": "https://stratechery.com"
-  },
-  {
-   "id": "11de0om",
-   "title": "It’s Not You, It’s Me",
-   "url": "https://stratechery.com/?access_token=eyJhbGciOiJFUzI1NiIsImtpZCI6IkxzanFRcEhoMUJUdmU0djJQUUVuejIiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8_cD0yMDI2NyJdfSwiZXhwIjoxNzk1MTg5MDIzLCJpYXQiOjE3OTI1OTcwMjMsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiOTQwODQwZTItNWVmOS00YmU1LTgyNTAtMzc4MWYyNmVlNzlhIiwidXNlIjoiYWNjZXNzIn0.-uLx7R5MV9CrToGOdnPgQdVSyHEAnc90km1k8UgcFw5ycx6qZhBXdfCwV2nMPjnYlelBTQEXhetdAPr1u7_bNQ&p=20267",
-   "summary": "The best Stratechery content from the week of October 5, 2026, including drifting apart from Apple, Facebook complications, and the delightful absurdity of U.S.-China dynamics.",
-   "date": "2026-10-09T17:00:00.000Z",
-   "firstSeen": "2026-10-21T15:37:08.571Z",
-   "source": "STRATECHERY",
-   "tier": "S",
-   "lang": "en",
-   "site": "https://stratechery.com"
-  },
-  {
-   "id": "1hcdrtu",
-   "title": "It’s Not You, It’s Me",
-   "url": "https://stratechery.com/?access_token=eyJhbGciOiJFUzI1NiIsImtpZCI6IkxzanFRcEhoMUJUdmU0djJQUUVuejIiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8_cD0yMDI2NyJdfSwiZXhwIjoxNzk1MjExOTE0LCJpYXQiOjE3OTI2MTk5MTQsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiOTQwODQwZTItNWVmOS00YmU1LTgyNTAtMzc4MWYyNmVlNzlhIiwidXNlIjoiYWNjZXNzIn0.XtCeVgmy9g0NZS1uVr8TTdi-gHNpHCQD4r5a4OE0d8T2LW_KO8RN0TmqQHkjxKMl8Dh6eRJx7abDcpytu-4eVg&p=20267",
-   "summary": "The best Stratechery content from the week of October 5, 2026, including drifting apart from Apple, Facebook complications, and the delightful absurdity of U.S.-China dynamics.",
-   "date": "2026-10-09T17:00:00.000Z",
-   "firstSeen": "2026-10-21T21:58:40.262Z",
-   "source": "STRATECHERY",
-   "tier": "S",
-   "lang": "en",
-   "site": "https://stratechery.com"
-  },
-  {
-   "id": "1j876vf",
-   "title": "It’s Not You, It’s Me",
-   "url": "https://stratechery.com/?access_token=eyJhbGciOiJFUzI1NiIsImtpZCI6IkxzanFRcEhoMUJUdmU0djJQUUVuejIiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8_cD0yMDI2NyJdfSwiZXhwIjoxNzk1MjIyNDQzLCJpYXQiOjE3OTI2MzA0NDMsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiOTQwODQwZTItNWVmOS00YmU1LTgyNTAtMzc4MWYyNmVlNzlhIiwidXNlIjoiYWNjZXNzIn0.ZHykTkkDpzVM6urT0LaPFyagcitTMw58ZIgZBdHoP4iemEClrkA1sA8uNPu8Da4wLxOa4DLh8OJ9MaeqVeIfXw&p=20267",
-   "summary": "The best Stratechery content from the week of October 5, 2026, including drifting apart from Apple, Facebook complications, and the delightful absurdity of U.S.-China dynamics.",
-   "date": "2026-10-09T17:00:00.000Z",
-   "firstSeen": "2026-10-22T00:54:08.015Z",
-   "source": "STRATECHERY",
-   "tier": "S",
-   "lang": "en",
-   "site": "https://stratechery.com"
-  },
-  {
-   "id": "17oyvtu",
-   "title": "It’s Not You, It’s Me",
-   "url": "https://stratechery.com/?access_token=eyJhbGciOiJFUzI1NiIsImtpZCI6IkxzanFRcEhoMUJUdmU0djJQUUVuejIiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8_cD0yMDI2NyJdfSwiZXhwIjoxNzk1MjUzODg0LCJpYXQiOjE3OTI2NjE4ODQsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiOTQwODQwZTItNWVmOS00YmU1LTgyNTAtMzc4MWYyNmVlNzlhIiwidXNlIjoiYWNjZXNzIn0.dyMVxme2rcDXGV9ubAmqGi3SrW0JVeVqGG7atETX4ZjixgUa-1wD0QXXWLCWq8FdATK3PZxMZH7yknrQST34Lw&p=20267",
-   "summary": "The best Stratechery content from the week of October 5, 2026, including drifting apart from Apple, Facebook complications, and the delightful absurdity of U.S.-China dynamics.",
-   "date": "2026-10-09T17:00:00.000Z",
-   "firstSeen": "2026-10-22T09:38:10.031Z",
-   "source": "STRATECHERY",
-   "tier": "S",
-   "lang": "en",
-   "site": "https://stratechery.com"
-  },
-  {
-   "id": "15920d0",
-   "title": "It’s Not You, It’s Me",
-   "url": "https://stratechery.com/?access_token=eyJhbGciOiJFUzI1NiIsImtpZCI6IkxzanFRcEhoMUJUdmU0djJQUUVuejIiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8_cD0yMDI2NyJdfSwiZXhwIjoxNzk1Mjc1NTczLCJpYXQiOjE3OTI2ODM1NzMsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiOTQwODQwZTItNWVmOS00YmU1LTgyNTAtMzc4MWYyNmVlNzlhIiwidXNlIjoiYWNjZXNzIn0.un8w65elui8Ic3KIfHaGKcOzxPwx6wxqP7xkOAlpV8RWD9-T_FjYCZiskktobRwf_UxP7cu-yEV1qC3CX-2irw&p=20267",
-   "summary": "The best Stratechery content from the week of October 5, 2026, including drifting apart from Apple, Facebook complications, and the delightful absurdity of U.S.-China dynamics.",
-   "date": "2026-10-09T17:00:00.000Z",
-   "firstSeen": "2026-10-22T15:39:38.095Z",
-   "source": "STRATECHERY",
-   "tier": "S",
-   "lang": "en",
-   "site": "https://stratechery.com"
-  },
-  {
-   "id": "1c44xzd",
-   "title": "It’s Not You, It’s Me",
-   "url": "https://stratechery.com/?access_token=eyJhbGciOiJFUzI1NiIsImtpZCI6IkxzanFRcEhoMUJUdmU0djJQUUVuejIiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8_cD0yMDI2NyJdfSwiZXhwIjoxNzk1Mjk4MTI0LCJpYXQiOjE3OTI3MDYxMjQsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiOTQwODQwZTItNWVmOS00YmU1LTgyNTAtMzc4MWYyNmVlNzlhIiwidXNlIjoiYWNjZXNzIn0.qJF2HFUnDw46EymJK7rMmzxJ_DhtPgin5uT3NTT7O4BnbK9Z4OaPjLqnGJ-sBAbxKYXTEKVUDxqhhghv-aE9dg&p=20267",
-   "summary": "The best Stratechery content from the week of October 5, 2026, including drifting apart from Apple, Facebook complications, and the delightful absurdity of U.S.-China dynamics.",
-   "date": "2026-10-09T17:00:00.000Z",
-   "firstSeen": "2026-10-22T21:55:29.241Z",
-   "source": "STRATECHERY",
-   "tier": "S",
-   "lang": "en",
-   "site": "https://stratechery.com"
-  },
-  {
-   "id": "11ntshq",
-   "title": "It’s Not You, It’s Me",
-   "url": "https://stratechery.com/?access_token=eyJhbGciOiJFUzI1NiIsImtpZCI6IkxzanFRcEhoMUJUdmU0djJQUUVuejIiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8_cD0yMDI2NyJdfSwiZXhwIjoxNzk1MzYxMzM0LCJpYXQiOjE3OTI3NjkzMzQsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiOTQwODQwZTItNWVmOS00YmU1LTgyNTAtMzc4MWYyNmVlNzlhIiwidXNlIjoiYWNjZXNzIn0.qHlRWclu8knHKKx9WFup28rvjBd499v4SBtdO6E52HMD-Z289rBXI89wJb-ozCKrVYCbGReJPYbvD0PmTntkSw&p=20267",
-   "summary": "The best Stratechery content from the week of October 5, 2026, including drifting apart from Apple, Facebook complications, and the delightful absurdity of U.S.-China dynamics.",
-   "date": "2026-10-09T17:00:00.000Z",
-   "firstSeen": "2026-10-23T15:29:11.596Z",
-   "source": "STRATECHERY",
-   "tier": "S",
-   "lang": "en",
-   "site": "https://stratechery.com"
   }
  ]
 };
