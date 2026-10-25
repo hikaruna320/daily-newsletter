@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-10-24T21:11:20.339Z",
+ "generatedAt": "2026-10-25T00:31:32.652Z",
  "keepDays": 14,
  "sources": [
   {
@@ -52,9 +52,9 @@ window.NEWS_DATA = {
    "tier": "A",
    "lang": "zh-TW",
    "feed": "https://rss.bnextmedia.com.tw/feed/bnext",
-   "ok": false,
-   "error": "解析不到文章",
-   "count": 0
+   "ok": true,
+   "error": null,
+   "count": 1
   },
   {
    "name": "虎嗅网",
@@ -151,9 +151,9 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-TW",
    "feed": "https://mashdigi.com/feed/",
-   "ok": false,
-   "error": "逾時",
-   "count": 0
+   "ok": true,
+   "error": null,
+   "count": 20
   },
   {
    "name": "鉅亨網",
@@ -881,6 +881,162 @@ window.NEWS_DATA = {
  ],
  "items": [
   {
+   "id": "5fpz87",
+   "title": "【科幻小說】藤井太洋《人類》：2045年，如果連你出生的目的都已被設計",
+   "url": "https://www.thenewslens.com/article/270570",
+   "summary": "本文探討AI事實認證的倫理風險。小說《人類》描寫系統能依個人身分執行演算法審查，阻擋資訊流通。此舉對資訊完整性構成挑戰，並質疑由誰定義「事實」。",
+   "date": "2026-10-24T23:59:00.000Z",
+   "firstSeen": "2026-10-25T00:31:32.652Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "5fpy9k",
+   "title": "道義責任與國家信譽：那些被遺忘的「少康專案」情報員們",
+   "url": "https://www.thenewslens.com/article/270427",
+   "summary": "「少康專案」情報人員犧牲奉獻，事後卻未獲妥善安置與補償。此舉不僅傷害當事人，更可能影響未來情蒐招募，損及國安。政府應正視此問題，徹查並完善相關人員的善後機制。",
+   "date": "2026-10-24T23:58:00.000Z",
+   "firstSeen": "2026-10-25T00:31:32.652Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "5fpz4j",
+   "title": "AI自主代理越界，誰有權說不？美國雙軌治理下，台灣不能退讓的「停機決定權」",
+   "url": "https://www.thenewslens.com/article/270530",
+   "summary": "AI自主代理的預期外行為凸顯治理挑戰。當AI能直接行動，需建立可追溯的監督機制，並由人類負責價值裁決與最終權責，以管控現實世界風險。",
+   "date": "2026-10-24T23:57:00.000Z",
+   "firstSeen": "2026-10-25T00:31:32.652Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "5fq04i",
+   "title": "10月25日的歷史巧合：台灣光復與古寧頭戰役，給我們留下了什麼？",
+   "url": "https://www.thenewslens.com/article/270698",
+   "summary": "本文省思「臺灣光復」的複雜意涵。光復喜悅伴隨威權悲劇，其真義在於後續人民奮鬥奠定之民主自由，使臺灣走出自己的路，不必在中華文化與普世價值間抉擇。",
+   "date": "2026-10-24T23:56:00.000Z",
+   "firstSeen": "2026-10-25T00:31:32.652Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "1mch9oh",
+   "title": "Inde Navarrette Teases Her Rogue Southern Accent for New ‘X-Men’ Film: “Sugar!”",
+   "url": "https://www.hollywoodreporter.com/movies/movie-news/inde-navarrette-rogue-southern-accent-x-men-film-1236739602",
+   "summary": "She'll star in the MCU reboot alongside Sadie Sink (Jean Grey), Kit Connor (Cyclops), Christopher Abbott (Prof. X), Samara Weaving (Emma Frost), Inde Navarrette (Rogue), Maya Boyd (Storm), Asa Germann (Angel) and Adam Driver (Mr. Sinister).",
+   "date": "2026-10-24T23:32:26.000Z",
+   "firstSeen": "2026-10-25T00:31:32.652Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "155wahn",
+   "title": "Emily Osment Asked for Intimacy Coordinator Over ‘Uncomfortable’ Age Gap With Co-Star on ‘Young Sheldon’",
+   "url": "https://www.thewrap.com/creative-content/tv-shows/emily-osment-intimacy-coordinator-young-sheldon-age-gap-montana-jordan",
+   "summary": "“He was a baby! A baby with a mullet,” the actress recalls The post Emily Osment Asked for Intimacy Coordinator Over ‘Uncomfortable’ Age Gap With Co-Star on ‘Young Sheldon’ appeared first on TheWrap.",
+   "date": "2026-10-24T23:19:15.000Z",
+   "firstSeen": "2026-10-25T00:31:32.652Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "rgpn91",
+   "title": "一张6元小卡，凭什么硬控00后？",
+   "url": "https://www.huxiu.com/article/4900169.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/article/content/2026/10/24/211613233253.jpg?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/jpg\" referrerpolicy=\"no-referrer\"></figure>出品｜虎嗅商业消费组作者｜刘纾含编辑｜苗正卿题图｜Hitcard这两年，国产剧的剧照开始做成卡牌“按包卖”了。以今秋最火古装剧《兰香如故》为例，剧集热播期间，腾讯视频联合 Hitcard 推出",
+   "date": "2026-10-24T23:00:01.000Z",
+   "firstSeen": "2026-10-25T00:31:32.652Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "17szpy6",
+   "title": "又有新颱風！煙花颱風最新動態、路徑預測，會來台灣嗎？",
+   "url": "https://www.bnext.com.tw/article/92785/typhoon-in-fa-2026-latest-path",
+   "summary": "颱風煙花生成，目前為輕度颱風，位於西北太平洋並緩慢向北北西移動。距台灣仍遠，未來路徑與是否接近台灣，本文持續追蹤氣象署最新資訊。",
+   "date": "2026-10-24T22:48:38.000Z",
+   "firstSeen": "2026-10-24T14:07:17.396Z",
+   "source": "數位時代",
+   "tier": "A",
+   "lang": "zh-TW",
+   "site": "https://www.bnext.com.tw"
+  },
+  {
+   "id": "tk38to",
+   "title": "10 Best Halloween Movies You Can Stream Right Now",
+   "url": "https://www.thewrap.com/creative-content/movies/best-halloween-movies-to-stream-right-now-2026",
+   "summary": "From \"Trick 'R Treat\" to \"Hocus Pocus\" The post 10 Best Halloween Movies You Can Stream Right Now appeared first on TheWrap.",
+   "date": "2026-10-24T22:30:00.000Z",
+   "firstSeen": "2026-10-25T00:31:32.652Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "3046g2",
+   "title": "Bradley Whitford Calls Out ‘West Wing’ Continuity Error That Flew Under the Radar",
+   "url": "https://www.thewrap.com/creative-content/tv-shows/bradley-whitford-calls-out-west-wing-continuity-error",
+   "summary": "“Nobody’s ever brought it up,” the actor says The post Bradley Whitford Calls Out ‘West Wing’ Continuity Error That Flew Under the Radar appeared first on TheWrap.",
+   "date": "2026-10-24T22:03:21.000Z",
+   "firstSeen": "2026-10-25T00:31:32.652Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "1hrt2ad",
+   "title": "【戴季全專欄】市長要考慮的不只是 AI 園區，城市需要的是迎接 AI 時代的治理能力",
+   "url": "https://techorange.com/2026/10/25/taipei-taiwan-ai-city",
+   "summary": "台北市長選舉最近討論松山機場遷建打造 AI 園區的政策，首先要肯定實質政策的討論。這是一個值得討論的重大城市發展構想，但這個議題可能要把「松山機場遷移」與「台北發展 AI」分開成兩件事來討論與處理。無論有沒有 AI，松山機場存廢和遷移仍然可以討論。但即使松山機場不遷移，台北也不能因此停止發展 AI。 蓋 AI 園區之前，先釐清城市要發展哪幾層 AI 我們要更進一步思考的是：AI 發展真正稀缺的可能不只是土地，而是 AI 人才與各種生產要素的有效組合。從竹科到南科，台灣過去的產業發展，確實透過科學園區集結了大量企業、資本、人才與供應鏈，創造了舉世矚目的成就。AI 產業涵蓋半導體、算力基礎設施、模",
+   "date": "2026-10-24T22:00:00.000Z",
+   "firstSeen": "2026-10-25T00:31:32.652Z",
+   "source": "TechOrange",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://buzzorange.com/techorange/"
+  },
+  {
+   "id": "lzbzc0",
+   "title": "Jeff Garlin Considered Suicide After Tumultuous ‘Goldbergs’ Exit",
+   "url": "https://www.hollywoodreporter.com/news/general-news/jeff-garlin-suicidal-goldbergs-exit-1236739584",
+   "summary": "The actor, who left the ABC comedy after an HR investigation stemming from multiple complaints about his behavior on set, says he reached out to his 'Curb Your Enthusiasm' onscreen wife Susie Essman to alert her to his plans.",
+   "date": "2026-10-24T21:11:45.000Z",
+   "firstSeen": "2026-10-25T00:31:32.652Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "1gq3hre",
+   "title": "KIMI之殇",
+   "url": "https://www.huxiu.com/article/4900212.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/25/40392-prod-nb2qn-general-1-1792875766551.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>10月24日凌晨，月之暗面发布了新一代模型Kimi K3.1 Pro。这是一个拥有3万亿级参数、支持100万Token上下文的大模",
+   "date": "2026-10-24T21:04:34.000Z",
+   "firstSeen": "2026-10-25T00:31:32.652Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
    "id": "1jawrzm",
    "title": "7 Best Horror Movies on Prime Video in October 2026",
    "url": "https://www.thewrap.com/creative-content/what-to-watch/best-horror-movies-prime-video-october-2026",
@@ -1121,6 +1277,18 @@ window.NEWS_DATA = {
    "site": "https://www.huxiu.com"
   },
   {
+   "id": "i64ccs",
+   "title": "「PlayStation之父」久夛良木健力挺Sony停產PS5實體光碟：直言維持光碟「不符經濟效益」",
+   "url": "https://mashdigi.com/ken-kutaragi-the-father-of-playstation-strongly-supports-sonys-decision-to-discontinue-physical-ps5-discs-stating-that-maintaining-discs-is-not-economically-viable",
+   "summary": "自從Sony在今年7月宣布將於2028年1月起全面停止生產PlayStation實體光碟遊戲以來，全球玩家與實 […]",
+   "date": "2026-10-24T16:00:49.000Z",
+   "firstSeen": "2026-10-25T00:31:32.652Z",
+   "source": "mashdigi",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://mashdigi.com"
+  },
+  {
    "id": "1ylales",
    "title": "‘You Can See Everything’ Eyes $20M Second Weekend as ‘Clayface’ Leads Box Office",
    "url": "https://www.hollywoodreporter.com/movies/movie-news/clayface-box-office-you-can-see-everything-wildwood-1236739530",
@@ -1287,18 +1455,6 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-CN",
    "site": "https://www.huxiu.com"
-  },
-  {
-   "id": "17szpy6",
-   "title": "又有新颱風！煙花颱風最新動態、路徑預測，會來台灣嗎？",
-   "url": "https://www.bnext.com.tw/article/92785/typhoon-in-fa-2026-latest-path",
-   "summary": "颱風煙花生成，目前為輕度颱風，位於西北太平洋並緩慢向北北西移動。距台灣仍遠，未來路徑與是否接近台灣，本文持續追蹤氣象署最新資訊。",
-   "date": "2026-10-24T12:34:29.000Z",
-   "firstSeen": "2026-10-24T14:07:17.396Z",
-   "source": "數位時代",
-   "tier": "A",
-   "lang": "zh-TW",
-   "site": "https://www.bnext.com.tw"
   },
   {
    "id": "1wvxb91",
@@ -3335,6 +3491,18 @@ window.NEWS_DATA = {
    "summary": "The best Stratechery content from the week of October 19, 2026, including the best iPad but worst phone, SS Sarandos in a storm, and You Can See Everything.",
    "date": "2026-10-23T17:00:00.000Z",
    "firstSeen": "2026-10-24T09:07:20.680Z",
+   "source": "STRATECHERY",
+   "tier": "S",
+   "lang": "en",
+   "site": "https://stratechery.com"
+  },
+  {
+   "id": "paln3n",
+   "title": "2026.43: A New Era",
+   "url": "https://stratechery.com/?access_token=eyJhbGciOiJFUzI1NiIsImtpZCI6IkxzanFRcEhoMUJUdmU0djJQUUVuejIiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8_cD0yMDQ3NyJdfSwiZXhwIjoxNzk1NDgwMjg3LCJpYXQiOjE3OTI4ODgyODcsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiOTQwODQwZTItNWVmOS00YmU1LTgyNTAtMzc4MWYyNmVlNzlhIiwidXNlIjoiYWNjZXNzIn0.Xz-bnZ-8fEmCGY3nv5Hs3A8hMPRHZZaQt8LWU79Jjcxg3mZ-t-94mtUrCx-8xZ0Smw9EIKZV4H9abYn92z5gJA&p=20477",
+   "summary": "The best Stratechery content from the week of October 19, 2026, including the best iPad but worst phone, SS Sarandos in a storm, and You Can See Everything.",
+   "date": "2026-10-23T17:00:00.000Z",
+   "firstSeen": "2026-10-25T00:31:32.652Z",
    "source": "STRATECHERY",
    "tier": "S",
    "lang": "en",
@@ -24365,6 +24533,18 @@ window.NEWS_DATA = {
    "site": "https://stratechery.com"
   },
   {
+   "id": "1deppae",
+   "title": "Home At Last",
+   "url": "https://stratechery.com/2026/home-at-last/?access_token=eyJhbGciOiJFUzI1NiIsImtpZCI6IkxzanFRcEhoMUJUdmU0djJQUUVuejIiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L2hvbWUtYXQtbGFzdC8iXX0sImV4cCI6MTc5NTQ4MDI4NywiaWF0IjoxNzkyODg4Mjg3LCJpc3MiOiJodHRwczovL2FwcC5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyBwb2RjYXN0IHJzcyIsInN1YiI6Ijk0MDg0MGUyLTVlZjktNGJlNS04MjUwLTM3ODFmMjZlZTc5YSIsInVzZSI6ImFjY2VzcyJ9.TNYZHqkaPzOXbkp6JaVMWGCbwXXSKOI4VrnKAX_38j7-e05Zmj6miJqCYI5xD4e1KqE4x5a0ibGNVR9DqpxBRg",
+   "summary": "The best Stratechery content from the week of October 12, 2026, including what Apple is doing, SpaceX's appetite, and the title, takes, and the Washington Wizards.",
+   "date": "2026-10-16T17:42:42.000Z",
+   "firstSeen": "2026-10-25T00:31:32.652Z",
+   "source": "STRATECHERY",
+   "tier": "S",
+   "lang": "en",
+   "site": "https://stratechery.com"
+  },
+  {
    "id": "1660ko9",
    "title": "Google Paid Search Becoming More Expensive",
    "url": "https://www.mediapost.com/publications/article/418796/google-paid-search-becoming-more-expensive.html",
@@ -26979,30 +27159,6 @@ window.NEWS_DATA = {
    "tier": "A",
    "lang": "en",
    "site": "https://www.semafor.com/vertical/media"
-  },
-  {
-   "id": "1un6hsh",
-   "title": "For reporters covering AI, keeping up with story is both tough and exciting",
-   "url": "https://www.npr.org/2026/10/10/nx-s1-5994366/for-reporters-covering-ai-keeping-up-with-story-is-both-tough-and-exciting",
-   "summary": "How NPR's team covering AI covers their increasingly important and fast moving beat.",
-   "date": "2026-10-10T21:47:03.000Z",
-   "firstSeen": "2026-10-19T03:37:33.468Z",
-   "source": "NPR",
-   "tier": "C",
-   "lang": "en",
-   "site": "https://www.npr.org"
-  },
-  {
-   "id": "xl59vx",
-   "title": "What are they saying about AI at San Francisco Tech Week?",
-   "url": "https://www.npr.org/2026/10/10/nx-s1-5995420/what-are-they-saying-about-ai-at-san-francisco-tech-week",
-   "summary": "Tech workers gathered in San Francisco this week to talk about the opportunities they see for their industry, their mixed feelings about AI, and the high cost of living in the Bay Area.",
-   "date": "2026-10-10T21:27:04.000Z",
-   "firstSeen": "2026-10-19T03:37:33.468Z",
-   "source": "NPR",
-   "tier": "C",
-   "lang": "en",
-   "site": "https://www.npr.org"
   }
  ]
 };
