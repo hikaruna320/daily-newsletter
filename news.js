@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-10-25T21:14:29.757Z",
+ "generatedAt": "2026-10-26T00:43:17.730Z",
  "keepDays": 14,
  "sources": [
   {
@@ -52,9 +52,9 @@ window.NEWS_DATA = {
    "tier": "A",
    "lang": "zh-TW",
    "feed": "https://rss.bnextmedia.com.tw/feed/bnext",
-   "ok": false,
-   "error": "解析不到文章",
-   "count": 0
+   "ok": true,
+   "error": null,
+   "count": 3
   },
   {
    "name": "虎嗅网",
@@ -81,7 +81,7 @@ window.NEWS_DATA = {
    "feed": "https://www.semafor.com/rss.xml",
    "ok": true,
    "error": null,
-   "count": 2
+   "count": 3
   },
   {
    "name": "Poynter",
@@ -268,9 +268,9 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "zh-CN",
    "feed": "https://decemberpei.cyou/rssbox/pingwest.xml",
-   "ok": false,
-   "error": "解析不到文章",
-   "count": 0
+   "ok": true,
+   "error": null,
+   "count": 29
   },
   {
    "name": "TNW",
@@ -881,6 +881,150 @@ window.NEWS_DATA = {
  ],
  "items": [
   {
+   "id": "brs04o",
+   "title": "雖然傳出「內螢幕開合幾次就裂開」災情，iPhone Duo卻是iFixit拆解過最容易維修的摺疊手機",
+   "url": "https://mashdigi.com/despite-reports-of-the-internal-screen-cracking-after-being-opened-and-closed-a-few-times-the-iphone-duo-is-the-easiest-foldable-phone-ifixit-has-ever-disassembled-and-repaired",
+   "summary": "早在歐美媒體評測內容公布前，中國社群平台便已率先流出多支iPhone Duo的暴力拆解影片，展示其極致緊湊的單 […]",
+   "date": "2026-10-26T00:00:12.000Z",
+   "firstSeen": "2026-10-26T00:43:17.730Z",
+   "source": "mashdigi",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://mashdigi.com"
+  },
+  {
+   "id": "5fq04h",
+   "title": "中國強納社保爭議：從遠洋捕撈到境外追稅，中共「竭澤而漁」的生存算盤",
+   "url": "https://www.thenewslens.com/article/270697",
+   "summary": "為應對財政危機，中國藉修訂國防動員法、強化社保稅收等措施，擴張國家汲取與控制能力。其核心目標不僅是彌補財政缺口，更是為了鞏固政權，並為長期戰略競逐儲備資源。",
+   "date": "2026-10-25T23:59:00.000Z",
+   "firstSeen": "2026-10-26T00:43:17.730Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "5fq01s",
+   "title": "同樣面臨少子化與缺工，為何台灣想留住外國人，日本反而提高定居門檻？",
+   "url": "https://www.thenewslens.com/article/270669",
+   "summary": "為應對人口危機，台灣與日本移民政策分歧。台灣漸趨開放，鼓勵外國人才定居；日本雖引進大量勞工，卻提高永久居留門檻，將其視為臨時人力。此差異將影響兩國未來競爭力。",
+   "date": "2026-10-25T23:58:00.000Z",
+   "firstSeen": "2026-10-26T00:43:17.730Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "5fq04g",
+   "title": "不結盟的大國影響力：從沙伊復交與上合組織，看中國的「非同盟外交」",
+   "url": "https://www.thenewslens.com/article/270696",
+   "summary": "本文分析北京的新影響力模式：透過建立允許多方保留分歧的合作框架，提供資源與協商，成為關鍵角色，而非強求結盟的盟主。",
+   "date": "2026-10-25T23:57:00.000Z",
+   "firstSeen": "2026-10-26T00:43:17.730Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "17szpy6",
+   "title": "又有新颱風！煙花颱風最新動態、路徑預測，會來台灣嗎？",
+   "url": "https://www.bnext.com.tw/article/92785/typhoon-in-fa-2026-latest-path",
+   "summary": "颱風煙花生成，目前為輕度颱風，位於西北太平洋並緩慢向北北西移動。距台灣仍遠，未來路徑與是否接近台灣，本文持續追蹤氣象署最新資訊。",
+   "date": "2026-10-25T23:56:16.000Z",
+   "firstSeen": "2026-10-24T14:07:17.396Z",
+   "source": "數位時代",
+   "tier": "A",
+   "lang": "zh-TW",
+   "site": "https://www.bnext.com.tw"
+  },
+  {
+   "id": "5fpye5",
+   "title": "生成式AI後的隱形戰場：AI4S時代，為何我們需要STEM×MBA人才？",
+   "url": "https://www.thenewslens.com/article/270477",
+   "summary": "為因應 AI for Science (AI4S) 發展，建議高等教育須整合 STEM 內部學科並融合 MBA，以彌補自主科學發現系統（ASDS）所需之跨域人才缺口，建立國家技術自主基礎。",
+   "date": "2026-10-25T23:56:00.000Z",
+   "firstSeen": "2026-10-26T00:43:17.730Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "pc3pjo",
+   "title": "Fox News Hosts Sean Hannity and Ainsley Earhardt Are Married",
+   "url": "https://www.hollywoodreporter.com/lifestyle/lifestyle-news/sean-hannity-ainsley-earhardt-married-fox-news-hosts-1236739744",
+   "summary": "The couple wed Saturday with a slew of Fox News personalities and government officials in attendance; President Trump was at a pre-wedding ceremony at Mar-a-Lago the night before but did not attend the nuptials.",
+   "date": "2026-10-25T23:35:49.000Z",
+   "firstSeen": "2026-10-26T00:43:17.730Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "1v0li4o",
+   "title": "Roy Wood Jr. Says He Understands Why JD Vance’s Mom ‘Sold Him for Percocets’ After VP’s Amy Acton Diss",
+   "url": "https://www.thewrap.com/creative-content/tv-shows/roy-wood-jr-jd-vance-mom-joke",
+   "summary": "The vice president stood by Vivek Ramaswamy's controversial attack add against the Ohio Democrat this week The post Roy Wood Jr. Says He Understands Why JD Vance’s Mom ‘Sold Him for Percocets’ After VP’s Amy Acton Diss appeared first on TheWrap.",
+   "date": "2026-10-25T22:23:46.000Z",
+   "firstSeen": "2026-10-26T00:43:17.730Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "mte5lf",
+   "title": "家族企业声誉风险与治理：从洁丽雅舆情事件看国货家族企业的治理升级",
+   "url": "https://www.huxiu.com/article/4900338.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/26/40464-prod-nb2qn-general-1-1792966064918.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>家族企业声誉风险的根源，不是单一传播失误，而是家族逻辑、企业逻辑与媒介逻辑之间发生错位后，家族治理结构被外部社会重新解释的结果。家",
+   "date": "2026-10-25T22:09:25.000Z",
+   "firstSeen": "2026-10-26T00:43:17.730Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "1t77cdz",
+   "title": "A Peek Into ‘SNL UK’: Strict Security, Giddy Cynthia Erivo and Sometimes More a Party Than a TV Set",
+   "url": "https://www.hollywoodreporter.com/tv/tv-features/snl-uk-cynthia-erivo-season-2-nigerian-wicked-tv-review-1236739710",
+   "summary": "With Amelia Dimoldenberg and Ike Barinholtz among the audience members at Saturday's lively — and impressively huge — season two finale, we wonder: Has the British spin-off finally found its groove?",
+   "date": "2026-10-25T21:56:25.000Z",
+   "firstSeen": "2026-10-26T00:43:17.730Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "nb87ei",
+   "title": "Peggy King, Singer and ‘George Gobel Show’ Star of Television’s Golden Age, Dies at 96",
+   "url": "https://www.hollywoodreporter.com/tv/tv-news/peggy-king-dead-singer-george-gobel-show-actress-1236739719",
+   "summary": "She also recorded several albums for Columbia Records and appeared in Vincente Minnelli’s 'The Bad and the Beautiful.'",
+   "date": "2026-10-25T21:52:13.000Z",
+   "firstSeen": "2026-10-26T00:43:17.730Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "10tskcp",
+   "title": "Rest of World faces prospect of shutting down",
+   "url": "https://www.semafor.com/article/10/25/2026/rest-of-world-faces-prospect-of-shutting-down",
+   "summary": "The six-year-old digital publication has seen the social and web search traffic on which it depends evaporate.",
+   "date": "2026-10-25T21:32:11.000Z",
+   "firstSeen": "2026-10-26T00:43:17.730Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
    "id": "ivv0rd",
    "title": "The 9 Best Vampire Movies and TV Shows on Netflix Right Now",
    "url": "https://www.thewrap.com/creative-content/what-to-watch/vampire-movies-shows-streaming-on-netflix-now",
@@ -894,9 +1038,9 @@ window.NEWS_DATA = {
   },
   {
    "id": "1g5pglj",
-   "title": "3 Best Movies to Watch on Netflix This Week",
+   "title": "The 3 Best Movies to Watch on Netflix This Week",
    "url": "https://www.thewrap.com/culture-lifestyle/culture/3-best-movies-to-watch-on-netflix-this-week-oct-25-31",
-   "summary": "The pre-Halloween week brings a camp slasher, an underrated haunted movie and an essential 2010s psychological thriller The post 3 Best Movies to Watch on Netflix This Week appeared first on TheWrap.",
+   "summary": "The pre-Halloween week brings a camp slasher, an underrated haunted movie and an essential 2010s psychological thriller The post The 3 Best Movies to Watch on Netflix This Week appeared first on TheWrap.",
    "date": "2026-10-25T20:30:00.000Z",
    "firstSeen": "2026-10-25T21:14:29.757Z",
    "source": "TheWrap",
@@ -1359,18 +1503,6 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-CN",
    "site": "https://www.huxiu.com"
-  },
-  {
-   "id": "17szpy6",
-   "title": "又有新颱風！煙花颱風最新動態、路徑預測，會來台灣嗎？",
-   "url": "https://www.bnext.com.tw/article/92785/typhoon-in-fa-2026-latest-path",
-   "summary": "颱風煙花生成，目前為輕度颱風，位於西北太平洋並緩慢向北北西移動。距台灣仍遠，未來路徑與是否接近台灣，本文持續追蹤氣象署最新資訊。",
-   "date": "2026-10-25T12:33:13.000Z",
-   "firstSeen": "2026-10-24T14:07:17.396Z",
-   "source": "數位時代",
-   "tier": "A",
-   "lang": "zh-TW",
-   "site": "https://www.bnext.com.tw"
   },
   {
    "id": "r6l24s",
@@ -4859,6 +4991,18 @@ window.NEWS_DATA = {
    "summary": "The best Stratechery content from the week of October 19, 2026, including the best iPad but worst phone, SS Sarandos in a storm, and You Can See Everything.",
    "date": "2026-10-23T17:00:00.000Z",
    "firstSeen": "2026-10-25T09:24:44.906Z",
+   "source": "STRATECHERY",
+   "tier": "S",
+   "lang": "en",
+   "site": "https://stratechery.com"
+  },
+  {
+   "id": "14lq7d5",
+   "title": "2026.43: A New Era",
+   "url": "https://stratechery.com/?access_token=eyJhbGciOiJFUzI1NiIsImtpZCI6IkxzanFRcEhoMUJUdmU0djJQUUVuejIiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8_cD0yMDQ3NyJdfSwiZXhwIjoxNzk1NTY3MzkyLCJpYXQiOjE3OTI5NzUzOTIsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiOTQwODQwZTItNWVmOS00YmU1LTgyNTAtMzc4MWYyNmVlNzlhIiwidXNlIjoiYWNjZXNzIn0.J0ZbderM3OC-dx5q-T_VAGrkh2iheUrvXEFrkCynFZxjPFerfQh02bSVIwBpvmK9YV-xs4kVC773I69GneCArQ&p=20477",
+   "summary": "The best Stratechery content from the week of October 19, 2026, including the best iPad but worst phone, SS Sarandos in a storm, and You Can See Everything.",
+   "date": "2026-10-23T17:00:00.000Z",
+   "firstSeen": "2026-10-26T00:43:17.730Z",
    "source": "STRATECHERY",
    "tier": "S",
    "lang": "en",
@@ -14739,6 +14883,30 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://thenextweb.com"
+  },
+  {
+   "id": "13cm6fk",
+   "title": "中國過半AI算力都拿去拍爽劇？紅果短劇爆紅，豆包：字節影片生成僅占約一成",
+   "url": "https://www.bnext.com.tw/article/92741/hongguo-short-drama-doubao-ai-compute-share",
+   "summary": "紅果短劇日活躍使用者衝上1.7億，傳中國逾半AI Token耗在短劇生成；豆包公關駁斥數據不可靠，稱字節跳動影片生成算力僅約一成。",
+   "date": "2026-10-21T09:07:09.000Z",
+   "firstSeen": "2026-10-26T00:43:17.730Z",
+   "source": "數位時代",
+   "tier": "A",
+   "lang": "zh-TW",
+   "site": "https://www.bnext.com.tw"
+  },
+  {
+   "id": "2cx441",
+   "title": "美國小孩每人一股SpaceX！馬斯克喊2027年送股票，川普：謝謝你傳奇朋友",
+   "url": "https://www.bnext.com.tw/article/92740/musk-spacex-stock-airdrop-us-children-trump",
+   "summary": "馬斯克10月19日宣布2027年將送美國每位兒童一股SpaceX股票，川普隨即致謝並稱股票將進入川普帳戶，但發放細節與馬斯克過往慈善紀錄仍受質疑。",
+   "date": "2026-10-21T09:02:31.000Z",
+   "firstSeen": "2026-10-26T00:43:17.730Z",
+   "source": "數位時代",
+   "tier": "A",
+   "lang": "zh-TW",
+   "site": "https://www.bnext.com.tw"
   },
   {
    "id": "soba4o",
@@ -25913,6 +26081,18 @@ window.NEWS_DATA = {
    "site": "https://stratechery.com"
   },
   {
+   "id": "kptcv2",
+   "title": "Home At Last",
+   "url": "https://stratechery.com/2026/home-at-last/?access_token=eyJhbGciOiJFUzI1NiIsImtpZCI6IkxzanFRcEhoMUJUdmU0djJQUUVuejIiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L2hvbWUtYXQtbGFzdC8iXX0sImV4cCI6MTc5NTU2NzM5MiwiaWF0IjoxNzkyOTc1MzkyLCJpc3MiOiJodHRwczovL2FwcC5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyBwb2RjYXN0IHJzcyIsInN1YiI6Ijk0MDg0MGUyLTVlZjktNGJlNS04MjUwLTM3ODFmMjZlZTc5YSIsInVzZSI6ImFjY2VzcyJ9.1d2iL0XjsXi2Wl0R5ubiD39WzJ-vRyrwIX671pLerS7eebO00rImAD3mrRI_6KiCy2pOW-za3tS7sTMw9uMwMw",
+   "summary": "The best Stratechery content from the week of October 12, 2026, including what Apple is doing, SpaceX's appetite, and the title, takes, and the Washington Wizards.",
+   "date": "2026-10-16T17:42:42.000Z",
+   "firstSeen": "2026-10-26T00:43:17.730Z",
+   "source": "STRATECHERY",
+   "tier": "S",
+   "lang": "en",
+   "site": "https://stratechery.com"
+  },
+  {
    "id": "1660ko9",
    "title": "Google Paid Search Becoming More Expensive",
    "url": "https://www.mediapost.com/publications/article/418796/google-paid-search-becoming-more-expensive.html",
@@ -28491,42 +28671,6 @@ window.NEWS_DATA = {
    "tier": "A",
    "lang": "zh-TW",
    "site": "https://www.feja.org.tw"
-  },
-  {
-   "id": "fuzmg6",
-   "title": "Fox stays positive on data centers even as public backlash grows",
-   "url": "https://www.semafor.com/article/10/11/2026/fox-stays-positive-on-data-centers-even-as-public-backlash-grows",
-   "summary": "More than half of the references to data centers on Fox News over the last two years would have left viewers with a favorable impression, according to a Semafor analysis.",
-   "date": "2026-10-12T00:42:51.000Z",
-   "firstSeen": "2026-10-19T03:37:33.468Z",
-   "source": "Semafor",
-   "tier": "A",
-   "lang": "en",
-   "site": "https://www.semafor.com/vertical/media"
-  },
-  {
-   "id": "1o14wig",
-   "title": "Hack reveals Netanyahu campaign's media ties",
-   "url": "https://www.semafor.com/article/10/11/2026/hack-reveals-netanyahu-campaigns-media-ties",
-   "summary": "The latest breach comes from the Whatsapp account of Netanyahu aide Jonatan Urich.",
-   "date": "2026-10-12T00:42:30.000Z",
-   "firstSeen": "2026-10-19T03:37:33.468Z",
-   "source": "Semafor",
-   "tier": "A",
-   "lang": "en",
-   "site": "https://www.semafor.com/vertical/media"
-  },
-  {
-   "id": "29khov",
-   "title": "ABC News offers contradictory explanation for vanishing Anduril story",
-   "url": "https://www.semafor.com/article/10/11/2026/abc-news-offers-contradictory-explanation-for-vanishing-anduril-story",
-   "summary": "Emails between ABC News and its subjects, provided to Semafor, show the network seeking to downplay its errors by misrepresenting its own processes.",
-   "date": "2026-10-12T00:19:02.000Z",
-   "firstSeen": "2026-10-19T03:37:33.468Z",
-   "source": "Semafor",
-   "tier": "A",
-   "lang": "en",
-   "site": "https://www.semafor.com/vertical/media"
   }
  ]
 };
