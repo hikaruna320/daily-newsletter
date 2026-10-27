@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-10-27T16:02:18.831Z",
+ "generatedAt": "2026-10-27T22:37:20.781Z",
  "keepDays": 14,
  "sources": [
   {
@@ -52,9 +52,9 @@ window.NEWS_DATA = {
    "tier": "A",
    "lang": "zh-TW",
    "feed": "https://rss.bnextmedia.com.tw/feed/bnext",
-   "ok": true,
-   "error": null,
-   "count": 11
+   "ok": false,
+   "error": "解析不到文章",
+   "count": 0
   },
   {
    "name": "虎嗅网",
@@ -72,7 +72,7 @@ window.NEWS_DATA = {
    "feed": "https://techcrunch.com/feed/",
    "ok": true,
    "error": null,
-   "count": 2
+   "count": 1
   },
   {
    "name": "Semafor",
@@ -144,7 +144,7 @@ window.NEWS_DATA = {
    "feed": "https://techorange.com/feed/",
    "ok": true,
    "error": null,
-   "count": 18
+   "count": 17
   },
   {
    "name": "mashdigi",
@@ -180,7 +180,7 @@ window.NEWS_DATA = {
    "feed": "https://www.ifanr.com/feed",
    "ok": true,
    "error": null,
-   "count": 17
+   "count": 18
   },
   {
    "name": "TheWrap",
@@ -259,18 +259,18 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "zh-TW",
    "feed": "https://www.managertoday.com.tw/rss",
-   "ok": true,
-   "error": null,
-   "count": 8
+   "ok": false,
+   "error": "解析不到文章",
+   "count": 0
   },
   {
    "name": "品玩",
    "tier": "C",
    "lang": "zh-CN",
    "feed": "https://decemberpei.cyou/rssbox/pingwest.xml",
-   "ok": true,
-   "error": null,
-   "count": 27
+   "ok": false,
+   "error": "解析不到文章",
+   "count": 0
   },
   {
    "name": "TNW",
@@ -881,6 +881,558 @@ window.NEWS_DATA = {
  ],
  "items": [
   {
+   "id": "1outo59",
+   "title": "刚刚，谷歌 Genie 4 发布，120 秒的世界却让我看见 AI 的未来",
+   "url": "https://www.ifanr.com/1686234",
+   "summary": "AI 的下一个目标是模拟现实#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "date": "2026-10-27T22:37:04.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "爱范儿",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.ifanr.com/"
+  },
+  {
+   "id": "179hnzm",
+   "title": "Alexander Brothers Each Sentenced to 30 Years in Prison for Sex Trafficking",
+   "url": "https://www.hollywoodreporter.com/news/general-news/alexander-brothers-sentenced-30-years-prison-trafficking-1236741342",
+   "summary": "Judge Valerie Caproni rejected prosecutors’ request for life sentences, calling it “draconian,” as 11 victims addressed the court.",
+   "date": "2026-10-27T22:34:07.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "7jj4c8",
+   "title": "Amanda Seyfried Almost Revealed Her ‘You Can See Everything’ Role in an Interview Last Year",
+   "url": "https://www.thewrap.com/creative-content/movies/amanda-seyfried-you-can-see-everything-role-slip-last-year",
+   "summary": "\"I’ve had some practice lately,\" she says in the resurfaced footage The post Amanda Seyfried Almost Revealed Her ‘You Can See Everything’ Role in an Interview Last Year appeared first on TheWrap.",
+   "date": "2026-10-27T22:09:26.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "jdea84",
+   "title": "Jessica Biel Says She Won’t Let Her Son “Just Get Handed” Acting Opportunities Because of His Famous Family: “You Have to Earn That”",
+   "url": "https://www.hollywoodreporter.com/movies/movie-news/jessica-biel-justin-timberlake-son-matchbox-acting-earn-roles-1236741304",
+   "summary": "The actress and Justin Timberlake's eldest child, Silas, appears in 'Matchbox: The Movie,' marking his first acting credit.",
+   "date": "2026-10-27T22:05:59.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "6aie3z",
+   "title": "‘The One About Matthew Perry’: 7 Revelations From the Netflix Docuseries",
+   "url": "https://www.thewrap.com/creative-content/tv-shows/matthew-perry-documentary-netflix-revelations",
+   "summary": "From the \"Friends\" cast's presence at Perry's funeral to the \"staggering\" amount of money he spent trying to stay sober The post ‘The One About Matthew Perry’: 7 Revelations From the Netflix Docuseries appeared first on TheWrap.",
+   "date": "2026-10-27T21:29:17.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "nhydsn",
+   "title": "LA City Council Approves Free Permits for Microshoots, $1 Permits for City-Owned Property",
+   "url": "https://www.thewrap.com/industry-news/public-policy-legal/la-city-council-approves-free-permits-for-microshoots",
+   "summary": "The slashed fees come as on-location shooting in Los Angeles continues to sink despite California's expanded incentive program The post LA City Council Approves Free Permits for Microshoots, $1 Permits for City-Owned Property appeared first on TheWrap.",
+   "date": "2026-10-27T21:26:35.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "1n18c86",
+   "title": "Connor Storrie in Talks to Star in ‘Ghost Rider’ With Ryan Gosling",
+   "url": "https://www.thewrap.com/creative-content/movies/connor-storrie-ryan-gosling-ghost-rider",
+   "summary": "Shawn Levy is set to direct the film The post Connor Storrie in Talks to Star in ‘Ghost Rider’ With Ryan Gosling appeared first on TheWrap.",
+   "date": "2026-10-27T21:20:14.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "1251elt",
+   "title": "Connor Storrie in Talks to Join Ryan Gosling in Marvel’s ‘Ghost Rider’",
+   "url": "https://www.hollywoodreporter.com/movies/movie-news/connor-storrie-joining-ryan-gosling-ghost-rider-1236741021",
+   "summary": "Talk about a heated rivalry.",
+   "date": "2026-10-27T21:02:58.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "1s06srx",
+   "title": "Nvidia Commits $3 Billion To Meta &#x27;Muse&#x27; Development",
+   "url": "https://www.mediapost.com/publications/article/419033/nvidia-commits-3-billion-to-meta-muse-developme.html",
+   "summary": "Nvidia pledged $3 billion to partner with Meta and \"expand their work on Muse and the Muse family of models to improve inference and training performance.\"",
+   "date": "2026-10-27T21:01:35.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
+   "id": "xsnj81",
+   "title": "Meta AI Director Rohit Patel Leaves For Open-Source Startup",
+   "url": "https://www.mediapost.com/publications/article/419034/meta-ai-director-rohit-patel-leaves-for-open-sourc.html",
+   "summary": "The longtime director of Meta's Superintelligence Labs division Rohit Patel has announced he is leaving to focus on his startup Ndoc, which aims to provide businesses and consumers with an AI-powered office suite.",
+   "date": "2026-10-27T21:00:04.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
+   "id": "1juzryu",
+   "title": "4DX Expands ‘Wicker’ to One-Week Run Thanks to Social Media-Driven Demand",
+   "url": "https://www.thewrap.com/creative-content/movies/wicker-tickets-4dx-extension",
+   "summary": "There's a lot of people out there that want to feel Olivia Colman's bed break The post 4DX Expands ‘Wicker’ to One-Week Run Thanks to Social Media-Driven Demand appeared first on TheWrap.",
+   "date": "2026-10-27T20:55:13.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "1jceuen",
+   "title": "Kevin Bleyer, Emmy-Winning ‘Daily Show’ Writer, Dies in Car Crash at 54",
+   "url": "https://www.thewrap.com/media-platforms/tv/kevin-bleyer-dead",
+   "summary": "\"I was in awe of his intellect, dazzled by his wit, amazed by his fearlessness and spirit of adventure,\" his wife writes of his passing The post Kevin Bleyer, Emmy-Winning ‘Daily Show’ Writer, Dies in Car Crash at 54 appeared first on TheWrap.",
+   "date": "2026-10-27T20:45:52.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "jjnzml",
+   "title": "Advertisers To Decide Future Of Open Internet",
+   "url": "https://www.mediapost.com/publications/article/419030/advertisers-to-decide-future-of-open-internet.html",
+   "summary": "In an essay, Trade Desk CEO Jeff Green warned that a tech giant \"oligopoly\" threatens independent journalism, premium media and the free exchange of human ideas, unless there is a major shift in how ad dollars are spent.",
+   "date": "2026-10-27T20:44:01.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
+   "id": "vcy5cd",
+   "title": "Everything New on Prime Video in November",
+   "url": "https://www.thewrap.com/creative-content/what-to-watch/everything-new-on-prime-november-2026",
+   "summary": "Including a whole lot of Christmas favorites The post Everything New on Prime Video in November appeared first on TheWrap.",
+   "date": "2026-10-27T20:42:09.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "yh74vr",
+   "title": "L.A. City Council Passes New Motions Aimed at Film-Friendly Overhaul",
+   "url": "https://www.hollywoodreporter.com/business/business-news/l-a-city-council-motions-more-film-friendly-1236740962",
+   "summary": "As shoot days fall, the city is making civic properties more accessible to crews and offering free microshoot permits.",
+   "date": "2026-10-27T20:30:01.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "6dnigv",
+   "title": "Invesco brings its model portfolios into Anthropic’s Claude for advisers",
+   "url": "https://thenextweb.com/news/invesco-anthropic-claude-financial-advisors-connector",
+   "summary": "Invesco is working with Anthropic to let financial advisers use its model portfolios and practice tools inside Claude for Financial Advisors. CAIS, Conquest and FINNY added their own connectors the same day, a day after Anthropic filed for its IPO. Invesco is working with Anthropic to bring its mode",
+   "date": "2026-10-27T20:27:38.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "TNW",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://thenextweb.com"
+  },
+  {
+   "id": "19rx8uc",
+   "title": "Why the talent crisis in advertising is real and what comes next",
+   "url": "https://digiday.com/sponsored/why-the-talent-crisis-in-advertising-is-real-and-what-comes-next",
+   "summary": "Bradley Keefer, Chief Revenue Officer, Keen Decision Systems The advertising industry has a talent problem it desperately needs to confront: AI is eliminating the work that used to develop future leaders, and most agencies aren’t building a replacement pipeline. No one wants to discuss entry-level j",
+   "date": "2026-10-27T20:27:28.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "Digiday",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://digiday.com"
+  },
+  {
+   "id": "18q8ywt",
+   "title": "OpenAI Battles ChatGPT User Over Data Sharing",
+   "url": "https://www.mediapost.com/publications/article/419031/openai-battles-chatgpt-user-over-data-sharing.html",
+   "summary": "\"Because Plaintiff was told in plain terms how her data would be handled and used ChatGPT anyway, she consented, and that consent defeats each of her claims,\" OpenAI says.",
+   "date": "2026-10-27T20:20:21.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
+   "id": "16vt2ky",
+   "title": "Kevin Bleyer, Emmy-Winning ‘Daily Show’ Writer, Dies at 54 in Car Crash",
+   "url": "https://www.hollywoodreporter.com/tv/tv-news/kevin-bleyer-dead-daily-show-car-crash-1236741205",
+   "summary": "He also worked on programs hosted by Bill Maher and Dennis Miller, authored books and penned speeches for President Obama.",
+   "date": "2026-10-27T20:18:33.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "9rg6c0",
+   "title": "Stablecon Built an Audience Before It Built an Event",
+   "url": "https://www.amediaoperator.com/analysis/stablecon-built-an-audience-before-it-built-an-event",
+   "summary": "Nik Milanović spent years building an audience before he decided to create an event for it. The 38-year-old started This Week in… The post Stablecon Built an Audience Before It Built an Event appeared first on A Media Operator.",
+   "date": "2026-10-27T20:11:29.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "A Media Operator",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.amediaoperator.com"
+  },
+  {
+   "id": "g9nbz2",
+   "title": "Noah Wyle Turns Beet Red Recalling His Disappointing Run-In With Eddie Murphy",
+   "url": "https://www.thewrap.com/culture-lifestyle/culture/noah-wyle-eddie-murphy-autograph-embarrassing-story-good-hang",
+   "summary": "\"The Pitt\" Emmy winner met the comedy icon when he was just 9 years old – and it didn't go as planned The post Noah Wyle Turns Beet Red Recalling His Disappointing Run-In With Eddie Murphy appeared first on TheWrap.",
+   "date": "2026-10-27T20:11:04.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "8y5ca",
+   "title": "‘Nobody Wants This’ Star Condemns Adam Brody’s Gaza “Genocide” Comments",
+   "url": "https://www.hollywoodreporter.com/tv/tv-news/nobody-wants-this-star-adam-brody-gaza-genocide-comments-1236741154",
+   "summary": "In an interview about the new season of the Netflix series, Brody's onscreen mother, Tovah Feldshuh, said, \"To accuse the Jewish people of genocide is wild. It’s right out of Hitler’s playbook.\"",
+   "date": "2026-10-27T20:09:45.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "1ws6twr",
+   "title": "Google: Disabled Discover Clicks Were A Bug In An Experiment",
+   "url": "https://www.searchenginejournal.com/rajan-patel-disabled-discover-source-clicks-bug/594579",
+   "summary": "Rajan Patel wrote on X that disabled source clicks on Google Discover AI summaries were a bug in an experiment that has been turned off. The post Google: Disabled Discover Clicks Were A Bug In An Experiment appeared first on Search Engine Journal.",
+   "date": "2026-10-27T20:06:27.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "Search Engine Journal",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.searchenginejournal.com"
+  },
+  {
+   "id": "hyma6q",
+   "title": "‘Crystal Lake’ Surfaces as Peacock’s 4th Biggest Scripted Original Series With 1.3 Billion Minutes in 11 Days",
+   "url": "https://www.thewrap.com/creative-content/tv-shows/crystal-lake-peacock-ratings",
+   "summary": "The “Friday the 13th\" prequel scored 1.8 billion impressions in the first 24 hours The post ‘Crystal Lake’ Surfaces as Peacock’s 4th Biggest Scripted Original Series With 1.3 Billion Minutes in 11 Days appeared first on TheWrap.",
+   "date": "2026-10-27T20:01:57.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "o90smf",
+   "title": "Christina Applegate Shares Health Update, Vows to Keep Fighting for MS Community: “I Will Speak Out on Your Behalf Forever”",
+   "url": "https://www.hollywoodreporter.com/lifestyle/lifestyle-news/christina-applegate-health-update-ms-community-1236740951",
+   "summary": "The 54-year-old actress revealed she was misdiagnosed with the disease last week.",
+   "date": "2026-10-27T19:59:48.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "13w4yp2",
+   "title": "Danny Masterson Loses Rape Conviction Appeal, Judges Uphold 30-Year Prison Sentence",
+   "url": "https://www.thewrap.com/industry-news/public-policy-legal/danny-masterson-loses-rape-conviction-appeal",
+   "summary": "The 89-page ruling also rejected the actor's claim that the trial judge was biased against Scientology The post Danny Masterson Loses Rape Conviction Appeal, Judges Uphold 30-Year Prison Sentence appeared first on TheWrap.",
+   "date": "2026-10-27T19:54:44.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "1tuos73",
+   "title": "Oracle bundles AI video tools and streaming into one media platform",
+   "url": "https://thenextweb.com/news/oracle-media-fabric-ai-video-streaming",
+   "summary": "Oracle announced Media Fabric at AI World, a platform that combines its own AI video and image models, an AI production suite and a live-streaming network. It lets brands make many versions of one ad. Oracle says it will be available within 12 months. Oracle has announced Media Fabric, a platform th",
+   "date": "2026-10-27T19:45:26.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "TNW",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://thenextweb.com"
+  },
+  {
+   "id": "p1chcj",
+   "title": "R.J. Mitte’s Mother Shares Tribute After His Death: “We Are Lost Without Him”",
+   "url": "https://www.hollywoodreporter.com/news/general-news/r-j-mitte-mother-tribute-death-1236741130",
+   "summary": "The 'Breaking Bad' actor and activist died earlier this month at age 34.",
+   "date": "2026-10-27T19:37:02.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "1ehlh61",
+   "title": "Broadway Box Office: Billy Crystal’s ‘860’ Sees Strong Opening, As ‘Downstate’ and More Start Previews",
+   "url": "https://www.hollywoodreporter.com/lifestyle/arts/broadway-billy-crystal-box-office-top-shows-1236741142",
+   "summary": "'Other Desert Cities' with Julia Louis-Dreyfus and Allison Janney is still proving a starry draw.",
+   "date": "2026-10-27T19:31:24.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "1sfbizj",
+   "title": "‘The Birds’ Series With Sarah Snook in the Works at HBO",
+   "url": "https://www.hollywoodreporter.com/tv/tv-news/sarah-snook-the-birds-series-hbo-development-1236741125",
+   "summary": "'The Leftovers' alum Tom Spezialy is adapting Daphne du Maurier's novella, which previously inspired a 1963 film by Alfred Hitchcock.",
+   "date": "2026-10-27T19:29:45.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "54q9v8",
+   "title": "ASM lifts its 2027 sales forecast by a quarter as AI chipmakers spend",
+   "url": "https://thenextweb.com/news/asm-international-2027-outlook-ai-chip-tools",
+   "summary": "ASM International raised its 2027 revenue forecast to more than €5.7B, from above €4.6B, as memory and AI chipmakers expand. That reaches its 2030 target three years early. Third-quarter revenue rose 44% to a record €1.16B, and ASM plans a buyback of up to €300M. ASM International has raised its 202",
+   "date": "2026-10-27T19:22:50.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "TNW",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://thenextweb.com"
+  },
+  {
+   "id": "t3qsei",
+   "title": "Googlebot Must Follow Redirects From Homepage To Favicon, Updated Doc Say",
+   "url": "https://www.seroundtable.com/googlebot-redirects-from-homepage-to-favicon-42396.html",
+   "summary": "Google Search has just updated its favicon documentation to now specify that Googlebot must be able to follow redirects from the homepage to the page where the favicon is specified. The document also explicitly says that these URLs must not be blocked by robots.txt or other means.",
+   "date": "2026-10-27T19:05:00.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "Search Engine Roundtable",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.seroundtable.com"
+  },
+  {
+   "id": "1hvmdyk",
+   "title": "Why We Should Fear The Shadow Web We’re Building For AI",
+   "url": "https://www.searchenginejournal.com/why-we-should-fear-the-shadow-web-were-building-for-ai/593930",
+   "summary": "Why would an AI search provider keep trusting information a brand hides from its own website? The parallels with cloaking are too close to ignore. The post Why We Should Fear The Shadow Web We’re Building For AI appeared first on Search Engine Journal.",
+   "date": "2026-10-27T19:00:25.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "Search Engine Journal",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.searchenginejournal.com"
+  },
+  {
+   "id": "1z9ecj",
+   "title": "Russell Brand told police he led a ‘very promiscuous’ life, trial hears",
+   "url": "https://www.theguardian.com/uk-news/2026/oct/27/russell-brand-told-police-he-led-very-promiscuous-life",
+   "summary": "<p>Comedian accused of sexual offences against six women said consensual encounters were ‘unfavourably reframed decades later’</p><p>Russell Brand told police he had led a “very promiscuous” life and consensual sexual encounters had been “unfavourably reframed decades later”, his trial has heard.</p",
+   "date": "2026-10-27T18:32:46.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "The Guardian",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.theguardian.com/uk/media"
+  },
+  {
+   "id": "oj3u3t",
+   "title": "Radio 4 Extra sustains a major part of our cultural heritage. Save it from the BBC cuts | Letter",
+   "url": "https://www.theguardian.com/media/2026/oct/27/radio-4-extra-sustains-a-major-part-of-our-cultural-heritage-save-it-from-the-bbc-cuts",
+   "summary": "<p><strong>Stephen McKenna </strong>argues against the axing of the station to cut the BBC’s costs</p><p>My father was the <a href=\"https://www.theguardian.com/stage/2011/feb/16/tp-mckenna-obituary\">actor TP&nbsp;McKenna</a>, who died in 2011. A boon of his years in that great radio studio in the sk",
+   "date": "2026-10-27T17:54:58.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "The Guardian",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.theguardian.com/uk/media"
+  },
+  {
+   "id": "ttok8f",
+   "title": "Whop raises $200M at $5.1B valuation after shipping three products in three months",
+   "url": "https://thenextweb.com/news/whop-200m-series-d-5-1b-valuation-sequoia",
+   "summary": "Palo Alto-based Whop has closed a $200 million Series D led by Sequoia Capital and Shopify Ventures at a $5.1 billion valuation, and plans to open offices in Europe and Colombia, Bloomberg reported. 2The company said the capital will fund its expansion abroad and research into payments and advertisi",
+   "date": "2026-10-27T17:29:37.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "TNW",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://thenextweb.com"
+  },
+  {
+   "id": "1tv7bvu",
+   "title": "Google Privacy Update Lets Connected Apps Shape AI Mode Ads",
+   "url": "https://www.searchenginejournal.com/google-privacy-policy-connected-apps-ai-mode-ads/594546",
+   "summary": "Google is testing AI Mode ads informed by connected Gmail and Photos data, as its privacy policy adds an exception for ad personalization. The post Google Privacy Update Lets Connected Apps Shape AI Mode Ads appeared first on Search Engine Journal.",
+   "date": "2026-10-27T17:11:52.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "Search Engine Journal",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.searchenginejournal.com"
+  },
+  {
+   "id": "1vof2ch",
+   "title": "回顧MacBook二十年演進，在傳聞觸控螢幕款「MacBook Ultra」登場前看蘋果如何定義現代筆電",
+   "url": "https://mashdigi.com/looking-back-at-the-macbooks-20-year-evolution-lets-see-how-apple-defined-the-modern-laptop-before-the-rumored-touchscreen-macbook-ultra-was-released",
+   "summary": "💡 本文重點摘要 核心亮點一：回顧 MacBook 二十年演進，蘋果透過 2006 年轉向 Intel 架構與 […]",
+   "date": "2026-10-27T17:00:58.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "mashdigi",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://mashdigi.com"
+  },
+  {
+   "id": "7f9i50",
+   "title": "干掉有线电视的Netflix，正在变成另一种有线电视",
+   "url": "https://www.huxiu.com/article/4900942.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/28/40820-prod-nb2qn-general-1-1793119600300.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>Netflix三季报公布当晚，盘后股价一度下挫约6%。这份财报的利润相当漂亮。营收129亿美元，同比增长12%。营业利润45亿美元",
+   "date": "2026-10-27T16:48:43.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "1i0f0mn",
+   "title": "Oracle will offer Cerebras AI computers in its cloud from 2027",
+   "url": "https://thenextweb.com/news/oracle-cerebras-ai-inference-cloud-2027",
+   "summary": "Oracle will offer cloud services running on Cerebras’ AI computers in its data centres from 2027, the companies said. Cerebras, which went public in May, is expected to triple revenue next year to almost $3B, but investors worry about its place in a market Nvidia dominates. Oracle will offer cloud s",
+   "date": "2026-10-27T16:33:57.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "TNW",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://thenextweb.com"
+  },
+  {
+   "id": "k21dik",
+   "title": "Adidas and Gamefam, Poppi and Walmart Connect are winners for the 2026 Digiday Awards",
+   "url": "https://digiday.com/announcement/awards/adidas-and-gamefam-poppi-and-walmart-connect-are-winners-for-the-2026-digiday-awards",
+   "summary": "The 2026 Digiday Awards winners reflect a media and marketing landscape in which cultural relevance, audience participation and measurable business impact increasingly go hand in hand. From immersive digital experiences to campaigns that turned social media conversations into product launches, this ",
+   "date": "2026-10-27T16:27:22.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "Digiday",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://digiday.com"
+  },
+  {
+   "id": "6ryp2r",
+   "title": "年轻人热衷考公，但公考培训机构却越来越难赚钱",
+   "url": "https://www.huxiu.com/article/4900941.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/28/40815-prod-nb2qn-general-1-1793117347102.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>2027年度国家公务员考试报名刚刚结束，截至10月24日16时，已有302.5万人通过资格审查，竞争35691个计划录用名额。平均",
+   "date": "2026-10-27T16:10:40.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "1obyyd4",
+   "title": "从三个月到一百亿：AI产业链的金钱游戏",
+   "url": "https://www.huxiu.com/article/4900937.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/28/40814-prod-grokep-general-1-1793117135684.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>一10月21日，柏林。黄仁勋在GTC的台上算了一笔账。假设你有一座年收入400亿美金的AI数据中心，现在它晚投产三个月。他说，这",
+   "date": "2026-10-27T16:07:22.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "64nw0i",
+   "title": "温柔是面子，残酷是里子：当微软向社会释放6万名优秀人才",
+   "url": "https://www.huxiu.com/article/4900940.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/28/40813-prod-nb2qn-general-1-1793117059888.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>有一本著名的书，在韭菜圈里很火，《这个世界既残酷又温柔》。我没看过这本书，但这个书名说得没错。这个世界，温柔是面子，残酷是里子。越",
+   "date": "2026-10-27T16:06:05.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "1pmkkhm",
+   "title": "当科研开始“工业革命”",
+   "url": "https://www.huxiu.com/article/4900939.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/27/40812-prod-nb2qn-general-1-1793116772261.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>今天让不少数学家感到不安的变化，最终带来的也许并不是数学或更广义上的科学的衰落。它更可能是一种新的科学的开始2026年9月8日，O",
+   "date": "2026-10-27T16:01:14.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "ms7twc",
+   "title": "Intel斥資收購以色列量子軟體商Classiq：結合自研「矽自旋量子位元」打造全棧式QPU平台",
+   "url": "https://mashdigi.com/intel-acquires-israeli-quantum-software-company-classiq-combining-its-self-developed-silicon-spin-qubits-to-create-a-full-stack-qpu-platform",
+   "summary": "💡 本文重點摘要 天價收購以色列軟體新創：Intel 預計斥資約 22 億至 23 億美元收購 Classiq […]",
+   "date": "2026-10-27T16:00:16.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "mashdigi",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://mashdigi.com"
+  },
+  {
    "id": "n0j38u",
    "title": "Abbi Jacobson Signs With Anonymous Content (Exclusive)",
    "url": "https://www.hollywoodreporter.com/business/business-news/abbi-jacobson-anonymous-content-1236740690",
@@ -989,6 +1541,18 @@ window.NEWS_DATA = {
    "site": "https://www.hollywoodreporter.com"
   },
   {
+   "id": "vch2zl",
+   "title": "The Next Big Ad Category: AI Brands",
+   "url": "https://www.mediapost.com/publications/article/419015/the-next-big-ad-category-ai-brands.html",
+   "summary": "Based on real data from Anthropic's IPO filing, ad spending by the major frontier AI models could already be as much as $5 billion. At least, that's what AI models project.",
+   "date": "2026-10-27T15:26:02.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
    "id": "1op71ow",
    "title": "營收終於回升！從賣電腦到賣咖啡，PChome 如何靠「雞尾酒療法」找回成長？",
    "url": "https://www.managertoday.com.tw/articles/view/73198",
@@ -1025,6 +1589,30 @@ window.NEWS_DATA = {
    "site": "https://www.thewrap.com"
   },
   {
+   "id": "1whymvt",
+   "title": "Meta Sued By Norway Media Organizations",
+   "url": "https://www.mediapost.com/publications/article/419018/meta-sued-by-norway-media-organizations.html",
+   "summary": "<span>Ten Norway media groups have taken legal action against Meta, seeking to block implementation of its new media terms, which give the social giant the right to collect their articles and videos and use them to develop artificial intelligence products. They fear that Meta &ldquo;will use this po",
+   "date": "2026-10-27T15:12:26.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
+   "id": "1uqhjex",
+   "title": "Brandweek 2026: Democratized Marketing Won’t Differentiate Your Brand. ft. Cheryl Guerin of Mastercard",
+   "url": "https://www.adweek.com/brand-marketing/brandweek-2026-democratized-marketing-wont-differentiate-your-brand-ft-cheryl-guerin-of-mastercard",
+   "summary": "Plus, why you can't be an agile marketer if you say yes to everything.",
+   "date": "2026-10-27T15:11:51.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "Adweek",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.adweek.com"
+  },
+  {
    "id": "1lqrq44",
    "title": "为什么跑鞋是运动品牌的必争之地？",
    "url": "https://www.huxiu.com/article/4900933.html",
@@ -1047,6 +1635,18 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://thenextweb.com"
+  },
+  {
+   "id": "14xf8k6",
+   "title": "Beyond Going Viral: How Global Fashion Marketing Leaders Create Brands People Care About",
+   "url": "https://www.adweek.com/brand-marketing/beyond-going-viral-how-global-fashion-marketing-leaders-create-brands-people-care-about",
+   "summary": "Why brands must give their communities a voice—but not allow them to dictate their next style move.",
+   "date": "2026-10-27T15:02:04.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "Adweek",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.adweek.com"
   },
   {
    "id": "15chd2e",
@@ -1109,6 +1709,30 @@ window.NEWS_DATA = {
    "site": "https://thenextweb.com"
   },
   {
+   "id": "9hvf27",
+   "title": "Thursday, Oct. 22 Daily Cable News Ratings: Fox Stays No. 1",
+   "url": "https://www.adweek.com/tvnewser/thursday-oct-22-2026-daily-cable-news-ratings",
+   "summary": "MS NOW won the 11 p.m. demo",
+   "date": "2026-10-27T14:52:06.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "Adweek",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.adweek.com"
+  },
+  {
+   "id": "ai7krp",
+   "title": "Consumers Hold the Mic: Fanta Gives Them Something to Talk About",
+   "url": "https://www.adweek.com/brand-marketing/consumers-hold-the-mic-fanta-gives-them-something-to-talk-about",
+   "summary": "Global VP of marketing Ibrahim Khan on how global brands can stay culturally relevant.",
+   "date": "2026-10-27T14:45:10.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "Adweek",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.adweek.com"
+  },
+  {
    "id": "1sipb63",
    "title": "Elizabeth Holmes mania: how the buzziest film of the year has resurrected a gut-twisting TV drama",
    "url": "https://www.theguardian.com/tv-and-radio/2026/oct/27/elizabeth-holmes-documentary-mania-you-can-see-everything-the-dropout",
@@ -1119,6 +1743,18 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://www.theguardian.com/uk/media"
+  },
+  {
+   "id": "rjifee",
+   "title": "Entertainment, Technology Execs Launch Creative Model For Advertising",
+   "url": "https://www.mediapost.com/publications/article/419014/entertainment-technology-execs-launch-creative-mo.html",
+   "summary": "Four powerhouse founders combined their talent to launch a company based on AI aimed at making creative for the ad industry with dramatic effects. The co-founders aim to make the process easier.",
+   "date": "2026-10-27T14:30:00.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
   },
   {
    "id": "51x6wt",
@@ -1565,6 +2201,18 @@ window.NEWS_DATA = {
    "site": "https://www.thewrap.com"
   },
   {
+   "id": "o0qf0w",
+   "title": "Disney&#x27;s Big Super Bowl Plans: Too Much Of A Good Thing?",
+   "url": "https://www.mediapost.com/publications/article/418987/disneys-big-super-bowl-plans-too-much-of-a-good.html",
+   "summary": "For its now year-long effort, Disney is going further in branding expansion for the Super Bowl, looking to air multiple different simulcasts of the live game on Disney+, ESPN2, NFL Network and ESPNU.",
+   "date": "2026-10-27T13:00:00.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
    "id": "ani7ff",
    "title": "This Startup Makes Sure That AI Tools Aren’t Out Of Reach For SMBs",
    "url": "https://www.adexchanger.com/ai/this-startup-makes-sure-that-ai-tools-arent-out-of-reach-for-smbs",
@@ -1635,6 +2283,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-CN",
    "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "tx2hyf",
+   "title": "Palm Beach Tan And Wellness Taps Arm Candy As Media AOR",
+   "url": "https://www.mediapost.com/publications/article/419013/palm-beach-tan-and-wellness-taps-arm-candy-as-medi.html",
+   "summary": "The franchise company, which has nearly 650 locations nationwide, is trying to broaden its image beyond tanning by promoting its wellness offerings, and it has chosen the Dallas-based media agency to support that growth strategy.",
+   "date": "2026-10-27T12:34:21.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
   },
   {
    "id": "1phtb13",
@@ -1791,6 +2451,30 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "r2vqy3",
+   "title": "Illuminating Portrait Of Perry Will Be Big Draw For Netflix",
+   "url": "https://www.mediapost.com/publications/article/418973/illuminating-portrait-of-perry-will-be-big-draw-fo.html",
+   "summary": "Matthew Perry is remembered fondly in Netflix's new three-part, three-hour documentary \"The One About Matthew Perry,\" premiering Tuesday.",
+   "date": "2026-10-27T12:00:00.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
+   "id": "1bqqx8f",
+   "title": "Anthropic&#x27;s Risky First-To-Market IPO",
+   "url": "https://www.mediapost.com/publications/article/419006/anthropics-risky-first-to-market-ipo.html",
+   "summary": "Without a clear path to support advertisers, Anthropic will beat OpenAI to the public markets. The company also will take the biggest financial risk when it comes to setting the valuation benchmark on Wall Street for frontier AI models.",
+   "date": "2026-10-27T12:00:00.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
   },
   {
    "id": "m7udit",
@@ -3017,6 +3701,18 @@ window.NEWS_DATA = {
    "site": "https://buzzorange.com/techorange/"
   },
   {
+   "id": "udbg03",
+   "title": "New Lawsuit Says Trump Media Ban Hurts Consumers",
+   "url": "https://www.mediapost.com/publications/article/419012/new-lawsuit-says-trump-media-ban-hurts-consumers.html",
+   "summary": "<div> <p class=\"font-text\"><span>The White House has been hit with another lawsuit challenging its drive to&nbsp;<span class=\"apple-converted-space\">revoke the press credentials of Politico, CNN and MS Now journalists, <em>Politico</em> reports. Filed&nbsp;</span>by the Knight First Amendment Instit",
+   "date": "2026-10-27T04:57:46.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
    "id": "1outmji",
    "title": "王的猜想，被 AI 一夜通关",
    "url": "https://www.ifanr.com/1686064",
@@ -3027,6 +3723,30 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-CN",
    "site": "https://www.ifanr.com/"
+  },
+  {
+   "id": "1s2gd4",
+   "title": "Streaming Ads Outperform Linear In iSpot Study",
+   "url": "https://www.mediapost.com/publications/article/419007/streaming-ads-outperform-linear-in-ispot-study.html",
+   "summary": "Advertisers' average streaming TV ad conversion rate was 3.49% in a 30-brand sample with a 14-day outcome window, vs. an average 0.69% on linear TV buys.",
+   "date": "2026-10-27T04:54:30.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
+   "id": "9dvjrs",
+   "title": "Advertisers, Media Confront The Prediction Economy",
+   "url": "https://www.mediapost.com/publications/article/419011/advertisers-media-confront-the-prediction-economy.html",
+   "summary": "<p>Impressions, reach and clicks are losing their dominance with media and advertisers as the prediction economy rises in importance, Databricks writes in an analysis. Advantage is based on knowing &ldquo;what an audience will want before the money is spent, and being able to show what it was worth,",
+   "date": "2026-10-27T04:52:23.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
   },
   {
    "id": "65nfts",
@@ -3668,7 +4388,7 @@ window.NEWS_DATA = {
    "id": "78esrg",
    "title": "Your next reader may never land on your website - where else can you provide value?",
    "url": "https://www.journalism.co.uk/your-next-reader-may-never-land-on-your-homepage-where-else-can-you-provide-value",
-   "summary": "A new report, built on four summits and around 140 experts, maps demand for news once AI assistants manage readers' information needs. These seven areas will help you stay remain relevant and you can act on them now",
+   "summary": "A new report, built on four summits and around 140 experts, maps demand for news once AI assistants manage readers' information needs. These seven areas will help you remain relevant and you can act on them now",
    "date": "2026-10-26T23:20:02.000Z",
    "firstSeen": "2026-10-27T10:02:55.250Z",
    "source": "Journalism UK",
@@ -3800,7 +4520,7 @@ window.NEWS_DATA = {
    "id": "15atj8v",
    "title": "TikTok playbook outlines the value of its high-end ad options",
    "url": "https://www.socialmediatoday.com/news/tiktok-playbook-outlines-the-value-of-its-high-end-ad-options/872827",
-   "summary": "<p>The app&rsquo;s Top View and Pulse Premiere options provide premium placement opportunities during peak viewing events.</p>",
+   "summary": "<p>The app&rsquo;s Top View and Pulse Premiere solutions provide premium placement opportunities during peak viewing events.</p>",
    "date": "2026-10-26T22:26:07.000Z",
    "firstSeen": "2026-10-27T10:02:55.250Z",
    "source": "Social Media Today",
@@ -3819,6 +4539,30 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "en",
    "site": "https://www.socialmediatoday.com"
+  },
+  {
+   "id": "108gegh",
+   "title": "Pinterest introduces new programmatic buying solution",
+   "url": "https://www.socialmediatoday.com/news/pinterest-introduces-new-programmatic-buying-solution/872826",
+   "summary": "<p>The deal will make ads on the platform available via a range of third-party exchanges, including those run by Yahoo, Amazon and Google.</p>",
+   "date": "2026-10-26T22:23:24.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "Social Media Today",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.socialmediatoday.com"
+  },
+  {
+   "id": "thbn6",
+   "title": "Instagram Goes Horizontal: Tests Long-Form Content On Mobile, TV",
+   "url": "https://www.mediapost.com/publications/article/419000/instagram-goes-horizontal-tests-long-form-content.html",
+   "summary": "Targeting podcasters, comedians and other long-form creators, \"Features\" allows video uploads up to 90 minutes long. After testing the format in Brazil, Instagram is expanding the test to thousands of creators in the U.S.",
+   "date": "2026-10-26T22:19:38.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
   },
   {
    "id": "m82igd",
@@ -4275,6 +5019,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "en",
    "site": "https://www.adweek.com"
+  },
+  {
+   "id": "1j8ebfg",
+   "title": "Consumers Are Broke, Picky And Letting AI Do Their Shopping",
+   "url": "https://www.mediapost.com/publications/article/418992/consumers-are-broke-picky-and-letting-ai-do-their.html",
+   "summary": "Shoppers worldwide are heading into 2027 with less patience, tighter budgets and increasingly sophisticated ways to avoid paying full price.",
+   "date": "2026-10-26T17:47:46.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
   },
   {
    "id": "pss5ec",
@@ -11195,6 +11951,18 @@ window.NEWS_DATA = {
    "summary": "The best Stratechery content from the week of October 19, 2026, including the best iPad but worst phone, SS Sarandos in a storm, and You Can See Everything.",
    "date": "2026-10-23T17:00:00.000Z",
    "firstSeen": "2026-10-27T16:02:18.831Z",
+   "source": "STRATECHERY",
+   "tier": "S",
+   "lang": "en",
+   "site": "https://stratechery.com"
+  },
+  {
+   "id": "p9o8wl",
+   "title": "2026.43: A New Era",
+   "url": "https://stratechery.com/?access_token=eyJhbGciOiJFUzI1NiIsImtpZCI6IkxzanFRcEhoMUJUdmU0djJQUUVuejIiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8_cD0yMDQ3NyJdfSwiZXhwIjoxNzk1NzMyNjM2LCJpYXQiOjE3OTMxNDA2MzYsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiOTQwODQwZTItNWVmOS00YmU1LTgyNTAtMzc4MWYyNmVlNzlhIiwidXNlIjoiYWNjZXNzIn0.75deko7gIu_70leeGKI24Kjjg6W7_rvIuDlqFewKYfRnxlS_HdqXBiyn0scND8CB9udLqs46bhWfagsOgZRVEg&p=20477",
+   "summary": "The best Stratechery content from the week of October 19, 2026, including the best iPad but worst phone, SS Sarandos in a storm, and You Can See Everything.",
+   "date": "2026-10-23T17:00:00.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
    "source": "STRATECHERY",
    "tier": "S",
    "lang": "en",
@@ -32345,6 +33113,18 @@ window.NEWS_DATA = {
    "site": "https://stratechery.com"
   },
   {
+   "id": "1qhuwn0",
+   "title": "Home At Last",
+   "url": "https://stratechery.com/2026/home-at-last/?access_token=eyJhbGciOiJFUzI1NiIsImtpZCI6IkxzanFRcEhoMUJUdmU0djJQUUVuejIiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L2hvbWUtYXQtbGFzdC8iXX0sImV4cCI6MTc5NTczMjYzNiwiaWF0IjoxNzkzMTQwNjM2LCJpc3MiOiJodHRwczovL2FwcC5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyBwb2RjYXN0IHJzcyIsInN1YiI6Ijk0MDg0MGUyLTVlZjktNGJlNS04MjUwLTM3ODFmMjZlZTc5YSIsInVzZSI6ImFjY2VzcyJ9.lCUVeYsTyejlckSIklacOCx5it3IOPuCMmDTPDOZauRanffzbgZx-tMu338S7Hm7vDVeXwqW5JiK_Bx_k_6tIw",
+   "summary": "The best Stratechery content from the week of October 12, 2026, including what Apple is doing, SpaceX's appetite, and the title, takes, and the Washington Wizards.",
+   "date": "2026-10-16T17:42:42.000Z",
+   "firstSeen": "2026-10-27T22:37:20.781Z",
+   "source": "STRATECHERY",
+   "tier": "S",
+   "lang": "en",
+   "site": "https://stratechery.com"
+  },
+  {
    "id": "1660ko9",
    "title": "Google Paid Search Becoming More Expensive",
    "url": "https://www.mediapost.com/publications/article/418796/google-paid-search-becoming-more-expensive.html",
@@ -34659,78 +35439,6 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "zh-TW",
    "site": "https://www.openbook.org.tw"
-  },
-  {
-   "id": "g5r3vb",
-   "title": "AdClarity’s AI Ads Have an Uncanny Valley Problem",
-   "url": "https://adtechradar.com/2026/10/13/adclarity-ai-ads-uncanny-valley",
-   "summary": "We don’t like AI ads. Actually, we don’t like AI ads that feature uncanny valley AI people. Lately,… The post AdClarity’s AI Ads Have an Uncanny Valley Problem first appeared on AdTechRadar.",
-   "date": "2026-10-13T21:51:32.000Z",
-   "firstSeen": "2026-10-19T03:37:33.468Z",
-   "source": "AdTechRadar",
-   "tier": "B",
-   "lang": "en",
-   "site": "https://adtechradar.com"
-  },
-  {
-   "id": "lfn8ir",
-   "title": "\"AI doesn't adhere to borders\": SPUR Coalition adds 40 more members, including global news agencies, hyperlocals and trade specialists",
-   "url": "https://www.journalism.co.uk/ai-doesnt-adhere-to-borders-spur-coalition-adds-40-more-members-including-global-news-agencies-hyperlocals-and-trade-specialists",
-   "summary": "The latest cohort ranges from The New York Times and The Atlantic to UK independent Blog Preston and Martin Lewis' Money Saving Expert",
-   "date": "2026-10-13T20:26:32.000Z",
-   "firstSeen": "2026-10-19T03:37:33.468Z",
-   "source": "Journalism UK",
-   "tier": "A",
-   "lang": "en",
-   "site": "https://www.journalism.co.uk"
-  },
-  {
-   "id": "17nqmub",
-   "title": "When Slate went back to its 1996 homepage, it learned some web design lessons for 2026",
-   "url": "https://www.niemanlab.org/2026/10/when-slate-went-back-to-its-1996-homepage-it-learned-some-web-design-lessons-for-2026",
-   "summary": "The fonts are Times New Roman and Arial Narrow, the colors are maroon and mustard, and the cursor is the 8-bit pixel hand. When Slate revived its original 1996 homepage to celebrate its 30th birthday this fall1, the team found a lot to like besides nostalgia. “I’ve read Slate since 1997, when I fina",
-   "date": "2026-10-13T19:29:06.000Z",
-   "firstSeen": "2026-10-19T03:37:33.468Z",
-   "source": "NiemanLab",
-   "tier": "S",
-   "lang": "en",
-   "site": "https://www.niemanlab.org"
-  },
-  {
-   "id": "1nfrbpz",
-   "title": "From bad to worse: 2026 is shaping up to be “a super El Niño year for local news”",
-   "url": "https://www.niemanlab.org/2026/10/from-bad-to-worse-2026-is-shaping-up-to-be-a-super-el-nino-year-for-local-news",
-   "summary": "If you thought last year was bleak, Medill’s annual State of Local News Report is here to ring the alarm bell louder. What was a “creeping erosion” has now “mushroomed into a full-blown super El Niño-like event for local news, leaving widespread and long-lasting displacement in its wake,” writes Tim",
-   "date": "2026-10-13T19:19:01.000Z",
-   "firstSeen": "2026-10-19T03:37:33.468Z",
-   "source": "NiemanLab",
-   "tier": "S",
-   "lang": "en",
-   "site": "https://www.niemanlab.org"
-  },
-  {
-   "id": "126mqdo",
-   "title": "CNN’s All Access subscription is coming to UK and Canada this month",
-   "url": "https://www.journalism.co.uk/cnns-all-access-subscription-is-comig-to-uk-and-canada-this-month",
-   "summary": "New direct-to-consumer offering brings CNN’s live channels, original content, and election coverage to international audiences for the first time",
-   "date": "2026-10-13T18:38:04.000Z",
-   "firstSeen": "2026-10-19T03:37:33.468Z",
-   "source": "Journalism UK",
-   "tier": "A",
-   "lang": "en",
-   "site": "https://www.journalism.co.uk"
-  },
-  {
-   "id": "1ae73sz",
-   "title": "Amazon News, Politico and Warner Bros. Discovery are finalists for the 2026 Digiday Awards finalists",
-   "url": "https://digiday.com/media/amazon-news-politico-and-warner-bros-discovery-are-finalists-for-the-2026-digiday-awards-finalists",
-   "summary": "This year’s Digiday Awards finalists demonstrated how innovation, audience insights and multiplatform storytelling can work together to create more engaging and accessible experiences. Their work reflected a focus on understanding audiences, reaching them across channels and turning creative investm",
-   "date": "2026-10-13T17:01:53.000Z",
-   "firstSeen": "2026-10-19T03:37:33.468Z",
-   "source": "Digiday",
-   "tier": "A",
-   "lang": "en",
-   "site": "https://digiday.com"
   }
  ]
 };
