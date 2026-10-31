@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-10-30T22:39:05.219Z",
+ "generatedAt": "2026-10-31T01:49:00.137Z",
  "keepDays": 14,
  "sources": [
   {
@@ -180,7 +180,7 @@ window.NEWS_DATA = {
    "feed": "https://www.ifanr.com/feed",
    "ok": true,
    "error": null,
-   "count": 18
+   "count": 17
   },
   {
    "name": "TheWrap",
@@ -881,6 +881,330 @@ window.NEWS_DATA = {
  ],
  "items": [
   {
+   "id": "1kxhmo",
+   "title": "Trump Mocks Hollywood for ‘Kissing My Ass’ Over Federal Film and TV Tax Credit",
+   "url": "https://www.thewrap.com/media-platforms/politics/trump-mocks-hollywood-kissing-up-tax-credits",
+   "summary": "\"It's unbelievable. 'Sir, we think you're a great president. May we have a meeting?'\" he tells attendees at a Florida rally The post Trump Mocks Hollywood for ‘Kissing My Ass’ Over Federal Film and TV Tax Credit appeared first on TheWrap.",
+   "date": "2026-10-31T01:48:48.000Z",
+   "firstSeen": "2026-10-31T01:49:00.137Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "1yhrjk1",
+   "title": "Margaret Qualley and Jack Antonoff File for Divorce After Three Years of Marriage",
+   "url": "https://www.hollywoodreporter.com/lifestyle/lifestyle-news/margaret-qualley-jack-antonoff-file-divorce-1236744038",
+   "summary": "The actress and Bleachers frontman began dating in 2021 and reportedly broke up in July.",
+   "date": "2026-10-31T01:37:48.000Z",
+   "firstSeen": "2026-10-31T01:49:00.137Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "1ouue54",
+   "title": "刚刚，国行 Apple 智能官宣，但满血 SiriAI 还得等",
+   "url": "https://www.ifanr.com/1687012",
+   "summary": "等了好久终于等到今天#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+   "date": "2026-10-31T01:37:05.000Z",
+   "firstSeen": "2026-10-31T01:49:00.137Z",
+   "source": "爱范儿",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.ifanr.com/"
+  },
+  {
+   "id": "x6qdgk",
+   "title": "Timbaland Files $15 Million Fraud Lawsuit Against Former Managers",
+   "url": "https://www.hollywoodreporter.com/music/music-industry-news/timbaland-files-15-million-lawsuit-against-former-managers-1236743974",
+   "summary": "The super-producer alleges that former manager Gary Marella and business manager Bruce Seckendorf \"used their entrusted authority to enrich themselves and others, conceal financial misconduct, and deplete Timbaland’s valuable assets.\"",
+   "date": "2026-10-31T01:23:51.000Z",
+   "firstSeen": "2026-10-31T01:49:00.137Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "5fq1sy",
+   "title": "【影評】《泥面人》：「個體」被迫成為「他體」，肉體恐怖下的容貌焦慮與身體馴服",
+   "url": "https://www.thenewslens.com/article/270896",
+   "summary": "《泥面人》以肉體恐怖演繹好萊塢的容貌與身份焦慮，呼應傅柯的「馴服身體」；但女主角的選角，削弱了身心焦慮的戲劇張力。",
+   "date": "2026-10-31T00:59:00.000Z",
+   "firstSeen": "2026-10-31T01:49:00.137Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "5fq1sz",
+   "title": "91APP被駭事件後，企業IT該自問：我們準備讓AI接管到哪一步？",
+   "url": "https://www.thenewslens.com/article/270897",
+   "summary": "91APP事件凸顯傳統邊界防禦已不足，零信任原則為核心。面對AI自動化趨勢，企業須建立漸進式授權與問責機制，兼顧效率與控制權，避免因內部工具或AI失控造成風險。",
+   "date": "2026-10-31T00:58:00.000Z",
+   "firstSeen": "2026-10-31T01:49:00.137Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "5fq2ey",
+   "title": "53席繼續執政、67席卻難以組閣：以色列大選僵局映照出台灣民主脆弱之處",
+   "url": "https://www.thenewslens.com/article/270906",
+   "summary": "以色列大選投票率雖高，卻無陣營取得組閣多數。反對派因拒與阿拉伯政黨合作，致擁有多數席次也無法執政。此政治僵局反使納坦雅胡可能續任，凸顯政黨失去妥協能力，值得台灣借鑑。",
+   "date": "2026-10-31T00:57:00.000Z",
+   "firstSeen": "2026-10-31T01:49:00.137Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "5fq1sw",
+   "title": "算清代價再談擁核：英國綠黨不再全面反核，不代表核電就是答案",
+   "url": "https://www.thenewslens.com/article/270894",
+   "summary": "英國綠黨不再全面反核，但這不代表核電已經勝出。核電、再生能源與電網等方案，都該用同一套公開標準逐案檢驗，台灣也一樣。",
+   "date": "2026-10-31T00:56:00.000Z",
+   "firstSeen": "2026-10-31T01:49:00.137Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "1tk9808",
+   "title": "LAPD Arrests Two for Murder of Christina Downer, Sister to ‘SNL’ Writer Jimmy Fowlie",
+   "url": "https://www.hollywoodreporter.com/news/general-news/arrest-murder-christina-downer-snl-writer-jimmy-fowlie-1236744032",
+   "summary": "Police arrested Downer's boyfriend, Delorean Bijon Brandon, and Kaylee Nicole Markowski on Thursday.",
+   "date": "2026-10-31T00:48:27.000Z",
+   "firstSeen": "2026-10-31T01:49:00.137Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "epyvr2",
+   "title": "The Hollywood Reporter Wins 2026 Daytime Emmy Award",
+   "url": "https://www.hollywoodreporter.com/tv/tv-news/hollywood-reporter-wins-2026-daytime-emmy-award-1236744015",
+   "summary": "This was the third consecutive nomination for the 'Off Script' roundtable series, which has received a total of six nods over the past nine years.",
+   "date": "2026-10-31T00:46:06.000Z",
+   "firstSeen": "2026-10-31T01:49:00.137Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "1ayk2hv",
+   "title": "2 Arrested in Murder of ‘SNL’ Writer Jimmy Fowlie’s Sister",
+   "url": "https://www.thewrap.com/industry-news/public-policy-legal/lapd-arrests-two-suspects-snl-writer-jimmy-fowlie-sister",
+   "summary": "Christina Downer's boyfriend, Delorean Bijon Brandon, is among the individuals suspected of her murder The post 2 Arrested in Murder of ‘SNL’ Writer Jimmy Fowlie’s Sister appeared first on TheWrap.",
+   "date": "2026-10-31T00:45:33.000Z",
+   "firstSeen": "2026-10-31T01:49:00.137Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "xs439j",
+   "title": "Selma Blair Apologizes to People She ‘Hurt or Frightened’ After Plane Incident and Arrest",
+   "url": "https://www.thewrap.com/industry-news/public-policy-legal/selma-blair-apologizes-plane-incident-biting",
+   "summary": "The actress is facing a second-degree assault charge after allegedly injuring a flight attendant on an Oct. 11 flight The post Selma Blair Apologizes to People She ‘Hurt or Frightened’ After Plane Incident and Arrest appeared first on TheWrap.",
+   "date": "2026-10-31T00:41:53.000Z",
+   "firstSeen": "2026-10-31T01:49:00.137Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "l0lckv",
+   "title": "‘Fuxi: Four Tales of Feasting’ Review: Whimsical Chinese Film Explores Myth and History Through a Series of Tasty Treats",
+   "url": "https://www.hollywoodreporter.com/movies/movie-reviews/fuxi-four-tales-of-feasting-qiu-jiongjiong-1236743718",
+   "summary": "In Qiu Jiongjiong's latest, highly stylized sets and costumes contribute to a strange banquet of storytelling where food plays a key role.",
+   "date": "2026-10-31T00:36:53.000Z",
+   "firstSeen": "2026-10-31T01:49:00.137Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "1i8ke8d",
+   "title": "Selma Blair Apologizes for Plane Arrest: “Not One Day Have I Intended to Hurt or Frighten Anyone”",
+   "url": "https://www.hollywoodreporter.com/news/general-news/selma-blair-apologizes-plane-arrest-not-intended-hurt-anyone-1236744004",
+   "summary": "The actress was arrested at John F. Kennedy International Airport on Oct. 11 after an alleged incident on a Delta plane that resulted in two flight attendants being injured and one being sent to the hospital.",
+   "date": "2026-10-31T00:26:05.000Z",
+   "firstSeen": "2026-10-31T01:49:00.137Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "1wjj0w",
+   "title": "‘The Celebrity Traitors’ Season 2 Crowns Its Winners After Dramatic Finale",
+   "url": "https://www.hollywoodreporter.com/tv/tv-news/celebrity-traitors-season-2-winners-bbc-1236743967",
+   "summary": "The BBC reality series, hosted by Claudia Winkleman, wrapped its second installment Friday.",
+   "date": "2026-10-31T00:14:32.000Z",
+   "firstSeen": "2026-10-31T01:49:00.137Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "5fq2fq",
+   "title": "想結紮，為何還要別人點頭？《優生保健法》40年未解的生育控制網",
+   "url": "https://www.thenewslens.com/article/270911",
+   "summary": "現行《優生保健法》對結紮手術設下配偶同意與資格限制，侵害個人身體自主權。雖主管機關已提修正草案，擬回歸本人意願，但此過時法規的修訂至今延宕未決。",
+   "date": "2026-10-31T00:00:00.000Z",
+   "firstSeen": "2026-10-31T01:49:00.137Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "1vm3aww",
+   "title": "Japan’s Anime Industry Hits a Record High of $28 Billion in 2025",
+   "url": "https://www.hollywoodreporter.com/business/business-news/japan-anime-industry-revenue-28-billion-in-2025-1236743413",
+   "summary": "Anime saw growth in both foreign sales and the domestic market, driven in no small part by the huge global success of the latest 'Demon Slayer' movie",
+   "date": "2026-10-30T23:45:32.000Z",
+   "firstSeen": "2026-10-31T01:49:00.137Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "llrfqs",
+   "title": "Director of 1994 ‘Street Fighter’ Defends His Movie Amid Debate Over Its Comedy: “It’s Intentionally Funny”",
+   "url": "https://www.hollywoodreporter.com/movies/movie-features/street-fighter-director-1994-steven-de-souza-jokes-1236741401",
+   "summary": "\"The '94 version is apparently a serious drama,\" Steven E. de Souza quips to The Hollywood Reporter about social media reactions to the franchise's latest theatrical release.",
+   "date": "2026-10-30T23:36:17.000Z",
+   "firstSeen": "2026-10-31T01:49:00.137Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "45rmf8",
+   "title": "Tokyo: Milcho Manchevski on his Competition Film, Blacklisting and the Ills of Neo-Social Realism",
+   "url": "https://www.hollywoodreporter.com/movies/movie-features/milcho-manchevski-sister-brother-manhole-cover-interview-1236742443",
+   "summary": "The director, whose ‘Sister Brother Manhole Cover’ is in Tokyo International Film Festival’s main competition, holds forth on why mothers are such a presence in his stories and how he made his first full documentary despite his misgivings about the genre.",
+   "date": "2026-10-30T23:24:27.000Z",
+   "firstSeen": "2026-10-31T01:49:00.137Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "1vltahj",
+   "title": "Apple confirms its AI features reach China in December, with Qwen",
+   "url": "https://thenextweb.com/news/apple-intelligence-china-ios-27-3-alibaba-qwen",
+   "summary": "Apple says its first Apple Intelligence features will launch in China with iOS 27.3 in December, with a developer beta from 4 November. Alibaba’s Qwen model will work inside Siri, Writing Tools and Visual Intelligence. Siri AI and Apple’s newest features are not included. Apple will launch its first",
+   "date": "2026-10-30T23:24:25.000Z",
+   "firstSeen": "2026-10-31T01:49:00.137Z",
+   "source": "TNW",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://thenextweb.com"
+  },
+  {
+   "id": "q7ddt8",
+   "title": "Ana Navarro Compares Trump’s ‘Racism’ Against Abdul El-Sayed to John McCain vs. Obama",
+   "url": "https://www.thewrap.com/media-platforms/politics/ana-navarro-compares-trumps-racism-abdul-el-sayed-to-john-mccain-obama",
+   "summary": "\"Winning an election is not worth losing your soul, and Mike Rogers has proven that he has lost his soul,\" the \"View\" co-host says The post Ana Navarro Compares Trump’s ‘Racism’ Against Abdul El-Sayed to John McCain vs. Obama appeared first on TheWrap.",
+   "date": "2026-10-30T23:18:16.000Z",
+   "firstSeen": "2026-10-31T01:49:00.137Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "1xtfaca",
+   "title": "中国二手电动车闯欧洲，先撞上自己人",
+   "url": "https://www.huxiu.com/article/4901857.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/31/41311-prod-db-general-1-1793401884741.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>一家原本主打新车出口的中国汽车电商，正在把欧洲业务的重点转向二手车。这家平台叫China EV Marketplace，简称CEVM，是",
+   "date": "2026-10-30T23:12:54.000Z",
+   "firstSeen": "2026-10-31T01:49:00.137Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "140wtpj",
+   "title": "Databricks and SAP expand their deal to put AI on SAP data",
+   "url": "https://thenextweb.com/news/databricks-and-sap-expand-their-deal-to-put-ai-on-sap-data",
+   "summary": "Databricks and SAP are expanding their partnership, with Genie, Lakeflow, Unity Gateway and Lakebase coming to SAP Databricks. SAP’s new Application Data Foundation will make data from its business software easier to reach. No release dates were given. Databricks is bringing more of its AI and data ",
+   "date": "2026-10-30T23:12:34.000Z",
+   "firstSeen": "2026-10-31T01:49:00.137Z",
+   "source": "TNW",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://thenextweb.com"
+  },
+  {
+   "id": "1wps01d",
+   "title": "‘Daily Show’ Roasts Billionaire Tom Steyer as ‘Self-Hating Minority’ for Supporting California Wealth Tax",
+   "url": "https://www.thewrap.com/creative-content/tv-shows/daily-show-roasts-billionaire-tom-steyer-wealth-tax",
+   "summary": "The former gubernatorial candidate has repeatedly expressed his support for the proposition that would tax him by 5% The post ‘Daily Show’ Roasts Billionaire Tom Steyer as ‘Self-Hating Minority’ for Supporting California Wealth Tax appeared first on TheWrap.",
+   "date": "2026-10-30T23:12:16.000Z",
+   "firstSeen": "2026-10-31T01:49:00.137Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "1x64ha1",
+   "title": "印度高铁全面“去日本化”",
+   "url": "https://www.huxiu.com/article/4901856.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202610/31/41309-prod-nb2qn-general-1-1793401637140.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>印度首条高速铁路——全长508公里的孟买-艾哈迈达巴德高铁——于2015年宣布使用日本新干线技术，2017年由莫迪和安倍联合出席动",
+   "date": "2026-10-30T23:08:55.000Z",
+   "firstSeen": "2026-10-31T01:49:00.137Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "ork8gu",
+   "title": "The Celebrity Traitors final review – more muted but still thrilling to the last",
+   "url": "https://www.theguardian.com/tv-and-radio/2026/oct/30/the-celebrity-traitors-final-review-more-muted-but-still-thrilling-to-the-last",
+   "summary": "<p>The endgame came with perfect touches of turmoil, from last-minute wobbles to yet more wilful wrongness</p><p>They took it right down to the wire but in the end we finally got a moment of true treachery in this series of Celebrity Traitors where none of the contestants seemed to have understood t",
+   "date": "2026-10-30T23:01:58.000Z",
+   "firstSeen": "2026-10-31T01:49:00.137Z",
+   "source": "The Guardian",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.theguardian.com/uk/media"
+  },
+  {
+   "id": "1pbsh43",
+   "title": "S&P turns negative on Meta as AI spending eats into its cash",
+   "url": "https://thenextweb.com/news/meta-sp-outlook-negative-ai-spending",
+   "summary": "S&P lowered the outlook on Meta’s AA- credit rating to negative from stable, citing heavy AI spending. It expects Meta’s leverage to rise above 1.0x as soon as 2027, from about 0.1x last year. Meta says it disagrees. S&P Global Ratings has cut its outlook on Meta’s AA- credit rating to negative from",
+   "date": "2026-10-30T22:51:07.000Z",
+   "firstSeen": "2026-10-31T01:49:00.137Z",
+   "source": "TNW",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://thenextweb.com"
+  },
+  {
    "id": "1outu3w",
    "title": "iPhone 国行 AI 真的来了，千问成为 Siri 新搭档",
    "url": "https://www.ifanr.com/1686969",
@@ -951,6 +1275,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "en",
    "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "15h3h0o",
+   "title": "Q3: Roblox Boosts Revenue, Bets On AI Game Creation",
+   "url": "https://www.mediapost.com/publications/article/419134/q3-roblox-boosts-revenue-bets-on-ai-game-creatio.html",
+   "summary": "In its most recent earnings report, Roblox shows strong revenue growth and quarterly boosts alongside year-over-year decreases in bookings, users, and hours played.",
+   "date": "2026-10-30T21:38:51.000Z",
+   "firstSeen": "2026-10-31T01:49:00.137Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
   },
   {
    "id": "14dflqv",
@@ -1061,6 +1397,30 @@ window.NEWS_DATA = {
    "site": "https://www.thewrap.com"
   },
   {
+   "id": "1m6ag6y",
+   "title": "Ticker: Paula Reid Joins MS NOW as Chief White House Reporter",
+   "url": "https://www.adweek.com/tvnewser/ticker-paula-reid-joins-ms-now-as-chief-white-house-reporter",
+   "summary": "The fight for White House access continues with CNN, MS NOW, and Politico amending their initial lawsuit.",
+   "date": "2026-10-30T20:20:30.000Z",
+   "firstSeen": "2026-10-31T01:49:00.137Z",
+   "source": "Adweek",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.adweek.com"
+  },
+  {
+   "id": "slo47",
+   "title": "Apple To Court: Let Google Pay For Search Distribution",
+   "url": "https://www.mediapost.com/publications/article/419136/apple-to-court-let-google-pay-for-search-distribu.html",
+   "summary": "\"A payment ban would mean Apple would either distribute Google no cost, affording Google a massive windfall, or Apple would cease offering its users the highest quality product on the market, thereby harming consumer welfare and Apple's brand reputation,\" Apple argues.",
+   "date": "2026-10-30T20:17:33.000Z",
+   "firstSeen": "2026-10-31T01:49:00.137Z",
+   "source": "MediaPost",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.mediapost.com"
+  },
+  {
    "id": "afgktu",
    "title": "NFL’s $4.7 Billion ‘Sunday Ticket’ Antitrust Verdict Revived by Appeals Court",
    "url": "https://www.thewrap.com/industry-news/public-policy-legal/nfl-sunday-ticket-antitrust-verdict-appeals-court-damages-trial",
@@ -1145,6 +1505,18 @@ window.NEWS_DATA = {
    "site": "https://www.hollywoodreporter.com"
   },
   {
+   "id": "177757a",
+   "title": "Shakespeare to Star Trek: Patrick Stewart’s extraordinary life - The Latest",
+   "url": "https://www.theguardian.com/news/video/2026/oct/30/shakespeare-to-star-trek-patrick-stewarts-extraordinary-life-the-latest",
+   "summary": "<p>Tributes have poured in for Patrick Stewart, who has died aged 86. The distinguished actor had a long and varied career that began on stage with the Royal Shakespeare Company before going on to global stardom on the screen in the Star Trek and X-Men franchises. Stewart was born in Yorkshire in 19",
+   "date": "2026-10-30T19:04:02.000Z",
+   "firstSeen": "2026-10-31T01:49:00.137Z",
+   "source": "The Guardian",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.theguardian.com/uk/media"
+  },
+  {
    "id": "15bc3o4",
    "title": "The AI Search Measurement Gap Brands Must Close In 2027 And Beyond",
    "url": "https://www.searchenginejournal.com/the-ai-search-measurement-gap-brands-must-close-in-2027-and-beyond/593881",
@@ -1215,6 +1587,18 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://thenextweb.com"
+  },
+  {
+   "id": "1h3c2uw",
+   "title": "Russell Brand trial: accusers have ‘nothing to gain’ and were not led by media, court told",
+   "url": "https://www.theguardian.com/uk-news/2026/oct/30/russell-brand-trial-accusers-nothing-to-gain-media-court-told",
+   "summary": "<p>In closing speech, prosecutor says six women had ‘bravely’ come forward after realising they were not alone</p><p>Six women who have been “haunted” by their encounters with Russell Brand came forward to give evidence against him with nothing to gain and no appetite for fame, a court has heard.</p",
+   "date": "2026-10-30T18:04:24.000Z",
+   "firstSeen": "2026-10-31T01:49:00.137Z",
+   "source": "The Guardian",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.theguardian.com/uk/media"
   },
   {
    "id": "73otz2",
@@ -1575,6 +1959,18 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://www.seroundtable.com"
+  },
+  {
+   "id": "1h1ldjb",
+   "title": "'You look like hell': Trump blows up at reporter when asked about canceled events – video",
+   "url": "https://www.theguardian.com/us-news/video/2026/oct/30/trump-blows-up-at-reuters-reporter-when-asked-about-canceled-events-video",
+   "summary": "<p>Donald Trump attacked the appearance of a Reuters reporter and called him 'disgusting' after the reporter asked a question about the president's cancellation of two upcoming campaign events. A day later, Trump rescheduled the canceled rallies in Kansas and Iowa.</p><ul><li><p><a href=\"https://www",
+   "date": "2026-10-30T15:16:44.000Z",
+   "firstSeen": "2026-10-31T01:49:00.137Z",
+   "source": "The Guardian",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.theguardian.com/uk/media"
   },
   {
    "id": "1h96fo4",
@@ -44019,42 +44415,6 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://www.theguardian.com/uk/media"
-  },
-  {
-   "id": "by72eq",
-   "title": "付費買授權！Google 推 AI 新聞計畫，CNN、金融時報、Axios 等 400 多家媒體加入",
-   "url": "https://www.inside.com.tw/article/42654-google-ai-news-program-cnn-financial-times-axios-400-publishers-licensing",
-   "summary": "Google 的 AI 新聞計畫已有全球超過 400 家新聞業者加入，CNN、金融時報與 Axios 簽約，媒體授予更廣泛內容使用權，Google 付費，財務條款未公開。",
-   "date": "2026-10-17T01:12:00.000Z",
-   "firstSeen": "2026-10-19T03:37:33.468Z",
-   "source": "INSIDE",
-   "tier": "A",
-   "lang": "zh-TW",
-   "site": "https://www.inside.com.tw"
-  },
-  {
-   "id": "1yrzgp",
-   "title": "童書書房》讓耳朵和雙眼打開想像力！作家安魯比奧與插畫家克拉爾特以《嬉遊曲》榮獲西班牙國家兒童及青少年文學獎，及其他藝文短訊",
-   "url": "https://www.openbook.org.tw/article/p-73010",
-   "summary": "<div class=\"field field-name-field-image field-type-image field-label-hidden\"><div class=\"field-items\"><div class=\"field-item even\"><a href=\"/article/p-73010\"><img src=\"https://www.openbook.org.tw/sites/default/files/styles/full_post_image_xml/public/field/image/tong_shu_shu_fang_-zhu_tu__29.jpg?ito",
-   "date": "2026-10-17T01:00:00.000Z",
-   "firstSeen": "2026-10-19T03:37:33.468Z",
-   "source": "Openbook 閱讀誌",
-   "tier": "C",
-   "lang": "zh-TW",
-   "site": "https://www.openbook.org.tw"
-  },
-  {
-   "id": "nnakei",
-   "title": "Haters, Fans Weigh In On Tesla&#x27;s &#x27;Flying&#x27; Roadster",
-   "url": "https://www.mediapost.com/publications/article/418813/haters-fans-weigh-in-on-teslas-flying-roadster.html",
-   "summary": "Some critics are awed, but many blast the long-delayed reveal as so much \"vaporware.\"",
-   "date": "2026-10-17T00:03:35.000Z",
-   "firstSeen": "2026-10-19T17:09:59.929Z",
-   "source": "MediaPost",
-   "tier": "B",
-   "lang": "en",
-   "site": "https://www.mediapost.com"
   }
  ]
 };
