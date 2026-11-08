@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-07T22:17:23.186Z",
+ "generatedAt": "2026-11-08T01:50:12.300Z",
  "keepDays": 14,
  "sources": [
   {
@@ -88,9 +88,9 @@ window.NEWS_DATA = {
    "tier": "A",
    "lang": "en",
    "feed": "https://www.poynter.org/feed/",
-   "ok": true,
-   "error": null,
-   "count": 10
+   "ok": false,
+   "error": "HTTP 403",
+   "count": 0
   },
   {
    "name": "Movement For An Open Web",
@@ -881,6 +881,138 @@ window.NEWS_DATA = {
  ],
  "items": [
   {
+   "id": "gosky5",
+   "title": "WorkBuddy本地部署声音克隆TTS小模型",
+   "url": "https://www.woshipm.com/ai/6490530.html",
+   "summary": "上一篇聊过用 WorkBuddy 本地部署 OCR 小模型，这次换成一个轻量 TTS：Audio8 TTS 在 CPU 上就能跑，13 秒原声可以克隆出 9 秒配音，家用电脑不用独立显卡也能部署，提示词写完就开工。 上一篇文章给小伙伴安利了一个，可以使用WorkBuddy进行本地部署的OCR小模型之后，反响还不错。没看过的小伙伴可以回看：WorkBuddy本地部署超强OCR识别小模型 像很多小伙伴的家用或者办公电脑，一般配置都不高，即便有独立显卡的，大多也局限于显存8G及以内。所以参数量比较大的模型跑起来就很费劲，速度跟效果都不是很好。 一直以来老马都是不建议普通用户在本地折腾什么AI生图和生",
+   "date": "2026-11-08T01:40:42.000Z",
+   "firstSeen": "2026-11-08T01:50:12.300Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "1fv0rv1",
+   "title": "水電被榨乾！東南亞AI資料中心狂潮急踩煞車：泰國叫停166座專案、大馬柔佛禁建高耗水機房",
+   "url": "https://mashdigi.com/ai-data-center-southeast-asia-power-water-crisis",
+   "summary": "兼論美國期中選舉「藍潮」後科技巨頭的外逃迷思",
+   "date": "2026-11-08T01:00:41.000Z",
+   "firstSeen": "2026-11-08T01:50:12.300Z",
+   "source": "mashdigi",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://mashdigi.com"
+  },
+  {
+   "id": "r1sxek",
+   "title": "Trump says he asked Dana White, UFC boss, to be his new White House press secretary",
+   "url": "https://www.theguardian.com/us-news/2026/nov/07/donald-trump-dana-white-press-secretary",
+   "summary": "<p>White says he has meeting with Trump in Washington DC on Monday, without saying whether he will accept the job</p><p><a href=\"https://www.theguardian.com/us-news/donaldtrump\">Donald Trump</a> has offered the job of White House press secretary to Dana White, the chief executive of the Ultimate Fig",
+   "date": "2026-11-08T00:28:33.000Z",
+   "firstSeen": "2026-11-07T22:17:23.186Z",
+   "source": "The Guardian",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.theguardian.com/uk/media"
+  },
+  {
+   "id": "7r2ghi",
+   "title": "Camerimage Founder Marek Zydowicz on AI, Aronofsky and Why “Cinematographers Are Artists, Not Technicians”",
+   "url": "https://www.hollywoodreporter.com/movies/movie-news/camerimage-founder-marek-zydowicz-ai-aronofsky-cinematographers-1236749343",
+   "summary": "As Camerimage turns 34, its director explains how the world's leading festival on the art of cinematography continues to embrace new technology while drawing the line on fully AI-generated films.",
+   "date": "2026-11-08T00:11:43.000Z",
+   "firstSeen": "2026-11-08T01:50:12.300Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "1gqodvx",
+   "title": "禁「AI」改稱「SI」！美國司法部宣布成立超級智慧特別工作組：嚴打跨國詐騙與外國滲透",
+   "url": "https://mashdigi.com/doj-super-intelligence-task-force-si-policy",
+   "summary": "期中選舉後科技巨頭陷入「要不要跟著改口」的政治兩難",
+   "date": "2026-11-08T00:00:19.000Z",
+   "firstSeen": "2026-11-08T01:50:12.300Z",
+   "source": "mashdigi",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://mashdigi.com"
+  },
+  {
+   "id": "5fqmok",
+   "title": "敗選後不踩煞車：移民強硬派米勒接掌白宮幕僚長，預告川普最後兩年焦土戰",
+   "url": "https://www.thenewslens.com/article/271044",
+   "summary": "川普總統於期中選後更換幕僚長，以強硬派米勒取代懷爾斯。此人事佈局顯示白宮權力運作，從程序協調轉向意識形態貫徹，預示行政權將更集中，府會對峙格局加劇。",
+   "date": "2026-11-07T23:59:00.000Z",
+   "firstSeen": "2026-11-08T01:50:12.300Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "5fq2kh",
+   "title": "當街屠宰死鹿是行兇，餐廳吃牛排才文明？「肉食悖論」下的野生動物管理失靈",
+   "url": "https://www.thenewslens.com/article/270967",
+   "summary": "滿州老翁路邊分切路殺梅花鹿，遭網路公審。作者認同「物盡其用」，仍主張當街私宰須開罰，並指出台灣沒有路殺處置制度，網友卻只對一把菜刀憤怒。",
+   "date": "2026-11-07T23:58:00.000Z",
+   "firstSeen": "2026-11-08T01:50:12.300Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "5f7l46",
+   "title": "民主人權之路（上）：光州錦南路，見證518民主運動的血與淚",
+   "url": "https://www.thenewslens.com/article/269982",
+   "summary": "光州錦南路密集分布518民主化運動歷史遺跡。此等不義遺址，如原全南道廳、518民主廣場等，經由轉型正義工程保存，作為紀錄該事件關鍵歷史之實體證據。",
+   "date": "2026-11-07T23:57:00.000Z",
+   "firstSeen": "2026-11-08T01:50:12.300Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "5fq2hm",
+   "title": "81歲與73歲的距離：台灣邁入超高齡社會，原住民卻被排除在長壽之外？",
+   "url": "https://www.thenewslens.com/article/270933",
+   "summary": "臺灣邁入超高齡社會，原住民族平均餘命卻落後全國，凸顯健康不平等警訊。政府應落實《原住民族健康法》，制定具體政策縮短生命差距，實現真正的健康平權。",
+   "date": "2026-11-07T23:56:00.000Z",
+   "firstSeen": "2026-11-08T01:50:12.300Z",
+   "source": "關鍵評論網",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.thenewslens.com"
+  },
+  {
+   "id": "m06yn0",
+   "title": "芒果又赢麻了？",
+   "url": "https://www.huxiu.com/article/4903839.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/article/cover/202007/14/101930563625.jpg?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/jpg\" referrerpolicy=\"no-referrer\"></figure>继国内首部上星AIGC长剧《后西游记》后，短短几个月，芒果超媒再次拿到大结果。流量爆了，新综艺节目《后会友期》火爆出圈，成为2026年首部市占率破70%的新综艺；热度爆了，在微博、小红书、豆瓣等平台",
+   "date": "2026-11-07T23:31:56.000Z",
+   "firstSeen": "2026-11-08T01:50:12.300Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "enwp51",
+   "title": "‘I’ve Had It’ Podcasters Apologize for ‘Insensitive’ Charlie Kirk Joke as Advertisers Cut Ties",
+   "url": "https://www.thewrap.com/media-platforms/journalism/ive-had-it-podcasters-apologize-for-insensitive-charlie-kirk-joke-as-advertisers-cut-ties",
+   "summary": "Jennifer Welch and Angie \"Pumps\" Sullivan are in hot water after laughing at a tweet that made light of the conservative organizer's assassination The post ‘I’ve Had It’ Podcasters Apologize for ‘Insensitive’ Charlie Kirk Joke as Advertisers Cut Ties appeared first on TheWrap.",
+   "date": "2026-11-07T23:27:13.000Z",
+   "firstSeen": "2026-11-08T01:50:12.300Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
    "id": "11rrez1",
    "title": "The 3 Best Movies to Watch on Paramount+ This Week",
    "url": "https://www.thewrap.com/creative-content/what-to-watch/paramount-plus-best-movies-november-2-8",
@@ -939,18 +1071,6 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://www.hollywoodreporter.com"
-  },
-  {
-   "id": "r1sxek",
-   "title": "Trump says he asked Dana White, UFC boss, to be his new White House press secretary",
-   "url": "https://www.theguardian.com/us-news/2026/nov/07/donald-trump-dana-white-press-secretary",
-   "summary": "<p>President said the ‘violent Fighter and Warrior’ plus some UFC brawlers would ‘defend us from the Lunatic Left’</p><p><a href=\"https://www.theguardian.com/us-news/donaldtrump\">Donald Trump</a> has offered the job of White House press secretary to Dana White, the chief executive of the Ultimate Fi",
-   "date": "2026-11-07T19:51:32.000Z",
-   "firstSeen": "2026-11-07T22:17:23.186Z",
-   "source": "The Guardian",
-   "tier": "C",
-   "lang": "en",
-   "site": "https://www.theguardian.com/uk/media"
   },
   {
    "id": "iw06mo",
@@ -1097,6 +1217,18 @@ window.NEWS_DATA = {
    "site": "https://www.huxiu.com"
   },
   {
+   "id": "1ofm5cl",
+   "title": "拒絕使用舊款NVIDIA晶片！微軟不再續簽甲骨文AI算力租約，重新評估逾800億美元第三方雲端合作",
+   "url": "https://mashdigi.com/microsoft-cuts-nvidia-gpu-lease-oracle-neocloud-strategy",
+   "summary": "甲骨文強調市場對其AI基礎設施 (含舊世代GPU)需求依然強勁",
+   "date": "2026-11-07T16:00:27.000Z",
+   "firstSeen": "2026-11-08T01:50:12.300Z",
+   "source": "mashdigi",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://mashdigi.com"
+  },
+  {
    "id": "1q4t0ii",
    "title": "一个让家庭生产力翻倍的分工原则：众神归位",
    "url": "https://www.huxiu.com/article/4903855.html",
@@ -1182,9 +1314,9 @@ window.NEWS_DATA = {
   },
   {
    "id": "th10pk",
-   "title": "Rank Data Problems, PageSpeed Scores & AI Training Opt-Out – SEO Pulse",
+   "title": "Google Rank Data Issues, Lighthouse Update & AI Opt-Out – SEO Pulse",
    "url": "https://www.searchenginejournal.com/seo-pulse-rank-data-problems-pagespeed-scores-ai-training-opt-out/596104",
-   "summary": "Rank data may carry one-word results and redirect URLs. Other updates cover PageSpeed lab scores, a shared AI training opt-out, technical SEO and AI search. The post Rank Data Problems, PageSpeed Scores & AI Training Opt-Out – SEO Pulse appeared first on Search Engine Journal.",
+   "summary": "Rank data may carry one-word results and redirect URLs. Other updates cover PageSpeed lab scores, a shared AI training opt-out, technical SEO and AI search. The post Google Rank Data Issues, Lighthouse Update & AI Opt-Out – SEO Pulse appeared first on Search Engine Journal.",
    "date": "2026-11-07T13:00:00.000Z",
    "firstSeen": "2026-11-07T22:17:23.186Z",
    "source": "Search Engine Journal",
@@ -1227,6 +1359,18 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://thenextweb.com"
+  },
+  {
+   "id": "1nfbc61",
+   "title": "‘Life is like a heartbeat. It’s up and down, up and down’: Michelle Yeoh on casting cliches, marriage at 60 and playing a robot in Blade Runner 2099",
+   "url": "https://www.theguardian.com/film/2026/nov/07/michelle-yeoh-interview-blade-runner-2099-everything-everywhere-oscar",
+   "summary": "<p>Ballet dancer, action hero, Bond girl ... The actor won an Oscar for Everything Everywhere All At Once but she’s been through some challenges on the way</p><p>Before agreeing to appear in Blade Runner 2099, Michelle Yeoh received a letter – “an amazing letter, a love letter” – from Silka Luisa, t",
+   "date": "2026-11-07T12:00:10.000Z",
+   "firstSeen": "2026-11-08T01:50:12.300Z",
+   "source": "The Guardian",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.theguardian.com/uk/media"
   },
   {
    "id": "5fqmks",
@@ -2202,7 +2346,7 @@ window.NEWS_DATA = {
   },
   {
    "id": "1pr6ij4",
-   "title": "拒絕冷冰對話框！Airbnb預告2027上半年推出「AI旅遊代理」：，一站式包辦住宿、租車與行程預訂",
+   "title": "拒絕冷冰對話框！Airbnb預告2027上半年推出「AI旅遊代理」，一站式包辦住宿、租車與行程預訂",
    "url": "https://mashdigi.com/airbnb-ai-travel-agent-generative-ui",
    "summary": "根據提問即時生成專屬互動介面",
    "date": "2026-11-07T00:00:47.000Z",
@@ -5816,7 +5960,7 @@ window.NEWS_DATA = {
    "id": "8q37x6",
    "title": "Meta, TikTok and Google push back on California law",
    "url": "https://www.socialmediatoday.com/news/meta-tiktok-and-google-push-back-on-california-law/873955",
-   "summary": "<figure><div><img src=\"https://imgproxy.divecdn.com/aCerhjVtf0rL9-EBBXJk232O9LhqNmhWaBGoQ_dv1Ms/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xMzMzNzM1OTk3LmpwZw==.webp\"/></div></figure><p>The companies are arguing that a new law set to take effect next year viol",
+   "summary": "<figure><div><img src=\"https://imgproxy.divecdn.com/aCerhjVtf0rL9-EBBXJk232O9LhqNmhWaBGoQ_dv1Ms/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0xMzMzNzM1OTk3LmpwZw==.webp\"/></div></figure><p>The online giants are arguing that a new law set to take effect next year ",
    "date": "2026-11-05T22:57:37.000Z",
    "firstSeen": "2026-11-06T12:29:31.075Z",
    "source": "Social Media Today",
@@ -43611,138 +43755,6 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-TW",
    "site": "https://mashdigi.com"
-  },
-  {
-   "id": "6ohoy2",
-   "title": "全民“戒断”红果，可能吗？",
-   "url": "https://www.woshipm.com/it/6483664.html",
-   "summary": "红果短剧日活近2亿，人均使用时长超抖音微信，成为全民级注意力黑洞。备考党反复卸载又安装，文青四天沦陷，这场对抗工业级成瘾机制的战争，暴露的不仅是产品设计的人性收割，更是高压时代下快乐分层的社会困境。 这段时间，关于红果的争议越来越多。 10月14日前后，多个与红果有关的词条冲上微博热搜榜，例如“红果短剧降智”、“红果短剧千万别下载”、“腾讯打算拿什么撬动红果近2亿日活”、“红果短剧同质化”、“红果短剧防沉迷”…… 再往前，贾樟柯、王朔等一众文匠代表公开表示自己正沉迷短剧、短视频，引发了整个文青圈集体“大悲泣”，总之，移动互联网发展到至今，以红果为代表的短剧APP已经渗透到全民阵营，且愈演愈烈。",
-   "date": "2026-10-25T01:31:08.000Z",
-   "firstSeen": "2026-10-25T09:24:44.906Z",
-   "source": "woshipm",
-   "tier": "B",
-   "lang": "zh-CN",
-   "site": "https://www.woshipm.com"
-  },
-  {
-   "id": "2agyam",
-   "title": "50条血的教训：培养错了人，比招错人更可怕",
-   "url": "https://www.woshipm.com/zhichang/6479439.html",
-   "summary": "为什么我花了大价钱培养的员工，转头就去了竞争对手那里？为什么招的人看起来履历光鲜，实际干活却一塌糊涂？小公司每一分钱、每一分钟都要花在刀刃上，培养错了人比招错人更可怕。 “为什么我花了大价钱培养的员工，转头就去了竞争对手那里？” “为什么我招的人，看起来履历光鲜，实际干活却一塌糊涂？” “为什么我的团队总是内耗不断，老板天天当救火队长？” 如果你是小公司老板，这些问题一定像针一样扎在心上。小公司不像大厂，有充足的预算和时间去试错，我们的每一分钱、每一分钟，都要花在刀刃上。 很多老板陷入一个误区：“招人难，不如自己培养”。但现实是，培养错了人，比招错人更可怕——你不仅浪费了工资，还错过了市场机会",
-   "date": "2026-10-25T01:12:40.000Z",
-   "firstSeen": "2026-10-25T09:24:44.906Z",
-   "source": "woshipm",
-   "tier": "B",
-   "lang": "zh-CN",
-   "site": "https://www.woshipm.com"
-  },
-  {
-   "id": "5869pp",
-   "title": "Xbox高價嚇跑Netflix獨佔影視合約、營運長閃辭，Game Pass傳將改為「自由選配」挽救訂閱頹勢",
-   "url": "https://mashdigi.com/xboxs-high-priced-offer-scared-away-netflixs-exclusive-film-and-television-contracts-and-its-coo-resigned-abruptly-game-pass-is-rumored-to-be-changing-to-an-optional-subscription-model-to-sa",
-   "summary": "自從前任掌門人Phil Spencer與總裁Sarah Bond於今年2月雙雙離職、由Asha Sharma接 […]",
-   "date": "2026-10-25T00:00:38.000Z",
-   "firstSeen": "2026-10-25T09:24:44.906Z",
-   "source": "mashdigi",
-   "tier": "B",
-   "lang": "zh-TW",
-   "site": "https://mashdigi.com"
-  },
-  {
-   "id": "5fpz87",
-   "title": "【科幻小說】藤井太洋《人類》：2045年，如果連你出生的目的都已被設計",
-   "url": "https://www.thenewslens.com/article/270570",
-   "summary": "本文探討AI事實認證的倫理風險。小說《人類》描寫系統能依個人身分執行演算法審查，阻擋資訊流通。此舉對資訊完整性構成挑戰，並質疑由誰定義「事實」。",
-   "date": "2026-10-24T23:59:00.000Z",
-   "firstSeen": "2026-10-25T00:31:32.652Z",
-   "source": "關鍵評論網",
-   "tier": "C",
-   "lang": "zh-TW",
-   "site": "https://www.thenewslens.com"
-  },
-  {
-   "id": "5fpy9k",
-   "title": "道義責任與國家信譽：那些被遺忘的「少康專案」情報員們",
-   "url": "https://www.thenewslens.com/article/270427",
-   "summary": "「少康專案」情報人員犧牲奉獻，事後卻未獲妥善安置與補償。此舉不僅傷害當事人，更可能影響未來情蒐招募，損及國安。政府應正視此問題，徹查並完善相關人員的善後機制。",
-   "date": "2026-10-24T23:58:00.000Z",
-   "firstSeen": "2026-10-25T00:31:32.652Z",
-   "source": "關鍵評論網",
-   "tier": "C",
-   "lang": "zh-TW",
-   "site": "https://www.thenewslens.com"
-  },
-  {
-   "id": "5fpz4j",
-   "title": "AI自主代理越界，誰有權說不？美國雙軌治理下，台灣不能退讓的「停機決定權」",
-   "url": "https://www.thenewslens.com/article/270530",
-   "summary": "AI自主代理的預期外行為凸顯治理挑戰。當AI能直接行動，需建立可追溯的監督機制，並由人類負責價值裁決與最終權責，以管控現實世界風險。",
-   "date": "2026-10-24T23:57:00.000Z",
-   "firstSeen": "2026-10-25T00:31:32.652Z",
-   "source": "關鍵評論網",
-   "tier": "C",
-   "lang": "zh-TW",
-   "site": "https://www.thenewslens.com"
-  },
-  {
-   "id": "5fq04i",
-   "title": "10月25日的歷史巧合：台灣光復與古寧頭戰役，給我們留下了什麼？",
-   "url": "https://www.thenewslens.com/article/270698",
-   "summary": "本文省思「臺灣光復」的複雜意涵。光復喜悅伴隨威權悲劇，其真義在於後續人民奮鬥奠定之民主自由，使臺灣走出自己的路，不必在中華文化與普世價值間抉擇。",
-   "date": "2026-10-24T23:56:00.000Z",
-   "firstSeen": "2026-10-25T00:31:32.652Z",
-   "source": "關鍵評論網",
-   "tier": "C",
-   "lang": "zh-TW",
-   "site": "https://www.thenewslens.com"
-  },
-  {
-   "id": "1mch9oh",
-   "title": "Inde Navarrette Teases Her Rogue Southern Accent for New ‘X-Men’ Film: “Sugar!”",
-   "url": "https://www.hollywoodreporter.com/movies/movie-news/inde-navarrette-rogue-southern-accent-x-men-film-1236739602",
-   "summary": "She'll star in the MCU reboot alongside Sadie Sink (Jean Grey), Kit Connor (Cyclops), Christopher Abbott (Prof. X), Samara Weaving (Emma Frost), Inde Navarrette (Rogue), Maya Boyd (Storm), Asa Germann (Angel) and Adam Driver (Mr. Sinister).",
-   "date": "2026-10-24T23:32:26.000Z",
-   "firstSeen": "2026-10-25T00:31:32.652Z",
-   "source": "The Hollywood Reporter",
-   "tier": "C",
-   "lang": "en",
-   "site": "https://www.hollywoodreporter.com"
-  },
-  {
-   "id": "155wahn",
-   "title": "Emily Osment Asked for Intimacy Coordinator Over ‘Uncomfortable’ Age Gap With Co-Star on ‘Young Sheldon’",
-   "url": "https://www.thewrap.com/creative-content/tv-shows/emily-osment-intimacy-coordinator-young-sheldon-age-gap-montana-jordan",
-   "summary": "“He was a baby! A baby with a mullet,” the actress recalls The post Emily Osment Asked for Intimacy Coordinator Over ‘Uncomfortable’ Age Gap With Co-Star on ‘Young Sheldon’ appeared first on TheWrap.",
-   "date": "2026-10-24T23:19:15.000Z",
-   "firstSeen": "2026-10-25T00:31:32.652Z",
-   "source": "TheWrap",
-   "tier": "B",
-   "lang": "en",
-   "site": "https://www.thewrap.com"
-  },
-  {
-   "id": "rgpn91",
-   "title": "一张6元小卡，凭什么硬控00后？",
-   "url": "https://www.huxiu.com/article/4900169.html",
-   "summary": "<figure><img src=\"https://img.huxiucdn.com/article/content/2026/10/24/211613233253.jpg?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/jpg\" referrerpolicy=\"no-referrer\"></figure>出品｜虎嗅商业消费组作者｜刘纾含编辑｜苗正卿题图｜Hitcard这两年，国产剧的剧照开始做成卡牌“按包卖”了。以今秋最火古装剧《兰香如故》为例，剧集热播期间，腾讯视频联合 Hitcard 推出",
-   "date": "2026-10-24T23:00:01.000Z",
-   "firstSeen": "2026-10-25T00:31:32.652Z",
-   "source": "虎嗅网",
-   "tier": "B",
-   "lang": "zh-CN",
-   "site": "https://www.huxiu.com"
-  },
-  {
-   "id": "tk38to",
-   "title": "10 Best Halloween Movies You Can Stream Right Now",
-   "url": "https://www.thewrap.com/creative-content/movies/best-halloween-movies-to-stream-right-now-2026",
-   "summary": "From \"Trick 'R Treat\" to \"Hocus Pocus\" The post 10 Best Halloween Movies You Can Stream Right Now appeared first on TheWrap.",
-   "date": "2026-10-24T22:30:00.000Z",
-   "firstSeen": "2026-10-25T00:31:32.652Z",
-   "source": "TheWrap",
-   "tier": "B",
-   "lang": "en",
-   "site": "https://www.thewrap.com"
   }
  ]
 };
