@@ -5,7 +5,11 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
-const KEEP_DAYS = 14;        // 只保留近 14 天，超過的每次執行都會被丟掉，檔案不會無限長大
+// 只保留近 7 天，超過的每次執行都會被丟掉，檔案不會無限長大。
+// 原本設 14 天，但實測一天進 250 篇左右、news.js 長到 2.4 MB，
+// 每兩小時 commit 一次的話倉庫一個月會長 36 MB。改成 7 天可省掉 54%。
+// 蒐集台平常只看「昨天和今天」，往回一週已經夠用。
+const KEEP_DAYS = 7;
 const TIMEOUT_MS = 20000;
 const CONCURRENCY = 6;
 
@@ -170,6 +174,15 @@ async function mapLimit(list, limit, fn) {
   return results;
 }
 
+// 上一份 news.js 的原始文字，用來判斷這次抓完有沒有真的變化
+async function loadPreviousRaw() {
+  try {
+    return await readFile(join(ROOT, 'news.js'), 'utf8');
+  } catch {
+    return '';
+  }
+}
+
 async function loadPrevious() {
   // 沿用上一份資料：某個來源今天臨時掛掉時，既有文章不會整批消失
   try {
@@ -244,10 +257,22 @@ async function main() {
   // 寫成 .js 而不是 .json：用 <script> 載入不受 CORS 限制，
   // 直接把檔案存到桌面點兩下打開也能正常運作
   const js = `window.NEWS_DATA = ${JSON.stringify(payload, null, 1)};\n`;
-  await writeFile(join(ROOT, 'news.js'), js, 'utf8');
+
+  // 排程改成每兩小時一次之後，有些時段（半夜、週末）其實一篇新文章都沒有。
+  // 這種時候如果照寫不誤，generatedAt 每次都不一樣，git 還是會存一版兩百多 KB 的
+  // 差異，倉庫白白長大。所以先比對「扣掉時間戳、扣掉各來源篇數」的內容，
+  // 真的有變化才覆寫 —— 沒變化就讓檔案原封不動，workflow 那邊自然不會 commit。
+  // 篇數（count）只是 feed 視窗滑動造成的，不算內容變化，一起排除。
+  const meaningful = (s) =>
+    s.replace(/"generatedAt":\s*"[^"]*"/, '').replace(/"count":\s*\d+/g, '');
+  const previousRaw = await loadPreviousRaw();
+  const unchanged = previousRaw && meaningful(previousRaw) === meaningful(js);
+
+  if (!unchanged) await writeFile(join(ROOT, 'news.js'), js, 'utf8');
 
   const failed = payload.sources.filter((s) => !s.ok);
-  console.log(`\n完成：${items.length} 篇文章，來源成功 ${payload.sources.length - failed.length}/${payload.sources.length}`);
+  const tail = unchanged ? '（內容與上次相同，這次不更新檔案）' : '';
+  console.log(`\n完成：${items.length} 篇文章，來源成功 ${payload.sources.length - failed.length}/${payload.sources.length}${tail}`);
   if (failed.length) console.log('失敗來源：' + failed.map((s) => `${s.name}(${s.error})`).join('、'));
 }
 
