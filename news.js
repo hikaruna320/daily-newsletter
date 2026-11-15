@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-15T17:24:23.786Z",
+ "generatedAt": "2026-11-15T23:10:39.802Z",
  "keepDays": 7,
  "sources": [
   {
@@ -81,7 +81,7 @@ window.NEWS_DATA = {
    "feed": "https://www.semafor.com/rss.xml",
    "ok": true,
    "error": null,
-   "count": 4
+   "count": 5
   },
   {
    "name": "Poynter",
@@ -144,7 +144,7 @@ window.NEWS_DATA = {
    "feed": "https://techorange.com/feed/",
    "ok": true,
    "error": null,
-   "count": 18
+   "count": 17
   },
   {
    "name": "mashdigi",
@@ -268,9 +268,9 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "zh-CN",
    "feed": "https://decemberpei.cyou/rssbox/pingwest.xml",
-   "ok": true,
-   "error": null,
-   "count": 24
+   "ok": false,
+   "error": "解析不到文章",
+   "count": 0
   },
   {
    "name": "TNW",
@@ -881,6 +881,222 @@ window.NEWS_DATA = {
  ],
  "items": [
   {
+   "id": "xkv4sl",
+   "title": "Sean Duffy Says ‘I Don’t Apologize’ for Friday’s Nationwide Ground Stop",
+   "url": "https://www.thewrap.com/media-platforms/journalism/sean-duffy-i-cant-apologize-air-traffic-control-ground-stop-meet-the-press",
+   "summary": "The transportation secretary argues that decades of underinvestment has left the nation's air traffic control system in need of a major overhaul The post Sean Duffy Says ‘I Don’t Apologize’ for Friday’s Nationwide Ground Stop appeared first on TheWrap.",
+   "date": "2026-11-15T22:57:32.000Z",
+   "firstSeen": "2026-11-15T23:10:39.802Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "ughz9x",
+   "title": "【333 Robots Community Meetup】女媧創造、鴻海談機器人進場：真正難的是剩下那 5%",
+   "url": "https://techorange.com/2026/11/16/333-robots-community-meetup-october",
+   "summary": "機器人能在 Demo 中完成任務，搬進飯店、餐廳或工廠後，卻不代表就能直接開始工作。它可能遇到關著的自動門，也可能因為速度、定位精度或少數失敗，無法符合產線要求。 333 Robots Community Meetup 10 月場，就從這些真實場域問題出發。女媧創造營運長張智傑分享服務型與工業型機器人的導入經驗，鴻海科技集團機器人事業處總經理郭柳宗則從工業人形機器人切入。兩人的場景不同，但都把焦點從「機器人能不能做」往前推一步：當它真的進入工作現場，環境、流程、人員分工與少數例外，往往才是能不能長期運作的關鍵。 333 Robots Community Meetup 由鴻海科技集團、科技報橘與",
+   "date": "2026-11-15T22:00:00.000Z",
+   "firstSeen": "2026-11-15T23:10:39.802Z",
+   "source": "TechOrange",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://buzzorange.com/techorange/"
+  },
+  {
+   "id": "h9scb3",
+   "title": "‘The Good Daughter’ Finale: Rose Byrne and Meghann Fahy Unpack ‘Revelatory’ Ending and if the Truth Will Ever Come Out",
+   "url": "https://www.thewrap.com/creative-content/tv-shows/the-good-daughter-finale-interview-rose-byrne-meghann-fahy",
+   "summary": "Creator Karin Slaughter also tells TheWrap about parallels with the Cornell 7 case and if the Peacock drama could continue The post ‘The Good Daughter’ Finale: Rose Byrne and Meghann Fahy Unpack ‘Revelatory’ Ending and if the Truth Will Ever Come Out appeared first on TheWrap.",
+   "date": "2026-11-15T21:55:24.000Z",
+   "firstSeen": "2026-11-15T23:10:39.802Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "17h2vb8",
+   "title": "Russell Brand Accuser Waives Anonymity, Calls for Changes to UK Age of Consent Laws",
+   "url": "https://www.thewrap.com/culture-lifestyle/culture/russell-brand-accuser-mia-latter-waives-anonymity-age-of-consent-laws",
+   "summary": "Mia Latter, previously identified as \"Alice,\" alleges Brand raped her when she was 16 and is speaking publicly to push for legal protections for teenagers The post Russell Brand Accuser Waives Anonymity, Calls for Changes to UK Age of Consent Laws appeared first on TheWrap.",
+   "date": "2026-11-15T21:11:38.000Z",
+   "firstSeen": "2026-11-15T23:10:39.802Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "1luxcyl",
+   "title": "Billy Idol Rebels, Phil Collins Gets Emotional and Rick Rubin Clones Invade the Rock Hall Induction Ceremony",
+   "url": "https://www.hollywoodreporter.com/music/music-news/rock-and-roll-hall-of-fame-2026-ceremony-recap-1236755715",
+   "summary": "Chris Rock roasted Diddy, Jack Black toasted Iron Maiden's no-show and Gwen Stefani sang with her teenage idol as the 2026 Rock & Roll Hall of Fame induction turned into a glorious, generation-scrambling mess.",
+   "date": "2026-11-15T21:02:14.000Z",
+   "firstSeen": "2026-11-15T23:10:39.802Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "fu7se0",
+   "title": "The 3 Best Movies to Watch on Prime Video This Week",
+   "url": "https://www.thewrap.com/creative-content/what-to-watch/best-movies-prime-video-this-week-nov-15-21",
+   "summary": "From a brand new release to a parody of an old favorite The post The 3 Best Movies to Watch on Prime Video This Week appeared first on TheWrap.",
+   "date": "2026-11-15T21:00:00.000Z",
+   "firstSeen": "2026-11-15T23:10:39.802Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "71xoe8",
+   "title": "Danny Boyle Says Next ‘28 Years Later’ Movie Is Written for Cillian Murphy, but ‘We’ve Got to Raise the Money’",
+   "url": "https://www.thewrap.com/creative-content/movies/danny-boyle-28-years-later-cillian-murphy-update",
+   "summary": "The \"Ink\" director praised Alex Garland's \"fantastic\" script, but the trilogy capper remains in limbo despite being greenlit last winter The post Danny Boyle Says Next ‘28 Years Later’ Movie Is Written for Cillian Murphy, but ‘We’ve Got to Raise the Money’ appeared first on TheWrap.",
+   "date": "2026-11-15T20:34:04.000Z",
+   "firstSeen": "2026-11-15T23:10:39.802Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "78shj4",
+   "title": "Billy Evans Reacts to Amanda Seyfried’s Portrayal of Elizabeth Holmes in ‘You Can See Everything’",
+   "url": "https://www.hollywoodreporter.com/movies/movie-news/billy-evans-reacts-amanda-seyfried-portrayal-elizabeth-holmes-1236755698",
+   "summary": "Seyfried, who previously played the disgraced Theranos founder in 'The Dropout,' makes a surprise appearance in the A24 documentary.",
+   "date": "2026-11-15T20:31:32.000Z",
+   "firstSeen": "2026-11-15T23:10:39.802Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "24p1ep",
+   "title": "Jensen Huang is discussing a return to Nvidia, FT reports",
+   "url": "https://thenextweb.com/news/jensen-huang-is-discussing-a-return-to-nvidia-ft-reports",
+   "summary": "Jensen Huang has been discussing a possible comeback as Nvidia’s chief executive, days after the board pushed him out, the Financial Times reported. Bloomberg relayed the report on Sunday. Huang resigned on Thursday. He had admitted an affair with Alice Huang, whom US officials suspect of spying for",
+   "date": "2026-11-15T20:22:54.000Z",
+   "firstSeen": "2026-11-15T23:10:39.802Z",
+   "source": "TNW",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://thenextweb.com"
+  },
+  {
+   "id": "4nx48y",
+   "title": "‘Silicon Valley’ showrunner on how the HBO comedy predicted today’s tech drama",
+   "url": "https://www.semafor.com/article/11/13/2026/silicon-valley-showrunner-on-how-the-hbo-comedy-predicted-todays-silicon-valley-drama",
+   "summary": "A year before the iconic show debuted on HBO, the writer Alec Berg met the show’s creator, Mike Judge, in an anonymous Santa Monica office.",
+   "date": "2026-11-15T20:09:22.000Z",
+   "firstSeen": "2026-11-15T23:10:39.802Z",
+   "source": "Semafor",
+   "tier": "A",
+   "lang": "en",
+   "site": "https://www.semafor.com/vertical/media"
+  },
+  {
+   "id": "k5ls4",
+   "title": "Baby2Baby Gala Fetes Demi Moore and Raises Over $20M for the Cause",
+   "url": "https://www.hollywoodreporter.com/lifestyle/lifestyle-news/baby2baby-gala-demi-moore-raises-20-million-1236755662",
+   "summary": "Kerry Washington, Keke Palmer, Ciara, Chrissy Teigen, Jessica Alba, Jenna Dewan, Julie Bowen, Katy Perry and Kelly Rowland also took part in Saturday's star-studded event.",
+   "date": "2026-11-15T19:40:34.000Z",
+   "firstSeen": "2026-11-15T23:10:39.802Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "eyz0wn",
+   "title": "‘Harry Potter’ HBO Series Drops Hogwarts Banquet First Look, Gets Trolled for ‘Not Hitting the Mark’",
+   "url": "https://www.thewrap.com/creative-content/tv-shows/harry-potter-hbo-series-banquet-scene-first-look-trolled-david-ellison",
+   "summary": "Skydance CEO David Ellison’s social media preview of the TV adaptation faces backlash The post ‘Harry Potter’ HBO Series Drops Hogwarts Banquet First Look, Gets Trolled for ‘Not Hitting the Mark’ appeared first on TheWrap.",
+   "date": "2026-11-15T19:38:38.000Z",
+   "firstSeen": "2026-11-15T23:10:39.802Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "1ox22lv",
+   "title": "A Man Has Just Retired, But the Government Insists He Is Dead. Welcome to ‘When I Existed’! (Exclusive Trailer, Plus Chat With the Directors)",
+   "url": "https://www.hollywoodreporter.com/movies/movie-news/tallinn-film-satire-when-i-existed-uruguay-pensioner-dead-1236753960",
+   "summary": "Uruguayan writers-directors Alejandro Damiani and Martin Avdolov discuss their feature debut, premiering at Tallinn, full of black humor. Plus, watch the exclusive trailer. Kafka sends his regards!",
+   "date": "2026-11-15T19:12:00.000Z",
+   "firstSeen": "2026-11-15T23:10:39.802Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "1jrp5iv",
+   "title": "Soho House Creator Nick Jones Is Reinventing the Hotel — Again",
+   "url": "https://www.hollywoodreporter.com/lifestyle/lifestyle-news/soho-house-creator-nick-jones-new-london-hotel-st-clement-1236753229",
+   "summary": "The hospitality pioneer is back with St. Clement, the U.K. capital’s buzziest launch of 2026, already attracting rock stars, film icons and the fashion set. Does it deliver on the hype?",
+   "date": "2026-11-15T19:00:00.000Z",
+   "firstSeen": "2026-11-15T23:10:39.802Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
+   "id": "1yd4rvl",
+   "title": "Billy Evans Defends Himself Against ‘Controlling Monster’ Portrayal in ‘You Can See Everything’ Documentary",
+   "url": "https://www.thewrap.com/creative-content/movies/billy-evans-defends-himself-not-controlling-monster-cbs-interview",
+   "summary": "In his first televised interview, Evans discusses the backlash to the documentary and why he has no regrets about participating The post Billy Evans Defends Himself Against ‘Controlling Monster’ Portrayal in ‘You Can See Everything’ Documentary appeared first on TheWrap.",
+   "date": "2026-11-15T18:59:10.000Z",
+   "firstSeen": "2026-11-15T23:10:39.802Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "1lr8gus",
+   "title": "Hundreds of thousands of Czechs protest in Prague over media freedom",
+   "url": "https://www.theguardian.com/world/2026/nov/15/czechia-protest-prague-media-freedom",
+   "summary": "<p>Estimated 350,000 people rally against plan to scrap licence fees and fund broadcasters from state budget</p><p>Hundreds of thousands of Czechs have rallied in Prague to protest against a perceived government attempt to stifle media freedom.</p><p>The gathering on Sunday to save the mandatory lic",
+   "date": "2026-11-15T18:20:36.000Z",
+   "firstSeen": "2026-11-15T17:24:23.786Z",
+   "source": "The Guardian",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.theguardian.com/uk/media"
+  },
+  {
+   "id": "1tvdr5q",
+   "title": "The 3 Best Movies to Watch on Netflix This Week",
+   "url": "https://www.thewrap.com/creative-content/what-to-watch/best-movies-on-netflix-nov-13-15",
+   "summary": "Including \"Looper\" and \"The Wonder\" The post The 3 Best Movies to Watch on Netflix This Week appeared first on TheWrap.",
+   "date": "2026-11-15T18:00:00.000Z",
+   "firstSeen": "2026-11-15T23:10:39.802Z",
+   "source": "TheWrap",
+   "tier": "B",
+   "lang": "en",
+   "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "1viv33h",
+   "title": "Pitch Perfect: The 20 Best Music Schools in the World",
+   "url": "https://www.hollywoodreporter.com/music/music-features/best-music-schools-world-1236752338",
+   "summary": "From Juilliard and USC to Berklee and Eastman, these are the programs and conservatories training the next generation of Hollywood composers.",
+   "date": "2026-11-15T18:00:00.000Z",
+   "firstSeen": "2026-11-15T23:10:39.802Z",
+   "source": "The Hollywood Reporter",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.hollywoodreporter.com"
+  },
+  {
    "id": "191yino",
    "title": "直板手机屏幕不够用？华为Mate X7折叠旗舰体验升级，购机好礼加码",
    "url": "https://www.pingwest.com/w/319566",
@@ -953,18 +1169,6 @@ window.NEWS_DATA = {
    "site": "https://thenextweb.com"
   },
   {
-   "id": "1lr8gus",
-   "title": "Hundreds of thousands of Czechs protest in Prague over media freedom",
-   "url": "https://www.theguardian.com/world/2026/nov/15/czechia-protest-prague-media-freedom",
-   "summary": "<p>Estimated 350,000 people rally against plan to scrap licence fees and fund broadcasters from state budget</p><p>Hundreds of thousands of Czechs are rallying in Prague to protest against what they say is a government attempt to stifle media freedom.</p><p>The gathering on Sunday to save the mandat",
-   "date": "2026-11-15T16:40:04.000Z",
-   "firstSeen": "2026-11-15T17:24:23.786Z",
-   "source": "The Guardian",
-   "tier": "C",
-   "lang": "en",
-   "site": "https://www.theguardian.com/uk/media"
-  },
-  {
    "id": "1j4k6w6",
    "title": "Microsoft outage revives Europe’s tech sovereignty push, Politico says",
    "url": "https://thenextweb.com/news/microsoft-outage-revives-europes-tech-sovereignty-push-politico-says",
@@ -1011,6 +1215,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-CN",
    "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "m5ozr7",
+   "title": "首代才剛開賣就急補遺憾！蘋果iPhone Duo 2代號「V78」衝刺外螢幕Face ID卻面臨死線卡關",
+   "url": "https://mashdigi.com/iphone-duo-2-v78-face-id-upgrade-leaks",
+   "summary": "拆解摺疊iPhone四大升級藍圖與20週年超級產品潮…閱讀全文：首代才剛開賣就急補遺憾！蘋果iPhone Duo 2代號「V78」衝刺外螢幕Face ID卻面臨死線卡關",
+   "date": "2026-11-15T16:00:38.000Z",
+   "firstSeen": "2026-11-15T23:10:39.802Z",
+   "source": "mashdigi",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://mashdigi.com"
   },
   {
    "id": "15xrihe",
@@ -1107,6 +1323,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-CN",
    "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "2sy6ha",
+   "title": "內部戲稱「戴在臉上的AirPods」！蘋果首款智慧眼鏡傳WWDC 2027亮相、中國供應鏈證實進場",
+   "url": "https://mashdigi.com/apple-smart-glasses-n50-wwdc-2027-leaks",
+   "summary": "無AR螢幕卻比Meta更薄，押寶新版Siri打通百萬iPhone應用…閱讀全文：內部戲稱「戴在臉上的AirPods」！蘋果首款智慧眼鏡傳WWDC 2027亮相、中國供應鏈證實進場",
+   "date": "2026-11-15T13:13:35.000Z",
+   "firstSeen": "2026-11-15T23:10:39.802Z",
+   "source": "mashdigi",
+   "tier": "B",
+   "lang": "zh-TW",
+   "site": "https://mashdigi.com"
   },
   {
    "id": "1ci9fp5",
@@ -1290,9 +1518,9 @@ window.NEWS_DATA = {
   },
   {
    "id": "1arqfox",
-   "title": "Same B2B Google Ads Keywords Cost About 21% More, Agency Data Shows",
+   "title": "Higher Spend Came With Pricier Clicks For 14 B2B Google Advertisers",
    "url": "https://www.searchenginejournal.com/b2b-google-ads-keywords-cost-more-agency-data/597426",
-   "summary": "One agency's data on 14 B2B advertisers finds the same non-brand Google Ads keywords cost more per click, even after controlling for their own spending. The post Same B2B Google Ads Keywords Cost About 21% More, Agency Data Shows appeared first on Search Engine Journal.",
+   "summary": "One agency's data on 14 B2B advertisers finds the same non-brand Google Ads keywords cost more per click, even after controlling for their own spending. The post Higher Spend Came With Pricier Clicks For 14 B2B Google Advertisers appeared first on Search Engine Journal.",
    "date": "2026-11-15T11:30:33.000Z",
    "firstSeen": "2026-11-15T17:24:23.786Z",
    "source": "Search Engine Journal",
@@ -4511,6 +4739,18 @@ window.NEWS_DATA = {
    "summary": "The best Stratechery content from the week of November 9, 2026, including the shocking demise of Jensen Huang; enterprise, consumer and Intel; and professional basketbal.",
    "date": "2026-11-13T18:00:00.000Z",
    "firstSeen": "2026-11-15T17:24:23.786Z",
+   "source": "STRATECHERY",
+   "tier": "S",
+   "lang": "en",
+   "site": "https://stratechery.com"
+  },
+  {
+   "id": "16vcn8j",
+   "title": "The End of Jensen",
+   "url": "https://stratechery.com/?access_token=eyJhbGciOiJFUzI1NiIsImtpZCI6IkxzanFRcEhoMUJUdmU0djJQUUVuejIiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8_cD0yMTE3NCJdfSwiZXhwIjoxNzk3Mzc2MjM1LCJpYXQiOjE3OTQ3ODQyMzUsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiOTQwODQwZTItNWVmOS00YmU1LTgyNTAtMzc4MWYyNmVlNzlhIiwidXNlIjoiYWNjZXNzIn0.y9-ytl_V1fi7g2QnbYpgYqwjUf3ook4tPyxwe_GD0lO1EQ34s7FD1iZagRPLXlaymstcFYgKc6dLDrBVMCerAQ&p=21174",
+   "summary": "The best Stratechery content from the week of November 9, 2026, including the shocking demise of Jensen Huang; enterprise, consumer and Intel; and professional basketbal.",
+   "date": "2026-11-13T18:00:00.000Z",
+   "firstSeen": "2026-11-15T23:10:39.802Z",
    "source": "STRATECHERY",
    "tier": "S",
    "lang": "en",
@@ -7784,7 +8024,7 @@ window.NEWS_DATA = {
    "id": "17uo6pv",
    "title": "LinkedIn launches CTV ads in the UK",
    "url": "https://www.socialmediatoday.com/news/linkedin-launches-ctv-ads-in-the-uk/874581",
-   "summary": "<p>The company says its connected TV ads are 2.6 times more likely to reach B2B audiences than other CTV options.</p>",
+   "summary": "<p>The company said that its connected TV ads are 2.6 times more likely to reach B2B audiences than other CTV options.</p>",
    "date": "2026-11-12T22:15:43.000Z",
    "firstSeen": "2026-11-13T07:18:35.584Z",
    "source": "Social Media Today",
@@ -22227,246 +22467,6 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-CN",
    "site": "https://www.huxiu.com"
-  },
-  {
-   "id": "scatz1",
-   "title": "越涨价越买，加拿大鹅中国业绩大增32%",
-   "url": "https://www.huxiu.com/article/4903975.html",
-   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202611/09/42336-prod-db-general-1-1794179254308.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>一件派克大衣羽绒服卖到1.5万元以上，加拿大鹅今年又涨价了，但这不妨碍它在中国市场继续增长。11月5日，加拿大鹅公布2027财年第二季度",
-   "date": "2026-11-08T23:08:51.000Z",
-   "firstSeen": "2026-11-09T01:58:19.111Z",
-   "source": "虎嗅网",
-   "tier": "B",
-   "lang": "zh-CN",
-   "site": "https://www.huxiu.com"
-  },
-  {
-   "id": "4dypyu",
-   "title": "腾讯差点自断一臂",
-   "url": "https://www.huxiu.com/article/4902771.html",
-   "summary": "<figure><img src=\"https://img.huxiucdn.com/article/cover/202307/24/183605142589.jpg?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/jpg\" referrerpolicy=\"no-referrer\"></figure>出品｜虎嗅黄青春频道作者｜商业消费主笔黄青春题图｜视觉中国谁也不曾料到，当初差点被砍掉的边缘项目团队，如今凭借 WorkBuddy 成为腾讯 AI 战局最锋利的刀，以近乎狂飙的速度串联起腾讯沉淀多年",
-   "date": "2026-11-08T23:07:08.000Z",
-   "firstSeen": "2026-11-09T01:58:19.111Z",
-   "source": "虎嗅网",
-   "tier": "B",
-   "lang": "zh-CN",
-   "site": "https://www.huxiu.com"
-  },
-  {
-   "id": "1vl1h97",
-   "title": "The 3 Best Movies to Watch on HBO Max This Week",
-   "url": "https://www.thewrap.com/creative-content/movies/3-best-movies-on-hbo-max-11-3-26",
-   "summary": "Including a breathtaking sci-fi blockbuster and one of the best movies of 2026 The post The 3 Best Movies to Watch on HBO Max This Week appeared first on TheWrap.",
-   "date": "2026-11-08T23:00:00.000Z",
-   "firstSeen": "2026-11-09T01:58:19.111Z",
-   "source": "TheWrap",
-   "tier": "B",
-   "lang": "en",
-   "site": "https://www.thewrap.com"
-  },
-  {
-   "id": "4vmbmv",
-   "title": "Meta adds mini app creation option to Muse",
-   "url": "https://www.socialmediatoday.com/news/meta-adds-mini-app-creation-option-to-muse/874070",
-   "summary": "<p>New functionality allows Meta&rsquo;s artificial intelligence agent to store task trackers and convert commands into custom interfaces.</p>",
-   "date": "2026-11-08T22:39:33.000Z",
-   "firstSeen": "2026-11-09T13:22:40.686Z",
-   "source": "Social Media Today",
-   "tier": "B",
-   "lang": "en",
-   "site": "https://www.socialmediatoday.com"
-  },
-  {
-   "id": "1mfkzoa",
-   "title": "震撼矽谷！NVIDIA執行長黃仁勳發內部信首認「對妻子不忠」，捲入新加坡資料中心高層疑似共諜案",
-   "url": "https://mashdigi.com/nvidia-ceo-jensen-huang-unfaithful-security-investigation",
-   "summary": "NVIDIA董事會緊急啟動國安獨立調查",
-   "date": "2026-11-08T22:37:53.000Z",
-   "firstSeen": "2026-11-09T01:58:19.111Z",
-   "source": "mashdigi",
-   "tier": "B",
-   "lang": "zh-TW",
-   "site": "https://mashdigi.com"
-  },
-  {
-   "id": "c2m3hi",
-   "title": "TikTok shares gaming and app promotional guides for end-of-year period",
-   "url": "https://www.socialmediatoday.com/news/tiktok-shares-gaming-and-app-promotional-guides-for-end-of-year-period/874069",
-   "summary": "<p>The company says the period between Christmas and New Year offers brands an opportunity to help consumers buy something for themselves.</p>",
-   "date": "2026-11-08T22:31:16.000Z",
-   "firstSeen": "2026-11-09T13:22:40.686Z",
-   "source": "Social Media Today",
-   "tier": "B",
-   "lang": "en",
-   "site": "https://www.socialmediatoday.com"
-  },
-  {
-   "id": "1rty3lq",
-   "title": "‘Club Kid,’ ‘I Play Rocky’ Shine in Limited Release at Busy Specialty Box Office",
-   "url": "https://www.thewrap.com/culture-lifestyle/culture/club-kid-i-play-rocky-shine-in-limited-release-at-busy-specialty-box-office",
-   "summary": "A24's dramedy from debut director Jordan Firstman earned an excellent $65,000 per theater average as multiple titles from smaller distributors found success The post ‘Club Kid,’ ‘I Play Rocky’ Shine in Limited Release at Busy Specialty Box Office appeared first on TheWrap.",
-   "date": "2026-11-08T22:28:42.000Z",
-   "firstSeen": "2026-11-08T22:28:54.387Z",
-   "source": "TheWrap",
-   "tier": "B",
-   "lang": "en",
-   "site": "https://www.thewrap.com"
-  },
-  {
-   "id": "f4sdyi",
-   "title": "一天接打一百通電話，八成問題答案都一樣 犀動智能導入 AI 客服，把人留給真正需要判斷的事",
-   "url": "https://www.inside.com.tw/article/42820-aiello",
-   "summary": "犀動智能（Aiello）專注 AI 語音與文字客服系統，協助企業設計「哪些問題交給 AI、哪些留給真人」的分工框架；合作的企業則可透過系統，把電話、LINE、官網等多渠道的對話紀錄整合在一處，確保真人接手時不必從頭問起，讓客服人員從重複應答中解放，把時間還給真正需要判斷的案件。",
-   "date": "2026-11-08T22:04:00.000Z",
-   "firstSeen": "2026-11-08T22:28:54.387Z",
-   "source": "INSIDE",
-   "tier": "A",
-   "lang": "zh-TW",
-   "site": "https://www.inside.com.tw"
-  },
-  {
-   "id": "71uo3j",
-   "title": "YouTube expands custom feeds and offers new partnership options",
-   "url": "https://www.socialmediatoday.com/news/youtube-expands-custom-feeds-and-offers-new-partnership-options/874068",
-   "summary": "<p>The platform is trying to make it easier for users to access personally relevant discovery options using artificial intelligence-enabled responses.</p>",
-   "date": "2026-11-08T21:14:53.000Z",
-   "firstSeen": "2026-11-09T13:22:40.686Z",
-   "source": "Social Media Today",
-   "tier": "B",
-   "lang": "en",
-   "site": "https://www.socialmediatoday.com"
-  },
-  {
-   "id": "3eh3cw",
-   "title": "The 3 Best Movies to Watch on Netflix This Week",
-   "url": "https://www.thewrap.com/creative-content/what-to-watch/best-movies-on-netflix-this-week-nov-6-8",
-   "summary": "Including \"Whiplash\" and \"Heat\" The post The 3 Best Movies to Watch on Netflix This Week appeared first on TheWrap.",
-   "date": "2026-11-08T21:00:00.000Z",
-   "firstSeen": "2026-11-08T22:28:54.387Z",
-   "source": "TheWrap",
-   "tier": "B",
-   "lang": "en",
-   "site": "https://www.thewrap.com"
-  },
-  {
-   "id": "11uc21n",
-   "title": "Meta’s AI ads included unapproved discounts",
-   "url": "https://www.socialmediatoday.com/news/metas-ai-ads-included-unapproved-discounts/874067",
-   "summary": "<p>Recent reports found that the artificial intelligence-powered ad tools posted discount offers to customers even with promotions turned off.</p>",
-   "date": "2026-11-08T20:35:07.000Z",
-   "firstSeen": "2026-11-09T13:22:40.686Z",
-   "source": "Social Media Today",
-   "tier": "B",
-   "lang": "en",
-   "site": "https://www.socialmediatoday.com"
-  },
-  {
-   "id": "zhrtpj",
-   "title": "Denis Villeneuve Praises Creative Process Over AI Prompts and Stops Short of Naming New Bond at LACMA Art+Film Gala",
-   "url": "https://www.hollywoodreporter.com/lifestyle/lifestyle-news/denis-villeneuve-dune-new-bond-lacma-artfilm-gala-2026-1236750330",
-   "summary": "The stars were out Saturday night at the milestone 15th annual fundraiser, presented once again by Gucci and featuring a night-ending performance by global superstar Rosé.",
-   "date": "2026-11-08T20:15:09.000Z",
-   "firstSeen": "2026-11-08T22:28:54.387Z",
-   "source": "The Hollywood Reporter",
-   "tier": "C",
-   "lang": "en",
-   "site": "https://www.hollywoodreporter.com"
-  },
-  {
-   "id": "1spe2xs",
-   "title": "Stephen Colbert Evacuated From Harvard Event Due to Fire Alarm After Being Accused of Crossing Picket Line",
-   "url": "https://www.hollywoodreporter.com/news/general-news/stephen-colbert-accused-crossing-picket-line-harvard-event-1236750499",
-   "summary": "Dozens of Harvard Graduate Students Union members protested outside the event featuring the former late night host and famed cellist Yo-Yo Ma.",
-   "date": "2026-11-08T19:58:37.000Z",
-   "firstSeen": "2026-11-08T22:28:54.387Z",
-   "source": "The Hollywood Reporter",
-   "tier": "C",
-   "lang": "en",
-   "site": "https://www.hollywoodreporter.com"
-  },
-  {
-   "id": "1akddfr",
-   "title": "Erika Kirk Rebukes ‘Leftist Podcasters, Comedians and Commentators’ Over Charlie Kirk Death Jokes",
-   "url": "https://www.thewrap.com/culture-lifestyle/culture/erika-kirk-charlie-kirk-death-jokes",
-   "summary": "\"A culture that laughs at assassination is one of profound moral decay,\" she writes The post Erika Kirk Rebukes ‘Leftist Podcasters, Comedians and Commentators’ Over Charlie Kirk Death Jokes appeared first on TheWrap.",
-   "date": "2026-11-08T19:29:58.000Z",
-   "firstSeen": "2026-11-08T22:28:54.387Z",
-   "source": "TheWrap",
-   "tier": "B",
-   "lang": "en",
-   "site": "https://www.thewrap.com"
-  },
-  {
-   "id": "l3cnko",
-   "title": "Tripadvisor Says SEO Will Still Weigh On Growth In 2027",
-   "url": "https://www.searchenginejournal.com/tripadvisor-says-seo-will-still-weigh-on-growth-in-2027/596257",
-   "summary": "Tripadvisor tied a writedown largely to search changes, expects SEO to weigh on growth next year, and says marketing takes more of its revenue. The post Tripadvisor Says SEO Will Still Weigh On Growth In 2027 appeared first on Search Engine Journal.",
-   "date": "2026-11-08T19:09:13.000Z",
-   "firstSeen": "2026-11-08T22:28:54.387Z",
-   "source": "Search Engine Journal",
-   "tier": "C",
-   "lang": "en",
-   "site": "https://www.searchenginejournal.com"
-  },
-  {
-   "id": "14vbb3n",
-   "title": "Russell Brand case must be wake-up call to protect women in media, Lisa Nandy says",
-   "url": "https://www.theguardian.com/media/2026/nov/08/women-abuse-media-industry-lisa-nandy-russell-brand",
-   "summary": "<p>Culture secretary says there is still a problem with exploitation and abuse in the industry and public life</p><p>The culture secretary, Lisa Nandy, has said there is still a problem with exploitation and abuse in the media industry and a failure to properly deal with allegations after Russell Br",
-   "date": "2026-11-08T19:05:04.000Z",
-   "firstSeen": "2026-11-08T22:28:54.387Z",
-   "source": "The Guardian",
-   "tier": "C",
-   "lang": "en",
-   "site": "https://www.theguardian.com/uk/media"
-  },
-  {
-   "id": "1ixwxi3",
-   "title": "Bill Skarsgard Jokes About Using Pennywise Voice When His Kids Misbehave: “Schizophrenic Daddy”",
-   "url": "https://www.hollywoodreporter.com/movies/movie-news/bill-skarsgard-pennywise-voice-kids-misbehave-1236750434",
-   "summary": "The actor has played the iconic villain in two films and the HBO Max series 'It: Welcome to Derry.'",
-   "date": "2026-11-08T19:01:51.000Z",
-   "firstSeen": "2026-11-08T22:28:54.387Z",
-   "source": "The Hollywood Reporter",
-   "tier": "C",
-   "lang": "en",
-   "site": "https://www.hollywoodreporter.com"
-  },
-  {
-   "id": "1y6f3qt",
-   "title": "分完財產等於順利交棒？兆元傳承潮下，多數創辦人漏了最關鍵的一步",
-   "url": "https://www.managertoday.com.tw/columns/view/73283",
-   "summary": "很多老闆以為分完股份就算交棒，但少了培養人才的制度，面對市場變局與老臣派系，下一代單打獨鬥，拿著再多資產，也扛不起隨時可能陷入停擺的龐大企業。",
-   "date": "2026-11-08T18:29:21.000Z",
-   "firstSeen": "2026-11-08T22:28:54.387Z",
-   "source": "經理人",
-   "tier": "C",
-   "lang": "zh-TW",
-   "site": "https://www.managertoday.com.tw"
-  },
-  {
-   "id": "uc1t0r",
-   "title": "The 3 Best Movies to Watch on Prime Video This Week",
-   "url": "https://www.thewrap.com/creative-content/what-to-watch/amazon-prime-video-best-movies-november-8-13",
-   "summary": "From a hard-to-find musical to an eerily prescient rom-com The post The 3 Best Movies to Watch on Prime Video This Week appeared first on TheWrap.",
-   "date": "2026-11-08T18:16:35.000Z",
-   "firstSeen": "2026-11-08T22:28:54.387Z",
-   "source": "TheWrap",
-   "tier": "B",
-   "lang": "en",
-   "site": "https://www.thewrap.com"
-  },
-  {
-   "id": "3uhgzu",
-   "title": "Cloudflare CEO Likens AI Agent Optimization To A New Version Of SEO",
-   "url": "https://www.searchenginejournal.com/cloudflare-ai-agent-optimization-new-seo/596248",
-   "summary": "Cloudflare's CEO says OpenAI pays for hints that tell its crawler when pages change, and sites may charge agents less when they explain their visits. The post Cloudflare CEO Likens AI Agent Optimization To A New Version Of SEO appeared first on Search Engine Journal.",
-   "date": "2026-11-08T18:07:49.000Z",
-   "firstSeen": "2026-11-08T22:28:54.387Z",
-   "source": "Search Engine Journal",
-   "tier": "C",
-   "lang": "en",
-   "site": "https://www.searchenginejournal.com"
   }
  ]
 };
