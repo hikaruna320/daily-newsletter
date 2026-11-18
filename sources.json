@@ -1,7 +1,7 @@
 {
   "_comment": "新聞來源清單。enabled=false 的來源不會被抓取，補到可用的 feed 後把 feed 填上、enabled 改成 true 即可。",
   "sources": [
-    { "tier": "S", "name": "STRATECHERY", "lang": "en", "site": "https://stratechery.com", "feed": "https://stratechery.passport.online/feed/rss/WXErCixRoZzZJcHe3Cu94k", "enabled":  true, "note": "免費版 feed，若日後升級付費訂閱請先重新產生網址再更新這裡" },
+    { "tier": "S", "name": "STRATECHERY", "lang": "en", "site": "https://stratechery.com", "feed": "https://stratechery.com/feed/", "enabled":  true, "note": "" },
     { "tier": "S", "name": "Reuters Institute", "lang": "en", "site": "https://reutersinstitute.politics.ox.ac.uk", "feed": "https://reutersinstitute.politics.ox.ac.uk/rss.xml", "enabled": true, "note": "" },
     { "tier": "S", "name": "NiemanLab", "lang": "en", "site": "https://www.niemanlab.org", "feed": "https://www.niemanlab.org/feed/", "enabled": true, "note": "" },
     { "tier": "S", "name": "INMA", "lang": "en", "site": "https://www.inma.org", "feed": "", "enabled": false, "note": "找不到 RSS" },
@@ -34,7 +34,7 @@
     { "tier": "B", "name": "SLATE", "lang": "en", "site": "https://slate.com", "feed": "", "enabled": false, "note": "找不到 RSS" },
     { "tier": "B", "name": "Search Engine Land", "lang": "en", "site": "https://searchengineland.com", "feed": "", "enabled": true, "note": "可能會被 Cloudflare 擋，先試試" },
     { "tier": "B", "name": "MediaPost", "lang": "en", "site": "https://www.mediapost.com", "feed": "http://feeds.mediapost.com/mediadailynews", "enabled": true, "note": "有很多 RSS，先訂閱 MediaDailyNews" },
-    { "tier": "B", "name": "Columbia Journalism Review", "lang": "en", "site": "https://www.cjr.org", "feed": "https://www.cjr.org/feed/", "enabled": true, "note": "" },
+    { "tier": "B", "name": "CJR", "lang": "en", "site": "https://www.cjr.org", "feed": "https://www.cjr.org/feed/", "enabled": true, "note": "" },
     { "tier": "B", "name": "Adweek", "lang": "en", "site": "https://www.adweek.com", "feed": "https://www.adweek.com/feed/", "enabled": true, "note": "" },
     { "tier": "B", "name": "AdTechRadar", "lang": "en", "site": "https://adtechradar.com", "feed": "https://adtechradar.com/feed/", "enabled": true, "note": "" },
 
