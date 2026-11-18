@@ -32,7 +32,7 @@
     { "tier": "B", "name": "TheWrap", "lang": "en", "site": "https://www.thewrap.com", "feed": "https://www.thewrap.com/feed/", "enabled": true, "note": "" },
     { "tier": "B", "name": "Social Media Today", "lang": "en", "site": "https://www.socialmediatoday.com", "feed": "https://www.socialmediatoday.com/feeds/news/", "enabled": true, "note": "" },
     { "tier": "B", "name": "SLATE", "lang": "en", "site": "https://slate.com", "feed": "", "enabled": false, "note": "找不到 RSS" },
-    { "tier": "B", "name": "Search Engine Land", "lang": "en", "site": "https://searchengineland.com", "feed": "", "enabled": true, "note": "可能會被 Cloudflare 擋，先試試" },
+    { "tier": "B", "name": "Search Engine Land", "lang": "en", "site": "https://searchengineland.com", "feed": "searchengineland.com/feed", "enabled": false, "note": "被 Cloudflare 擋" },
     { "tier": "B", "name": "MediaPost", "lang": "en", "site": "https://www.mediapost.com", "feed": "http://feeds.mediapost.com/mediadailynews", "enabled": true, "note": "有很多 RSS，先訂閱 MediaDailyNews" },
     { "tier": "B", "name": "CJR", "lang": "en", "site": "https://www.cjr.org", "feed": "https://www.cjr.org/feed/", "enabled": true, "note": "" },
     { "tier": "B", "name": "Adweek", "lang": "en", "site": "https://www.adweek.com", "feed": "https://www.adweek.com/feed/", "enabled": true, "note": "" },
