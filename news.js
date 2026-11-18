@@ -1,15 +1,15 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-18T06:55:52.095Z",
+ "generatedAt": "2026-11-18T07:06:08.473Z",
  "keepDays": 7,
  "sources": [
   {
    "name": "STRATECHERY",
    "tier": "S",
    "lang": "en",
-   "feed": "https://stratechery.com/feed/",
-   "ok": false,
-   "error": "HTTP 403",
-   "count": 0
+   "feed": "https://stratechery.passport.online/feed/rss/WXErCixRoZzZJcHe3Cu94k",
+   "ok": true,
+   "error": null,
+   "count": 9
   },
   {
    "name": "Reuters Institute",
@@ -417,9 +417,9 @@ window.NEWS_DATA = {
    "name": "STRATECHERY",
    "lang": "en",
    "site": "https://stratechery.com",
-   "feed": "https://stratechery.com/feed/",
+   "feed": "https://stratechery.passport.online/feed/rss/WXErCixRoZzZJcHe3Cu94k",
    "enabled": true,
-   "note": ""
+   "note": "用 Passport 的免費版 feed"
   },
   {
    "tier": "S",
@@ -881,6 +881,102 @@ window.NEWS_DATA = {
  ],
  "items": [
   {
+   "id": "1hgnxwn",
+   "title": "電動車為什麼要用兩種馬達？從永磁、感應到電勵磁，看懂車廠的動力選擇",
+   "url": "https://www.inside.com.tw/article/42953-ev-motors",
+   "summary": "為平衡雙馬達的驅動效率與閒置損耗，車廠採不同馬達組合。如 Audi 以永磁同步馬達搭配感應馬達，兼顧效率與低拖曳損失；BMW 則採無永久磁鐵的電勵磁同步與感應馬達，反映不同設計權衡。",
+   "date": "2026-11-18T07:03:00.000Z",
+   "firstSeen": "2026-11-18T07:06:08.473Z",
+   "source": "INSIDE",
+   "tier": "A",
+   "lang": "zh-TW",
+   "site": "https://www.inside.com.tw"
+  },
+  {
+   "id": "m7auvx",
+   "title": "Claude Fable5.2杀疯了！分享4个神仙玩法（附稳定使用方案）",
+   "url": "https://www.woshipm.com/ai/6495766.html",
+   "summary": "有号商从巴厘岛骑摩托1500公里到苏门答腊，挨家挨户收Claude账号并现场做实名验证。作者笑完又笑不出来——Anthropic风控越来越严，查IP、查设备、查支付卡再上KYC，最终都要回答：屏幕对面是不是愿意服务的真人。 前两天我在X上刷到个巨魔幻的事情，看完直接给我愣住了。 有号商从巴厘岛出发，骑摩托跑了1500公里到苏门答腊，挨家挨户收Claude账号。面对面收，现场做KYC（就是实名验证），做完还跟当地人合影留念。 照片里的白板上写着：印尼老哥助力，中国科研·中国AI，China No.1！蚌埠住了。。 最抽象的是，当地有位大妈，可能一辈子没写过一行代码，名下却有3个Claude账号，",
+   "date": "2026-11-18T07:00:33.000Z",
+   "firstSeen": "2026-11-18T07:06:08.473Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "4tyksi",
+   "title": "Canvas Worldwide’s Agentic Layer Helps Zillow Distinguish Real Renters From Dreamers",
+   "url": "https://www.adexchanger.com/ai/canvas-worldwides-agentic-layer-helps-zillow-distinguish-real-renters-from-dreamers",
+   "summary": "Canvas' AI solutions help brands and agencies like Zillow optimize their campaign budgeting and pacing. The post Canvas Worldwide’s Agentic Layer Helps Zillow Distinguish Real Renters From Dreamers appeared first on AdExchanger.",
+   "date": "2026-11-18T07:00:02.000Z",
+   "firstSeen": "2026-11-18T07:06:08.473Z",
+   "source": "AdExchanger",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.adexchanger.com"
+  },
+  {
+   "id": "kwp8rf",
+   "title": "百度的产品你可以不用，但李彦宏的战略你一定要听！",
+   "url": "https://www.woshipm.com/ai/6495764.html",
+   "summary": "百度世界大会上，李彦宏提出人工智能的下一幕是智能组织，并给出打破岗位边界、沉淀隐性知识、设计流程闭环三条原则。作者却从一个销售客服项目看到现实：系统能生成应答话术，直接接受率却不到两成。AI应用如何真正进入业务流程，才是这背后的真问题。 俗话说：百度起了个大早，赶了个晚集，这都不算是笑谈了，他背后的重要含义是：李厂长的战略眼光是极强的，是十分值得我们关注的！ 这不，11 月 12 日，在百度世界大会上，李彦宏提出一个判断：人工智能的下一幕是“智能组织”。 他还提出了组织进化的三个原则：打破岗位边界、沉淀隐性知识、设计流程闭环。 这个观点背后，有一个很现实的问题：企业买了 AI 工具，投入了研发",
+   "date": "2026-11-18T06:59:06.000Z",
+   "firstSeen": "2026-11-18T07:06:08.473Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "24zty6",
+   "title": "我把监控全网免费Token的网站覆盖到了图像和视频类，今天上线",
+   "url": "https://www.woshipm.com/ai/6495758.html",
+   "summary": "作者把监控全网免费Token的网站扩展到图片和视频生成类，四个大类每条都标清可用模型、领取方式和折算价值。图片视频羊毛散落各处、单位混乱，比文字Token更难找。这次把Leonardo、Firefly、Runway的免费额度也一网打尽。 AI HOT的Token羊毛上线一周了，我现在每天都让codex盯着去薅。 但是我还有个更大烦恼，就是我自己做的AI提示语案例网站，GoodCase，缺的不止是文本模型代码模型，图片和视频的额度也缺啊。 所以我花了一周把图片生成和视频生成的也加进来了Token羊毛里了。 现在有四个大类，语言/编程，图片生成，视频生成，音频生成。每一条都标清了能用什么模型，怎么",
+   "date": "2026-11-18T06:57:47.000Z",
+   "firstSeen": "2026-11-18T07:06:08.473Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "ue7to",
+   "title": "继豆包后，千问办公也接入多模型，硬刚WorkBuddy",
+   "url": "https://www.woshipm.com/ai/6495756.html",
+   "summary": "继豆包工作后，千问办公也接入多个第三方模型，DeepSeek、GLM、Kimi、MiniMax悉数在列。但千问走了与WorkBuddy不同的路：接入外部模型却不支持自定义，属于半开放。对深度用户和开发者而言，这道边界才是关键差别。 继豆包、豆包工作开放接入多个第三方模型后。 千问也坐不住了，也宣布接入多个模型。 可以看到，除了千问的模型。 还有可灵Ling、DeepSeek、GLM、Kimi、MiniMax、Step 的最新模型。 并且，蚂蚁可灵 Ling-3.1-Flash，先有限制一折的优惠。 但千问客户端上，对于多模型的支持，选择了一条和千问办公不一样的路子。 千问客户端上，默认只有千问",
+   "date": "2026-11-18T06:57:06.000Z",
+   "firstSeen": "2026-11-18T07:06:08.473Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "1yebjpa",
+   "title": "蚂蚁灵波，又放大招了",
+   "url": "https://www.woshipm.com/ai/6495686.html",
+   "summary": "蚂蚁灵波开源触觉基础模型 LingBot-Touch，把不同信号转成同一套触觉表征，让机器人手感跨传感器和任务复用。这家蚂蚁旗下公司坚持不做本体、只做通用大脑，用赛事把底座推向开发者。但做底座烧钱，拟募 15 亿的融资仍未披露落地。 具身智能赛道已经从大脑卷到了手指尖。 11月10日，蚂蚁集团旗下的蚂蚁灵波科技（以下简称蚂蚁灵波）发布并开源触觉基础模型LingBot-Touch。它能将不同信号转化为同一套触觉表征，让机器人积累的“手感”在不同传感器、灵巧手、模型和任务之间复用，相当于一个通用触觉底座。 这延续的是蚂蚁灵波一直以来的路线，作为蚂蚁集团体系内的具身智能子公司，它自成立起就明确不把机",
+   "date": "2026-11-18T06:48:58.000Z",
+   "firstSeen": "2026-11-18T07:06:08.473Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "kq44sf",
+   "title": "从63家AI硬件创业公司，我看到了这两个变化",
+   "url": "https://www.woshipm.com/ai/6495696.html",
+   "summary": "作者统计 63 家 AI 消费硬件创业公司，AI 眼镜与 AI 陪伴合计占近半。但获投企业从 2025 年的 27 家降到今年 15 家，资本热情明显降温。趋势渐渐清晰：解决明确需求的垂类产品跑得更快，订阅服务正取代单纯卖硬件成为收入来源。 AI消费硬件的融资热潮，开始降温了。 根据AIWatch公开资料及我们的不完全统计，在剔除科技巨头及尚未实现产品交付的企业后，我们筛选出63家AI消费硬件创业公司。其中，AI眼镜15家、AI陪伴14家，合计占比达到46%。 但从融资数据来看，资本的热情正在明显降温。 2025年，这63家企业中有27家获得融资；到了2026年，截至11月11日，获得融资的企",
+   "date": "2026-11-18T06:44:49.000Z",
+   "firstSeen": "2026-11-18T07:06:08.473Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
+  },
+  {
    "id": "w64kml",
    "title": "Tesla Cybercab 累計發生 8 起事故！高速行駛安全性成無人自駕計程車擴張隱憂",
    "url": "https://www.inside.com.tw/article/42952-tesla-cybercab-crashes-speed-problem",
@@ -915,6 +1011,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-TW",
    "site": "https://buzzorange.com/techorange/"
+  },
+  {
+   "id": "1bqtaij",
+   "title": "横评WorkBuddy与豆包工作，到底谁更Work？",
+   "url": "https://www.woshipm.com/ai/6495674.html",
+   "summary": "豆包工作与千问办公先后开放第三方模型，Kimi K3.1 Pro、DeepSeek V4.1 flash、GLM 5.3 都能调用。作者用六个任务、同一提示词和模型，把豆包工作与 WorkBuddy 横评，从效果、速度和性价比比高低，看谁用起来更 Work。 最近豆包工作和千问办公都开放了第三方模型，像Kimi K3.1 Pro、DeepSeek V4.1 flash和GLM 5.3这些模型都可以用了。这感情好啊，必须安排一期横评，看看到底谁更Work。 熟悉国内模型的朋友应该很清楚，这三款模型基本代表了三种不同的Work场景。K3.1擅长3D、前端、游戏开发和深度调研；GLM-5.3擅长后端",
+   "date": "2026-11-18T06:34:22.000Z",
+   "firstSeen": "2026-11-18T07:06:08.473Z",
+   "source": "woshipm",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.woshipm.com"
   },
   {
    "id": "1xyc5in",
@@ -23667,42 +23775,6 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "zh-TW",
    "site": "https://www.thenewslens.com"
-  },
-  {
-   "id": "1ouvcsu",
-   "title": "10 亿 Token 开源万只假鸟， AI 伪科普正在「污染」下一代的常识",
-   "url": "https://www.ifanr.com/1688897",
-   "summary": "人不能、至少不应该把严谨的自然科学当成 AI 技能大赛现场#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-   "date": "2026-11-11T07:03:17.000Z",
-   "firstSeen": "2026-11-11T12:10:18.909Z",
-   "source": "爱范儿",
-   "tier": "B",
-   "lang": "zh-CN",
-   "site": "https://www.ifanr.com/"
-  },
-  {
-   "id": "mq4m93",
-   "title": "AI 預算還要加碼，投資報酬卻說不清：38% 受訪者曾因超支延後、縮減或取消專案",
-   "url": "https://techorange.com/2026/11/11/ai-project-cost-overruns-vb-pulse",
-   "summary": "企業 AI 專案推不動，最常被點名的原因是成本，而不是算力。VentureBeat 的 VB Pulse 系列調查在 10 月訪問 156 位任職或服務於百人以上組織的 AI 從業者與顧問，38% 表示過去 12 個月，所屬組織曾因成本超出預期，延後、縮減或取消原定的 AI 專案；指稱運算容量不足的只有 12%。 儘管成本超支，79% 受訪者仍預期所屬組織未來一年的 AI 預算會增加；但只有 26% 表示，組織會用能向財務團隊交代的財務報酬，來判斷 AI 支出值不值得。這份 VB Pulse 報告總結，這些數據顯示 AI 支出成長的速度，快過組織衡量其報酬與使用狀況的能力。在預算加碼之前，企業",
-   "date": "2026-11-11T07:00:55.000Z",
-   "firstSeen": "2026-11-11T12:10:18.909Z",
-   "source": "TechOrange",
-   "tier": "B",
-   "lang": "zh-TW",
-   "site": "https://buzzorange.com/techorange/"
-  },
-  {
-   "id": "1f4l8zy",
-   "title": "The design workflow is broken. Here is how Vitalii Khomenko thinks it should be fixed",
-   "url": "https://thenextweb.com/news/design-workflow-broken-vitalii-khomenko",
-   "summary": "With what he counts as more than 250 client engagements across agency and embedded in-house roles, Vitalii Khomenko has seen product teams from the inside. Here he makes the case for a new kind of design workflow built for the AI era, and explains why the window to adapt is narrower than most founde",
-   "date": "2026-11-11T07:00:32.000Z",
-   "firstSeen": "2026-11-11T12:10:18.909Z",
-   "source": "TNW",
-   "tier": "C",
-   "lang": "en",
-   "site": "https://thenextweb.com"
   }
  ]
 };
