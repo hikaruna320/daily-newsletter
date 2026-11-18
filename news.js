@@ -1,5 +1,5 @@
 window.NEWS_DATA = {
- "generatedAt": "2026-11-18T07:06:08.473Z",
+ "generatedAt": "2026-11-18T07:15:16.210Z",
  "keepDays": 7,
  "sources": [
   {
@@ -54,7 +54,7 @@ window.NEWS_DATA = {
    "feed": "https://rss.bnextmedia.com.tw/feed/bnext",
    "ok": true,
    "error": null,
-   "count": 7
+   "count": 8
   },
   {
    "name": "虎嗅网",
@@ -261,7 +261,7 @@ window.NEWS_DATA = {
    "feed": "https://www.managertoday.com.tw/rss",
    "ok": true,
    "error": null,
-   "count": 8
+   "count": 9
   },
   {
    "name": "品玩",
@@ -389,6 +389,11 @@ window.NEWS_DATA = {
    "name": "SLATE",
    "tier": "B",
    "note": "找不到 RSS"
+  },
+  {
+   "name": "Search Engine Land",
+   "tier": "B",
+   "note": "被 Cloudflare 擋"
   },
   {
    "name": "獨立評論",
@@ -685,9 +690,9 @@ window.NEWS_DATA = {
    "name": "Search Engine Land",
    "lang": "en",
    "site": "https://searchengineland.com",
-   "feed": "",
-   "enabled": true,
-   "note": "可能會被 Cloudflare 擋，先試試"
+   "feed": "searchengineland.com/feed",
+   "enabled": false,
+   "note": "被 Cloudflare 擋"
   },
   {
    "tier": "B",
@@ -881,6 +886,18 @@ window.NEWS_DATA = {
  ],
  "items": [
   {
+   "id": "14jtne0",
+   "title": "AI泡沫疑慮升溫！輝達為何不怕？除了賣GPU，還想靠這門生意年年賺",
+   "url": "https://www.bnext.com.tw/article/92683/nvidia-revenue-structure-software-licensing",
+   "summary": "市場擔心AI營收撐不起資本支出，黃仁勳攤開輝達營收結構：前沿AI實驗室不到3分之1，其餘來自新創與傳統運算，並看好每顆GPU每年數千美元的軟體授權費。",
+   "date": "2026-11-18T07:08:09.000Z",
+   "firstSeen": "2026-11-18T07:15:16.210Z",
+   "source": "數位時代",
+   "tier": "A",
+   "lang": "zh-TW",
+   "site": "https://www.bnext.com.tw"
+  },
+  {
    "id": "1hgnxwn",
    "title": "電動車為什麼要用兩種馬達？從永磁、感應到電勵磁，看懂車廠的動力選擇",
    "url": "https://www.inside.com.tw/article/42953-ev-motors",
@@ -891,6 +908,54 @@ window.NEWS_DATA = {
    "tier": "A",
    "lang": "zh-TW",
    "site": "https://www.inside.com.tw"
+  },
+  {
+   "id": "1op73ag",
+   "title": "蘋果iCloud、Apple Pay 大當機，門市結帳停擺、員工系統失靈，官方認了內部更新惹禍",
+   "url": "https://www.managertoday.com.tw/articles/view/73361",
+   "summary": "摩根大通出包隔天，蘋果一次內部更新出錯，讓 iCloud、全球門市和員工系統受波及，美國 Apple Pay 一度湧入約 2300 筆災情回報，蘋果表示排除網路攻擊。",
+   "date": "2026-11-18T07:02:43.000Z",
+   "firstSeen": "2026-11-18T06:55:52.095Z",
+   "source": "經理人",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.managertoday.com.tw"
+  },
+  {
+   "id": "1y6f4ge",
+   "title": "剛畢業就進科技業，在哪間公司薪水領最多？台達電居冠、台積電排第 6",
+   "url": "https://www.managertoday.com.tw/columns/view/73330",
+   "summary": "科技業新人年薪差多少？《比薪水》統整年資兩年以內的員工薪資填答（資料截至 2026 年 7 月），15 家新人年薪中位數落在 70 萬到 91 萬，台達電 912,000 元居冠、台積電排第六，最高與最低只差 1.3 倍。",
+   "date": "2026-11-18T07:01:38.000Z",
+   "firstSeen": "2026-11-18T07:15:16.210Z",
+   "source": "經理人",
+   "tier": "C",
+   "lang": "zh-TW",
+   "site": "https://www.managertoday.com.tw"
+  },
+  {
+   "id": "m3ck5c",
+   "title": "£10m ‘once-in-a-generation’ study to explore effects of children’s social media ban",
+   "url": "https://www.theguardian.com/uk-news/2026/nov/18/social-media-ban-once-in-a-generation-study",
+   "summary": "<p>Research to look at whether ban can make meaningful change in mental health and wellbeing for under-16s</p><p>Countries around the world are considering <a href=\"https://www.theguardian.com/uk-news/social-media-ban\">social media bans</a> for children, but whether this would work in practice has b",
+   "date": "2026-11-18T07:00:36.000Z",
+   "firstSeen": "2026-11-18T07:15:16.210Z",
+   "source": "The Guardian",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.theguardian.com/uk/media"
+  },
+  {
+   "id": "u5v7et",
+   "title": "The voice of a nation: the Czech children’s TV show that became a symbol of media freedom",
+   "url": "https://www.theguardian.com/world/2026/nov/18/vecernicek-czech-children-tv-show-media-freedom",
+   "summary": "<p>Večerníček has wished children goodnight for 60 years, and now his distinctive newspaper hat symbolises the fight for the future of public broadcasting</p><p>Photos of the mass rallies in support of Czech public broadcasters in recent weeks have featured one detail that has baffled outsiders: dem",
+   "date": "2026-11-18T07:00:35.000Z",
+   "firstSeen": "2026-11-18T07:15:16.210Z",
+   "source": "The Guardian",
+   "tier": "C",
+   "lang": "en",
+   "site": "https://www.theguardian.com/uk/media"
   },
   {
    "id": "m7auvx",
@@ -975,6 +1040,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "zh-CN",
    "site": "https://www.woshipm.com"
+  },
+  {
+   "id": "1sdc858",
+   "title": "英伟达事件与中墨双边贸易前景展望",
+   "url": "https://www.huxiu.com/article/4906539.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202611/18/43710-prod-db-general-1-1794984083227.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>作为全球AI产业的主力和领军企业英伟达，在最近一段时间里成为业内和各种媒体讨论的焦点之一，由于其本身牵扯的因素复杂，后续的发展情况很难预",
+   "date": "2026-11-18T06:43:11.000Z",
+   "firstSeen": "2026-11-18T07:15:16.210Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
   },
   {
    "id": "w64kml",
@@ -1085,18 +1162,6 @@ window.NEWS_DATA = {
    "site": "https://www.inside.com.tw"
   },
   {
-   "id": "1op73ag",
-   "title": "美國 Apple Pay 湧入 2300 筆問題回報！蘋果認了：內部更新惹禍、排除網路攻擊",
-   "url": "https://www.managertoday.com.tw/articles/view/73361",
-   "summary": "摩根大通出包隔天，蘋果一次內部更新出錯，讓 iCloud、全球門市和員工系統受波及，美國 Apple Pay 一度湧入約 2300 筆災情回報，蘋果表示排除網路攻擊。",
-   "date": "2026-11-18T06:21:11.000Z",
-   "firstSeen": "2026-11-18T06:55:52.095Z",
-   "source": "經理人",
-   "tier": "C",
-   "lang": "zh-TW",
-   "site": "https://www.managertoday.com.tw"
-  },
-  {
    "id": "1mw4m3n",
    "title": "拆解投标用户的完整旅程：从找项目到中标，产品该在哪些节点介入？",
    "url": "https://www.woshipm.com/share/6495754.html",
@@ -1119,6 +1184,30 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "en",
    "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "1n6xrn8",
+   "title": "33年来第一份没有黄仁勋的财报：漂亮得像一封分手信？",
+   "url": "https://www.huxiu.com/article/4906531.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202611/18/43707-prod-db-general-1-1794982046865.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>当地时间11月17日，黄仁勋发了一篇很长的声明。道歉，忏悔，感谢，最后一句是：如果董事会觉得我对股东、员工、公司和美国还有用，我很荣幸回",
+   "date": "2026-11-18T06:09:25.000Z",
+   "firstSeen": "2026-11-18T07:15:16.210Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "1mjmykz",
+   "title": "34岁的沪上金融精英，困在AI的恋爱中",
+   "url": "https://www.huxiu.com/article/4906530.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202611/18/43706-prod-db-general-1-1794981548011.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>海外留学，券商工作，年入百万。构建这段精英范本人生，邱欣悦花了三十多年时间。但摧毁掉这份体面，只需要一次意外。2024年7月，一场不算严",
+   "date": "2026-11-18T06:00:53.000Z",
+   "firstSeen": "2026-11-18T07:15:16.210Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
   },
   {
    "id": "1xbegdv",
@@ -1157,6 +1246,30 @@ window.NEWS_DATA = {
    "site": "https://www.thenewslens.com"
   },
   {
+   "id": "15ptyyh",
+   "title": "从王妈到太奶，短剧观众开始吃回头草了",
+   "url": "https://www.huxiu.com/article/4906527.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202611/18/43705-prod-nb2qnf-general-1-1794981140662.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>真人短剧在红果的处境，已经到了相当严峻的地步。据公开统计，10月24日，红果综合热播榜TOP100中，真人短剧仅占14席，其余8",
+   "date": "2026-11-18T05:53:44.000Z",
+   "firstSeen": "2026-11-18T07:15:16.210Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "13rxjrq",
+   "title": "太原致命火灾：隐患、累债与富豪",
+   "url": "https://www.huxiu.com/article/4906524.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202611/18/43703-prod-gptep-general-1-1794980724132.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>2026年11月8日，太原市迎泽区豪生国际公寓发生的火灾已致14人遇难，25人伤。这座主楼高41层、裙楼9层的连体公寓，曾是太原市",
+   "date": "2026-11-18T05:47:05.000Z",
+   "firstSeen": "2026-11-18T07:15:16.210Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
    "id": "1rr91nz",
    "title": "Philips Sonicare Polishes Its Streaming TV Strategy Using Amazon Ads Agent",
    "url": "https://www.adexchanger.com/ctv-roundup/philips-sonicare-polishes-its-streaming-tv-strategy-using-amazon-ads-agent",
@@ -1167,6 +1280,18 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://www.adexchanger.com"
+  },
+  {
+   "id": "116qbiq",
+   "title": "啤酒巨头卖不动了，千万年薪总裁提前退场",
+   "url": "https://www.huxiu.com/article/4906520.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202611/18/43701-prod-nb2qnf-general-1-1794980393407.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>今年以来，重庆啤酒全线失守，销量下降、吨价持平、高中低三档全线下滑。执掌重庆啤酒近六年的人辞职了。近日，重庆啤酒发布公告称，公司",
+   "date": "2026-11-18T05:41:59.000Z",
+   "firstSeen": "2026-11-18T07:15:16.210Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
   },
   {
    "id": "1op739r",
@@ -1181,6 +1306,30 @@ window.NEWS_DATA = {
    "site": "https://www.managertoday.com.tw"
   },
   {
+   "id": "1yofjvc",
+   "title": "晋江“鉴AI”比“用AI”还难搞？",
+   "url": "https://www.huxiu.com/article/4906508.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/article/content/2026/11/18/133528055354.jpg?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/jpg\" referrerpolicy=\"no-referrer\"></figure>最近，晋江文学城也陷入了AI创作的争议。本月伊始，陆续有读者在社交平台晒出晋江小说的AI检测结果。部分作品的多个章节被标出80%以上的AI可疑度，涉及作品从普通网文延伸到金榜作者，甚至包括部分",
+   "date": "2026-11-18T05:40:36.000Z",
+   "firstSeen": "2026-11-18T07:15:16.210Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
+   "id": "lniy0q",
+   "title": "大厂跑步入局AI互动影游会是下一个“AI短剧”吗？",
+   "url": "https://www.huxiu.com/article/4906519.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/ai/ai-general-cover/202611/18/43700-prod-nb2qnf-general-1-1794980265551.png?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/png\" referrerpolicy=\"no-referrer\"></figure>AI短剧的热潮尚未退去，AI互动影游又开始进入市场视野。这并非一次简单的概念升温。过去几年，从《黑镜：潘达斯奈基》到《隐形守护者",
+   "date": "2026-11-18T05:39:41.000Z",
+   "firstSeen": "2026-11-18T07:15:16.210Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
+  },
+  {
    "id": "nxsnn",
    "title": "Jimmy Kimmel Has to Clarify Morbid Emergency Alert Joke After Audience Goes Silent",
    "url": "https://www.thewrap.com/creative-content/tv-shows/jimmy-kimmel-audience-silence-after-death-joke",
@@ -1191,6 +1340,18 @@ window.NEWS_DATA = {
    "tier": "B",
    "lang": "en",
    "site": "https://www.thewrap.com"
+  },
+  {
+   "id": "jpmitz",
+   "title": "GPT-6.2“拉”了，一个神鬼二象性的模型",
+   "url": "https://www.huxiu.com/article/4906516.html",
+   "summary": "<figure><img src=\"https://img.huxiucdn.com/article/content/2026/11/18/131124020598.jpeg?imageView2/1/w/1440/h/810/|imageMogr2/strip/interlace/1/quality/85/format/jpeg\" referrerpolicy=\"no-referrer\"></figure>今日凌晨，灰测了半个月的GPT-6.2终于正式发布。这次OpenAI带来的是GPT-6.2 Astra和Sol，一个旗舰，一个日常主力。顶着Anthropic、Google压力端上桌的新模",
+   "date": "2026-11-18T05:19:52.000Z",
+   "firstSeen": "2026-11-18T07:15:16.210Z",
+   "source": "虎嗅网",
+   "tier": "B",
+   "lang": "zh-CN",
+   "site": "https://www.huxiu.com"
   },
   {
    "id": "h4fakz",
@@ -14345,6 +14506,18 @@ window.NEWS_DATA = {
    "site": "https://stratechery.com"
   },
   {
+   "id": "yt7dkg",
+   "title": "The End of Jensen",
+   "url": "https://stratechery.com/?access_token=eyJhbGciOiJFUzI1NiIsImtpZCI6IkxzanFRcEhoMUJUdmU0djJQUUVuejIiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8_cD0yMTE3NCJdfSwiZXhwIjoxNzk3NTc4MTExLCJpYXQiOjE3OTQ5ODYxMTEsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiOTQwODQwZTItNWVmOS00YmU1LTgyNTAtMzc4MWYyNmVlNzlhIiwidXNlIjoiYWNjZXNzIn0.Jx9II-fdxZ9hiucx4vUylL2qXfr1BBt4LccmGW-CBWAlchxwf7h6EQdrjYeg-NuPgGbs1gGoDpiphk7b4dnyCA&p=21174",
+   "summary": "The best Stratechery content from the week of November 9, 2026, including the shocking demise of Jensen Huang; enterprise, consumer and Intel; and professional basketbal.",
+   "date": "2026-11-13T18:00:00.000Z",
+   "firstSeen": "2026-11-18T07:15:16.210Z",
+   "source": "STRATECHERY",
+   "tier": "S",
+   "lang": "en",
+   "site": "https://stratechery.com"
+  },
+  {
    "id": "13rkcup",
    "title": "Simon Winchester obituary",
    "url": "https://www.theguardian.com/books/2026/nov/13/simon-winchester-obituary",
@@ -23751,30 +23924,6 @@ window.NEWS_DATA = {
    "tier": "C",
    "lang": "en",
    "site": "https://www.hollywoodreporter.com"
-  },
-  {
-   "id": "w7alj2",
-   "title": "歐盟 2035 年新車減排目標擬放寬，約三成新車可能續用內燃機",
-   "url": "https://www.inside.com.tw/article/42885-eu-backs-down-on-2035-combustion-ban",
-   "summary": "歐洲議會委員會提案，擬放寬 2035 年新車減排目標至 87.5%，為內燃機保留空間。此案尚待立法程序，最終規範未定，產業正密切關注政策走向與投資影響。",
-   "date": "2026-11-11T07:13:00.000Z",
-   "firstSeen": "2026-11-11T12:10:18.909Z",
-   "source": "INSIDE",
-   "tier": "A",
-   "lang": "zh-TW",
-   "site": "https://www.inside.com.tw"
-  },
-  {
-   "id": "5fqmt2",
-   "title": "美俄烏重啟三方和談：川普推「全歐安全架構」，烏克蘭電網被斷迎來最寒冷冬天",
-   "url": "https://www.thenewslens.com/article/271091",
-   "summary": "這一輪阿布達比和談，談的不只是烏克蘭停火。川普提出可能涉及全歐洲的協議之後，俄羅斯要求先談歐洲安全架構，歐洲堅持先停火，談判順序本身成了新的分歧，同時俄軍在會前加緊空襲電網，烏克蘭冬季缺電的風險正在升高。",
-   "date": "2026-11-11T07:10:00.000Z",
-   "firstSeen": "2026-11-11T12:10:18.909Z",
-   "source": "關鍵評論網",
-   "tier": "C",
-   "lang": "zh-TW",
-   "site": "https://www.thenewslens.com"
   }
  ]
 };
